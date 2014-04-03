@@ -62,9 +62,13 @@ sub _build_align_records {
 sub process_document {
     my ($self, $doc) = @_;
 
+    print "UNDF DOC\n" if (!defined $doc);
+
     foreach my $id (keys %{$self->_align_records}) {
-        my $rec = $self->_align_records->{$id};
+        next if (!$doc->id_is_indexed($id));
+        
         my $node = $doc->get_node_by_id($id);
+        my $rec = $self->_align_records->{$id};
         
         my $trg_ttree = $node->get_bundle->get_zone($self->align_language, $self->selector)->get_ttree();
         my @all_trg_nodes = $trg_ttree->get_descendants({ordered => 1});
@@ -90,6 +94,13 @@ sub process_document {
             }
         }
         $node->wild->{align_info} = $rec->{info} if (defined $rec->{info});
+        
+        #if (@ali_tnodes) {
+        #    print "ADDRESS: " . $ali_tnodes[0]->get_address . "\n";
+        #}
+        #else {
+        #    print "ADDRESS: " . $trg_ttree->get_address . "\n";
+        #}
     }
 }
 

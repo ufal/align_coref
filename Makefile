@@ -10,10 +10,10 @@ ORIG_LIST = $(DATA_DIR)/train_19.orig.list
 #-------------------------------------------- LRC -----------------------------------------
 
 
-JOBS_NUM = 100
+JOBS = 100
 LRC=1
 ifeq (${LRC}, 1)
-LRC_FLAGS = -p --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs ${JOBS_NUM}
+LRC_FLAGS = -p --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs ${JOBS}
 endif
 
 #-------------------------------------------- LANG -----------------------------------------
@@ -57,6 +57,16 @@ prepare_align_annot :
 		My::AnnotAlignWrite align_lang=$(ALIGN_ANNOT_LANG2) to='.' substitute='{^.*/([^\/]*)}{tmp/annot/$(ALIGN_ANNOT_TYPE)/$$1}' extension='.txt'
 	find tmp/annot/$(ALIGN_ANNOT_TYPE) -path "*.txt" -exec cat {} \; > tmp/annot/$(ALIGN_ANNOT_TYPE).all
 
+
+# unrevised annotation are labelled with a '+' symbol prepended to an address
+# prints out addresses in ALIGN_ANNOT_LANG2 language
+# to make this work at first lines 98-103 in My::AlignmentLoader must be commented out
+revise_annot :
+	cat $(GOLD_ANNOT_FILE) | grep -A6 "^+" | grep -v "^--" | sed 's/^+//' > plus.instances
+	treex -p --jobs 20 -L$(ALIGN_ANNOT_LANG) -Sref \
+		Read::Treex from=@$(ORIG_LIST) \
+		My::AlignmentLoader from=plus.instances align_language=$(ALIGN_ANNOT_LANG2) > out
+	cat out | cut -d' ' -f2 > addr
 
 #================================ IMPORTING THE MANUAL ANNOTATION BACK TO THE TREEBANK =======================
 
