@@ -75,6 +75,9 @@ GOLD_ANNOT_FILE=annot/$(ALIGN_ANNOT_TYPE)/subset_to_remove
 
 GOLD_ANNOT_TREES_DIR = $(DATA_DIR)/gold_aligned
 
+GOLD_ANNOT_LIST = $(DATA_DIR)/gold_aligned.so_far_annot.list
+#GOLD_ANNOT_LIST = $(DATA_DIR)/gold_aligned.list
+
 
 import_align : $(ORIG_LIST)
 	mkdir -p $(GOLD_ANNOT_TREES_DIR)
@@ -90,7 +93,28 @@ $(DATA_DIR)/gold_aligned.list : annot/$(ALIGN_ANNOT_TYPE)/is_relat.src.sec19.lis
 
 skuska : $(DATA_DIR)/gold_aligned.list
 
-extract_data_table : $(DATA_DIR)/gold_aligned.list
+extract_data_table : $(DATA_DIR)/train.pcedt_19.data 
+$(DATA_DIR)/train.pcedt_19.data : $(GOLD_ANNOT_LIST)
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Ssrc \
 		Read::Treex from=@$< \
 		My::PrintAlignData align_language=$(ALIGN_ANNOT_LANG2) to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/$$1}'
+	find tmp/data_table -name "wsj_19*" -exec cat {} \; > $@
+
+
+############################## USING ML FRAMEWORK ###########################
+
+ML_FRAMEWORK=/home/mnovak/projects/ml_framework
+RUNS_DIR=tmp/ml/$(ALIGN_ANNOT_TYPE)
+FEATSET_LIST=conf/$(ALIGN_ANNOT_TYPE).feat.list
+STATS_FILE=$(ALIGN_ANNOT_TYPE).ml.results
+
+tte_feats :
+	$(MAKE) -C $(ML_FRAMEWORK) tte_feats \
+        RANKING=1 \
+		CROSS_VALID_N=10 \
+        DATA_SOURCE=pcedt_19 \
+        DATA_DIR=$(PWD)/$(DATA_DIR) \
+        RUNS_DIR=$(PWD)/$(RUNS_DIR) \
+        FEATSET_LIST=$(PWD)/$(FEATSET_LIST) \
+        STATS_FILE=$(PWD)/$(STATS_FILE)
+

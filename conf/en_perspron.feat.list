@@ -1,0 +1,7 @@
+# giza : using only GIZA++ alignment
+__SELF__
+    giza_aligned
+
+<<<EXPERIMENTS>>>
+
+giza
