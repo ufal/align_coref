@@ -11,15 +11,19 @@ has 'rel_type' => (is => 'ro', isa => 'Str', default => 'gold');
 
 sub _get_projected_nodes {
     my ($self, $z1_src_node) = @_;
-    my ($z1_trg_nodes, $z1_trg_types) = Treex::Tool::Align::Utils::get_aligned_nodes_by_filter($z1_src_node, {rel_types => [$self->rel_type]});
-    #print STDERR Dumper(\@z1_trg_nodes);
-    #print STDERR join " ", (map {$_->id} @z1_trg_nodes);
-    return if (!@$z1_trg_nodes);
 
     my ($z2_src_nodes, $z2_src_types) = Treex::Tool::Align::Utils::get_aligned_nodes_by_filter(
         $z1_src_node, 
         {selector => $self->trg_selector, language => $z1_src_node->language}
     );
+    if (!@$z2_src_nodes) {
+        log_info "No z2 counterpart: ".$z1_src_node->id;
+        return;
+    }
+    
+    my ($z1_trg_nodes, $z1_trg_types) = Treex::Tool::Align::Utils::get_aligned_nodes_by_filter($z1_src_node, {rel_types => [$self->rel_type]});
+    #print STDERR Dumper(\@z1_trg_nodes);
+    #print STDERR join " ", (map {$_->id} @z1_trg_nodes);
     my @z2_trg_nodes = map {
         my ($nodes, $types) = Treex::Tool::Align::Utils::get_aligned_nodes_by_filter(
             $_,
@@ -29,7 +33,6 @@ sub _get_projected_nodes {
         @$nodes
     } @$z1_trg_nodes;
     
-    log_info "No z2 counterpart: ".$z1_src_node->id  if (!@$z2_src_nodes);
 
     return ($z2_src_nodes->[0], \@z2_trg_nodes);
 }
@@ -39,7 +42,6 @@ sub process_tnode {
 
     my ($z2_src_tnode, $z2_trg_tnodes) = $self->_get_projected_nodes($z1_src_tnode);
     return if (!defined $z2_src_tnode);
-
 
     for my $z2_trg_tnode (@$z2_trg_tnodes) {
         log_info sprintf("Adding alignment between nodes: %s and %s", $z2_src_tnode->id, $z2_trg_tnode->id);
@@ -67,7 +69,12 @@ sub process_anode {
             Treex::Tool::Align::Utils::add_aligned_node($z2_src_anode, $z2_trg_anode, $self->rel_type);
         }
     }
-    $z2_src_anode->wild->{align_info} //= $z1_src_anode->wild->{align_info};
+    if (defined $z2_src_tnode) {
+        $z2_src_tnode->wild->{align_info} //= $z1_src_anode->wild->{align_info};
+    }
+    else {
+        $z2_src_anode->wild->{align_info} //= $z1_src_anode->wild->{align_info};
+    }
 }
 
 1;
