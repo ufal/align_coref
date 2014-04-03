@@ -10,7 +10,7 @@ ORIG_LIST = $(DATA_DIR)/train_19.orig.list
 #-------------------------------------------- LRC -----------------------------------------
 
 
-JOBS_NUM = 10
+JOBS_NUM = 100
 LRC=1
 ifeq (${LRC}, 1)
 LRC_FLAGS = -p --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs ${JOBS_NUM}
