@@ -70,19 +70,19 @@ revise_annot :
 
 #================================ IMPORTING THE MANUAL ANNOTATION BACK TO THE TREEBANK =======================
 
+# check ORIG_LIST for a version of the data
+# v0001
+#ALIGN_TYPE=giza_on_train-pcedt
+# v0002
+#ALIGN_TYPE=giza_on_train-pcedt.no_left_right_revgdfa
+# v0003
+ALIGN_TYPE=mgiza_on_czeng
+
 GOLD_ANNOT_FILE=annot/$(ALIGN_ANNOT_TYPE)/subset_to_remove
 #GOLD_ANNOT_FILE=annot/$(ALIGN_ANNOT_TYPE)/align.ref.sec19.misko.annot
 
-# check ORIG_LIST for a version of the data
-# v0001
-#GOLD_ANNOT_TREES_DIR = $(DATA_DIR)/gold_aligned.giza_on_train-pcedt
-#GOLD_ANNOT_LIST = $(DATA_DIR)/gold_aligned.giza_on_train-pcedt.so_far_annot.list
-# v0002
-GOLD_ANNOT_TREES_DIR = $(DATA_DIR)/gold_aligned.giza_on_train-pcedt.no_left_right_revgdfa
-GOLD_ANNOT_LIST = $(DATA_DIR)/gold_aligned.giza_on_train-pcedt.no_left_right_revgdfa.so_far_annot.list
-# v0003
-#GOLD_ANNOT_TREES_DIR = $(DATA_DIR)/gold_aligned.mgiza_on_czeng
-#GOLD_ANNOT_LIST = $(DATA_DIR)/gold_aligned.mgiza_on_czeng.so_far_annot.list
+GOLD_ANNOT_TREES_DIR = $(DATA_DIR)/gold_aligned.$(ALIGN_TYPE)
+GOLD_ANNOT_LIST = $(DATA_DIR)/gold_aligned.$(ALIGN_TYPE).so_far_annot.list
 
 #GOLD_ANNOT_LIST = $(DATA_DIR)/gold_aligned.list
 
@@ -106,7 +106,8 @@ $(DATA_DIR)/train.pcedt_19.table : $(GOLD_ANNOT_LIST)
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Ssrc \
 		Read::Treex from=@$< \
 		My::PrintAlignData align_language=$(ALIGN_ANNOT_LANG2) to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/$$1}'
-	find tmp/data_table -name "wsj_19*" | sort | xargs cat | gzip -c > $@
+	find tmp/data_table -name "wsj_19*" | sort | xargs cat | gzip -c > $(DATA_DIR)/train.pcedt_19.$(ALIGN_TYPE).table
+	ln -s train.pcedt_19.$(ALIGN_TYPE).table $(DATA_DIR)/train.pcedt_19.table
 
 
 ############################## USING ML FRAMEWORK ###########################
