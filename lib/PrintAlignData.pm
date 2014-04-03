@@ -29,7 +29,7 @@ sub BUILD {
 
 sub _build_gaf {
     my ($self) = @_;
-    return { language => $self->align_language, rel_types => ['gold', '.*'] };
+    return { language => $self->align_language, rel_types => ['gold'] };
 }
 
 sub _get_candidates {
