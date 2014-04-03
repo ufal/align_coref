@@ -67,7 +67,7 @@ sub process_tnode {
     my $feats = $self->_feat_extractor->create_instances($tnode, \@cands);
     
     my ($gold_aligned_node) = $self->_get_positive_candidate($tnode);
-    #log_info "GOLD_ALIGNED_NODE: ". $gold_aligned_node->id;
+    #log_info "GOLD_ALIGNED_LEMMA: ". ($gold_aligned_node != $tnode ? $gold_aligned_node->t_lemma : "undef");
     my $pos_cand_idx = _get_positive_cand_idx(\@cands, $gold_aligned_node);
     #log_info "CAND_IDX: $pos_cand_idx";
 
