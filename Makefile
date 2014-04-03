@@ -1,23 +1,22 @@
 SHELL=/bin/bash
 
-DATA_SET = train
-DATA_ID = pcedt
+#=========================================== VARIABLES =====================================================
 
-DATA_VERSION := $(shell cat data/analysed/$(DATA_ID)/$(DATA_SET)/last_id 2> /dev/null || echo 0000)
-DATA_DIR=data/analysed/$(DATA_ID)/$(DATA_SET)/$(DATA_VERSION)
+#-------------------------------------------- DIRS AND PATHS -----------------------------------------
 
-JOBS_NUM = 50
+DATA_DIR = data
+ORIG_LIST = $(DATA_DIR)/train_19.orig.list
 
-ifeq (${DATA_SET}, train)
-JOBS_NUM = 100
-endif
+#-------------------------------------------- LRC -----------------------------------------
 
+
+JOBS_NUM = 10
 LRC=1
 ifeq (${LRC}, 1)
-LRC_FLAGS = -p --qsub '-hard -l mem_free=8G -l act_mem_free=8G -l h_vmem=8G' --jobs ${JOBS_NUM}
+LRC_FLAGS = -p --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs ${JOBS_NUM}
 endif
 
-#=========================================== VARIABLES =====================================================
+#-------------------------------------------- LANG -----------------------------------------
 
 ALIGN_ANNOT_LANG=en
 ALIGN_ANNOT_TYPE=$(ALIGN_ANNOT_LANG)_perspron
@@ -28,11 +27,19 @@ else
 ALIGN_ANNOT_LANG2=en
 endif
 
+#======================================================================================================
+
+annot/$(ALIGN_ANNOT_TYPE)/is_relat.%.sec19.list : $(ORIG_LIST)
+	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$* \
+		Read::Treex from=@$< \
+		Util::Find tnode='use Treex::Tool::Coreference::NodeFilter::PersPron; Treex::Tool::Coreference::NodeFilter::PersPron::is_3rd_pers($$tnode)' \
+			| sort > $@
+
 #=================================== PREPARE DATA FOR MANUAL ANNOTATION ==================================
 
-add_robust_ali :
+add_robust_ali : $(ORIG_LIST)
 	-treex $(LRC_FLAGS) -Sref \
-		Read::Treex from=@$(DATA_DIR)/list \
+		Read::Treex from=@$< \
 		Util::SetGlobal language=cs \
 		Project::Attributes layer=t alignment_type=monolingual alignment_direction=trg2src attributes=gram/indeftype \
 		My::AddRobustAlignment::CsRelpron \
@@ -55,11 +62,25 @@ prepare_align_annot :
 
 GOLD_ANNOT_FILE=annot/$(ALIGN_ANNOT_TYPE)/subset_to_remove
 #GOLD_ANNOT_FILE=annot/$(ALIGN_ANNOT_TYPE)/align.ref.sec19.misko.annot
-GOLD_ANNOT_TREES_DIR=tmp/annot/$(ALIGN_ANNOT_TYPE)/trees_manual_annot
 
-import_align :
+GOLD_ANNOT_TREES_DIR = $(DATA_DIR)/gold_aligned
+
+
+import_align : $(ORIG_LIST)
+	mkdir -p $(GOLD_ANNOT_TREES_DIR)
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Sref \
-		Read::Treex from=@$(DATA_DIR)/list \
+		Read::Treex from=@$< \
 		My::AlignmentLoader from=$(GOLD_ANNOT_FILE) align_language=$(ALIGN_ANNOT_LANG2) \
 		My::ProjectAlignment trg_selector=src \
-		Write::Treex path=$(GOLD_ANNOT_TREES_DIR)
+		Write::Treex path=$(GOLD_ANNOT_TREES_DIR) storable=1
+
+$(DATA_DIR)/gold_aligned.list : annot/$(ALIGN_ANNOT_TYPE)/is_relat.src.sec19.list
+	replace=`echo $(GOLD_ANNOT_TREES_DIR) | sed 's/\//\\\\\//g'`; \
+	cat $< | sed "s/^.*\//$$replace\//" | sed 's/treex\.gz/streex/g' > $@
+
+skuska : $(DATA_DIR)/gold_aligned.list
+
+extract_data_table : $(DATA_DIR)/gold_aligned.list
+	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Ssrc \
+		Read::Treex from=$< \
+		My::PrintAlignData align_language=$(ALIGN_ANNOT_LANG2) to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/$$1}'
