@@ -7,6 +7,11 @@ __SELF__
     path_len path_types
 
 # gram : (tecto)grammatical features
+node1_t_lemma node2_t_lemma
+node1_tag node2_tag
+node1_utag node2_utag
+node1_par_utag node2_par_utag
+node1_reflex node2_reflex
 node1_functor node2_functor functor_cat functor_eq
 
 # comb : combined features
