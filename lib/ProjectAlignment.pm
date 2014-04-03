@@ -45,6 +45,7 @@ sub process_tnode {
         log_info sprintf("Adding alignment between nodes: %s and %s", $z2_src_tnode->id, $z2_trg_tnode->id);
         Treex::Tool::Align::Utils::add_aligned_node($z2_src_tnode, $z2_trg_tnode, $self->rel_type);
     }
+    $z2_src_tnode->wild->{align_info} //= $z1_src_tnode->wild->{align_info};
 }
 
 sub process_anode {
@@ -66,6 +67,7 @@ sub process_anode {
             Treex::Tool::Align::Utils::add_aligned_node($z2_src_anode, $z2_trg_anode, $self->rel_type);
         }
     }
+    $z2_src_anode->wild->{align_info} //= $z1_src_anode->wild->{align_info};
 }
 
 1;

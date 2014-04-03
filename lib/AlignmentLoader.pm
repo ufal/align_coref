@@ -59,30 +59,54 @@ sub _build_align_records {
     return $align_rec;
 }
 
-sub process_tnode {
-    my ($self, $tnode) = @_;
+sub process_document {
+    my ($self, $doc) = @_;
 
-    my $rec = $self->_align_records->{$tnode->id};
-    return if (!defined $rec);
-    
-    my $trg_zone = $tnode->get_bundle->get_zone($self->align_language, $self->selector);
-    my $trg_ttree = $trg_zone->get_ttree();
+    foreach my $id (keys %{$self->_align_records}) {
+        my $rec = $self->_align_records->{$id};
+        my $node = $doc->get_node_by_id($id);
+        
+        my $trg_ttree = $node->get_bundle->get_zone($self->align_language, $self->selector)->get_ttree();
+        my @all_trg_nodes = $trg_ttree->get_descendants({ordered => 1});
+        my @ali_tnodes = @all_trg_nodes[@{$rec->{trg_idx}}];
 
-    # TODO get ordered descendatsn and store a hash of ids
-    my @all_trg_nodes = $trg_ttree->get_descendants({ordered => 1});
-    my @ali_trg_nodes = @all_trg_nodes[@{$rec->{trg_idx}}];
+        my @ali_anodes = map {$doc->get_node_by_id($_)} @{$rec->{anodes_ids}};
 
-    for my $trg_node (@ali_trg_nodes) {
-        log_info sprintf("Adding alignment between nodes: %s and %s (tlemma = %s)", $tnode->id, $trg_node->id, $trg_node->t_lemma);
-        Treex::Tool::Align::Utils::add_aligned_node($tnode, $trg_node, "gold");
-    }
-    for my $a_id (@{$rec->{anodes_ids}}) {
-        my $anode = $tnode->get_lex_anode();
-        if (defined $anode) {
-            Treex::Tool::Align::Utils::add_aligned_node($anode, $tnode->get_document->get_node_by_id($a_id), "gold");
+        if ($node->get_layer eq "a") {
+            if (@ali_tnodes) {
+                push @ali_anodes, map {$_->get_lex_anode()} @ali_tnodes;
+            }
+            
+            _add_a_align($node, @ali_anodes);
         }
+        elsif ($node->get_layer eq "t") {
+            if (@ali_tnodes) {
+                _add_t_align($node, @ali_tnodes);
+            }
+            if (@ali_anodes) {
+                my $anode = $node->get_lex_anode();
+                _add_a_align($anode, @ali_anodes);
+                $anode->wild->{align_info} = $rec->{info} if (defined $rec->{info});
+            }
+        }
+        $node->wild->{align_info} = $rec->{info} if (defined $rec->{info});
     }
-    $tnode->wild->{align_info} = $rec->{info} if (defined $rec->{info});
+}
+
+sub _add_a_align {
+    my ($anode, @ali_anodes) = @_;
+    for my $ali_anode (@ali_anodes) {
+        log_info sprintf("Adding alignment between a-nodes: %s and %s (tlemma = %s)", $anode->id, $ali_anode->id, $ali_anode->form);
+        Treex::Tool::Align::Utils::add_aligned_node($anode, $ali_anode, "gold");
+    }
+}
+
+sub _add_t_align {
+    my ($tnode, @ali_tnodes) = @_;
+    for my $ali_tnode (@ali_tnodes) {
+        log_info sprintf("Adding alignment between t-nodes: %s and %s (tlemma = %s)", $tnode->id, $ali_tnode->id, $ali_tnode->t_lemma);
+        Treex::Tool::Align::Utils::add_aligned_node($tnode, $ali_tnode, "gold");
+    }
 }
 
 1;
