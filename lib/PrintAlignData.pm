@@ -36,6 +36,10 @@ sub _get_candidates {
     my ($self, $tnode) = @_;
     my $aligned_ttree = $tnode->get_bundle->get_zone($self->align_language, $self->selector)->get_ttree();
     my @candidates = $aligned_ttree->get_descendants({ordered => 1});
+    
+    # add the src node itself as a candidate -> it means no alignment
+    unshift @candidates, $tnode;
+    
     return @candidates;
 }
 
@@ -45,7 +49,8 @@ sub _get_positive_candidate {
     # TODO: My::ProjectAlignment has to be called upfront
     # better to put it here
 
-    return Treex::Tool::Align::Utils::aligned_transitively([$tnode], [$self->gold_align_filter]);
+    my ($gold_ali_node) = Treex::Tool::Align::Utils::aligned_transitively([$tnode], [$self->gold_align_filter]);
+    return $gold_ali_node // $tnode;
 }
 
 sub _get_positive_cand_idx {
