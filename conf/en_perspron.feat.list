@@ -1,15 +1,26 @@
-# giza : using only GIZA++ alignment
+# giza : using only GIZA++ alignment and parent alignemnt
 __SELF__
-    giza_aligned
+    giza_aligned par_aligned
 
 # graph : using graph-based features
 @giza
     path_len path_types
 
+# gram : (tecto)grammatical features
+node1_functor node2_functor functor_cat functor_eq
+
+# comb : combined features
+alipar_functor_cat alipar_functor_eq
+
 # giza_id : GIZA + id -> should overfit on the training set
 @giza
-    id
+    node1_id node2_id
+
+# all : using all features so far
+@graph @gram @comb
 
 <<<EXPERIMENTS>>>
 
-graph
+#giza
+#graph
+all
