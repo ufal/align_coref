@@ -73,10 +73,17 @@ revise_annot :
 GOLD_ANNOT_FILE=annot/$(ALIGN_ANNOT_TYPE)/subset_to_remove
 #GOLD_ANNOT_FILE=annot/$(ALIGN_ANNOT_TYPE)/align.ref.sec19.misko.annot
 
+# check ORIG_LIST for a version of the data
+# v0001
 #GOLD_ANNOT_TREES_DIR = $(DATA_DIR)/gold_aligned.giza_on_train-pcedt
-GOLD_ANNOT_TREES_DIR = $(DATA_DIR)/gold_aligned.mgiza_on_czeng
+#GOLD_ANNOT_LIST = $(DATA_DIR)/gold_aligned.giza_on_train-pcedt.so_far_annot.list
+# v0002
+GOLD_ANNOT_TREES_DIR = $(DATA_DIR)/gold_aligned.giza_on_train-pcedt.no_left_right_revgdfa
+GOLD_ANNOT_LIST = $(DATA_DIR)/gold_aligned.giza_on_train-pcedt.no_left_right_revgdfa.so_far_annot.list
+# v0003
+#GOLD_ANNOT_TREES_DIR = $(DATA_DIR)/gold_aligned.mgiza_on_czeng
+#GOLD_ANNOT_LIST = $(DATA_DIR)/gold_aligned.mgiza_on_czeng.so_far_annot.list
 
-GOLD_ANNOT_LIST = $(DATA_DIR)/gold_aligned.so_far_annot.list
 #GOLD_ANNOT_LIST = $(DATA_DIR)/gold_aligned.list
 
 
