@@ -29,7 +29,7 @@ sub BUILD {
 
 sub _build_gaf {
     my ($self) = @_;
-    return { language => $self->align_language, rel_types => ['gold','.*'] };
+    return { language => $self->align_language, rel_types => ['gold', '.*'] };
 }
 
 sub _get_candidates {
@@ -51,7 +51,7 @@ sub _get_positive_candidate {
 sub _get_positive_cand_idx {
     my ($cands, $pos_cand) = @_;
 
-    my ($pos_idx) = grep {$_ == $pos_cand} 0 .. $#$cands;
+    my ($pos_idx) = grep {$cands->[$_] == $pos_cand} 0 .. $#$cands;
     return $pos_idx;
 }
 
@@ -62,7 +62,9 @@ sub process_tnode {
     my $feats = $self->_feat_extractor->create_instances($tnode, \@cands);
     
     my ($gold_aligned_node) = $self->_get_positive_candidate($tnode);
+    #log_info "GOLD_ALIGNED_NODE: ". $gold_aligned_node->id;
     my $pos_cand_idx = _get_positive_cand_idx(\@cands, $gold_aligned_node);
+    #log_info "CAND_IDX: $pos_cand_idx";
 
     my $instance_str = Treex::Tool::ML::TabSpace::Util::format_multiline($feats, [$pos_cand_idx]);
     print {$self->_file_handle} $instance_str;

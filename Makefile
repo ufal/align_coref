@@ -85,12 +85,12 @@ import_align : $(ORIG_LIST)
 		Write::Treex path=$(GOLD_ANNOT_TREES_DIR) storable=1
 
 $(DATA_DIR)/gold_aligned.list : annot/$(ALIGN_ANNOT_TYPE)/is_relat.src.sec19.list
-	replace=`echo $(GOLD_ANNOT_TREES_DIR) | sed 's/\//\\\\\//g'`; \
+	replace=`echo $(GOLD_ANNOT_TREES_DIR) | sed 's/^$(DATA_DIR)\///' | sed 's/\//\\\\\//g'`; \
 	cat $< | sed "s/^.*\//$$replace\//" | sed 's/treex\.gz/streex/g' > $@
 
 skuska : $(DATA_DIR)/gold_aligned.list
 
 extract_data_table : $(DATA_DIR)/gold_aligned.list
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Ssrc \
-		Read::Treex from=$< \
+		Read::Treex from=@$< \
 		My::PrintAlignData align_language=$(ALIGN_ANNOT_LANG2) to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/$$1}'
