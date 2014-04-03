@@ -12,39 +12,49 @@ node1_t_lemma node2_t_lemma
     node1_reflex node2_reflex
     node1_functor node2_functor functor_cat functor_eq
 
+# new_gram : new grammatical features
+t_lemma_cat tag_cat utag_cat
+
 # comb : combined features
 alipar_functor_cat alipar_functor_eq
+alidir_t_lemma alipar_t_lemma
 
 # giza_id : GIZA + id -> should overfit on the training set
 #__SELF__
 #    @align
 #    node1_id node2_id
 
-# all : using all features so far, including the t_lemma, tag and utag features filtered out by accident previously
-__SELF__
-    @align @graph @gram @comb
-
 # all+subtree_ali : including sutree alignmnent
-__SELF__
-    @align @graph @gram @comb
-    subtree_aligned
+#__SELF__
+#    @align @graph @gram @comb
+#    subtree_aligned
 
-# all+t_lemma_combined : including the ali combined with the target t_lemma
-__SELF__
-    @align @graph @gram @comb
-    alidir_t_lemma alipar_t_lemma alisubtree_t_lemma
 
-# all+subtree_ali+t_lemma_combined : including sutree alignmnent + the ali combined with the target t_lemma
+# all : using the best feature set so far
 __SELF__
     @align @graph @gram @comb
-    subtree_aligned
-    alidir_t_lemma alipar_t_lemma alisubtree_t_lemma
+
+# all+alisubtree_t_lemma : best including the ali-subtree combined with the target t_lemma
+__SELF__
+    @all
+    alisubtree_t_lemma
+
+# all+new_gram : best including the concats of t_lemmas, tags and utags
+__SELF__
+    @all
+    @new_gram
+
+# all+alisubtree_t_lemma+new_gram : best including both
+__SELF__
+    @all
+    @new_gram
+    alisubtree_t_lemma
 
 <<<EXPERIMENTS>>>
 
 #giza
 #graph
 all
-all+subtree_ali
-all+t_lemma_combined
-all+subtree_ali+t_lemma_combined
+all+alisubtree_t_lemma
+all+new_gram
+all+alisubtree_t_lemma+new_gram
