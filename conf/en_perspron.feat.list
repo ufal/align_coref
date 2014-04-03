@@ -1,31 +1,50 @@
-# giza : using only GIZA++ alignment and parent alignemnt
-__SELF__
-    giza_aligned par_aligned subtree_aligned
+# align : using only GIZA++ alignment and parent alignemnt
+giza_aligned par_aligned
 
 # graph : using graph-based features
-@giza
-    path_len path_types
+path_len path_types
 
 # gram : (tecto)grammatical features
 node1_t_lemma node2_t_lemma
-node1_tag node2_tag
-node1_utag node2_utag
-node1_par_utag node2_par_utag
-node1_reflex node2_reflex
-node1_functor node2_functor functor_cat functor_eq
+    node1_tag node2_tag
+    node1_utag node2_utag
+    node1_par_utag node2_par_utag
+    node1_reflex node2_reflex
+    node1_functor node2_functor functor_cat functor_eq
 
 # comb : combined features
 alipar_functor_cat alipar_functor_eq
 
 # giza_id : GIZA + id -> should overfit on the training set
-@giza
-    node1_id node2_id
+#__SELF__
+#    @align
+#    node1_id node2_id
 
-# all : using all features so far
-@graph @gram @comb
+# all : using all features so far, including the t_lemma, tag and utag features filtered out by accident previously
+__SELF__
+    @align @graph @gram @comb
+
+# all+subtree_ali : including sutree alignmnent
+__SELF__
+    @align @graph @gram @comb
+    subtree_aligned
+
+# all+t_lemma_combined : including the ali combined with the target t_lemma
+__SELF__
+    @align @graph @gram @comb
+    alidir_t_lemma alipar_t_lemma alisubtree_t_lemma
+
+# all+subtree_ali+t_lemma_combined : including sutree alignmnent + the ali combined with the target t_lemma
+__SELF__
+    @align @graph @gram @comb
+    subtree_aligned
+    alidir_t_lemma alipar_t_lemma alisubtree_t_lemma
 
 <<<EXPERIMENTS>>>
 
 #giza
 #graph
 all
+all+subtree_ali
+all+t_lemma_combined
+all+subtree_ali+t_lemma_combined
