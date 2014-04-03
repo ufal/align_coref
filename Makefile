@@ -98,7 +98,7 @@ $(DATA_DIR)/train.pcedt_19.table : $(GOLD_ANNOT_LIST)
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Ssrc \
 		Read::Treex from=@$< \
 		My::PrintAlignData align_language=$(ALIGN_ANNOT_LANG2) to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/$$1}'
-	find tmp/data_table -name "wsj_19*" -exec cat {} \; > $@
+	find tmp/data_table -name "wsj_19*" -exec cat {} \; | gzip -c > $@
 
 
 ############################## USING ML FRAMEWORK ###########################
