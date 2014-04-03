@@ -93,7 +93,7 @@ $(DATA_DIR)/gold_aligned.list : annot/$(ALIGN_ANNOT_TYPE)/is_relat.src.sec19.lis
 
 skuska : $(DATA_DIR)/gold_aligned.list
 
-extract_data_table : $(DATA_DIR)/train.pcedt_19.data 
+extract_data_table : $(DATA_DIR)/train.pcedt_19.table
 $(DATA_DIR)/train.pcedt_19.data : $(GOLD_ANNOT_LIST)
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Ssrc \
 		Read::Treex from=@$< \
