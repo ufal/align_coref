@@ -1,6 +1,6 @@
 # giza : using only GIZA++ alignment and parent alignemnt
 __SELF__
-    giza_aligned par_aligned
+    giza_aligned par_aligned subtree_aligned
 
 # graph : using graph-based features
 @giza
