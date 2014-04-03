@@ -32,7 +32,7 @@ endif
 annot/$(ALIGN_ANNOT_TYPE)/is_relat.%.sec19.list : $(ORIG_LIST)
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$* \
 		Read::Treex from=@$< \
-		Util::Find tnode='use Treex::Tool::Coreference::NodeFilter::PersPron; Treex::Tool::Coreference::NodeFilter::PersPron::is_3rd_pers($$tnode)' \
+		My::PersPronAddresses \
 			| sort > $@
 
 #=================================== PREPARE DATA FOR MANUAL ANNOTATION ==================================
