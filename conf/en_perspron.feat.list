@@ -2,10 +2,14 @@
 __SELF__
     giza_aligned
 
+# graph : using graph-based features
+@giza
+    path_len path_types
+
 # giza_id : GIZA + id -> should overfit on the training set
 @giza
     id
 
 <<<EXPERIMENTS>>>
 
-giza
+graph
