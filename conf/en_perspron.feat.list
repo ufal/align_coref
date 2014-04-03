@@ -2,6 +2,10 @@
 __SELF__
     giza_aligned
 
+# giza_id : GIZA + id -> should overfit on the training set
+@giza
+    id
+
 <<<EXPERIMENTS>>>
 
 giza
