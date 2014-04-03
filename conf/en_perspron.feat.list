@@ -47,6 +47,7 @@ __SELF__
 # all+alisubtree_t_lemma+new_gram : best including both
 __SELF__
     @align @graph @gram @comb
+    @new_gram
     alisubtree_t_lemma
 
 <<<EXPERIMENTS>>>
