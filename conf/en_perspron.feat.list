@@ -17,7 +17,7 @@ t_lemma_cat tag_cat utag_cat
 
 # comb : combined features
 alipar_functor_cat alipar_functor_eq
-alidir_t_lemma alipar_t_lemma
+    alidir_t_lemma alipar_t_lemma
 
 # giza_id : GIZA + id -> should overfit on the training set
 #__SELF__
@@ -36,18 +36,17 @@ __SELF__
 
 # all+alisubtree_t_lemma : best including the ali-subtree combined with the target t_lemma
 __SELF__
-    @all
+    @align @graph @gram @comb
     alisubtree_t_lemma
 
 # all+new_gram : best including the concats of t_lemmas, tags and utags
 __SELF__
-    @all
+    @align @graph @gram @comb
     @new_gram
 
 # all+alisubtree_t_lemma+new_gram : best including both
 __SELF__
-    @all
-    @new_gram
+    @align @graph @gram @comb
     alisubtree_t_lemma
 
 <<<EXPERIMENTS>>>
