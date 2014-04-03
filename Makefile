@@ -13,7 +13,7 @@ ORIG_LIST = $(DATA_DIR)/train_19.orig.list
 JOBS = 100
 LRC=1
 ifeq (${LRC}, 1)
-LRC_FLAGS = -p --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs ${JOBS}
+LRC_FLAGS = -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs ${JOBS}
 endif
 
 #-------------------------------------------- LANG -----------------------------------------
@@ -107,6 +107,12 @@ ML_FRAMEWORK=/home/mnovak/projects/ml_framework
 RUNS_DIR=tmp/ml/$(ALIGN_ANNOT_TYPE)
 FEATSET_LIST=conf/$(ALIGN_ANNOT_TYPE).feat.list
 STATS_FILE=$(ALIGN_ANNOT_TYPE).ml.results
+
+baseline_eval : $(GOLD_ANNOT_LIST)
+	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Ssrc \
+		Read::Treex from=@$< \
+		My::AlignmentEval align_language=$(ALIGN_ANNOT_LANG2) to='.' substitute='{^.*/([^\/]*)}{tmp/baseline_eval/$$1}'
+	find tmp/baseline_eval -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK)/scripts/eval.pl --acc --prf
 
 tte_feats :
 	$(MAKE) -C $(ML_FRAMEWORK) tte_feats \
