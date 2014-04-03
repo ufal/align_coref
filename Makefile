@@ -118,3 +118,16 @@ tte_feats :
         FEATSET_LIST=$(PWD)/$(FEATSET_LIST) \
         STATS_FILE=$(PWD)/$(STATS_FILE)
 
+##################### DIAGNOSTICS ##########################################
+
+RESULT_FILE=tmp/ml/en_perspron/tte_feats_2014-03-06_22-50-55/75c76c8175/result/train.pcedt_19.in.vw.ranking.8411a.res
+
+error_list : errors.ml.$(ALIGN_ANNOT_TYPE).list
+errors.ml.$(ALIGN_ANNOT_TYPE).list :
+	cat $(RESULT_FILE) | grep "^[^0]" | sed 's/\.0\+//' | sed 's/-1//' > tmp/results.tmp
+	cat $(GOLD_ANNOT_LIST) | sed 's/^/data\//' | \
+		perl -e 'my @l = <STDIN>; my $$a = []; push @$$a, [] foreach (0..9); for (my $$i=0; $$i < @l; $$i++) { push @{$$a->[$$i % 10]}, $$l[$$i]; } foreach (0..9) { print join "", @{$$a->[$$_]};	}' > tmp/addresses.tmp
+	paste tmp/results.tmp tmp/addresses.tmp | perl -pe 'chmod $$_; my @a = split /\s+/, $$_; $$_ = ($$a[0] eq $$a[1]) ? "" : "$$_";' > errors.ml.$(ALIGN_ANNOT_TYPE).res
+	cut -f2 errors.ml.$(ALIGN_ANNOT_TYPE).res > $@
+	rm tmp/results.tmp tmp/addresses.tmp
+
