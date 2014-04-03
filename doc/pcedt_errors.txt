@@ -1,0 +1,5 @@
+* inconsistent annotation of "it" - its t_lemma should be "#PersPron" or it shouldn't be expressed on the t-layer at all
+    * sentences in PCEDT Sec19 with a t-node whose t_lemma == "it"
+        /net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1903.final.treex.gz##8
+        /net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1929.final.treex.gz##21
+        /net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1949.final.treex.gz##13
