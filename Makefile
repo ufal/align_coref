@@ -73,7 +73,8 @@ revise_annot :
 GOLD_ANNOT_FILE=annot/$(ALIGN_ANNOT_TYPE)/subset_to_remove
 #GOLD_ANNOT_FILE=annot/$(ALIGN_ANNOT_TYPE)/align.ref.sec19.misko.annot
 
-GOLD_ANNOT_TREES_DIR = $(DATA_DIR)/gold_aligned
+#GOLD_ANNOT_TREES_DIR = $(DATA_DIR)/gold_aligned.giza_on_train-pcedt
+GOLD_ANNOT_TREES_DIR = $(DATA_DIR)/gold_aligned.mgiza_on_czeng
 
 GOLD_ANNOT_LIST = $(DATA_DIR)/gold_aligned.so_far_annot.list
 #GOLD_ANNOT_LIST = $(DATA_DIR)/gold_aligned.list
