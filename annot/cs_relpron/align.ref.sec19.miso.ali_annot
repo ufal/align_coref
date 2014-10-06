@@ -1024,7 +1024,7 @@ ERR: ALIGN=OK
 CS:	Některá cla byla zrušena již 1. ledna, kdy vstoupila v platnost obchodní dohoda. 
 EN:	Some tariffs were eliminated when the trade pact took effect Jan. 1 .
 CS_T:	#PersPron.ACT Některá cla zrušena již 1 ledna <kdy> vstoupila platnost obchodní dohoda
-EN_T:	Some tariffs eliminated #Gen.ACT trade pact <took> effect Jan. 1
+EN_T:	Some tariffs eliminated #Gen.ACT trade pact <__A:EnglishA-wsj_1988-s7-t6__took> effect Jan. 1
 ERR: ALIGN=OK
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1988.final.streex##9.T-wsj1988-001-p1s8a15
