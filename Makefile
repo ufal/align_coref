@@ -5,7 +5,9 @@ SHELL=/bin/bash
 #-------------------------------------------- DIRS AND PATHS -----------------------------------------
 
 DATA_DIR = data
-ORIG_LIST = $(DATA_DIR)/train_19.orig.list
+#ORIG_LIST = $(DATA_DIR)/train_19.orig.list
+# just a hlaf so far
+ORIG_LIST = $(DATA_DIR)/train_19_00-49.orig.list
 
 #-------------------------------------------- LRC -----------------------------------------
 
@@ -38,8 +40,9 @@ annot/$(ALIGN_ANNOT_ID)/is_relat.%.sec19.list : data/gold_aligned.mgiza_on_czeng
 	mkdir -p annot/$(ALIGN_ANNOT_ID)
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$* \
 		Read::Treex from=@$< \
-		My::CorefExprAddresses ignore_align_type=gold anaphor_type=$(ALIGN_ANNOT_TYPE) \
+		My::CorefExprAddresses anaphor_type=$(ALIGN_ANNOT_TYPE) \
 			| sort > $@
+		#My::CorefExprAddresses ignore_align_type=gold anaphor_type=$(ALIGN_ANNOT_TYPE) \
 
 #=================================== PREPARE DATA FOR MANUAL ANNOTATION ==================================
 
@@ -84,7 +87,7 @@ revise_annot :
 # v0003
 ALIGN_TYPE=mgiza_on_czeng
 
-GOLD_ANNOT_FILE_EN=annot/en.align.ref.sec19.so_far.ali_annot
+GOLD_ANNOT_FILE_EN=annot/en.all.align.ref.sec19_00-49.ali_annot
 GOLD_ANNOT_FILE_CS=annot/cs.align.ref.sec19.so_far.ali_annot
 #GOLD_ANNOT_FILE=annot/$(ALIGN_ANNOT_ID)/align.ref.sec19.misko.annot
 
@@ -101,10 +104,10 @@ import_align : $(ORIG_LIST)
 		Util::SetGlobal language=en \
 		My::AlignmentLoader from=$(GOLD_ANNOT_FILE_EN) align_language=cs \
 		My::ProjectAlignment trg_selector=src \
-		Util::SetGlobal language=cs \
-		My::AlignmentLoader from=$(GOLD_ANNOT_FILE_CS) align_language=en \
-		My::ProjectAlignment trg_selector=src \
 		Write::Treex path=$(GOLD_ANNOT_TREES_DIR) storable=1
+		#Util::SetGlobal language=cs \
+		#My::AlignmentLoader from=$(GOLD_ANNOT_FILE_CS) align_language=en \
+		#My::ProjectAlignment trg_selector=src \
 
 $(DATA_DIR)/gold_aligned.list : annot/$(ALIGN_ANNOT_ID)/is_relat.src.sec19.list
 	replace=`echo $(GOLD_ANNOT_TREES_DIR) | sed 's/^$(DATA_DIR)\///' | sed 's/\//\\\\\//g'`; \
