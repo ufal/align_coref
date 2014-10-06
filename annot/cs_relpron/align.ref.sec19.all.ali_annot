@@ -1998,7 +1998,7 @@ CS:	Odpoledne vytvořili velkou překážku návrhu prezidenta Bushe na snížen
 EN:	They had dealt a major setback that afternoon to President Bush's capital-gains tax cut proposal, which had seemed in the bag after it passed the House overwhelmingly earlier in the month.
 CS_T:	#PersPron.ACT Odpoledne vytvořili velkou překážku návrhu prezidenta Bushe #Gen.ACT snížení daní kapitálových zisků <který> tento měsíc naprostou většinou prošel sněmovnou #PersPron.PAT #Gen.ACT a jevil poté již hotová věc
 EN_T:	They dealt major setback that afternoon President Bush capital-gains tax cut proposal <which> seemed #Gen.PAT bag it passed House overwhelmingly earlier month
-ERR:ALIGN=OK
+ERR:ALIGN=OK	SYNTAX_CHANGE
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1939.final.streex##31.T-wsj1939-001-p1s30a16
 CS:	Zaprvé, celkem vysoký počet hlavních mluvčích na Wall Street nejsou manažeři portfolia, kteří chápou, že hodnotu aktiv velmi ovlivňuje to, jaké daně na tato aktiva ukládá vláda. 
