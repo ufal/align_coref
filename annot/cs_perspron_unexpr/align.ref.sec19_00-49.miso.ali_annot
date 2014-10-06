@@ -261,10 +261,10 @@ ERR:OK pers1
 CS:	"Museli bychom vyjít ven a získat peníze v bankách, a na to teď nejsem připravený," řekl. 
 EN:	``We would have to go outside to banks to get the money and I am not ready to do that,'' he said .
 CS_TT:	řekl [ a [ a [ vyjít [ ven ] #PersPron.ACT získat [ peníze bankách ] ] nejsem [ <#PersPron.ACT> teď #Neg.RHEM připravený [ to ] ] ] #PersPron.ACT #Gen.ADDR ]
-EN_TT:	said [ and [ would [ We go [ #Cor.ACT outside banks get [ #Cor.ACT money ] ] ] am [ I not ready [ do [ #Cor.ACT that ] ] ] ] he #Gen.ADDR ]
-ERR:
+EN_TT:	said [ and [ would [ We go [ #Cor.ACT outside banks get [ #Cor.ACT money ] ] ] am [ <I> not ready [ do [ #Cor.ACT that ] ] ] ] he #Gen.ADDR ]
+ERR:OK pers1
 
-/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##48.T-wsj1903-001-p1s47a10
++/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##48.T-wsj1903-001-p1s47a10
 CS:	"Kromě toho už máme na talíři naloženo dost. 
 EN:	``Besides, we have enough on our plate.
 CS_TT:	naloženo [ <#PersPron.ACT> toho už #PersPron.ADDR talíři #EmpNoun.PAT [ dost ] ]
@@ -275,17 +275,17 @@ ERR:
 CS:	"Kromě toho už máme na talíři naloženo dost. 
 EN:	``Besides, we have enough on our plate.
 CS_TT:	naloženo [ #PersPron.ACT toho už <#PersPron.ADDR> talíři #EmpNoun.PAT [ dost ] ]
-EN_TT:	have [ Besides we #Gen.PAT [ enough ] plate [ our ] ]
-ERR:
+EN_TT:	have [ Besides <we> #Gen.PAT [ enough ] plate [ our ] ]
+ERR:OK pers1
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##49.T-wsj1903-001-p1s48a15
 CS:	Na tom, co máme, je třeba udělat hodně práce. 
 EN:	There is plenty of work to be done on what we have .
 CS_TT:	je [ udělat [ #Cor.ACT práce [ tom [ máme [ co <#PersPron.ACT> ] ] hodně ] ] třeba [ #Benef.BEN ] ]
 EN_TT:	is [ plenty [ work [ done [ #Cor.PAT #Gen.ACT have [ what <we> ] ] ] ] ]
-ERR:
+ERR:OK pers1
 
-/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##4.T-wsj1903-001-p1s3a18
++/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##4.T-wsj1903-001-p1s3a18
 CS:	Minulý pátek řekl zaměstnancům Ms., že časopis v lednu začne vydávat bez reklam. 
 EN:	Last Friday, he told the staff of Ms. that the magazine in January would begin publishing without advertising.
 CS_TT:	řekl [ #PersPron.ACT pátek [ Minulý ] zaměstnancům [ #Idph.RSTR [ Ms ] ] začne [ <#PersPron.ACT> vydávat [ #Cor.ACT časopis lednu reklam ] ] ]
@@ -297,110 +297,110 @@ CS:	"Co se týče Ms., je čas vydávat pro čtenáře a ne pro inzerenta."
 EN:	``For Ms., it's time to publish for the reader, not the advertiser .''
 CS_TT:	je [ týče [ Co #Idph.PAT [ Ms ] ] čas [ vydávat [ <#PersPron.PAT> #PersPron.ACT a [ čtenáře ne inzerenta ] ] ] ]
 EN_TT:	's [ Ms. it time [ publish [ #PersPron.ACT <#Gen.PAT> , [ reader not advertiser ] ] ] ]
-ERR:
+ERR:OK
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1905.final.streex##6.T-wsj1905-001-p1s5a37
 CS:	Společnost Morrison se sídlem v Boise v Idahu utrpěla během dvou let končících v prosinci ztrátu 186 miliónů dolarů, ale vrátila se zpět k ziskovosti v důsledku snížení nákladů a zbavení se neziskových operací. 
 EN:	Boise, Idaho-based Morrison had losses totaling $186 million over the two years ended in December, but it has surged back to profitability as a result of cost-cutting and shedding of unprofitable operations.
 CS_TT:	ale [ Společnost [ Morrison sídlem [ #Forn.LOC [ Boise Idahu ] ] ] utrpěla [ let [ dvou končících [ prosinci ] ] ztrátu [ miliónů [ 186 dolarů ] ] ] vrátila [ zpět ziskovosti a [ <#PersPron.ACT> snížení [ nákladů ] zbavení [ operací [ neziskových ] ] ] ] ]
 EN_TT:	but [ had [ Morrison [ Idaho-based [ Boise ] ] losses [ totaling [ #Cor.ACT $ [ million [ 186 ] ] years [ two ended [ #Cor.ACT December ] ] ] ] ] surged [ it back profitability result [ and [ cost-cutting shedding [ operations [ unprofitable ] ] ] ] ] ]
-ERR:
+ERR:0 MISS_ARG Nni/ti->Ning
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##2.T-wsj1906-001-p1s1a26
 CS:	Poslanec Bates uvedl, že rozhodnutí přijal, ale jedna z obětí, Dorena Bertussiová, veřejně označila vedení případu etickou radou za "absurdní". 
 EN:	Rep. Bates said he accepted the finding, but one of the victims, Dorena Bertussi, denounced the ethics panel's action as ``absurd.''
 CS_TT:	ale [ uvedl [ Bates [ Poslanec ] přijal [ #PersPron.ACT rozhodnutí [ #PersPron.PAT <#PersPron.ACT> ] ] ] označila [ , [ jedna [ obětí ] Bertussiová [ Dorena ] ] veřejně vedení [ případu radou [ etickou ] ] absurdní ] ]
 EN_TT:	but [ said [ Bates [ Rep. ] #Gen.ADDR accepted [ he finding ] ] denounced [ , [ one [ victims ] Bertussi [ Dorena ] ] action [ panel [ ethics ] ] absurd ] ]
-ERR:
+ERR:0 MISS_ARG Nni/ti->Ning
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##2.T-wsj1906-001-p1s1a27
 CS:	Poslanec Bates uvedl, že rozhodnutí přijal, ale jedna z obětí, Dorena Bertussiová, veřejně označila vedení případu etickou radou za "absurdní". 
 EN:	Rep. Bates said he accepted the finding, but one of the victims, Dorena Bertussi, denounced the ethics panel's action as ``absurd.''
 CS_TT:	ale [ uvedl [ Bates [ Poslanec ] přijal [ #PersPron.ACT rozhodnutí [ <#PersPron.PAT> #PersPron.ACT ] ] ] označila [ , [ jedna [ obětí ] Bertussiová [ Dorena ] ] veřejně vedení [ případu radou [ etickou ] ] absurdní ] ]
 EN_TT:	but [ said [ Bates [ Rep. ] #Gen.ADDR accepted [ he finding ] ] denounced [ , [ one [ victims ] Bertussi [ Dorena ] ] action [ panel [ ethics ] ] absurd ] ]
-ERR:
+ERR:0 MISS_ARG Nni/ti->Ning
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##3.T-wsj1906-001-p1s2a35
 CS:	Více než rok poté, co Bertussiová napsala stížnost, vydala komise "pokárání", které uvádí, že poslanec Bates připustil jednání porušující sněmovní řád zakazující diskriminaci zaměstnanců na základě pohlaví. 
 EN:	Acting more than a year after Ms. Bertussi filed a complaint, the panel issued a ``letter of reproval'' saying Rep. Bates had admitted conduct that violated a House rule forbidding discrimination against employees on account of their sex.
 CS_TT:	vydala [ rok [ Více [ než ] napsala [ Bertussiová stížnost ] ] komise pokárání [ uvádí [ které připustil [ Bates [ poslanec ] jednání [ <#PersPron.ACT> porušující [ řád [ sněmovní zakazující [ diskriminaci [ zaměstnanců pohlaví ] ] ] ] ] ] ] ] ]
 EN_TT:	issued [ Acting [ #Cor.ACT more [ year ] filed [ Bertussi [ Ms. ] complaint ] ] panel letter [ reproval [ #Gen.ACT ] saying [ #Cor.ACT #Gen.ADDR admitted [ Bates [ Rep. ] conduct [ violated [ that rule [ House forbidding [ #Cor.ACT #Gen.ADDR discrimination [ employees account [ sex [ their ] ] ] ] ] ] ] ] ] ] ]
-ERR:
+ERR:0 MISS_ARG Nni/ti->N
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##5.T-wsj1906-001-p1s4a15
 CS:	Poslanec Bates prohlásil, že dopisy napíše tak, jak mu bylo nařízeno. 
 EN:	Rep. Bates said he would write the letters as ordered .
 CS_TT:	prohlásil [ Bates [ Poslanec ] napíše [ #PersPron.ACT dopisy nařízeno [ #PersPron.PAT <#PersPron.ACT> jak mu ] ] ]
 EN_TT:	said [ Bates [ Rep. ] #Gen.ADDR write [ he letters ordered [ <#Gen.ACT> #Cor.ADDR #PersPron.PAT ] ] ]
-ERR:
+ERR:OK
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##6.T-wsj1906-001-p1s5a13
 CS:	"Rozhodnutí Etické komise v této záležitosti akceptuji," řekl. 
 EN:	``I accept the resolution of the matter by the Ethics Committee,'' he said .
 CS_TT:	řekl [ #Gen.ADDR #PersPron.ACT akceptuji [ Rozhodnutí [ komise [ Etické ] záležitosti [ této ] ] <#PersPron.ACT> ] ]
 EN_TT:	said [ accept [ <I> resolution [ matter Committee [ Ethics ] ] ] he #Gen.ADDR ]
-ERR:
+ERR:OK pers1
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##7.T-wsj1906-001-p1s6a20
 CS:	Komise také poslance Batese varovala, že jakékoliv další porušení "může vyústit v doporučení zvážit disciplinární řízení". 
 EN:	The panel also warned Rep. Bates that any further violations ``may result in a recommendation that disciplinary action be considered .''
 CS_TT:	varovala [ Komise také Batese [ poslance ] vyústit [ porušení [ <#PersPron.ACT> #PersPron.PAT jakékoliv další ] doporučení [ #Gen.ADDR #PersPron.ACT zvážit [ #Gen.ACT řízení [ disciplinární ] ] ] ] ]
 EN_TT:	warned [ panel also Bates [ Rep. ] result [ violations [ any further ] recommendation [ considered [ action [ disciplinary ] #Gen.ACT ] ] ] ]
-ERR:
+ERR:0 MISS_ARG Nni/ti->N
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##7.T-wsj1906-001-p1s6a23
 CS:	Komise také poslance Batese varovala, že jakékoliv další porušení "může vyústit v doporučení zvážit disciplinární řízení". 
 EN:	The panel also warned Rep. Bates that any further violations ``may result in a recommendation that disciplinary action be considered .''
 CS_TT:	varovala [ Komise také Batese [ poslance ] vyústit [ porušení [ #PersPron.ACT #PersPron.PAT jakékoliv další ] doporučení [ #Gen.ADDR <#PersPron.ACT> zvážit [ #Gen.ACT řízení [ disciplinární ] ] ] ] ]
 EN_TT:	warned [ panel also Bates [ Rep. ] result [ violations [ any further ] recommendation [ considered [ action [ disciplinary ] #Gen.ACT ] ] ] ]
-ERR:
+ERR:0 MISS_ARG Nni/ti->N
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##7.T-wsj1906-001-p1s6a26
 CS:	Komise také poslance Batese varovala, že jakékoliv další porušení "může vyústit v doporučení zvážit disciplinární řízení". 
 EN:	The panel also warned Rep. Bates that any further violations ``may result in a recommendation that disciplinary action be considered .''
 CS_TT:	varovala [ Komise také Batese [ poslance ] vyústit [ porušení [ #PersPron.ACT <#PersPron.PAT> jakékoliv další ] doporučení [ #Gen.ADDR #PersPron.ACT zvážit [ #Gen.ACT řízení [ disciplinární ] ] ] ] ]
 EN_TT:	warned [ panel also Bates [ Rep. ] result [ violations [ any further ] recommendation [ considered [ action [ disciplinary ] #Gen.ACT ] ] ] ]
-ERR:
+ERR:0 MISS_ARG Nni/ti->N
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##9.T-wsj1906-001-p1s8a18
 CS:	Poslanec Bates veřejně požádal voliče o odpuštění a byl minulý listopad znovu zvolen 60 % hlasů. 
 EN:	Rep. Bates has publicly begged for forgiveness from voters and was re-elected with 60% of the vote last November.
 CS_TT:	a [ požádal [ Bates [ Poslanec ] veřejně voliče odpuštění [ #PersPron.PAT #PersPron.ADDR <#PersPron.ACT> ] ] zvolen [ listopad [ minulý ] znovu #PersPron.EFF #PersPron.PAT % [ 60 hlasů ] ] ]
 EN_TT:	and [ begged [ Bates [ Rep. ] publicly #Gen.ADDR forgiveness [ voters ] ] re-elected [ #PersPron.PAT #Gen.ACT #Gen.EFF % [ 60 vote ] November [ last ] ] ]
-ERR:
+ERR:0 MISS_ARG Nni/ti->N
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##9.T-wsj1906-001-p1s8a19
 CS:	Poslanec Bates veřejně požádal voliče o odpuštění a byl minulý listopad znovu zvolen 60 % hlasů. 
 EN:	Rep. Bates has publicly begged for forgiveness from voters and was re-elected with 60% of the vote last November.
 CS_TT:	a [ požádal [ Bates [ Poslanec ] veřejně voliče odpuštění [ <#PersPron.PAT> #PersPron.ADDR #PersPron.ACT ] ] zvolen [ listopad [ minulý ] znovu #PersPron.EFF #PersPron.PAT % [ 60 hlasů ] ] ]
 EN_TT:	and [ begged [ Bates [ Rep. ] publicly #Gen.ADDR forgiveness [ voters ] ] re-elected [ #PersPron.PAT #Gen.ACT #Gen.EFF % [ 60 vote ] November [ last ] ] ]
-ERR:
+ERR:0 MISS_ARG Nni/ti->N
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##9.T-wsj1906-001-p1s8a20
 CS:	Poslanec Bates veřejně požádal voliče o odpuštění a byl minulý listopad znovu zvolen 60 % hlasů. 
 EN:	Rep. Bates has publicly begged for forgiveness from voters and was re-elected with 60% of the vote last November.
 CS_TT:	a [ požádal [ Bates [ Poslanec ] veřejně voliče odpuštění [ #PersPron.PAT <#PersPron.ADDR> #PersPron.ACT ] ] zvolen [ listopad [ minulý ] znovu #PersPron.EFF #PersPron.PAT % [ 60 hlasů ] ] ]
 EN_TT:	and [ begged [ Bates [ Rep. ] publicly #Gen.ADDR forgiveness [ voters ] ] re-elected [ #PersPron.PAT #Gen.ACT #Gen.EFF % [ 60 vote ] November [ last ] ] ]
-ERR:
+ERR:0 MISS_ARG Nni/ti->N
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##9.T-wsj1906-001-p1s8a22
 CS:	Poslanec Bates veřejně požádal voliče o odpuštění a byl minulý listopad znovu zvolen 60 % hlasů. 
 EN:	Rep. Bates has publicly begged for forgiveness from voters and was re-elected with 60% of the vote last November.
 CS_TT:	a [ požádal [ Bates [ Poslanec ] veřejně voliče odpuštění [ #PersPron.PAT #PersPron.ADDR #PersPron.ACT ] ] zvolen [ listopad [ minulý ] znovu <#PersPron.EFF> #PersPron.PAT % [ 60 hlasů ] ] ]
-EN_TT:	and [ begged [ Bates [ Rep. ] publicly #Gen.ADDR forgiveness [ voters ] ] re-elected [ #PersPron.PAT #Gen.ACT #Gen.EFF % [ 60 vote ] November [ last ] ] ]
-ERR:
+EN_TT:	and [ begged [ Bates [ Rep. ] publicly #Gen.ADDR forgiveness [ voters ] ] re-elected [ #PersPron.PAT #Gen.ACT <#Gen.EFF> % [ 60 vote ] November [ last ] ] ]
+ERR:OK
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1907.final.streex##1.T-wsj1907-001-p1s0a42
 CS:	Společnost Mesa Airlines oznámila, že nabídka na převzetí, kterou dostala na počátku tohoto týdne od společnosti StatesWest Airlines, je kombinací platby v hotovosti a obligací ohodnocených společností StatesWest na 10 dolarů za jednu akcii Mesa Airlines. 
 EN:	Mesa Airlines said the takeover offer it received earlier this week from StatesWest Airlines is for a combination of cash and securities valued by StatesWest at $10 a Mesa share.
 CS_TT:	oznámila [ #Gen.ADDR Společnost [ #Forn.ID [ Mesa Airlines ] ] je [ nabídka [ převzetí [ <#PersPron.ACT> #PersPron.PAT ] dostala [ #PersPron.ACT kterou počátku [ týdne [ tohoto ] ] společnosti [ #Forn.ID [ StatesWest Airlines ] ] ] ] kombinací [ a [ platby [ hotovosti ] obligací [ ohodnocených [ společností [ StatesWest ] dolarů [ 10 akcii [ jednu #Forn.RSTR [ Mesa Airlines ] ] ] ] ] ] ] ] ]
 EN_TT:	said [ Airlines [ Mesa ] #Gen.ADDR is [ offer [ takeover received [ it #Cor.PAT week [ earlier this ] Airlines [ StatesWest ] ] ] combination [ and [ cash securities valued [ #Cor.PAT StatesWest $ [ 10 share [ Mesa ] ] ] ] ] ] ]
-ERR:
+ERR:0 MISS_ARG Nni/ti->N
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1907.final.streex##1.T-wsj1907-001-p1s0a45
 CS:	Společnost Mesa Airlines oznámila, že nabídka na převzetí, kterou dostala na počátku tohoto týdne od společnosti StatesWest Airlines, je kombinací platby v hotovosti a obligací ohodnocených společností StatesWest na 10 dolarů za jednu akcii Mesa Airlines. 
 EN:	Mesa Airlines said the takeover offer it received earlier this week from StatesWest Airlines is for a combination of cash and securities valued by StatesWest at $10 a Mesa share.
 CS_TT:	oznámila [ #Gen.ADDR Společnost [ #Forn.ID [ Mesa Airlines ] ] je [ nabídka [ převzetí [ #PersPron.ACT <#PersPron.PAT> ] dostala [ #PersPron.ACT kterou počátku [ týdne [ tohoto ] ] společnosti [ #Forn.ID [ StatesWest Airlines ] ] ] ] kombinací [ a [ platby [ hotovosti ] obligací [ ohodnocených [ společností [ StatesWest ] dolarů [ 10 akcii [ jednu #Forn.RSTR [ Mesa Airlines ] ] ] ] ] ] ] ] ]
 EN_TT:	said [ Airlines [ Mesa ] #Gen.ADDR is [ offer [ takeover received [ it #Cor.PAT week [ earlier this ] Airlines [ StatesWest ] ] ] combination [ and [ cash securities valued [ #Cor.PAT StatesWest $ [ 10 share [ Mesa ] ] ] ] ] ] ]
-ERR:
+ERR:0 MISS_ARG Nni/ti->N
 
