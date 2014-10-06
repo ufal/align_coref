@@ -1529,7 +1529,7 @@ EN:	Sen. Kennedy, never mind his dubious credentials for the moral high ground, 
 CS:	Senátor Kennedy, nehleďme na pochybné doklady o jeho morální převaze, zahrál vynikajícím způsobem na emoce ostatních. 
 EN_T:	Sen. Kennedy never #PersPron.ACT mind <his> dubious credentials moral high ground emoted brilliantly
 CS_T:	Senátor Kennedy #Neg.RHEM #PersPron.ACT nehleďme pochybné doklady <jeho> morální převaze zahrál vynikajícím způsobem emoce #PersPron.PAT ostatních
-ERR:SWITCH
+ERR:NULL_POSS SWITCH
 
 annot/en_perspron/../../tmp/robust_ali/wsj_1927.final.streex##1.EnglishT-wsj_1927-s1-t37
 EN:	Whether or not ``great cases make bad-law'' -- as Justice Holmes asserted -- who can doubt that when great confirmation hearings turn on the nominee's response to these great cases they make bad judicial history?
