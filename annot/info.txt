@@ -30,3 +30,14 @@ Observations:
     - most of them are unexpressed #PersPron
     - 1 ourselves => en_perspron does not cover ourselves???
         - OK, because it should cover only 3rd person pronouns
+
+b) cs_relpron
+
+Coverage:
+* 529 occurrences
+    - 99.8% (out of 530) Czech coreferential relative pronouns
+    - 22% (2393) of all Czech coreferential
+
+Observations:
+* non-coreferential (those extracted by #2 but not in #1)
+    cs_relpron/non-coref.ref.sec19.list
