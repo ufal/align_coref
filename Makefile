@@ -19,7 +19,8 @@ endif
 #-------------------------------------------- LANG -----------------------------------------
 
 ALIGN_ANNOT_LANG=en
-ALIGN_ANNOT_TYPE=$(ALIGN_ANNOT_LANG)_perspron
+ALIGN_ANNOT_TYPE=perspron
+ALIGN_ANNOT_ID=$(ALIGN_ANNOT_LANG)_$(ALIGN_ANNOT_TYPE)
 
 ifeq ($(ALIGN_ANNOT_LANG),en)
 ALIGN_ANNOT_LANG2=cs
@@ -29,10 +30,12 @@ endif
 
 #======================================================================================================
 
-annot/$(ALIGN_ANNOT_TYPE)/is_relat.%.sec19.list : $(ORIG_LIST)
+#annot/$(ALIGN_ANNOT_ID)/is_relat.%.sec19.list : $(ORIG_LIST)
+annot/$(ALIGN_ANNOT_ID)/is_relat.%.sec19.list : tmp/robust_ali/list
+	mkdir -p annot/$(ALIGN_ANNOT_ID)
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$* \
 		Read::Treex from=@$< \
-		My::PersPronAddresses \
+		My::CorefExprAddresses anaphor_type=$(ALIGN_ANNOT_TYPE) \
 			| sort > $@
 
 #=================================== PREPARE DATA FOR MANUAL ANNOTATION ==================================
@@ -49,13 +52,13 @@ add_robust_ali : $(ORIG_LIST)
 	find tmp/robust_ali -path "*.streex" | sort | sed 's/^.*\///' > tmp/robust_ali/list
 
 #ALIGN_ANNOT_LIST=cs_relpron.is_relat.ref.shuffled.1-200.list
-ALIGN_ANNOT_LIST=annot/$(ALIGN_ANNOT_TYPE)/is_relat.ref.sec19.list
+ALIGN_ANNOT_LIST=annot/$(ALIGN_ANNOT_ID)/is_relat.ref.sec19.list
 
-prepare_align_annot :
+prepare_align_annot : annot/$(ALIGN_ANNOT_ID)/is_relat.ref.sec19.list
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Sref \
 		Read::Treex from=@$(ALIGN_ANNOT_LIST) \
-		My::AnnotAlignWrite align_lang=$(ALIGN_ANNOT_LANG2) to='.' substitute='{^.*/([^\/]*)}{tmp/annot/$(ALIGN_ANNOT_TYPE)/$$1}' extension='.txt'
-	find tmp/annot/$(ALIGN_ANNOT_TYPE) -path "*.txt" -exec cat {} \; > tmp/annot/$(ALIGN_ANNOT_TYPE).all
+		My::AnnotAlignWrite align_lang=$(ALIGN_ANNOT_LANG2) to='.' substitute='{^.*/([^\/]*)}{tmp/annot/$(ALIGN_ANNOT_ID)/$$1}' extension='.txt'
+	find tmp/annot/$(ALIGN_ANNOT_ID) -path "*.txt" | sort | xargs cat > tmp/annot/$(ALIGN_ANNOT_ID).all
 
 
 # unrevised annotation are labelled with a '+' symbol prepended to an address
@@ -78,8 +81,8 @@ revise_annot :
 # v0003
 ALIGN_TYPE=mgiza_on_czeng
 
-GOLD_ANNOT_FILE=annot/$(ALIGN_ANNOT_TYPE)/subset_to_remove
-#GOLD_ANNOT_FILE=annot/$(ALIGN_ANNOT_TYPE)/align.ref.sec19.misko.annot
+GOLD_ANNOT_FILE=annot/$(ALIGN_ANNOT_ID)/subset_to_remove
+#GOLD_ANNOT_FILE=annot/$(ALIGN_ANNOT_ID)/align.ref.sec19.misko.annot
 
 GOLD_ANNOT_TREES_DIR = $(DATA_DIR)/gold_aligned.$(ALIGN_TYPE)
 GOLD_ANNOT_LIST = $(DATA_DIR)/gold_aligned.$(ALIGN_TYPE).so_far_annot.list
@@ -95,7 +98,7 @@ import_align : $(ORIG_LIST)
 		My::ProjectAlignment trg_selector=src \
 		Write::Treex path=$(GOLD_ANNOT_TREES_DIR) storable=1
 
-$(DATA_DIR)/gold_aligned.list : annot/$(ALIGN_ANNOT_TYPE)/is_relat.src.sec19.list
+$(DATA_DIR)/gold_aligned.list : annot/$(ALIGN_ANNOT_ID)/is_relat.src.sec19.list
 	replace=`echo $(GOLD_ANNOT_TREES_DIR) | sed 's/^$(DATA_DIR)\///' | sed 's/\//\\\\\//g'`; \
 	cat $< | sed "s/^.*\//$$replace\//" | sed 's/treex\.gz/streex/g' > $@
 
@@ -113,9 +116,9 @@ $(DATA_DIR)/train.pcedt_19.table : $(GOLD_ANNOT_LIST)
 ############################## USING ML FRAMEWORK ###########################
 
 ML_FRAMEWORK=/home/mnovak/projects/ml_framework
-RUNS_DIR=tmp/ml/$(ALIGN_ANNOT_TYPE)
-FEATSET_LIST=conf/$(ALIGN_ANNOT_TYPE).feat.list
-STATS_FILE=$(ALIGN_ANNOT_TYPE).ml.results
+RUNS_DIR=tmp/ml/$(ALIGN_ANNOT_ID)
+FEATSET_LIST=conf/$(ALIGN_ANNOT_ID).feat.list
+STATS_FILE=$(ALIGN_ANNOT_ID).ml.results
 
 baseline_eval : $(GOLD_ANNOT_LIST)
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Ssrc \
@@ -137,12 +140,12 @@ tte_feats :
 
 RESULT_FILE=tmp/ml/en_perspron/tte_feats_2014-03-06_22-50-55/75c76c8175/result/train.pcedt_19.in.vw.ranking.8411a.res
 
-error_list : errors.ml.$(ALIGN_ANNOT_TYPE).list
-errors.ml.$(ALIGN_ANNOT_TYPE).list :
+error_list : errors.ml.$(ALIGN_ANNOT_ID).list
+errors.ml.$(ALIGN_ANNOT_ID).list :
 	cat $(RESULT_FILE) | grep "^[^0]" | sed 's/\.0\+//' | sed 's/-1//' > tmp/results.tmp
 	cat $(GOLD_ANNOT_LIST) | sed 's/^/data\//' | \
 		perl -e 'my @l = <STDIN>; my $$a = []; push @$$a, [] foreach (0..9); for (my $$i=0; $$i < @l; $$i++) { push @{$$a->[$$i % 10]}, $$l[$$i]; } foreach (0..9) { print join "", @{$$a->[$$_]};	}' > tmp/addresses.tmp
-	paste tmp/results.tmp tmp/addresses.tmp | perl -pe 'chmod $$_; my @a = split /\s+/, $$_; $$_ = ($$a[0] eq $$a[1]) ? "" : "$$_";' > errors.ml.$(ALIGN_ANNOT_TYPE).res
-	cut -f2 errors.ml.$(ALIGN_ANNOT_TYPE).res > $@
+	paste tmp/results.tmp tmp/addresses.tmp | perl -pe 'chmod $$_; my @a = split /\s+/, $$_; $$_ = ($$a[0] eq $$a[1]) ? "" : "$$_";' > errors.ml.$(ALIGN_ANNOT_ID).res
+	cut -f2 errors.ml.$(ALIGN_ANNOT_ID).res > $@
 	rm tmp/results.tmp tmp/addresses.tmp
 
