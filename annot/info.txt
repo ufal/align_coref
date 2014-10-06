@@ -1,0 +1,32 @@
+BASIC INFO
+============
+
+* extracted from PCEDT 2.0, section 19
+* ref selector => gold annotations
+* anaphoric relations: grammatical corefernce, pronominal textual coreference
+
+Our aim is to investigate how possible anaphoric expressions map from English to Czech and vice versa.
+
+-------------------------------------
+
+1) Extracting true anaphoric expressions and observing what t_lemmas and lemmas stand for that
+
+-------------------------------------
+
+2) Figure out rules to cover various types of anaphoric expressions (t_lemmas and lemmas from #1) without using the information on anaphoricity
+
+a) en_perspron
+
+Coverage:
+* 852 occurrences
+    - 90% (out of 946) English coreferential #PersProns
+    - 38% (out of 2256) of all English coreferential
+
+Observations:
+* non-coreferential (those extracted by #2 but not in #1)
+    en_perspron/non-coref.ref.sec19.list
+* coreferential #PersProns, but not covered by en_perspron rule
+    en_perspron/coref.non-ali.ref.sec19.list
+    - most of them are unexpressed #PersPron
+    - 1 ourselves => en_perspron does not cover ourselves???
+        - OK, because it should cover only 3rd person pronouns
