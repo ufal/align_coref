@@ -725,7 +725,7 @@ CS:	Na zákonodárném shromáždění v Budapešti, které bylo celostátně p�
 EN:	At a nationally televised legislative session in Budapest, the Parliament overwhelmingly approved changes formally ending one-party domination in the country, regulating free elections by next summer and establishing the office of state president to replace a 21-member council.
 CS_T:	#Gen.ACT zákonodárném shromáždění Budapešti které celostátně přenášeno #Gen.ACT televizi parlament naprostou většinou hlasů schválil změny jež formálně ukončí nadvládu jedné strany zemi příštího léta stanoví pravidla svobodných voleb a zřídí úřad prezidenta státu <který> nahradí 21člennou 21člennou radu
 EN_T:	nationally televised #Cor.PAT #Gen.ACT legislative session Budapest Parliament overwhelmingly approved changes formally ending #Cor.ACT one-party domination country regulating free elections next summer and establishing office state president <#Cor.ACT> replace 21-member council
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE TO
+ERR:ALIGN=OK	TO
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1924.final.streex##26.T-wsj1924-001-p1s25a27
 CS:	Šamir v úterý prohlásil, že je ochoten riskovat politický konflikt se Spojenými státy ohledně záměru Egypta uspořádat otevřené izraelsko-palestinské rozhovory, proti nimž vystupuje premiérovo politické seskupení Likud. 
@@ -851,7 +851,7 @@ CS:	Těžkou váhou v oboru ústavního práva byl Laurence Tribe z Harvardu, to
 EN:	Harvard's Laurence Tribe was the constitutional heavy, laying out legal strategies for the senators and witnesses to follow .
 CS_T:	, Těžkou váhou oboru ústavního práva byl Laurence Tribe Harvardu to on rozpracoval právní strategie <kterými> řídit senátoři a svědci
 EN_T:	Harvard Laurence Tribe was constitutional heavy #Cor.ACT laying legal strategies senators and witnesses #PersPron.ACT follow <#Cor.PAT>
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE TO
+ERR:ALIGN=OK	TO
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1927.final.streex##13.T-wsj1927-001-p1s12a33
 CS:	Největšího úspěchu však dosáhl Ted Kennedy svým nemilosrdným vylíčením "Ameriky podle Roberta Borka" - přehlídkou vymyšlených hrůz, které by logicky vyplynuly, jak tvrdil, z názorů, které pan Bork v období dvou desetiletí zastával. 
@@ -1158,8 +1158,8 @@ ERR:ALIGN=OK
 CS:	52letý Krenz je známý jako nesmlouvavý člověk s tradičními hodnotami, který patrně i nadále povede zemi způsobem, jenž zemi proslavil Berlínskou zdí. 
 EN:	Mr. Krenz, age 52, is known as an old-guard ironfist, one likely to continue the method of running a country that the Berlin Wall made famous.
 CS_T:	52letý 52letý Krenz je známý nesmlouvavý člověk tradičními hodnotami <který> patrně i nadále povede zemi způsobem jenž zemi proslavil Berlínskou zdí
-EN_T:	Mr. Krenz age 52 known #Gen.ACT old-guard ironfist , one #Cor.ACT likely #EmpVerb.RSTR continue method running #Gen.ACT country that Berlin Wall made famous
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE TO
+EN_T:	Mr. Krenz age 52 known #Gen.ACT old-guard ironfist , one <#Cor.ACT> likely #EmpVerb.RSTR continue method running #Gen.ACT country that Berlin Wall made famous
+ERR:ALIGN=OK	TO
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1929.final.streex##3.T-wsj1929-001-p1s2a21
 CS:	52letý Krenz je známý jako nesmlouvavý člověk s tradičními hodnotami, který patrně i nadále povede zemi způsobem, jenž zemi proslavil Berlínskou zdí. 
@@ -1207,8 +1207,8 @@ ERR:ALIGN=OK APPOS
 CS:	Společnost IBM plánuje koupit zpět své kmenové akcie v hodnotě 1 miliardy dolarů, což je krok, který pravděpodobně pomůže akciím tohoto počítačového giganta, které jsou v zoufalém stavu. 
 EN:	IBM plans to buy back $1 billion of its common shares, a move likely to help the computer giant's battered stock.
 CS_T:	Společnost IBM #Cor.ACT plánuje koupit zpět své kmenové akcie , hodnotě 1 miliardy dolarů což je krok <který> pravděpodobně pomůže akciím tohoto giganta počítačového které jsou stavu zoufalém
-EN_T:	IBM plans #Cor.ACT buy back , $ 1 #EmpVerb.PRED billion its common shares move likely #Cor.ACT <#Cor.ACT> help #Gen.PAT computer giant battered stock
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE TO
+EN_T:	IBM plans #Cor.ACT buy back , $ 1 #EmpVerb.PRED billion its common shares move likely <#Cor.ACT> <#Cor.ACT> help #Gen.PAT computer giant battered stock
+ERR:ALIGN=OK	TO align to 2 CORs
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1930.final.streex##11.T-wsj1930-001-p1s10a28
 CS:	Společnost IBM plánuje koupit zpět své kmenové akcie v hodnotě 1 miliardy dolarů, což je krok, který pravděpodobně pomůže akciím tohoto počítačového giganta, které jsou v zoufalém stavu. 
@@ -1488,7 +1488,7 @@ CS:	Jak uvedli výzkumní pracovníci, byl na Pittsburské univerzitě u více n
 EN:	A new drug to prevent the rejection of transplanted organs has been successfully used on more than 100 patients at the University of Pittsburgh, according to researchers.
 CS_T:	#PersPron.EFF #Gen.ACT uvedli výzkumní pracovníci Pittsburské univerzitě více 100 pacientů použit nový lék <který> zabraňuje #Gen.ACT odmítnutí transplantovaných orgánů
 EN_T:	new drug <#Cor.ACT> prevent rejection transplanted organs successfully used #Gen.ACT than 100 patients University Pittsburgh researchers
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE TO
+ERR:ALIGN=OK	TO
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1934.final.streex##2.T-wsj1934-001-p1s1a7
 CS:	Tento lék, který je stále ve fázi experimentů, dosud neschválil Úřad pro kontrolu potravin a léčiv (FDA) a nejsou známy jeho dlouhodobé účinky. 
@@ -1516,7 +1516,7 @@ CS:	Pittsburští pacienti jsou první lidé, jimž byl tento lék, který vyrá
 EN:	The Pittsburgh patients are the first humans to be given the drug, which is made by Fujisawa Pharmaceutical Co.
 CS_T:	Pittsburští pacienti jsou první lidé #Gen.ACT <jimž> tento lék který vyrábí společnost #Forn.ID Fujisawa Pharmaceutical Co . podán
 EN_T:	Pittsburgh patients are first humans given #Gen.ACT <#Cor.ADDR> drug which made Fujisawa Pharmaceutical Co
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE TO
+ERR:ALIGN=OK	TO
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1935.final.streex##12.T-wsj1935-001-p1s11a9
 CS:	Proč by měli pracovat společně s prospěcháři, kteří se ženou za rychlými zisky? 
@@ -1705,7 +1705,7 @@ CS:	Tehdy byl Pinter nejen rozhněvaný britský dramatik, ale také první, kdo
 EN:	Back then, Mr. Pinter was not only the angry young British playwright, but also the first to use silences and sentence fragments and menacing stares, almost to the exclusion of what we previously understood to be theatrical dialogue.
 CS_T:	Tehdy byl Pinter nejen rozhněvaný britský dramatik ale také první #EmpNoun.PAT <kdo> využil #Gen.ACT mlčení a útržky vět a hrozivé pohledy přičemž téměř vyloučil #Gen.ACT co dříve považováno divadelní dialog
 EN_T:	Back then Mr. Pinter was not only angry young British playwright but also first <#Cor.ACT> use silences and sentence fragments and menacing stares almost exclusion what we previously understood be theatrical dialogue
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE TO
+ERR:ALIGN=OK	TO
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1936.final.streex##25.T-wsj1936-001-p1s24a29
 CS:	Tehdy byl Pinter nejen rozhněvaný britský dramatik, ale také první, kdo využil mlčení a útržky vět a hrozivé pohledy, přičemž téměř vyloučil to, co bylo dříve považováno za divadelní dialog. 
@@ -1760,8 +1760,8 @@ ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE
 CS:	Randall Arney coby Teddy se kupodivu zdá být jediným členem souboru, který se nedokáže přenést přes mrtvolný přístup k této Pinterově postavě. 
 EN:	Curiously, Randall Arney as Teddy seems the only cast member unable to get beyond the zombie approach to a Pinter character.
 CS_T:	#Gen.ACT Randall Arney Teddy #Cor.ACT kupodivu zdá být jediným členem souboru #Neg.RHEM <který> nedokáže #Cor.ACT přenést mrtvolný přístup této Pinterově postavě
-EN_T:	Curiously Randall Arney Teddy seems only cast <member> unable #Cor.ACT get zombie approach Pinter character
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE TO
+EN_T:	Curiously Randall Arney Teddy seems only cast member unable <#Cor.ACT> get zombie approach Pinter character
+ERR:ALIGN=OK	TO
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1936.final.streex##40.T-wsj1936-001-p1s39a12
 CS:	Moira Harrisová coby Ruth, velká a krásná žena, která by mohla být naší další Colleen Dewhurstovou, si začne téměř okamžitě podmaňovat všechny muže. 
@@ -2097,7 +2097,7 @@ CS:	Společnost TVA nyní plánuje vydat dluhopisy v celkové hodnotě 6.7 milia
 EN:	The TVA currently plans to issue a total of $6.7 billion in bonds to refinance its high-interest debt.
 CS_T:	Společnost TVA nyní plánuje #Cor.ACT vydat dluhopisy celkové hodnotě 6.7 miliardy dolarů <které> její dluh vysokou úrokovou sazbou refinancovat
 EN_T:	TVA currently plans #Cor.ACT issue total $ 6.7 billion bonds refinance <#Cor.ACT> its high-interest debt
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE TO
+ERR:ALIGN=OK	TO
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1943.final.streex##7.T-wsj1943-001-p1s6a13
 CS:	Vydání dluhopisů je první veřejná nabídka TVA od roku 1974, kdy především z důvodu financování TVA vznikla Finanční banka. 
@@ -2216,7 +2216,7 @@ CS:	V jednom z prvních případů znečištění vzduchu uvnitř budovy, které
 EN:	In one of the first indoor air-pollution cases to go to trial, a state-court jury decided in favor of the defendant, Burlington Industries Inc.
 CS_T:	#Gen.PAT jednom prvních případů #Gen.ACT znečištění vzduchu budovy <které> dostaly soud rozhodl soudce státního soudu obžalovaného , společnosti Burlington #Forn.ID Industries Inc
 EN_T:	one first indoor air-pollution cases <#Cor.ACT> go trial state-court jury decided favor defendant , favor Burlington Industries Inc
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE TO
+ERR:ALIGN=OK	TO
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1946.final.streex##20.T-wsj1946-001-p1s19a8
 CS:	Dvě zbývající dosud nedosáhly stádia, kdy se před líčením zjišťují fakta. 
