@@ -15,7 +15,7 @@ extends 'Treex::Core::Block';
 has 'anaphor_type' => (
     is => 'ro',
     required => 1,
-    isa => enum([qw/perspron relpron/])
+    isa => enum([qw/perspron relpron perspron_unexpr/])
 );
 
 has 'ignore_align_type' => (
@@ -24,7 +24,7 @@ has 'ignore_align_type' => (
     #default => 'gold',
 );
 
-has '_filter' => (is => 'ro', isa => 'CodeRef', builder => '_build_filter', lazy => 1);
+has '_filter' => (is => 'ro', isa => 'ArrayRef', builder => '_build_filter', lazy => 1);
 
 #sub BUILD {
 #    my ($self) = @_;
@@ -33,12 +33,21 @@ has '_filter' => (is => 'ro', isa => 'CodeRef', builder => '_build_filter', lazy
 
 sub _build_filter {
     my ($self) = @_;
+    
+    my $func;
+    my $params = {};
     if ($self->anaphor_type eq "perspron") {
-        return \&Treex::Tool::Coreference::NodeFilter::PersPron::is_3rd_pers;
+        $func = \&Treex::Tool::Coreference::NodeFilter::PersPron::is_3rd_pers;
+        $params->{expressed} = 1;
+    }
+    elsif ($self->anaphor_type eq "perspron_unexpr") {
+        $func = \&Treex::Tool::Coreference::NodeFilter::PersPron::is_3rd_pers;
+        $params->{expressed} = -1;
     }
     elsif ($self->anaphor_type eq "relpron") {
-        return \&Treex::Tool::Coreference::NodeFilter::RelPron::is_relat;
+        $func = \&Treex::Tool::Coreference::NodeFilter::RelPron::is_relat;
     }
+    return [$func, $params];
 }
 
 sub _is_ignored {
@@ -51,13 +60,15 @@ sub _is_ignored {
 
 sub process_tnode {
     my ($self, $tnode) = @_;
-    if ($self->_filter->($tnode)) {
+    my $func = $self->_filter->[0];
+    my $params = $self->_filter->[1];
+    if ($func->($tnode, $params)) {
         return if ($self->_is_ignored($tnode));
         print cwd() . "/" .$tnode->get_address() . "\n";
     } 
     else { 
         my @aux = $tnode->get_aux_anodes();
-        my @aux_pp = grep {$self->_filter->($_)} @aux;
+        my @aux_pp = grep {$func->($_, $params)} @aux;
         if (@aux_pp) {
             foreach my $aux_pp_1 (@aux_pp) {
                 next if $self->_is_ignored($aux_pp_1);
