@@ -249,7 +249,7 @@ CS:	Podle mluvčí také souvisejí se změnami v účetních postupech, které 
 EN:	According to a spokeswoman, they also relate to changes Franklin will have to make in its accounting procedures to comply with new federal capitalization requirements for thrifts.
 CS_T:	#PersPron.ACT mluvčí souvisejí také účetních postupech změnami <které> učinit společnost Franklin #PersPron.ACT vyhověla novým federálním požadavkům kapitalizaci záložen
 EN_T:	spokeswoman they also relate changes Franklin make <#Cor.CPHR> its accounting procedures #Cor.ACT comply new federal capitalization requirements thrifts
-ERR:ALIGN=ANTE NO_WHICH
+ERR:ALIGN=OK	NO_WHICH
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1911.final.streex##5.T-wsj1911-001-p1s4a21
 CS:	Společnost Arkla oznámila, že za třetí čtvrtletí vykáže 179 milionů dolarů v jednorázových výdajích za probíhající operace, což odráží uzavření několika smluv o zemním plynu. 
@@ -312,7 +312,7 @@ CS:	Drtivé Taylorovo vítězství nad republikánem Tomem Andersonem získává
 EN:	Mr. Taylor's overwhelming victory against Republican Tom Anderson reclaims a seat the Republicans had held for 17 years and gives the Democrats their fifth victory in the seven special House elections held this year.
 CS_T:	Drtivé Taylorovo vítězství republikánem Andersonem Tomem zpět <které> získává místo republikánská strana a zastávala 17 let demokraty znamená jejich vítězství páté sedmi volbách mimořádných Sněmovny vypsaných roce tomto
 EN_T:	Mr. Taylor overwhelming victory Republican Tom Anderson reclaims seat Republicans held <#Cor.PAT> 17 years and gives Democrats their fifth victory seven special House elections #Gen.ACT held #Cor.CPHR this year
-ERR:ALIGN=ANTE NO_WHICH
+ERR:ALIGN=OK	NO_WHICH
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1914.final.streex##3.T-wsj1914-001-p1s2a21
 CS:	Taylor, třicetišestiletý státní senátor ze zátoky St. Louis, získal 65 % hlasů v obvodu, který v posledních pěti prezidentských volbách volil republikány a který kdysi reprezentoval republikánský senátor Trent Lott. 
@@ -445,7 +445,7 @@ CS:	SPOLEČNOST AMERICAN BUILDING MAINTENANCE INDUSTRIES Inc. v San Francisku, p
 EN:	AMERICAN BUILDING MAINTENANCE INDUSTRIES Inc., San Francisco, provider of maintenance services, annual revenue of $582 million, NYSE, had some damage to headquarters and lost phone service, but operations were moved to a branch office and are running smoothly thanks to a decentralized computer system the company had developed before the quake.
 CS_T:	SPOLEČNOST #Forn.LOC #Forn.ID AMERICAN BUILDING MAINTENANCE INDUSTRIES Inc . San , Francisku poskytovatel údržbářských služeb ročním obratem 582 miliony dolarů registrovaná Newyorské burze cenných papírů utrpěla určité škody hlavním sídle společnosti a ztratila telefonní spojení #PersPron.ACT avšak provoz #Oblfm.DIR1 převeden pobočky a probíhá #PersPron.ACT hladce decentralizovanému počítačovému systému <který> společnost vyvinula ještě zemětřesením
 EN_T:	AMERICAN BUILDING MAINTENANCE INDUSTRIES Inc. San Francisco #Forn.PAR , provider maintenance #EmpVerb.RSTR services annual revenue $ 582 million NYSE had some damage headquarters and lost phone service but operations moved branch office and #Gen.ACT running #PersPron.ACT smoothly thanks decentralized computer system company developed <#Cor.PAT> quake
-ERR:ALIGN=ANTE NO_WHICH
+ERR:ALIGN=OK	NO_WHICH
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1916.final.streex##15.T-wsj1916-001-p1s14a20
 CS:	Ohledně bezpečnosti však tvrdí, že dvoupatrové dálnice postavené dnes ze silně vyztuženého betonu a silnějších sloupů, které se po zemětřesení v okrese Sylmar vyžadují, by měly odolat katastrofálnímu zemětřesení o síle 7.5 až 8 stupňů Richterovy škály. 
@@ -487,7 +487,7 @@ CS:	Dnes Caltrans používá alternativu konstrukce, kterou Parker popisuje, se 
 EN:	Caltrans today uses a variation of the design Mr. Parker describes , with spiraling steel rods inside.
 CS_T:	Dnes Caltrans používá alternativu konstrukce <kterou> Parker popisuje spirálovitými ocelovými tyčemi uvnitř
 EN_T:	Caltrans today uses variation design Mr. Parker describes <#Cor.PAT> spiraling steel rods inside
-ERR:ALIGN=ANTE NO_WHICH
+ERR:ALIGN=OK	NO_WHICH
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1916.final.streex##21.T-wsj1916-001-p1s20a29
 CS:	V případě dálnice Nimitz Freeway však nedostatek takových podpěr způsobil, že se jádro sloupů rozdrolilo a prohnulo pod tíhou druhého patra, přičemž rozdrtilo řidiče, kteří byli o necelých 15 stop níže natěsnaní jeden za druhým v dopravní špičce. 
@@ -529,7 +529,7 @@ CS:	To je otázka, kterou si včera pokládali stavební inženýři a kaliforn�
 EN:	That was the question structural engineers and California transportation officials were asking themselves yesterday as rescue workers began the gruesome task of trying to extract as many as 250 victims from beneath the concrete slabs of the double-deck Nimitz Freeway in Oakland that caved in during Tuesday's temblor.
 CS_T:	To je otázka <kterou> si včera pokládali stavební inženýři a kalifornští dopravní úředníci záchranáři začali #Cor.ACT pracovat hrůzostrašném úkolu #PersPron.ACT pokusit #Cor.ACT vyprostit betonových trosek patrové dálnice #Forn.ID Nimitz Freeway Oaklandu která zřítila úterního zemětřesení nejméně 250 obětí
 EN_T:	That was question structural engineers and California transportation officials asking <#Cor.PAT> themselves yesterday rescue workers began gruesome #Cor.ADDR task #Cor.ACT trying #Cor.ACT extract 250 victims as concrete slabs double-deck Nimitz Freeway Oakland that caved Tuesday temblor
-ERR:ALIGN=ANTE NO_WHICH
+ERR:ALIGN=OK	NO_WHICH
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1916.final.streex##5.T-wsj1916-001-p1s4a9
 CS:	Existují však i jiné dlouhodobé následky, které vyvolávají závažné otázky ohledně schopnosti kalifornské infrastruktury odolat velkému zemětřesení. 
@@ -1180,7 +1180,7 @@ CS:	To je otázka, na níž nemůže Východní Německo odpovědět snadno, ať
 EN:	That's a question East Germany can't answer easily, no matter what its new leader does .
 CS_T:	To je otázka #Gen.ADDR <níž> Východní Německo odpovědět #Neg.RHEM snadno už jeho nový představitel udělá cokoli
 EN_T:	That 's question East Germany n't answer <#Cor.PAT> easily what its new leader does
-ERR:ALIGN=ANTE NO_WHICH
+ERR:ALIGN=OK	NO_WHICH
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1929.final.streex##6.T-wsj1929-001-p1s5a25
 CS:	Krenz má podobnou profesní dráhu jako Erich Honecker: Oba strávili roky dozorem nad organizací Freie Deutsche Jugend, skupinou mladých lidí, která je hlavním nástrojem komunistického režimu při důrazné přeměně mladých Němců v socialistické občany. 
@@ -1572,7 +1572,7 @@ CS:	Zákonem prosazené zdroje odvádí v době, kdy jsou nejvíce potřebné pr
 EN:	They divert law-enforcement resources at a time they are most needed for protecting lives and property .
 CS_T:	#PersPron.ACT Zákonem prosazené zdroje odvádí #Oblfm.DIR1 době #PersPron.ACT <kdy> jsou nejvíce potřebné záchranu životů a majetku
 EN_T:	They divert #Oblfm.DIR1 #Oblfm.DIR3 law-enforcement resources <time> they most #Gen.ACT needed protecting #Cor.ACT lives and property
-ERR:ALIGN=ANTE NO_WHICH
+ERR:ALIGN=ANTE N	NO_WHICH
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1935.final.streex##36.T-wsj1935-001-p1s35a24
 CS:	Co ti starostliví lidé po celé zemi, kteří přispívají na potraviny, vodu a další životní nezbytnosti těmto lidem, kterými může být kdokoli z nás? 
@@ -1628,7 +1628,7 @@ CS:	Mám pro pana Labanda otázku: Jak vysvětlím svobodné matce tří dětí,
 EN:	I have a question for Mr. Laband: How do I explain to the single mother of three standing in line next to me for the past three hours that the two bags of ice she needs to keep her children's food edible will take her last $20 ?
 CS_T:	#PersPron.ACT Mám pana Labanda otázku #PersPron.ACT Jak vysvětlím svobodné matce tří dětí která stojí mě více tři hodiny frontě ty dvě tašky ledu #PersPron.ACT <které> potřebuje potraviny její děti zůstaly poživatelné ji stát posledních 20 dolarů
 EN_T:	I have question Mr. Laband How I explain single mother three standing line next me past three hours two bags ice she needs <#Cor.PAT> #Cor.ACT keep her children food edible take her last $ 20
-ERR:ALIGN=ANTE NO_WHICH
+ERR:ALIGN=OK	NO_WHICH
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1935.final.streex##59.T-wsj1935-001-p1s58a8
 CS:	Jsem si jist, že ocení, jakou efektivní reakci na její problémy jí vytvořil cenový systém. 
@@ -1866,7 +1866,7 @@ CS:	Kdyby potom akcie prudce klesly, měl v úmyslu je aktivně nakupovat na zá
 EN:	Then, if the stocks fell sharply, he planned to begin buying them aggressively, on the theory that the companies that insure against property damage and accidents will have to raise rates eventually to compensate for the claims they will pay to earthquake victims and victims of last month's Hurricane Hugo.
 CS_T:	#PersPron.ACT potom akcie prudce klesly měl úmyslu je #Cor.ACT aktivně nakupovat teorie společnosti které pojišťují #Gen.PAT majetkovým škodám a nehodám nakonec zvýšit sazby #PersPron.ACT uhradit pojistné škody #PersPron.ACT <které> vyplatí obětem zemětřesení a obětem hurikánu Huga minulého měsíce
 EN_T:	Then stocks fell sharply he planned #Cor.ACT begin buying #Cor.ACT them aggressively theory companies that insure #Gen.PAT property damage and accidents raise rates eventually #Cor.ACT compensate #Gen.ADDR claims they pay <#Cor.PAT> earthquake victims and victims last month Hurricane Hugo
-ERR:ALIGN=ANTE NO_WHICH
+ERR:ALIGN=OK	NO_WHICH
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1937.final.streex##20.T-wsj1937-001-p1s19a11
 CS:	Mnoho investorů očekávalo, že v tomto odvětví, které je kvůli nízkým sazbám vyplývajícím ze silné konkurence v útlumu, škoda po hurikánu urychlí nástup vyšších sazeb. 
@@ -2048,7 +2048,7 @@ CS:	Senátor Bradley si myslí, že takové snížení daní by způsobilo rozpa
 EN:	Sen. Bradley has it in his mind that such a tax cut would unravel the tax reform he helped engineer in 1986.
 CS_T:	Senátor Bradley myslí #Gen.ACT takové snížení daní způsobilo rozpad daňové reformy #Gen.ADDR #PersPron.ACT #Cor.ACT <kterou> roce 1986 pomáhal připravovat
 EN_T:	Sen. Bradley has his mind such tax cut unravel tax reform he engineer <#Cor.PAT> 1986
-ERR:ALIGN=ANTE NO_WHICH
+ERR:ALIGN=OK	NO_WHICH
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1939.final.streex##4.T-wsj1939-001-p1s3a16
 CS:	Ví však, že nejméně 20 jeho kolegů demokratů je pro toto snížení, které je mezi jejich voliči populární, připraveno hlasovat. 
@@ -2454,7 +2454,7 @@ CS:	Zpráva tiskové agentury Associated Press o pondělním příkazu k sekvest
 EN:	However, the Associated Press's account of the Monday sequester order signed by President Bush neatly captured the contempt Congress shows toward the notion of a legally binding commitment:
 CS_T:	Zpráva tiskové agentury Associated #Forn.ID Press pondělním příkazu sekvestraci který podepsal prezident Bush však přesně vystihla pohrdání #PersPron.PAT #PersPron.ACT #Gen.ADDR <které> dává Kongres najevo pojetí #Gen.ACT právně závazné povinnosti
 EN_T:	However Associated Press account Monday sequester order signed #Cor.PAT President Bush neatly captured contempt Congress shows <#Cor.CPHR> notion legally binding commitment
-ERR:ALIGN=ANTE NO_WHICH
+ERR:ALIGN=OK	NO_WHICH
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1952.final.streex##11.T-wsj1952-001-p1s10a3
 CS:	Zpráva tiskové agentury Associated Press o pondělním příkazu k sekvestraci, který podepsal prezident Bush, však přesně vystihla pohrdání, které dává Kongres najevo ohledně pojetí právně závazné povinnosti: 
@@ -2692,5 +2692,5 @@ CS:	V Hongkongu, Sydney a Singapuru - na největších z těchto burz - se akcie
 EN:	In Hong Kong, Sydney and Singapore -- the largest of those exchanges -- stocks recovered one-third to one-half of the ground they lost in Monday's plunge, with major market indexes posting gains of 3.6% to 4.4%.
 CS_T:	přičemž Hongkongu Sydney a Singapuru největších těchto - burz burz akcie zotavily třetinu až polovinu hodnoty #PersPron.ACT <kterou> ztratily pondělním propadu velké tržní indexy hlásí vzrůsty 3.6 až 4.4 %
 EN_T:	Hong Kong #Forn.LOC Sydney and Singapore -- largest those exchanges stocks recovered to one-third one-half ground they lost <#Cor.PAT> Monday plunge major market indexes posting gains to 3.6 % 4.4 %
-ERR:ALIGN=ANTE NO_WHICH
+ERR:ALIGN=OK	NO_WHICH
 
