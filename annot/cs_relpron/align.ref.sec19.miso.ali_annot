@@ -1,9 +1,9 @@
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1957.final.streex##65.T-wsj1957-001-p1s64a17
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1957.final.streex##65.T-wsj1957-001-p1s64a17
 CS:	Aby byly přímo srovnatelné, každý index je založen na uzavření z roku 1969, které má hodnotu 100. 
 EN:	To make them directly comparable, each index is based on the close of 1969 equaling 100.
 CS_T:	#Gen.ACT #PersPron.ACT byly přímo srovnatelné každý index založen #PersPron.ACT uzavření roku 1969 <které> má hodnotu 100
 EN_T:	#Gen.ACT make them directly comparable each index <based> #Gen.ACT close 1969 equaling 100
-ERR: ALIGN=ANTE
+ERR: ALIGN=ANTE V na equal visi aj close
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1957.final.streex##6.T-wsj1957-001-p1s5a13
 CS:	Tento vzestup přišel den po největším letošním propadu v pondělí, kdy index Nikkei spadl v reakci na páteční 6.9% propad na Wall Street o 647.33, neboli 1.8 %. 
@@ -124,7 +124,7 @@ CS_T:	Tudíž investor <který> dosáhnout zisku prodejních opcích OEX měl po
 EN_T:	So investor <who> wanted #Cor.ACT realize profit OEX puts trading suspension been luck
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1962.final.streex##45.T-wsj1962-001-p1s44a15
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1962.final.streex##45.T-wsj1962-001-p1s44a15
 CS:	Ochrana při použití zajištěných prodejních opcí je evidentně lepší než ta, kterou lze získat jinou opční strategií, o jejímž použití někteří investoři v problémových dobách uvažují: Prodejem opcí k nákupu na akcie, které investor vlastní. 
 EN:	The protection from using married puts is clearly superior to that afforded by another options strategy some investors consider using during troubled times: selling call options on stocks the investor owns .
 CS_T:	Ochrana #Gen.ACT použití zajištěných prodejních opcí je evidentně lepší je ta Ochrana #Cor.ACT <kterou> lepší lze #Benef.BEN získat jinou opční strategií #Gen.ACT jejímž použití někteří investoři problémových uvažují dobách : Prodejem opcí nákupu akcie které investor vlastní
@@ -159,12 +159,12 @@ CS_T:	Řešením #Gen.ACT #Gen.PAT alespoň některé investory být technika st
 EN_T:	solution least some investors be hedging technique <that> well known players stock-options market
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1962.final.streex##5.T-wsj1962-001-p1s4a6
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1962.final.streex##5.T-wsj1962-001-p1s4a6
 CS:	Tato technika, která se nazývá "zajištěný opční prodej", spočívá v nákupu akcie a současném nákupu prodejní opce na tu akcii. 
 EN:	Called a ``married put,'' the technique is carried out by purchasing a stock and simultaneously buying a put option on that stock.
 CS_T:	Tato technika <která> nazývá zajištěný opční prodej spočívá nákupu akcie a současném nákupu prodejní opce tu akcii
 EN_T:	Called <#Cor.PAT> #Gen.ACT married put technique carried #Gen.ACT #Cor.ACT purchasing stock and simultaneously buying put option that stock
-ERR: ALIGN=OK
+ERR: ALIGN=OK COMPL
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1963.final.streex##2.T-wsj1963-001-p1s1a23
 CS:	Čelní představitelé sněmovny doufali, že budou následovat vedení senátu tím, že dostanou od předsedů sněmovní komise svolení, na jehož základě by ještě před zahájením jednání se senátem upustili od bodů, které by nevedly ke snížení deficitu rozpočtu na fiskální rok 1990 z návrhu zákona, který již sněmovnou prošel. 
@@ -180,12 +180,12 @@ CS_T:	Čelní představitelé sněmovny doufali následovat #PersPron.ACT veden�
 EN_T:	House leaders hoped #Cor.ACT follow Senate lead getting #Cor.ACT House committee chairmen agreement which they drop items <that> n't reduce fiscal 1990 budget deficit House-passed bill negotiations Senate began
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1963.final.streex##2.T-wsj1963-001-p1s1a50
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1963.final.streex##2.T-wsj1963-001-p1s1a50
 CS:	Čelní představitelé sněmovny doufali, že budou následovat vedení senátu tím, že dostanou od předsedů sněmovní komise svolení, na jehož základě by ještě před zahájením jednání se senátem upustili od bodů, které by nevedly ke snížení deficitu rozpočtu na fiskální rok 1990 z návrhu zákona, který již sněmovnou prošel. 
 EN:	House leaders had hoped to follow the Senate's lead by getting an agreement from House committee chairmen under which they would drop items that wouldn't reduce the fiscal 1990 budget deficit from the House-passed bill before the negotiations with the Senate began .
 CS_T:	Čelní představitelé sněmovny doufali následovat #PersPron.ACT vedení senátu #PersPron.ACT dostanou předsedů sněmovní komise svolení #PersPron.ADDR #PersPron.ACT #Gen.PAT #PersPron.ACT jehož základě ještě #Gen.ACT zahájením #PersPron.PAT #PersPron.ACT jednání senátem upustili bodů #Neg.RHEM které nevedly #Gen.ACT snížení deficitu rozpočtu fiskální rok 1990 návrhu zákona <který> již sněmovnou prošel
-EN_T:	House leaders hoped #Cor.ACT follow Senate lead getting #Cor.ACT House committee chairmen agreement which they drop items that n't reduce fiscal 1990 budget deficit House-passed bill negotiations Senate began
-ERR: ALIGN=0 WORD_DERIVATE
+EN_T:	House leaders hoped #Cor.ACT follow Senate lead getting #Cor.ACT House committee chairmen agreement which they drop items that n't reduce fiscal 1990 budget deficit House-passed <bill> negotiations Senate began
+ERR: ALIGN=ANTE N
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1963.final.streex##3.T-wsj1963-001-p1s2a11
 CS:	Tyto snahy se ale začaly zadrhávat na otázce, co se stane s dalšími záležitostmi od snížení daně z kapitálových zisků přes péči o dítě po zrušení pojištění proti vážným nemocem. 
@@ -215,7 +215,7 @@ CS_T:	Společnost #Forn.ID McCormick Capital Inc . uvedla její veřejnou nabíd
 EN_T:	McCormick Capital Inc. said #Gen.ADDR its tender offer #Cor.ACT buy as 1.1 million or 44 % its common shares $ 3 apiece <which> expired Friday evening oversubscribed #Gen.ACT
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1966.final.streex##2.T-wsj1966-001-p1s1a26
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1966.final.streex##2.T-wsj1966-001-p1s1a26
 CS:	Tento investor a manažer veřejné obchodní společnosti na investice do termínových obchodů uvedl, že podle předběžných výsledků bylo nabídnuto kolem 1749000 akcií, což dává předběžný faktor poměrného rozdělení 6287. 
 EN:	The developer and manager of futures-investment limited partnerships said preliminary results indicate that about 1,749,000 shares had been tendered , giving a preliminary proration factor of 0.6287.
 CS_T:	Tento investor a manažer veřejné obchodní společnosti investice termínových obchodů uvedl #PersPron.ADDR #Gen.ACT předběžných výsledků nabídnuto 1749000 akcií , <což> dává předběžný faktor #Gen.ACT poměrného rozdělení #PersPron.PAT 6287
@@ -257,12 +257,12 @@ CS_T:	To deficit rozpočtu krmí je třeba obrovskou chuť této země cizí zbo
 EN_T:	That 's budget deficit feeds enormous appetite this country both foreign goods and foreign capital <#Cor.ACT> overwhelming nation capacity #Cor.ACT export #Gen.PAT
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1970.final.streex##2.T-wsj1970-001-p1s1a8
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1970.final.streex##2.T-wsj1970-001-p1s1a8
 CS:	Ministerstvo obchodu informovalo, že obchodní deficit zboží v srpnu vzrostl na 10.77 miliardy dolarů, což je oproti červencovým 8.24 miliardy dolarů prudké zhoršení a nejvyšší měsíční deficit za celý letošní rok. 
 EN:	The merchandise trade deficit widened in August to $10.77 billion , the Commerce Department reported , a sharp deterioration from July's $8.24 billion and the largest deficit of any month this year.
 CS_T:	#Gen.ADDR Ministerstvo obchodu informovalo obchodní deficit zboží srpnu vzrostl 10.77 miliardy dolarů , <což> je červencovým 8.24 miliardy dolarů #PersPron.ACT prudké zhoršení a nejvyšší měsíční deficit celý letošní rok
-EN_T:	merchandise trade deficit widened August $ 10.77 billion , Commerce Department reported #Gen.ADDR #PersPron.PAT sharp #EmpVerb.PRED deterioration July $ 8.24 billion and largest deficit any month this year
-ERR:
+EN_T:	merchandise trade deficit widened August $ 10.77 billion <,> Commerce Department reported #Gen.ADDR #PersPron.PAT sharp #EmpVerb.PRED deterioration July $ 8.24 billion and largest deficit any month this year
+ERR: ALIGN=OK APPS
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1970.final.streex##31.T-wsj1970-001-p1s30a10
 CS:	"Nejlepší výsledek, který bychom z těchto čísel mohli dostat, by bylo, že by vláda a Kongres začali brát vážně fakt, že Spojeným státům mají dát mezinárodně konkurenceschopnou ekonomiku," uvedl Howard Lewis, viceprezident mezinárodních ekonomických záležitostí Národní asociace výrobců. 
@@ -271,7 +271,7 @@ CS_T:	Nejlepší výsledek #PersPron.ACT <který> těchto čísel dostat bylo vl
 EN_T:	best result we get <#Cor.PAT> these numbers be see #PersPron.ACT administration and Congress get serious #Cor.ACT #Cor.ACT putting U.S. internationally competitive economic footing said #Gen.ADDR Howard Lewis , vice president international economic affairs National Association Manufacturers
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1970.final.streex##4.T-wsj1970-001-p1s3a12
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1970.final.streex##4.T-wsj1970-001-p1s3a12
 CS:	"Toto je jedna z nejhorších obchodních zpráv, které jsme zveřejnili od té doby, co šel dolar v roce 1987 ke dnu," uvedl Geoffrey Dennis, hlavní mezinárodní ekonom u společnosti James Capel Inc. 
 EN:	``This is one of the worst trade releases we've had since the dollar troughed out in 1987,'' said Geoffrey Dennis, chief international economist at James Capel Inc.
 CS_T:	Toto je jedna nejhorších obchodních zpráv #PersPron.ACT <které> zveřejnili té doby šel dolar roce 1987 dnu uvedl Geoffrey Dennis , hlavní mezinárodní ekonom společnosti #Forn.ID James Capel Inc
@@ -327,12 +327,12 @@ CS_T:	Univerzitní specialisté počítače <kteří> tento krok uvítali jej al
 EN_T:	But university computer specialists <who> welcomed move called it necessary retreat cutting edge technology and one that 's increase likely Next sales campuses
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1971.final.streex##23.T-wsj1971-001-p1s22a8
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1971.final.streex##23.T-wsj1971-001-p1s22a8
 CS:	"Ze stavu, kdy byli v první linii technologie, je to krok zpátky," řekl Jerry W. Sprecher, hlavní manažer počítačového systému na státní kalifornské univerzitě. 
 EN:	``From the standpoint of being on the forefront of technology, this is a step backward,'' said Jerry W. Sprecher, a senior computing manager for the California state university system.
 CS_T:	#Gen.ADDR stavu #PersPron.ACT <kdy> byli první linii technologie je to krok zpátky řekl Jerry W Sprecher , hlavní manažer počítačového systému státní kalifornské univerzitě
 EN_T:	<standpoint> being #PersPron.ACT forefront technology this is step backward said #Gen.ADDR Jerry W. Sprecher , senior computing manager California state university system
-ERR: ALIGN=ANTE
+ERR: ALIGN=ANTE N
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1971.final.streex##26.T-wsj1971-001-p1s25a31
 CS:	"Stále bychom rádi viděli studentský model" s cenou kolem 3500 dolarů, řekl Ronald Johnson, ředitel akademického výpočetního střediska na Univerzitě Gustava Adolfa v Minnesotě, která koupila osm počítačů Next. 
@@ -348,19 +348,19 @@ CS_T:	Většina softwaru distribuuje #Gen.ACT levných disketách ale #PersPron.
 EN_T:	Most software #Gen.ACT distributed #Gen.ADDR cheap floppy disks but Next computer n't come device <that> reads them
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1971.final.streex##2.T-wsj1971-001-p1s1a20
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1971.final.streex##2.T-wsj1971-001-p1s1a20
 CS:	Jobs včera přistoupil k řešení několika nedostatků svých počítačů snížením základní ceny počítače Next o 1500 dolarů, což činí 23 %, pokud kupující zvolí místo optického paměťového zařízení pevný disk. 
 EN:	Mr. Jobs moved to remedy a couple of his computer's drawbacks yesterday by lowering the entry-level price for a Next machine by $1,500, or 23%, if the buyer chooses a hard-disk drive as an alternative to Next's optical-storage device.
 CS_T:	Jobs včera přistoupil řešení #PersPron.ACT několika nedostatků svých počítačů #PersPron.ACT snížením základní ceny počítače Next 1500 dolarů , <což> činí 23 % kupující zvolí optického paměťového zařízení pevný disk
 EN_T:	Mr. Jobs moved #PersPron.ACT remedy couple his computer drawbacks yesterday lowering #Cor.ACT entry-level price Next machine $ 1,500 <or> 23 % buyer chooses hard-disk drive alternative Next optical-storage device
-ERR: ALIGN=0 APPS
+ERR: ALIGN=OK APPS
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1971.final.streex##33.T-wsj1971-001-p1s32a7
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1971.final.streex##33.T-wsj1971-001-p1s32a7
 CS:	Next nebude uvádět, kdy se přidá, existuje ale domněnka, že barevný model je ve vývoji. 
 EN:	Next won't comment on when it will do the same , but is believed to have a color model under development.
 CS_T:	Next uvádět #Neg.RHEM #Oblfm.DIR3 #PersPron.ACT <kdy> přidá existuje ale domněnka barevný model je vývoji
-EN_T:	Next n't comment it <do> same but believed #Cor.ACT have color model development
-ERR:
+EN_T:	Next n't comment it <__A:EnglishA-wsj_1971-s33-t6_do> same but believed #Cor.ACT have color model development
+ERR: ALIGN=OK FUSED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1971.final.streex##3.T-wsj1971-001-p1s2a6
 CS:	Pevný disk, což je paměťové zařízení vhodné skutečně pro všechny uživatele stolního počítače, bude nyní také doplňkem futuristického optického zařízení společnosti Next, pokud kupující zaplatí plnou cenu. 
@@ -397,19 +397,19 @@ CS_T:	Společnost #Forn.ID Ashton - Tate Corp . vykázala čistou ztrátu třet�
 EN_T:	Ashton-Tate Corp. reported #Gen.ADDR net loss $ 19.4 million or 74 cents share third quarter <which> burdened severance costs and expense #PersPron.ACT upgrading its database software inventories
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1973.final.streex##1.T-wsj1973-001-p1s0a35
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1973.final.streex##1.T-wsj1973-001-p1s0a35
 CS:	Společnost Ashton-Tate Corp. vykázala čistou ztrátu za třetí čtvrtletí, které bylo zatíženo náklady na rozdělení a výdaji na aktualizaci obsahu databázového softwaru, ve výši 19.4 milionu dolarů, což činí 74 centů na akcii. 
 EN:	Ashton-Tate Corp. reported a net loss of $19.4 million, or 74 cents a share, for the third quarter, which was burdened by severance costs and the expense of upgrading its database software inventories.
 CS_T:	Společnost #Forn.ID Ashton - Tate Corp . vykázala čistou ztrátu třetí čtvrtletí které zatíženo náklady #PersPron.ACT rozdělení #PersPron.PAT a výdaji aktualizaci obsahu databázového softwaru výši 19.4 milionu , dolarů <což> činí 74 centů akcii
 EN_T:	Ashton-Tate Corp. reported #Gen.ADDR net loss $ 19.4 million <or> 74 cents share third quarter which burdened severance costs and expense #PersPron.ACT upgrading its database software inventories
-ERR: ALIGN=0 APPS
+ERR: ALIGN=OK APPS
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1973.final.streex##20.T-wsj1973-001-p1s19a18
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1973.final.streex##20.T-wsj1973-001-p1s19a18
 CS:	V národním mimoburzovním obchodování uzavřela včera společnost Ashton-Tate na 10 dolarech na akcii, čímž stoupla o 62.5 centu. 
 EN:	In national over-the-counter trading, Ashton-Tate closed yesterday at $10 a share, up 62.5 cents.
 CS_T:	#Gen.PAT #Gen.ACT národním mimoburzovním obchodování uzavřela včera společnost #Forn.ID Ashton - Tate 10 dolarech akcii , #PersPron.ACT <čímž> stoupla 62.5 centu
 EN_T:	national over-the-counter trading Ashton-Tate closed yesterday $ 10 share <,> up 62.5 cents
-ERR: ALIGN=0 APPS
+ERR: ALIGN=OK APPS
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1973.final.streex##3.T-wsj1973-001-p1s2a10
 CS:	To je v kontrastu s loňským čtvrtletím, kdy měla společnost čistý příjem ve výši 11.7 milionu dolarů, což činí 45 centů na akcii, při obratu 75.7 milionu dolarů. 
@@ -418,26 +418,26 @@ CS_T:	To je kontrastu loňským čtvrtletím <kdy> měla společnost čistý př
 EN_T:	This contrasts year-ago quarter <when> company had net income $ 11.7 million or 45 cents share revenue $ 75.7 million
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1973.final.streex##3.T-wsj1973-001-p1s2a16
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1973.final.streex##3.T-wsj1973-001-p1s2a16
 CS:	To je v kontrastu s loňským čtvrtletím, kdy měla společnost čistý příjem ve výši 11.7 milionu dolarů, což činí 45 centů na akcii, při obratu 75.7 milionu dolarů. 
 EN:	This contrasts with the year-ago quarter, when the company had net income of $11.7 million, or 45 cents a share, on revenue of $75.7 million .
 CS_T:	To je kontrastu loňským čtvrtletím kdy měla společnost čistý příjem výši 11.7 milionu dolarů , <což> činí 45 centů akcii obratu 75.7 milionu dolarů
-EN_T:	This contrasts year-ago quarter when company had net income $ 11.7 million or 45 cents share revenue $ 75.7 million
-ERR:
+EN_T:	This contrasts year-ago quarter when company had net income $ 11.7 million <or> 45 cents share revenue $ 75.7 million
+ERR: ALIGN=OK APPS
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1973.final.streex##4.T-wsj1973-001-p1s3a11
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1973.final.streex##4.T-wsj1973-001-p1s3a11
 CS:	Za devět měsíců měla společnost Ashton-Tate ztrátu 27.6 milionu dolarů, což činí 1.05 dolaru na akcii. 
 EN:	For the nine months, Ashton-Tate had a loss of $27.6 million, or $1.05 a share.
 CS_T:	devět měsíců měla společnost #Forn.ID Ashton - Tate ztrátu 27.6 milionu dolarů , <což> činí 1.05 dolaru akcii
 EN_T:	nine months Ashton-Tate had loss $ 27.6 million <or> $ 1.05 share
-ERR: ALIGN=0 APPS
+ERR: ALIGN=OK APPS
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1973.final.streex##5.T-wsj1973-001-p1s4a12
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1973.final.streex##5.T-wsj1973-001-p1s4a12
 CS:	V loňském období měla společnost zisk 34.3 milionu dolarů, což činí 1.32 dolaru na akcii. 
 EN:	In the year-ago period, the company had profit of $34.3 million, or $1.32 a share.
 CS_T:	loňském období měla společnost zisk 34.3 milionu dolarů , <což> činí 1.32 dolaru akcii
 EN_T:	year-ago period company had profit $ 34.3 million <or> $ 1.32 share
-ERR: ALIGN=0 APPS
+ERR: ALIGN=OK APPS
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1973.final.streex##8.T-wsj1973-001-p1s7a12
 CS:	Uvedl, že společnost je "povzbuzena zpětnou vazbou", kterou dostala od vybraných zákazníků, kteří nyní testují verzi 1.1. 
@@ -453,14 +453,14 @@ CS_T:	#PersPron.ACT Uvedl společnost povzbuzena zpětnou vazbou #PersPron.ACT k
 EN_T:	He said #Gen.ADDR company encouraged feedback it received #Cor.PAT selected customers now <#Cor.ACT> testing Version 1.1
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1973.final.streex##9.T-wsj1973-001-p1s8a22
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1973.final.streex##9.T-wsj1973-001-p1s8a22
 CS:	Ztráta Wall Street nepřekvapila, ale analytikové uvedli, že vidí neblahé náznaky dalšího zpoždění dodávky balíku verze 1.1, což je předzvěstí ztrát pokračujících ve čtvrtém čtvrtletí. 
 EN:	The red ink came as no surprise to Wall Street, but analysts said they saw ominous hints of a further delay in volume shipments of Version 1.1, a harbinger of continued losses in the fourth quarter.
 CS_T:	#Neg.RHEM Ztráta Wall Street nepřekvapila #Forn.PAT ale analytikové uvedli vidí #PersPron.ACT neblahé náznaky dalšího zpoždění dodávky , balíku verze 1.1 <což> je předzvěstí ztrát pokračujících čtvrtém čtvrtletí
 EN_T:	red ink came no surprise Wall Street but analysts said #Gen.ADDR they saw ominous <,> hints further delay volume shipments Version 1.1 harbinger continued losses fourth quarter
-ERR: ALIGN=0 APPS
+ERR: ALIGN=OK APPS
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1974.final.streex##12.T-wsj1974-001-p1s11a6
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1974.final.streex##12.T-wsj1974-001-p1s11a6
 CS:	OBCHODNÍ CENNÉ PAPÍRY, které dala k dispozici přímo společnost General Motors Acceptance Corp.: 8.40 % na 30 až 44 dní, 8325 % na 45 až 59 dní, 8.10 % na 60 až 89 dní, 8 % na 90 až 119 dní, 7.85 % na 120 až 149 dní, 7.70 % na 150 až 179 dní, 7375 % na 180 až 270 dní. 
 EN:	COMMERCIAL PAPER placed directly by General Motors Acceptance Corp.: 8.40% 30 to 44 days; 8.325% 45 to 59 days; 8.10% 60 to 89 days; 8% 90 to 119 days; 7.85% 120 to 149 days; 7.70% 150 to 179 days; 7.375% 180 to 270 days.
 CS_T:	OBCHODNÍ CENNÉ PAPÍRY #Gen.ADDR <které> dala dispozici přímo společnost : , #EmpVerb.PRED #EmpVerb.PRED #EmpVerb.PRED #EmpVerb.PRED #EmpVerb.PRED #EmpVerb.PRED #EmpVerb.PRED General Motors Acceptance Corp . 8.40 % #Forn.ID 30 až 44 dní 8325 % 45 až 59 dní 8.10 % 60 až 89 dní 8 % 90 až 119 dní 7.85 % 120 až 149 dní 7.70 % 150 až 179 dní 7375 % 180 až 270 dní
@@ -488,12 +488,12 @@ CS_T:	Převoditelné obchodní úvěrové prostředky bankovním jištěním #Ge
 EN_T:	Negotiable bank-backed business credit instruments typically financing <#Cor.ACT> import order
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1974.final.streex##32.T-wsj1974-001-p1s31a15
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1974.final.streex##32.T-wsj1974-001-p1s31a15
 CS:	Průměrná návratnost počítaná v celoročním poměru po výdajích za posledních 30 dní, což není předpověď budoucí návratnosti. 
 EN:	Annualized average rate of return after expenses for the past 30 days; not a forecast of future returns.
 CS_T:	, Průměrná návratnost počítaná celoročním poměru výdajích posledních 30 dní #Neg.RHEM <což> není předpověď budoucí návratnosti
-EN_T:	Annualized average rate return expenses past #EmpVerb.PRED 30 days ; not <__A:EnglishA-wsj_1974-s32-t15__forecast> #EmpVerb.PRED future returns
-ERR:
+EN_T:	Annualized average rate return expenses past #EmpVerb.PRED 30 days <;> not forecast #EmpVerb.PRED future returns
+ERR: ALIGN=OK APPS
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1974.final.streex##6.T-wsj1974-001-p1s5a6
 CS:	Rezervy, se kterými obchodovaly komerční banky pro noční využití ve výši 1 milion dolarů nebo více. 
@@ -502,33 +502,33 @@ CS_T:	Rezervy #Gen.ADDR <kterými> obchodovaly komerční banky #PersPron.PAT #G
 EN_T:	Reserves <#Cor.PAT> traded #Gen.ACT commercial banks overnight use amounts $ 1 million or more
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1975.final.streex##10.T-wsj1975-001-p1s9a19
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1975.final.streex##10.T-wsj1975-001-p1s9a19
 CS:	Společnost Ethyl uvedla, že čistý zisk za devět měsíců klesl z loňských 172.2 milionu dolarů, což činí 1.42 dolaru na akcii, o 2 % na 168.7 milionu dolarů, což činí 1.40 dolaru na akcii. 
 EN:	For the nine months, Ethyl said net fell 2% to $168.7 million, or $1.40 a share, from $172.2 million, $1.42 a share, a year ago.
 CS_T:	Společnost Ethyl uvedla čistý zisk devět měsíců klesl loňských 172.2 milionu , dolarů <což> činí 1.42 dolaru akcii 2 % 168.7 milionu , dolarů což činí 1.40 dolaru akcii
-EN_T:	nine months Ethyl said #Gen.ADDR net fell 2 % $ 168.7 million or $ 1.40 share $ , 172.2 million $ 1.42 share year
-ERR:
+EN_T:	nine months Ethyl said #Gen.ADDR net fell 2 % $ 168.7 million or $ 1.40 share $ <,> 172.2 million $ 1.42 share year
+ERR: ALIGN=OK APPS
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1975.final.streex##10.T-wsj1975-001-p1s9a34
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1975.final.streex##10.T-wsj1975-001-p1s9a34
 CS:	Společnost Ethyl uvedla, že čistý zisk za devět měsíců klesl z loňských 172.2 milionu dolarů, což činí 1.42 dolaru na akcii, o 2 % na 168.7 milionu dolarů, což činí 1.40 dolaru na akcii. 
 EN:	For the nine months, Ethyl said net fell 2% to $168.7 million, or $1.40 a share, from $172.2 million, $1.42 a share, a year ago.
 CS_T:	Společnost Ethyl uvedla čistý zisk devět měsíců klesl loňských 172.2 milionu , dolarů což činí 1.42 dolaru akcii 2 % 168.7 milionu , dolarů <což> činí 1.40 dolaru akcii
-EN_T:	nine months Ethyl said #Gen.ADDR net fell 2 % $ 168.7 million or $ 1.40 share $ , 172.2 million $ 1.42 share year
-ERR:
+EN_T:	nine months Ethyl said #Gen.ADDR net fell 2 % $ 168.7 million <or> $ 1.40 share $ , 172.2 million $ 1.42 share year
+ERR: ALIGN=OK APPS
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1975.final.streex##13.T-wsj1975-001-p1s12a8
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1975.final.streex##13.T-wsj1975-001-p1s12a8
 CS:	Příjem činil 1.79 miliardy dolarů, čímž stoupl z loňských 1.52 miliardy dolarů o 18 %. 
 EN:	Revenue was $1.79 billion, up 18% from $1.52 billion a year earlier.
 CS_T:	Příjem činil 1.79 miliardy dolarů , #PersPron.ACT <čímž> stoupl loňských 1.52 miliardy dolarů 18 %
-EN_T:	Revenue was $ 1.79 billion up 18 % $ 1.52 billion year earlier
-ERR:
+EN_T:	Revenue <was> $ 1.79 billion up 18 % $ 1.52 billion year earlier
+ERR: ALIGN=ANTE V
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1975.final.streex##14.T-wsj1975-001-p1s13a19
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1975.final.streex##14.T-wsj1975-001-p1s13a19
 CS:	V kompozitním obchodování na Newyorské burze cenných papírů uzavřela společnost Ethyl na 25875 dolaru na akcii, čímž stoupla o 12.5 centu. 
 EN:	In New York Stock Exchange composite trading, Ethyl closed at $25.875 a share, up 12.5 cents.
 CS_T:	#Gen.PAT #Gen.ACT kompozitním obchodování Newyorské burze cenných papírů uzavřela společnost Ethyl 25875 dolaru akcii #PersPron.ACT , <čímž> stoupla 12.5 centu
-EN_T:	New York Stock Exchange composite trading Ethyl closed $ 25.875 share , up 12.5 cents
-ERR:
+EN_T:	New York Stock Exchange composite trading Ethyl closed $ 25.875 share <,> up 12.5 cents
+ERR: ALIGN=OK APPS
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1975.final.streex##1.T-wsj1975-001-p1s0a22
 CS:	Společnost Ethyl Corp. oznámila, že čistý zisk za třetí čtvrtletí klesl oproti témuž čtvrtletí v loňském roce, kterému pomohly zisky z přerušených provozů, o 12 %. 
@@ -537,26 +537,26 @@ CS_T:	#Gen.ADDR Společnost #Forn.ID Ethyl Corp . oznámila čistý zisk třetí
 EN_T:	Ethyl Corp. reported #Gen.ADDR third-quarter net income fell 12 % year-earlier quarter helped <#Cor.PAT> #Gen.ADDR gain #Gen.ACT discontinued #Cor.PAT operations
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1975.final.streex##3.T-wsj1975-001-p1s2a20
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1975.final.streex##3.T-wsj1975-001-p1s2a20
 CS:	Tato chemická a pojišťovací společnost uvedla, že čistý zisk za poslední čtvrtletí činil 54.8 milionu dolarů, což je 45 centů na akcii. 
 EN:	The chemicals and insurance company said net in the latest quarter was $54.8 million, or 45 cents a share.
 CS_T:	Tato chemická a pojišťovací společnost uvedla čistý zisk poslední čtvrtletí činil 54.8 milionu dolarů , <což> je 45 centů akcii
-EN_T:	chemicals and insurance company said #Gen.ADDR net latest quarter was $ 54.8 million or 45 cents share
-ERR:
+EN_T:	chemicals and insurance company said #Gen.ADDR net latest quarter was $ 54.8 million <or> 45 cents share
+ERR: ALIGN=OK APPS
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1975.final.streex##4.T-wsj1975-001-p1s3a12
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1975.final.streex##4.T-wsj1975-001-p1s3a12
 CS:	V loňském čtvrtletí činil čistý zisk 62.2 milionu dolarů, což je 51 centů na akcii. 
 EN:	In the year-earlier quarter, net was $62.2 million, or 51 cents a share.
 CS_T:	loňském čtvrtletí činil čistý zisk 62.2 milionu dolarů , <což> je 51 centů akcii
-EN_T:	year-earlier quarter net was $ 62.2 million or 51 cents share
-ERR:
+EN_T:	year-earlier quarter net was $ 62.2 million <or> 51 cents share
+ERR: ALIGN=OK APPS
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1975.final.streex##6.T-wsj1975-001-p1s5a8
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1975.final.streex##6.T-wsj1975-001-p1s5a8
 CS:	Příjem činil 613.7 milionu dolarů, čímž stoupl z loňských 521.2 milionu dolarů o 18 %. 
 EN:	Revenue was $613.7 million, up 18% from $521.2 million a year ago.
 CS_T:	Příjem činil 613.7 milionu dolarů #PersPron.ACT , <čímž> stoupl loňských 521.2 milionu dolarů 18 %
-EN_T:	Revenue was $ 613.7 million up 18 % $ 521.2 million year
-ERR:
+EN_T:	Revenue <was> $ 613.7 million up 18 % $ 521.2 million year
+ERR: ALIGN=ANTE V
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1976.final.streex##1.T-wsj1976-001-p1s0a9
 CS:	Společnost Tribune Co., jíž značně pomohlo zlepšení výsledků vysílacího a zábavního provozu, uvedla, že čistý příjem vyskočil za třetí čtvrtletí končící 24. září o 21 % při 3% vzrůstu výnosu. 
@@ -565,33 +565,33 @@ CS_T:	Společnost #Forn.ID Tribune Co . <jíž> značně pomohlo zlepšení výs
 EN_T:	Tribune Co. <#Cor.PAT> helped #Gen.ADDR hefty boost performance its broadcasting and entertainment operations said #Gen.ADDR net income jumped 21 % its third quarter ended #Cor.PAT Sept. 24 3 % increase revenue
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1976.final.streex##2.T-wsj1976-001-p1s1a35
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1976.final.streex##2.T-wsj1976-001-p1s1a35
 CS:	Tato společnost, zabývající se vysíláním a vydáváním novin, se sídlem v Chicagu, uvedla, že čistý zisk stoupl z 51.6 milionu dolarů, což je 69 centů na kmenovou akcii, na 62.7 milionu dolarů, což je 77 centů na akcii. 
 EN:	The broadcasting and newspaper concern, based in Chicago, said net was $62.7 million, or 77 cents a primary share, up from $51.6 million, or 69 cents a share.
 CS_T:	Tato společnost zabývající vysíláním #Gen.PAT #PersPron.ACT a vydáváním novin sídlem Chicagu uvedla čistý zisk stoupl 51.6 milionu dolarů , <což> je 69 centů milionu kmenovou akcii 62.7 , dolarů což je 77 centů akcii
-EN_T:	broadcasting and newspaper concern #Gen.ACT based #Cor.PAT Chicago said #Gen.ADDR net was $ 62.7 million or 77 cents primary share up $ 51.6 million or 69 cents share
-ERR:
+EN_T:	broadcasting and newspaper concern #Gen.ACT based #Cor.PAT Chicago said #Gen.ADDR net was $ 62.7 million or 77 cents primary share up $ 51.6 million <or> 69 cents share
+ERR: ALIGN=OK APPS
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1976.final.streex##2.T-wsj1976-001-p1s1a38
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1976.final.streex##2.T-wsj1976-001-p1s1a38
 CS:	Tato společnost, zabývající se vysíláním a vydáváním novin, se sídlem v Chicagu, uvedla, že čistý zisk stoupl z 51.6 milionu dolarů, což je 69 centů na kmenovou akcii, na 62.7 milionu dolarů, což je 77 centů na akcii. 
 EN:	The broadcasting and newspaper concern, based in Chicago, said net was $62.7 million, or 77 cents a primary share, up from $51.6 million, or 69 cents a share.
 CS_T:	Tato společnost zabývající vysíláním #Gen.PAT #PersPron.ACT a vydáváním novin sídlem Chicagu uvedla čistý zisk stoupl 51.6 milionu dolarů , což je 69 centů milionu kmenovou akcii 62.7 , dolarů <což> je 77 centů akcii
-EN_T:	broadcasting and newspaper concern #Gen.ACT based #Cor.PAT Chicago said #Gen.ADDR net was $ 62.7 million or 77 cents primary share up $ 51.6 million or 69 cents share
-ERR:
+EN_T:	broadcasting and newspaper concern #Gen.ACT based #Cor.PAT Chicago said #Gen.ADDR net was $ 62.7 million <or> 77 cents primary share up $ 51.6 million or 69 cents share
+ERR: ALIGN=OK APPS
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1976.final.streex##5.T-wsj1976-001-p1s4a13
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1976.final.streex##5.T-wsj1976-001-p1s4a13
 CS:	Čistý zisk za devět měsíců vyšplhal z 147.5 milionu dolarů, což je 1.94 dolaru na kmenovou akcii, o 19 % na 174.8 milionu dolarů, což je 2.21 dolaru na akcii. 
 EN:	Nine-month net climbed 19% to $174.8 million, or $2.21 a primary share, from $147.5 million, or $1.94 a share.
 CS_T:	Čistý zisk devět měsíců vyšplhal 147.5 milionu dolarů , <což> je 1.94 dolaru kmenovou akcii 19 % 174.8 milionu dolarů , což je 2.21 dolaru akcii
-EN_T:	Nine-month net climbed 19 % $ 174.8 million or $ 2.21 primary share $ 147.5 million or $ 1.94 share
-ERR:
+EN_T:	Nine-month net climbed 19 % $ 174.8 million or $ 2.21 primary share $ 147.5 million <or> $ 1.94 share
+ERR: ALIGN=OK APPS
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1976.final.streex##5.T-wsj1976-001-p1s4a29
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1976.final.streex##5.T-wsj1976-001-p1s4a29
 CS:	Čistý zisk za devět měsíců vyšplhal z 147.5 milionu dolarů, což je 1.94 dolaru na kmenovou akcii, o 19 % na 174.8 milionu dolarů, což je 2.21 dolaru na akcii. 
 EN:	Nine-month net climbed 19% to $174.8 million, or $2.21 a primary share, from $147.5 million, or $1.94 a share.
 CS_T:	Čistý zisk devět měsíců vyšplhal 147.5 milionu dolarů , což je 1.94 dolaru kmenovou akcii 19 % 174.8 milionu dolarů , <což> je 2.21 dolaru akcii
-EN_T:	Nine-month net climbed 19 % $ 174.8 million or $ 2.21 primary share $ 147.5 million or $ 1.94 share
-ERR:
+EN_T:	Nine-month net climbed 19 % $ 174.8 million <or> $ 2.21 primary share $ 147.5 million or $ 1.94 share
+ERR: ALIGN=OK APPS
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1976.final.streex##6.T-wsj1976-001-p1s5a17
 CS:	Devítiměsíční hodnoty na akcii za rok 1989 odrážejí dividendy z prioritních akcií ve výši 12.9 milionu dolarů, které nemají v loňském čtvrtletí obdobu. 
@@ -600,12 +600,12 @@ CS_T:	Devítiměsíční hodnoty akcii rok 1989 odrážejí dividendy prioritní
 EN_T:	Nine-month per-share figures 1989 reflect $ 12.9 million preferred dividends <that> had no counterpart year-earlier quarter
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1976.final.streex##8.T-wsj1976-001-p1s7a19
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1976.final.streex##8.T-wsj1976-001-p1s7a19
 CS:	V kompozitním obchodování na Newyorské burze cenných papírů uzavřela v pátek společnost Tribune na 49375 dolaru, což je pokles o 4.75 dolaru. 
 EN:	In New York Stock Exchange composite trading Friday, Tribune closed at $49.375, down $4.75.
 CS_T:	#Gen.PAT #Gen.ACT kompozitním obchodování Newyorské burze cenných papírů uzavřela pátek společnost Tribune 49375 dolaru , <což> je pokles 4.75 dolaru
 EN_T:	New York Stock Exchange composite trading Friday Tribune closed $ 49.375 <,> down $ 4.75
-ERR: ALIGN=0 APPS
+ERR: ALIGN=OK APPS
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1977.final.streex##1.T-wsj1977-001-p1s0a11
 CS:	Společnost Enserch Corp. uvedla, že v reakci na nabídku, jejíž platnost v pondělí skončila, nabídla asi 12 milionů, což je 93 %, veřejně obchodovaných jednotek své komanditní společnosti Enserch Exploration Partners Ltd. 
@@ -614,12 +614,12 @@ CS_T:	Společnost #Forn.ID Enserch Corp . uvedla #Gen.ADDR #PersPron.ACT reakci 
 EN_T:	Enserch Corp. said #Gen.ADDR 12 million or 93 % publicly traded #Cor.PAT #Gen.ACT units its limited partnership , Enserch Exploration Partners Ltd. tendered #Gen.ACT response offer <that> expired Monday
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1977.final.streex##1.T-wsj1977-001-p1s0a26
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1977.final.streex##1.T-wsj1977-001-p1s0a26
 CS:	Společnost Enserch Corp. uvedla, že v reakci na nabídku, jejíž platnost v pondělí skončila, nabídla asi 12 milionů, což je 93 %, veřejně obchodovaných jednotek své komanditní společnosti Enserch Exploration Partners Ltd. 
 EN:	Enserch Corp. said about 12 million, or 93%, of the publicly traded units of its limited partnership, Enserch Exploration Partners Ltd., were tendered in response to an offer that expired Monday.
 CS_T:	Společnost #Forn.ID Enserch Corp . uvedla #Gen.ADDR #PersPron.ACT reakci nabídku jejíž platnost pondělí skončila nabídla asi 12 milionů , <což> je 93 % veřejně obchodovaných jednotek své komanditní společnosti #Forn.ID Enserch Exploration Partners Ltd
-EN_T:	Enserch Corp. said #Gen.ADDR 12 million or 93 % publicly traded #Cor.PAT #Gen.ACT units its limited partnership , Enserch Exploration Partners Ltd. tendered #Gen.ACT response offer that expired Monday
-ERR:
+EN_T:	Enserch Corp. said #Gen.ADDR 12 million <or> 93 % publicly traded #Cor.PAT #Gen.ACT units its limited partnership , Enserch Exploration Partners Ltd. tendered #Gen.ACT response offer that expired Monday
+ERR: ALIGN=OK APPS
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1978.final.streex##2.T-wsj1978-001-p1s1a11
 CS:	Za šest měsíců od 1. dubna, kdy začal fiskální rok, činí přebytek 500 milionů liber ve srovnání s přebytkem 3.6 miliardy liber za stejné období v loňském roce. 
@@ -628,19 +628,19 @@ CS_T:	šest měsíců 1 dubna <kdy> začal fiskální rok činí přebytek 500 m
 EN_T:	six months current fiscal year began April 1 surplus totaled # 500 million #Cor.PAT compared #Gen.ACT surplus # 3.6 billion year-earlier period
 ERR: ALIGN=0 SYNTAX_CHANGE
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1979.final.streex##1.T-wsj1979-001-p1s0a17
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1979.final.streex##1.T-wsj1979-001-p1s0a17
 CS:	Podle Národního sdružení výrobců oceli činila francouzská výroba surové oceli v září 1616000 tun, což je stejně jako loni. 
 EN:	French crude-steel production in September was 1,616,000 metric tons, unchanged from a year earlier, according to the National Steel Manufacturers' Association.
 CS_T:	Národního sdružení výrobců oceli činila francouzská výroba surové oceli září 1616000 tun , <což> je stejně je #PersPron.ACT #Oblfm.EXT loni
-EN_T:	French crude-steel production September was 1,616,000 metric tons unchanged year earlier National Steel Manufacturers Association
-ERR:
+EN_T:	French crude-steel production September was 1,616,000 metric <tons> unchanged year earlier National Steel Manufacturers Association
+ERR: ALIGN=ANTE N
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1979.final.streex##2.T-wsj1979-001-p1s1a21
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1979.final.streex##2.T-wsj1979-001-p1s1a21
 CS:	Toto sdružení uvedlo, že celková zářijová výroba vynesla francouzský objem výroby za prvních devět měsíců tohoto roku na 14789000 tun, což je o 4.5 % více než loni. 
 EN:	The association said the September total brought French output for the first nine months this year to 14,789,000 tons, up 4.5% from a year earlier.
 CS_T:	Toto sdružení uvedlo celková zářijová výroba vynesla francouzský objem výroby prvních devět měsíců tohoto roku 14789000 tun , <což> je 4.5 % více je #PersPron.ACT #Oblfm.EXT loni
 EN_T:	association said #Gen.ADDR September total brought French output first nine months year 14,789,000 tons <,> #EmpVerb.EFF up 4.5 % year earlier
-ERR: ALIGN=0 APPS
+ERR: ALIGN=OK APPS
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1980.final.streex##13.T-wsj1980-001-p1s12a32
 CS:	Společnost Recognition také řekla, že získala od Chemické banky a Bostonské banky závazek restrukturalizovat bankovní dluh odhadovaný na 18 milionů dolarů na novou, 24měsíční zajištěnou termínovanou půjčku, která se má splatit prodejem určitého majetku. 
@@ -649,7 +649,7 @@ CS_T:	#Gen.ADDR Společnost Recognition také řekla #PersPron.ACT získala Chem
 EN_T:	Recognition also said #Gen.ADDR it obtained commitment Chemical Bank and Bank Boston #Cor.ACT convert estimated $ 18 million bank debt new 24-month secured term loan repaid <#Cor.PAT> #Gen.ACT sale certain assets
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1980.final.streex##14.T-wsj1980-001-p1s13a33
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1980.final.streex##14.T-wsj1980-001-p1s13a33
 CS:	V srpnu společnost Recogniton uvedla, že se dostala do sporu s určitými podmínkami dlužních smluv s bankovními věřiteli z důvodu ztráty ve výši 3.9 milionu dolarů za třetí čtvrtletí, které skončilo 31. července. 
 EN:	In August, Recognition said it was in violation of certain terms of its debt agreements with bank lenders because of a $3.9 million loss for the third quarter ended July 31.
 CS_T:	srpnu společnost Recogniton uvedla #PersPron.ACT dostala sporu určitými podmínkami dlužních smluv bankovními věřiteli ztráty výši 3.9 milionu dolarů třetí čtvrtletí <které> skončilo 31 července
@@ -754,12 +754,12 @@ CS_T:	Tento řadový agent , Abel Lamb <který> lze #Benef.BEN #Cor.ACT dovtípi
 EN_T:	lowly agent Abel Lamb , <who> you guess #PersPron.EFF led #Gen.ACT slaughter ordered #Gen.ACT #Cor.ACT take studio
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1984.final.streex##18.T-wsj1984-001-p1s17a27
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1984.final.streex##18.T-wsj1984-001-p1s17a27
 CS:	Snímek, který se má točit ve středoamerickém státě San Elvador, je záminkou pro poslání zbraní v hodnotě 800 milionů dolarů skupině Los Otros, což je povstalecká skupina pokoušející se znovu získat sousední stát Ambigua, který obsadil levicový diktátor dr. Overtega, bývalý podiatr, který vede revoluční skupinu pěšáků. 
 EN:	The picture, to be made in the Central American country of San Elvador, is a cover for sending $800 million of arms to Los Otros, the rebel group attempting to regain neighboring Ambigua, which has been taken over by the leftist dictator Dr. Overtega, a former podiatrist, who leads a revolutionary band of foot soldiers.
 CS_T:	Snímek který točit #Gen.ACT středoamerickém státě #Forn.ID San Elvador je záminkou poslání , #Gen.ACT zbraní hodnotě 800 milionů dolarů skupině #Forn.ID Los Otros <což> je povstalecká skupina pokoušející #Cor.ACT znovu získat sousední stát Ambigua který obsadil levicový diktátor dr Overtega , bývalý podiatr který vede revoluční skupinu pěšáků
 EN_T:	picture #Gen.ACT made #Cor.PAT Central American country #Forn.ID San Elvador is cover sending #Gen.ACT $ 800 million arms Los Otros #Forn.ADDR <,> rebel group #Cor.ACT attempting #Cor.ACT regain neighboring Ambigua which taken leftist dictator Dr. Overtega , former podiatrist who leads revolutionary band foot soldiers
-ERR: ALIGN=0 APPS
+ERR: ALIGN=OK APPS
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1984.final.streex##18.T-wsj1984-001-p1s17a39
 CS:	Snímek, který se má točit ve středoamerickém státě San Elvador, je záminkou pro poslání zbraní v hodnotě 800 milionů dolarů skupině Los Otros, což je povstalecká skupina pokoušející se znovu získat sousední stát Ambigua, který obsadil levicový diktátor dr. Overtega, bývalý podiatr, který vede revoluční skupinu pěšáků. 
@@ -803,19 +803,19 @@ CS_T:	Daniel Bargen je roli majora Battla upjatý avšak zcela sebejistý snoub�
 EN_T:	Daniel von Bargen #Forn.ACT is ramrod-stiff but totally assured Major Battle #Cor.ACT mixing just right brand self-righteousness and patriotism Jeff Weiss is fire brimstone and teary-eyed emotionalism far-right senator <who> serves friendly interrogator Major Battle Zach Grenier is maddeningly officious #Cor.ACT playing succession lawyers Joseph Daly has perfect aw shucks demeanor George Bush his portrayal vice president and Ann McDonough is first-rate succession witnesses wives
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1984.final.streex##21.T-wsj1984-001-p1s20a65
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1984.final.streex##21.T-wsj1984-001-p1s20a65
 CS:	Daniel von Bargen je v roli majora Battla upjatý, avšak zcela sebejistý, když snoubí ten správný druh pokrytectví a vlastenectví, Jeff Weiss coby přehnaně konzervativní senátor, který působí jako přátelský vyšetřující soudce majora Battla, je samý oheň, síra a dojemná citovost, Zach Grenier je ukrutně horlivý, když hraje řadu právníků, Joseph Daly, který ztvárňuje viceprezidenta, má perfektní chování George Bushe s jeho ledabylým "ale jděte" a Ann McDonoughová, která hraje řadu manželek svědků, je prvotřídní. 
 EN:	Daniel von Bargen is ramrod-stiff but totally assured as Major Battle, mixing just the right brand of self-righteousness and patriotism; Jeff Weiss is fire, brimstone and teary-eyed emotionalism as the far-right senator who serves as a friendly interrogator of Major Battle; Zach Grenier is maddeningly officious playing a succession of lawyers; Joseph Daly has the perfect ``aw, shucks'' demeanor of George Bush in his portrayal of the vice president; and Ann McDonough is first-rate as a succession of witnesses' wives.
 CS_T:	Daniel Bargen je roli majora Battla upjatý avšak zcela sebejistý snoubí #Rcp.ADDR #PersPron.ACT ten správný druh pokrytectví a vlastenectví Jeff Weiss přehnaně konzervativní senátor který působí #Oblfm.LOC přátelský vyšetřující soudce majora Battla je samý oheň síra a dojemná citovost Zach Grenier je ukrutně horlivý #PersPron.ACT hraje řadu právníků Joseph Daly <který> ztvárňuje viceprezidenta má perfektní chování #Idph.ACMP George Bushe jeho ledabylým ale jděte a Ann McDonoughová která hraje řadu manželek svědků je prvotřídní
-EN_T:	Daniel von Bargen #Forn.ACT is ramrod-stiff but totally assured Major Battle #Cor.ACT mixing just right brand self-righteousness and patriotism Jeff Weiss is fire brimstone and teary-eyed emotionalism far-right senator who serves friendly interrogator Major Battle Zach Grenier is maddeningly officious #Cor.ACT playing succession lawyers Joseph <Daly> has perfect aw shucks demeanor George Bush his portrayal vice president and Ann McDonough is first-rate succession witnesses wives
-ERR: ALIGN=ANTE N
+EN_T:	Daniel von Bargen #Forn.ACT is ramrod-stiff but totally assured Major Battle #Cor.ACT mixing just right brand self-righteousness and patriotism Jeff Weiss is fire brimstone and teary-eyed emotionalism far-right senator who serves friendly interrogator Major Battle Zach Grenier is maddeningly officious #Cor.ACT playing succession lawyers Joseph Daly has perfect aw shucks demeanor George Bush <his> portrayal vice president and Ann McDonough is first-rate succession witnesses wives
+ERR: ALIGN=OK SYNTAX_CHANGE
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1984.final.streex##21.T-wsj1984-001-p1s20a84
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1984.final.streex##21.T-wsj1984-001-p1s20a84
 CS:	Daniel von Bargen je v roli majora Battla upjatý, avšak zcela sebejistý, když snoubí ten správný druh pokrytectví a vlastenectví, Jeff Weiss coby přehnaně konzervativní senátor, který působí jako přátelský vyšetřující soudce majora Battla, je samý oheň, síra a dojemná citovost, Zach Grenier je ukrutně horlivý, když hraje řadu právníků, Joseph Daly, který ztvárňuje viceprezidenta, má perfektní chování George Bushe s jeho ledabylým "ale jděte" a Ann McDonoughová, která hraje řadu manželek svědků, je prvotřídní. 
 EN:	Daniel von Bargen is ramrod-stiff but totally assured as Major Battle, mixing just the right brand of self-righteousness and patriotism; Jeff Weiss is fire, brimstone and teary-eyed emotionalism as the far-right senator who serves as a friendly interrogator of Major Battle; Zach Grenier is maddeningly officious playing a succession of lawyers; Joseph Daly has the perfect ``aw, shucks'' demeanor of George Bush in his portrayal of the vice president; and Ann McDonough is first-rate as a succession of witnesses' wives.
 CS_T:	Daniel Bargen je roli majora Battla upjatý avšak zcela sebejistý snoubí #Rcp.ADDR #PersPron.ACT ten správný druh pokrytectví a vlastenectví Jeff Weiss přehnaně konzervativní senátor který působí #Oblfm.LOC přátelský vyšetřující soudce majora Battla je samý oheň síra a dojemná citovost Zach Grenier je ukrutně horlivý #PersPron.ACT hraje řadu právníků Joseph Daly který ztvárňuje viceprezidenta má perfektní chování #Idph.ACMP George Bushe jeho ledabylým ale jděte a Ann McDonoughová <která> hraje řadu manželek svědků je prvotřídní
-EN_T:	Daniel von Bargen #Forn.ACT is ramrod-stiff but totally assured Major Battle #Cor.ACT mixing just right brand self-righteousness and patriotism Jeff Weiss is fire brimstone and teary-eyed emotionalism far-right senator who serves friendly interrogator Major Battle Zach Grenier is maddeningly officious #Cor.ACT playing succession lawyers Joseph Daly has perfect aw shucks demeanor George Bush his portrayal vice president and Ann McDonough is first-rate <__A:EnglishA-wsj_1984-s21-t88__succession> witnesses wives
-ERR:
+EN_T:	Daniel von Bargen #Forn.ACT is ramrod-stiff but totally assured Major Battle #Cor.ACT mixing just right brand self-righteousness and patriotism Jeff Weiss is fire brimstone and teary-eyed emotionalism far-right senator who serves friendly interrogator Major Battle Zach Grenier is maddeningly officious #Cor.ACT playing succession lawyers Joseph Daly has perfect aw shucks demeanor George Bush his portrayal vice president and Ann McDonough is first-rate succession witnesses wives
+ERR: ALIGN=0 SYNTAX_CHANGE
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1984.final.streex##26.T-wsj1984-001-p1s25a7
 CS:	Poskoka Mastergata popisuje jako někoho, kdo prožil "bleskurychlé zmizení" a najednou se přistihl, jak "vyřizuje žádosti o přikrývky na Úřadě pro záležitosti Indiánů". 
@@ -859,12 +859,12 @@ CS_T:	Chladná pečlivě učesaná televizní hlasatelka Merry Chaseová , Melin
 EN_T:	fact one point Merry Chase -LRB- Melinda Mullins , cool carefully coiffed television announcer recites list dozen or more scandals recent years #Cor.ACT concluding #Gen.PAT those <#Cor.ACT> affecting Department Housing and Urban Development and savings and loan industry
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1985.final.streex##10.T-wsj1985-001-p1s9a18
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1985.final.streex##10.T-wsj1985-001-p1s9a18
 CS:	Sdružení FNMA jako vládou dotovaná korporace vlastněná akcionáři působí na sekundárním trhu hypotečních půjček, kde kupuje půjčky hlavně od věřitelů, některé připojuje k cenným papírům a prodává investorům a zbytek uchovává ve svém portfoliu. 
 EN:	Fannie Mae, a federally chartered, shareholder-owned corporation, operates a secondary market for mortgage loans, buying loans from lenders, packaging some into securities for sale to investors and keeping the rest in its portfolio.
 CS_T:	#PersPron.ACT Sdružení FNMA vládou dotovaná korporace vlastněná akcionáři působí sekundárním trhu hypotečních půjček <kde> kupuje půjčky hlavně věřitelů některé připojuje cenným papírům a prodává investorům a zbytek uchovává svém portfoliu
-EN_T:	Fannie Mae , federally chartered shareholder-owned corporation <operates> secondary market mortgage loans buying loans lenders packaging some securities sale investors #Cor.ACT and keeping rest its portfolio
-ERR: ALIGN=ANTE V
+EN_T:	Fannie Mae , federally chartered shareholder-owned corporation operates secondary market mortgage loans buying loans lenders packaging some securities sale investors #Cor.ACT and keeping rest its portfolio
+ERR: ALIGN=0 SYNTAX_CHANGE COMPL
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1985.final.streex##7.T-wsj1985-001-p1s6a11
 CS:	Řekl: "Rozhodně nehrozí, že by nebylo co řešit." 
@@ -880,12 +880,12 @@ CS_T:	Publikace #Forn.ID The New Crowd ( Nový spolek Judith Ramsey Ehrlichové 
 EN_T:	New Crowd Judith Ramsey Ehrlich and Barry J. Rehfeld Little Brown 444 pages $ 19.95 describes displacing old our crowd Jewish Wall Street banking grandees such new business barons as Saul Steinberg Carl Icahn Sanford Weill and Bruce Wasserstein
 ERR: ALIGN=0 SYNTAX_CHANGE
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1986.final.streex##30.T-wsj1986-001-p1s29a10
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1986.final.streex##30.T-wsj1986-001-p1s29a10
 CS:	Nicméně stará generace plným právem pohrdala způsobem, kterým nově příchozí vydělávali peníze, např. greenmailingem (tj. skupováním velkého množství vlastních akcií za cenu vyšší než tržní). 
 EN:	The old guard had every right , however, to disdain the newcomers' new ways of making money, such as greenmail.
 CS_T:	Nicméně stará generace plným právem pohrdala způsobem <kterým> nově příchozí vydělávali peníze , např greenmailingem tj skupováním #Gen.ACT velkého množství vlastních akcií cenu vyšší cenu tržní
 EN_T:	old guard had every right however #Cor.ACT disdain newcomers new <ways> as #Gen.ACT making money greenmail
-ERR: ALIGN=ANTE N
+ERR: ALIGN=ANTE N mutiple kids
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1986.final.streex##41.T-wsj1986-001-p1s40a17
 CS:	Kniha je okázale shovívavá k tomuto úsilí "zbohatlíků" o úctyhodnost a váženost, které má i nevkusné aspekty. 
@@ -901,7 +901,7 @@ CS_T:	<kdo> mají peníze věnovat #Neg.RHEM charitativní činnosti a muzeím p
 EN_T:	those <who> have money n't get involved museums and charities City Hall do it badly
 ERR: ALIGN=OK FUSED
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1986.final.streex##47.T-wsj1986-001-p1s46a25
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1986.final.streex##47.T-wsj1986-001-p1s46a25
 CS:	V okázalé kanceláři, kterou Ivan Boesky vyměnil za vězeňskou celu, dříve pracovali obchodníci Marc Rich a "Pinky" Green, kteří jsou v současné sobě na útěku před potenciálním stoletým trestem pro každého z nich. 
 EN:	The glitzy office that Ivan Boesky vacated for a prison cell had previously contained commodity operators Marc Rich and ``Pinky'' Green, today fugitives from a potential century apiece of jail sentences.
 CS_T:	okázalé kanceláři kterou Ivan Boesky vyměnil vězeňskou celu dříve pracovali obchodníci Marc Rich a Pinky Green <kteří> jsou současné sobě útěku potenciálním stoletým trestem každého nich
@@ -915,7 +915,7 @@ CS_T:	okázalé kanceláři <kterou> Ivan Boesky vyměnil vězeňskou celu dří
 EN_T:	glitzy office <that> Ivan Boesky vacated prison cell previously contained commodity operators Marc Rich and Pinky , Green today fugitives potential century apiece jail sentences
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1986.final.streex##48.T-wsj1986-001-p1s47a10
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1986.final.streex##48.T-wsj1986-001-p1s47a10
 CS:	Starý spolek je hluboce znepokojen prudkou reakcí, kterou to všechno vyvolalo. 
 EN:	The Old Crowd is deeply concerned by the backlash from all this.
 CS_T:	Starý spolek hluboce znepokojen prudkou reakcí <kterou> to všechno vyvolalo #Oblfm.LOC
@@ -943,7 +943,7 @@ CS_T:	Potom Gutfreundovi rozhodli #PersPron.ACT postaví #Oblfm.LOC skoro 7 m vy
 EN_T:	Then Gutfreunds determined #Cor.ACT put 22-foot Christmas tree #Cor.ACT weighing quarter ton <#Cor.ACT> amaze their holiday guests
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1987.final.streex##2.T-wsj1987-001-p1s1a33
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1987.final.streex##2.T-wsj1987-001-p1s1a33
 CS:	V záznamech Komise pro regulaci prodeje cenných papírů je uvedeno, že Simmons řekl, že on a společnosti NL Industries Inc. a NL Chemicals Inc., které řídí, vlastní 6744600 akcií kalifornské společnosti Lockheed. 
 EN:	In a Securities and Exchange Commission filing, Mr. Simmons said he and companies he controls , NL Industries Inc. and NL Chemicals Inc., hold 6,744,600 shares of Lockheed, of Calabasas, Calif.
 CS_T:	#Gen.ACT záznamech Komise regulaci prodeje cenných papírů uvedeno #Gen.ADDR Simmons řekl on a společnosti #Forn.ID NL Industries Inc . a společnosti #Forn.ID NL Chemicals Inc . #PersPron.ACT <které> řídí vlastní 6744600 akcií kalifornské společnosti Lockheed
@@ -957,7 +957,7 @@ CS_T:	#Gen.ACT tomto počtu akcií zahrnuto 122700 akcií #PersPron.ACT <které>
 EN_T:	They include 122,700 shares bought <#Cor.PAT> #Gen.ACT Friday $ 47.125 and $ 48 each
 ERR:
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1987.final.streex##4.T-wsj1987-001-p1s3a17
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1987.final.streex##4.T-wsj1987-001-p1s3a17
 CS:	Při kompozitním obchodování na Newyorské burze cenných papírů uzavírala společnost Lockheed na 46125 dolaru, což byl pokles o 12.5 centu. 
 EN:	In composite trading on the New York Stock Exchange, Lockheed closed at $46.125 a share, down 12.5 cents.
 CS_T:	#Gen.PAT #Gen.ACT kompozitním obchodování Newyorské burze cenných papírů uzavírala společnost Lockheed 46125 dolaru , <což> byl pokles 12.5 centu
@@ -978,7 +978,7 @@ CS_T:	Další Simmonsových společností , #Forn.ACT Valhi Inc . reagovala čl�
 EN_T:	Valhi Inc. , another Mr. Simmons companies responded #Gen.EFF article Monday Wall Street Journal <which> credited story Sunday Los Angeles #Forn.NE Daily News
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1987.final.streex##8.T-wsj1987-001-p1s7a22
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1987.final.streex##8.T-wsj1987-001-p1s7a22
 CS:	Namísto toho, uvedla společnost Valhi, může svůj vlastnický podíl ve společnosti Lockheed zvýšit, snížit nebo ponechat, což závisí na řadě podmínek. 
 EN:	Instead, Valhi said , they may increase, decrease or retain their Lockheed holdings, depending on a number of conditions.
 CS_T:	toho uvedla společnost Valhi #PersPron.ACT svůj vlastnický podíl společnosti Lockheed zvýšit snížit nebo ponechat #Gen.EFF , <což> závisí řadě podmínek
@@ -992,7 +992,7 @@ CS_T:	Představitelé Kanady uvedli tato obchodní dohoda vzbudila zájem vývoz
 EN_T:	Canadian officials said #Gen.ADDR trade pact kindled export interest many small Canadian companies <that> previously had little or no foreign sales
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1988.final.streex##14.T-wsj1988-001-p1s13a19
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1988.final.streex##14.T-wsj1988-001-p1s13a19
 CS:	Účastníkům amerických obchodních misí do Kanady mají pomáhat příslušníci dobrovolnické organizace Service Corps of Retired Executives, která se zabývá problematikou exportu. 
 EN:	Participants in the U.S. missions to Canada are to be assisted by members of the Service Corps of Retired Executives, a volunteer group, in dealing with their export challenges.
 CS_T:	Účastníkům amerických obchodních misí Kanady pomáhat příslušníci dobrovolnické organizace Service Corps of Retired #Forn.ID Executives <která> zabývá problematikou exportu
@@ -1034,12 +1034,12 @@ CS_T:	Tyto dva státy prosince uzavřít dohodu souboru opatření <která> uryc
 EN_T:	two countries aim #Cor.ACT reach agreement package early December accelerated tariff cuts <that> take effect early next year
 ERR: ALIGN=OK SYNTAX_CHANGE
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1990.final.streex##1.T-wsj1990-001-p1s0a19
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1990.final.streex##1.T-wsj1990-001-p1s0a19
 CS:	Společnost Crown Resources Corp. prohlásila, že dosáhla definitivní dohody o převzetí akcií společnosti Gold Texas Resources Ltd., které dosud nevlastní. 
 EN:	Crown Resources Corp. said it reached a definitive agreement to acquire the Gold Texas Resources Ltd. shares it doesn't already own .
 CS_T:	Společnost #Forn.ID Crown Resources Corp . prohlásila #PersPron.ACT dosáhla definitivní dohody #PersPron.ACT převzetí akcií společnosti #Forn.ID Gold Texas Resources Ltd . #Neg.RHEM #PersPron.ACT <které> dosud nevlastní
-EN_T:	Crown Resources Corp. said #Gen.ADDR it reached definitive agreement #Cor.ACT #Cor.ACT acquire Gold Texas Resources Ltd. shares it n't already own
-ERR: SHOULD_BE COR
+EN_T:	Crown Resources Corp. said #Gen.ADDR it reached definitive agreement #Cor.ACT #Cor.ACT acquire Gold Texas Resources Ltd. <shares> it n't already own
+ERR: ALIGN=ANTE N MISSING_COR
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1990.final.streex##2.T-wsj1990-001-p1s1a20
 CS:	Držitelé společnosti Gold Texas obdrží v rámci dohody za každou z 1.1 milionu akcií společnosti Gold Texas, kterou dosud společnost Crown nevlastní, 1.43 akcie společnosti Crown, které již patří 65 % akcií společnosti Gold Texas. 
@@ -1055,14 +1055,14 @@ CS_T:	Držitelé společnosti #Forn.ID Gold Texas obdrží dohody každou 1.1 mi
 EN_T:	proposed #Cor.PAT #Gen.ACT agreement Gold Texas holders receive 1.43 Crown shares each 1.1 million Gold Texas shares not owned #Cor.PAT Crown <which> already owns 65 %
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1991.final.streex##1.T-wsj1991-001-p1s0a23
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1991.final.streex##1.T-wsj1991-001-p1s0a23
 CS:	Společnost Apogee Robotics Inc. uvedla, že její správní rada prodloužila lhůtu na nákup opčních listů na akcie společnosti, které jsou v oběhu. 
 EN:	Apogee Robotics Inc. said its board extended until Feb. 1 the exercise period of Apogee's existing stock purchase warrants outstanding.
 CS_T:	Apogee Společnost #Forn.ID Robotics Inc uvedla . její rada prodloužila správní lhůtu nákup opčních listů společnosti akcie <které> jsou oběhu
 EN_T:	Apogee Robotics Inc. said #Gen.ADDR its board extended Feb. 1 exercise period Apogee existing stock purchase <warrants> outstanding
 ERR: ALIGN=ANTE N
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1994.final.streex##2.T-wsj1994-001-p1s1a17
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1994.final.streex##2.T-wsj1994-001-p1s1a17
 CS:	Údaje ministerstva obchodu shromážděné tímto profesním seskupením ukázaly, že srpnový dovoz, který je celkově druhým nejvyšším měsíčním dovozem za rok, byl o 5 % vyšší než 1458000 tun v červenci, ale nižší než loňské maximum 1979000 tun v červnu roku 1988. 
 EN:	The trade group's compilation of Commerce Department data showed that August imports, the second largest monthly total of the year, were up 5% from July's 1,458,000 tons but below last year's high of 1,979,000 tons in June 1988.
 CS_T:	ministerstva obchodu Údaje shromážděné tímto seskupením profesním srpnový ukázaly #Gen.ADDR dovoz <který> celkově je druhým nejvyšším dovozem byl rok měsíčním 5 % vyšší #Some.PAT byl tun 1458000 ale červenci #Some.PAT nižší maximum byl loňské 1979000 tun červnu roku 1988
@@ -1076,12 +1076,12 @@ CS_T:	#Oblfm.DIR3 #Unsp.ACT Kanady dovezeno srpnu 272000 tun , <což> je nárůs
 EN_T:	Imports Canada rose 272,000 tons August 209,000 July
 ERR: ALIGN=0 SYNTAX_CHANGE
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1995.final.streex##1.T-wsj1995-001-p1s0a31
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1995.final.streex##1.T-wsj1995-001-p1s0a31
 CS:	Úřad pro hospodářské plánování (EPA) uvedl, že japonští výrobci strojů získali v srpnu zakázky v celkové hodnotě 1465 biliónu jenů (10.33 miliardy dolarů), což je o 14 % více než v loňském roce. 
 EN:	Japanese machinery makers received orders totaling 1.465 trillion yen -LRB-$10.33 billion-RRB- in August, up 14% from a year earlier, the Economic Planning Agency said .
 CS_T:	Úřad #Gen.PAT hospodářské plánování #Gen.ACT ( #Idph.ACT EPA uvedl japonští výrobci strojů získali srpnu zakázky celkové hodnotě 1465 biliónu jenů ( 10.33 miliardy dolarů , <což> je 14 % více je #Oblfm.EXT #PersPron.ACT loňském roce
 EN_T:	Japanese machinery makers received orders #Cor.ACT totaling 1.465 trillion yen <-LRB-> $ 10.33 billion #Cor.ACT #EmpVerb.DESCR August up 14 % year earlier Economic Planning Agency said #Gen.ADDR
-ERR: ALIGN=0 APPS
+ERR: ALIGN=0 APPS COR je tam zbytocny
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1996.final.streex##16.T-wsj1996-001-p1s15a13
 CS:	Poznamenává také, že analyzování finančních výsledků "staví prodejce, který se podrobně nevyzná v účetní rozvaze, před velký problém". 
@@ -1090,7 +1090,7 @@ CS_T:	#PersPron.ACT Poznamenává také analyzování finančních výsledků st
 EN_T:	Moreover he notes #Gen.ACT analyzing financial results poses problem salesman <who> is n't particularly familiar balance sheet
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1996.final.streex##24.T-wsj1996-001-p1s23a9
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1996.final.streex##24.T-wsj1996-001-p1s23a9
 CS:	Přestože za první čtvrtletí, které končí 30. září, a za celý fiskální rok bude společnost Wang vykazovat ztráty, Miller říká, že očekává návrat k ziskovosti společnosti do začátku čtvrtého čtvrtletí. 
 EN:	Although Wang will report a loss for the first quarter ended Sept. 30 and the full fiscal year, Mr. Miller says he expects the company will return to profitability by the fourth quarter.
 CS_T:	#PersPron.ADDR první čtvrtletí <které> končí 30 září a celý fiskální rok společnost Wang vykazovat ztráty Miller říká #PersPron.ACT očekává návrat ziskovosti společnosti začátku čtvrtého čtvrtletí
@@ -1111,7 +1111,7 @@ CS_T:	#Gen.ADDR John Sullivan , pracovník bostonské personální agentury Dani
 EN_T:	Still says #Gen.ADDR #PersPron.EFF John Sullivan , management recruiter Daniel Roberts Inc. Boston <who> held senior sales positions Polaroid and Atari customer react strength
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1996.final.streex##2.T-wsj1996-001-p1s1a3
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1996.final.streex##2.T-wsj1996-001-p1s1a3
 CS:	Kdy se společnost Wang chystá znovu objevit na scéně a zda se vůbec vrátí, je stále ještě věc diskuse. 
 EN:	How soon Wang will stage a comeback , or if it will at all, are still matters of debate.
 CS_T:	<Kdy> společnost Wang chystá #Cor.ACT znovu objevit scéně a vůbec vrátí #Oblfm.DIR3 je stále ještě věc diskuse
@@ -1153,7 +1153,7 @@ CS_T:	Univerzita zvažuje #PersPron.ACT zavedení systému ceně 250000 dolarů 
 EN_T:	university considering installing <#Cor.ACT> $ 250,000 system #Cor.ACT store applications electronically
 ERR:
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1996.final.streex##38.T-wsj1996-001-p1s37a33
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1996.final.streex##38.T-wsj1996-001-p1s37a33
 CS:	Sortiment společnosti Wang obecně "stále nedosáhl úrovně ostatních prodejců, ale udělali velký pokrok", říká Steven Wendler, konzultant společnosti Gartner Group ze Stamfordu ve státě Connecticut, která provádí průzkum trhu. 
 EN:	Wang's overall product line is ``still not as good as other vendors, but they've come a long way,'' says Steven Wendler, a consultant with market researcher Gartner Group, Stamford, Conn.
 CS_T:	Sortiment společnosti Wang #Neg.RHEM obecně stále nedosáhl úrovně ostatních prodejců ale udělali #PersPron.ACT velký pokrok #Gen.ADDR říká Steven Wendler , konzultant společnosti Gartner #Forn.ID Group Stamfordu státě Connecticut <která> provádí průzkum trhu
@@ -1181,7 +1181,7 @@ CS_T:	Ale někteří zákazníci snažili #Cor.ACT oddělit své instalace spole
 EN_T:	But even Wang latest financial troubles surfaced some customers trying #Cor.ACT wall their Wang installations other departments n't add #Oblfm.DIR3 Wang says #Gen.ADDR Chris Christiansen , former Wang marketer <who> is now market analyst Meta Group , market research firm Stamford Conn
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1996.final.streex##42.T-wsj1996-001-p1s41a58
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1996.final.streex##42.T-wsj1996-001-p1s41a58
 CS:	Ale někteří zákazníci se snažili "oddělit své instalace od společností Wang" ještě předtím, než se současné finanční problémy společnosti Wang objevily, aby se ke společnosti Wang nepřipojila další oddělení, říká Chris Christiansen, někdejší pracovník marketingu společnosti Wang, který v současné době pracuje jako analytik trhu společnosti Meta Group, která provádí průzkumy trhu a sídlí ve Stamfordu v Connecticutu. 
 EN:	But even before Wang's latest financial troubles surfaced, some customers ``were trying to wall off their Wang installations'' so other departments wouldn't add Wang, says Chris Christiansen, a former Wang marketer who is now a market analyst with Meta Group, a market research firm in Stamford, Conn.
 CS_T:	Ale někteří zákazníci snažili #Cor.ACT oddělit své instalace společností Wang ještě současné finanční problémy společnosti Wang objevily #Neg.RHEM společnosti Wang nepřipojila další oddělení #Gen.ADDR říká Chris Christiansen , někdejší pracovník marketingu společnosti Wang který současné době pracuje analytik trhu společnosti Meta #Forn.ID Group <která> provádí průzkumy trhu a sídlí Stamfordu Connecticutu
@@ -1195,7 +1195,7 @@ CS_T:	Jeden prodejce zaměstnaný společnosti Wang <který> firmy odešel červ
 EN_T:	One Wang salesman <who> left company July recalls he tried #Cor.ACT sell products Eastman Kodak he worked #Cor.ACT muster support internal allies but those allies became skeptical they saw downtrend
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1996.final.streex##47.T-wsj1996-001-p1s46a15
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1996.final.streex##47.T-wsj1996-001-p1s46a15
 CS:	Lynch přešel letos v létě ze společnosti Wang do společnosti Oracle Systems Inc., která je dodavatelem softwaru. 
 EN:	Mr. Lynch left Wang this summer for Oracle Systems Inc., a software vendor.
 CS_T:	Lynch přešel letos létě společnosti Wang společnosti Oracle #Forn.ID Systems Inc . <která> je dodavatelem softwaru
@@ -1223,7 +1223,7 @@ CS_T:	Taita <který> vlastních slov vydělával společnosti Wang 150000 dolar�
 EN_T:	Mr. Tait <who> says #Gen.ADDR he earn $ as 150,000 year Wang it was one more reason #Cor.ACT quit
 ERR: ALIGN=OK SUB_VERB_CHANGE
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1996.final.streex##59.T-wsj1996-001-p1s58a13
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1996.final.streex##59.T-wsj1996-001-p1s58a13
 CS:	Pro prodejce není úplně snadné vypořádat se s pocity, které je od práce odrazují. 
 EN:	It can be hard for a salesperson to fight off feelings of discouragement.
 CS_T:	#Neg.RHEM prodejce není úplně snadné #Cor.ACT vypořádat pocity <které> odrazují je práce
@@ -1244,19 +1244,19 @@ CS_T:	#Gen.ADDR Problém spočívá lidé <kteří> ocitnou dně přestanou #Gen
 EN_T:	problem is <people> get down dumps they stop selling #Gen.PAT #Cor.ACT says #Gen.ADDR Mike Durcan , laid-off sales manager Wang Austin office
 ERR: ALIGN=ANTE SYNTAX_CHANGE REL_CLAUSE->IF_CLAUSE
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1996.final.streex##70.T-wsj1996-001-p1s69a10
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1996.final.streex##70.T-wsj1996-001-p1s69a10
 CS:	Navrhuje například, aby si prodejci, kteří telefonují, říkali: "Mým dnešním cílem je slyšet 50 odmítnutí." 
 EN:	For instance, he suggests that salespeople making telephone calls should say to themselves: ``All I want to do today is get 50 rejections.''
 CS_T:	#Gen.ADDR #PersPron.ACT Navrhuje například si prodejci <kteří> telefonují #Oblfm.DIR3 říkali Mým dnešním cílem je #Cor.ACT slyšet #PersPron.PAT #Gen.ACT 50 odmítnutí
 EN_T:	instance he suggests #Gen.ADDR salespeople <#Cor.ACT> making telephone calls say themselves All I want #Cor.ACT do #Cor.PAT today is get #Cor.ACT 50 rejections
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1996.final.streex##7.T-wsj1996-001-p1s6a11
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1996.final.streex##7.T-wsj1996-001-p1s6a11
 CS:	Prodejci společnosti Wang se snaží najít způsob, jakým mají s touto špatnou zprávou bojovat, stejně jako tisíce prodejců před nimi. 
 EN:	Like thousands of salespeople before them, Wang's are finding ways to combat the bad news .
 CS_T:	Prodejci společnosti Wang snaží #Cor.ACT najít způsob #PersPron.ACT <jakým> touto špatnou zprávou bojovat stejně snaží #PersPron.PAT tisíce prodejců nimi
-EN_T:	thousands salespeople them Wang finding #Cor.ACT ways <#Cor.ACT> combat bad news
-ERR: ALIGN=OK
+EN_T:	thousands salespeople them Wang finding #Cor.ACT <ways> #Cor.ACT combat bad news
+ERR: ALIGN=ANTE N je tam PAT, ale malo by byt RSTR alebo nieco ako zpusob 
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1997.final.streex##1.T-wsj1997-001-p1s0a15
 CS:	Blinder International Enterprises Inc., mateřská společnost koncernu Blinder, Robinson & Co, který se zabývá burzovním makléřstvím, uvedla, že její akcionáři schválili již dříve oznámenou změnu názvu společnosti na Intercontinental Enterprises Inc. 
@@ -1265,12 +1265,12 @@ CS_T:	Blinder International Enterprises Inc . , #Forn.ACT mateřská společnost
 EN_T:	Blinder International Enterprises Inc. , parent beleaguered penny-stockbroker Blinder Robinson & Co. said #Gen.ADDR its shareholders approved previously #Gen.ACT announced #Cor.EFF #Gen.ADDR name change Intercontinental Enterprises Inc
 ERR: ALIGN=0 ERR_POS
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1997.final.streex##1.T-wsj1997-001-p1s0a18
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1997.final.streex##1.T-wsj1997-001-p1s0a18
 CS:	Blinder International Enterprises Inc., mateřská společnost koncernu Blinder, Robinson & Co, který se zabývá burzovním makléřstvím, uvedla, že její akcionáři schválili již dříve oznámenou změnu názvu společnosti na Intercontinental Enterprises Inc. 
 EN:	Blinder International Enterprises Inc., the parent of beleaguered penny-stockbroker Blinder, Robinson&Co., said its shareholders approved a previously announced name change to Intercontinental Enterprises Inc.
 CS_T:	Blinder International Enterprises Inc . , #Forn.ACT mateřská společnost koncernu #Forn.ID Blinder , Robinson & Co <který> zabývá burzovním makléřstvím uvedla její akcionáři schválili již dříve oznámenou změnu názvu společnosti #Forn.RSTR Intercontinental Enterprises Inc
-EN_T:	Blinder International Enterprises Inc. , parent beleaguered penny-stockbroker Blinder <Robinson> & Co. said #Gen.ADDR its shareholders approved previously #Gen.ACT announced #Cor.EFF #Gen.ADDR name change Intercontinental Enterprises Inc
-ERR: ALIGN=ANTE N
+EN_T:	Blinder International Enterprises Inc. , parent beleaguered <penny-stockbroker> Blinder Robinson & Co. said #Gen.ADDR its shareholders approved previously #Gen.ACT announced #Cor.EFF #Gen.ADDR name change Intercontinental Enterprises Inc
+ERR: ALIGN=ANTE N vymenene zavislosti v noun compound
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1997.final.streex##4.T-wsj1997-001-p1s3a16
 CS:	Blinder řekl, že tato změna nesouvisí s nedávnými problémy makléřské firmy, mezi něž patří prudký pokles příjmů, rozepře s regulátory záruk a soudní žaloby podané bývalými zákazníky. 
@@ -1279,7 +1279,7 @@ CS_T:	#Gen.ADDR Blinder řekl #Neg.RHEM tato změna nesouvisí nedávnými probl
 EN_T:	Mr. Blinder said #Gen.ADDR change n't related #Gen.ACT brokerage recent troubles <which> included sharp declines earnings run-ins securities regulators and lawsuits former customers
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1998.final.streex##4.T-wsj1998-001-p1s3a18
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1998.final.streex##4.T-wsj1998-001-p1s3a18
 CS:	Společnost Olin uvedla, že zisk jejího chemické divize ve výši 22 miliónů dolarů, který představuje nárůst oproti loňským 15 miliónům, byl způsoben především zisky elektrochemických výrobků, např. louhu sodného. 
 EN:	Olin said its chemical segment had profit of $22 million, up from $15 million a year ago, largely because of gains in electrochemicals such as caustic soda.
 CS_T:	Společnost Olin uvedla zisk jejího chemické divize výši 22 miliónů dolarů <který> představuje nárůst loňským 15 miliónům způsoben především zisky elektrochemických výrobků , např louhu sodného
@@ -1314,14 +1314,14 @@ CS_T:	Společnost uvedla telekomunikační provoz domácnostech rostl rychleji r
 EN_T:	company said #Gen.ADDR residential traffic grew faster grew business traffic and attributed that its new PrimeTime calling plan <that> competes #Gen.PAT American Telephone & Telegraph Reach America plan
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1999.final.streex##22.T-wsj1999-001-p1s21a22
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1999.final.streex##22.T-wsj1999-001-p1s21a22
 CS:	Společnost MCI ovládá přibližně 12 % z trhu dálkových hovorů, ale méně než 10 % z trhu domácností, který má hodnotu 23 miliard dolarů. 
 EN:	MCI claims about 12% of the overall long-distance telephone market but just under 10% of the $23 billion residential market.
 CS_T:	Společnost MCI ovládá přibližně 12 % trhu dálkových hovorů ale méně 10 % trhu domácností <který> má hodnotu 23 miliard dolarů
 EN_T:	MCI claims 12 % overall long-distance telephone market but just 10 % $ 23 billion residential <market>
 ERR: ALIGN=ANTE N
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1999.final.streex##24.T-wsj1999-001-p1s23a14
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1999.final.streex##24.T-wsj1999-001-p1s23a14
 CS:	Společnost chce, aby se sortiment jejích služeb přiblížil sortimentu služeb, které poskytuje společnost AT&T; tento krok podle společnosti MCI pomůže zabránit internímu subvencování. 
 EN:	The company wants its business mix to more closely match that of AT&T -- a step it says will help prevent cross subsidization.
 CS_T:	Společnost chce sortiment jejích služeb přiblížil sortimentu služeb #Gen.ADDR <které> poskytuje společnost #Forn.ID AT & T #PersPron.ADDR tento ; krok společnosti MCI pomůže #Cor.ACT zabránit internímu subvencování #Gen.PAT #PersPron.ACT
@@ -1335,7 +1335,7 @@ CS_T:	Společnost #Forn.ID Southwestern Bell uvedla čistý příjem poklesl 8.7
 EN_T:	Southwestern Bell Corp. said #Gen.ADDR net dropped 8.7 % , #EmpVerb.EFF mainly result four extraordinary items franchise : tax refund its Southwestern Bell Telephone Co. unit received <that> last year production shift several Yellow Pages directories fourth quarter third rate refund Missouri and one-time adjustment phone company revenues
 ERR: ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1999.final.streex##37.T-wsj1999-001-p1s36a13
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1999.final.streex##37.T-wsj1999-001-p1s36a13
 CS:	Společnost oznámila, že za stejné období loňského roku, které bylo mimořádně úspěšné, zaznamenala téměř 70% nárůst příjmů. 
 EN:	The company noted that the year-ago period was particularly strong, with an increase of nearly 70%.
 CS_T:	#Gen.ADDR Společnost oznámila #PersPron.ACT stejné období loňského roku <které> bylo mimořádně úspěšné zaznamenala téměř 70 % nárůst příjmů
