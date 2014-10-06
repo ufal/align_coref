@@ -1409,7 +1409,7 @@ ERR:ANTE	REWORD
 EN:	But if you happen to be coming to Chicago in the next few weeks, don't fail to have a look at Robert Falls's ``The Misanthrope'' at the Goodman.
 CS:	Pokud ale budete mít v příštích několika týdnech náhodou cestu do Chicaga, nezapomeňte se jít podívat na Misantropa od Roberta Fallse, kterou uvádí soubor Goodman. 
 EN_TT:	fail [ But happen [ you coming [ #Cor.ACT Chicago weeks [ next few ] ] ] n't #PersPron.ACT have [ <#Cor.ACT> look Misanthrope [ Falls [ Robert ] Goodman ] ] ]
-CS_TT:	nezapomeňte [ ale mít [ #PersPron.ACT týdnech [ příštích několika ] náhodou cestu [ Chicaga ] ] #Neg.RHEM #PersPron.ACT jít [ #Oblfm.DIR3 <#PersPron.ACT podívat> [ #Cor.ACT Misantropa [ Fallse [ Roberta ] uvádí [ kterou soubor [ Goodman ] ] ] ] ] ]
+CS_TT:	nezapomeňte [ ale mít [ #PersPron.ACT týdnech [ příštích několika ] náhodou cestu [ Chicaga ] ] #Neg.RHEM #PersPron.ACT jít [ #Oblfm.DIR3 <#PersPron.ACT> podívat [ #Cor.ACT Misantropa [ Fallse [ Roberta ] uvádí [ kterou soubor [ Goodman ] ] ] ] ] ]
 ERR:ANTE	technical
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1936.final.streex##14.EnglishT-wsj_1936-s14a2
