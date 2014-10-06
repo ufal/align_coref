@@ -36,6 +36,8 @@ sub _linearize_tnode {
     $word =~ s/ /_/g;
     $word =~ s/</&lt;/g;
     $word =~ s/>/&gt;/g;
+    $word =~ s/\[/&osb;/g;
+    $word =~ s/\]/&csb;/g;
 
     if (any {$_ == $tnode} @highlight) {
         $word = "<" . $word . ">";
@@ -58,6 +60,30 @@ sub _linearize_ttree {
 
     my @words = map {_linearize_tnode($_, @highlight)} $ttree->get_descendants({ordered => 1});
     return join " ", @words;
+}
+
+sub _linearize_ttree_structured {
+    my ($ttree, @highlight_arr) = @_;
+    
+    my $highlight = [ grep {defined $_} @highlight_arr ];
+
+    my ($sub_root) = $ttree->get_children({ordered => 1});
+    my $str = _linearize_subtree_recur($sub_root, $highlight);
+    return $str;
+}
+
+sub _linearize_subtree_recur {
+    my ($subtree, $highlight) = @_;
+    
+    my $str = _linearize_tnode($subtree, @$highlight);
+    my @childs = $subtree->get_children({ordered => 1});
+    if (@childs) {
+        $str .= " [ ";
+        my @child_strs = map {_linearize_subtree_recur($_, $highlight)} @childs;
+        $str .= join " ", @child_strs;
+        $str .= " ]";
+    }
+    return $str;
 }
 
 sub _process_node {
@@ -84,8 +110,10 @@ sub _process_node {
     print {$self->_file_handle} $l1_node->get_address . "\n";
     print {$self->_file_handle} $l1_lang .":\t" . $l1_zone->sentence . "\n";
     print {$self->_file_handle} $l2_lang .":\t" . $l2_zone->sentence . "\n";
-    print {$self->_file_handle} $l1_lang ."_T:\t" . _linearize_ttree($l1_zone->get_ttree, $l1_node) . "\n";
-    print {$self->_file_handle} $l2_lang ."_T:\t" . _linearize_ttree($l2_zone->get_ttree, $l2_node) . "\n";
+    #print {$self->_file_handle} $l1_lang ."_T:\t" . _linearize_ttree($l1_zone->get_ttree, $l1_node) . "\n";
+    print {$self->_file_handle} $l1_lang ."_TT:\t" . _linearize_ttree_structured($l1_zone->get_ttree, $l1_node) . "\n";
+    #print {$self->_file_handle} $l2_lang ."_T:\t" . _linearize_ttree($l2_zone->get_ttree, $l2_node) . "\n";
+    print {$self->_file_handle} $l2_lang ."_TT:\t" . _linearize_ttree_structured($l2_zone->get_ttree, $l2_node) . "\n";
     print {$self->_file_handle} "ERR:\n";
     print {$self->_file_handle} "\n";
 }
