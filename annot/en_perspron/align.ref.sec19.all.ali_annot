@@ -4023,18 +4023,32 @@ EN_T:	<their> illness Beebes said #PersPron.EFF #Gen.ADDR they lost $ 1.8 millio
 CS_T:	#PersPron.EFF #PersPron.ACT nemoci Beebeovi uvedli přišli mzdách a výdělcích 1.8 milionu dolarů
 ERR:NULL_POSS
 
-/home/mnovak/projects/align_resolver/tmp/robust_ali/wsj_1951.final.streex##14.EnglishT-wsj_1951-s14-t21
-EN:	Par said it selected him for the posts of president and chief executive on a permanent basis because of his experience in the industry and his performance at Par.
-CS:	Společnost Par uvedla, že na trvalá místa prezidenta a výkonného ředitele byl vybrán díky svým zkušenostem v průmyslu a výsledkům ve společnosti Par. 
-EN_T:	Par said #Gen.ADDR it selected him posts president and chief executive permanent basis <his> experience industry and his performance Par
-CS_T:	Společnost Par uvedla #PersPron.ACT trvalá místa prezidenta a výkonného ředitele vybrán #PersPron.PAT <svým> zkušenostem průmyslu a výsledkům společnosti Par
-ERR:OK
-
 /home/mnovak/projects/align_resolver/tmp/robust_ali/wsj_1949.final.streex##5.EnglishT-wsj_1949-s5-t5
 EN:	Mr. Craven said his move to the chairmanship means he will take a less active role in the day-to-day management of the group, but he added that the merchant bank's strategic focus remains unchanged.
 CS:	Craven řekl, že jeho převzetí předsednictví znamená, že bude mít méně aktivní roli v každodenním řízení skupiny, ale dodal, že strategický cíl obchodní banky zůstane nezměněn. 
 EN_T:	Mr. Craven said #Gen.ADDR <his> move chairmanship means he take less active role day-to-day management group but he added merchant bank strategic focus remains unchanged
 CS_T:	#Gen.ADDR Craven řekl <jeho> převzetí předsednictví znamená mít #PersPron.ACT méně aktivní roli každodenním řízení #Gen.ACT skupiny ale dodal strategický cíl obchodní banky zůstane nezměněn
+ERR:OK
+
+/home/mnovak/projects/align_resolver/tmp/robust_ali/wsj_1946.final.streex##44.EnglishA-wsj_1946-s44-t13
+EN:	In an era of `sound bites' and instant opinion polls it is dangerous to apply broad labels to a single term.
+CS:	V éře 'citací bez kontextu' a bleskových průzkumů názorů je nebezpečné dávat jednomu výrazu obecné významy. 
+EN_T:	era sound bites and instant opinion polls <__A:EnglishA-wsj_1946-s44-t13__is> dangerous #Gen.ACT apply broad labels single term
+CS_T:	éře citací kontextu a bleskových průzkumů názorů je nebezpečné #Benef.BEN #Cor.ACT dávat jednomu výrazu obecné významy
+ERR:PLEO
+
+/home/mnovak/projects/align_resolver/tmp/robust_ali/wsj_1946.final.streex##38.EnglishA-wsj_1946-s38-t10
+EN:	``Up until now the courts have said it is not their role to supervise the foreign country's courts,'' said Jacques Semmelman, the assistant U.S. attorney on the case.
+CS:	"Až dosud soudy říkaly, že dozor nad cizími soudy není jejich práce," řekl Jacques Semmelman, asistent federálního návladního v této kauze. 
+EN_T:	now courts said #Gen.ADDR <__A:EnglishA-wsj_1946-s38-t10__is> not their role supervise #PersPron.ACT foreign country courts said #Gen.ADDR Jacques Semmelman , assistant U.S. attorney case
+CS_T:	#Gen.ADDR #Gen.ADDR Až dosud soudy říkaly #Neg.RHEM dozor cizími soudy není jejich práce řekl Jacques Semmelman , asistent federálního návladního této kauze
+ERR:PLEO
+
+/home/mnovak/projects/align_resolver/tmp/robust_ali/wsj_1951.final.streex##14.EnglishT-wsj_1951-s14-t21
+EN:	Par said it selected him for the posts of president and chief executive on a permanent basis because of his experience in the industry and his performance at Par.
+CS:	Společnost Par uvedla, že na trvalá místa prezidenta a výkonného ředitele byl vybrán díky svým zkušenostem v průmyslu a výsledkům ve společnosti Par. 
+EN_T:	Par said #Gen.ADDR it selected him posts president and chief executive permanent basis <his> experience industry and his performance Par
+CS_T:	Společnost Par uvedla #PersPron.ACT trvalá místa prezidenta a výkonného ředitele vybrán #PersPron.PAT <svým> zkušenostem průmyslu a výsledkům společnosti Par
 ERR:OK
 
 /home/mnovak/projects/align_resolver/tmp/robust_ali/wsj_1951.final.streex##14.EnglishT-wsj_1951-s14-t27
@@ -6326,25 +6340,11 @@ EN_T:	current quarter <he> said #PersPron.EFF #Gen.ADDR looks fine
 CS_T:	<#PersPron.ACT> #Gen.ADDR Řekl současné čtvrtletí vyvíjí dobře
 ERR:OK
 
-/home/mnovak/projects/align_resolver/tmp/robust_ali/wsj_1946.final.streex##44.EnglishA-wsj_1946-s44-t13
-EN:	In an era of `sound bites' and instant opinion polls it is dangerous to apply broad labels to a single term.
-CS:	V éře 'citací bez kontextu' a bleskových průzkumů názorů je nebezpečné dávat jednomu výrazu obecné významy. 
-EN_T:	era sound bites and instant opinion polls <__A:EnglishA-wsj_1946-s44-t13__is> dangerous #Gen.ACT apply broad labels single term
-CS_T:	éře citací kontextu a bleskových průzkumů názorů je nebezpečné #Benef.BEN #Cor.ACT dávat jednomu výrazu obecné významy
-ERR:PLEO
-
 /home/mnovak/projects/align_resolver/tmp/robust_ali/wsj_1951.final.streex##2.EnglishA-wsj_1951-s2-t5
 EN:	Par also said it was advised by the U.S. attorney for Maryland that it is one of a number of companies being investigated by a federal grand jury for alleged violations of the federal Food, Drug and Cosmetic Act.
 CS:	Společnost Par také uvedla, že ji státní zástupce Marylandu informoval, že je jednou z mnoha společností, u kterých federální trestní porota vyšetřuje údajné porušení federálního zákona o potravinách, lécích a kosmetice. 
 EN_T:	Par also said #Gen.ADDR <__A:EnglishA-wsj_1951-s2-t5__advised> #Cor.ADDR U.S. attorney Maryland it is one number companies investigated #Cor.PAT federal #Forn.ACT grand jury alleged violations federal Food Drug and Cosmetic Act
 CS_T:	Společnost Par také uvedla ji státní zástupce Marylandu informoval #PersPron.ACT je jednou mnoha společností kterých federální trestní porota vyšetřuje #PersPron.ACT údajné porušení federálního zákona potravinách lécích a kosmetice
-ERR:PLEO
-
-/home/mnovak/projects/align_resolver/tmp/robust_ali/wsj_1946.final.streex##38.EnglishA-wsj_1946-s38-t10
-EN:	``Up until now the courts have said it is not their role to supervise the foreign country's courts,'' said Jacques Semmelman, the assistant U.S. attorney on the case.
-CS:	"Až dosud soudy říkaly, že dozor nad cizími soudy není jejich práce," řekl Jacques Semmelman, asistent federálního návladního v této kauze. 
-EN_T:	now courts said #Gen.ADDR <__A:EnglishA-wsj_1946-s38-t10__is> not their role supervise #PersPron.ACT foreign country courts said #Gen.ADDR Jacques Semmelman , assistant U.S. attorney case
-CS_T:	#Gen.ADDR #Gen.ADDR Až dosud soudy říkaly #Neg.RHEM dozor cizími soudy není jejich práce řekl Jacques Semmelman , asistent federálního návladního této kauze
 ERR:PLEO
 
 /home/mnovak/projects/align_resolver/tmp/robust_ali/wsj_1961.final.streex##2.EnglishA-wsj_1961-s2-t6
