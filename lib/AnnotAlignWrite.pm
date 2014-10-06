@@ -3,7 +3,6 @@ package Treex::Block::My::AnnotAlignWrite;
 use Moose;
 use Treex::Core::Common;
 
-use Treex::Tool::Coreference::NodeFilter::RelPron;
 use Treex::Tool::Align::Utils;
 
 extends 'Treex::Block::Write::BaseTextWriter';
