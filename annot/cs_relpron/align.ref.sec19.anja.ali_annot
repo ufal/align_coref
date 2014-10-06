@@ -1116,7 +1116,7 @@ CS:	Egon Krenz, muž, který byl včera zvolen do funkce nového čelního před
 EN:	Egon Krenz, the man tapped yesterday to become East Germany's new leader, faces the same task that has fallen to neighboring socialist colleagues: reforming a country in crisis.
 CS_T:	Egon Krenz , muž #Gen.ACT <který> včera zvolen funkce nového čelního představitele Východního Německa čelí stejnému úkolu jenž připadl jeho sousední socialistické kolegy #PersPron.ACT reformovat zemi krizi
 EN_T:	Egon Krenz , <man> tapped #Gen.ACT yesterday #Cor.ACT become East Germany new leader faces same task that fallen #Cor.ACT neighboring #Gen.PAT socialist colleagues : #Gen.ACT reforming country crisis
-ERR:ALIGN=ANTE ED MISSING_COR
+ERR:ALIGN=ANTE	ED MISSING_COR
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1929.final.streex##30.T-wsj1929-001-p1s29a20
 CS:	Funguje zde jistá krutá logika: Je obzvláště vhodné - a tragické -, aby země, která zplodila Karla Marxe, prokázala selhání socialismu v experimentu, který využívá ke kontrole svůj vlastní národ. 
@@ -1249,7 +1249,7 @@ CS:	Investoři také rychle vyčlenili akcie společností, u kterých se oček�
 EN:	Also, investors quickly singled out stocks of companies expected to profit or suffer from the disaster.
 CS_T:	#Oblfm.DIR1 Investoři také vyčlenili rychle akcie společností #Gen.ACT očekává <kterých> neštěstí vydělávat #Gen.PAT nebo #PersPron.ACT trpět němu
 EN_T:	Also investors quickly singled #Oblfm.DIR1 stocks <companies> expected #Gen.ACT profit or suffer disaster
-ERR:ALIGN=ANTE ED MISSING_COR - divny strom
+ERR:ALIGN=ANTE	ED MISSING_COR - divny strom
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1930.final.streex##5.T-wsj1930-001-p1s4a13
 CS:	Zadlužené odkupy lze udržet v mezích dvěma pravidly v zákoně, který čeká na projednání v Kongresu. 
@@ -1620,7 +1620,7 @@ CS:	Mám pro pana Labanda otázku: Jak vysvětlím svobodné matce tří dětí,
 EN:	I have a question for Mr. Laband: How do I explain to the single mother of three standing in line next to me for the past three hours that the two bags of ice she needs to keep her children's food edible will take her last $20 ?
 CS_T:	#PersPron.ACT Mám pana Labanda otázku #PersPron.ACT Jak vysvětlím svobodné matce tří dětí <která> stojí mě více tři hodiny frontě ty dvě tašky ledu #PersPron.ACT které potřebuje potraviny její děti zůstaly poživatelné ji stát posledních 20 dolarů
 EN_T:	I have question Mr. Laband How I explain single <mother> three standing line next me past three hours two bags ice she needs #Cor.PAT #Cor.ACT keep her children food edible take her last $ 20
-ERR:ALIGN=ANTE ING MISSING_COR
+ERR:ALIGN=ANTE	ING MISSING_COR
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1935.final.streex##58.T-wsj1935-001-p1s57a32
 CS:	Mám pro pana Labanda otázku: Jak vysvětlím svobodné matce tří dětí, která stojí vedle mě více než tři hodiny ve frontě, že ty dvě tašky ledu, které potřebuje, aby potraviny pro její děti zůstaly poživatelné, ji budou stát posledních 20 dolarů? 
