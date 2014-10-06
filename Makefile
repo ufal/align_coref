@@ -169,6 +169,17 @@ tte_feats :
         FEATSET_LIST=$(PWD)/$(FEATSET_LIST) \
         STATS_FILE=$(PWD)/$(STATS_FILE)
 
+self_training :
+	$(MAKE) -C $(ML_FRAMEWORK) self_training \
+        RANKING=1 \
+        DATA_SOURCE=pcedt_19 \
+        DATA_DIR=$(PWD)/$(DATA_DIR) \
+        RUNS_DIR=$(PWD)/tmp/testing_self_training \
+        FEATSET_LIST=$(PWD)/$(FEATSET_LIST) \
+		ML_METHOD=vw.ranking \
+		ML_PARAMS="mc --loss_function logistic --passes 10" \
+		FEAT_LIST="__SELF__,n1_functor,n2_functor"
+
 ##################### DIAGNOSTICS ##########################################
 
 RESULT_FILE=tmp/ml/en_perspron/tte_feats_2014-03-06_22-50-55/75c76c8175/result/train.pcedt_19.in.vw.ranking.8411a.res
