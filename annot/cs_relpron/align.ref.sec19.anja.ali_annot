@@ -718,7 +718,7 @@ CS:	Na zákonodárném shromáždění v Budapešti, které bylo celostátně p�
 EN:	At a nationally televised legislative session in Budapest, the Parliament overwhelmingly approved changes formally ending one-party domination in the country, regulating free elections by next summer and establishing the office of state president to replace a 21-member council.
 CS_T:	#Gen.ACT zákonodárném shromáždění Budapešti které celostátně přenášeno #Gen.ACT televizi parlament naprostou většinou hlasů schválil změny <jež> formálně ukončí nadvládu jedné strany zemi příštího léta stanoví pravidla svobodných voleb a zřídí úřad prezidenta státu který nahradí 21člennou 21člennou radu
 EN_T:	nationally televised #Cor.PAT #Gen.ACT legislative session Budapest Parliament overwhelmingly approved changes formally ending <#Cor.ACT> one-party domination country regulating free elections next summer and establishing office state president #Cor.ACT replace 21-member council
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
+ERR:ALIGN=OK ING
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1924.final.streex##13.T-wsj1924-001-p1s12a44
 CS:	Na zákonodárném shromáždění v Budapešti, které bylo celostátně přenášeno v televizi, parlament naprostou většinou hlasů schválil změny, jež formálně ukončí nadvládu jedné strany v zemi, do příštího léta stanoví pravidla svobodných voleb a zřídí úřad prezidenta státu, který nahradí 21člennou radu. 
@@ -844,7 +844,7 @@ CS:	Geniálním organizátorem byl Ralph Neas, který stmelil směsici různých
 EN:	Ralph Neas was the organizing genius, whipping a conglomerate of pressure groups into an irresistible attacking force.
 CS_T:	Geniálním organizátorem byl Ralph Neas <který> stmelil směsici různých nátlakových skupin mocné útočné síly
 EN_T:	Ralph Neas was organizing genius <#Cor.ACT> whipping conglomerate pressure groups irresistible attacking force
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
+ERR:ALIGN=OK ING
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1927.final.streex##12.T-wsj1927-001-p1s11a22
 CS:	Těžkou váhou v oboru ústavního práva byl Laurence Tribe z Harvardu, to on rozpracoval právní strategie, kterými se mají řídit senátoři a svědci. 
@@ -885,8 +885,8 @@ ERR:ALIGN=OK
 CS:	Další munice přišla od levicového právního teoretika Ronalda Dworkina, který v časopise New York Review of Books vykreslil obraz ústavní mrtvoly, která si především na poli "interpretace v duchu tvůrců" do Ústavy umíněně vkládá své osobní předsudky. 
 EN:	Further ammunition came from left legal theorist Ronald Dworkin, who in the New York Review of Books painted a picture of a constitutional zombie willfully reading his personal prejudices into the Constitution, particularly in the area of ``original intent.''
 CS_T:	Další munice přišla #Oblfm.DIR3 levicového právního teoretika Ronalda Dworkina #Gen.ADDR který časopise New York Review of Books #Forn.ID vykreslil obraz ústavní mrtvoly <která> si především poli interpretace tvůrců Ústavy umíněně vkládá své osobní předsudky
-EN_T:	Further ammunition came left legal theorist Ronald Dworkin who New York Review Books painted picture constitutional <zombie> willfully reading #Cor.ACT his personal prejudices Constitution particularly area original intent
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
+EN_T:	Further ammunition came left legal theorist Ronald Dworkin who New York Review Books painted picture constitutional zombie willfully reading <#Cor.ACT> his personal prejudices Constitution particularly area original intent
+ERR:ALIGN=OK ING
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1927.final.streex##1.T-wsj1927-001-p1s0a17
 CS:	Ať už "velké případy kazí soudnictví", jak tvrdil soudce Holmes, nebo ne, stejně, kdo může pochybovat o tom, že nekazí historii soudnictví, když výsledek velkých konfirmačních slyšení závisí na kandidátově reakci právě na tyto velké případy? 
@@ -970,7 +970,7 @@ CS:	Lidé obeznámení s transakcí však uvedli, že aukční dům se namísto 
 EN:	Instead, people familiar with the transaction said , the auction house opted to forgo that percentage in order to obtain the collection and in exchange for taking a bigger chunk of proceeds exceeding $100 million.
 CS_T:	Lidé obeznámení transakcí však uvedli aukční dům toho rozhodl #Cor.ACT tohoto procenta vzdát #PersPron.ACT sbírku získal a to obdrží vyšší podíl zisku <který> přesáhne 100 milionů dolarů
 EN_T:	Instead people familiar transaction said #Gen.ADDR auction house opted #Cor.ACT forgo that percentage #Cor.ACT obtain collection and taking bigger chunk proceeds <#Cor.ACT> exceeding $ 100 million
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
+ERR:ALIGN=OK ING
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1928.final.streex##14.T-wsj1928-001-p1s13a18
 CS:	Mluvčí společnosti Sotheby's vysvětluje toto prohlášení tak, že "vyjadřuje přesně to, co v něm stojí. 
@@ -1012,7 +1012,7 @@ CS:	Je však pravděpodobné, že společnost Sotheby's za částku, která pře
 EN:	But it 's likely that Sotheby's will take a higher than usual commission, called an override, on the amount exceeding the guarantee.
 CS_T:	Je však pravděpodobné společnost Sotheby ' #Forn.ID s částku <která> přesáhne záruku získá vyšší získá #PersPron.ACT provizi obvyklou provizi , tzv manažerskou provizi
 EN_T:	But 's likely Sotheby take higher usual commission #Gen.ACT called #Cor.PAT override amount <#Cor.ACT> exceeding guarantee
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
+ERR:ALIGN=OK ING
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1928.final.streex##2.T-wsj1928-001-p1s1a28
 CS:	Lidé blízcí transakci uvádějí, že oddělení finančních služeb se Dorranceovým zaručilo, že za sbírku obdrží minimálně 100 milionů dolarů bez ohledu na to, kolik budou činit nabídky za umělecká díla. 
@@ -1026,7 +1026,7 @@ CS:	Vloni v květnu na tiskové konferenci, kde společnost Sotheby's oznámila 
 EN:	At a news conference last May announcing plans for the auction, Sotheby's estimated its value in excess of $100 million.
 CS_T:	Vloni květnu tiskové konferenci <kde> společnost #Forn.ID Sotheby ' s oznámila plány aukce odhadla #PersPron.ACT hodnotu majetku více 100 milionů dolarů
 EN_T:	news conference May last <#Cor.ACT> announcing #Gen.ADDR plans auction Sotheby estimated its value excess $ 100 million
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
+ERR:ALIGN=OK ING
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1928.final.streex##34.T-wsj1928-001-p1s33a29
 CS:	Na aukci včera večer zakoupila 13 ze 44 prodaných děl galerie Aska International Gallery, akviziční jednotka pro výtvarné umění společnosti Aichi Financial, japonského konsorcia, které vlastní 7.5% podíl společnosti Christie's. 
@@ -1194,7 +1194,7 @@ CS:	Tento pokles, který přichází po srpnovém poklesu o 6.2 %, naznačuje, �
 EN:	The drop, following a 6.2% decline in August, indicates the industry is still being hurt by the Fed's anti-inflation battle.
 CS_T:	Tento pokles <který> přichází srpnovém poklesu % 6.2 naznačuje #Gen.ADDR průmysl stále trpí bojem Federální banky rezervní inflaci
 EN_T:	drop following <#Cor.ACT> 6.2 % decline August indicates industry still hurt Fed anti-inflation battle
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
+ERR:ALIGN=OK ING
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1930.final.streex##11.T-wsj1930-001-p1s10a16
 CS:	Společnost IBM plánuje koupit zpět své kmenové akcie v hodnotě 1 miliardy dolarů, což je krok, který pravděpodobně pomůže akciím tohoto počítačového giganta, které jsou v zoufalém stavu. 
@@ -1271,7 +1271,7 @@ CS:	Zákon, který dává ministerstvu dopravy právo blokovat zadlužené odkup
 EN:	A bill giving the Transportation Department the power to block airline leveraged buy-outs cleared a House panel.
 CS_T:	Zákon <který> dává ministerstvu dopravy právo #Cor.ACT blokovat zadlužené odkupy prošel aerolinií sněmovnou lehce
 EN_T:	bill <#Cor.ACT> giving Transportation Department power #Cor.ACT block airline leveraged buy-outs cleared House panel
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
+ERR:ALIGN=OK ING
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1931.final.streex##10.T-wsj1931-001-p1s9a14
 CS:	Ve čtvrtek začala americká měna v Tokiu obchodovat na 140.97 jenu, což bylo snížení oproti středečnímu uzavření v Tokiu na 142.10 jenu. 
@@ -1327,7 +1327,7 @@ CS:	Woodland ze spořitelny Harris Trust poznamenal, že měna nadále projevuje
 EN:	Harris Trust's Mr. Woodland noted that the unit continues to show resilience in the face of a barrage of ``headline negatives'' in recent weeks, including rate increases in Europe and Japan, aggressive central bank intervention, a 190-point plunge in New York stock prices, an unexpectedly poor U.S. trade report and action by the Federal Reserve to nudge U.S. rates lower.
 CS_T:	Woodland spořitelny #Forn.ID Harris Trust poznamenal měna nadále projevuje odolnost přívalu pesimistických novinových titulků <které> vznikly poslední týdny a zahrnují #Gen.ACT zvýšení sazeb Evropě a Japonsku agresivní intervenci centrální banky prudký pokles cen akcií newyorské burze 190 bodů , neočekávaně špatnou zprávu americkém obchodu a kroku který podnikla Federální rezervní banka #PersPron.ACT napomohla #Gen.ACT snížení sazeb Spojených státech
 EN_T:	Harris Trust Mr. Woodland noted unit continues #Cor.ACT show resilience face barrage headline negatives recent weeks including <#PersPron.ACT> rate increases Europe and Japan aggressive central bank intervention 190-point plunge New York stock prices unexpectedly poor U.S. trade report and action Federal Reserve #PersPron.ACT nudge U.S. rates lower
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
+ERR:ALIGN=OK ING +ALIGN=ANTE N
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1931.final.streex##6.T-wsj1931-001-p1s5a62
 CS:	Woodland ze spořitelny Harris Trust poznamenal, že měna nadále projevuje odolnost vůči přívalu "pesimistických novinových titulků", které vznikly za poslední týdny a zahrnují zvýšení sazeb v Evropě a v Japonsku, agresivní intervenci centrální banky, prudký pokles cen akcií na newyorské burze o 190 bodů, neočekávaně špatnou zprávu o americkém obchodu a kroku, který podnikla Federální rezervní banka, aby napomohla snížení sazeb ve Spojených státech. 
@@ -1439,7 +1439,7 @@ CS:	Podle jednoho obchodníka Japonsko řeklo, že letos zbývá pouhých 40000 
 EN:	According to one dealer, Japan said it has only 40,000 tons of sugar remaining to be shipped to it this year by Cuba under current commitments.
 CS_T:	#Gen.ADDR jednoho obchodníka Japonsko řeklo letos zbývá pouhých 40000 tun cukru #PersPron.ACT <které> současných závazků dostat Kuby
 EN_T:	one dealer Japan said #Gen.ADDR it has only 40,000 tons sugar remaining <#Cor.ACT> shipped it this year Cuba current commitments
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
+ERR:ALIGN=OK ING MISSING_COR
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1932.final.streex##45.T-wsj1932-001-p1s44a9
 CS:	Obchodník řekl, že faktorem, který ve skutečnosti drží pevné termínové ceny, může být Indie. 
@@ -1523,7 +1523,7 @@ CS:	Proč by měli pracovat společně s prospěcháři, kteří se ženou za ry
 EN:	Why should they have to co-exist with opportunists rushing in to turn a quick profit ?
 CS_T:	#PersPron.ACT Proč pracovat prospěcháři <kteří> ženou rychlými zisky
 EN_T:	Why they have #Cor.ACT co-exist opportunists <#Cor.ACT> rushing #Cor.ACT turn quick profit
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
+ERR:ALIGN=OK ING
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1935.final.streex##14.T-wsj1935-001-p1s13a17
 CS:	Vláda vlastně chrání lakomce, kteří shrabávají led pro sebe, a další šmelináře, kteří nevidí nic než svůj krátkodobý zisk. 
@@ -1614,14 +1614,14 @@ CS:	Až se vrátí normální stav, budeme si pamatovat obchody, které se hlás
 EN:	The businesses subscribing to Mr. Laband's effective price system will be remembered when normalcy returns .
 CS_T:	vrátí normální stav #PersPron.ACT pamatovat obchody <které> hlásily Labandově systému efektivních cen
 EN_T:	businesses <#Cor.ACT> subscribing Mr. Laband effective price system remembered #Gen.ACT when normalcy returns #Oblfm.DIR3
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
+ERR:ALIGN=OK ING
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1935.final.streex##58.T-wsj1935-001-p1s57a15
 CS:	Mám pro pana Labanda otázku: Jak vysvětlím svobodné matce tří dětí, která stojí vedle mě více než tři hodiny ve frontě, že ty dvě tašky ledu, které potřebuje, aby potraviny pro její děti zůstaly poživatelné, ji budou stát posledních 20 dolarů? 
 EN:	I have a question for Mr. Laband: How do I explain to the single mother of three standing in line next to me for the past three hours that the two bags of ice she needs to keep her children's food edible will take her last $20 ?
 CS_T:	#PersPron.ACT Mám pana Labanda otázku #PersPron.ACT Jak vysvětlím svobodné matce tří dětí <která> stojí mě více tři hodiny frontě ty dvě tašky ledu #PersPron.ACT které potřebuje potraviny její děti zůstaly poživatelné ji stát posledních 20 dolarů
-EN_T:	I have question Mr. Laband How I explain single <__A:EnglishA-wsj_1935-s58-t13__mother> three standing line next me past three hours two bags ice she needs #Cor.PAT #Cor.ACT keep her children food edible take her last $ 20
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
+EN_T:	I have question Mr. Laband How I explain single <mother> three standing line next me past three hours two bags ice she needs #Cor.PAT #Cor.ACT keep her children food edible take her last $ 20
+ERR:ALIGN=ANTE ING MISSING_COR
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1935.final.streex##58.T-wsj1935-001-p1s57a32
 CS:	Mám pro pana Labanda otázku: Jak vysvětlím svobodné matce tří dětí, která stojí vedle mě více než tři hodiny ve frontě, že ty dvě tašky ledu, které potřebuje, aby potraviny pro její děti zůstaly poživatelné, ji budou stát posledních 20 dolarů? 
@@ -1781,8 +1781,8 @@ ERR:ALIGN=OK
 CS:	Když byl soubor Steppenwolf v Londýně s "Hrozny hněvu", vrátil se Bruce Sagan, prezident jeho správní rady, tiše do Chicaga, aby koupil nemovitost na ulici North Halsted Street s restauracemi a divadly, která znovu rychle přichází do módy. 
 EN:	While Steppenwolf was in London with ``The Grapes of Wrath,'' Bruce Sagan, the president of its board of directors, quietly returned to Chicago to buy a piece of real estate in the city's rapidly reviving North Halsted Street restaurant and theater district.
 CS_T:	byl soubor Steppenwolf Londýně Hrozny hněvu vrátil Bruce Sagan , prezident jeho správní rady tiše Chicaga #PersPron.ACT koupil nemovitost ulici #Forn.ID North Halsted Street restauracemi a divadly <která> znovu rychle přichází módy
-EN_T:	Steppenwolf was London Grapes Wrath Bruce Sagan , president its board directors quietly returned Chicago #Cor.ACT buy piece real estate city rapidly #Cor.ACT reviving North Halsted Street restaurant and theater <district>
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
+EN_T:	Steppenwolf was London Grapes Wrath Bruce Sagan , president its board directors quietly returned Chicago #Cor.ACT buy piece real estate city rapidly <#Cor.ACT> reviving North Halsted Street restaurant and theater district
+ERR:ALIGN=OK ING close to ALIGN=ANTE N
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1936.final.streex##44.T-wsj1936-001-p1s43a18
 CS:	Doufá, že do roka se soubor Steppenwolf přemístí na toto místo do nového divadla, které bude mít 500 sedadel. 
@@ -1894,14 +1894,14 @@ CS:	Masivně se obchodovalo s akciemi společnosti Kasler, kalifornské společn
 EN:	Shares of Kasler, a California road and bridge builder, were heavily traded , jumping 2 1\/8 to 9 7\/8 on 1.3 million shares.
 CS_T:	#Gen.ADDR #Gen.ACT Masivně obchodovalo akciemi , společnosti Kasler kalifornské společnosti stavící silnice a mosty <které> vzrostly 2 #Separ.CONJ / 1 8 9 #Separ.CONJ / 7 8 1.3 milionu akcií
 EN_T:	Shares Kasler , California road and bridge builder heavily traded #Gen.ACT <#Cor.ACT> jumping 2 #Separ.CONJ 1\/8 1\/8 1\/8 9 #Separ.CONJ 7\/8 7\/8 7\/8 1.3 million shares
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
+ERR:ALIGN=OK ING
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1937.final.streex##35.T-wsj1937-001-p1s34a14
 CS:	Obchodníci byli zpočátku nervózní ohledně akcií společností včetně mnoha počítačových společností, které na mimoburzovním trhu vedou, jako je například společnost Apple Computer, která má pobočky v blízkosti oblasti zničené zemětřesením. 
 EN:	Traders were initially nervous about shares of companies, including many leading OTC computer companies, such as Apple Computer with offices in the vicinity of the area damaged by the quake.
 CS_T:	Obchodníci byli zpočátku nervózní akcií společností mnoha počítačových společností <které> mimoburzovním trhu vedou #Gen.PAT je společností jako například společnost #Forn.ID Apple Computer která má pobočky oblasti zničené zemětřesením
 EN_T:	Traders were initially nervous shares <companies> many leading OTC computer companies as Apple Computer offices vicinity area damaged #Cor.PAT quake
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
+ERR:ALIGN=ANTE N
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1937.final.streex##35.T-wsj1937-001-p1s34a27
 CS:	Obchodníci byli zpočátku nervózní ohledně akcií společností včetně mnoha počítačových společností, které na mimoburzovním trhu vedou, jako je například společnost Apple Computer, která má pobočky v blízkosti oblasti zničené zemětřesením. 
@@ -1929,7 +1929,7 @@ CS:	Analytikové soudí, že by společnost Amgen mohla prosperovat následkem p
 EN:	Analysts figure Amgen could benefit as a result of troubles facing its competitor, Genetics Institute, over the anti-anemia drug EPO.
 CS_T:	Analytikové soudí společnost Amgen prosperovat potíží <kterým> lékem anémii zvaným #Idph.MANN EPO čelí její konkurent , Institut genetiky
 EN_T:	Analysts figure Amgen benefit #PersPron.PAT result troubles facing <#Cor.PAT> , its competitor Genetics Institute anti-anemia drug EPO
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
+ERR:ALIGN=OK ING
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1937.final.streex##53.T-wsj1937-001-p1s52a18
 CS:	Institut genetiky nedávno oznámil, že je zapleten do sporu se společností Boehringer Mannheim, která tento lék distribuuje, ohledně použitelnosti některých výrobních dávek. 
@@ -1971,7 +1971,7 @@ CS:	Zanechal mu zprávu, ve které viní Darmana ze zaprodanosti.
 EN:	He left a message accusing Mr. Darman of selling out.
 CS_T:	#PersPron.ACT Zanechal mu zprávu <které> viní #PersPron.ACT Darmana zaprodanosti
 EN_T:	He left #Oblfm.LOC message <#Cor.ACT> accusing Mr. Darman selling #Cor.ACT
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
+ERR:ALIGN=OK ING
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1939.final.streex##16.T-wsj1939-001-p1s15a8
 CS:	Byli to ale senátní republikáni, kdo se odklonil od strategie veta. 
@@ -2195,7 +2195,7 @@ CS:	Odvolací divize Nejvyššího soudu státu New York zamítla šest obžalob
 EN:	The Appellate Division of New York State Supreme Court dismissed six lawsuits attempting to block a $2.5 billion project planned for 42nd Street in Manhattan.
 CS_T:	Odvolací divize Nejvyššího soudu státu New #Forn.ID York zamítla šest obžalob <které> pokoušely #Cor.ACT zabránit projektu 2.5 miliardy plánovanému manhattanské 42 ulici
 EN_T:	Appellate Division New York State Supreme Court dismissed six lawsuits <#Cor.ACT> attempting #Cor.ACT block $ 2.5 billion project #Gen.ACT planned #Cor.PAT 42nd Street Manhattan
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
+ERR:ALIGN=OK ING
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1946.final.streex##18.T-wsj1946-001-p1s17a15
 CS:	Odpůrci projektu tvrdili, že město i stát New York, které projekt pomáhají sponzorovat, se nedrží směrnic o životním prostředí. 
@@ -2419,7 +2419,7 @@ CS:	Společnost Par také uvedla, že ji státní zástupce Marylandu informoval
 EN:	Par also said it was advised by the U.S. attorney for Maryland that it is one of a number of companies being investigated by a federal grand jury for alleged violations of the federal Food, Drug and Cosmetic Act.
 CS_T:	Společnost Par také uvedla ji státní zástupce Marylandu informoval #PersPron.ACT je jednou mnoha společností <kterých> federální trestní porota vyšetřuje #PersPron.ACT údajné porušení federálního zákona potravinách lécích a kosmetice
 EN_T:	Par also said #Gen.ADDR advised #Cor.ADDR U.S. attorney Maryland it is one number companies investigated <#Cor.PAT> federal #Forn.ACT grand jury alleged violations federal Food Drug and Cosmetic Act
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
+ERR:ALIGN=OK ING
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1951.final.streex##3.T-wsj1951-001-p1s2a10
 CS:	Společnost Par, výrobce generických léků, kterého trápily manažerské problémy, byla už předmětem federálního vyšetřování při procesu schvalování léků a vyšetřování Úřadem pro kontrolu potravin a léčiv (FDA). 
