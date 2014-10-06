@@ -1,4 +1,4 @@
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1900.final.streex##1.T-wsj1900-001-p1s0a18
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1900.final.streex##1.T-wsj1900-001-p1s0a18
 CS:	Arizonská komise pro korporace schválila společnosti Tucson Electric Power Co. zvýšení sazby o 11.5 %, což je podstatně méně, než minulý měsíc doporučoval jednající úředník komise, a sotva polovina zvýšení požadovaného podnikem. 
 EN:	The Arizona Corporations Commission authorized an 11.5% rate increase at Tucson Electric Power Co., substantially lower than recommended last month by a commission hearing officer and barely half the rise sought by the utility.
 CS_T:	Arizonská komise korporace schválila Tucson #Forn.ID společnosti Electric Power Co . #Gen.ACT zvýšení sazby % 11.5 , <což> je podstatně #Gen.ADDR méně měsíc minulý a doporučoval #PersPron.PAT jednající úředník komise sotva polovina #PersPron.PAT #Gen.ACT zvýšení požadovaného podnikem
@@ -601,7 +601,7 @@ CS_T:	Safer , podnikatel textilním průmyslu Newarku státě #Forn.ID New Perse
 EN_T:	Friday Mr. Safer , Newark N.J. textile businessman signed #Gen.ADDR confidentiality agreement <which> United Merchants provide him nonpublic information
 ERR:ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1920.final.streex##4.a-wsj1920-001-p1s3W9-Ta
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1920.final.streex##4.a-wsj1920-001-p1s3W9-Ta
 CS:	Bush a jeho poradci byli po tom, co v aljašských vodách ztroskotal naftový tanker Exxon Valdez a na pobřeží Karolíny udeřil hurikán Hugo, nařknuti z toho, že reagují příliš pomalu a zřejmě nechtějí, aby se tato obvinění nyní opakovala. 
 EN:	Mr. Bush and his aides were accused of responding too slowly after the Exxon Valdez oil tanker split open in Alaskan waters and Hurricane Hugo struck the Carolina coast, and they clearly don't want a repeat of those charges now.
 CS_T:	#Gen.ACT Bush a jeho poradci aljašských vodách <__A:a-wsj1920-001-p1s3W9-Ta__ztroskotal> naftový tanker #Forn.ID Exxon Valdez a pobřeží Karolíny udeřil hurikán Hugo nařknuti #PersPron.PAT #PersPron.ACT reagují příliš pomalu #Neg.RHEM a zřejmě nechtějí #PersPron.PAT #PersPron.ADDR #Gen.ACT tato obvinění nyní opakovala
@@ -1084,7 +1084,7 @@ CS_T:	Podnik #Gen.ADDR <který> prodat akcie nebo dluhopisy jde některé spole�
 EN_T:	corporation <that> wants #Cor.ACT sell stock or bonds goes Wall Street firm which purchases securities outright #Cor.ACT accepting financial risk #Cor.ACT finding #Cor.ACT buyers
 ERR:ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1928.final.streex##6.T-wsj1928-001-p1s5a16
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1928.final.streex##6.T-wsj1928-001-p1s5a16
 CS:	Pokud by investiční banka dokázala prodat cenné papíry za vyšší cenu, než kolik zaplatila emitentovi, bude mít zisk. 
 EN:	If the investment bank can sell the securities at a higher price than it paid the issuer , it makes a profit.
 CS_T:	investiční banka dokázala #Gen.ADDR #Cor.ACT prodat cenné papíry vyšší cenu <kolik> zaplatila #PersPron.ACT emitentovi #PersPron.ACT mít zisk
@@ -1196,7 +1196,7 @@ CS_T:	Tento pokles <který> přichází srpnovém poklesu % 6.2 naznačuje #Gen.
 EN_T:	drop following <#Cor.ACT> 6.2 % decline August indicates industry still hurt Fed anti-inflation battle
 ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1930.final.streex##11.T-wsj1930-001-p1s10a16
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1930.final.streex##11.T-wsj1930-001-p1s10a16
 CS:	Společnost IBM plánuje koupit zpět své kmenové akcie v hodnotě 1 miliardy dolarů, což je krok, který pravděpodobně pomůže akciím tohoto počítačového giganta, které jsou v zoufalém stavu. 
 EN:	IBM plans to buy back $1 billion of its common shares, a move likely to help the computer giant's battered stock.
 CS_T:	Společnost IBM #Cor.ACT plánuje koupit zpět své kmenové akcie , hodnotě 1 miliardy dolarů <což> je krok který pravděpodobně pomůže akciím tohoto giganta počítačového které jsou stavu zoufalém
@@ -1644,14 +1644,14 @@ CS_T:	Ale #EmpVerb.PRED ne #Gen.ACT prostředky využity nejefektivněji vzácn�
 EN_T:	But not #EmpVerb.PRED resources going their efficient use leaving #Cor.ACT scarce goods allocated #Cor.PAT #Gen.ACT those buyers <who> place highest value them
 ERR:ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1935.final.streex##8.a-wsj1935-001-p1s7W27-Ta
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1935.final.streex##8.a-wsj1935-001-p1s7W27-Ta
 CS:	Je nehumánní naznačovat, že chudá, nezaměstnaná žena nedostane pro svoji rodinu okamžitou pomoc za rozumné ceny proto, že toho nemusí platit tolik, co bohatá rodina. 
 EN:	It is inhumane to imply that a poor, unemployed woman can not receive immediate relief for her family at fair prices because she does not have as much to protect as a rich family.
 CS_T:	Je nehumánní #Benef.BEN #Gen.ADDR #Cor.ACT naznačovat chudá , #Neg.RHEM nezaměstnaná žena nedostane svoji rodinu okamžitou pomoc rozumné ceny #PersPron.ACT toho platit #Neg.RHEM tolik <__A:a-wsj1935-001-p1s7W27-Ta__platit> #PersPron.PAT bohatá rodina
 EN_T:	is inhumane #Gen.ACT imply poor unemployed woman not receive immediate relief her family fair prices she not have as much #Cor.ACT protect #Cor.PAT rich <__A:EnglishA-wsj_1935-s8-t37__family>
 ERR:???
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1936.final.streex##13.T-wsj1936-001-p1s12a25
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1936.final.streex##13.T-wsj1936-001-p1s12a25
 CS:	Pokud ale budete mít v příštích několika týdnech náhodou cestu do Chicaga, nezapomeňte se jít podívat na Misantropa od Roberta Fallse, kterou uvádí soubor Goodman. 
 EN:	But if you happen to be coming to Chicago in the next few weeks, don't fail to have a look at Robert Falls's ``The Misanthrope'' at the Goodman.
 CS_T:	#PersPron.ACT ale mít příštích několika týdnech náhodou cestu Chicaga #Neg.RHEM #PersPron.ACT nezapomeňte jít #Oblfm.DIR3 #PersPron.ACT #Cor.ACT podívat Misantropa Roberta Fallse <kterou> uvádí soubor Goodman
@@ -1903,7 +1903,7 @@ CS_T:	Obchodníci byli zpočátku nervózní akcií společností mnoha počíta
 EN_T:	Traders were initially nervous shares <companies> many leading OTC computer companies as Apple Computer offices vicinity area damaged #Cor.PAT quake
 ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ING
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1937.final.streex##35.T-wsj1937-001-p1s34a27
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1937.final.streex##35.T-wsj1937-001-p1s34a27
 CS:	Obchodníci byli zpočátku nervózní ohledně akcií společností včetně mnoha počítačových společností, které na mimoburzovním trhu vedou, jako je například společnost Apple Computer, která má pobočky v blízkosti oblasti zničené zemětřesením. 
 EN:	Traders were initially nervous about shares of companies, including many leading OTC computer companies, such as Apple Computer with offices in the vicinity of the area damaged by the quake.
 CS_T:	Obchodníci byli zpočátku nervózní akcií společností mnoha počítačových společností které mimoburzovním trhu vedou #Gen.PAT je společností jako například společnost #Forn.ID Apple Computer <která> má pobočky oblasti zničené zemětřesením
@@ -1945,7 +1945,7 @@ CS_T:	index akcií průmyslových společností pondělí pátečního propadu z
 EN_T:	industrial average rallied Monday last Friday collapse OTC market <which> n't suffer too badly correction tumbled
 ERR:ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1938.final.streex##2.T-wsj1938-001-p1s1a31
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1938.final.streex##2.T-wsj1938-001-p1s1a31
 CS:	Tyto společnosti dříve řekly, že nechtějí nabídku zvýšit, aby se vyrovnaly konkurenční nabídce od Institutu Merieux S. A. za 37 kanadských dolarů za akcii, což činí 942 milionů kanadských dolarů. 
 EN:	The companies earlier said they didn't want to raise their offer to match a rival bid by Institut Merieux S.A. of C$ 37 a share, or C$ 942 million.
 CS_T:	#Gen.ADDR Tyto společnosti dříve řekly #PersPron.ACT nabídku zvýšit #Neg.RHEM #PersPron.ACT vyrovnaly konkurenční nabídce Institutu #Forn.ID Merieux S . A . 37 kanadských dolarů akcii , <což> činí 942 milionů kanadských dolarů
@@ -1980,7 +1980,7 @@ CS_T:	Byli to ale senátní republikáni <kdo> odklonil strategie veta
 EN_T:	was Senate Republicans though <who> edged away veto strategy
 ERR:ALIGN=OK
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1939.final.streex##1.a-wsj1939-001-p1s0W6-Ta
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1939.final.streex##1.a-wsj1939-001-p1s0W6-Ta
 CS:	Několik minut po tom, co burza v pátek uzavřela, jsem zavolal senátorovi Billu Bradleymu z New Jersey, oznámil mu, že Dow-Jonesův index akcií průmyslových společností klesl ke konci odpoledne o 190 bodů, a vesele mu sdělil, že vinu za to nese on a jeho kolegové demokraté. 
 EN:	Within minutes after the stock market closed Friday, I called Sen. Bill Bradley of New Jersey, advised him that the Dow Jones Industrial Average had declined by 190 points late that afternoon, and cheerfully informed him that he and his fellow Democrats were to blame .
 CS_T:	Několik minut burza pátek <uzavřela> #Gen.PAT #PersPron.PAT #PersPron.ACT zavolal senátorovi Billu Bradleymu New #Forn.DIR1 Jersey oznámil mu Dow - Jonesův index akcií průmyslových společností klesl konci odpoledne 190 bodů a vesele mu sdělil vinu to nese on a jeho kolegové demokraté
