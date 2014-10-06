@@ -84,7 +84,8 @@ revise_annot :
 # v0003
 ALIGN_TYPE=mgiza_on_czeng
 
-GOLD_ANNOT_FILE=annot/$(ALIGN_ANNOT_ID)/align.ref.sec19.all.ali_annot
+GOLD_ANNOT_FILE_EN=annot/en.align.ref.sec19.so_far.ali_annot
+GOLD_ANNOT_FILE_CS=annot/cs.align.ref.sec19.so_far.ali_annot
 #GOLD_ANNOT_FILE=annot/$(ALIGN_ANNOT_ID)/align.ref.sec19.misko.annot
 
 GOLD_ANNOT_TREES_DIR = $(DATA_DIR)/gold_aligned.$(ALIGN_TYPE)
@@ -95,9 +96,13 @@ GOLD_ANNOT_LIST = $(DATA_DIR)/gold_aligned.$(ALIGN_TYPE).so_far_annot.list
 
 import_align : $(ORIG_LIST)
 	mkdir -p $(GOLD_ANNOT_TREES_DIR)
-	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Sref \
+	-treex $(LRC_FLAGS) -Sref \
 		Read::Treex from=@$< \
-		My::AlignmentLoader from=$(GOLD_ANNOT_FILE) align_language=$(ALIGN_ANNOT_LANG2) \
+		Util::SetGlobal language=en \
+		My::AlignmentLoader from=$(GOLD_ANNOT_FILE_EN) align_language=cs \
+		My::ProjectAlignment trg_selector=src \
+		Util::SetGlobal language=cs \
+		My::AlignmentLoader from=$(GOLD_ANNOT_FILE_CS) align_language=en \
 		My::ProjectAlignment trg_selector=src \
 		Write::Treex path=$(GOLD_ANNOT_TREES_DIR) storable=1
 
