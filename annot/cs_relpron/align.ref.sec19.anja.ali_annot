@@ -605,7 +605,7 @@ CS:	Bush a jeho poradci byli po tom, co v aljašských vodách ztroskotal naftov
 EN:	Mr. Bush and his aides were accused of responding too slowly after the Exxon Valdez oil tanker split open in Alaskan waters and Hurricane Hugo struck the Carolina coast, and they clearly don't want a repeat of those charges now.
 CS_T:	#Gen.ACT Bush a jeho poradci aljašských vodách <__A:a-wsj1920-001-p1s3W9-Ta__ztroskotal> naftový tanker #Forn.ID Exxon Valdez a pobřeží Karolíny udeřil hurikán Hugo nařknuti #PersPron.PAT #PersPron.ACT reagují příliš pomalu #Neg.RHEM a zřejmě nechtějí #PersPron.PAT #PersPron.ADDR #Gen.ACT tato obvinění nyní opakovala
 EN_T:	Mr. Bush and his aides accused #Gen.ACT responding #Gen.EFF #PersPron.PAT #Cor.ACT too slowly Exxon Valdez oil tanker split open Alaskan waters and Hurricane Hugo struck Carolina coast and they clearly n't want repeat those charges now
-ERR:?ALIGN=0 SYNTAX_CHANGE NO_CLAUSE
+ERR:ALIGN=0 SYNTAX_CHANGE	TEMP_AFTER
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1920.final.streex##6.T-wsj1920-001-p1s5a16
 CS:	Dopoledne měl Bush dva telefonáty od viceprezidenta Dana Quayleho, který je v Kalifornii, natočil televizní prohlášení, kde vyjádřil svoji účast, podepsal vyhlášení katastrofy, dostal písemnou zprávu od Federální agentury pro krizové řízení (FEMA) a navštívil vedení agentury FEMA. 
@@ -618,8 +618,8 @@ ERR:ALIGN=OK
 CS:	Dopoledne měl Bush dva telefonáty od viceprezidenta Dana Quayleho, který je v Kalifornii, natočil televizní prohlášení, kde vyjádřil svoji účast, podepsal vyhlášení katastrofy, dostal písemnou zprávu od Federální agentury pro krizové řízení (FEMA) a navštívil vedení agentury FEMA. 
 EN:	By noon, Mr. Bush had taken two phone calls from Vice President Dan Quayle, who was in California; made a televised statement of concern; signed a disaster proclamation; received a written report from the Federal Emergency Management Agency; and visited FEMA headquarters.
 CS_T:	Dopoledne měl Bush dva telefonáty viceprezidenta Dana Quayleho který je Kalifornii natočil televizní prohlášení <kde> vyjádřil #Gen.ADDR #PersPron.ACT svoji účast podepsal #PersPron.ACT vyhlášení katastrofy dostal písemnou zprávu Federální agentury krizové řízení #Gen.ACT #Gen.PAT ( #Idph.ORIG FEMA a navštívil vedení agentury FEMA
-EN_T:	noon Mr. Bush taken two phone calls Vice President Dan Quayle who was California made televised #Cor.PAT #Gen.ACT statement concern signed disaster proclamation received written report Federal Emergency Management Agency and visited FEMA headquarters
-ERR:ALIGN=0 SYNTAX_CHANGE NO_CLAUSE
+EN_T:	noon Mr. Bush taken two phone calls Vice President Dan Quayle who was California made televised #Cor.PAT #Gen.ACT <statement> concern signed disaster proclamation received written report Federal Emergency Management Agency and visited FEMA headquarters
+ERR:ALIGN=ANTE N
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1921.final.streex##2.T-wsj1921-001-p1s1a10
 CS:	Zisk před zdaněním se za rok, který skončil 30. června, zvýšil z 114.7 milionu liber (180.7 milionu dolarů) na 142.5 milionu liber (224.5 milionu dolarů), což ve velké míře odpovídalo očekávání analytiků. 
@@ -941,7 +941,7 @@ CS:	Další otázkou, kterou je lepší ponechat na jednotných rozhodnutích Ne
 EN:	In our time abortion has become another, best left to a line of Supreme Court decisions rather than to the chaos of 50 state legislatures.
 CS_T:	Další otázkou #Cor.ACT <kterou> je lepší #Benef.BEN ponechat #Gen.PAT jednotných rozhodnutích ponechat #PersPron.PAT #Gen.ACT Nejvyššího soudu chaosu padesáti státních zákonodárných sborů naší době stává potrat
 EN_T:	our time abortion become another question best left <#Cor.PAT> #Gen.ACT line Supreme Court decisions rather chaos 50 state legislatures
-ERR:ALIGN=0 SYNTAX_CHANGE NO_CLAUSE
+ERR:ALIGN=OK	ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1927.final.streex##4.T-wsj1927-001-p1s3a20
 CS:	To, co otřáslo Amerikou, nebyla bitva za spravedlnost, ale za pouhou moc, v jejímž rámci zástup soudních aktivistů převálcoval soudce, z kterého dříve udělali démona. 
@@ -1536,7 +1536,7 @@ CS:	Vláda vlastně chrání lakomce, kteří shrabávají led pro sebe, a dalš
 EN:	The government is actually protecting avaricious ice-baggers and other profiteers who can not see beyond their own short-term gain.
 CS_T:	Vláda vlastně chrání lakomce <kteří> shrabávají led sebe a další šmelináře #Neg.RHEM kteří nevidí nic svůj krátkodobý zisk
 EN_T:	government actually protecting avaricious ice-baggers and other profiteers who not see their own short-term gain
-ERR:ALIGN=0 SYNTAX_CHANGE NO_CLAUSE
+ERR:ALIGN=0 SYNTAX_CHANGE	SWAP
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1935.final.streex##1.T-wsj1935-001-p1s0a28
 CS:	Článek ekonoma Davida N. Labanda na úvodní stránce z 27. září "Umělá katastrofa ve stopách Huga" kritizuje kontrolu nad cenovými podvody, které si po hurikánu Hugo pohotově objednal guvernér Jižní Karolíny. 
