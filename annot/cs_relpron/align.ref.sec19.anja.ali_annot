@@ -24,7 +24,6 @@ CS:	Prezident Roh prohlásil, že požadavek Spojených států na odstranění 
 EN:	Mr. Roh said a U.S. demand for the removal of South Korean import quotas on beef will be resolved ``satisfactorily'' but gave no hint when that will happen .
 CS_T:	Prezident Roh Spojených států #PersPron.ACT požadavek odstranění jihokorejských #PersPron.ACT vyřešen kvót prohlásil ale importních uspokojivě maso hovězí nijak #Neg.RHEM nenaznačil <kdy> stane tak
 EN_T:	Mr. Roh said #Gen.ADDR U.S. demand removal South Korean import quotas beef #Gen.ACT resolved satisfactorily but gave no hint <when> that happen
-ERR:??? toto neni relativni zajmeno, nevadi? ALIGN=OK
 ERR:ALIGN=OK FUSED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1902.final.streex##1.T-wsj1902-001-p1s0a15
@@ -893,7 +892,7 @@ CS:	Ať už "velké případy kazí soudnictví", jak tvrdil soudce Holmes, nebo
 EN:	Whether or not ``great cases make bad-law'' -- as Justice Holmes asserted -- who can doubt that when great confirmation hearings turn on the nominee's response to these great cases they make bad judicial history?
 CS_T:	velké případy kazí soudnictví #PersPron.EFF už tvrdil soudce Holmes nebo kazí ne stejně <kdo> pochybovat #Neg.RHEM #PersPron.ACT nekazí historii soudnictví výsledek velkých konfirmačních slyšení závisí kandidátově reakci právě tyto velké případy
 EN_T:	make cases or great bad-law make #PersPron.PAT #PersPron.ACT not Justice Holmes asserted #Cor.EFF <who> doubt when great confirmation hearings turn nominee response these great cases they make bad judicial history
-ERR:ALIGN=OK FUSED Q
+ERR:ALIGN=OK FUSED	Q
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1927.final.streex##25.T-wsj1927-001-p1s24a12
 CS:	Avšak hladkým schválením Anthonyho Kennedyho, "osmdesátiprocentníka", který podporuje zásadu soudního sebeomezování pouze o něco méně než soudce Bork, demokraté možná vyhráli bitvu, jenže prohráli válku. 
@@ -963,7 +962,7 @@ CS:	To, co otřáslo Amerikou, nebyla bitva za spravedlnost, ale za pouhou moc, 
 EN:	What shook America was not a battle for justice but for naked power, in which an army of judicial activists rolled over a judge they had demonized .
 CS_T:	#Neg.CM <co> otřáslo Amerikou nebyla #Neg.RHEM bitva spravedlnost ale pouhou moc jejímž zástup soudních aktivistů převálcoval soudce #PersPron.ACT kterého dříve udělali démona
 EN_T:	<What> shook America was not battle justice but naked power which army judicial activists rolled judge they demonized #Cor.PAT
-ERR:ALIGN=OK FUSED KATAF
+ERR:ALIGN=OK FUSED	KATAF
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1928.final.streex##10.T-wsj1928-001-p1s9a35
 CS:	Lidé obeznámení s transakcí však uvedli, že aukční dům se namísto toho rozhodl se tohoto procenta vzdát, aby sbírku získal, a výměnou za to obdrží vyšší podíl ze zisku, který přesáhne 100 milionů dolarů. 
@@ -1088,8 +1087,8 @@ ERR:ALIGN=OK
 CS:	Pokud by investiční banka dokázala prodat cenné papíry za vyšší cenu, než kolik zaplatila emitentovi, bude mít zisk. 
 EN:	If the investment bank can sell the securities at a higher price than it paid the issuer , it makes a profit.
 CS_T:	investiční banka dokázala #Gen.ADDR #Cor.ACT prodat cenné papíry vyšší cenu <kolik> zaplatila #PersPron.ACT emitentovi #PersPron.ACT mít zisk
-EN_T:	investment bank sell securities higher price it paid <#Compar.PAT> issuer it makes profit
-ERR:ALIGN=OK FUSED {ted tam uzel neni #Cor neni, prepsala jsem to na #Compar, v cz neni koref. od kolik}
+EN_T:	investment bank sell securities higher price it paid #Compar.PAT issuer it makes profit
+ERR:ALIGN=0 FUSED	COMPAR {ted tam uzel neni #Cor neni, prepsala jsem to na #Compar, v cz neni koref. od kolik}
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1928.final.streex##8.T-wsj1928-001-p1s7a13
 CS:	To mírně přesáhlo odhad společnosti Sotheby's před aukcí, který byl 111 milionů dolarů. 
@@ -1173,7 +1172,7 @@ CS:	"Jaké právo na existenci," ptal se, "by měla kapitalistická Německá de
 EN:	``What kind of right to exist,'' he asked , ``would a capitalist German Democratic Republic have alongside a capitalist Federal Republic?''
 CS_T:	<Jaké> právo existenci #Gen.ADDR #PersPron.ACT ptal měla kapitalistická Německá demokratická republika kapitalistické Spolkové republiky
 EN_T:	<What> kind right #Gen.ACT #Cor.ACT exist he asked #Gen.ADDR capitalist German Democratic Republic have capitalist Federal Republic
-ERR:ALIGN=OK FUSED Q
+ERR:ALIGN=OK FUSED	Q
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1929.final.streex##42.T-wsj1929-001-p1s41a7
 CS:	To je otázka, na níž nemůže Východní Německo odpovědět snadno, ať už jeho nový představitel udělá cokoli. 
@@ -1586,7 +1585,7 @@ CS:	Co ti starostliví lidé po celé zemi, kteří přispívají na potraviny, 
 EN:	What about those caring people all over the country who are donating food, water and other necessities of life to these people who could be any of us?
 CS_T:	<Co> #EmpVerb.PRED ti starostliví lidé celé zemi kteří přispívají #Gen.PAT potraviny vodu a další životní nezbytnosti těmto lidem kterými být kdokoli nás
 EN_T:	#EmpVerb.PRED <What> those caring people country who donating food water and other necessities life these people who be any us
-ERR:ALIGN=OK FUSED Q
+ERR:ALIGN=OK FUSED	Q
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1935.final.streex##36.T-wsj1935-001-p1s35a4
 CS:	Co ti starostliví lidé po celé zemi, kteří přispívají na potraviny, vodu a další životní nezbytnosti těmto lidem, kterými může být kdokoli z nás? 
@@ -1607,7 +1606,7 @@ CS:	A co pojišťovny?
 EN:	And what about insurance firms?
 CS_T:	A #EmpVerb.PRED <co> pojišťovny
 EN_T:	#EmpVerb.PRED And <what> insurance firms
-ERR:ALIGN=OK FUSED Q
+ERR:ALIGN=OK FUSED	Q
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1935.final.streex##56.T-wsj1935-001-p1s55a12
 CS:	Až se vrátí normální stav, budeme si pamatovat obchody, které se hlásily k Labandově systému efektivních cen. 
@@ -1824,7 +1823,7 @@ CS:	Co bude Sagan dělat se svoji novou divadelní budovou, když se ukáže, ž
 EN:	What will Mr. Sagan do with his new theater building if the allure of Hollywood and Broadway proves too much for such Steppenwolf stalwarts as John Malkovich -LRB-``Dangerous Liaisons''-RRB-, Joan Allen -LRB-``The Heidi Chronicles''-RRB-, and Glenne Headly -LRB-``Lonesome Dove''-RRB-, and the company crumbles?
 CS_T:	<Co> Sagan dělat svoji novou divadelní budovou ukáže svody Hollywoodu a Broadwaye jsou věrné členy souboru Steppenwolf jako jsou členy John Malkovich Nebezpečné známosti Joan Allenová The Heidi #Forn.PAR Chronicles ( Heidi Kronika a Glenne Headlyová Osamělá holubice příliš silné a soubor rozpadne
 EN_T:	Mr. Sagan do <What> his new theater building allure Hollywood and Broadway proves too much such Steppenwolf stalwarts John as Malkovich Dangerous Liaisons Joan Allen Heidi Chronicles and Glenne Headly Lonesome Dove and company crumbles
-ERR:ALIGN=OK FUSED Q
+ERR:ALIGN=OK FUSED	Q
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1936.final.streex##6.T-wsj1936-001-p1s5a9
 CS:	Původně to byla komedie o Alcestovi, muži, který vidí ve všech kromě sebe faleš a marnivost. 
@@ -2181,7 +2180,7 @@ CS:	Vědci zatím teprve začínají přicházet na to, co syndrom nemocných bu
 EN:	Scientists are only beginning to understand what causes sick-building syndrome and much of that research was unavailable when the Beebes filed the case , she said .
 CS_T:	Vědci zatím teprve začínají #Cor.ACT přicházet <co> syndrom nemocných budov způsobuje a #Gen.ADDR Beebeovi podávali žalobu #Gen.ADDR #PersPron.ACT byla většina výzkumů nedostupná řekla
 EN_T:	Scientists only beginning #Cor.ACT understand <what> causes sick-building syndrome and much that research was unavailable when Beebes filed case she said #Gen.ADDR
-ERR:ALIGN=OK FUSED_EN
+ERR:ALIGN=OK FUSED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1946.final.streex##14.T-wsj1946-001-p1s13a14
 CS:	K tomuto závěru však Beebeovi dospěli až po vypršení doby, po kterou bylo možné výrobce lepidla do případu přidat jako obžalovaného, řekla Adamsová. 
@@ -2300,7 +2299,7 @@ CS:	Co začali Arabové, dokončila inflace.
 EN:	What the Arabs started , inflation finished .
 CS_T:	<Co> začali Arabové dokončila inflace
 EN_T:	<What> Arabs started inflation finished
-ERR:ALIGN=OK FUSED KATAF
+ERR:ALIGN=OK FUSED	KATAF
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1947.final.streex##2.T-wsj1947-001-p1s1a4
 CS:	JOMKIPURSKÁ VÁLKA, KDY EGYPT VTRHL 6. října 1973, v nejposvátnější den židovského kalendáře, do Izraele, trvala sotva měsíc. 
@@ -2524,7 +2523,7 @@ CS:	Co říkáte na to, abychom všichni složili karty, odešli domů a uložil
 EN:	What do you say we all close down the poker game, go home and bank the $16 billion?
 CS_T:	#Gen.ADDR <Co> říkáte #PersPron.ACT všichni složili karty odešli #Oblfm.DIR1 domů a uložili těch 16 miliard dolarů banky
 EN_T:	<What> you say #Gen.ADDR we all close poker game go home and bank $ 16 billion
-ERR:ALIGN=OK FUSED Q
+ERR:ALIGN=OK FUSED	Q
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1952.final.streex##30.T-wsj1952-001-p1s29a17
 CS:	Jako každému se nám stýská po těch nenucených, žoviálních dnech ve Washingtonu, kdy ctihodní mužové a ženy smlouvali o rozpočtech a dokonce si i trochu vzájemně pomáhali, aby viděli, že se staví mosty, zpevňují silnice, vojáci dostávají zaplaceno a i o ty beznadějně chudé je postaráno. 
