@@ -15,6 +15,7 @@ Our aim is to investigate how possible anaphoric expressions map from English to
 
 2) Figure out rules to cover various types of anaphoric expressions (t_lemmas and lemmas from #1) without using the information on anaphoricity
 
+A) EN
 a) en_perspron
 
 Coverage:
@@ -31,7 +32,30 @@ Observations:
     - 1 ourselves => en_perspron does not cover ourselves???
         - OK, because it should cover only 3rd person pronouns
 
-b) cs_relpron
+b) en_perspron_unexpr
+
+Coverage:
+* 93 occurrences
+    - 9.8% (out of 946) English coreferential #PersProns
+    - 4% (out of 2256) of all English coreferential
+
+Observations:
+* non-coreferential (those extracted by #2 but not in #1)
+    en_perspron_unexpr/non-coref.ref.sec19.list
+
+c) en_relpron
+
+Coverage:
+* 251 occurrences
+    - 97.6% (out of 257) English coreferential relative pronouns
+    - 11.1% (out of 2256) of all English coreferential
+
+Observations:
+* non-coreferential (those extracted by #2 but not in #1)
+    en_relpron/non-coref.ref.sec19.list
+
+B) CS
+a) cs_relpron
 
 Coverage:
 * 529 occurrences
