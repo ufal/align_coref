@@ -30,12 +30,15 @@ endif
 
 #======================================================================================================
 
+create_list : annot/$(ALIGN_ANNOT_ID)/is_relat.ref.sec19.list
+
 #annot/$(ALIGN_ANNOT_ID)/is_relat.%.sec19.list : $(ORIG_LIST)
-annot/$(ALIGN_ANNOT_ID)/is_relat.%.sec19.list : tmp/robust_ali/list
+#annot/$(ALIGN_ANNOT_ID)/is_relat.%.sec19.list : tmp/robust_ali/list
+annot/$(ALIGN_ANNOT_ID)/is_relat.%.sec19.list : data/gold_aligned.mgiza_on_czeng/list
 	mkdir -p annot/$(ALIGN_ANNOT_ID)
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$* \
 		Read::Treex from=@$< \
-		My::CorefExprAddresses anaphor_type=$(ALIGN_ANNOT_TYPE) \
+		My::CorefExprAddresses ignore_align_type=gold anaphor_type=$(ALIGN_ANNOT_TYPE) \
 			| sort > $@
 
 #=================================== PREPARE DATA FOR MANUAL ANNOTATION ==================================
@@ -81,7 +84,7 @@ revise_annot :
 # v0003
 ALIGN_TYPE=mgiza_on_czeng
 
-GOLD_ANNOT_FILE=annot/$(ALIGN_ANNOT_ID)/subset_to_remove
+GOLD_ANNOT_FILE=annot/$(ALIGN_ANNOT_ID)/align.ref.sec19.all.ali_annot
 #GOLD_ANNOT_FILE=annot/$(ALIGN_ANNOT_ID)/align.ref.sec19.misko.annot
 
 GOLD_ANNOT_TREES_DIR = $(DATA_DIR)/gold_aligned.$(ALIGN_TYPE)
