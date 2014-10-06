@@ -955,7 +955,7 @@ CS:	V tomto počtu akcií je zahrnuto 122700 akcií, které byly nakoupeny v pá
 EN:	They include 122,700 shares bought Friday for between $47.125 and $48 each.
 CS_T:	#Gen.ACT tomto počtu akcií zahrnuto 122700 akcií #PersPron.ACT <které> nakoupeny pátek cenu 47125 dolaru do 48 dolarů jednu akcii
 EN_T:	They include 122,700 shares bought <#Cor.PAT> #Gen.ACT Friday $ 47.125 and $ 48 each
-ERR:
+ERR: ALIGN=OK
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1987.final.streex##4.T-wsj1987-001-p1s3a17
 CS:	Při kompozitním obchodování na Newyorské burze cenných papírů uzavírala společnost Lockheed na 46125 dolaru, což byl pokles o 12.5 centu. 
@@ -1136,8 +1136,8 @@ ERR: ALIGN=OK
 CS:	Pro kupující "jsou to rozhodnutí, při nichž riskují svou kariéru", říká Jean Conlinová, která spravuje počítačovou síť společnosti Wang na studijním oddělení univerzity Bostonu. 
 EN:	For buyers, ``these are career-risking decisions,'' says Jean Conlin, who supervises a network of Wang computers in the admissions department at Boston University.
 CS_T:	#Gen.ADDR kupující jsou to #PersPron.PAT #PersPron.ACT rozhodnutí #PersPron.ACT <nichž> riskují svou kariéru říká Jean Conlinová která spravuje počítačovou síť společnosti Wang studijním oddělení univerzity Bostonu
-EN_T:	buyers these are career-risking decisions says #Gen.ADDR Jean Conlin who supervises network Wang computers admissions department Boston University
-ERR:
+EN_T:	buyers these are career-risking <decisions> says #Gen.ADDR Jean Conlin who supervises network Wang computers admissions department Boston University
+ERR: ALIGN=ANTE N
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1996.final.streex##32.T-wsj1996-001-p1s31a20
 CS:	Pro kupující "jsou to rozhodnutí, při nichž riskují svou kariéru", říká Jean Conlinová, která spravuje počítačovou síť společnosti Wang na studijním oddělení univerzity Bostonu. 
@@ -1150,8 +1150,8 @@ ERR: ALIGN=OK
 CS:	Univerzita zvažuje zavedení systému v ceně 250000 dolarů, který umožňuje ukládat přihlášky elektronicky. 
 EN:	The university is considering installing a $250,000 system to store applications electronically.
 CS_T:	Univerzita zvažuje #PersPron.ACT zavedení systému ceně 250000 dolarů #PersPron.ADDR <který> umožňuje #Cor.ACT ukládat #Oblfm.LOC přihlášky elektronicky
-EN_T:	university considering installing <#Cor.ACT> $ 250,000 system #Cor.ACT store applications electronically
-ERR:
+EN_T:	university considering installing #Cor.ACT $ 250,000 system <#Cor.ACT> store applications electronically
+ERR: ALIGN=OK
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1996.final.streex##38.T-wsj1996-001-p1s37a33
 CS:	Sortiment společnosti Wang obecně "stále nedosáhl úrovně ostatních prodejců, ale udělali velký pokrok", říká Steven Wendler, konzultant společnosti Gartner Group ze Stamfordu ve státě Connecticut, která provádí průzkum trhu. 
