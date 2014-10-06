@@ -3,190 +3,190 @@ CS:	Arizonská komise pro korporace schválila společnosti Tucson Electric Powe
 EN:	The Arizona Corporations Commission authorized an 11.5% rate increase at Tucson Electric Power Co., substantially lower than recommended last month by a commission hearing officer and barely half the rise sought by the utility.
 CS_T:	Arizonská komise korporace schválila Tucson #Forn.ID společnosti Electric Power Co . #Gen.ACT zvýšení sazby % 11.5 , <což> je podstatně #Gen.ADDR méně měsíc minulý a doporučoval #PersPron.PAT jednající úředník komise sotva polovina #PersPron.PAT #Gen.ACT zvýšení požadovaného podnikem
 EN_T:	Arizona Corporations Commission authorized 11.5 % rate <increase> Tucson Electric Power Co. substantially lower recommended #Gen.PAT #Gen.ADDR last month commission hearing officer and barely half rise sought #Cor.PAT utility
-ERR: ALLIGN=ANTE V SYNTAX_CHANGE
+ERR:ALIGN=ANTE V SYNTAX_CHANGE
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1900.final.streex##6.T-wsj1900-001-p1s5a20
 CS:	Společnost Tucson Electric uzavřela v kompozitním obchodování na Newyorské burze cenných papírů na 20875 dolaru za akcii, což je pokles o 25 centů. 
 EN:	Tucson Electric closed at $20.875 a share, down 25 cents, in New York Stock Exchange composite trading.
 CS_T:	Tucson Společnost #Forn.ID Electric uzavřela #Gen.PAT #Gen.ACT obchodování kompozitním burze Newyorské papírů cenných 20875 dolaru , akcii <což> je pokles centů 25
 EN_T:	Tucson Electric closed $ 20.875 share <,> down 25 cents New York Stock Exchange composite trading
-ERR: ALLIGN=OK APPOS
+ERR:ALIGN=OK APPOS
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1901.final.streex##5.T-wsj1901-001-p1s4a13
 CS:	Prezident Roh také prohlásil, že Jižní Korea podniká kroky, které by won uvolnily, aby mohl reagovat na tržní síly. 
 EN:	Mr. Roh also said South Korea is taking steps that would free the won to respond to market forces.
 CS_T:	Prezident Roh také prohlásil Jižní Korea podniká kroky <které> won uvolnily #PersPron.ACT reagovat síly tržní
 EN_T:	Mr. Roh also said #Gen.ADDR South Korea taking steps <that> free #Gen.ORIG won #Cor.ACT respond #Gen.EFF market forces
-ERR:ALLIGN=OK
+ERR:ALIGN=OK
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1901.final.streex##7.T-wsj1901-001-p1s6a28
 CS:	Prezident Roh prohlásil, že požadavek Spojených států na odstranění jihokorejských importních kvót na hovězí maso bude vyřešen "uspokojivě", ale nijak nenaznačil, kdy se tak stane. 
 EN:	Mr. Roh said a U.S. demand for the removal of South Korean import quotas on beef will be resolved ``satisfactorily'' but gave no hint when that will happen .
 CS_T:	Prezident Roh Spojených států #PersPron.ACT požadavek odstranění jihokorejských #PersPron.ACT vyřešen kvót prohlásil ale importních uspokojivě maso hovězí nijak #Neg.RHEM nenaznačil <kdy> stane tak
 EN_T:	Mr. Roh said #Gen.ADDR U.S. demand removal South Korean import quotas beef #Gen.ACT resolved satisfactorily but gave no hint <when> that happen
-ERR: ??? toto neni relativni zajmeno, nevadi? ALLIGN=OK
-ERR:ALLIGN=OK FUSED
+ERR:??? toto neni relativni zajmeno, nevadi? ALIGN=OK
+ERR:ALIGN=OK FUSED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1902.final.streex##1.T-wsj1902-001-p1s0a15
 CS:	Banka Great American prohlásila, že její představenstvo schválilo vytvoření holdingové společnosti, která by umožnila spořitelnám provádět netradiční bankovní aktivity podle nového federálního zákona. 
 EN:	Great American Bank said its board approved the formation of a holding company enabling the savings bank to pursue nontraditional banking activities under a new federal law.
 CS_T:	Great Banka #Forn.ID American prohlásila její představenstvo schválilo #PersPron.ACT vytvoření holdingové společnosti <která> umožnila spořitelnám #Cor.ACT provádět netradiční aktivity bankovní nového zákona federálního
 EN_T:	Great American Bank said #Gen.ADDR its board approved formation holding company <#Cor.ACT> enabling savings bank #Cor.ACT pursue nontraditional banking activities new federal law
-ERR: ALIGN=ANTE SYNTAX_CHANGE
+ERR:ALIGN=ANTE SYNTAX_CHANGE
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1903.final.streex##10.T-wsj1903-001-p1s9a23
 CS:	I když se Sassy od svého debutu v březnu 1988 rychle rozrostl, je terčem konzervativních lobbistů a rezervovaných inzerentů, které rozčilují prostořeké články o problémech dospívajících. 
 EN:	Though Sassy has grown quickly since its debut in March 1988, it has been the target of conservative lobbyists and skittish advertisers who bristled at its frank editorial matter on teen-age problems.
 CS_T:	#PersPron.ACT Sassy svého debutu březnu 1988 rozrostl je rychle terčem konzervativních lobbistů a rezervovaných inzerentů <které> rozčilují prostořeké články problémech dospívajících
 EN_T:	Sassy grown quickly its debut March 1988 it been target conservative lobbyists and skittish advertisers <who> bristled its frank editorial matter teen-age problems
-ERR: ALLIGN=OK
+ERR:ALIGN=OK
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1903.final.streex##15.T-wsj1903-001-p1s14a13
 CS:	Ba co víc, Lang říká, že má to, po čem všichni vydavatelé touží: vyplňuje totiž mezeru na trhu. 
 EN:	What 's more, Mr. Lang says he has what all publishers wish for : a bona fide niche.
 CS_T:	Ba co víc #Gen.ADDR říká Lang #PersPron.ACT <čem> má touží : vydavatelé všichni #PersPron.ACT vyplňuje totiž mezeru trhu
 EN_T:	What 's more Mr. Lang says #Gen.ADDR he has <what> all publishers wish : bona fide niche
-ERR:ALLIGN=OK
+ERR:ALIGN=OK
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1903.final.streex##15.T-wsj1903-001-p1s14a22
 CS:	Ba co víc, Lang říká, že má to, po čem všichni vydavatelé touží: vyplňuje totiž mezeru na trhu. 
 EN:	What 's more, Mr. Lang says he has what all publishers wish for : a bona fide niche.
 CS_T:	Ba <co> víc #Gen.ADDR říká Lang #PersPron.ACT čem má touží : vydavatelé všichni #PersPron.ACT vyplňuje totiž mezeru trhu
 EN_T:	<What> 's more Mr. Lang says #Gen.ADDR he has what all publishers wish : bona fide niche
-ERR: ALLIGN=OK
+ERR:ALIGN=OK
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1903.final.streex##1.T-wsj1903-001-p1s0a6
 CS:	Dale Lang, který tento týden dokončil akvizici vydavatelství časopisů Ms. a Sassy, je ohledně této výzvy otevřený. 
 EN:	Dale Lang, who this week completed the acquisition of the publisher of Ms. and Sassy, is candid about the challenge he is taking on.
 CS_T:	Dale <který> Lang tento týden dokončil akvizici vydavatelství časopisů Ms a je Sassy této výzvy otevřený
 EN_T:	Dale Lang <who> this week completed acquisition publisher Ms. and Sassy is candid challenge he taking #Cor.PAT
-ERR:ALLIGN=OK
+ERR:ALIGN=OK
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1903.final.streex##23.T-wsj1903-001-p1s22a9
 CS:	Langovi gratulovali pozorovatelé sektoru k tomu, co někteří nazývají "odvážné" vedení Ms., ale jeho výkony v publikování časopisů obecně byly hodnoceny různě. 
 EN:	Industry observers have congratulated Mr. Lang on what some call his ``courageous'' handling of Ms., but his track record in magazine publishing in general has gotten mixed reviews.
 CS_T:	Langovi pozorovatelé sektoru gratulovali <co> nazývají někteří odvážné vedení #PersPron.ACT ale #Idph.PAT Ms #Gen.ACT jeho výkony #PersPron.ACT hodnoceny publikování časopisů obecně různě
 EN_T:	Industry observers congratulated Mr. Lang <what> some call his courageous handling Ms. but his track record magazine publishing general gotten mixed reviews
-ERR:ALLIGN=OK
+ERR:ALIGN=OK
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1903.final.streex##33.T-wsj1903-001-p1s32a22
 CS:	Lang překvapil Time brzy po spojení sil, když prohlásil, že cenu bude s inzerenty dohadovat individuálně, což je praktika obvyklá ve vysílání, ale mezi vydavateli časopisů je považována za tabu. 
 EN:	Mr. Lang surprised Time soon after joining forces when he said he would negotiate rates individually with advertisers, a practice common in broadcasting but considered taboo by magazine publishers .
 CS_T:	Lang Time překvapil #Forn.PAT #PersPron.ACT brzy spojení sil #Rcp.ADDR #PersPron.ACT prohlásil #PersPron.ACT cenu dohadovat inzerenty , individuálně <což> je praktika ale obvyklá vysílání #PersPron.PAT považována vydavateli časopisů tabu
 EN_T:	Mr. Lang surprised Time soon joining #PersPron.ACT forces <,> when he said #Gen.ADDR he negotiate #EmpVerb.PRED rates individually advertisers practice common broadcasting but #Cor.PAT considered taboo magazine publishers
-ERR: ALLIGN=ANTE APPOS 
+ERR:ALIGN=ANTE APPOS 
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1903.final.streex##36.T-wsj1903-001-p1s35a18
 CS:	Vedoucí pracovníci Time si stěžovali na nekvalitní vydavatelskou práci a nakonec jeden z řídících pracovníků Time, který si nepřál být jmenován, uvedl: "Upřímně řečeno, McCall's a společný podnik byly jedna potíž." 
 EN:	Time executives complained about the shoddy editorial quality, and in the end, one Time executive who asked not to be identified said, ``Frankly, McCall's and the joint venture were an embarrassment.''
 CS_T:	Vedoucí pracovníci #Forn.RSTR Time stěžovali nekvalitní práci vydavatelskou a řídících pracovníků #Forn.RSTR Time jeden #Neg.RHEM nakonec uvedl nepřál <který> #Cor.PAT jmenován #Gen.ACT #PersPron.EFF #Gen.ADDR řečeno #Gen.ACT Upřímně McCall #Forn.ACT byly ' a s společný podnik jedna potíž
 EN_T:	Time executives complained #Gen.ADDR shoddy editorial quality and end one Time executive <who> asked #Gen.ADDR not #Gen.ACT identified #Cor.PAT said #Gen.EFF #Gen.ADDR Frankly McCall and joint venture were embarrassment
-ERR:ALLIGN=OK
+ERR:ALIGN=OK
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1903.final.streex##39.T-wsj1903-001-p1s38a13
 CS:	Dnes je Lang přesvědčen, že jeho časopisy nabízejí něco, co mnohé jiné ženské časopisy nemají. 
 EN:	Today, Mr. Lang believes his magazines will offer what many women's magazines don't .
 CS_T:	Dnes Lang je #Gen.ADDR přesvědčen nabízejí časopisy jeho něco #Neg.RHEM nemají <co> mnohé časopisy jiné ženské
 EN_T:	Today Mr. Lang believes his magazines offer #Gen.ADDR offer #Cor.ADDR <what> many women magazines n't
-ERR:ALLIGN=OK FUSED
+ERR:ALIGN=OK FUSED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1903.final.streex##45.T-wsj1903-001-p1s44a11
 CS:	Prodejní cena McCall's - dvojnásobek toho, co Lang původně zaplatil - bude Lang Communications financovat zpětný odkup 50% podílu Time Warner ve Working Woman a Working Mother. 
 EN:	The sale price of McCall's -- twice what Mr. Lang originally paid for it -- will finance Lang Communications' buy-back of Time Warner's 50% interest in Working Woman and Working Mother.
 CS_T:	Prodejní McCall #Forn.RSTR cena ' s <co> dvojnásobek zaplatil Lang původně Lang #Forn.BEN Communications financovat zpětný odkup 50 % podílu Time #Forn.RSTR Warner Working #Forn.LOC Woman a Working #Forn.LOC Mother
 EN_T:	sale price McCall -- twice <what> Mr. Lang originally paid it finance Lang Communications buy-back Time Warner 50 % interest Working Woman and Working Mother
-ERR:ALLIGN=OK FUSED
+ERR:ALIGN=OK FUSED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1903.final.streex##49.T-wsj1903-001-p1s48a7
 CS:	Na tom, co máme, je třeba udělat hodně práce. 
 EN:	There is plenty of work to be done on what we have .
 CS_T:	#Cor.ACT udělat je <co> třeba #Benef.BEN máme #PersPron.ACT tom práce hodně
 EN_T:	is plenty work done #Cor.PAT #Gen.ACT <what> we have
-ERR:ALLIGN=OK FUSED
+ERR:ALIGN=OK FUSED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1903.final.streex##7.T-wsj1903-001-p1s6a9
 CS:	Já chci vydávat takový, který uspěje," řekl Lang. 
 EN:	I want to publish one that succeeds,'' said Mr. Lang.
 CS_T:	#Gen.ADDR Já vydávat takový časopis řekl <který> uspěje Lang
 EN_T:	I want #Cor.ACT publish one <that> succeeds said #Gen.ADDR Mr. Lang
-ERR:ALLIGN=OK
+ERR:ALIGN=OK
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1903.final.streex##8.T-wsj1903-001-p1s7a3
 CS:	"Co se týče Ms., je čas vydávat pro čtenáře a ne pro inzerenta." 
 EN:	``For Ms., it's time to publish for the reader, not the advertiser .''
 CS_T:	<Co> týče #Idph.PAT Ms je #PersPron.PAT #PersPron.ACT čas vydávat čtenáře a ne inzerenta
 EN_T:	Ms. it 's time #PersPron.ACT publish #Gen.PAT reader , not advertiser
-ERR: IDIOM "co se tyce"
+ERR:IDIOM "co se tyce"
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1903.final.streex##9.T-wsj1903-001-p1s8a10
 CS:	Co se týče časopisu Sassy, který přímo soutěží s časopisem Seventeen společnosti News Corp., říká Lang, že během dvou následujících let utratí za propagaci a vylepšení časopisu 6 miliónů dolarů. 
 EN:	As for Sassy, which competes directly with News Corp.'s Seventeen magazine, Mr. Lang says that in the next two years he will spend $6 million promoting and improving the magazine.
 CS_T:	Co týče Sassy časopisu <který> přímo soutěží #Gen.ADDR Seventeen časopisem společnosti News #Forn.ID Corp . říká Lang #PersPron.ACT dvou následujících let utratí propagaci a #PersPron.ACT vylepšení časopisu 6 miliónů dolarů
 EN_T:	Sassy <which> competes #Gen.PAT directly News Corp. Seventeen magazine Mr. Lang says #Gen.ADDR next two years he spend $ 6 million #Cor.ACT promoting and improving magazine
-ERR: ALLIGN=OK
+ERR:ALIGN=OK
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1903.final.streex##9.T-wsj1903-001-p1s8a5
 CS:	Co se týče časopisu Sassy, který přímo soutěží s časopisem Seventeen společnosti News Corp., říká Lang, že během dvou následujících let utratí za propagaci a vylepšení časopisu 6 miliónů dolarů. 
 EN:	As for Sassy, which competes directly with News Corp.'s Seventeen magazine, Mr. Lang says that in the next two years he will spend $6 million promoting and improving the magazine.
 CS_T:	<Co> týče Sassy časopisu který přímo soutěží #Gen.ADDR Seventeen časopisem společnosti News #Forn.ID Corp . říká Lang #PersPron.ACT dvou následujících let utratí propagaci a #PersPron.ACT vylepšení časopisu 6 miliónů dolarů
 EN_T:	Sassy which competes #Gen.PAT directly News Corp. Seventeen magazine Mr. Lang says #Gen.ADDR next two years he spend $ 6 million #Cor.ACT promoting and improving magazine
-ERR: idiom "co se tyce"
+ERR:idiom "co se tyce"
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1904.final.streex##2.T-wsj1904-001-p1s1a38
 CS:	Komise, kterou ministerstvo průmyslu a obchodu po únorovém zveřejnění požádalo o přezkoumání dohody, uvedla, že různorodost globálních zdrojů chemikálií používaných pro výrobu analgetik je dostatečná, aby vyvážila dominantní podíl, který společnost Rhone-Poulenc na britském trhu díky akvizici získá. 
 EN:	The commission, which was asked to study the deal by the Department of Trade and Industry after its announcement in February, said the diversity of global supply of chemicals used in making analgesic drugs was great enough to offset the dominant U.K. market share Rhone-Poulenc would gain through the acquisition.
 CS_T:	kterou ministerstvo průmyslu a obchodu #PersPron.PAT #Gen.ACT zveřejnění únorovém požádalo Komise #PersPron.ACT přezkoumání dohody uvedla globálních různorodost zdrojů chemikálií používaných je výrobu analgetik #PersPron.ACT dostatečná vyvážila dominantní podíl <který> společnost Rhone #Forn.ID získá - Poulenc britském trhu akvizici
 EN_T:	commission which asked #Cor.ACT study deal Department Trade and Industry its announcement February said #Gen.ADDR diversity global supply chemicals #Gen.ACT used #Cor.PAT #Cor.ACT making analgesic drugs was great enough #PersPron.ACT offset dominant U.K. market share Rhone-Poulenc gain <#Cor.PAT> acquisition
-ERR: ALLIGN=ANTE SYNTAX_CHANGE
+ERR:ALIGN=ANTE SYNTAX_CHANGE
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1904.final.streex##2.T-wsj1904-001-p1s1a5
 CS:	Komise, kterou ministerstvo průmyslu a obchodu po únorovém zveřejnění požádalo o přezkoumání dohody, uvedla, že různorodost globálních zdrojů chemikálií používaných pro výrobu analgetik je dostatečná, aby vyvážila dominantní podíl, který společnost Rhone-Poulenc na britském trhu díky akvizici získá. 
 EN:	The commission, which was asked to study the deal by the Department of Trade and Industry after its announcement in February, said the diversity of global supply of chemicals used in making analgesic drugs was great enough to offset the dominant U.K. market share Rhone-Poulenc would gain through the acquisition.
 CS_T:	<kterou> ministerstvo průmyslu a obchodu #PersPron.PAT #Gen.ACT zveřejnění únorovém požádalo Komise #PersPron.ACT přezkoumání dohody uvedla globálních různorodost zdrojů chemikálií používaných je výrobu analgetik #PersPron.ACT dostatečná vyvážila dominantní podíl který společnost Rhone #Forn.ID získá - Poulenc britském trhu akvizici
 EN_T:	commission <which> asked #Cor.ACT study deal Department Trade and Industry its announcement February said #Gen.ADDR diversity global supply chemicals #Gen.ACT used #Cor.PAT #Cor.ACT making analgesic drugs was great enough #PersPron.ACT offset dominant U.K. market share Rhone-Poulenc gain #Cor.PAT acquisition
-ERR:ALLIGN=OK
+ERR:ALIGN=OK
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1904.final.streex##4.T-wsj1904-001-p1s3a28
 CS:	Komise zjistila, že pokud by se britská vláda pokusila zabránit fúzi, společnost Rhone-Poulenc by pravděpodobně odpověděla uzavřením své továrny na salicyláty, kterou společnost Monsanto provozuje ve Walesu, čímž by problém dostala mimo působnost britské jurisdikce. 
 EN:	The commission found that if the British government attempted to block the merger, Rhone-Poulenc would likely respond by closing the salicylates plant Monsanto operates in Wales, removing the matter from U.K. jurisdiction.
 CS_T:	Komise #Gen.PAT zjistila Rhone #Forn.ID společnost Poulenc vláda britská pokusila #Cor.ACT zabránit fúzi odpověděla #PersPron.PAT pravděpodobně #PersPron.ACT své uzavřením , továrny salicyláty <kterou> provozuje společnost Monsanto Walesu čímž dostala problém působnost jurisdikce britské
 EN_T:	commission found British government attempted #Cor.ACT block merger Rhone-Poulenc likely respond #PersPron.PAT #Cor.ACT closing salicylates plant Monsanto operates <#Cor.PAT> Wales removing #Cor.ACT matter U.K. jurisdiction
-ERR:ALLIGN=ANTE SYNTAX_CHANGE
+ERR:ALIGN=ANTE SYNTAX_CHANGE
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1904.final.streex##4.T-wsj1904-001-p1s3a35
 CS:	Komise zjistila, že pokud by se britská vláda pokusila zabránit fúzi, společnost Rhone-Poulenc by pravděpodobně odpověděla uzavřením své továrny na salicyláty, kterou společnost Monsanto provozuje ve Walesu, čímž by problém dostala mimo působnost britské jurisdikce. 
 EN:	The commission found that if the British government attempted to block the merger, Rhone-Poulenc would likely respond by closing the salicylates plant Monsanto operates in Wales, removing the matter from U.K. jurisdiction.
 CS_T:	Komise #Gen.PAT zjistila Rhone #Forn.ID společnost Poulenc vláda britská pokusila #Cor.ACT zabránit fúzi odpověděla #PersPron.PAT pravděpodobně #PersPron.ACT své uzavřením , továrny salicyláty kterou provozuje společnost Monsanto Walesu <čímž> dostala problém působnost jurisdikce britské
 EN_T:	commission found British government attempted #Cor.ACT block merger Rhone-Poulenc likely respond #PersPron.PAT #Cor.ACT <closing> salicylates plant Monsanto operates #Cor.PAT Wales removing #Cor.ACT matter U.K. jurisdiction
-ERR: ALIGN=ANTE V SYNTAX_CHANGE
+ERR:ALIGN=ANTE V SYNTAX_CHANGE
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1905.final.streex##1.T-wsj1905-001-p1s0a25
 CS:	Společnost Morrison Knudsen Corp. vykázala čistý zisk za třetí čtvrtletí ve výši 7.9 miliónu dolarů, neboli 69 centů na akcii, čímž pokračuje v zotavení z velkých loňských ztrát. 
 EN:	Morrison Knudsen Corp. posted third-quarter net income of $7.9 million, or 69 cents a share, continuing a rebound from steep year-ago losses.
 CS_T:	Morrison Společnost #Forn.ID Knudsen Corp , . čistý vykázala zisk čtvrtletí třetí výši 7.9 miliónu neboli dolarů 69 centů akcii <čímž> pokračuje #Cor.ACT zotavení velkých ztrát loňských
 EN_T:	Morrison Knudsen Corp. <posted> third-quarter net income $ 7.9 million or 69 cents share #Cor.ACT continuing rebound steep year-ago losses
-ERR: ALIGN=ANTE V SYNTAX_CHANGE
+ERR:ALIGN=ANTE V SYNTAX_CHANGE
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1905.final.streex##5.T-wsj1905-001-p1s4a16
 CS:	Společnost Morrison uvedla, že si strojírenský a stavební segment vedl dobře, k čemuž významně přispěla těžba a provoz jednotky MK-Ferguson. 
 EN:	Morrison said the engineering and construction segment performed well, with the mining and MK-Ferguson operations making important contributions.
 CS_T:	Morrison Společnost strojírenský a segment uvedla stavební vedl dobře <čemuž> , významně přispěla těžba a provoz jednotky MK #Forn.ID - Ferguson
 EN_T:	Morrison said #Gen.ADDR engineering and construction segment <performed> well mining and MK-Ferguson operations making important contributions
-ERR: ALIGN=ANTE V SYNTAX_CHANGE
+ERR:ALIGN=ANTE V SYNTAX_CHANGE
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1906.final.streex##3.T-wsj1906-001-p1s2a15
 CS:	Více než rok poté, co Bertussiová napsala stížnost, vydala komise "pokárání", které uvádí, že poslanec Bates připustil jednání porušující sněmovní řád zakazující diskriminaci zaměstnanců na základě pohlaví. 
 EN:	Acting more than a year after Ms. Bertussi filed a complaint, the panel issued a ``letter of reproval'' saying Rep. Bates had admitted conduct that violated a House rule forbidding discrimination against employees on account of their sex.
 CS_T:	Více než rok Bertussiová napsala stížnost vydala komise pokárání <které> uvádí poslanec Bates připustil #PersPron.ACT jednání porušující sněmovní řád zakazující zaměstnanců diskriminaci pohlaví
 EN_T:	#Cor.ACT Acting more year Ms. Bertussi filed complaint panel issued letter #Gen.ACT reproval <#Cor.ACT> saying #Gen.ADDR Rep. Bates admitted conduct that violated House rule #Cor.ACT forbidding #Gen.ADDR discrimination employees account their sex
-ERR: ALIGN=ANTE SYNTAX_CHANGE
+ERR:ALIGN=ANTE SYNTAX_CHANGE
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1906.final.streex##8.T-wsj1906-001-p1s7a10
 CS:	Bertussiová se ale zeptala: "Kdo rozumný by podával další stížnost k Etické komisi?" 
 EN:	But Ms. Bertussi asked, ``Who in their right mind is going to file another complaint with the Ethics Committee?''
 CS_T:	#Gen.ADDR Bertussiová ale zeptala <Kdo> rozumný podával další stížnost komisi Etické
 EN_T:	But Ms. Bertussi asked #Gen.ADDR <Who> their right mind file another complaint Ethics Committee
-ERR:ALLIGN=OK
+ERR:ALIGN=OK
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1907.final.streex##1.T-wsj1907-001-p1s0a9
 CS:	Společnost Mesa Airlines oznámila, že nabídka na převzetí, kterou dostala na počátku tohoto týdne od společnosti StatesWest Airlines, je kombinací platby v hotovosti a obligací ohodnocených společností StatesWest na 10 dolarů za jednu akcii Mesa Airlines. 
@@ -200,7 +200,7 @@ CS:	Na základě množství akcií společnosti Messa v oběhu, které společno
 EN:	Based on the number of Mesa shares outstanding not already owned by StatesWest, the proposed takeover would have a value of about $15.3 million.
 CS_T:	společnosti Messa oběhu #Neg.RHEM akcií množství <které> společnost StatesWest nevlastní dosud mít #PersPron.ACT převzetí #PersPron.PAT navrhované hodnotu 15.3 milionu dolarů
 EN_T:	Based #Cor.PAT #Gen.ACT number Mesa shares outstanding not already owned <#Cor.PAT> StatesWest proposed takeover have value $ 15.3 million
-ERR: ALIGN=ANTE SYNTAX_CHANGE
+ERR:ALIGN=ANTE SYNTAX_CHANGE
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1908.final.streex##2.T-wsj1908-001-p1s1a24
 CS:	Výnosy před zdaněním vzrostly na 93.2 milionu liber (146.8 milionu dolarů) z 80.6 milionu liber (127 milionů dolarů), což odpovídá očekávání analytiků, která byla v rozmezí od 90 milionů liber do 95 milionů liber. 
@@ -263,7 +263,7 @@ CS:	Společnost oznámila, že za čtvrté čtvrtletí bude mít výdaje ve vý�
 EN:	It said it will take a $10 million fourth-quarter charge against discontinued operations, reflecting certain write-downs and the planned sale of a unit.
 CS_T:	Společnost #PersPron.ACT oznámila čtvrtletí čtvrté mít výši 10 milionů dolarů výdaje <které> #Neg.RHEM již nepokračují dále operace odpisy určité a odrážející plánovaný prodej jednotky
 EN_T:	It said #Gen.ADDR it take $ 10 million fourth-quarter charge discontinued <operations> #Cor.ACT reflecting certain write-downs and planned sale unit
-ERR: ALIGN=ANTE SYNTAX_CHANGE no_sent
+ERR:ALIGN=ANTE SYNTAX_CHANGE no_sent
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1911.final.streex##7.T-wsj1911-001-p1s6a29
 CS:	Společnost Arkla podle svých slov očekává, že její výchozí veřejná nabídka 18 % společnosti Arkla Exploration Co. vynese čistý zisk okolo 90 milionů dolarů, které budou využity ke splacení dluhu společnosti Arkla. 
@@ -480,7 +480,7 @@ CS:	Leo Parker, stavební inženýr z Los Angeles, řekl, že i když sloupy mě
 EN:	While the pillars did have long metal bars running vertically through them for reinforcement, they apparently lacked an adequate number of metal ``ties'' that run horizontally through the column, said Leo Parker, a structural engineer in Los Angeles.
 CS_T:	#Gen.ADDR Leo Parker , stavební inženýr #Forn.DIR1 Los Angeles řekl #PersPron.ACT sloupy měly #Gen.ACT zpevnění #PersPron.PAT svisle uložené dlouhé kovové tyče očividně postrádaly dostatečné množství kovových smyček <které> procházejí sloupem vodorovně
 EN_T:	pillars have long metal bars #Cor.ACT running vertically them reinforcement they apparently lacked adequate number metal ties <that> run horizontally column said #Gen.ADDR Leo Parker , structural engineer #Forn.LOC Los Angeles
-ERR: ALIGN=OK
+ERR:ALIGN=OK
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1916.final.streex##20.T-wsj1916-001-p1s19a9
 CS:	Dnes Caltrans používá alternativu konstrukce, kterou Parker popisuje, se spirálovitými ocelovými tyčemi uvnitř. 
@@ -1089,7 +1089,7 @@ CS:	Pokud by investiční banka dokázala prodat cenné papíry za vyšší cenu
 EN:	If the investment bank can sell the securities at a higher price than it paid the issuer , it makes a profit.
 CS_T:	investiční banka dokázala #Gen.ADDR #Cor.ACT prodat cenné papíry vyšší cenu <kolik> zaplatila #PersPron.ACT emitentovi #PersPron.ACT mít zisk
 EN_T:	investment bank sell securities higher price it paid <#Compar.PAT> issuer it makes profit
-ERR: ALLIGN=OK FUSED {ted tam uzel neni #Cor neni, prepsala jsem to na #Compar, v cz neni koref. od kolik}
+ERR:ALIGN=OK FUSED {ted tam uzel neni #Cor neni, prepsala jsem to na #Compar, v cz neni koref. od kolik}
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1928.final.streex##8.T-wsj1928-001-p1s7a13
 CS:	To mírně přesáhlo odhad společnosti Sotheby's před aukcí, který byl 111 milionů dolarů. 
@@ -1719,7 +1719,7 @@ CS:	Ačkoli sezóna obhajoby mistrovství týmu Cubs skončila v play-off národ
 EN:	Though the Cubs' championship season ended with the National League playoffs, a revival of the Organic Theater's production of ``Bleacher Bums,'' a play in nine innings set in the Wrigley Field bleachers, continues within spitting distance of the ballpark.
 CS_T:	sezóna obhajoby mistrovství týmu Cubs skončila play #Forn.TWHEN - off národní ligy #Gen.ACT obnovení hry Bleacher #Forn.ID Bums ( Povaleči tribuny , hry devíti dějstvích situované tribunu stadionu #Forn.ID Wrigley Field které uvádí divadlo #Forn.ID Organic Theater pokračuje #Gen.ACT kamenem dohodil baseballového hřiště
 EN_T:	Cubs championship season ended National League playoffs revival Organic Theater production , Bleacher Bums play nine innings #Gen.ACT set #Cor.PAT Wrigley Field bleachers continues spitting distance ballpark
-ERR: ALIGN=0 IDIOM
+ERR:ALIGN=0 IDIOM
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1936.final.streex##2.T-wsj1936-001-p1s1a3
 CS:	Ačkoli sezóna obhajoby mistrovství týmu Cubs skončila v play-off národní ligy, obnovení hry "Bleacher Bums (Povaleči z tribuny)", hry o devíti dějstvích situované na tribunu stadionu Wrigley Field, které uvádí divadlo Organic Theater, pokračuje co by kamenem dohodil od baseballového hřiště. 
@@ -1908,7 +1908,7 @@ CS:	Obchodníci byli zpočátku nervózní ohledně akcií společností včetn�
 EN:	Traders were initially nervous about shares of companies, including many leading OTC computer companies, such as Apple Computer with offices in the vicinity of the area damaged by the quake.
 CS_T:	Obchodníci byli zpočátku nervózní akcií společností mnoha počítačových společností které mimoburzovním trhu vedou #Gen.PAT je společností jako například společnost #Forn.ID Apple Computer <která> má pobočky oblasti zničené zemětřesením
 EN_T:	Traders were initially nervous shares companies many leading OTC computer companies as Apple Computer offices vicinity area damaged #Cor.PAT quake
-ERR: ALIGN=? SYNTAX_CHANGE NO_CLAUSE {slozita synt struktura stromu, nevim, jakeho antecenta tam mam psat}
+ERR:ALIGN=? SYNTAX_CHANGE NO_CLAUSE {slozita synt struktura stromu, nevim, jakeho antecenta tam mam psat}
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1937.final.streex##3.T-wsj1937-001-p1s2a12
 CS:	Vzrostl více než kompozitní index Newyorské burzy cenných papírů, který se zvýšil o 0.2 %. 
@@ -2153,7 +2153,7 @@ CS:	Templeton má podle záznamů Komise pro regulaci prodeje cenných papírů 
 EN:	Mr. Templeton owns shares in several of the 33 funds that his firm manages , but only in three of the 10 available to U.S. investors, according to filings with the Securities and Exchange Commission.
 CS_T:	Templeton má záznamů Komise regulaci prodeje cenných papírů ( SEC podíl několika 33 fondů <které> jeho firma řídí ale jen třech 10 fondů které jsou dostupné americkým investorům
 EN_T:	Mr. Templeton owns shares several 33 funds his firm manages <that> but only three funds 10 available U.S. investors filings Securities and Exchange Commission
-ERR:ALIGH=OK
+ERR:ALIGN=OK
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1944.final.streex##2.T-wsj1944-001-p1s1a35
 CS:	Templeton má podle záznamů Komise pro regulaci prodeje cenných papírů (SEC) podíl v několika z 33 fondů, které jeho firma řídí, ale jen ve třech z 10 fondů, které jsou dostupné americkým investorům. 
@@ -2678,7 +2678,7 @@ CS:	Společnost British Gas zakončila při 13 milionech akcií na 197, což byl
 EN:	British Gas finished at 197, down 2, on 13 million shares, British Petroleum fell 8 to 291 on 9.4 million shares, and British Telecom was 4 lower at 261 on turnover of 10 million shares.
 CS_T:	Společnost #Forn.ID British Gas zakončila 13 milionech akcií 197 , <což> bylo #PersPron.ACT snížení 2 společnost #Forn.ID British Petroleum klesla 8 291 9.4 milionu akcií a společnost #Forn.ID British Telecom klesla 4 261 obratu 10 milionů akcií
 EN_T:	British Gas finished 197 down 2 <,> #EmpVerb.PAT 13 million shares British Petroleum fell 8 291 9.4 million shares and British Telecom was 4 lower 261 turnover 10 million shares
-ERR:ALLIGN=OK APPOS
+ERR:ALIGN=OK APPOS
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1957.final.streex##58.T-wsj1957-001-p1s57a13
 CS:	Společnost Racal Electric, u níž se obchodovalo 11 milionů akcií, klesla o 12 na 218. 
