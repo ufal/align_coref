@@ -58,11 +58,13 @@ add_robust_ali : $(ORIG_LIST)
 	find tmp/robust_ali -path "*.streex" | sort | sed 's/^.*\///' > tmp/robust_ali/list
 
 #ALIGN_ANNOT_LIST=cs_relpron.is_relat.ref.shuffled.1-200.list
-ALIGN_ANNOT_LIST=annot/$(ALIGN_ANNOT_ID)/is_relat.ref.sec19.list
+#ALIGN_ANNOT_LIST=annot/$(ALIGN_ANNOT_ID)/is_relat.ref.sec19.list
+ALIGN_ANNOT_LIST=annot/$(ALIGN_ANNOT_ID)/is_relat.ref.sec19_00-49.list
 
-prepare_align_annot : annot/$(ALIGN_ANNOT_ID)/is_relat.ref.sec19.list
+#prepare_align_annot : annot/$(ALIGN_ANNOT_ID)/is_relat.ref.sec19.list
+prepare_align_annot : $(ALIGN_ANNOT_LIST)
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Sref \
-		Read::Treex from=@$(ALIGN_ANNOT_LIST) \
+		Read::Treex from=@$< \
 		My::AnnotAlignWrite align_lang=$(ALIGN_ANNOT_LANG2) to='.' substitute='{^.*/([^\/]*)}{tmp/annot/$(ALIGN_ANNOT_ID)/$$1}' extension='.txt'
 	find tmp/annot/$(ALIGN_ANNOT_ID) -path "*.txt" | sort | xargs cat > tmp/annot/$(ALIGN_ANNOT_ID).all
 
