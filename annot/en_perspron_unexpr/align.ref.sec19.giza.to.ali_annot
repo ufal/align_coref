@@ -1,0 +1,1155 @@
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1900.final.streex##2.EnglishT-wsj_1900-s2a1
+EN:	The ruling follows a host of problems at Tucson Electric, including major write-downs, a 60% slash in the common stock dividend and the departure of former Chairman Einar Greve during a company investigation of his stock sales.
+CS:	Nařízení vyplývá z nahromaděných problémů ve společnosti Tucson Electric, včetně velkých odpisů, 60% snížení dividend z kmenových akcií a odchodu bývalého předsedy správní rady Einara Greveho v průběhu firemního vyšetřování prodeje jeho akcií. 
+EN_T:	ruling follows host problems Tucson Electric including <#PersPron.ACT> major write-downs 60 % slash common stock dividend and departure former Chairman Einar Greve company investigation his stock sales
+CS_T:	#PersPron.ACT Nařízení #PersPron.PAT vyplývá nahromaděných problémů společnosti Tucson #Forn.ID Electric velkých odpisů #PersPron.ACT a % 60 snížení dividend akcií kmenových bývalého předsedy Greveho odchodu rady správní Einara průběhu #Gen.ACT firemního vyšetřování prodeje akcií jeho
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1901.final.streex##3.EnglishT-wsj_1901-s3-t9_coract
+EN:	The U.S. wants a higher won to make South Korea's exports more expensive and help trim Seoul's trade surplus.
+CS:	Spojené státy chtějí silnější won, aby jihokorejský export byl dražší a pomohl tak zredukovat soulský obchodní přebytek. 
+EN_T:	U.S. wants higher won <#PersPron.ACT> make South Korea exports expensive and #Cor.ACT help #Gen.ADDR #Gen.ACT trim Seoul trade surplus
+CS_T:	Spojené státy silnější chtějí won jihokorejský export byl a dražší #Gen.ADDR pomohl tak #Cor.ACT zredukovat soulský přebytek obchodní
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1902.final.streex##2.EnglishT-wsj_1902-s2-t12_coract
+EN:	The proposed holding company's primary purpose would be to allow Great American to continue engaging in real estate development activities, it said .
+CS:	Prvořadým úkolem navrhované holdingové společnosti by bylo dovolit bance Great American pokračovat v aktivitách výstavby nemovitostí, prohlásila. 
+EN_T:	proposed holding company primary purpose be <#PersPron.ACT> allow Great American continue engaging real estate development activities it said #Gen.ADDR
+CS_T:	#PersPron.ACT Prvořadým navrhované úkolem prohlásila společnosti holdingové bylo <#Cor.ACT> dovolit bance Great #Forn.ID American #Cor.ACT pokračovat aktivitách výstavby nemovitostí
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##18.EnglishT-wsj_1903-s18a1
+EN:	It gets more mail in a month than McCall's got in a year, and it's not from mothers.
+CS:	Za měsíc dostane více dopisů, než McCall's za rok, a není to od matek. 
+EN_T:	It gets month mail more McCall got <#PersPron.PAT> year and it 's not mothers
+CS_T:	měsíc McCall #PersPron.ACT dostane ' #Forn.ACT dopisů více dostane s #PersPron.PAT a rok #Neg.RHEM není to matek
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##22.EnglishT-wsj_1903-s22-t18_coract
+EN:	Two weeks ago, Citicorp and Mr. Lang pumped $800,000 into Matilda just to keep the doors open.
+CS:	Citicorp a Dale Lang před dvěma týdny napumpovali do nakladatelství Matilda 800000 dolarů, jen aby udrželi dveře otevřené. 
+EN_T:	Two weeks Citicorp and Mr. Lang pumped $ 800,000 Matilda just <#PersPron.ACT> keep doors open
+CS_T:	Citicorp Dale a #Forn.ACT Lang dvěma týdny napumpovali nakladatelství Matilda dolarů 800000 <#PersPron.ACT> udrželi jen dveře otevřené
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##2.EnglishT-wsj_1903-s2-t22_coract
+EN:	Mr. Lang admits that Ms. is ``in dire straits'' and that Sassy needs big promotional dollars to keep it alive.
+CS:	Lang připouští, že Ms. je "v těžkých nesnázích" a že časopis Sassy potřebuje mnoho dolarů na reklamu, aby se udržel naživu. 
+EN_T:	Mr. Lang admits Ms. is dire straits and Sassy needs big promotional dollars <#PersPron.ACT> keep it alive
+CS_T:	Lang připouští Ms #Idph.ACT je nesnázích těžkých a časopis Sassy potřebuje mnoho dolarů reklamu <#PersPron.ACT> udržel se naživu
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##33.EnglishT-wsj_1903-s33a8
+EN:	Mr. Lang surprised Time soon after joining forces when he said he would negotiate rates individually with advertisers, a practice common in broadcasting but considered taboo by magazine publishers .
+CS:	Lang překvapil Time brzy po spojení sil, když prohlásil, že cenu bude s inzerenty dohadovat individuálně, což je praktika obvyklá ve vysílání, ale mezi vydavateli časopisů je považována za tabu. 
+EN_T:	Mr. Lang surprised Time soon joining <#PersPron.ACT> forces , when he said #Gen.ADDR he negotiate #EmpVerb.PRED rates individually advertisers practice common broadcasting but #Cor.PAT considered taboo magazine publishers
+CS_T:	Lang Time překvapil #Forn.PAT <#PersPron.ACT> brzy spojení sil #Rcp.ADDR #PersPron.ACT prohlásil #PersPron.ACT cenu dohadovat inzerenty , individuálně což je praktika ale obvyklá vysílání #PersPron.PAT považována vydavateli časopisů tabu
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##8.EnglishT-wsj_1903-s8-t11_coract
+EN:	``For Ms., it's time to publish for the reader, not the advertiser .''
+CS:	"Co se týče Ms., je čas vydávat pro čtenáře a ne pro inzerenta." 
+EN_T:	Ms. it 's time <#PersPron.ACT> publish #Gen.PAT reader , not advertiser
+CS_T:	Co týče #Idph.PAT Ms je #PersPron.PAT <#PersPron.ACT> čas vydávat čtenáře a ne inzerenta
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1904.final.streex##2.EnglishT-wsj_1904-s2-t48_coract
+EN:	The commission, which was asked to study the deal by the Department of Trade and Industry after its announcement in February, said the diversity of global supply of chemicals used in making analgesic drugs was great enough to offset the dominant U.K. market share Rhone-Poulenc would gain through the acquisition.
+CS:	Komise, kterou ministerstvo průmyslu a obchodu po únorovém zveřejnění požádalo o přezkoumání dohody, uvedla, že různorodost globálních zdrojů chemikálií používaných pro výrobu analgetik je dostatečná, aby vyvážila dominantní podíl, který společnost Rhone-Poulenc na britském trhu díky akvizici získá. 
+EN_T:	commission which asked #Cor.ACT study deal Department Trade and Industry its announcement February said #Gen.ADDR diversity global supply chemicals #Gen.ACT used #Cor.PAT #Cor.ACT making analgesic drugs was great enough <#PersPron.ACT> offset dominant U.K. market share Rhone-Poulenc gain #Cor.PAT acquisition
+CS_T:	kterou ministerstvo průmyslu a obchodu #PersPron.PAT #Gen.ACT zveřejnění únorovém požádalo Komise #PersPron.ACT přezkoumání dohody uvedla globálních různorodost zdrojů chemikálií používaných je výrobu analgetik <#PersPron.ACT> dostatečná vyvážila dominantní podíl který společnost Rhone #Forn.ID získá - Poulenc britském trhu akvizici
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1904.final.streex##4.EnglishT-wsj_1904-s4a1
+EN:	The commission found that if the British government attempted to block the merger, Rhone-Poulenc would likely respond by closing the salicylates plant Monsanto operates in Wales, removing the matter from U.K. jurisdiction.
+CS:	Komise zjistila, že pokud by se britská vláda pokusila zabránit fúzi, společnost Rhone-Poulenc by pravděpodobně odpověděla uzavřením své továrny na salicyláty, kterou společnost Monsanto provozuje ve Walesu, čímž by problém dostala mimo působnost britské jurisdikce. 
+EN_T:	commission found British government attempted #Cor.ACT block merger Rhone-Poulenc likely respond <#PersPron.PAT> #Cor.ACT closing salicylates plant Monsanto operates #Cor.PAT Wales removing #Cor.ACT matter U.K. jurisdiction
+CS_T:	Komise #Gen.PAT zjistila Rhone #Forn.ID společnost Poulenc vláda britská pokusila #Cor.ACT zabránit fúzi odpověděla <#PersPron.PAT> pravděpodobně #PersPron.ACT své uzavřením , továrny salicyláty kterou provozuje společnost Monsanto Walesu čímž dostala problém působnost jurisdikce britské
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##1.EnglishT-wsj_1906-s1a4
+EN:	The House Ethics Committee officially cited Rep. Jim Bates -LRB-D., Calif.-RRB- for sexually harassing two female employees, but didn't recommend formal disciplinary action.
+CS:	Etická komise sněmovny oficiálně obvinila poslance Jima Batese (demokrata za Kalifornii) ze sexuálního obtěžování dvou zaměstnankyň, ale nedoporučila formální disciplinární řízení. 
+EN_T:	House Ethics Committee officially cited Rep. Jim Bates D. Calif sexually <#PersPron.ACT> harassing two female employees but n't recommend #Gen.ADDR formal disciplinary action
+CS_T:	Etická komise sněmovny oficiálně poslance Batese ( obvinila Jima ale demokrata Kalifornii <#Cor.ACT> obtěžování sexuálního zaměstnankyň dvou #Neg.RHEM nedoporučila #Gen.ADDR formální řízení disciplinární
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##5.EnglishT-wsj_1906-s5a5
+EN:	Rep. Bates said he would write the letters as ordered .
+CS:	Poslanec Bates prohlásil, že dopisy napíše tak, jak mu bylo nařízeno. 
+EN_T:	Rep. Bates said #Gen.ADDR he write letters #Gen.ACT ordered #Cor.ADDR <#PersPron.PAT>
+CS_T:	Poslanec Bates prohlásil #PersPron.ACT napíše dopisy <#PersPron.PAT> #PersPron.ACT nařízeno jak mu
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##9.EnglishT-wsj_1906-s9a6
+EN:	Rep. Bates has publicly begged for forgiveness from voters and was re-elected with 60% of the vote last November.
+CS:	Poslanec Bates veřejně požádal voliče o odpuštění a byl minulý listopad znovu zvolen 60 % hlasů. 
+EN_T:	Rep. Bates publicly begged #Gen.ADDR forgiveness voters and re-elected <#PersPron.PAT> #Gen.ACT #Gen.EFF 60 % vote last November
+CS_T:	Poslanec Bates veřejně požádal voliče #PersPron.PAT odpuštění #PersPron.ADDR #PersPron.ACT a minulý listopad znovu zvolen #PersPron.EFF #PersPron.PAT % 60 hlasů
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1910.final.streex##1.EnglishT-wsj_1910-s1a1
+EN:	Benj. Franklin Federal Savings&Loan Association said it expects to post a third-quarter net loss of about $8 million, or $1.04 a share, as a result of adding $11 million in loan-loss reserves.
+CS:	Společnost Benj. Franklin Federal Savings & Loan Association uvedla, že očekává vykázání čistých ztrát ve třetím čtvrtletí ve výši okolo 8 milionů dolarů neboli 1.04 dolaru na akcii, což je důsledkem navýšení rezerv na úvěrové ztráty o 11 milionů dolarů. 
+EN_T:	Benj Franklin Federal Savings & Loan Association said #Gen.ADDR it expects #Cor.ACT post third-quarter net loss $ 8 million or $ 1.04 share result <#PersPron.ACT> adding #Oblfm.DIR3 $ 11 million loan-loss reserves
+CS_T:	Benj . Franklin #Forn.ID Společnost Federal Savings uvedla & Loan Association #PersPron.ACT očekává #PersPron.ACT , vykázání čistých ztrát čtvrtletí třetím výši 8 milionů dolarů neboli 1.04 dolaru což je akcii důsledkem #PersPron.ACT navýšení rezerv ztráty úvěrové 11 milionů dolarů
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1912.final.streex##3.EnglishT-wsj_1912-s3a9
+EN:	The announcement coincides with the start of the Commonwealth Ministers Conference in Kuala Lumpur, where proposals for renewed sanctions against South Africa, including moves to block settling of a new debt agreement, were scheduled to be discussed .
+CS:	Uvedené oznámení se kryje se začátkem konference ministrů zemí Commonwealthu v Kuala Lumpuru, kde jsou naplánovány diskuse o návrzích na obnovení sankcí proti Jihoafrické republice včetně návrhů pozastavit uzavření nové dohody o pohledávkách. 
+EN_T:	announcement coincides start Commonwealth Ministers Conference #Forn.LOC Kuala Lumpur where scheduled #Gen.ACT #Gen.ACT discussed proposals renewed sanctions South Africa #Gen.ACT moves <#PersPron.ACT> #Cor.ACT block settling #Gen.ACT new debt agreement
+CS_T:	#PersPron.ACT #PersPron.PAT oznámení #Gen.ADDR kryje Uvedené ministrů začátkem zemí Commonwealthu Kuala konference #Forn.LOC Lumpuru #Gen.ACT naplánovány kde diskuse #Gen.ACT návrzích obnovení sankcí republice Jihoafrické #Gen.ACT návrhů pozastavit #Gen.ACT uzavření nové dohody pohledávkách
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1915.final.streex##106.EnglishT-wsj_1915-s106a4
+EN:	Closed yesterday due to power difficulties.
+CS:	Včera byla uzavřena kvůli problémům s dodávkami energie. 
+EN_T:	<#PersPron.ACT> #EmpVerb.PRED #Cor.PAT Closed #Gen.ACT yesterday power difficulties
+CS_T:	#PersPron.PAT #PersPron.ACT Včera uzavřena problémům dodávkami energie
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1915.final.streex##34.EnglishT-wsj_1915-s34a5
+EN:	CLOROX Co., Oakland, consumer products, annual sales of $1.36 billion, NYSE, was closed yesterday but plans to reopen today or tomorrow.
+CS:	SPOLEČNOST CLOROX Co. vyrábějící spotřební zboží v Oaklandu s ročním obratem 1.36 miliardy dolarů, registrovaná na Newyorské burze cenných papírů, byla včera uzavřena, avšak dnes nebo zítra opět plánuje obnovení provozu. 
+EN_T:	CLOROX Co. Oakland consumer #EmpVerb.RSTR products #EmpVerb.RSTR annual sales $ 1.36 billion NYSE #Gen.ACT closed yesterday but plans <#PersPron.ACT> #Cor.ACT reopen today or tomorrow
+CS_T:	SPOLEČNOST #Forn.ID CLOROX Co . vyrábějící spotřební zboží Oaklandu ročním obratem 1.36 miliardy dolarů registrovaná Newyorské burze cenných papírů včera uzavřena #Gen.ACT avšak dnes nebo <#PersPron.ACT> zítra opět plánuje #Cor.ACT obnovení provozu
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1915.final.streex##36.EnglishT-wsj_1915-s36a1
+EN:	Expects to be fully operational early next week.
+CS:	Očekává se, že počátkem příštího týdne bude plně v provozu. 
+EN_T:	Expects <#PersPron.ACT> #Cor.ACT be fully operational early next week
+CS_T:	<#Gen.ACT> Očekává #PersPron.ACT příštího týdne bude plně provozu
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1915.final.streex##9.EnglishT-wsj_1915-s9a8
+EN:	AMERICAN BUILDING MAINTENANCE INDUSTRIES Inc., San Francisco, provider of maintenance services, annual revenue of $582 million, NYSE, had some damage to headquarters and lost phone service, but operations were moved to a branch office and are running smoothly thanks to a decentralized computer system the company had developed before the quake.
+CS:	SPOLEČNOST AMERICAN BUILDING MAINTENANCE INDUSTRIES Inc. v San Francisku, poskytovatel údržbářských služeb s ročním obratem 582 miliony dolarů, registrovaná na Newyorské burze cenných papírů, utrpěla určité škody v hlavním sídle společnosti a ztratila telefonní spojení, avšak provoz byl převeden na pobočky a probíhá hladce díky decentralizovanému počítačovému systému, který společnost vyvinula ještě před zemětřesením. 
+EN_T:	AMERICAN BUILDING MAINTENANCE INDUSTRIES Inc. San Francisco #Forn.PAR , provider maintenance #EmpVerb.RSTR services annual revenue $ 582 million NYSE had some damage headquarters and lost phone service but operations moved branch office and #Gen.ACT running <#PersPron.ACT> smoothly thanks decentralized computer system company developed #Cor.PAT quake
+CS_T:	SPOLEČNOST #Forn.LOC #Forn.ID AMERICAN BUILDING MAINTENANCE INDUSTRIES Inc . San , Francisku poskytovatel údržbářských služeb ročním obratem 582 miliony dolarů registrovaná Newyorské burze cenných papírů utrpěla určité škody hlavním sídle společnosti a ztratila telefonní spojení #PersPron.ACT avšak provoz #Oblfm.DIR1 převeden pobočky a probíhá <#PersPron.ACT> hladce decentralizovanému počítačovému systému který společnost vyvinula ještě zemětřesením
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1916.final.streex##12.EnglishT-wsj_1916-s12a2
+EN:	That temblor measured 6.1 on the Richter scale; Tuesday's was
+CS:	Toto zemětřesení mělo sílu 6.1 stupně Richterovy škály, úterní bylo 
+EN_T:	That temblor measured 6.1 Richter scale ; Tuesday was <#PersPron.PAT> temblor
+CS_T:	Toto zemětřesení mělo sílu 6.1 stupně Richterovy škály , úterní bylo <#Gen.PAT> zemětřesení
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1916.final.streex##17.EnglishT-wsj_1916-s17a5
+EN:	But most structural engineers attributed the destruction to improper reinforcement of the columns that supported the decks, and the fact that the ground beneath the highway is largely landfill and can become unstable, or ``liquefy,'' in a major quake.
+CS:	Většina stavebních inženýrů však zkázu přisoudila nedostatečné výztuži sloupů, které podpíraly patra, a skutečnosti, že země pod dálnicí je především zavážka a při větším zemětřesení může být nestabilní nebo "tekutá". 
+EN_T:	most But structural engineers attributed destruction improper reinforcement columns that supported decks and fact ground highway is largely landfill and become unstable or liquefy <#PersPron.ACT> major quake
+CS_T:	Většina stavebních inženýrů však zkázu přisoudila nedostatečné výztuži sloupů které podpíraly patra a skutečnosti země dálnicí je především zavážka a větším zemětřesení být nestabilní nebo tekutá
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1918.final.streex##7.EnglishT-wsj_1918-s7a1
+EN:	As the strike enters its 15th day today, some members are getting nervous, the spokesman conceded , but the majority of the 55,000 Machinists are prepared to ``wait it out as long as it takes .
+CS:	Jak dnes stávka pokračuje 15. dnem, někteří členové začínají být nervózní, uzavřel mluvčí, ale většina z 55000 strojníků je připravena "to vydržet, ať to trvá, jak dlouho chce". 
+EN_T:	strike enters its 15th day today some members getting nervous spokesman conceded <#PersPron.PAT> but majority 55,000 Machinists prepared #Cor.ACT wait it long as it takes #PersPron.PAT
+CS_T:	#EmpVerb.COMPL dnes stávka pokračuje 15 dnem někteří členové začínají #Cor.ACT být nervózní uzavřel #Gen.PAT mluvčí ale #Cor.ACT většina 55000 strojníků je připravena #Cor.ACT to vydržet to trvá chce #PersPron.PAT #PersPron.ACT jak dlouho
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1918.final.streex##7.EnglishT-wsj_1918-s7a2
+EN:	As the strike enters its 15th day today, some members are getting nervous, the spokesman conceded , but the majority of the 55,000 Machinists are prepared to ``wait it out as long as it takes .
+CS:	Jak dnes stávka pokračuje 15. dnem, někteří členové začínají být nervózní, uzavřel mluvčí, ale většina z 55000 strojníků je připravena "to vydržet, ať to trvá, jak dlouho chce". 
+EN_T:	strike enters its 15th day today some members getting nervous spokesman conceded #PersPron.PAT but majority 55,000 Machinists prepared #Cor.ACT wait it long as it takes <#PersPron.PAT>
+CS_T:	#EmpVerb.COMPL dnes stávka pokračuje 15 dnem někteří členové začínají #Cor.ACT být nervózní uzavřel #Gen.PAT mluvčí ale #Cor.ACT většina 55000 strojníků je připravena #Cor.ACT to vydržet to trvá chce #PersPron.PAT #PersPron.ACT jak dlouho
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1920.final.streex##4.EnglishT-wsj_1920-s4a3
+EN:	Mr. Bush and his aides were accused of responding too slowly after the Exxon Valdez oil tanker split open in Alaskan waters and Hurricane Hugo struck the Carolina coast, and they clearly don't want a repeat of those charges now.
+CS:	Bush a jeho poradci byli po tom, co v aljašských vodách ztroskotal naftový tanker Exxon Valdez a na pobřeží Karolíny udeřil hurikán Hugo, nařknuti z toho, že reagují příliš pomalu a zřejmě nechtějí, aby se tato obvinění nyní opakovala. 
+EN_T:	Mr. Bush and his aides accused #Gen.ACT responding #Gen.EFF <#PersPron.PAT> #Cor.ACT too slowly Exxon Valdez oil tanker split open Alaskan waters and Hurricane Hugo struck Carolina coast and they clearly n't want repeat those charges now
+CS_T:	#Gen.ACT Bush a jeho poradci aljašských vodách ztroskotal naftový tanker #Forn.ID Exxon Valdez a pobřeží Karolíny udeřil hurikán Hugo nařknuti <#PersPron.PAT> #PersPron.ACT reagují příliš pomalu #Neg.RHEM a zřejmě nechtějí #PersPron.PAT #PersPron.ADDR #Gen.ACT tato obvinění nyní opakovala
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1922.final.streex##17.EnglishT-wsj_1922-s17a1
+EN:	Reinforcing such old building stock, Mr. Johnson said , ``comes down to money.
+CS:	Johnson řekl, že vyztužení takových starých staveb "přijde na mnoho peněz. 
+EN_T:	#Gen.ACT Reinforcing such old building stock Mr. Johnson said <#PersPron.EFF> #Gen.ADDR comes money
+CS_T:	#Gen.ADDR Johnson řekl vyztužení #Gen.ACT takových starých staveb přijde #Gen.ADDR mnoho peněz
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1922.final.streex##21.EnglishT-wsj_1922-s21a2
+EN:	The urgency is heightened because this week's earthquake -- while major and followed by hundreds of aftershocks -- didn't release enough pent-up energy tension along the faultlines to preclude more and bigger quakes soon.
+CS:	Tato nutnost se ještě zvýšila, protože zemětřesení, k němuž došlo tento týden - ačkoli bylo silné a doprovázely jej stovky následných otřesů - neuvolnilo dostatečné množství zadržované nahromaděné energie podél linií zlomu, aby zamezilo dalším a větším otřesům v brzké době. 
+EN_T:	urgency heightened #Gen.ACT this week earthquake major and followed <#PersPron.PAT> hundreds aftershocks n't release enough pent-up energy tension #Cor.ACT faultlines #Cor.ACT preclude more and bigger quakes soon
+CS_T:	Tato nutnost ještě zvýšila zemětřesení němuž došlo tento týden #PersPron.ACT bylo silné a doprovázely <jej> stovky následných otřesů #Neg.RHEM neuvolnilo dostatečné množství zadržované nahromaděné energie linií zlomu #PersPron.ACT zamezilo dalším a větším otřesům době brzké
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1923.final.streex##13.EnglishT-wsj_1923-s13a1
+EN:	Coke has been studying the possibility of introducing a caffeine-free Classic for a year, a company spokesman said .
+CS:	Mluvčí společnosti sdělil, že společnost Coke zkoumá možnost uvést na trh bezkofeinový Classic již rok. 
+EN_T:	Coke studying possibility <#PersPron.ACT> introducing caffeine-free Classic year company spokesman said #Gen.ADDR
+CS_T:	#Gen.ADDR Mluvčí společnosti sdělil společnost Coke zkoumá <#PersPron.ACT> možnost uvést trh bezkofeinový Classic již rok
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1924.final.streex##33.EnglishT-wsj_1924-s33a1
+EN:	Christian legislators are insisting on a Syrian troop pullout from Lebanon before agreeing to political changes giving the nation's Moslems a greater role in Beirut's government.
+CS:	Křesťanští zákonodárci trvají na tom, aby předtím, než budou souhlasit s politickými změnami posilujícími roli národa Muslimů ve vládě v Bejrútu, byla syrská vojska stažena z Libanonu. 
+EN_T:	Christian legislators insisting Syrian troop pullout Lebanon <#PersPron.ACT> agreeing political changes #Cor.ACT giving nation Moslems greater role Beirut government
+CS_T:	Křesťanští zákonodárci trvají <#PersPron.ACT> souhlasit politickými změnami posilujícími roli národa Muslimů vládě Bejrútu #PersPron.ACT syrská vojska stažena Libanonu
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##12.EnglishT-wsj_1927-s12-t22_coract
+EN:	Harvard's Laurence Tribe was the constitutional heavy, laying out legal strategies for the senators and witnesses to follow .
+CS:	Těžkou váhou v oboru ústavního práva byl Laurence Tribe z Harvardu, to on rozpracoval právní strategie, kterými se mají řídit senátoři a svědci. 
+EN_T:	Harvard Laurence Tribe was constitutional heavy #Cor.ACT laying legal strategies senators and witnesses <#PersPron.ACT> follow #Cor.PAT
+CS_T:	, Těžkou váhou oboru ústavního práva byl Laurence Tribe Harvardu to on rozpracoval právní strategie kterými řídit senátoři a svědci
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##13.EnglishT-wsj_1927-s13a1
+EN:	But it was Ted Kennedy who scored most effectively with his searing portrayal of ``Robert Bork's America'' -- the parade of imaginary horribles that would follow logically, he claimed , from the positions Mr. Bork had taken over the space of two decades.
+CS:	Největšího úspěchu však dosáhl Ted Kennedy svým nemilosrdným vylíčením "Ameriky podle Roberta Borka" - přehlídkou vymyšlených hrůz, které by logicky vyplynuly, jak tvrdil, z názorů, které pan Bork v období dvou desetiletí zastával. 
+EN_T:	But Ted Kennedy scored #Gen.PAT effectively his searing portrayal Robert Bork America -- parade imaginary horribles that follow #Gen.PAT logically he claimed <#PersPron.EFF> #Gen.ADDR positions Mr. Bork taken #Cor.CPHR space two decades
+CS_T:	<#PersPron.EFF> #PersPron.ACT Největšího úspěchu však dosáhl Ted Kennedy svým nemilosrdným vylíčením #Idph.PAT Ameriky Roberta Borka - přehlídkou vymyšlených hrůz které logicky vyplynuly tvrdil názorů které pan Bork dvou desetiletí zastával
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##14.EnglishT-wsj_1927-s14a1
+EN:	Sen. Kennedy, never mind his dubious credentials for the moral high ground, emoted brilliantly.
+CS:	Senátor Kennedy, nehleďme na pochybné doklady o jeho morální převaze, zahrál vynikajícím způsobem na emoce ostatních. 
+EN_T:	Sen. Kennedy never <#PersPron.ACT> mind his dubious credentials moral high ground emoted brilliantly
+CS_T:	Senátor Kennedy #Neg.RHEM <#PersPron.ACT> nehleďme pochybné doklady jeho morální převaze zahrál vynikajícím způsobem emoce #PersPron.PAT ostatních
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##16.EnglishT-wsj_1927-s16a7
+EN:	Republican Sen. Arlen Specter of Pennsylvania engaged the nominee in a verbal contest aimed at showing that Mr. Bork was willing to stretch the Constitution in one area -LRB-free speech-RRB- while remaining rigid in all the others.
+CS:	Republikánský senátor Arlen Specter z Pensylvánie zatáhl kandidáta do slovní přestřelky s cílem ukázat, že soudce Bork je v jedné oblasti (svoboda projevu) ochoten Ústavu rozšířit, avšak ve všech ostatních oblastech zůstává rigidní. 
+EN_T:	Republican Sen. Arlen Specter Pennsylvania engaged nominee verbal contest aimed #Gen.ACT #Cor.PAT showing #Cor.ACT Mr. Bork was willing stretch <#PersPron.ACT> Constitution one area free speech remaining #Cor.ACT rigid all others
+CS_T:	Republikánský senátor Arlen Specter Pensylvánie zatáhl kandidáta slovní přestřelky #Gen.ADDR #PersPron.ACT cílem ukázat soudce Bork je jedné oblasti svoboda projevu ochoten <#Cor.ACT> Ústavu rozšířit avšak všech ostatních oblastech zůstává #PersPron.ACT rigidní
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##19.EnglishT-wsj_1927-s19a1
+EN:	The charge of being ``outside the mainstream'' of legal thought gravely undercut Mr. Bork's scholarly standing, leaving him bleeding on the platform.
+CS:	Obvinění, že se nachází "mimo hlavní proud" právního myšlení, výrazně podrylo postavení soudce Borka coby odborníka a nechalo ho doslova vykrvácet přímo na pódiu. 
+EN_T:	charge being <#PersPron.ACT> mainstream legal thought gravely undercut Mr. Bork scholarly standing #Cor.ACT leaving him bleeding #Cor.ACT platform
+CS_T:	#PersPron.ADDR #PersPron.ACT Obvinění <#PersPron.ACT> nachází hlavní proud #Gen.ACT právního myšlení výrazně podrylo postavení soudce Borka odborníka a nechalo ho doslova #Cor.ACT vykrvácet přímo pódiu
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##1.EnglishT-wsj_1927-s1a3
+EN:	Whether or not ``great cases make bad-law'' -- as Justice Holmes asserted -- who can doubt that when great confirmation hearings turn on the nominee's response to these great cases they make bad judicial history?
+CS:	Ať už "velké případy kazí soudnictví", jak tvrdil soudce Holmes, nebo ne, stejně, kdo může pochybovat o tom, že nekazí historii soudnictví, když výsledek velkých konfirmačních slyšení závisí na kandidátově reakci právě na tyto velké případy? 
+EN_T:	make cases or great bad-law make #PersPron.PAT <#PersPron.ACT> not Justice Holmes asserted #Cor.EFF who doubt when great confirmation hearings turn nominee response these great cases they make bad judicial history
+CS_T:	velké případy kazí soudnictví #PersPron.EFF už tvrdil soudce Holmes nebo kazí ne stejně kdo pochybovat #Neg.RHEM #PersPron.ACT nekazí historii soudnictví výsledek velkých konfirmačních slyšení závisí kandidátově reakci právě tyto velké případy
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##1.EnglishT-wsj_1927-s1a4
+EN:	Whether or not ``great cases make bad-law'' -- as Justice Holmes asserted -- who can doubt that when great confirmation hearings turn on the nominee's response to these great cases they make bad judicial history?
+CS:	Ať už "velké případy kazí soudnictví", jak tvrdil soudce Holmes, nebo ne, stejně, kdo může pochybovat o tom, že nekazí historii soudnictví, když výsledek velkých konfirmačních slyšení závisí na kandidátově reakci právě na tyto velké případy? 
+EN_T:	make cases or great bad-law make <#PersPron.PAT> #PersPron.ACT not Justice Holmes asserted #Cor.EFF who doubt when great confirmation hearings turn nominee response these great cases they make bad judicial history
+CS_T:	velké případy kazí soudnictví #PersPron.EFF už tvrdil soudce Holmes nebo kazí ne stejně kdo pochybovat #Neg.RHEM #PersPron.ACT nekazí historii soudnictví výsledek velkých konfirmačních slyšení závisí kandidátově reakci právě tyto velké případy
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##5.EnglishT-wsj_1927-s5a5
+EN:	In its basic structure and style the book is novelistic, with piquant character portrayal, hard-wire action and devious intrigue of the sort more likely to be encountered in a Washington docudrama than in a constitutional history.
+CS:	Z hlediska základní struktury a stylu je kniha zpracovaná jako román s provokativním vylíčením charakterů, syrovým dějem a s nevyzpytatelnými intrikami takového typu, že bychom je očekávali spíše v dokumentárním dramatu o mocenském prostředí Washingtonu než v ústavní historii. 
+EN_T:	its basic structure and style book is novelistic piquant character portrayal hard-wire action and devious intrigue sort likely more #Gen.ACT encountered #Cor.PAT encountered Washington docudrama #Gen.ACT constitutional <#PersPron.PAT> history
+CS_T:	základní struktury a stylu je kniha zpracovaná je zpracovaná román provokativním vylíčením #PersPron.ACT charakterů syrovým dějem a nevyzpytatelnými intrikami takového typu #PersPron.ACT je očekávali spíše očekávali #PersPron.PAT #PersPron.ACT dokumentárním dramatu mocenském prostředí Washingtonu ústavní historii
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##9.EnglishT-wsj_1927-s9a3
+EN:	As Mr. Bronner himself says , the smell of ``raw meat'' was in the air.
+CS:	Jak říká sám pan Bronner, ve vzduchu byl cítit zápach "syrového masa". 
+EN_T:	Mr. Bronner himself says <#PersPron.EFF> #Gen.ADDR smell raw meat was air
+CS_T:	<#PersPron.EFF> #Gen.ADDR říká sám pan Bronner vzduchu byl #Benef.BEN #Cor.ACT cítit zápach syrového masa
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1928.final.streex##18.EnglishT-wsj_1928-s18-t12_coract
+EN:	Sotheby's made the $100 million guarantee to keep the Dorrance collection away from its archrival, auction house Christie's International PLC; Christie's has handled smaller sales for the Dorrance family over the years.
+CS:	Společnost Sotheby's nabídla záruku 100 milionů dolarů, aby sbírku Dorranceových udržela z dosahu svého hlavního konkurenta, aukčního domu Christie's International PLC, přičemž společnost Christie's v průběhu řady let vyřizovala pro Dorranceovy menší prodeje. 
+EN_T:	Sotheby made $ 100 million guarantee <#PersPron.ACT> keep Dorrance collection its away archrival auction house Christie International PLC ; Christie handled smaller sales Dorrance family years
+CS_T:	Společnost #Forn.ID Sotheby ' s nabídla #Gen.ADDR záruku 100 milionů dolarů <#PersPron.ACT> sbírku Dorranceových udržela dosahu svého hlavního konkurenta , aukčního domu Christie ' #Forn.ID s International PLC přičemž společnost #Forn.ID Christie ' s řady let vyřizovala Dorranceovy menší prodeje
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1928.final.streex##20.EnglishT-wsj_1928-s20a3
+EN:	Collectors who have made their money on Wall Street have become an increasingly important part of the art business and their money has helped fuel the art boom, but recently it appears Sotheby's has been returning the compliment.
+CS:	Sběratelé, kteří si vydělali peníze na Wall Street, se stali více a více důležitou součástí obchodu s uměním a jejich peníze přispěly k urychlení rozvoje umění, avšak v poslední době se zdá, že jim společnost Sotheby's přízeň oplácí. 
+EN_T:	Collectors who made their money Wall Street become increasingly important part art business and their money helped #Gen.ADDR #Gen.ACT fuel art boom but recently appears #Gen.PAT Sotheby returning <#PersPron.ADDR> compliment
+CS_T:	Sběratelé kteří si vydělali peníze #Forn.LOC Wall Street stali více a více důležitou součástí obchodu uměním a jejich peníze přispěly #Gen.ACT urychlení rozvoje umění avšak #Gen.ACT poslední době zdá jim společnost #Forn.ID Sotheby ' s přízeň oplácí
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1928.final.streex##38.EnglishT-wsj_1928-s38a1
+EN:	In such situations, he says, the house ``is going to put the best light on things.''
+CS:	V takových situacích, říká, se dům "bude snažit prezentovat se v co nejlepším světle". 
+EN_T:	such situations he says <#PersPron.EFF> #Gen.ADDR house put best light things
+CS_T:	#PersPron.ACT #Gen.ADDR takových situacích říká dům <snažit> #Cor.ACT prezentovat co nejlepším světle
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1928.final.streex##41.EnglishT-wsj_1928-s41a2
+EN:	Dealers and auction houses ``know if they don't lay out a half a million for this, another one will ; it's that competitive.''
+CS:	Obchodníci a aukční domy "vědí, že když za to nenabídnou půl milionu, udělá to někdo jiný, protože až tak velká je konkurence". 
+EN_T:	Dealers and auction houses know they n't lay lay <#PersPron.PAT> half million this another one ; it 's that competitive
+CS_T:	Obchodníci a aukční domy vědí #Neg.RHEM #Gen.ADDR #PersPron.ACT to nenabídnou půl milionu udělá to někdo jiný až tak velká je konkurence
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1929.final.streex##13.EnglishT-wsj_1929-s13a5
+EN:	Cartoonists in West Germany have already mocked the exodus by imagining an advertisement placed by Mr. Honecker: ``Wanted : one people.''
+CS:	Západoněmečtí karikaturisté se již vysmívají hromadnému odchodu tím, že za Honeckera podali inzerát: "Poptávám: jeden národ". 
+EN_T:	Cartoonists West Germany already mocked exodus imagining <#PersPron.ACT> advertisement placed #Oblfm.DIR3 #Cor.PAT Mr. Honecker #Gen.ACT Wanted #EmpVerb.ID #Cor.PAT one people
+CS_T:	Západoněmečtí karikaturisté již vysmívají hromadnému odchodu #Gen.ADDR #PersPron.ACT Honeckera podali inzerát Poptávám #PersPron.ACT jeden národ
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1929.final.streex##18.EnglishT-wsj_1929-s18-t14_coract
+EN:	There have been some reports that Mr. Krenz is moving to ``soften'' his reputation, notably rumors that it was he who kept East Germany's state police off protesters' backs at the country's dismal 40th anniversary celebrations earlier this month.
+CS:	Objevilo se několik zpráv o tom, že Krenz hodlá svoji pověst "vylepšit", především se jedná o zvěsti, že právě on na začátku tohoto měsíce udržel při oslavách neveselého 40. výročí východoněmeckou státní policii dál od zad protestujících. 
+EN_T:	been , some reports Mr. Krenz moving <#PersPron.ACT> soften his reputation notably rumors was he who kept East Germany state police protesters backs country dismal 40th anniversary celebrations earlier this month
+CS_T:	Objevilo několik zpráv Krenz svoji pověst vylepšit , především jedná zvěsti právě on začátku tohoto měsíce udržel oslavách neveselého 40 výročí východoněmeckou státní policii dál zad protestujících
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1929.final.streex##21.EnglishT-wsj_1929-s21-t6_coract
+EN:	When Poland moves to reform , it can at least lean on its past: However flawed and short-lived Joseph Pilsudski's interwar republic , it was a nonsocialist democracy.
+CS:	Když se Polsko rozhodne pro reformu, může se přinejmenším opřít o svoji minulost: Ať již byla meziválečná republika Josepha Pilsudskiho jakkoli nedokonalá a krátkodobá, byla to nesocialistická demokracie. 
+EN_T:	Poland moves <#PersPron.ACT> reform #Rcp.PAT it least lean its past : flawed and short-lived #EmpVerb.CNCS Joseph Pilsudski interwar republic it was nonsocialist democracy
+CS_T:	#PersPron.ACT Polsko rozhodne reformu přinejmenším opřít svoji minulost : již byla meziválečná republika Josepha Pilsudskiho jakkoli nedokonalá a krátkodobá byla to nesocialistická demokracie
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1929.final.streex##23.EnglishT-wsj_1929-s23a1
+EN:	Even the Soviet Union has Peter the Great to rediscover , should it choose to .
+CS:	Dokonce i Sovětský svaz může znovu objevit Petra Velikého, pokud se tak rozhodne. 
+EN_T:	Even Soviet Union has Peter Great rediscover #Cor.ACT it choose <#PersPron.PAT>
+CS_T:	Dokonce i Sovětský svaz znovu objevit Petra Velikého #PersPron.ACT tak rozhodne
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1929.final.streex##32.EnglishT-wsj_1929-s32a1
+EN:	Ideologues are the last to surrender, and Germans are an ideological people.
+CS:	Ideologové se vzdávají poslední a Němci národem ideologů opravdu jsou. 
+EN_T:	Ideologues are last surrender <#PersPron.ACT> and Germans are ideological people
+CS_T:	Ideologové vzdávají poslední a Němci národem ideologů opravdu jsou
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1929.final.streex##33.EnglishT-wsj_1929-s33a3
+EN:	The protesters who greeted Mikhail Gorbachev at East Berlin's airport earlier this month weren't shouting ``Go U.S.A'' -- they were chanting ``Gorby, Help Us.''
+CS:	Protestující, kteří na začátku měsíce vítali Michaila Gorbačova na východoberlínském letišti, nekřičeli "Za Amerikou" - skandovali "Gorby, pomoz nám". 
+EN_T:	protesters who greeted Mikhail Gorbachev East Berlin airport earlier this month n't shouting Go <#PersPron.ACT> U.S.A -- they chanting Gorby Help #Gen.PAT #PersPron.ACT Us
+CS_T:	Protestující kteří začátku měsíce vítali Michaila Gorbačova východoberlínském letišti #Neg.RHEM nekřičeli #EmpVerb.PAT Amerikou - skandovali Gorby pomoz nám
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1929.final.streex##33.EnglishT-wsj_1929-s33a4
+EN:	The protesters who greeted Mikhail Gorbachev at East Berlin's airport earlier this month weren't shouting ``Go U.S.A'' -- they were chanting ``Gorby, Help Us.''
+CS:	Protestující, kteří na začátku měsíce vítali Michaila Gorbačova na východoberlínském letišti, nekřičeli "Za Amerikou" - skandovali "Gorby, pomoz nám". 
+EN_T:	protesters who greeted Mikhail Gorbachev East Berlin airport earlier this month n't shouting Go #PersPron.ACT U.S.A -- they chanting Gorby Help #Gen.PAT <#PersPron.ACT> Us
+CS_T:	Protestující kteří začátku měsíce vítali Michaila Gorbačova východoberlínském letišti #Neg.RHEM nekřičeli #EmpVerb.PAT Amerikou - skandovali Gorby pomoz nám
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1929.final.streex##40.EnglishT-wsj_1929-s40a3
+EN:	``The main problem,'' Mr. Reinhold said in an East German radio interview monitored by Radio Free Europe in Munich, stems from the fact that ``the GDR is different'' from other East European states.
+CS:	"Hlavní problém," řekl Reinhold v rozhovoru pro východoněmecký rozhlas sledovaný rádiem Svobodná Evropa v Mnichově, vychází ze skutečnosti, že "NDR je jiná" než ostatní východoevropské státy. 
+EN_T:	main problem Mr. Reinhold said <#PersPron.EFF> #Gen.ADDR East German radio interview monitored #Cor.PAT Radio Free Europe Munich stems fact GDR is different other East European states
+CS_T:	Hlavní problém #Gen.ADDR řekl Reinhold rozhovoru východoněmecký rozhlas sledovaný rádiem Svobodná Evropa Mnichově vychází skutečnosti NDR je #Idph.ACT ostatní jiná je #Some.PAT východoevropské státy
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1930.final.streex##21.EnglishT-wsj_1930-s21a1
+EN:	B.A.T Industries may delay part of its defensive restructuring plan, including the sale of its Saks Fifth Avenue and Marshall Field units.
+CS:	Společnost B. A. T Industries možná pozdrží část svého plánu na obrannou restrukturalizaci včetně prodeje svých jednotek Saks Fifth Avenue a Marshall Field. 
+EN_T:	B.A.T Industries delay part its defensive restructuring plan including <#PersPron.ACT> sale its Saks Fifth Avenue and Marshall Field units
+CS_T:	B Společnost #Forn.ID . A . pozdrží T možná Industries svého plánu část restrukturalizaci obrannou svých jednotek prodeje Saks #Forn.ID a Fifth Avenue Marshall jednotek #Forn.ID Field
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1930.final.streex##26.EnglishT-wsj_1930-s26a1
+EN:	Jaguar hopes to reach a friendly accord with General Motors within a month that may involve producing a cheaper executive model.
+CS:	Společnost Jaguar doufá, že do měsíce dosáhne přátelské dohody se společností General Motors, která bude možná zahrnovat výrobu levnějšího exkluzivního modelu. 
+EN_T:	Jaguar hopes #Cor.ACT reach friendly accord General Motors month that involve <#PersPron.ACT> producing cheaper executive model
+CS_T:	Společnost Jaguar #PersPron.ACT doufá měsíce dosáhne přátelské dohody společností General #Forn.ID Motors která zahrnovat možná výrobu levnějšího modelu exkluzivního
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1930.final.streex##2.EnglishT-wsj_1930-s2a2
+EN:	But most businesses in the Bay area, including Silicon Valley, weren't greatly affected .
+CS:	Většina podniků v oblasti sanfranciské zátoky včetně oblasti Silicon Valley ale příliš poškozena nebyla. 
+EN_T:	But most businesses Bay area including <#PersPron.ACT> Silicon Valley n't greatly #Gen.ACT affected
+CS_T:	#PersPron.ACT Většina podniků oblasti zátoky sanfranciské oblasti Silicon #Forn.ID Valley poškozena #Neg.RHEM ale příliš
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1931.final.streex##20.EnglishT-wsj_1931-s20a1
+EN:	Some dealers noted that nervousness over the recent sharp dive in stock prices could intensify following suggestions by Bank of Japan Governor Satoshi Sumita that appeared to advise Japanese investors to be very careful in investing in U.S. leveraged buy-outs.
+CS:	Někteří obchodníci poznamenali, že nervozita ohledně nedávného prudkého pádu cen akcií by mohla zesílit příští doporučení guvernéra Japonské banky Satoshiho Sumita, která zjevně nabádala japonské investory, aby byli při investování do zadlužených odkupů v USA velmi opatrní. 
+EN_T:	Some dealers noted nervousness recent sharp dive stock prices intensify suggestions Bank Japan Governor Satoshi Sumita that appeared #Gen.PAT advise Japanese investors #Cor.ACT be very careful <#PersPron.ACT> investing #Gen.PAT U.S. leveraged buy-outs
+CS_T:	Někteří obchodníci poznamenali nervozita nedávného prudkého pádu cen akcií zesílit #Gen.PAT #PersPron.ADDR příští doporučení guvernéra Japonské banky Satoshiho #Forn.ACT Sumita která zjevně nabádala japonské investory #PersPron.ACT byli #Gen.PAT <#PersPron.ACT> investování zadlužených odkupů #Idph.LOC USA velmi opatrní
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1931.final.streex##6.EnglishT-wsj_1931-s6-t67_coract
+EN:	Harris Trust's Mr. Woodland noted that the unit continues to show resilience in the face of a barrage of ``headline negatives'' in recent weeks, including rate increases in Europe and Japan, aggressive central bank intervention, a 190-point plunge in New York stock prices, an unexpectedly poor U.S. trade report and action by the Federal Reserve to nudge U.S. rates lower.
+CS:	Woodland ze spořitelny Harris Trust poznamenal, že měna nadále projevuje odolnost vůči přívalu "pesimistických novinových titulků", které vznikly za poslední týdny a zahrnují zvýšení sazeb v Evropě a v Japonsku, agresivní intervenci centrální banky, prudký pokles cen akcií na newyorské burze o 190 bodů, neočekávaně špatnou zprávu o americkém obchodu a kroku, který podnikla Federální rezervní banka, aby napomohla snížení sazeb ve Spojených státech. 
+EN_T:	Harris Trust Mr. Woodland noted unit continues #Cor.ACT show resilience face barrage headline negatives recent weeks including #PersPron.ACT rate increases Europe and Japan aggressive central bank intervention 190-point plunge New York stock prices unexpectedly poor U.S. trade report and action Federal Reserve <#PersPron.ACT> nudge U.S. rates lower
+CS_T:	Woodland spořitelny #Forn.ID Harris Trust poznamenal měna nadále projevuje odolnost přívalu pesimistických novinových titulků které vznikly poslední týdny a zahrnují #Gen.ACT zvýšení sazeb Evropě a Japonsku agresivní intervenci centrální banky prudký pokles cen akcií newyorské burze 190 bodů , neočekávaně špatnou zprávu americkém obchodu a kroku který podnikla Federální rezervní banka <#PersPron.ACT> napomohla #Gen.ACT snížení sazeb Spojených státech
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1932.final.streex##21.EnglishT-wsj_1932-s21a2
+EN:	``The problem is that while on the surface everything is all right, the question is,'' said Mr. Barakat, ``was there any structural damage to the pipelines or anything else.''
+CS:	"Problém je, že zatímco na povrchu je všechno v pořádku, otázkou zůstává," řekl Barakat, "jestli nebyla poškozena konstrukce potrubí nebo cokoli jiného." 
+EN_T:	problem is surface everything is all right question is said <#PersPron.EFF> #Gen.ADDR Mr. Barakat was any structural damage pipelines or anything else
+CS_T:	#Gen.ADDR Problém je povrchu je všechno pořádku otázkou #Neg.RHEM zůstává řekl Barakat #PersPron.ACT poškozena konstrukce potrubí nebo cokoli jiného
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1932.final.streex##29.EnglishT-wsj_1932-s29a4
+EN:	Another analyst said the Cananea return to operation may not be as near as some expect .
+CS:	Jiný analytik uvedl, že návrat Cananey do provozu nemusí být tak brzký, jak někteří očekávají. 
+EN_T:	Another analyst said #Gen.ADDR Cananea return operation not be near some expect <#PersPron.PAT>
+CS_T:	Jiný analytik uvedl návrat #Forn.RSTR Cananey provozu být #Neg.RHEM tak brzký <#PersPron.PAT> někteří očekávají
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1932.final.streex##46.EnglishT-wsj_1932-s46a2
+EN:	That country recently bought 200,000 tons of sugar and had been expected to seek a like quantity last week but didn't .
+CS:	Tato země nedávno koupila 200000 tun cukru a očekávalo se, že minulý týden bude mít zájem koupit podobné množství, ale neměla. 
+EN_T:	That country recently bought 200,000 tons sugar and expected #Gen.ACT <#PersPron.ACT> like quantity seek last week but seek n't
+CS_T:	Tato země nedávno koupila 200000 tun cukru a očekávalo #Gen.ACT minulý týden mít #PersPron.ACT zájem #Cor.ACT koupit podobné množství ale neměla #Neg.RHEM zájem #PersPron.ACT
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1932.final.streex##8.EnglishT-wsj_1932-s8a1
+EN:	For more than the past year, even the rumor of a major West Coast refinery shutdown has been enough to spark a futures rally because the gasoline market is so tight.
+CS:	V době předcházející loňskému roku stačila i fáma o uzavření jedné velké rafinérie na západním pobřeží podnítit nárůst termínových obchodů, protože trh s ropou je příliš napjatý. 
+EN_T:	more past year even rumor major West Coast refinery shutdown been enough spark <#PersPron.ACT> futures rally gasoline market is so tight
+CS_T:	době předcházející loňskému roku stačila i fáma #Gen.ACT uzavření jedné velké rafinérie západním pobřeží podnítit <#Cor.ACT> nárůst termínových obchodů trh ropou je příliš napjatý
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1932.final.streex##9.EnglishT-wsj_1932-s9a6
+EN:	But yesterday, as the morning wore on, some major West Coast refinery operators -- including Chevron Corp., Exxon Corp. and the Shell Oil Co. unit of Royal Dutch\/Shell Group -- said their refineries weren't damaged and were continuing to operate normally.
+CS:	Včera ráno ale někteří velcí provozovatelé rafinérií na západním pobřeží - včetně společností Chevron Corp., Exxon Corp. a jednotky Royal Dutch/Shell Group Shell Oil Co. - oznámili, že jejich rafinérie poškozeny nejsou a jsou stále v normálním provozu. 
+EN_T:	But yesterday morning wore some major West Coast refinery operators Chevron Corp. Exxon Corp. and Shell Oil Co. unit Royal Dutch\/Shell Group said #Gen.ADDR their refineries n't #Gen.ACT damaged and <#PersPron.ACT> continuing #Cor.ACT operate normally
+CS_T:	#Gen.ADDR Včera ráno ale někteří velcí provozovatelé rafinérií západním pobřeží společností Chevron Corp . , #Forn.ID #Forn.ID Exxon Corp . a jednotky #Forn.ID Royal Dutch / Shell Group Shell Oil Co . oznámili #PersPron.ACT jejich rafinérie poškozeny #Neg.RHEM a jsou #PersPron.ACT stále normálním provozu
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1934.final.streex##16.EnglishT-wsj_1934-s16-t42_coract
+EN:	Researchers couldn't estimate the cost of the drug when it reaches the market , but they said FK-506 will enable patients to cut hospital stays by 50% and reduce the number of blood tests used to monitor the dosage of cyclosporine and other drugs among transplant recipients.
+CS:	Výzkumníci nedokázali odhadnout cenu léku, až vstoupí na trh, ale uvedli, že FK-506 umožní zkrátit pobyt pacientů v nemocnici o 50 % a u příjemců transplantátů snížit počet krevních testů, které se používají ke sledování dávek cyklosporinu a dalších léků. 
+EN_T:	Researchers n't estimate cost drug when it reaches market but they said #Gen.ADDR FK-506 enable patients #Cor.ACT cut hospital stays 50 % and reduce number blood tests #Gen.ACT used #Cor.PAT <#PersPron.ACT> monitor dosage cyclosporine and other drugs transplant recipients
+CS_T:	#Neg.RHEM Výzkumníci nedokázali #Cor.ACT odhadnout cenu léku vstoupí #PersPron.ACT trh ale uvedli FK - 506 #Forn.ACT umožní #Gen.ADDR #Cor.ACT zkrátit pobyt pacientů nemocnici 50 % a příjemců transplantátů snížit počet krevních testů #Gen.ACT které používají <#Gen.ACT> sledování dávek cyklosporinu a dalších léků
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1934.final.streex##19.EnglishT-wsj_1934-s19-t25_coract
+EN:	``We've known for six months the effect of this drug, and our advice to our people has been not to buy the company's stock,'' Dr. Starzl said , adding that profiting from FK-506 wouldn't be ethical.
+CS:	"Už šest měsíců známe účinky tohoto léku a své lidi nabádáme, aby akcie společnosti nekupovali," řekl dr. Starzl a dodal, že profitování z léku FK-506 by nebylo etické. 
+EN_T:	We known six months effect this drug and our advice our people been not <#PersPron.ACT> buy company stock Dr. Starzl said #Gen.ADDR #Cor.ACT adding #Gen.ACT profiting FK-506 n't be ethical
+CS_T:	#PersPron.ACT Už šest měsíců známe účinky tohoto léku a své lidi #PersPron.ACT nabádáme #Neg.RHEM <#PersPron.ACT> akcie společnosti nekupovali #Gen.ADDR řekl dr Starzl a #PersPron.ACT dodal #Neg.RHEM profitování léku #Forn.ID FK - 506 nebylo etické
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1935.final.streex##17.EnglishT-wsj_1935-s17a1
+EN:	Give him an F for his failure to understand the ethics of economic equity.
+CS:	Dejte mu pětku za neschopnost porozumět etice ekonomické rovnosti. 
+EN_T:	Give <#PersPron.ACT> him F his failure #Cor.ACT understand ethics economic equity
+CS_T:	<#PersPron.ACT> Dejte mu pětku neschopnost #PersPron.ACT porozumět etice ekonomické rovnosti
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1935.final.streex##18.EnglishT-wsj_1935-s18a1
+EN:	Signed by 25 students
+CS:	Podepsalo 25 studentů 
+EN_T:	Signed <#PersPron.PAT> 25 students
+CS_T:	<#PersPron.PAT> Podepsalo 25 studentů
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1935.final.streex##31.EnglishT-wsj_1935-s31a1
+EN:	Also, rather than increase supplies, they reduce them and encourage hoarding.
+CS:	Také namísto toho, aby dodávky zvýšily, sníží je a podpoří hromadění zásob. 
+EN_T:	Also rather increase <#PersPron.ACT> supplies they reduce them and encourage hoarding
+CS_T:	<#PersPron.ACT> Také dodávky zvýšily sníží je a #PersPron.ACT podpoří hromadění zásob
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1935.final.streex##5.EnglishT-wsj_1935-s5a1
+EN:	Allowing uncontrolled prices for necessities would indeed shorten the lines at stores, as he contends .
+CS:	Jak tvrdí, povolení neřízených cen za nezbytné potřeby by ve skutečnosti zkrátilo fronty v obchodech. 
+EN_T:	Allowing #Gen.ACT uncontrolled prices necessities indeed shorten lines stores he contends <#PersPron.PAT> #Gen.ADDR
+CS_T:	#PersPron.EFF #PersPron.ACT tvrdí povolení #Gen.ACT neřízených cen nezbytné potřeby skutečnosti zkrátilo fronty obchodech
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1936.final.streex##12.EnglishT-wsj_1936-s12a2
+EN:	The Wilbur translation is remarkable -- well worth a read and even better seen in the theater if you ever have the opportunity.
+CS:	Wilburův překlad je pozoruhodný - určitě stojí za přečtení a ještě spíše za shlédnutí v divadle, budete-li mít tu příležitost. 
+EN_T:	Wilbur translation is remarkable -- well worth read #PersPron.PAT #Gen.ACT and even better seen <#PersPron.PAT> #Gen.ACT theater you ever have opportunity
+CS_T:	Wilburův překlad je pozoruhodný - určitě stojí přečtení #PersPron.PAT #Gen.ACT a ještě spíše stojí shlédnutí divadle #PersPron.ACT mít tu příležitost
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1936.final.streex##12.EnglishT-wsj_1936-s12a4
+EN:	The Wilbur translation is remarkable -- well worth a read and even better seen in the theater if you ever have the opportunity.
+CS:	Wilburův překlad je pozoruhodný - určitě stojí za přečtení a ještě spíše za shlédnutí v divadle, budete-li mít tu příležitost. 
+EN_T:	Wilbur translation is remarkable -- well worth read <#PersPron.PAT> #Gen.ACT and even better seen #PersPron.PAT #Gen.ACT theater you ever have opportunity
+CS_T:	Wilburův překlad je pozoruhodný - určitě stojí přečtení <#PersPron.PAT> #Gen.ACT a ještě spíše stojí shlédnutí divadle #PersPron.ACT mít tu příležitost
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1936.final.streex##13.EnglishT-wsj_1936-s13a1
+EN:	But if you happen to be coming to Chicago in the next few weeks, don't fail to have a look at Robert Falls's ``The Misanthrope'' at the Goodman.
+CS:	Pokud ale budete mít v příštích několika týdnech náhodou cestu do Chicaga, nezapomeňte se jít podívat na Misantropa od Roberta Fallse, kterou uvádí soubor Goodman. 
+EN_T:	But you happen #Cor.ACT coming Chicago next few weeks n't fail <#PersPron.ACT> #Cor.ACT have look Robert Falls Misanthrope Goodman
+CS_T:	#PersPron.ACT ale mít příštích několika týdnech náhodou cestu Chicaga #Neg.RHEM #PersPron.ACT nezapomeňte jít #Oblfm.DIR3 #PersPron.ACT #Cor.ACT podívat Misantropa Roberta Fallse kterou uvádí soubor Goodman
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1936.final.streex##46.EnglishT-wsj_1936-s46a1
+EN:	``If we wanted to stage `Death of a Salesman,' ``Mr. Sagan says , ``Willie Loman would have to live in a ranch house because of the low ceiling.''
+CS:	"Kdybychom chtěli hrát 'Smrt obchodního cestujícího'," říká Sagan, "Willie Loman by kvůli nízkému stropu musel bydlet v přízemním domku." 
+EN_T:	we wanted #Cor.ACT stage Death Salesman Mr. Sagan says <#PersPron.EFF> #Gen.ADDR Willie Loman have #Cor.ACT live ranch house low ceiling
+CS_T:	#Gen.ADDR #PersPron.ACT hrát Smrt obchodního cestujícího říká Sagan Willie Loman nízkému stropu bydlet přízemním domku
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1936.final.streex##57.EnglishT-wsj_1936-s57a1
+EN:	``Let this building be Steppenwolf's legacy to Chicago theater.''
+CS:	"Nechť je tato budova odkazem souboru Steppenwolf chicagskému divadlu." 
+EN_T:	Let <#PersPron.ACT> this building be #Cor.ACT Steppenwolf legacy Chicago theater
+CS_T:	je Nechť tato budova odkazem souboru Steppenwolf chicagskému divadlu
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1936.final.streex##9.EnglishT-wsj_1936-s9a4
+EN:	Twenty-five years ago the poet Richard Wilbur modernized this 17th-century comedy merely by avoiding ``the zounds sort of thing,'' as he wrote in his introduction.
+CS:	Tuto komedii ze 17. století zmodernizoval před pětadvaceti lety básník Richard Wilbur prostě tak, že vynechal "strašnou spoustu věcí", jak napsal v předmluvě. 
+EN_T:	years Twenty-five poet Richard Wilbur modernized this 17th-century comedy merely avoiding #Cor.ACT zounds sort thing he wrote <#PersPron.EFF> his introduction
+CS_T:	Tuto komedii 17 století zmodernizoval pětadvaceti lety básník Richard Wilbur prostě #PersPron.ACT vynechal strašnou spoustu věcí <#PersPron.EFF> #PersPron.ACT napsal předmluvě
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1937.final.streex##13.EnglishT-wsj_1937-s13a3
+EN:	As investors speculated about the long - and short-term implications, shares of a number of companies that might either profit or face problems because of the disaster were actively traded .
+CS:	Zatímco investoři spekulovali o dlouhodobých a krátkodobých důsledcích, aktivně se obchodovalo s akciemi mnoha společností, které mohly mít ze katastrofy prospěch nebo škodu. 
+EN_T:	investors speculated long and short-term implications shares number companies that profit <#PersPron.PAT> or face problems disaster actively traded #Gen.ACT
+CS_T:	#Gen.ADDR #Gen.ACT investoři spekulovali dlouhodobých a krátkodobých důsledcích aktivně obchodovalo akciemi mnoha společností které mít katastrofy prospěch nebo mít škodu
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1937.final.streex##17.EnglishT-wsj_1937-s17a3
+EN:	Frank Gilmartin, a trader who follows insurance stocks for Fox-Pitt Kelton, said his strategy was to sell early.
+CS:	Frank Gilmartin, obchodník, který sleduje akcie pojišťoven pro společnost Fox-Pitt Kelton, řekl, že jeho strategií bylo prodat brzy. 
+EN_T:	Frank Gilmartin , trader who follows insurance stocks Fox-Pitt Kelton said #Gen.ADDR his strategy was sell #Gen.PAT <#PersPron.ACT> early
+CS_T:	#Gen.ADDR Frank Gilmartin , obchodník který sleduje akcie pojišťoven společnost #Forn.ID Fox Pitt Kelton - řekl jeho strategií bylo #PersPron.PAT #Gen.ADDR <#Cor.ACT> prodat brzy
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1937.final.streex##1.EnglishT-wsj_1937-s1a1
+EN:	After enduring three days of heavy selling, the beleaguered Nasdaq over-the-counter market finally rebounded, rising sharply in hearty trading.
+CS:	Obléhaný mimoburzovní trh Nasdaq se konečně vzchopil a při vydatném obchodování prudce stoupl poté, co přestál tři dny silného prodávání. 
+EN_T:	<#PersPron.ACT> enduring three days heavy selling beleaguered Nasdaq over-the-counter market finally rebounded rising #Cor.ACT sharply hearty trading
+CS_T:	Obléhaný mimoburzovní trh Nasdaq konečně vzchopil a #Gen.PAT #Gen.ACT vydatném obchodování prudce stoupl <#PersPron.ACT> přestál tři dny #Gen.ADDR #Gen.ACT silného prodávání #Gen.PAT
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1937.final.streex##23.EnglishT-wsj_1937-s23a1
+EN:	``Now, they'll have to increase their coffers to protect for the future and that means rate increases.''
+CS:	"Nyní budou muset zvýšit rezervy, aby se chránily do budoucna, a to znamená, že sazby vzrostou." 
+EN_T:	Now they increase their coffers #Cor.ACT protect <#PersPron.PAT> future and that means rate increases
+CS_T:	#PersPron.ACT Nyní zvýšit rezervy #PersPron.ACT chránily se budoucna a to znamená sazby vzrostou
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1937.final.streex##52.EnglishT-wsj_1937-s52a2
+EN:	Analysts figure Amgen could benefit as a result of troubles facing its competitor, Genetics Institute, over the anti-anemia drug EPO.
+CS:	Analytikové soudí, že by společnost Amgen mohla prosperovat následkem potíží, kterým v souvislosti s lékem proti anémii zvaným EPO čelí její konkurent, Institut genetiky. 
+EN_T:	Analysts figure Amgen benefit <#PersPron.PAT> result troubles facing #Cor.PAT , its competitor Genetics Institute anti-anemia drug EPO
+CS_T:	Analytikové soudí společnost Amgen prosperovat potíží kterým lékem anémii zvaným #Idph.MANN EPO čelí její konkurent , Institut genetiky
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1937.final.streex##5.EnglishT-wsj_1937-s5a3
+EN:	Richard Bruno, head of OTC trading at PaineWebber, said the OTC market has a habit of lagging big moves on the New York Stock Exchange.
+CS:	Richard Bruno, vedoucí mimoburzovního obchodování ve společnosti PaineWebber, řekl, že mimoburzovní trh má tendenci zaostávat za velkými pohyby na newyorské burze. 
+EN_T:	Richard Bruno , head OTC trading PaineWebber said #Gen.ADDR OTC market has habit lagging <#PersPron.ACT> big moves New York Stock Exchange
+CS_T:	#Gen.ADDR Richard Bruno , vedoucí #Gen.PAT #Gen.ACT mimoburzovního obchodování společnosti PaineWebber řekl mimoburzovní trh má tendenci <#Cor.ACT> zaostávat velkými pohyby newyorské burze
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1937.final.streex##7.EnglishT-wsj_1937-s7a10
+EN:	``Our market got hit a lot harder on Monday than the listed market,'' Mr. Bruno said .
+CS:	"Náš trh dostal v pondělí mnohem větší ránu než burzovní trh," řekl Bruno. 
+EN_T:	Our market hit #Cor.PAT #Gen.ACT lot harder got <#PersPron.PAT> listed market Monday got Mr. Bruno said #Gen.ADDR
+CS_T:	#Gen.ADDR Náš trh dostal pondělí mnohem větší dostal <#PersPron.PAT> ránu burzovní trh řekl Bruno
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1938.final.streex##2.EnglishT-wsj_1938-s2-t17_coract
+EN:	The companies earlier said they didn't want to raise their offer to match a rival bid by Institut Merieux S.A. of C$ 37 a share, or C$ 942 million.
+CS:	Tyto společnosti dříve řekly, že nechtějí nabídku zvýšit, aby se vyrovnaly konkurenční nabídce od Institutu Merieux S. A. za 37 kanadských dolarů za akcii, což činí 942 milionů kanadských dolarů. 
+EN_T:	companies earlier said #Gen.ADDR they n't want #Cor.ACT raise their offer <#PersPron.ACT> match rival bid Institut Merieux S.A. C$ 37 share or C$ 942 million
+CS_T:	#Gen.ADDR Tyto společnosti dříve řekly #PersPron.ACT nabídku zvýšit #Neg.RHEM <#PersPron.ACT> vyrovnaly konkurenční nabídce Institutu #Forn.ID Merieux S . A . 37 kanadských dolarů akcii , což činí 942 milionů kanadských dolarů
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1939.final.streex##23.EnglishT-wsj_1939-s23a6
+EN:	Isn't it reasonable to assume that the asset you own would be worth more if the government suddenly announced that if you sold it, you would be able to keep 30% more of its gain than you previously believed ?
+CS:	Není snad rozumné předpokládat, že vaše aktiva by měla vyšší cenu, kdyby vláda najednou prohlásila, že když svůj majetek prodáte, budete si moci nechat o 30 % více zisku, než jste se předtím domnívali? 
+EN_T:	Is n't reasonable #Gen.ACT assume asset you own #Cor.PAT be worth more government suddenly announced #Gen.ADDR you sold it you be able #Cor.ACT keep 30 % its gain you previously believed <#PersPron.PAT>
+CS_T:	#Neg.RHEM Není snad rozumné #Benef.BEN #Cor.ACT předpokládat vaše aktiva měla vyšší cenu vláda najednou prohlásila #Gen.ADDR #PersPron.ACT #PersPron.ACT svůj majetek prodáte si nechat 30 % více zisku <#PersPron.PAT> #PersPron.ACT předtím domnívali
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1939.final.streex##33.EnglishT-wsj_1939-s33a1
+EN:	Yet they somehow think that Wall Street is indifferent to losing the tax cut that seemed so close Friday morning and is now problematic.
+CS:	Přesto si jaksi myslí, že Wall Street nezajímá, že přijde o snížení daní, které v pátek ráno vypadalo tak blízko a nyní je problematické. 
+EN_T:	Yet they somehow think Wall Street is indifferent <#PersPron.ACT> losing tax cut that seemed so close Friday morning and is now problematic
+CS_T:	#PersPron.ACT Přesto jaksi myslí #Neg.RHEM Wall Street nezajímá #Forn.ACT <#PersPron.ACT> přijde #Gen.ACT snížení daní které pátek ráno vypadalo tak blízko a nyní je problematické
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1939.final.streex##36.EnglishT-wsj_1939-s36a3
+EN:	It would inevitably lead to an increase in marginal income-tax rates in 1990 , he thinks , when the White House is forced to ask for higher taxes to meet budget targets .
+CS:	Myslí si, že až Bílý dům bude nucen žádat o vyšší daně, aby splnil cíle rozpočtu, nevyhnutelně to povede ke zvýšení sazeb mezních daní z příjmu v roce 1990. 
+EN_T:	It inevitably lead increase marginal income-tax rates 1990 he thinks <#PersPron.EFF> when White House forced #Gen.ACT #Cor.ACT ask #Gen.ADDR higher taxes #PersPron.ACT meet budget targets
+CS_T:	#PersPron.ACT Myslí #Gen.ACT Bílý dům nucen #Cor.ACT žádat #Gen.ADDR vyšší daně #PersPron.ACT splnil cíle rozpočtu nevyhnutelně to povede #Gen.ACT zvýšení sazeb mezních daní příjmu roce 1990
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1939.final.streex##36.EnglishT-wsj_1939-s36-t36_coract
+EN:	It would inevitably lead to an increase in marginal income-tax rates in 1990 , he thinks , when the White House is forced to ask for higher taxes to meet budget targets .
+CS:	Myslí si, že až Bílý dům bude nucen žádat o vyšší daně, aby splnil cíle rozpočtu, nevyhnutelně to povede ke zvýšení sazeb mezních daní z příjmu v roce 1990. 
+EN_T:	It inevitably lead increase marginal income-tax rates 1990 he thinks #PersPron.EFF when White House forced #Gen.ACT #Cor.ACT ask #Gen.ADDR higher taxes <#PersPron.ACT> meet budget targets
+CS_T:	#PersPron.ACT Myslí #Gen.ACT Bílý dům nucen #Cor.ACT žádat #Gen.ADDR vyšší daně <#PersPron.ACT> splnil cíle rozpočtu nevyhnutelně to povede #Gen.ACT zvýšení sazeb mezních daní příjmu roce 1990
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1939.final.streex##37.EnglishT-wsj_1939-s37a2
+EN:	That is, with capital gains cut , the glue of the 1986 accord will be gone, and political realities will push up income-tax rates.
+CS:	To znamená, že spolu se snížením daní z kapitálových zisků se ztratí návaznost na dohodu z roku 1986 a politická skutečnost bude tlačit sazby daní z příjmu nahoru. 
+EN_T:	That is <#PersPron.PAT> capital gains cut #Gen.ACT glue 1986 accord #Oblfm.DIR3 gone and political realities push income-tax rates
+CS_T:	To znamená #Gen.ACT snížením daní kapitálových zisků ztratí návaznost dohodu roku 1986 a politická skutečnost tlačit sazby daní příjmu nahoru
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1939.final.streex##38.EnglishT-wsj_1939-s38a1
+EN:	The counter-argument, which he has heard , is that if he and his fellow Democrats are successful in killing the president's proposal, the revenue gap will open up tremendously in 1990 because of the weakened economy.
+CS:	Protiargument, který vyslechl, je ten, že pokud on a jeho kolegové demokrati uspějí při zavržení prezidentova návrhu, v roce 1990 se kvůli oslabené ekonomice objeví obrovský daňový deficit. 
+EN_T:	counter-argument which he heard is he and his fellow Democrats are successful <#PersPron.ACT> killing president proposal revenue gap open tremendously 1990 weakened economy
+CS_T:	Protiargument který vyslechl #PersPron.ACT je on a jeho kolegové demokrati uspějí zavržení <#PersPron.ACT> prezidentova návrhu roce 1990 oslabené ekonomice objeví obrovský daňový deficit
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1941.final.streex##2.EnglishT-wsj_1941-s2a1
+EN:	The companies are followed by at least three analysts, and had a minimum five-cent change in actual earnings per share.
+CS:	Společnosti sledují nejméně tři analytikové a měly minimálně pěticentovou změnu vlastních výdělků na akcii. 
+EN_T:	companies followed least three analysts and had <#PersPron.ACT> minimum five-cent change actual earnings share
+CS_T:	Společnosti sledují nejméně tři analytikové a měly <#PersPron.ACT> minimálně pěticentovou změnu vlastních výdělků akcii
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1943.final.streex##11.EnglishT-wsj_1943-s11a1
+EN:	The $4 billion in bonds break down as follows: $1 billion in five-year bonds with a coupon rate of 8.25% and a yield to maturity of 8.33%; $1 billion in 10-year bonds with a coupon rate of 8.375% and a yield to maturity of 8.42%; $2 billion in 30-year bonds with five-year call protection, a coupon rate of 8.75% and a yield to maturity of 9.06%.
+CS:	4 miliardy dolarů v dluhopisech se rozdělí následovně: 1 miliarda dolarů v pětiletých dluhopisech s úrokovou sazbou 8.25 % a výnosností do splatnosti 8.33 %, 1 miliarda dolarů v 10letých dluhopisech s úrokovou sazbou 8375 % a výnosností do splatnosti 8.42 %, 2 miliardy dolarů ve 30letých dluhopisech s pětiletou ochranou před umořením, úrokovou sazbou 8.75 % a výnosností do splatnosti 9.06 %. 
+EN_T:	$ 4 billion bonds break <#PersPron.ACT> follows #Gen.PAT $ 1 billion five-year bonds coupon rate 8.25 % and yield maturity 8.33 % ; $ 1 billion 10-year bonds coupon rate 8.375 % and yield maturity 8.42 % ; $ 2 billion 30-year bonds five-year call protection coupon rate 8.75 % and yield maturity 9.06 %
+CS_T:	4 miliardy dolarů dluhopisech #Gen.ACT rozdělí následovně : 1 miliarda dolarů pětiletých dluhopisech úrokovou sazbou 8.25 % a výnosností splatnosti 8.33 % 1 miliarda dolarů 10letých 10letých dluhopisech úrokovou sazbou 8375 % a výnosností splatnosti 8.42 % , 2 miliardy dolarů 30letých 30letých dluhopisech pětiletou ochranou umořením #Gen.PAT #Gen.ACT úrokovou sazbou 8.75 % a výnosností splatnosti 9.06 %
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1944.final.streex##26.EnglishT-wsj_1944-s26a1
+EN:	Mr. Taft, who is also president of Taft Broadcasting Co., said he bought the shares because he keeps a utility account at the brokerage firm of Salomon Brothers Inc., which had recommended the stock as a good buy.
+CS:	Taft, který je také prezidentem Taft Broadcasting Co., uvedl, že akcie koupil, protože má zřízený účet v brokerské firmě Salomon Brothers Inc., která akcie označila za dobrou koupi. 
+EN_T:	Mr. Taft who is also president Taft Broadcasting Co. said #Gen.ADDR he bought shares he keeps utility account brokerage firm Salomon Brothers Inc. which recommended <#PersPron.ADDR> stock good buy
+CS_T:	Taft který je také prezidentem Taft #Forn.RSTR Broadcasting Co . uvedl #PersPron.ACT akcie koupil #PersPron.ACT má zřízený účet brokerské firmě Salomon #Forn.ID Brothers Inc . která akcie označila dobrou koupi
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1944.final.streex##28.EnglishT-wsj_1944-s28a1
+EN:	``Cincinnati Gas&Electric is in good shape,'' Mr. Taft said , and utilities are ``a good investment because interest rates are going down.''
+CS:	"Cincinnati Gas & Electric je v dobré formě," řekl Taft, a podniky veřejných služeb jsou "dobrou investicí, protože úrokové míry klesají". 
+EN_T:	Cincinnati Gas & Electric is good shape Mr. Taft said <#PersPron.EFF> #Gen.ADDR and utilities are good investment interest rates going down
+CS_T:	#Gen.ADDR Cincinnati Gas & Electric #Forn.ACT je dobré formě řekl Taft a podniky veřejných služeb jsou dobrou investicí úrokové míry klesají
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1944.final.streex##6.EnglishT-wsj_1944-s6a5
+EN:	``Emerging growth stocks haven't been popular in America for years, they've been neglected ,'' he said , and their prices often trail the market as a whole.
+CS:	"Akcie nově se rozvíjejících odvětví v Americe už léta nejsou populární, nikdo si jich nevšímá," řekl, a jejich ceny za sebou často táhnou celou burzu. 
+EN_T:	Emerging #Cor.ACT growth stocks n't been popular America years they #Gen.ACT neglected he said <#PersPron.EFF> #Gen.ADDR and their prices often trail market whole
+CS_T:	#Gen.ADDR #PersPron.ACT Akcie nově rozvíjejících odvětví Americe už léta nejsou #Neg.RHEM populární , #Neg.RHEM nikdo jich nevšímá řekl a jejich ceny sebou často táhnou celou burzu
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1944.final.streex##9.EnglishT-wsj_1944-s9a2
+EN:	He bought at share prices ranging from $9.375 to $9.625.
+CS:	Nakupoval za ceny od 9375 dolaru do 9625 dolaru za akcii. 
+EN_T:	He bought <#PersPron.PAT> share prices #Cor.ACT ranging $ 9.375 $ 9.625
+CS_T:	<#PersPron.PAT> #PersPron.ACT Nakupoval ceny 9375 dolaru do 9625 dolaru akcii
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1946.final.streex##26.EnglishT-wsj_1946-s26a5
+EN:	Also, he said , the partnership is waiting to see whether the appellate division's ruling will be appealed .
+CS:	Také podle něj společenství čeká, zda dojde k odvolání proti rozhodnutí odvolací divize. 
+EN_T:	Also he said <#PersPron.EFF> #Gen.ADDR partnership waiting #Cor.ACT see appellate division ruling #Gen.ACT appealed #Gen.ADDR
+CS_T:	Také něj společenství čeká dojde #PersPron.ACT odvolání #PersPron.PAT rozhodnutí odvolací divize
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1946.final.streex##34.EnglishT-wsj_1946-s34a1
+EN:	To do so, the judge said , the U.S. courts must review the judicial process in the foreign country independently of the State Department's assessment.
+CS:	Aby se tak stalo, řekl soudce, musí americké soudy nezávisle na hodnocení Ministerstva zahraničních věcí přezkoumat soudní proces v příslušné cizí zemi. 
+EN_T:	#PersPron.ACT judge #VerbPron.AIM said <#PersPron.EFF> #Gen.ADDR U.S. courts review judicial process foreign country independently State Department assessment
+CS_T:	tak stalo #Gen.ADDR řekl soudce americké soudy nezávisle #PersPron.PAT hodnocení Ministerstva zahraničních věcí přezkoumat soudní proces příslušné cizí zemi
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1946.final.streex##34.EnglishT-wsj_1946-s34-t3_coract
+EN:	To do so, the judge said , the U.S. courts must review the judicial process in the foreign country independently of the State Department's assessment.
+CS:	Aby se tak stalo, řekl soudce, musí americké soudy nezávisle na hodnocení Ministerstva zahraničních věcí přezkoumat soudní proces v příslušné cizí zemi. 
+EN_T:	<#PersPron.ACT> judge #VerbPron.AIM said #PersPron.EFF #Gen.ADDR U.S. courts review judicial process foreign country independently State Department assessment
+CS_T:	<tak> stalo #Gen.ADDR řekl soudce americké soudy nezávisle #PersPron.PAT hodnocení Ministerstva zahraničních věcí přezkoumat soudní proces příslušné cizí zemi
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1946.final.streex##38.EnglishT-wsj_1946-s38a4
+EN:	``Up until now the courts have said it is not their role to supervise the foreign country's courts,'' said Jacques Semmelman, the assistant U.S. attorney on the case.
+CS:	"Až dosud soudy říkaly, že dozor nad cizími soudy není jejich práce," řekl Jacques Semmelman, asistent federálního návladního v této kauze. 
+EN_T:	now courts said #Gen.ADDR is not their role supervise <#PersPron.ACT> foreign country courts said #Gen.ADDR Jacques Semmelman , assistant U.S. attorney case
+CS_T:	#Gen.ADDR #Gen.ADDR Až dosud soudy říkaly #Neg.RHEM dozor cizími soudy není jejich práce řekl Jacques Semmelman , asistent federálního návladního této kauze
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1946.final.streex##3.EnglishT-wsj_1946-s3a1
+EN:	Glenn and Sharon Beebe of Cincinnati had sued the com - pany in 1981 after installing Burlington carpets in their office.
+CS:	Společnost zažalovali Glenn a Sharon Beebeovi z Cincinnati v roce 1981 poté, co si koberce Burlington položili do kanceláře. 
+EN_T:	Glenn and Sharon Beebe Cincinnati sued #Gen.PAT com pany 1981 <#PersPron.ACT> installing Burlington carpets their office
+CS_T:	Společnost zažalovali Glenn a Sharon Beebeovi #Forn.DIR1 Cincinnati roce 1981 si koberce Burlington položili #PersPron.ACT kanceláře
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1946.final.streex##42.EnglishT-wsj_1946-s42a4
+EN:	In a speech prepared for delivery in New York yesterday, retired Justice Lewis Powell contested the notion that the last Supreme Court term marked a turn toward conservatism: ``Commentators who agreed on little else unanimously proclaimed a `shift in direction' on the court ....
+CS:	V připravené řeči včera v New Yorku napadl soudce v důchodu Lewis Powell názor, že poslední období Nejvyššího soudu naznačilo obrat směrem ke konzervatismu: "Komentátoři, kteří se jinak shodli na máločem, jednomyslně deklarovali 'posun ve směřování' soudu... 
+EN_T:	speech prepared <#PersPron.ACT> #Cor.PAT delivery New York yesterday retired Justice Lewis Powell contested notion last Supreme Court term marked turn conservatism : Commentators who agreed #Rcp.ADDR little else unanimously proclaimed shift direction court
+CS_T:	připravené řeči včera New #Forn.LOC Yorku napadl soudce důchodu Lewis Powell názor poslední období #EmpVerb.COMPL Nejvyššího soudu naznačilo obrat konzervatismu Komentátoři kteří jinak shodli #Rcp.ADDR máločem jednomyslně deklarovali posun #Oblfm.DIR3 směřování soudu
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1946.final.streex##5.EnglishT-wsj_1946-s5a1
+EN:	As a result of their illness, the Beebes said , they lost $1.8 million in wages and earnings.
+CS:	Důsledkem nemoci, jak Beebeovi uvedli, přišli na mzdách a výdělcích o 1.8 milionu dolarů. 
+EN_T:	their illness Beebes said <#PersPron.EFF> #Gen.ADDR they lost $ 1.8 million wages and earnings
+CS_T:	<#PersPron.EFF> #PersPron.ACT nemoci Beebeovi uvedli přišli mzdách a výdělcích 1.8 milionu dolarů
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1949.final.streex##11.EnglishT-wsj_1949-s11-t26_coract
+EN:	News of Mr. Eward's retirement comes one day after Morgan said that Christopher Whittington resigned as chairman of Morgan's banking subsidiary to join a financial services firm.
+CS:	Zpráva o Ewardově odchodu do penze přichází den po tom, co Morgan oznámil, že Christopher Whittington odešel z pozice předsedy bankovní pobočky společnosti Morgan, aby nastoupil do firmy poskytující finanční služby. 
+EN_T:	News Mr. Eward retirement comes one day Morgan said #Gen.ADDR Christopher Whittington resigned chairman Morgan banking subsidiary <#PersPron.ACT> join financial services firm
+CS_T:	Zpráva Ewardově odchodu penze přichází den Morgan oznámil Christopher Whittington odešel pozice předsedy bankovní pobočky společnosti Morgan <#PersPron.ACT> nastoupil firmy poskytující finanční služby
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1949.final.streex##13.EnglishT-wsj_1949-s13a3
+EN:	``If there's any coincidence about the departures it's that they are leaving at a time when the business is in reasonably good shape and going forward very well .''
+CS:	"Pokud spolu jejich odchody nějak souvisí, pak tak, že odcházejí v době, kdy je banka v poměrně dobrém stavu a vývoj je velmi slibný." 
+EN_T:	's any coincidence departures it they 's leaving <#PersPron.PAT> time business when is reasonably good shape and going forward very well
+CS_T:	souvisí #Rcp.PAT #PersPron.ACT spolu jejich odchody nějak souvisí #Rcp.PAT #Oblfm.DIR1 #PersPron.ACT pak odcházejí době kdy je banka poměrně dobrém stavu a vývoj je velmi slibný
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##1.EnglishT-wsj_1950-s1a2
+EN:	The following were among yesterday's offerings and pricings in the U.S. and non-U.S. capital markets, with terms and syndicate manager, as compiled by Dow Jones Capital Markets Report:
+CS:	Podle Zprávy o kapitálových trzích indexu Dow Jones byly mezi včerejšími nabídkami cenných papírů a jejich cenami včetně podmínek a manažera syndikátu na amerických i zahraničních kapitálových trzích uvedeny tyto položky: 
+EN_T:	following were #EmpNoun.ACT yesterday offerings and pricings U.S. and non-U.S. capital markets terms and syndicate manager <#PersPron.PAT> compiled Dow Jones Capital Markets Report
+CS_T:	#Gen.ACT Zprávy kapitálových trzích indexu #Forn.ID Dow Jones včerejšími nabídkami cenných papírů a jejich cenami podmínek a manažera syndikátu amerických i zahraničních kapitálových trzích uvedeny tyto položky
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##26.EnglishT-wsj_1950-s26a5
+EN:	The offering, Series 1989-82, is backed by Fannie Mae 9 1\/2% securities and used at-market pricing.
+CS:	Tato nabídka série 1989 - 82 je kryta 9 1/2% cennými papíry firmy Fannie Mae a použila též momentální cenu na trhu. 
+EN_T:	offering , Series 1989-82 1989-82 1989-82 backed Fannie Mae 9 #Separ.CONJ 1\/2 1\/2 1\/2 % securities and <#PersPron.ACT> used at-market pricing
+CS_T:	Tato nabídka série 1989 - 82 kryta #Gen.ACT 9 1 / 2 #Separ.CONJ cennými papíry firmy #Forn.ID Fannie Mae a použila <#PersPron.ACT> též momentální cenu trhu
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1951.final.streex##12.EnglishT-wsj_1951-s12a4
+EN:	In July, Par and a 60%-owned unit agreed to plead guilty in that inquiry, as did another former Par official .
+CS:	V červenci se Par a pobočka, kterou z 60 % vlastní, dohodly v šetření přiznat vinu, stejně jako další bývalý funkcionář společnosti Par. 
+EN_T:	July Par and 60%-owned unit agreed #Cor.ACT plead guilty that inquiry plead <#PersPron.CPHR> another former Par official
+CS_T:	červenci #Forn.ACT Par a pobočka #Cor.ACT kterou #PersPron.ACT 60 % vlastní dohodly #Rcp.ADDR #PersPron.PAT #Gen.ACT šetření přiznat vinu stejně přiznat #PersPron.PAT další bývalý funkcionář společnosti Par
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##19.EnglishT-wsj_1952-s19a1
+EN:	Ask Tommy Lasorda; thin is in.
+CS:	Zeptejte se Tommyho Lasorda, vždyť být štíhlý je v módě. 
+EN_T:	<#PersPron.ACT> Ask #Gen.PAT Tommy Lasorda ; thin is in
+CS_T:	<#PersPron.ACT> Zeptejte #Gen.PAT Tommyho Lasorda vždyť #Cor.ACT být štíhlý je módě #Benef.BEN
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##21.EnglishT-wsj_1952-s21a1
+EN:	Another major factor in this positive trend was Ronald Reagan's decision early in his presidency to fight the budget war on the expenditure side rather than raising taxes.
+CS:	Dalším významným faktorem tohoto pozitivního trendu bylo rozhodnutí Ronalda Reagana, které učinil na počátku své prezidentské funkce, a to bojovat rozpočtovou válku spíše na straně výdajů než zvyšováním daní. 
+EN_T:	Another major factor this positive trend was Ronald Reagan decision early his presidency #Cor.ACT fight budget war expenditure side rather raising <#PersPron.ACT> taxes
+CS_T:	Dalším významným faktorem tohoto pozitivního trendu bylo #PersPron.PAT rozhodnutí Ronalda Reagana #PersPron.ACT které učinil počátku své prezidentské funkce to rozhodnutí #PersPron.ACT bojovat #Cor.ACT rozpočtovou válku spíše bojovat #PersPron.PAT straně výdajů <#PersPron.ACT> zvyšováním #PersPron.ACT daní
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##30.EnglishT-wsj_1952-s30a12
+EN:	We have as much nostalgia as anyone for those leafy, breezy days in Washington when honorable men and women dickered over budgets and even log-rolled a bit to see that the bridges got build , roads paved , soldiers paid or that the desperately poor were cared for .
+CS:	Jako každému se nám stýská po těch nenucených, žoviálních dnech ve Washingtonu, kdy ctihodní mužové a ženy smlouvali o rozpočtech a dokonce si i trochu vzájemně pomáhali, aby viděli, že se staví mosty, zpevňují silnice, vojáci dostávají zaplaceno a i o ty beznadějně chudé je postaráno. 
+EN_T:	We have nostalgia much as have anyone <#PersPron.PAT> those leafy breezy days Washington when honorable men and women dickered #Rcp.ADDR budgets and even log-rolled bit #Cor.ACT see #Gen.ACT bridges got build #PersPron.ACT #Cor.PAT roads got paved #PersPron.ACT #Cor.PAT soldiers got paid #PersPron.ACT #Cor.ADDR #Oblfm.PAT or desperately poor cared
+CS_T:	#Equal.EXT každému stýská nám stýská těch nenucených , žoviálních dnech Washingtonu kdy ctihodní mužové a ženy smlouvali #Rcp.ADDR rozpočtech a #PersPron.ACT dokonce i trochu vzájemně pomáhali si #PersPron.ACT viděli staví #Gen.ACT mosty zpevňují #Gen.ACT silnice vojáci #Gen.PAT #Gen.ACT zaplaceno a #Gen.ACT i ty beznadějně chudé postaráno
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##30.EnglishT-wsj_1952-s30a19
+EN:	We have as much nostalgia as anyone for those leafy, breezy days in Washington when honorable men and women dickered over budgets and even log-rolled a bit to see that the bridges got build , roads paved , soldiers paid or that the desperately poor were cared for .
+CS:	Jako každému se nám stýská po těch nenucených, žoviálních dnech ve Washingtonu, kdy ctihodní mužové a ženy smlouvali o rozpočtech a dokonce si i trochu vzájemně pomáhali, aby viděli, že se staví mosty, zpevňují silnice, vojáci dostávají zaplaceno a i o ty beznadějně chudé je postaráno. 
+EN_T:	We have nostalgia much as have anyone #PersPron.PAT those leafy breezy days Washington when honorable men and women dickered #Rcp.ADDR budgets and even log-rolled bit #Cor.ACT see #Gen.ACT bridges got build <#PersPron.ACT> #Cor.PAT roads got paved #PersPron.ACT #Cor.PAT soldiers got paid #PersPron.ACT #Cor.ADDR #Oblfm.PAT or desperately poor cared
+CS_T:	#Equal.EXT každému stýská nám stýská těch nenucených , žoviálních dnech Washingtonu kdy ctihodní mužové a ženy smlouvali #Rcp.ADDR rozpočtech a #PersPron.ACT dokonce i trochu vzájemně pomáhali si #PersPron.ACT viděli staví <#Gen.ACT> mosty zpevňují #Gen.ACT silnice vojáci #Gen.PAT #Gen.ACT zaplaceno a #Gen.ACT i ty beznadějně chudé postaráno
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##30.EnglishT-wsj_1952-s30a20
+EN:	We have as much nostalgia as anyone for those leafy, breezy days in Washington when honorable men and women dickered over budgets and even log-rolled a bit to see that the bridges got build , roads paved , soldiers paid or that the desperately poor were cared for .
+CS:	Jako každému se nám stýská po těch nenucených, žoviálních dnech ve Washingtonu, kdy ctihodní mužové a ženy smlouvali o rozpočtech a dokonce si i trochu vzájemně pomáhali, aby viděli, že se staví mosty, zpevňují silnice, vojáci dostávají zaplaceno a i o ty beznadějně chudé je postaráno. 
+EN_T:	We have nostalgia much as have anyone #PersPron.PAT those leafy breezy days Washington when honorable men and women dickered #Rcp.ADDR budgets and even log-rolled bit #Cor.ACT see #Gen.ACT bridges got build #PersPron.ACT #Cor.PAT roads got paved <#PersPron.ACT> #Cor.PAT soldiers got paid #PersPron.ACT #Cor.ADDR #Oblfm.PAT or desperately poor cared
+CS_T:	#Equal.EXT každému stýská nám stýská těch nenucených , žoviálních dnech Washingtonu kdy ctihodní mužové a ženy smlouvali #Rcp.ADDR rozpočtech a #PersPron.ACT dokonce i trochu vzájemně pomáhali si #PersPron.ACT viděli staví #Gen.ACT mosty zpevňují <#Gen.ACT> silnice vojáci #Gen.PAT #Gen.ACT zaplaceno a #Gen.ACT i ty beznadějně chudé postaráno
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##30.EnglishT-wsj_1952-s30a22
+EN:	We have as much nostalgia as anyone for those leafy, breezy days in Washington when honorable men and women dickered over budgets and even log-rolled a bit to see that the bridges got build , roads paved , soldiers paid or that the desperately poor were cared for .
+CS:	Jako každému se nám stýská po těch nenucených, žoviálních dnech ve Washingtonu, kdy ctihodní mužové a ženy smlouvali o rozpočtech a dokonce si i trochu vzájemně pomáhali, aby viděli, že se staví mosty, zpevňují silnice, vojáci dostávají zaplaceno a i o ty beznadějně chudé je postaráno. 
+EN_T:	We have nostalgia much as have anyone #PersPron.PAT those leafy breezy days Washington when honorable men and women dickered #Rcp.ADDR budgets and even log-rolled bit #Cor.ACT see #Gen.ACT bridges got build #PersPron.ACT #Cor.PAT roads got paved #PersPron.ACT #Cor.PAT soldiers got paid <#PersPron.ACT> #Cor.ADDR #Oblfm.PAT or desperately poor cared
+CS_T:	#Equal.EXT každému stýská nám stýská těch nenucených , žoviálních dnech Washingtonu kdy ctihodní mužové a ženy smlouvali #Rcp.ADDR rozpočtech a #PersPron.ACT dokonce i trochu vzájemně pomáhali si #PersPron.ACT viděli staví #Gen.ACT mosty zpevňují #Gen.ACT silnice vojáci #Gen.PAT <#Gen.ACT> zaplaceno a #Gen.ACT i ty beznadějně chudé postaráno
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##32.EnglishT-wsj_1952-s32a1
+EN:	Nor do we see any reason to believe that a metropolitan Washington that has gotten fat and rich and lazy in the shadow of the federal colossus will change much on its own initiative .
+CS:	Ani nevidíme důvod, proč bychom měli věřit, že velký Washington, který ve stínu federálních velikánů ztloustl, zbohatl a zlenivěl, se z vlastní iniciativy příliš změní. 
+EN_T:	Nor we see any reason <#PersPron.ACT> #Cor.ACT believe metropolitan Washington that gotten fat and rich lazy shadow federal colossus change much its own initiative
+CS_T:	#PersPron.ACT Ani nevidíme #Neg.RHEM důvod #PersPron.ACT proč věřit velký Washington který stínu federálních velikánů ztloustl zbohatl a zlenivěl vlastní iniciativy příliš změní
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##33.EnglishT-wsj_1952-s33a1
+EN:	Save the sequester, and let Washington scream.
+CS:	Zachovejte sekvestraci a nechte Washington křičet. 
+EN_T:	Save sequester and <#PersPron.ACT> let Washington scream
+CS_T:	<#PersPron.ACT> Zachovejte sekvestraci a nechte #Cor.ACT Washington křičet
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##3.EnglishT-wsj_1952-s3a3
+EN:	That's essentially what budget director Richard Darman is suggesting , and we think he deserves as much support as he can get .
+CS:	Právě to v podstatě navrhuje vedoucí rozpočtového oddělení Richard Darman, a my si myslíme, že si zaslouží tolik podpory, kolik jen může dostat. 
+EN_T:	That 's essentially what budget director Richard Darman suggesting #Gen.ADDR and we think he deserves support much as he get <#PersPron.PAT>
+CS_T:	#Gen.ADDR Právě to podstatě navrhuje vedoucí rozpočtového oddělení Richard Darman a my myslíme #PersPron.ACT zaslouží podpory #PersPron.ACT <kolik> jen dostat
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##4.EnglishT-wsj_1952-s4a3
+EN:	If human beings can't cut federal spending honestly -- and they can't -- let the computers do it.
+CS:	Pokud lidé nedokáží poctivě snížit federální útraty - a oni nedokáží -, ať to udělají počítače. 
+EN_T:	human beings n't cut federal spending honestly <#PersPron.PAT> cut and they n't let #PersPron.ACT computers do #Cor.ACT it
+CS_T:	#Neg.RHEM #PersPron.PAT #Neg.RHEM lidé nedokáží #Cor.ACT poctivě snížit federální útraty a oni nedokáží to udělají počítače
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##4.EnglishT-wsj_1952-s4a4
+EN:	If human beings can't cut federal spending honestly -- and they can't -- let the computers do it.
+CS:	Pokud lidé nedokáží poctivě snížit federální útraty - a oni nedokáží -, ať to udělají počítače. 
+EN_T:	human beings n't cut federal spending honestly #PersPron.PAT cut and they n't let <#PersPron.ACT> computers do #Cor.ACT it
+CS_T:	#Neg.RHEM #PersPron.PAT #Neg.RHEM lidé nedokáží #Cor.ACT poctivě snížit federální útraty a oni nedokáží to udělají počítače
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##8.EnglishT-wsj_1952-s8a6
+EN:	Consider, for instance, that even yesterday's widely publicized sequester is likely to be traduced if business as usual is allowed to prevail.
+CS:	Vezměme si například, že i včerejší široce zveřejňovaná sekvestrace bude pravděpodobně haněna, pokud bude umožněno, aby přetrvávala stávající situace. 
+EN_T:	<#PersPron.ACT> Consider instance even yesterday widely #Gen.ACT publicized #Cor.PAT sequester is traduced likely #Gen.ACT business usual allowed #Gen.ACT prevail
+CS_T:	<#PersPron.ACT> Vezměme například #Gen.ACT i včerejší široce zveřejňovaná sekvestrace pravděpodobně haněna #Gen.ADDR #Gen.ACT umožněno přetrvávala stávající situace
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##24.EnglishT-wsj_1957-s24-t31_coract
+EN:	Currency concerns also weigh heavily on interest rate-sensitive stocks such as banking and other financial issues because of fears that Japanese interest rates might have to rise to keep the dollar in check.
+CS:	Znepokojení ohledně měny má také velký vliv na akcie citlivé na úrokovou sazbu, jako jsou například bankovní a jiné finanční emise, kvůli obavám, že by se japonské úrokové sazby musely zvednout, aby dostaly dolar pod kontrolu. 
+EN_T:	Currency concerns also weigh heavily interest rate-sensitive stocks such banking and other financial issues fears Japanese interest rates rise <#PersPron.ACT> keep dollar check
+CS_T:	#PersPron.PAT #Gen.ACT Znepokojení měny má také velký vliv akcie jako citlivé úrokovou sazbu jsou akcie například bankovní a jiné finanční emise obavám japonské úrokové sazby zvednout #Gen.ACT <#PersPron.ACT> dostaly dolar kontrolu
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##37.EnglishT-wsj_1957-s37a3
+EN:	If you bought, you wish you hadn't , and if you sold, you wish you hadn't .''
+CS:	Když jste koupili, litovali jste, a když jste prodali, litovali jste." 
+EN_T:	you bought #Gen.PAT you wish bought <#PersPron.PAT> you n't and you sold #Gen.PAT you wish sold #PersPron.PAT you n't
+CS_T:	#Gen.PAT #PersPron.ACT <#Gen.PAT> #PersPron.ACT koupili litovali a prodali #PersPron.ACT #Gen.PAT #Gen.ADDR litovali
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##37.EnglishT-wsj_1957-s37a8
+EN:	If you bought, you wish you hadn't , and if you sold, you wish you hadn't .''
+CS:	Když jste koupili, litovali jste, a když jste prodali, litovali jste." 
+EN_T:	you bought #Gen.PAT you wish bought #PersPron.PAT you n't and you sold #Gen.PAT you wish sold <#PersPron.PAT> you n't
+CS_T:	#Gen.PAT #PersPron.ACT #Gen.PAT #PersPron.ACT koupili litovali a prodali #PersPron.ACT <#Gen.PAT> #Gen.ADDR litovali
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##39.EnglishT-wsj_1957-s39a1
+EN:	Britain's economic fundamentals, he said , ``don't look very bright.''
+CS:	Řekl, že základy britské ekonomiky "nevypadají moc růžově". 
+EN_T:	Britain economic fundamentals he said <#PersPron.EFF> #Gen.ADDR n't look very bright
+CS_T:	#Gen.ADDR #PersPron.ACT Řekl #Neg.RHEM základy britské ekonomiky nevypadají moc růžově
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##47.EnglishT-wsj_1957-s47a1
+EN:	Jaguar shares jumped 23 before easing to close at 654, up 6.
+CS:	Než opadly, vyskočily akcie společnosti Jaguar o 23, aby poté uzavřely na 654, což je zvýšení o 6. 
+EN_T:	Jaguar shares jumped 23 easing <#PersPron.ACT> #Cor.ACT close 654 , up 6
+CS_T:	<#PersPron.ACT> opadly vyskočily akcie společnosti Jaguar 23 #PersPron.ACT uzavřely 654 , což je #PersPron.ACT zvýšení 6
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##4.EnglishT-wsj_1957-s4a2
+EN:	Paris shares had a similar reaction, but most other European bourses posted gains, as did all major Asian and Pacific stock markets .
+CS:	Pařížské akcie reagovaly obdobně, ale většina ostatních evropských burz oznámila zisk, stejně jako všechny významné asijské a pacifické burzy. 
+EN_T:	Paris shares had similar reaction but other European bourses posted gains all posted <#PersPron.PAT> major Asian and Pacific stock markets
+CS_T:	#PersPron.PAT Pařížské akcie reagovaly obdobně ale většina ostatních evropských burz oznámila zisk stejně oznámila <#PersPron.PAT> všechny významné asijské a pacifické burzy
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##64.EnglishT-wsj_1957-s64a1
+EN:	Here are price trends on the world's major stock markets, as calculated by Morgan Stanley Capital International Perspective, Geneva.
+CS:	Zde jsou uvedeny cenové trendy na největších světových burzách, jak je spočítala společnost Morgan Stanley Capital International Perspective ze Ženevy. 
+EN_T:	Here are price trends world major stock markets <#PersPron.PAT> calculated Morgan Stanley Capital International Perspective Geneva
+CS_T:	#Gen.ACT Zde uvedeny cenové trendy největších světových burzách <je> spočítala společnost #Forn.ID Morgan Stanley Capital International Perspective Ženevy
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##25.EnglishT-wsj_1962-s25a2
+EN:	Though not reflected in the table, an investor should know that the cost of the option insurance can be partially offset by any dividends that the stock pays .
+CS:	Ačkoli to v tabulce není vidět, investor měl by vědět, že cenu opčního pojištění lze částečně vykompenzovat dividendami, které se z akcie vyplatí. 
+EN_T:	not #Gen.ACT reflected <#PersPron.PAT> table investor know cost option insurance partially offset #Gen.ACT any dividends that stock pays
+CS_T:	#Neg.RHEM #Benef.BEN #Cor.ACT tabulce to není vidět investor vědět #Cor.ACT #Gen.PAT #Gen.ACT opčního cenu pojištění lze #Benef.BEN částečně vykompenzovat dividendami #Gen.ACT které akcie vyplatí
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##26.EnglishT-wsj_1962-s26a4
+EN:	For example, Tenneco Inc. pays a quarterly dividend of 76 cents, which would be received before the February option expires and, thus, reduce the cost of using the technique by that amount.
+CS:	Například společnost Tenneco Inc. vyplatí čtvrtletní dividendy ve výši 76 centů, které by byly obdrženy dříve, než propadne únorová opce, a tudíž o tuto částku klesnou náklady na užití této techniky. 
+EN_T:	example Tenneco Inc. pays quarterly dividend 76 cents which received #Gen.ACT February option expires #Oblfm.TWHEN and thus reduce <#PersPron.ACT> cost #Gen.ACT using technique that amount
+CS_T:	Například společnost #Forn.ID Tenneco Inc . vyplatí čtvrtletní dividendy výši 76 centů #PersPron.ACT které obdrženy dříve propadne únorová opce a tudíž tuto částku klesnou náklady #PersPron.ACT užití této techniky
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##30.EnglishT-wsj_1962-s30a1
+EN:	But some investors might prefer a simpler strategy then hedging their individual holdings.
+CS:	Někteří investoři však možná upřednostní jednodušší strategii, než je stelážování osobního vlastnictví. 
+EN_T:	But some investors prefer simpler strategy hedging <#PersPron.ACT> their individual holdings
+CS_T:	Někteří investoři však možná upřednostní jednodušší strategii je jednodušší stelážování osobního vlastnictví
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##7.EnglishT-wsj_1962-s7a6
+EN:	Because a put option gives its owner the right , but not the obligation , to sell a fixed number of shares of the stock at a stated price on or before the option's expiration date, the investor is protected against a sudden drop in the stock's price.
+CS:	Protože prodejní opce dává vlastníkovi právo, avšak nikoliv povinnost prodat stanovený počet akcií za určenou cenu v den vypršení opce nebo dříve, investor je chráněn proti náhlému poklesu ceny akcie. 
+EN_T:	put option gives its owner right but gives not obligation sell <#PersPron.ACT> fixed number shares stock stated price or date option expiration date investor protected #Gen.ACT sudden drop stock price
+CS_T:	prodejní opce dává vlastníkovi právo avšak nikoliv dává povinnost #Gen.ADDR <#Cor.ACT> prodat stanovený počet akcií určenou cenu den vypršení opce nebo dříve investor chráněn #PersPron.ACT náhlému poklesu ceny akcie
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1963.final.streex##10.EnglishT-wsj_1963-s10a4
+EN:	Senate leaders had hoped to be able to send a compromise version of the measure to President Bush by the end of the week, but Speaker Foley said that wasn't likely.
+CS:	Čelní představitelé senátu doufali, že budou schopni zaslat kompromisní verzi opatření prezidentovi Bushovi do konce týdne, ale mluvčí Foley řekl, že to není pravděpodobné. 
+EN_T:	Senate leaders hoped #Cor.ACT be able send <#PersPron.ACT> compromise version measure President Bush end week but Speaker Foley said #Gen.ADDR that was n't likely
+CS_T:	Čelní představitelé senátu doufali #PersPron.ACT budou schopni <#Cor.ACT> zaslat kompromisní verzi opatření prezidentovi Bushovi konce týdne #Gen.ADDR ale mluvčí Foley řekl #Neg.RHEM to není pravděpodobné
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1969.final.streex##2.EnglishT-wsj_1969-s2a5
+EN:	One unit, called the Escort, uses a new digital signal-processing technology to detect radar signals much sooner than was previously possible, the company said .
+CS:	Jeden z nich, zvaný Escort, používá novou technologii digitálního zpracování signálu k daleko včasnější detekci radarových signálů, než bylo možné dříve, uvedla společnost. 
+EN_T:	One unit #Gen.ACT called #Cor.PAT Escort uses new digital signal-processing technology #Cor.ACT detect radar signals much sooner was <#PersPron.ACT> previously possible company said #Gen.ADDR
+CS_T:	Jeden nich zvaný #Forn.EFF Escort používá novou technologii #Gen.ACT digitálního zpracování signálu daleko včasnější detekci radarových signálů bylo <#Gen.ACT> možné dříve uvedla společnost
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1969.final.streex##3.EnglishT-wsj_1969-s3a8
+EN:	The other, called the Solo, is battery operated and is the first high-performance radar detector that doesn't need a power cord, the company said .
+CS:	Druhý, zvaný Solo, je napájen baterií a je prvním radarovým detektorem vysoké kvality, který nepotřebuje napájecí šňůru, uvedla společnost. 
+EN_T:	other #Gen.ACT called #Cor.PAT Solo battery operated #Gen.ACT <#PersPron.ACT> and is first high-performance radar detector that n't need power cord company said #Gen.ADDR
+CS_T:	Druhý #EmpNoun.PAT zvaný #Forn.EFF Solo napájen baterií a je <#PersPron.ACT> prvním radarovým detektorem vysoké kvality #Neg.RHEM který nepotřebuje napájecí šňůru uvedla společnost
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1970.final.streex##25.EnglishT-wsj_1970-s25a3
+EN:	``People are sick and tired of hearing about these deficits, but the imbalances are still there and they are still a problem,'' said Mr. Robertson.
+CS:	"Lidé už jsou ze zpráv o těchto deficitech znechucení, avšak tyto nevyrovnanosti stále existují a stále představují problém," řekl Robertson. 
+EN_T:	People are sick and tired hearing <#PersPron.ACT> these deficits but imbalances are still there and they are still problem said #Gen.ADDR Mr. Robertson
+CS_T:	#Gen.ADDR Lidé už jsou zpráv těchto deficitech znechucení avšak tyto nevyrovnanosti stále existují a stále představují problém řekl Robertson
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1970.final.streex##2.EnglishT-wsj_1970-s2a3
+EN:	The merchandise trade deficit widened in August to $10.77 billion , the Commerce Department reported , a sharp deterioration from July's $8.24 billion and the largest deficit of any month this year.
+CS:	Ministerstvo obchodu informovalo, že obchodní deficit zboží v srpnu vzrostl na 10.77 miliardy dolarů, což je oproti červencovým 8.24 miliardy dolarů prudké zhoršení a nejvyšší měsíční deficit za celý letošní rok. 
+EN_T:	merchandise trade deficit widened August $ 10.77 billion , Commerce Department reported #Gen.ADDR <#PersPron.PAT> sharp #EmpVerb.PRED deterioration July $ 8.24 billion and largest deficit any month this year
+CS_T:	#Gen.ADDR Ministerstvo obchodu informovalo obchodní deficit zboží srpnu <vzrostl> 10.77 miliardy dolarů , což je červencovým 8.24 miliardy dolarů #PersPron.ACT prudké zhoršení a nejvyšší měsíční deficit celý letošní rok
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1970.final.streex##31.EnglishT-wsj_1970-s31a7
+EN:	``The best result we could get from these numbers would be to see the administration and Congress get serious about putting the U.S. on an internationally competitive economic footing,'' said Howard Lewis, vice president of international economic affairs at the National Association of Manufacturers.
+CS:	"Nejlepší výsledek, který bychom z těchto čísel mohli dostat, by bylo, že by vláda a Kongres začali brát vážně fakt, že Spojeným státům mají dát mezinárodně konkurenceschopnou ekonomiku," uvedl Howard Lewis, viceprezident mezinárodních ekonomických záležitostí Národní asociace výrobců. 
+EN_T:	best result we get #Cor.PAT these numbers be see <#PersPron.ACT> administration and Congress get serious #Cor.ACT #Cor.ACT putting U.S. internationally competitive economic footing said #Gen.ADDR Howard Lewis , vice president international economic affairs National Association Manufacturers
+CS_T:	Nejlepší výsledek #PersPron.ACT který těchto čísel dostat bylo vláda a Kongres začali #Cor.ACT brát vážně fakt #PersPron.ACT Spojeným státům dát mezinárodně konkurenceschopnou ekonomiku uvedl Howard Lewis , viceprezident mezinárodních ekonomických záležitostí Národní asociace výrobců
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1970.final.streex##5.EnglishT-wsj_1970-s5a5
+EN:	Like most analysts, Mr. Dennis was hesitant to read too much into one month's numbers; but he said, ``It indicates perhaps that the balance in the U.S. economy is not as good as we've been led to believe.''
+CS:	Stejně jako většina analytiků se i Dennis zdráhá mnoho usuzovat z čísel za jeden měsíc, avšak řekl: "Možná to znamená, že americká ekonomická bilance není tak dobrá, jak jsme měli věřit." 
+EN_T:	most analysts Mr. Dennis was hesitant #Cor.ACT read #Gen.PAT too much one month numbers but he said #Gen.ADDR It indicates perhaps balance U.S. economy is not as good we led #Gen.ACT #Cor.ACT believe <#PersPron.PAT>
+CS_T:	Stejně většina analytiků i Dennis zdráhá zdráhá #PersPron.PAT #Cor.ACT mnoho usuzovat #EmpNoun.PAT čísel jeden měsíc avšak #Gen.ADDR řekl Možná to znamená #Neg.RHEM americká ekonomická bilance není tak dobrá <#PersPron.PAT> #PersPron.ACT věřit jak
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1971.final.streex##1.EnglishT-wsj_1971-s1a1
+EN:	Steve Jobs took a step back from the frontier of personal-computer technology in an effort to spur sales of Next Inc.'s new machine.
+CS:	Steve Jobs udělal krok zpátky z první linie technologie osobních počítačů ve snaze urychlit prodej nového počítače od Next Inc. 
+EN_T:	Steve Jobs took step back frontier personal-computer technology effort spur <#PersPron.ACT> sales Next Inc. new machine
+CS_T:	Steve Jobs udělal krok zpátky první linie technologie osobních počítačů <#PersPron.ACT> snaze urychlit prodej nového počítače #Forn.RSTR Next Inc
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1971.final.streex##23.EnglishT-wsj_1971-s23a4
+EN:	``From the standpoint of being on the forefront of technology, this is a step backward,'' said Jerry W. Sprecher, a senior computing manager for the California state university system.
+CS:	"Ze stavu, kdy byli v první linii technologie, je to krok zpátky," řekl Jerry W. Sprecher, hlavní manažer počítačového systému na státní kalifornské univerzitě. 
+EN_T:	standpoint being <#PersPron.ACT> forefront technology this is step backward said #Gen.ADDR Jerry W. Sprecher , senior computing manager California state university system
+CS_T:	#Gen.ADDR stavu <#PersPron.ACT> kdy byli první linii technologie je to krok zpátky řekl Jerry W Sprecher , hlavní manažer počítačového systému státní kalifornské univerzitě
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1971.final.streex##2.EnglishT-wsj_1971-s2-t6_coract
+EN:	Mr. Jobs moved to remedy a couple of his computer's drawbacks yesterday by lowering the entry-level price for a Next machine by $1,500, or 23%, if the buyer chooses a hard-disk drive as an alternative to Next's optical-storage device.
+CS:	Jobs včera přistoupil k řešení několika nedostatků svých počítačů snížením základní ceny počítače Next o 1500 dolarů, což činí 23 %, pokud kupující zvolí místo optického paměťového zařízení pevný disk. 
+EN_T:	Mr. Jobs moved <#PersPron.ACT> remedy couple his computer drawbacks yesterday lowering #Cor.ACT entry-level price Next machine $ 1,500 or 23 % buyer chooses hard-disk drive alternative Next optical-storage device
+CS_T:	Jobs včera přistoupil řešení <#PersPron.ACT> několika nedostatků svých počítačů #PersPron.ACT snížením základní ceny počítače Next 1500 dolarů , což činí 23 % kupující zvolí optického paměťového zařízení pevný disk
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1973.final.streex##1.EnglishT-wsj_1973-s1a3
+EN:	Ashton-Tate Corp. reported a net loss of $19.4 million, or 74 cents a share, for the third quarter, which was burdened by severance costs and the expense of upgrading its database software inventories.
+CS:	Společnost Ashton-Tate Corp. vykázala čistou ztrátu za třetí čtvrtletí, které bylo zatíženo náklady na rozdělení a výdaji na aktualizaci obsahu databázového softwaru, ve výši 19.4 milionu dolarů, což činí 74 centů na akcii. 
+EN_T:	Ashton-Tate Corp. reported #Gen.ADDR net loss $ 19.4 million or 74 cents share third quarter which burdened severance costs and expense <#PersPron.ACT> upgrading its database software inventories
+CS_T:	Společnost #Forn.ID Ashton - Tate Corp . vykázala čistou ztrátu třetí čtvrtletí které zatíženo náklady #PersPron.ACT rozdělení #PersPron.PAT a výdaji aktualizaci obsahu databázového softwaru výši 19.4 milionu , dolarů což činí 74 centů akcii
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1982.final.streex##5.EnglishT-wsj_1982-s5a1
+EN:	Last week, Mesa rejected a proposal by StatesWest to acquire it or merge.
+CS:	Minulý týden odmítla společnost Mesa návrh společnosti StatesWest na převzetí nebo sloučení. 
+EN_T:	Last week Mesa rejected proposal StatesWest #Cor.ACT acquire it or #Cor.ACT merge #Rcp.ADDR <#PersPron.PAT>
+CS_T:	Minulý týden společnost Mesa odmítla návrh společnosti StatesWest převzetí #PersPron.PAT nebo #PersPron.ACT sloučení
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1983.final.streex##6.EnglishT-wsj_1983-s6a5
+EN:	By concealing the non-enforcement agreement, certain transactions with Messrs. Taylor and Watson were entered on FirstSouth's books as loans, allowing the thrift to report fees and interest as current income, according to the U.S. attorney's office in Little Rock, Ark.
+CS:	Utajením této dohody o nevymáhání záruk byly jisté transakce Taylora a Watsona zaúčtovány společností FirstSouth jakožto půjčky, což této záložně umožnilo vykázat poplatky a úrok jako běžný příjem, jak sdělilo federální zastupitelství ve městě Little Rock v Arkansasu. 
+EN_T:	<#PersPron.ACT> concealing non-enforcement agreement certain transactions Messrs. Taylor and Watson entered #Gen.ACT FirstSouth books loans allowing #Cor.ACT thrift report #Gen.ADDR fees and interest current income U.S. attorney office Little Rock Ark
+CS_T:	, <#Gen.ACT> Utajením této dohody #Gen.ACT nevymáhání záruk jisté transakce Taylora a Watsona zaúčtovány společností FirstSouth půjčky což této záložně umožnilo #Cor.ACT vykázat poplatky a úrok běžný příjem #PersPron.EFF #Gen.ADDR sdělilo federální zastupitelství městě #Forn.ID Little Rock Arkansasu
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1984.final.streex##15.EnglishT-wsj_1984-s15a5
+EN:	Supposedly the IRS will sell off the assets of MPI, but before it can , a lowly IRS agent is called into the hospital room of Wylie Slaughter, the dying head of the Central Intelligence Agency.
+CS:	Říká se, že úřad IRS majetek studia MPI rozprodá, ale než to může učinit, je jeden řadový agent IRS povolán do nemocničního pokoje Wylieho Slaughtera, umírajícího vedoucího Ústřední zpravodajské služby. 
+EN_T:	Supposedly IRS sell assets MPI but it lowly sell <#PersPron.PAT> IRS agent #Gen.ACT called hospital room Wylie Slaughter , dying #Cor.ACT head Central Intelligence Agency
+CS_T:	#Gen.ADDR #Gen.ACT Říká #Gen.ADDR úřad IRS majetek studia MPI rozprodá ale #Gen.ACT to #PersPron.ACT učinit jeden řadový agent #Idph.RSTR IRS povolán nemocničního pokoje Wylieho Slaughtera , umírajícího vedoucího Ústřední zpravodajské služby
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1984.final.streex##16.EnglishT-wsj_1984-s16a4
+EN:	The lowly agent, Abel Lamb, who as you might guess , is being led to the slaughter, is ordered to take over the studio.
+CS:	Tento řadový agent, Abel Lamb, který, jak se lze dovtípit, jde na smrt, dostane příkaz studio převzít. 
+EN_T:	lowly agent Abel Lamb , who you guess <#PersPron.EFF> led #Gen.ACT slaughter ordered #Gen.ACT #Cor.ACT take studio
+CS_T:	Tento řadový agent , Abel Lamb který lze #Benef.BEN #Cor.ACT dovtípit #PersPron.PAT jde #Oblfm.DIR3 smrt dostane příkaz studio #Cor.ACT převzít
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1984.final.streex##29.EnglishT-wsj_1984-s29a5
+EN:	As the hearings begin, the self-important Sen. Bowman -LRB-Jerome Kilty-RRB- announces: ``Let me emphaticize one thing at the outset: We are not looking for hides to skin nor goats to scape .''
+CS:	Sotva slyšení začnou, domýšlivý senátor Bowman (Jerome Kilty) oznámí: "Dovolte mi, abych na začátku zdůraznil jednu věc: Nehledáme, koho stáhnout z kůže ani obětní beránky." 
+EN_T:	hearings begin self-important Sen. Bowman -LRB- Jerome Kilty announces #Gen.ADDR Let <#PersPron.ACT> me emphaticize #Cor.ACT one : outset thing We not looking hides skin nor goats #Cor.PAT scape #PersPron.ACT
+CS_T:	slyšení začnou domýšlivý senátor Bowman Jerome Kilty oznámí #Neg.RHEM <#PersPron.ACT> #PersPron.ACT Dovolte mi #PersPron.ACT začátku zdůraznil : jednu věc Nehledáme #PersPron.ACT koho stáhnout kůže ani obětní beránky
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1984.final.streex##29.EnglishT-wsj_1984-s29a7
+EN:	As the hearings begin, the self-important Sen. Bowman -LRB-Jerome Kilty-RRB- announces: ``Let me emphaticize one thing at the outset: We are not looking for hides to skin nor goats to scape .''
+CS:	Sotva slyšení začnou, domýšlivý senátor Bowman (Jerome Kilty) oznámí: "Dovolte mi, abych na začátku zdůraznil jednu věc: Nehledáme, koho stáhnout z kůže ani obětní beránky." 
+EN_T:	hearings begin self-important Sen. Bowman -LRB- Jerome Kilty announces #Gen.ADDR Let #PersPron.ACT me emphaticize #Cor.ACT one : outset thing We not looking hides skin nor goats #Cor.PAT scape <#PersPron.ACT>
+CS_T:	slyšení začnou domýšlivý senátor Bowman Jerome Kilty oznámí #Neg.RHEM #PersPron.ACT #PersPron.ACT Dovolte mi #PersPron.ACT začátku zdůraznil : jednu věc Nehledáme #PersPron.ACT koho stáhnout kůže ani obětní beránky
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1985.final.streex##6.EnglishT-wsj_1985-s6a3
+EN:	In an interview, he said Fannie Mae faces a number of challenges with the restructuring of the thrift industry and the push to broaden its activities overseas.
+CS:	V jednom interview řekl, že FNMA čelí mnoha úkolům v oblasti restrukturalizace sektoru spořitelen a snah prosadit se v zahraničí. 
+EN_T:	interview he said #Gen.ADDR Fannie Mae faces number challenges restructuring thrift industry and push <#PersPron.ADDR> #Cor.ACT broaden its activities overseas
+CS_T:	#Gen.ADDR #PersPron.ACT jednom interview řekl FNMA čelí #Idph.ACT mnoha úkolům restrukturalizace sektoru spořitelen a snah #PersPron.ACT prosadit zahraničí
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1986.final.streex##14.EnglishT-wsj_1986-s14a1
+EN:	```Get off your ...,' he would bellow ,'' say the authors.
+CS:	"Řval by: "Vypadni, jdi do..."," říkají autoři. 
+EN_T:	<#PersPron.ACT> Get #EmpNoun.PAT your he bellow say #Gen.ADDR authors
+CS_T:	#Oblfm.DIR1 #PersPron.ACT #Gen.ADDR #PersPron.ACT Řval Vypadni , #PersPron.ACT jdi do říkají autoři
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1986.final.streex##18.EnglishT-wsj_1986-s18a5
+EN:	Mr. Gutfreund collected $32 million, while Billy Salomon got $10 million, much less than if he had conducted the sale.
+CS:	Gutfreund získal 32 miliónů dolarů, zatímco Billy Salomon získal jen 10 miliónů dolarů, tedy mnohem méně, než kdyby prodej řídil sám. 
+EN_T:	Mr. Gutfreund collected $ while 32 million Billy Salomon got , $ 10 million less much got <#PersPron.ACT> #Gen.PAT he conducted sale
+CS_T:	Gutfreund získal 32 miliónů dolarů Billy Salomon získal jen 10 miliónů dolarů , tedy mnohem méně získal #PersPron.PAT <#PersPron.ACT> #PersPron.ACT prodej řídil sám
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1986.final.streex##39.EnglishT-wsj_1986-s39a2
+EN:	As described in ``The New Crowd,'' they take on ambitious new wives, move to Greenwich, Conn., or Bedford, N.Y., buy OK pictures, and let their wives share the wealth with decorators.
+CS:	Podle popisu v knize "The New Crowd" se ožení s novými ambiciózními manželkami, přestěhují se do Greenwiche ve státě Connecticut nebo Bedfordu ve státě New York, nakoupí obrazy a dovolí svým manželkám, aby se o bohatství podělily s designéry. 
+EN_T:	described <#PersPron.PAT> #Gen.ACT New Crowd they take ambitious new wives move Greenwich Conn. or Bedford N.Y. buy OK pictures and let their wives share #Cor.ACT wealth decorators
+CS_T:	#PersPron.ACT popisu knize #Forn.ID The New Crowd ožení novými ambiciózními manželkami #Oblfm.DIR1 přestěhují Greenwiche státě Connecticut nebo Bedfordu státě #Forn.ID New York nakoupí obrazy a dovolí svým manželkám #PersPron.ACT bohatství podělily designéry
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1986.final.streex##52.EnglishT-wsj_1986-s52a1
+EN:	Mr. Boesky was a piker compared to Jay Gould and Jim Fiske, and Commodore Vanderbilt thought nothing of bribing judges and legislators.
+CS:	V porovnání s Jayem Goldem a Jimem Fiskem hrál Boesky "při zdi" a komodor Vanderbilt si z uplácení soudců a zákonodárců nic nedělal. 
+EN_T:	Mr. Boesky piker was Jay Gould and Jim Fiske and Commodore Vanderbilt thought nothing <#PersPron.ACT> bribing judges and legislators
+CS_T:	#Gen.PAT Jayem Goldem a Jimem Fiskem hrál Boesky zdi a komodor Vanderbilt #Neg.RHEM uplácení <#Gen.ACT> soudců a zákonodárců nic nedělal
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1987.final.streex##8.EnglishT-wsj_1987-s8a1
+EN:	Instead, Valhi said , they may increase, decrease or retain their Lockheed holdings, depending on a number of conditions.
+CS:	Namísto toho, uvedla společnost Valhi, může svůj vlastnický podíl ve společnosti Lockheed zvýšit, snížit nebo ponechat, což závisí na řadě podmínek. 
+EN_T:	Instead Valhi said <#PersPron.EFF> #Gen.ADDR they increase decrease or retain their Lockheed holdings number conditions
+CS_T:	toho uvedla společnost Valhi #PersPron.ACT svůj vlastnický podíl společnosti Lockheed zvýšit snížit nebo ponechat #Gen.EFF , což závisí řadě podmínek
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1988.final.streex##5.EnglishT-wsj_1988-s5a3
+EN:	The U.S. and Canada, which do more trade than any other pair of nations, are to meet next month to arrange an acceleration of planned tariff cuts under the U.S.-Canada free trade agreement.
+CS:	Představitelé USA a Kanady, dvojice států, které spolu obchodují více než kterékoli jiné dva státy světa, se mají sejít příští měsíc a projednat urychlení procesu plánovaného zrušení cla při vzájemném obchodování v rámci dohody o volném obchodu. 
+EN_T:	U.S. and Canada which do more do <#PersPron.PAT> trade any other pair nations are #Cor.ACT meet #Rcp.PAT next month #Cor.ACT arrange acceleration planned tariff cuts U.S.-Canada free trade agreement
+CS_T:	#Gen.PAT Představitelé USA a Kanady , dvojice států které spolu obchodují #Rcp.ADDR více obchodují #Rcp.ADDR #Gen.PAT kterékoli jiné dva státy světa sejít #Rcp.PAT příští měsíc a projednat #Rcp.ADDR #PersPron.ACT urychlení procesu #PersPron.ACT plánovaného zrušení cla #Gen.PAT #Gen.ACT vzájemném obchodování dohody volném obchodu
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1989.final.streex##5.EnglishT-wsj_1989-s5a3
+EN:	Loral said the contract with Turkey will provide opportunities for Loral to supply that country with other defense systems.
+CS:	Společnost Loral prohlásila, že uvedená smlouva s Tureckem zajistí společnosti další příležitosti dodávat do této země další obranné systémy. 
+EN_T:	Loral said #Gen.ADDR contract Turkey provide Loral opportunities supply <#PersPron.ACT> that country other defense systems
+CS_T:	Společnost Loral prohlásila uvedená smlouva Tureckem zajistí společnosti <#PersPron.ACT> další příležitosti dodávat této země další obranné systémy
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1993.final.streex##4.EnglishT-wsj_1993-s4a2
+EN:	The index has a base of 100 set in 1980 and isn't seasonally adjusted .
+CS:	Základ cenového indexu ve výši 100 byl stanoven v roce 1980 a není sezónně upravován. 
+EN_T:	index has base 100 set 1980 and n't seasonally <#PersPron.PAT> adjusted #Gen.ACT
+CS_T:	#Gen.ACT indexu cenového Základ výši stanoven 100 roce a 1980 #Neg.RHEM upravován sezónně
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1996.final.streex##19.EnglishT-wsj_1996-s19a5
+EN:	Instead, he says , if the salespeople can get the customers to consider Wang's products on their merits, he or a top financial officer will try to assuage the fears about finances.
+CS:	A říká, že dokážou-li prodejci namísto toho přimět zákazníky, aby posuzovali výrobky společnosti Wang na základě jejich skutečné hodnoty, on nebo libovolný jiný vedoucí pracovník zabývající se financemi se pokusí zahnat obavy z finanční situace společnosti. 
+EN_T:	Instead he says <#PersPron.EFF> #Gen.ADDR salespeople get customers #Cor.ACT consider Wang products their merits he or top financial officer try #Cor.ACT assuage fears finances
+CS_T:	#Gen.ADDR #PersPron.ACT A říká dokážou prodejci toho #Cor.ACT přimět zákazníky #PersPron.ACT posuzovali výrobky společnosti Wang jejich skutečné hodnoty on nebo libovolný jiný vedoucí pracovník zabývající financemi pokusí #Cor.ACT zahnat obavy finanční situace společnosti
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1996.final.streex##27.EnglishT-wsj_1996-s27a1
+EN:	Still, says John Sullivan, a management recruiter with Daniel Roberts Inc. of Boston, who has held senior sales positions at Polaroid and Atari: ``The customer will react to strength.
+CS:	John Sullivan, pracovník bostonské personální agentury Daniel Roberts Inc., který pracoval ve vedoucích prodejních pozicích společností Polaroid a Atari, říká: "Na zákazníky bude působit síla. 
+EN_T:	Still says #Gen.ADDR <#PersPron.EFF> John Sullivan , management recruiter Daniel Roberts Inc. Boston who held senior sales positions Polaroid and Atari customer react strength
+CS_T:	#Gen.ADDR John Sullivan , pracovník bostonské personální agentury Daniel #Forn.ID Roberts Inc . který pracoval vedoucích prodejních pozicích společností Polaroid a společností Atari říká zákazníky působit síla
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1996.final.streex##29.EnglishT-wsj_1996-s29a1
+EN:	Show it's business as usual.''
+CS:	Ukažte, že se jedná o podnikání jako vždycky." 
+EN_T:	Show <#PersPron.ACT> it 's business usual
+CS_T:	#PersPron.ADDR <#PersPron.ACT> Ukažte jedná #Gen.ACT podnikání #EmpVerb.CPR vždycky
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1996.final.streex##2.EnglishT-wsj_1996-s2a2
+EN:	How soon Wang will stage a comeback , or if it will at all, are still matters of debate.
+CS:	Kdy se společnost Wang chystá znovu objevit na scéně a zda se vůbec vrátí, je stále ještě věc diskuse. 
+EN_T:	soon Wang stage comeback or stage <#PersPron.PAT> it all are still matters debate
+CS_T:	Kdy společnost Wang chystá #Cor.ACT znovu <objevit> scéně a vůbec vrátí #Oblfm.DIR3 je stále ještě věc diskuse
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1996.final.streex##35.EnglishT-wsj_1996-s35a4
+EN:	But ``their present financial condition means I'd have a hard time convincing the vice president in charge of purchasing.''
+CS:	Ale "vzhledem k její současné finanční situaci bych jen velmi obtížně přesvědčil viceprezidenta o nákupu". 
+EN_T:	But their present financial condition means I have hard time #Cor.ACT convincing <#PersPron.PAT> vice president charge #Cor.ACT purchasing #Gen.PAT #Cor.ACT
+CS_T:	#PersPron.ACT Ale její současné finanční situaci jen velmi obtížně přesvědčil viceprezidenta nákupu
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1996.final.streex##56.EnglishT-wsj_1996-s56a1
+EN:	``When a company realizes that , it 's hard to go with Wang.''
+CS:	"Když si to společnost uvědomí, je potom těžké spolupracovat se společností Wang." 
+EN_T:	company realizes that 's hard <#PersPron.BEN> #Cor.ACT go Wang
+CS_T:	to společnost uvědomí je potom těžké <#Benef.BEN> #Cor.ACT spolupracovat společností Wang
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1996.final.streex##67.EnglishT-wsj_1996-s67a2
+EN:	Paul Hellman, a Framingham, Mass., sales and management consultant and author of ``Ready, Aim, You're Hired ,'' says: ``The bad news is, you'll be rejected more.
+CS:	Paul Hellman, manažerský a marketingový konzultant z Framinghamu v Massachusetts a autor publikace "Ready, Aim, You're Hired (Připravit, zamířit a jste přijat)", říká: "Špatnou zprávou je, že budete odmítáni ještě víc. 
+EN_T:	Paul Hellman Framingham Mass. sales , and management consultant and author , Ready <#PersPron.ACT> Aim #Gen.PAT #Gen.ADDR You #Gen.ACT Hired #Gen.PAT says #Gen.ADDR bad news is you #Gen.ACT rejected more
+CS_T:	Paul Hellman , manažerský a marketingový konzultant Framinghamu #Forn.LOC Massachusetts a autor publikace Ready , Aim #Forn.ID , You ' re Hired ( #Gen.PAT #PersPron.ACT Připravit #PersPron.ACT zamířit #Oblfm.DIR3 a #PersPron.PAT #Gen.ACT přijat říká #Gen.ADDR Špatnou zprávou je #PersPron.PAT #Gen.ACT odmítáni ještě víc
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1996.final.streex##6.EnglishT-wsj_1996-s6a1
+EN:	Consider the difficulties faced by Audi salespeople when the car was tainted by false charges of sudden acceleration , or Exxon dealers' problems in the wake of the Valdez oil spill.
+CS:	Zamysleme se nad problémy prodejců společnosti Audi, když byla auta falešně obviněna z neočekávaného přidávání plynu, a tím byla poškozena jejich dobrá pověst, nebo nad problémy prodejců společnosti Exxon, když z tankeru Valdez unikla ropa. 
+EN_T:	<#PersPron.ACT> Consider difficulties faced #Cor.PAT Audi salespeople when car tainted false charges sudden acceleration or Exxon dealers problems wake Valdez oil spill
+CS_T:	#PersPron.ACT Zamysleme problémy prodejců společnosti Audi auta falešně obviněna #Gen.ACT neočekávaného přidávání #PersPron.ACT plynu a tím poškozena #Gen.ACT jejich dobrá pověst nebo problémy prodejců společnosti Exxon tankeru Valdez unikla ropa
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1996.final.streex##73.EnglishT-wsj_1996-s73a3
+EN:	``Look a customer right in the eye and say, `I'm glad to be at Wang.
+CS:	"Dívejte se zákazníkovi přímo do očí a řekněte: "Jsem rád, že pracuji ve společnosti Wang. 
+EN_T:	<#PersPron.ACT> Look customer right eye and say #Gen.ADDR I 'm glad #PersPron.ACT be Wang
+CS_T:	<#PersPron.ACT> Dívejte zákazníkovi přímo očí a řekněte #PersPron.ADDR Jsem #PersPron.ACT rád #PersPron.ACT pracuji společnosti Wang
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1996.final.streex##73.EnglishT-wsj_1996-s73a5
+EN:	``Look a customer right in the eye and say, `I'm glad to be at Wang.
+CS:	"Dívejte se zákazníkovi přímo do očí a řekněte: "Jsem rád, že pracuji ve společnosti Wang. 
+EN_T:	#PersPron.ACT Look customer right eye and say #Gen.ADDR I 'm glad <#PersPron.ACT> be Wang
+CS_T:	#PersPron.ACT Dívejte zákazníkovi přímo očí a řekněte #PersPron.ADDR Jsem #PersPron.ACT rád <#PersPron.ACT> pracuji společnosti Wang
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1999.final.streex##14.EnglishT-wsj_1999-s14a2
+EN:	MCI, which stepped up efforts to sell long-distance telephone service to residential customers, reported a 59% jump in earnings.
+CS:	Společnost MCI, která vynaložila veškeré úsilí, aby místním zákazníkům nabídla dálkové hovory, oznámila 59% nárůst výnosů. 
+EN_T:	MCI which stepped efforts sell <#PersPron.ACT> long-distance telephone service residential customers reported #Gen.ADDR 59 % jump earnings
+CS_T:	#Gen.ADDR Společnost MCI která vynaložila veškeré úsilí #PersPron.ACT místním zákazníkům nabídla dálkové hovory oznámila 59 % nárůst výnosů
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1999.final.streex##26.EnglishT-wsj_1999-s26a1
+EN:	The current quarter, he said , ``looks fine.
+CS:	Řekl, že současné čtvrtletí "se vyvíjí dobře. 
+EN_T:	current quarter he said <#PersPron.EFF> #Gen.ADDR looks fine
+CS_T:	#PersPron.ACT #Gen.ADDR Řekl současné čtvrtletí vyvíjí dobře
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1999.final.streex##42.EnglishT-wsj_1999-s42a4
+EN:	Chairman D.H. Hibbard said the company has set a new five year goal of doubling revenues to about $1.8 billion while steadily increasing net.
+CS:	Předseda společnosti D. H. Hibbard řekl, že společnost si stanovila nový pětiletý cíl: zdvojnásobit tržby na 1.8 miliardy dolarů při stálém zvyšování čistého zisku. 
+EN_T:	Chairman D.H. Hibbard said #Gen.ADDR company set new five year goal doubling #Cor.ACT revenues $ 1.8 about billion steadily increasing <#PersPron.ACT> net
+CS_T:	#Gen.ADDR Předseda společnosti D H Hibbard řekl společnost stanovila si nový pětiletý cíl : zdvojnásobit #PersPron.ACT tržby 1.8 miliardy dolarů <#PersPron.ACT> stálém zvyšování čistého zisku
+ERR:
+
