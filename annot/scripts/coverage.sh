@@ -1,13 +1,14 @@
 #!/bin/bash
 
 # ./coverage.sh <coref_file> <align_annot_file> <expr_type>
+# ./covergae.sh en.coref_nodes.ref.sec19_00-49 en_perspron/align.ref.sec19_00-49.all.ali_annot en_perspron
 coref_file=$1
 align_annot_file=$2
 expr_type=$3
 
 
 function perc {
-    perl -e 'my ($a, $b) = @ARGV; printf "%.2f%%\n", $a / $b * 100;' $1 $2
+    perl -e 'my ($a, $b) = @ARGV; printf "%.2f%% (%d/%d)\n", $a / $b * 100, $a, $b;' $1 $2
 }
 
 tmp_dir=/COMP.TMP/coref_align_coverage
@@ -22,14 +23,14 @@ coref_count=`cat $tmp_dir/coref.ids | wc -l`
 type_count=`cat $tmp_dir/coref.ids | grep "^$expr_type	" | wc -l`
 both_count=`cat $tmp_dir/both.ids | wc -l`
 
-echo -n "# Selected: "
-echo $sel_count
-echo -n "# Coreferential: "
-echo $coref_count
-echo -n "# Coreferential of \"$expr_type\" type: "
-echo $type_count
-echo -n "# Coreferential and selected: "
-echo $both_count
+#echo -n "Selected: "
+#echo $sel_count
+#echo -n "Coreferential: "
+#echo $coref_count
+#echo -n "Coreferential of \"$expr_type\" type: "
+#echo $type_count
+#echo -n "Coreferential and selected: "
+#echo $both_count
 
 echo -n "Coreferential out of selected: "
 perc $both_count $sel_count
@@ -38,4 +39,4 @@ perc $both_count $coref_count
 echo -n "Coverage of coreferential of \"$expr_type\" type: "
 perc $both_count $type_count
 
-#rm -rf $tmp_dir
+rm -rf $tmp_dir
