@@ -36,8 +36,12 @@ sub _build_align_records {
         $line = <$f>;
         chomp $line;
         # remove leading Label
-        $line =~ s/^[^:]+:\t//;
+        $line =~ s/^.*_([^:]+):\t//;
+        my $is_structured = ($1 eq "TT");
         my @word_nodes = split / /, $line;
+        if ($is_structured) {
+            @word_nodes = grep {$_ ne "[" && $_ ne "]"} @word_nodes;
+        }
         my @annotated_nodes_idx = grep {$word_nodes[$_] =~ /^<.*>$/ && $word_nodes[$_] !~ /^<__A:.*__.*>$/} 0 .. $#word_nodes;
         my @anodes_ids =  grep {defined $_} map {my ($a_id) = ($_ =~ /^<__A:(.*)__.*>$/); $a_id} @word_nodes;
         # read the additional annotation info
@@ -49,6 +53,7 @@ sub _build_align_records {
         log_warn "The every 7th line of the input annotation file is not empty" if ($line !~ /^\s*$/);
 
         $align_rec->{$src_id}{trg_idx} = \@annotated_nodes_idx;
+        $align_rec->{$src_id}{is_struct} = $is_structured;
         if (@anodes_ids) {
             $align_rec->{$src_id}{anodes_ids} = \@anodes_ids;
         }
@@ -59,6 +64,23 @@ sub _build_align_records {
     close $f;
     #print STDERR Dumper($align_rec);
     return $align_rec;
+}
+
+sub _nodes_linear {
+    my ($ttree) = @_;
+    return $trg_ttree->get_descendants({ordered => 1});
+}
+
+sub _nodes_structured {
+    my ($ttree) = @_;
+    my @list = ();
+    my @stack = $ttree->get_children({ordered => 1});
+    while (@stack) {
+        my $node = pop @stack;
+        push @stack, reverse($node->get_children({ordered => 1}));
+        push @list, $node;
+    }
+    return @list;
 }
 
 sub process_document {
@@ -73,7 +95,13 @@ sub process_document {
         my $rec = $self->_align_records->{$id};
         
         my $trg_ttree = $node->get_bundle->get_zone($self->align_language, $self->selector)->get_ttree();
-        my @all_trg_nodes = $trg_ttree->get_descendants({ordered => 1});
+        my @all_trg_nodes = ();
+        if ($rec->{is_struct}) {
+            @all_trg_nodes = _nodes_structured($trg_ttree);
+        }
+        else {
+            @all_trg_nodes = _nodes_linear($trg_ttree);
+        }
         my @ali_tnodes = @all_trg_nodes[@{$rec->{trg_idx}}];
 
         my @ali_anodes = map {$doc->get_node_by_id($_)} @{$rec->{anodes_ids}};
