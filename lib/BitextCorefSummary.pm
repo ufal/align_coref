@@ -71,7 +71,7 @@ sub feats_for_anode {
 sub get_ali_info {
     my ($l1_node, $l2_node) = @_;
     my $ali_info = defined $l1_node->wild->{align_info} ? uc($l1_node->language) . ":\t" . $l1_node->wild->{align_info} :
-                  (defined $l2_node && defined $l2_node->wild->{align_info} ? uc($l2_node->language) . ":\t" . $l2_node->wild->{align_info} : "undef");
+                  (defined $l2_node && defined $l2_node->wild->{align_info} ? uc($l2_node->language) . ":\t" . $l2_node->wild->{align_info} : undef);
     return $ali_info;
 }
 
@@ -104,15 +104,19 @@ sub process_tnode {
     my ($l2_tnode) = Treex::Tool::Align::Utils::aligned_transitively([$l1_tnode], [$self->gold_align_filter]);
     my @l2_feats;
     my $l1_anode = $l1_tnode->get_lex_anode;
+    my $ali_info = undef;
     if (!defined $l2_tnode && defined $l1_anode) {
         my ($l2_anode) = Treex::Tool::Align::Utils::aligned_transitively([$l1_anode], [$self->gold_align_filter]);
         @l2_feats = feats_for_anode($l2_anode);
-        push @l2_feats, get_ali_info($l1_anode, $l2_anode);
+        $ali_info = get_ali_info($l1_anode, $l2_anode);
     }
     else {
         @l2_feats = feats_for_tnode($l2_tnode);
-        push @l2_feats, get_ali_info($l1_tnode, $l2_tnode);
     }
+    if (!defined $ali_info) {
+        $ali_info = get_ali_info($l1_tnode, $l2_tnode);
+    }
+    push @l2_feats, $ali_info;
 
     my @feats = (@l1_feats, @l2_feats);
 
