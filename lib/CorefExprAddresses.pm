@@ -47,7 +47,18 @@ sub _build_filter {
     elsif ($self->anaphor_type eq "relpron") {
         $func = \&Treex::Tool::Coreference::NodeFilter::RelPron::is_relat;
     }
+    elsif ($self->anaphor_type eq "cor") {
+        $func = \&_is_cor;
+    }
     return [$func, $params];
+}
+
+# TODO: this should be in another place
+# TODO: this works reliably only for gold annotations
+sub _is_cor {
+    my ($node, $params) = @_;
+    return 0 if ($node->get_layer ne "t")
+    return ($node->t_lemma eq "#Cor");
 }
 
 sub _is_ignored {
