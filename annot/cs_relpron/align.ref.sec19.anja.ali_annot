@@ -858,7 +858,7 @@ CS:	Největšího úspěchu však dosáhl Ted Kennedy svým nemilosrdným vylí�
 EN:	But it was Ted Kennedy who scored most effectively with his searing portrayal of ``Robert Bork's America'' -- the parade of imaginary horribles that would follow logically, he claimed , from the positions Mr. Bork had taken over the space of two decades.
 CS_T:	#PersPron.EFF #PersPron.ACT Největšího úspěchu však dosáhl Ted Kennedy svým nemilosrdným vylíčením #Idph.PAT Ameriky Roberta Borka - přehlídkou vymyšlených hrůz které logicky vyplynuly tvrdil názorů <které> pan Bork dvou desetiletí zastával
 EN_T:	But Ted Kennedy scored #Gen.PAT effectively his searing portrayal Robert Bork America -- parade imaginary horribles that follow #Gen.PAT logically he claimed #PersPron.EFF #Gen.ADDR positions Mr. Bork taken <#Cor.CPHR> space two decades
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1927.final.streex##13.T-wsj1927-001-p1s12a3
 CS:	Největšího úspěchu však dosáhl Ted Kennedy svým nemilosrdným vylíčením "Ameriky podle Roberta Borka" - přehlídkou vymyšlených hrůz, které by logicky vyplynuly, jak tvrdil, z názorů, které pan Bork v období dvou desetiletí zastával. 
@@ -907,7 +907,7 @@ CS:	Dalším výsledkem ovšem bylo mrazivé poselství, které slyšení ohledn
 EN:	Another upshot, however, was the chilling message the Bork hearings sent into the judicial culture from which the Supreme Court draws its talent .
 CS_T:	Dalším výsledkem ovšem bylo mrazivé poselství <které> slyšení Borka zanechaly soudním prostředí kterého Nejvyšší soud rekrutuje své talenty
 EN_T:	Another upshot however was chilling message Bork hearings sent <#Cor.PAT> judicial culture which Supreme Court draws its talent
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1927.final.streex##26.T-wsj1927-001-p1s25a19
 CS:	Dalším výsledkem ovšem bylo mrazivé poselství, které slyšení ohledně Borka zanechaly v soudním prostředí, ze kterého Nejvyšší soud rekrutuje své talenty. 
@@ -1068,7 +1068,7 @@ CS:	Dvě malé newyorské galerie Coe Kerr Gallery a Beadleston Fine Arts v ledn
 EN:	In January, two small New York galleries, the Coe Kerr Gallery and Beadleston Fine Arts, snatched a major art collection owned by the Askin family away from rival auction-house bidders with an up-front payment of about $25 million.
 CS_T:	Dvě malé newyorské galerie Coe Kerr Gallery a #Forn.ID #Forn.ID Beadleston Fine Arts lednu vyfoukly konkurenčním aukčním domům velkou uměleckou sbírku <kterou> vlastnili Askinovi přičemž platba předem činila přibližně 25 milionů dolarů
 EN_T:	January two small New York galleries Coe Kerr Gallery and , Beadleston Fine Arts snatched major art collection owned <#Cor.PAT> Askin family away rival auction-house bidders up-front payment $ 25 million
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1928.final.streex##5.T-wsj1928-001-p1s4a19
 CS:	Podnik, který chce prodat akcie nebo dluhopisy, jde do některé společnosti na Wall Street, která na místě koupí cenné papíry a převezme na sebe finanční riziko hledání kupců. 
@@ -1117,7 +1117,7 @@ CS:	Egon Krenz, muž, který byl včera zvolen do funkce nového čelního před
 EN:	Egon Krenz, the man tapped yesterday to become East Germany's new leader, faces the same task that has fallen to neighboring socialist colleagues: reforming a country in crisis.
 CS_T:	Egon Krenz , muž #Gen.ACT <který> včera zvolen funkce nového čelního představitele Východního Německa čelí stejnému úkolu jenž připadl jeho sousední socialistické kolegy #PersPron.ACT reformovat zemi krizi
 EN_T:	Egon Krenz , <man> tapped #Gen.ACT yesterday #Cor.ACT become East Germany new leader faces same task that fallen #Cor.ACT neighboring #Gen.PAT socialist colleagues : #Gen.ACT reforming country crisis
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=ANTE ED MISSING_COR
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1929.final.streex##30.T-wsj1929-001-p1s29a20
 CS:	Funguje zde jistá krutá logika: Je obzvláště vhodné - a tragické -, aby země, která zplodila Karla Marxe, prokázala selhání socialismu v experimentu, který využívá ke kontrole svůj vlastní národ. 
@@ -1250,7 +1250,7 @@ CS:	Investoři také rychle vyčlenili akcie společností, u kterých se oček�
 EN:	Also, investors quickly singled out stocks of companies expected to profit or suffer from the disaster.
 CS_T:	#Oblfm.DIR1 Investoři také vyčlenili rychle akcie společností #Gen.ACT očekává <kterých> neštěstí vydělávat #Gen.PAT nebo #PersPron.ACT trpět němu
 EN_T:	Also investors quickly singled #Oblfm.DIR1 stocks <companies> expected #Gen.ACT profit or suffer disaster
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=ANTE ED MISSING_COR - divny strom
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1930.final.streex##5.T-wsj1930-001-p1s4a13
 CS:	Zadlužené odkupy lze udržet v mezích dvěma pravidly v zákoně, který čeká na projednání v Kongresu. 
@@ -1264,7 +1264,7 @@ CS:	Ustanovení, která nedávno prošla v zákonech na snížení deficitu sně
 EN:	The provisions, in deficit-reduction bills recently passed by the House and Senate, could raise the price tags of such deals by up to 10% and cool the takeover boom.
 CS_T:	<která> nedávno Ustanovení prošla zákonech #Gen.ACT snížení deficitu sněmovnou i senátem hodnotu zvýšit obchodů takových a až 10 % zmírnit nárůst fúzí
 EN_T:	provisions deficit-reduction bills recently passed <#Cor.PAT> House and Senate raise price tags such deals 10 to % and cool takeover boom
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1930.final.streex##7.T-wsj1930-001-p1s6a4
 CS:	Zákon, který dává ministerstvu dopravy právo blokovat zadlužené odkupy aerolinií, ve prošel sněmovnou lehce. 
@@ -1460,7 +1460,7 @@ CS:	Výzkumníci říkají, že se domnívají, že FK-506 je 100krát efektivn�
 EN:	Researchers say they believe FK-506 is 100 times more effective than the traditional anti-rejection drug, cyclosporine, made by Swiss pharmaceutical giant Sandoz Ltd.
 CS_T:	#Gen.ADDR Výzkumníci říkají #PersPron.ACT domnívají #Forn.ACT FK - 506 je 100krát efektivnější je efektivnější cyklosporin , tradiční látka #PersPron.PAT #Gen.ACT odmítnutí <který> vyrábí švýcarský farmaceutický gigant #Forn.ID Sandoz Ltd
 EN_T:	Researchers say #Gen.ADDR they believe FK-506 is 100 times effective traditional anti-rejection drug , cyclosporine made <#Cor.PAT> Swiss pharmaceutical giant Sandoz Ltd
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1934.final.streex##12.T-wsj1934-001-p1s11a18
 CS:	Povzbuzují je také relativně mírné vedlejší účinky léku FK-506 ve srovnání s cyklosporinem, který může způsobit ledvinové selhání, nemocnost, nevolnost a jiné problémy. 
@@ -1481,7 +1481,7 @@ CS:	Výzkumníci nedokázali odhadnout cenu léku, až vstoupí na trh, ale uved
 EN:	Researchers couldn't estimate the cost of the drug when it reaches the market , but they said FK-506 will enable patients to cut hospital stays by 50% and reduce the number of blood tests used to monitor the dosage of cyclosporine and other drugs among transplant recipients.
 CS_T:	#Neg.RHEM Výzkumníci nedokázali #Cor.ACT odhadnout cenu léku vstoupí #PersPron.ACT trh ale uvedli FK - 506 #Forn.ACT umožní #Gen.ADDR #Cor.ACT zkrátit pobyt pacientů nemocnici 50 % a příjemců transplantátů snížit počet krevních testů #Gen.ACT <které> používají #Gen.ACT sledování dávek cyklosporinu a dalších léků
 EN_T:	Researchers n't estimate cost drug when it reaches market but they said #Gen.ADDR FK-506 enable patients #Cor.ACT cut hospital stays 50 % and reduce number blood tests #Gen.ACT used <#Cor.PAT> #PersPron.ACT monitor dosage cyclosporine and other drugs transplant recipients
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1934.final.streex##1.T-wsj1934-001-p1s0a20
 CS:	Jak uvedli výzkumní pracovníci, byl na Pittsburské univerzitě u více než 100 pacientů použit nový lék, který zabraňuje odmítnutí transplantovaných orgánů. 
@@ -1544,7 +1544,7 @@ CS:	Článek ekonoma Davida N. Labanda na úvodní stránce z 27. září "Uměl
 EN:	Economist David N. Laband's Sept. 27 editorial-page article, ``In Hugo's Path, a Man-Made Disaster,'' decries the control of price gouging, swiftly ordered by South Carolina's governor after Hurricane Hugo.
 CS_T:	Článek ekonoma N Davida Labanda úvodní stránce 27 září Umělá katastrofa stopách Huga kritizuje kontrolu cenovými podvody <které> si hurikánu Hugo pohotově objednal guvernér Jižní Karolíny
 EN_T:	Economist David N. Laband Sept. 27 editorial-page article Hugo Path Man-Made , Disaster decries control price gouging swiftly ordered #Gen.ADDR <#Cor.PAT> South Carolina governor Hurricane Hugo
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1935.final.streex##28.T-wsj1935-001-p1s27a36
 CS:	Pan Laband popsal jednu ze záludnějších hrozeb, jimž čelíme, když se vyrovnáváme s katastrofami, jako je Hugo - vyhlášky proti černému obchodu, jako je například ta od rady města Charleston, která sebou zmítala ve snaze udělat aspoň něco. 
@@ -1691,7 +1691,7 @@ CS:	Divadelní společnost Steppenwolf, která se vrátila po londýnském úsp�
 EN:	The Steppenwolf Theatre Company, back from a critical and box office success in London with its adaptation of Steinbeck's ``The Grapes of Wrath,'' opened the new season with Harold Pinter's ``The Homecoming,'' first produced by the Royal Shakespeare Company in 1965.
 CS_T:	Divadelní společnost Steppenwolf která vrátila #Oblfm.DIR3 londýnském úspěchu kritiky i publika svojí adaptací Steinbeckových Hroznů hněvu zahájila novou sezónu hrou The #Forn.ID Homecoming ( Návrat domů Harolda Pintera <kterou> poprvé uvedla Královská Shakespearovská společnost roce 1965
 EN_T:	Steppenwolf Theatre Company #EmpVerb.RSTR back critical and box office success London its adaptation Steinbeck Grapes Wrath opened new season Harold Pinter Homecoming first produced <#Cor.PAT> Royal Shakespeare Company 1965
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1936.final.streex##24.T-wsj1936-001-p1s23a7
 CS:	Divadelní společnost Steppenwolf, která se vrátila po londýnském úspěchu u kritiky i publika se svojí adaptací Steinbeckových "Hroznů hněvu", zahájila novou sezónu hrou "The Homecoming (Návrat domů)" od Harolda Pintera, kterou poprvé uvedla Královská Shakespearovská společnost v roce 1965. 
@@ -1733,7 +1733,7 @@ CS:	Pod vedením Jerryho Perryho však současná inscenace souboru Steppenwolf,
 EN:	But under Jerry Perry's direction the current Steppenwolf production, scheduled to play through Nov. 19, breaks through the flat and boring ritual that ``The Homecoming'' had become .
 CS_T:	vedením #PersPron.PAT Jerryho Perryho však současná inscenace souboru Steppenwolf <která> být programu 19 listopadu překonává ten mdlý a nudný rituál jímž hra The #Forn.ID ( Homecoming Návrat domů stala
 EN_T:	But Jerry Perry direction current Steppenwolf production scheduled #Gen.ACT <#Cor.ACT> play #Gen.PAT Nov. 19 breaks #Oblfm.DIR3 flat and boring ritual Homecoming become that
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1936.final.streex##31.T-wsj1936-001-p1s30a28
 CS:	Pod vedením Jerryho Perryho však současná inscenace souboru Steppenwolf, která má být na programu do 19. listopadu, překonává ten mdlý a nudný rituál, jímž se hra "The Homecoming (Návrat domů)" stala. 
@@ -1747,7 +1747,7 @@ CS:	Ze hry, které dominuje téměř dokonalý výkon Alana Wildera v roli Maxe,
 EN:	Led by a near-perfect performance by Alan Wilder as Max, the father, the play is at once an appalling and hilarious dissection of a family's rage, bitterness, fear and isolation.
 CS_T:	hry <které> dominuje téměř dokonalý výkon Alana Wildera roli Maxe , otce najednou stává děsivý i humorný rozbor vzteku zahořklosti strachu a izolovanosti jedné rodiny
 EN_T:	<#Cor.PAT> Led near-perfect performance Alan Wilder Max , father play is once appalling and hilarious dissection family rage bitterness fear and isolation
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1936.final.streex##38.T-wsj1936-001-p1s37a14
 CS:	Hra se soustředí na Teddyho návrat domů s manželkou Ruth, se kterou je již šest let. 
@@ -1992,7 +1992,7 @@ CS:	Hodnota, se kterou se obchoduje na burzách, se blíží ke 3 bilionům.
 EN:	The value traded on the exchanges is close to $3 trillion.
 CS_T:	#Gen.ADDR Hodnota <kterou> obchoduje #Gen.ACT burzách blíží 3 bilionům
 EN_T:	value <#Cor.PAT> traded #Gen.ACT exchanges is close $ 3 trillion
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1939.final.streex##2.T-wsj1939-001-p1s1a16
 CS:	Odpoledne vytvořili velkou překážku návrhu prezidenta Bushe na snížení daní z kapitálových zisků, který tento měsíc naprostou většinou prošel sněmovnou a poté se jevil jako již hotová věc. 
@@ -2069,14 +2069,14 @@ CS:	Vydávání dluhopisů řídí skupina investičních bank, v jejímž čele
 EN:	Managing the bond issue is a group of investment banks headed by First Boston Corp. and co-managed by Goldman, Sachs&Co., Merrill Lynch Capital Markets, Morgan Stanley&Co., and Salomon Brothers Inc.
 CS_T:	#PersPron.ACT Vydávání dluhopisů řídí skupina investičních bank <jejímž> čele stojí First #Forn.ACT Boston Corp . a kterou spoluspravuje #PersPron.ADDR Goldman , Sachs #Forn.ACT & Co . Merrill Lynch Capital #Forn.ACT Markets Morgan Stanley #Forn.ACT & Co . a Salomon #Forn.ACT Brothers Inc
 EN_T:	Managing bond issue group investment banks <#Cor.PAT> headed First Boston Corp. and co-managed Goldman Sachs & Co. Merrill Lynch Capital Markets Morgan Stanley & Co. and Salomon Brothers Inc
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1943.final.streex##12.T-wsj1943-001-p1s11a18
 CS:	Vydávání dluhopisů řídí skupina investičních bank, v jejímž čele stojí First Boston Corp. a kterou spoluspravuje Goldman, Sachs & Co., Merrill Lynch Capital Markets, Morgan Stanley & Co. a Salomon Brothers Inc. 
 EN:	Managing the bond issue is a group of investment banks headed by First Boston Corp. and co-managed by Goldman, Sachs&Co., Merrill Lynch Capital Markets, Morgan Stanley&Co., and Salomon Brothers Inc.
 CS_T:	#PersPron.ACT Vydávání dluhopisů řídí skupina investičních bank jejímž čele stojí First #Forn.ACT Boston Corp . a <kterou> spoluspravuje #PersPron.ADDR Goldman , Sachs #Forn.ACT & Co . Merrill Lynch Capital #Forn.ACT Markets Morgan Stanley #Forn.ACT & Co . a Salomon #Forn.ACT Brothers Inc
 EN_T:	Managing bond issue group investment banks <#Cor.PAT> headed First Boston Corp. and co-managed Goldman Sachs & Co. Merrill Lynch Capital Markets Morgan Stanley & Co. and Salomon Brothers Inc
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1943.final.streex##2.T-wsj1943-001-p1s1a7
 CS:	Výtěžky z dluhopisů, které mají úrokovou sazbu okolo 8 %, budou použity na náhradu dluhopisů s průměrným úrokem 13.1 %. 
@@ -2265,14 +2265,14 @@ CS:	Do roku 1973 dovážely USA dva miliony barelů arabské ropy denně, což j
 EN:	By 1973, the U.S. was bringing in two million barrels of Arab oil a day, more than 10% of the 17.3 million barrels consumed daily.
 CS_T:	#Oblfm.DIR3 roku 1973 dovážely USA dva miliony barelů arabské ropy denně , což je více 10 % #Gen.ACT celkového množství 17.3 milionu barelů <které> denně spotřebují
 EN_T:	1973 U.S. bringing , two million barrels Arab oil day more 10 % 17.3 million barrels #Gen.ACT consumed <#Cor.PAT> daily
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1947.final.streex##16.T-wsj1947-001-p1s15a6
 CS:	Japonsko a Evropa, které byly mnohem závislejší na ropě ze Středního východu než USA, by proti Arabům nic nepodnikly ani by nerozprodaly své drahocenné zásoby. 
 EN:	Japan and Europe, far more dependent on Mideast oil than the U.S., wouldn't offend the Arabs or trade off their precious supplies.
 CS_T:	Japonsko a Evropa <které> byly mnohem závislejší ropě Středního východu byly závislejší #Neg.RHEM USA Arabům nic nepodnikly ani nerozprodaly #Neg.RHEM #Gen.ADDR své drahocenné zásoby
 EN_T:	Japan <and> Europe dependent more Mideast oil U.S. n't offend Arabs or trade their precious supplies
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=ANTE N
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1947.final.streex##1.T-wsj1947-001-p1s0a21
 CS:	(Během roku, kdy oslaví sté výročí, bude Wall Street Journal přinášet události z minulého století, které jsou mezníky americké obchodní historie.) 
@@ -2363,7 +2363,7 @@ CS:	Minulý měsíc oznámila společnost Morgan Grenfell, že její zisk před 
 EN:	Last month, Morgan Grenfell announced its pretax profit rose 49.6% to # 32.8 million in the first half, boosted by a healthy growth in its domestic and international corporate finance business.
 CS_T:	, Minulý měsíc oznámila společnost #Forn.ID Morgan Grenfell její zisk #PersPron.PAT #Gen.ACT zdaněním vzrostl 49.6 % 32.8 milionu liber první pololetí <čemuž> pomohl zdravý rozvoj jejího odvětví zabývajícího tuzemskými i mezinárodními firemními financemi
 EN_T:	Last month Morgan Grenfell announced #Gen.ADDR its pretax profit rose 49.6 % # 32.8 million first half boosted <#Cor.PAT> healthy growth its domestic and international corporate finance business
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1949.final.streex##1.T-wsj1949-001-p1s0a23
 CS:	Společnost Morgan Grenfell Group PLC oznámila, že John Craven, skupinový výkonný ředitel, přebírá za sira Petera Careyho, který odchází do penze, předsednictví skupiny obchodních bank. 
@@ -2391,21 +2391,21 @@ CS:	Tennessee Valley Authority - třídílná nabídka energetických dluhopisů
 EN:	Tennessee Valley Authority -- A $4 billion, three-part offering of power bonds priced through an underwriting group led by First Boston Corp.
 CS_T:	Tennessee Valley Authority - #Forn.DENOM třídílná nabídka energetických dluhopisů hodnotě 4 miliard dolarů <jejichž> cenu určila upisující skupina vedená společností First #Forn.ID Boston Corp
 EN_T:	Tennessee Valley Authority -- $ 4 billion three-part offering power bonds priced #Gen.ACT <#Cor.PAT> underwriting group led #Cor.PAT First Boston Corp
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1950.final.streex##4.T-wsj1950-001-p1s3a35
 CS:	Tato emise s ratingem A3 podle agentury Moody's Investors Service Inc. a s ratingem A podle agentury Standard & Poor's Corp. se bude prodávat prostřednictvím upisovatelů, které vede společnost Goldman, Sachs & Co. 
 EN:	Rated single-A-3 by Moody's Investors Service Inc. and single-A by Standard&Poor's Corp., the issue will be sold through underwriters led by Goldman, Sachs&Co.
 CS_T:	Tato emise ratingem A3 agentury #Forn.ID Moody ' s Investors Service Inc . a ratingem A agentury Standard & Poor #Forn.ID ' s Corp . #Gen.ADDR #Gen.ACT prodávat upisovatelů <které> vede společnost #Forn.ID Goldman , Sachs & Co
 EN_T:	Rated #Cor.PAT single-A-3 Moody Investors Service Inc. and Rated single-A Standard & Poor Corp. issue sold #Gen.ACT underwriters led <#Cor.PAT> Goldman Sachs & Co
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1951.final.streex##12.T-wsj1951-001-p1s11a17
 CS:	V červenci se Par a pobočka, kterou z 60 % vlastní, dohodly v šetření přiznat vinu, stejně jako další bývalý funkcionář společnosti Par. 
 EN:	In July, Par and a 60%-owned unit agreed to plead guilty in that inquiry, as did another former Par official .
 CS_T:	červenci #Forn.ACT Par a pobočka #Cor.ACT <kterou> #PersPron.ACT 60 % vlastní dohodly #Rcp.ADDR #PersPron.PAT #Gen.ACT šetření přiznat vinu stejně přiznat #PersPron.PAT další bývalý funkcionář společnosti Par
 EN_T:	July Par and 60%-owned <unit> agreed #Cor.ACT plead guilty that inquiry plead #PersPron.CPHR another former Par official
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=ANTE N
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1951.final.streex##15.T-wsj1951-001-p1s14a23
 CS:	Předseda Perry Levine uvedl, že Sawyer "udělal významné kroky" k obnovení důvěryhodnosti a dojmu profesionality a integrity, jímž firma působí. 
@@ -2461,7 +2461,7 @@ CS:	Zpráva tiskové agentury Associated Press o pondělním příkazu k sekvest
 EN:	However, the Associated Press's account of the Monday sequester order signed by President Bush neatly captured the contempt Congress shows toward the notion of a legally binding commitment:
 CS_T:	Zpráva tiskové agentury Associated #Forn.ID Press pondělním příkazu sekvestraci <který> podepsal prezident Bush však přesně vystihla pohrdání #PersPron.PAT #PersPron.ACT #Gen.ADDR které dává Kongres najevo pojetí #Gen.ACT právně závazné povinnosti
 EN_T:	However Associated Press account Monday sequester order signed <#Cor.PAT> President Bush neatly captured contempt Congress shows #Cor.CPHR notion legally binding commitment
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1952.final.streex##14.T-wsj1952-001-p1s13a6
 CS:	"Máme pocit, že cesta, kterou se musíme vydat, je cestou škrtů. 
@@ -2503,7 +2503,7 @@ CS:	Péče o děti byla jedním z mnoha "vedlejších" návrhů zákona, které 
 EN:	Child care was one of the many ``extraneous'' bills pulled out of the Senate's reconciliation bill last Friday.
 CS_T:	#Gen.ACT Péče děti byla jedním mnoha vedlejších návrhů zákona <které> minulý pátek odstraněny senátního schvalovacího návrhu
 EN_T:	Child care was one many extraneous bills pulled #Gen.ACT <#Cor.PAT> Senate reconciliation bill last Friday
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1952.final.streex##26.T-wsj1952-001-p1s25a13
 CS:	Všechny tyto věci jsou stále ve sněmovním schvalovacím návrhu, který má 1878 stran, a mnoho poslanců říká, že se jim nechce tyto hýčkané body pustit a být svědky jejich zániku. 
@@ -2573,7 +2573,7 @@ CS:	Vypadalo to, že tokijské zotavení potvrdí názor, který se v Japonsku �
 EN:	The Tokyo rally seemed to confirm the view , frequently expressed in Japan in the past few days, that the drop in New York was a local problem related to merger and acquisition activity in the U.S..
 CS_T:	Vypadalo to tokijské zotavení #PersPron.ACT potvrdí názor <který> Japonsku často objevoval několika posledních dní propad #Forn.LOC New Yorku je lokální problém týkající činností spojených fúzemi a #Idph.LOC akvizicemi USA
 EN_T:	Tokyo rally seemed #Cor.ACT confirm view frequently #Gen.ACT expressed <#Cor.PAT> Japan past few days drop New York was local problem related #Cor.PAT #Gen.ACT merger and acquisition activity U.S.
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1957.final.streex##22.T-wsj1957-001-p1s21a20
 CS:	Analytikové uvedli, že včerejší kupující upřednostňovali emise realitních, stavebních a jiných společností s vysokou kapitalizací, což odráží skutečnost, že mnoho tokijských investorů se nyní cítí bezpečněji u domácích akcií. 
@@ -2608,7 +2608,7 @@ CS:	Půl hodiny před uzavřením spadl o více než 40 bodů, což byla změna 
 EN:	It was down more than 40 points a half-hour before the close, marking a 61.5-point turnaround from its high, reached in the first 15 minutes of trading.
 CS_T:	#PersPron.ACT Půl hodiny #Gen.PAT #Gen.ACT uzavřením spadl více , 40 bodů což byla změna 61.5 bodu jeho maximu #PersPron.ACT <kterého> dosáhl prvních 15 minut #Gen.PAT #Gen.ACT obchodování
 EN_T:	It was down more 40 points half-hour close marking #Cor.ACT 61.5-point turnaround its high #Gen.ACT reached <#Cor.PAT> first 15 minutes trading
-ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE ED
+ERR:ALIGN=OK ED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1957.final.streex##31.T-wsj1957-001-p1s30a10
 CS:	Objem činil 643.3 milionu aktivních akcií, což je zhruba dvojnásobek nedávných hodnot, ale méně než 959.3 milionu z předešlého dne, který obchodníci ze Spojeného království nazvali "Šíleným pondělím". 
