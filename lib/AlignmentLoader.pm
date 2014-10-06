@@ -68,11 +68,12 @@ sub _build_align_records {
 
 sub _nodes_linear {
     my ($ttree) = @_;
-    return $trg_ttree->get_descendants({ordered => 1});
+    return $ttree->get_descendants({ordered => 1});
 }
 
 sub _nodes_structured {
     my ($ttree) = @_;
+    log_info "STRUCT: " . $ttree->id;
     my @list = ();
     my @stack = $ttree->get_children({ordered => 1});
     while (@stack) {
