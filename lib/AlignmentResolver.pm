@@ -49,8 +49,11 @@ sub process_tnode {
     return if (!Treex::Tool::Coreference::NodeFilter::PersPron::is_3rd_pers($tnode));
 
     my @cands = $self->_get_candidates($tnode);
+    if (@cands > 100) {
+        log_warn "[Block::My::AlignmentResolver]\tMore than 100 alignment candidates.";
+        return;
+    }
     my $feats = $self->_feat_extractor->create_instances($tnode, \@cands);
-
     my $winner_idx = $self->_ranker->pick_winner($feats);
 
     Treex::Tool::Align::Utils::remove_aligned_nodes_by_filter($tnode, {language => $self->align_language, selector => $self->selector});
