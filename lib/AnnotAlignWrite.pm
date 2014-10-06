@@ -78,11 +78,14 @@ sub _process_node {
     my $l1_zone = $l1_node->get_zone;
     my $l2_zone = $l1_node->get_bundle->get_zone($self->align_lang, "ref");
 
+    my $l1_lang = uc($l1_zone->language);
+    my $l2_lang = uc($l2_zone->language);
+
     print {$self->_file_handle} $l1_node->get_address . "\n";
-    print {$self->_file_handle} $l1_zone->sentence . "\n";
-    print {$self->_file_handle} $l2_zone->sentence . "\n";
-    print {$self->_file_handle} _linearize_ttree($l1_zone->get_ttree, $l1_node) . "\n";
-    print {$self->_file_handle} _linearize_ttree($l2_zone->get_ttree, $l2_node) . "\n";
+    print {$self->_file_handle} $l1_lang .":\t" . $l1_zone->sentence . "\n";
+    print {$self->_file_handle} $l2_lang .":\t" . $l2_zone->sentence . "\n";
+    print {$self->_file_handle} $l1_lang ."_T:\t" . _linearize_ttree($l1_zone->get_ttree, $l1_node) . "\n";
+    print {$self->_file_handle} $l2_lang ."_T:\t" . _linearize_ttree($l2_zone->get_ttree, $l2_node) . "\n";
     print {$self->_file_handle} "ERR:\n";
     print {$self->_file_handle} "\n";
 }

@@ -35,6 +35,8 @@ sub _build_align_records {
         # read the annotated target linearized t-tree
         $line = <$f>;
         chomp $line;
+        # remove leading Label
+        $line =~ s/^[^:]+:\t//;
         my @word_nodes = split / /, $line;
         my @annotated_nodes_idx = grep {$word_nodes[$_] =~ /^<.*>$/ && $word_nodes[$_] !~ /^<__A:.*__.*>$/} 0 .. $#word_nodes;
         my @anodes_ids =  grep {defined $_} map {my ($a_id) = ($_ =~ /^<__A:(.*)__.*>$/); $a_id} @word_nodes;
