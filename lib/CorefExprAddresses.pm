@@ -15,7 +15,7 @@ extends 'Treex::Core::Block';
 has 'anaphor_type' => (
     is => 'ro',
     required => 1,
-    isa => enum([qw/perspron relpron perspron_unexpr cor/])
+    isa => enum([qw/perspron relpron perspron_unexpr cor ten/])
 );
 
 has 'ignore_align_type' => (
@@ -50,6 +50,9 @@ sub _build_filter {
     elsif ($self->anaphor_type eq "cor") {
         $func = \&_is_cor;
     }
+    elsif ($self->anaphor_type eq "ten") {
+        $func = \&_is_cs_ten;
+    }
     return [$func, $params];
 }
 
@@ -59,6 +62,17 @@ sub _is_cor {
     my ($node, $params) = @_;
     return 0 if ($node->get_layer ne "t");
     return ($node->t_lemma eq "#Cor");
+}
+
+sub _is_cs_ten {
+    my ($node, $params) = @_;
+    if ($node->get_layer eq "a") {
+        return ($node->lemma eq "ten");
+    }
+    elsif ($node->get_layer eq "t") {
+        return ($node->t_lemma eq "ten");
+    }
+    return 0;
 }
 
 sub _is_ignored {
