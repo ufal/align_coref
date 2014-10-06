@@ -1,0 +1,896 @@
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##10.EnglishT-wsj_1950-s10-t8_coract
+EN:	Serial bonds were priced to yield from 6% in 1990 to 7.10% in 2002.
+CS:	Ceny sériových dluhopisů byly stanoveny tak, aby se výnosy pohybovaly v rozsahu od 6 % v roce 1990 do 7.10 % v roce 2002. 
+EN_TT:	priced [ bonds [ Serial ] #Gen.ACT to [ <#Cor.ACT> #Gen.ADDR yield [ % [ 6 ] 1990 ] yield [ % [ 7.10 ] 2002 ] ] ]
+CS_TT:	stanoveny [ #PersPron.ACT Ceny [ dluhopisů [ sériových ] ] pohybovaly [ výnosy rozsahu [ do [ % [ 6 roce [ 1990 ] ] % [ 7.10 roce [ 2002 ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##11.EnglishT-wsj_1950-s11a4
+EN:	There are about $25.6 million of 7.2% term bonds due 2009, priced to yield 7.25%, and about $66.8 million of 7.2% term bonds due 2019, priced at 99 to yield 7.282%.
+CS:	Nabízeny jsou 7.2% termínové obligace v hodnotě kolem 25.6 milionu dolarů splatné v roce 2009, oceněné tak, aby výnos byl 7.25 %, a 7.2% termínové obligace v hodnotě kolem 66.8 milionu dolarů splatné v roce 2019, oceněné na 99 tak, aby výnos byl 7282 %. 
+EN_TT:	are [ and [ $ [ million [ 25.6 [ about ] ] bonds [ % [ 7.2 ] term due [ 2009 ] priced [ <#Cor.PAT> #Gen.ACT yield [ #Cor.ACT #Gen.ADDR % [ 7.25 ] ] ] ] ] $ [ million [ 66.8 [ about ] ] bonds [ % [ 7.2 ] term due [ 2019 ] priced [ #Cor.PAT #Gen.ACT 99 yield [ #Cor.ACT #Gen.ADDR % [ 7.282 ] ] ] ] ] ] ]
+CS_TT:	Nabízeny [ #PersPron.ACT #Gen.ADDR a [ obligace [ % [ 7.2 ] termínové , [ splatné [ roce [ 2009 ] ] oceněné [ byl [ výnos % [ 7.25 ] ] ] ] hodnotě [ milionu [ 25.6 dolarů ] ] ] obligace [ % [ 7.2 ] termínové hodnotě [ milionu [ 66.8 dolarů ] ] , [ splatné [ roce [ 2019 ] ] oceněné [ 99 byl [ výnos % [ 7282 ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##11.EnglishT-wsj_1950-s11a5
+EN:	There are about $25.6 million of 7.2% term bonds due 2009, priced to yield 7.25%, and about $66.8 million of 7.2% term bonds due 2019, priced at 99 to yield 7.282%.
+CS:	Nabízeny jsou 7.2% termínové obligace v hodnotě kolem 25.6 milionu dolarů splatné v roce 2009, oceněné tak, aby výnos byl 7.25 %, a 7.2% termínové obligace v hodnotě kolem 66.8 milionu dolarů splatné v roce 2019, oceněné na 99 tak, aby výnos byl 7282 %. 
+EN_TT:	are [ and [ $ [ million [ 25.6 [ about ] ] bonds [ % [ 7.2 ] term due [ 2009 ] priced [ #Cor.PAT #Gen.ACT yield [ #Cor.ACT #Gen.ADDR % [ 7.25 ] ] ] ] ] $ [ million [ 66.8 [ about ] ] bonds [ % [ 7.2 ] term due [ 2019 ] priced [ <#Cor.PAT> #Gen.ACT 99 yield [ #Cor.ACT #Gen.ADDR % [ 7.282 ] ] ] ] ] ] ]
+CS_TT:	Nabízeny [ #PersPron.ACT #Gen.ADDR a [ obligace [ % [ 7.2 ] termínové , [ splatné [ roce [ 2009 ] ] oceněné [ byl [ výnos % [ 7.25 ] ] ] ] hodnotě [ milionu [ 25.6 dolarů ] ] ] obligace [ % [ 7.2 ] termínové hodnotě [ milionu [ 66.8 dolarů ] ] , [ splatné [ roce [ 2019 ] ] oceněné [ 99 byl [ výnos % [ 7282 ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##11.EnglishT-wsj_1950-s11-t20_coract
+EN:	There are about $25.6 million of 7.2% term bonds due 2009, priced to yield 7.25%, and about $66.8 million of 7.2% term bonds due 2019, priced at 99 to yield 7.282%.
+CS:	Nabízeny jsou 7.2% termínové obligace v hodnotě kolem 25.6 milionu dolarů splatné v roce 2009, oceněné tak, aby výnos byl 7.25 %, a 7.2% termínové obligace v hodnotě kolem 66.8 milionu dolarů splatné v roce 2019, oceněné na 99 tak, aby výnos byl 7282 %. 
+EN_TT:	are [ and [ $ [ million [ 25.6 [ about ] ] bonds [ % [ 7.2 ] term due [ 2009 ] priced [ #Cor.PAT #Gen.ACT yield [ <#Cor.ACT> #Gen.ADDR % [ 7.25 ] ] ] ] ] $ [ million [ 66.8 [ about ] ] bonds [ % [ 7.2 ] term due [ 2019 ] priced [ #Cor.PAT #Gen.ACT 99 yield [ #Cor.ACT #Gen.ADDR % [ 7.282 ] ] ] ] ] ] ]
+CS_TT:	Nabízeny [ #PersPron.ACT #Gen.ADDR a [ obligace [ % [ 7.2 ] termínové , [ splatné [ roce [ 2009 ] ] oceněné [ byl [ výnos % [ 7.25 ] ] ] ] hodnotě [ milionu [ 25.6 dolarů ] ] ] obligace [ % [ 7.2 ] termínové hodnotě [ milionu [ 66.8 dolarů ] ] , [ splatné [ roce [ 2019 ] ] oceněné [ 99 byl [ výnos % [ 7282 ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##11.EnglishT-wsj_1950-s11-t44_coract
+EN:	There are about $25.6 million of 7.2% term bonds due 2009, priced to yield 7.25%, and about $66.8 million of 7.2% term bonds due 2019, priced at 99 to yield 7.282%.
+CS:	Nabízeny jsou 7.2% termínové obligace v hodnotě kolem 25.6 milionu dolarů splatné v roce 2009, oceněné tak, aby výnos byl 7.25 %, a 7.2% termínové obligace v hodnotě kolem 66.8 milionu dolarů splatné v roce 2019, oceněné na 99 tak, aby výnos byl 7282 %. 
+EN_TT:	are [ and [ $ [ million [ 25.6 [ about ] ] bonds [ % [ 7.2 ] term due [ 2009 ] priced [ #Cor.PAT #Gen.ACT yield [ #Cor.ACT #Gen.ADDR % [ 7.25 ] ] ] ] ] $ [ million [ 66.8 [ about ] ] bonds [ % [ 7.2 ] term due [ 2019 ] priced [ #Cor.PAT #Gen.ACT 99 yield [ <#Cor.ACT> #Gen.ADDR % [ 7.282 ] ] ] ] ] ] ]
+CS_TT:	Nabízeny [ #PersPron.ACT #Gen.ADDR a [ obligace [ % [ 7.2 ] termínové , [ splatné [ roce [ 2009 ] ] oceněné [ byl [ výnos % [ 7.25 ] ] ] ] hodnotě [ milionu [ 25.6 dolarů ] ] ] obligace [ % [ 7.2 ] termínové hodnotě [ milionu [ 66.8 dolarů ] ] , [ splatné [ roce [ 2019 ] ] oceněné [ 99 byl [ výnos % [ 7282 ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##13.EnglishT-wsj_1950-s13a1
+EN:	Connecticut -- $100.4 million of general obligation capital appreciation bonds, College Savings Plan, 1989 Series B, priced by a Prudential-Bache Capital Funding group.
+CS:	Connecticut - obecné obligační neúročené dluhopisy kapitálového zhodnocení v hodnotě 100.4 milionu dolarů pro organizaci College Savings Plan, série B z roku 1989, oceněné skupinou Prudential-Bache Capital Funding. 
+EN_TT:	-- [ Connecticut $ [ million [ 100.4 ] bonds [ obligation [ general ] appreciation [ capital ] Plan [ Savings [ College ] ] Series [ 1989 B ] priced [ <#Cor.PAT> group [ Funding [ Prudential-Bache Capital ] ] ] ] ] ]
+CS_TT:	- [ Connecticut , [ dluhopisy [ obecné obligační neúročené zhodnocení [ #Gen.ACT kapitálového #Gen.PAT ] hodnotě [ milionu [ 100.4 dolarů ] ] organizaci [ #Forn.ID [ College Savings Plan ] ] oceněné [ skupinou [ #Forn.ID [ Prudential - Bache Capital Funding ] ] ] ] série [ B roku [ 1989 ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##14.EnglishT-wsj_1950-s14-t9_coract
+EN:	The zero-coupon bonds were priced to yield to maturity from 6.25% in 1994 to 6.90% in 2006, 2007 and 2009.
+CS:	Ceny těchto dluhopisů s nulovým kupónem byly stanoveny tak, aby se výnosy do splatnosti pohybovaly v rozsahu od 6.25 % v roce 1994 do 6.90 % v roce 2006, 2007 a 2009. 
+EN_TT:	priced [ bonds [ zero-coupon ] #Gen.ACT to [ <#Cor.ACT> #Gen.ADDR maturity yield [ % [ 6.25 ] 1994 ] yield [ % [ 6.90 ] and [ 2006 2007 2009 ] ] ] ]
+CS_TT:	stanoveny [ #PersPron.ACT Ceny [ dluhopisů [ těchto kupónem [ nulovým ] ] ] pohybovaly [ výnosy splatnosti rozsahu [ do [ % [ 6.25 roce [ 1994 ] ] % [ 6.90 roce [ a [ 2006 2007 2009 ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##16.EnglishT-wsj_1950-s16a2
+EN:	Oregon -- $100 million of general obligation veterans' tax notes, Series 1989, dated Nov. 1, 1989, and due Nov. 1, 1990, through a Chemical Securities Inc. group.
+CS:	Oregon - obecné obligační pokladniční poukázky na pokrytí veteránské daně v hodnotě 100 milionů dolarů, série 1989, datované k 1. listopadu 1989 a splatné 1. listopadu 1990, prodávané prostřednictvím skupiny Chemical Securities Inc. 
+EN_TT:	-- [ Oregon $ [ million [ 100 ] notes [ veterans [ obligation [ general ] ] tax Series [ 1989 ] and [ dated [ <#Cor.PAT> #Gen.ACT Nov. [ 1 1989 ] ] due [ Nov. [ 1 1990 ] ] ] group [ Inc. [ Securities [ Chemical ] ] ] ] ] ]
+CS_TT:	- [ Oregon , [ poukázky [ obecné obligační pokladniční pokrytí [ #Gen.ACT daně [ veteránské ] ] hodnotě [ milionů [ 100 dolarů ] ] , [ a [ datované [ listopadu [ 1 1989 ] ] splatné [ listopadu [ 1 1990 ] ] ] prodávané [ skupiny [ #Forn.ID [ Chemical Securities Inc ] ] ] ] ] série [ 1989 ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##17.EnglishT-wsj_1950-s17a1
+EN:	The group is offering the notes priced as 6 3\/4% securities to yield 6.25%.
+CS:	Skupina nabízí tyto pokladniční poukázky oceněné jako 6 3/4% cenné papíry tak, aby výnos byl 6.25 %. 
+EN_TT:	offering [ group #Gen.ADDR notes [ priced [ #Gen.ACT <#Cor.PAT> securities [ % [ #Separ.CONJ [ 6 3\/4 [ 3\/4 3\/4 ] ] ] ] yield [ #Cor.ACT #Gen.ADDR % [ 6.25 ] ] ] ] ]
+CS_TT:	nabízí [ #Gen.ADDR Skupina poukázky [ tyto pokladniční oceněné [ papíry [ % [ #Separ.CONJ [ 6 / [ 3 4 ] ] ] cenné ] byl [ výnos % [ 6.25 ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##17.EnglishT-wsj_1950-s17-t16_coract
+EN:	The group is offering the notes priced as 6 3\/4% securities to yield 6.25%.
+CS:	Skupina nabízí tyto pokladniční poukázky oceněné jako 6 3/4% cenné papíry tak, aby výnos byl 6.25 %. 
+EN_TT:	offering [ group #Gen.ADDR notes [ priced [ #Gen.ACT #Cor.PAT securities [ % [ #Separ.CONJ [ 6 3\/4 [ 3\/4 3\/4 ] ] ] ] yield [ <#Cor.ACT> #Gen.ADDR % [ 6.25 ] ] ] ] ]
+CS_TT:	nabízí [ #Gen.ADDR Skupina poukázky [ tyto pokladniční oceněné [ papíry [ % [ #Separ.CONJ [ 6 / [ 3 4 ] ] ] cenné ] byl [ výnos % [ 6.25 ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##19.EnglishT-wsj_1950-s19a1
+EN:	University of Medicine and Dentistry of New Jersey -- $55.8 million of Series C bonds priced by a Prudential-Bache Capital Funding group.
+CS:	University of Medicine and Dentistry of New Jersey - dluhopisy série C v hodnotě 55.8 milionu dolarů oceněné skupinou Prudential-Bache Capital Funding. 
+EN_TT:	-- [ University [ and [ Medicine Dentistry ] Jersey [ New ] ] $ [ million [ 55.8 ] bonds [ Series [ C ] priced [ <#Cor.PAT> group [ Funding [ Prudential-Bache Capital ] ] ] ] ] ]
+CS_TT:	- [ #Forn.DENOM [ University of Medicine and Dentistry of New Jersey ] dluhopisy [ série [ C ] hodnotě [ milionu [ 55.8 dolarů ] ] oceněné [ skupinou [ #Forn.ID [ Prudential - Bache Capital Funding ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##20.EnglishT-wsj_1950-s20a5
+EN:	The bonds, rated single-A by Moody's and double-A by S&P, were priced to yield from 6.20% in 1992 to 7.26% in 2019.
+CS:	Tyto dluhopisy s ratingem A od agentury Moody's a s ratingem AA od agentury S&P byly oceněny tak, aby se výnosy pohybovaly v rozsahu od 6.20 % v roce 1992 do 7.26 % v roce 2019. 
+EN_TT:	priced [ bonds [ and [ rated [ single-A Moody ] <#Cor.PAT> rated [ double-A S&P ] ] ] #Gen.ACT to [ #Cor.ACT #Gen.ADDR yield [ % [ 6.20 ] 1992 ] yield [ % [ 7.26 ] 2019 ] ] ]
+CS_TT:	oceněny [ dluhopisy [ Tyto a [ ratingem [ A agentury [ #Forn.ID [ Moody ' s ] ] ] ratingem [ agentury [ #Forn.ID [ S & P ] ] AA ] ] ] #PersPron.ACT pohybovaly [ výnosy rozsahu [ do [ % [ 6.20 roce [ 1992 ] ] % [ 7.26 roce [ 2019 ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##20.EnglishT-wsj_1950-s20-t20_coract
+EN:	The bonds, rated single-A by Moody's and double-A by S&P, were priced to yield from 6.20% in 1992 to 7.26% in 2019.
+CS:	Tyto dluhopisy s ratingem A od agentury Moody's a s ratingem AA od agentury S&P byly oceněny tak, aby se výnosy pohybovaly v rozsahu od 6.20 % v roce 1992 do 7.26 % v roce 2019. 
+EN_TT:	priced [ bonds [ and [ rated [ single-A Moody ] #Cor.PAT rated [ double-A S&P ] ] ] #Gen.ACT to [ <#Cor.ACT> #Gen.ADDR yield [ % [ 6.20 ] 1992 ] yield [ % [ 7.26 ] 2019 ] ] ]
+CS_TT:	oceněny [ dluhopisy [ Tyto a [ ratingem [ A agentury [ #Forn.ID [ Moody ' s ] ] ] ratingem [ agentury [ #Forn.ID [ S & P ] ] AA ] ] ] #PersPron.ACT pohybovaly [ výnosy rozsahu [ do [ % [ 6.20 roce [ 1992 ] ] % [ 7.26 roce [ 2019 ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##22.EnglishT-wsj_1950-s22a1
+EN:	Federal Home Loan Mortgage Corp. -- $500 million of Remic mortgage securities being offered in eight classes by Salomon Brothers Inc.
+CS:	Federal Home Loan Mortgage Corp. - hypotekární zástavní listy společnosti Remic v hodnotě 500 milionů dolarů nabízené v osmi třídách společností Salomon Brothers Inc. 
+EN_TT:	-- [ Corp. [ Mortgage [ Federal Loan [ Home ] ] ] $ [ million [ 500 ] securities [ Remic mortgage offered [ #Gen.ADDR <#Cor.PAT> classes [ eight ] Inc [ Brothers [ Salomon ] ] ] ] ] ]
+CS_TT:	- [ #Forn.DENOM [ Federal Home Loan Mortgage Corp . ] listy [ hypotekární zástavní společnosti [ Remic ] hodnotě [ milionů [ 500 dolarů ] ] nabízené [ třídách [ osmi ] společností [ #Forn.ID [ Salomon Brothers Inc ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##25.EnglishT-wsj_1950-s25a1
+EN:	Federal National Mortgage Association -- $350 million of Remic mortgage securities being offered in 11 classes by Greenwich Capital Markets.
+CS:	Federal National Mortgage Association - hypotekární zástavní listy společnosti Remic v hodnotě 350 milionů dolarů nabízené v jedenácti třídách společností Greenwich Capital Markets. 
+EN_TT:	-- [ Association [ Federal National Mortgage ] $ [ million [ 350 ] securities [ Remic mortgage offered [ #Gen.ADDR <#Cor.PAT> classes [ 11 ] Markets [ Greenwich Capital ] ] ] ] ]
+CS_TT:	- [ #Forn.DENOM [ Federal National Mortgage Association ] listy [ hypotekární zástavní společnosti [ Remic ] hodnotě [ milionů [ 350 dolarů ] ] nabízené [ třídách [ jedenácti ] společností [ #Forn.ID [ Greenwich Capital Markets ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##28.EnglishT-wsj_1950-s28a3
+EN:	Hanshin Electric Railway Co. -LRB-Japan-RRB- -- $150 million of bonds due Nov. 2, 1993, with equity-purchase warrants, indicating a 4% coupon at par, via Nomura International Ltd.
+CS:	Hanshin Electric Railway Co. (Japonsko) - dluhopisy v hodnotě 150 milionů dolarů splatné 2. listopadu 1993, vydávané s opčními listy zaručujícími právo k nákupu kmenových akcií, uvádějící 4% úrok z nominální hodnoty, nabízené prostřednictvím společnosti Nomura International Ltd. 
+EN_TT:	-- [ Co [ Railway [ Hanshin Electric ] Japan ] $ [ million [ 150 ] bonds [ due [ Nov. [ 2 1993 ] ] warrants [ equity-purchase ] indicating [ <#Cor.ACT> coupon [ % [ 4 ] par ] ] #EmpVerb.RSTR [ Ltd [ International [ Nomura ] ] ] ] ] ]
+CS_TT:	- [ #Forn.DENOM [ Hanshin Electric Railway Co . Japonsko ] dluhopisy [ hodnotě [ milionů [ 150 dolarů ] ] , [ splatné [ listopadu [ 2 1993 ] ] vydávané [ listy [ opčními zaručujícími [ právo [ nákupu [ akcií [ kmenových ] ] ] ] ] ] uvádějící [ úrok [ % [ 4 ] hodnoty [ nominální ] ] ] nabízené [ společnosti [ #Forn.ID [ Nomura International Ltd ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##29.EnglishT-wsj_1950-s29-t25_coract
+EN:	Each $5,000 bond carries one warrant, exercisable from Nov. 16, 1989, through Oct. 19, 1993, to buy company shares at an expected premium of 2 1\/2% to the closing share price when terms are fixed Oct. 24 .
+CS:	Každý dluhopis v hodnotě 5000 dolarů s sebou nese jeden opční list uplatnitelný od 16. listopadu 1989 do 19. října 1993, opravňující k nákupu akcií společnosti za očekávanou prémii 2 1/2 % z uzavírací ceny akcií, přičemž tyto podmínky jsou fixovány do 24. října. 
+EN_TT:	carries [ bond [ Each $ [ 5,000 ] ] warrant [ one #Gen.ACT exercisable [ Nov. [ 16 1989 ] Oct. [ 19 1993 ] ] buy [ <#Cor.ACT> shares [ company ] premium [ expected % [ #Separ.CONJ [ 2 1\/2 [ 1\/2 1\/2 ] ] ] price [ closing share ] ] ] ] fixed [ terms #Gen.ACT Oct. [ 24 ] ] ]
+CS_TT:	nese [ dluhopis [ Každý hodnotě [ dolarů [ 5000 ] ] ] sebou list [ jeden opční přičemž [ uplatnitelný [ listopadu [ 16 1989 ] října [ 19 1993 ] ] opravňující [ nákupu [ akcií [ společnosti ] ] prémii [ očekávanou % [ #Separ.CONJ [ 2 / [ 2 1 ] ] ceny [ uzavírací akcií ] ] ] ] fixovány [ #Gen.ACT podmínky [ tyto ] října [ 24 ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##2.EnglishT-wsj_1950-s2a4
+EN:	Lockheed Corp. -- $300 million of 9 3\/8% notes due Oct. 15, 1999, priced at 99.90 to yield 9.39%.
+CS:	Lockheed Corp. - 9 3/8% pokladniční poukázky v hodnotě 300 milionů dolarů splatné 15. října 1999, oceněné na 99.90 tak, aby výnos byl 9.39 %. 
+EN_TT:	-- [ Corp. [ Lockheed ] $ [ million [ 300 ] notes [ % [ #Separ.CONJ [ 9 3\/8 [ 3\/8 3\/8 ] ] ] due [ Oct. [ 15 1999 ] ] priced [ <#Cor.PAT> #Gen.ACT 99.90 yield [ #Cor.ACT #Gen.ADDR % [ 9.39 ] ] ] ] ] ]
+CS_TT:	- [ #Forn.DENOM [ Lockheed Corp . ] poukázky [ % [ #Separ.CONJ [ 9 / [ 3 8 ] ] ] pokladniční hodnotě [ milionů [ 300 dolarů ] ] , [ splatné [ října [ 15 1999 ] ] oceněné [ 99.90 byl [ výnos % [ 9.39 ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##2.EnglishT-wsj_1950-s2-t25_coract
+EN:	Lockheed Corp. -- $300 million of 9 3\/8% notes due Oct. 15, 1999, priced at 99.90 to yield 9.39%.
+CS:	Lockheed Corp. - 9 3/8% pokladniční poukázky v hodnotě 300 milionů dolarů splatné 15. října 1999, oceněné na 99.90 tak, aby výnos byl 9.39 %. 
+EN_TT:	-- [ Corp. [ Lockheed ] $ [ million [ 300 ] notes [ % [ #Separ.CONJ [ 9 3\/8 [ 3\/8 3\/8 ] ] ] due [ Oct. [ 15 1999 ] ] priced [ #Cor.PAT #Gen.ACT 99.90 yield [ <#Cor.ACT> #Gen.ADDR % [ 9.39 ] ] ] ] ] ]
+CS_TT:	- [ #Forn.DENOM [ Lockheed Corp . ] poukázky [ % [ #Separ.CONJ [ 9 / [ 3 8 ] ] ] pokladniční hodnotě [ milionů [ 300 dolarů ] ] , [ splatné [ října [ 15 1999 ] ] oceněné [ 99.90 byl [ výnos % [ 9.39 ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##30.EnglishT-wsj_1950-s30a1
+EN:	Toyobo Co. -LRB-Japan-RRB- -- $150 million of bonds due Nov. 1, 1993, with equity-purchase warrants, indicating a 4% coupon at par, via Daiwa Europe Ltd.
+CS:	Toyobo Co. (Japonsko) - dluhopisy v hodnotě 150 milionů dolarů splatné 1. listopadu 1993, vydávané s opčními listy zaručujícími právo k nákupu kmenových akcií, uvádějící 4% úrok z nominální hodnoty, nabízené prostřednictvím společnosti Daiwa Europe Ltd. 
+EN_TT:	-- [ Co [ Toyobo Japan ] $ [ million [ 150 ] bonds [ due [ Nov. [ 1 1993 ] ] warrants [ equity-purchase ] indicating [ <#Cor.ACT> coupon [ % [ 4 ] par ] ] #EmpVerb.RSTR [ Ltd [ Europe [ Daiwa ] ] ] ] ] ]
+CS_TT:	- [ #Forn.DENOM [ Toyobo Co . Japonsko ] dluhopisy [ hodnotě [ milionů [ 150 dolarů ] ] , [ splatné [ listopadu [ 1 1993 ] ] vydávané [ listy [ opčními zaručujícími [ právo [ nákupu [ akcií [ kmenových ] ] ] ] ] ] uvádějící [ úrok [ % [ 4 ] hodnoty [ nominální ] ] ] nabízené [ společnosti [ #Forn.ID [ Daiwa Europe Ltd ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##31.EnglishT-wsj_1950-s31-t25_coract
+EN:	Each $5000 bond carries one warrant, exercisable from Nov. 15, 1989, to Oct. 18, 1993, to buy company shares at an expected premium of 2 1\/2% to the closing share price when terms are fixed Oct. 23 .
+CS:	Každý dluhopis v hodnotě 5000 dolarů s sebou nese jeden opční list uplatnitelný od 15. listopadu 1989 do 18. října 1993, opravňující k nákupu akcií společnosti za očekávanou prémii 2 1/2 % z uzavírací ceny akcií, přičemž tyto podmínky jsou fixovány do 23. října. 
+EN_TT:	carries [ bond [ Each $ [ 5000 ] ] warrant [ one exercisable [ Nov. [ 15 1989 ] Oct. [ 18 1993 ] ] #Gen.ACT buy [ <#Cor.ACT> shares [ company ] premium [ expected % [ #Separ.CONJ [ 2 1\/2 [ 1\/2 1\/2 ] ] ] price [ closing share ] ] ] ] fixed [ terms #Gen.ACT Oct. [ 23 ] ] ]
+CS_TT:	nese [ dluhopis [ Každý hodnotě [ dolarů [ 5000 ] ] ] sebou list [ jeden opční přičemž [ uplatnitelný [ listopadu [ 15 1989 ] října [ 18 1993 ] ] opravňující [ nákupu [ akcií [ společnosti ] ] prémii [ očekávanou % [ #Separ.CONJ [ 2 / [ 1 2 ] ] ceny [ uzavírací akcií ] ] ] ] fixovány [ #Gen.ACT podmínky [ tyto ] října [ 23 ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##32.EnglishT-wsj_1950-s32a1
+EN:	Sammi Steel Co. -LRB-Korea-RRB- -- $50 million of bonds due Nov. 8, 1994, with equity-purchase warrants, indicating a 1 1\/4% to 1 3\/4% coupon at par, via Merrill Lynch International Ltd. and Dong Suh Securities Co.
+CS:	Sammi Steel Co. (Korea) - dluhopisy v hodnotě 50 milionů dolarů splatné 8. listopadu 1994, vydávané s opčními listy zaručujícími právo k nákupu kmenových akcií, udávající 1 1/4% až 1 3/4% úrok z nominální hodnoty, nabízené prostřednictvím společností Merrill Lynch International Ltd. a Dong Suh Securities Co. 
+EN_TT:	-- [ Co [ Steel [ Sammi ] Korea ] $ [ million [ 50 ] bonds [ due [ Nov. [ 8 1994 ] ] warrants [ equity-purchase ] indicating [ <#Cor.ACT> coupon [ to [ % [ #Separ.CONJ [ 1 1\/4 [ 1\/4 1\/4 ] ] ] % [ #Separ.CONJ [ 1 3\/4 [ 3\/4 3\/4 ] ] ] ] par ] ] #EmpVerb.RSTR [ and [ Ltd. [ International [ Lynch [ Merrill ] ] ] Co [ Securities [ Suh [ Dong ] ] ] ] ] ] ] ]
+CS_TT:	- [ #Forn.DENOM [ Sammi Steel Co . Korea ] dluhopisy [ hodnotě [ milionů [ 50 dolarů ] ] , [ splatné [ listopadu [ 8 1994 ] ] vydávané [ listy [ opčními zaručujícími [ právo [ nákupu [ akcií [ kmenových ] ] ] ] ] ] udávající [ úrok [ až [ % [ #Separ.CONJ [ 1 / [ 1 4 ] ] ] % [ #Separ.CONJ [ 1 / [ 3 4 ] ] ] ] hodnoty [ nominální ] ] ] nabízené [ společností [ a [ #Forn.ID [ Merrill Lynch International Ltd . ] #Forn.ID [ Dong Suh Securities Co ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##33.EnglishT-wsj_1950-s33-t25_coract
+EN:	Each $5,000 bond carries one warrant, exercisable from May 8, 1991, through Oct. 8, 1994, to buy company shares at an expected premium of 75% to 85% to the closing share price when terms are fixed Oct. 18 .
+CS:	Každý dluhopis v hodnotě 5000 dolarů s sebou nese jeden opční list uplatnitelný od 8. května 1991 do 8. října 1994, opravňující k nákupu akcií společnosti za očekávanou prémii 75 až 85 % z uzavírací ceny akcií, přičemž tyto podmínky jsou fixovány do 18. října. 
+EN_TT:	carries [ bond [ Each $ [ 5,000 ] ] warrant [ one exercisable [ May [ 8 1991 ] Oct. [ 8 1994 ] ] #Gen.ACT buy [ <#Cor.ACT> shares [ company ] premium [ expected to [ % [ 75 ] % [ 85 ] ] price [ closing share ] ] ] ] fixed [ terms #Gen.ACT Oct. [ 18 ] ] ]
+CS_TT:	nese [ dluhopis [ Každý hodnotě [ dolarů [ 5000 ] ] ] sebou list [ jeden opční přičemž [ uplatnitelný [ května [ 8 1991 ] října [ 8 1994 ] ] opravňující [ nákupu [ akcií [ společnosti ] ] prémii [ očekávanou % [ až [ 75 85 ] ceny [ uzavírací akcií ] ] ] ] fixovány [ #Gen.ACT podmínky [ tyto ] října [ 18 ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##34.EnglishT-wsj_1950-s34a8
+EN:	Redland International Funding PLC -LRB-U.K. parent-RRB- -- 150 million Australian dollars of 15 3\/8% bonds due Nov. 8, 1996, priced at 101 3\/4 to yield 15.44% less full fees, via JP Morgan Securities Ltd.
+CS:	Redland International Funding PLC (britská mateřská společnost) - dluhopisy v hodnotě 150 milionů australských dolarů splatné 8. listopadu 1996, oceněné na 101 3/4 tak, aby výnosy bez všech poplatků činily 15.44 %, nabízené prostřednictvím společnosti JP Morgan Securities Ltd. 
+EN_TT:	-- [ PLC [ Funding [ Redland International ] parent [ U.K. ] ] dollars [ million [ 150 ] Australian bonds [ % [ #Separ.CONJ [ 15 3\/8 [ 3\/8 3\/8 ] ] ] due [ Nov. [ 8 1996 ] ] priced [ <#Cor.PAT> #Gen.ACT #Separ.CONJ [ 101 3\/4 [ 3\/4 3\/4 ] ] yield [ #Cor.ACT #Gen.ADDR less [ % [ 15.44 ] fees [ full ] ] ] ] Ltd [ Securities [ Morgan [ JP ] ] ] ] ] ]
+CS_TT:	- [ ( [ #Forn.DENOM [ Redland International Funding PLC ] společnost [ britská mateřská ] ] dluhopisy [ hodnotě [ milionů [ 150 dolarů [ australských ] ] ] , [ splatné [ listopadu [ 8 1996 ] ] oceněné [ #Separ.CONJ [ / [ 3 4 ] 101 ] činily [ výnosy [ poplatků [ všech ] ] % [ 15.44 ] ] ] nabízené [ společnosti [ #Forn.ID [ JP Morgan Securities Ltd ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##34.EnglishT-wsj_1950-s34-t32_coract
+EN:	Redland International Funding PLC -LRB-U.K. parent-RRB- -- 150 million Australian dollars of 15 3\/8% bonds due Nov. 8, 1996, priced at 101 3\/4 to yield 15.44% less full fees, via JP Morgan Securities Ltd.
+CS:	Redland International Funding PLC (britská mateřská společnost) - dluhopisy v hodnotě 150 milionů australských dolarů splatné 8. listopadu 1996, oceněné na 101 3/4 tak, aby výnosy bez všech poplatků činily 15.44 %, nabízené prostřednictvím společnosti JP Morgan Securities Ltd. 
+EN_TT:	-- [ PLC [ Funding [ Redland International ] parent [ U.K. ] ] dollars [ million [ 150 ] Australian bonds [ % [ #Separ.CONJ [ 15 3\/8 [ 3\/8 3\/8 ] ] ] due [ Nov. [ 8 1996 ] ] priced [ #Cor.PAT #Gen.ACT #Separ.CONJ [ 101 3\/4 [ 3\/4 3\/4 ] ] yield [ <#Cor.ACT> #Gen.ADDR less [ % [ 15.44 ] fees [ full ] ] ] ] Ltd [ Securities [ Morgan [ JP ] ] ] ] ] ]
+CS_TT:	- [ ( [ #Forn.DENOM [ Redland International Funding PLC ] společnost [ britská mateřská ] ] dluhopisy [ hodnotě [ milionů [ 150 dolarů [ australských ] ] ] , [ splatné [ listopadu [ 8 1996 ] ] oceněné [ #Separ.CONJ [ / [ 3 4 ] 101 ] činily [ výnosy [ poplatků [ všech ] ] % [ 15.44 ] ] ] nabízené [ společnosti [ #Forn.ID [ JP Morgan Securities Ltd ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##37.EnglishT-wsj_1950-s37a4
+EN:	Tennessee Valley Authority -- A $4 billion, three-part offering of power bonds priced through an underwriting group led by First Boston Corp.
+CS:	Tennessee Valley Authority - třídílná nabídka energetických dluhopisů v hodnotě 4 miliard dolarů, jejichž cenu určila upisující skupina vedená společností First Boston Corp. 
+EN_TT:	-- [ Authority [ Valley [ Tennessee ] ] offering [ $ [ billion [ 4 ] ] three-part bonds [ power priced [ #Gen.ACT #Cor.PAT group [ underwriting led [ <#Cor.PAT> Corp [ Boston [ First ] ] ] ] ] ] ] ]
+CS_TT:	- [ #Forn.DENOM [ Tennessee Valley Authority ] nabídka [ třídílná dluhopisů [ energetických hodnotě [ miliard [ 4 dolarů ] ] určila [ cenu [ jejichž ] skupina [ upisující vedená [ společností [ #Forn.ID [ First Boston Corp ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##38.EnglishT-wsj_1950-s38a3
+EN:	The size of the issue was increased from an originally planned $3 billion.
+CS:	Objem této emise byl zvýšen z původně plánovaných 3 miliard. 
+EN_TT:	increased [ size [ issue ] #Gen.ACT $ [ planned [ originally #Gen.ACT <#Cor.PAT> ] billion [ 3 ] ] ]
+CS_TT:	zvýšen [ #PersPron.ACT Objem [ emise [ této ] ] miliard [ plánovaných [ původně ] 3 ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##39.EnglishT-wsj_1950-s39a3
+EN:	The first part, consisting of $2 billion of bonds due Oct. 1, 2019, with a five-year non-call provision, was priced as 8 3\/4% securities at 96.808 to yield 9.06%.
+CS:	První část, sestávající z dluhopisů se zárukou pětileté nevypověditelnosti v hodnotě 2 miliard dolarů splatných 1. října 2019, byla oceněna jako 8 3/4% cenné papíry na 96808 tak, aby výnos byl 9.06 %. 
+EN_TT:	priced [ part [ first consisting [ <#Cor.ACT> $ [ billion [ 2 ] bonds [ due [ Oct. [ 1 2019 ] ] provision [ five-year non-call ] ] ] ] ] #Gen.ACT securities [ % [ #Separ.CONJ [ 8 3\/4 [ 3\/4 3\/4 ] ] ] ] 96.808 yield [ #Cor.ACT #Gen.ADDR % [ 9.06 ] ] ]
+CS_TT:	oceněna [ #PersPron.ACT část [ První sestávající [ dluhopisů [ zárukou [ nevypověditelnosti [ pětileté ] ] hodnotě [ miliard [ 2 dolarů ] ] splatných [ října [ 1 2019 ] ] ] ] ] papíry [ #Separ.CONJ [ 8 / [ 3 4 ] ] cenné ] 96808 byl [ výnos % [ 9.06 ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##39.EnglishT-wsj_1950-s39-t37_coract
+EN:	The first part, consisting of $2 billion of bonds due Oct. 1, 2019, with a five-year non-call provision, was priced as 8 3\/4% securities at 96.808 to yield 9.06%.
+CS:	První část, sestávající z dluhopisů se zárukou pětileté nevypověditelnosti v hodnotě 2 miliard dolarů splatných 1. října 2019, byla oceněna jako 8 3/4% cenné papíry na 96808 tak, aby výnos byl 9.06 %. 
+EN_TT:	priced [ part [ first consisting [ #Cor.ACT $ [ billion [ 2 ] bonds [ due [ Oct. [ 1 2019 ] ] provision [ five-year non-call ] ] ] ] ] #Gen.ACT securities [ % [ #Separ.CONJ [ 8 3\/4 [ 3\/4 3\/4 ] ] ] ] 96.808 yield [ <#Cor.ACT> #Gen.ADDR % [ 9.06 ] ] ]
+CS_TT:	oceněna [ #PersPron.ACT část [ První sestávající [ dluhopisů [ zárukou [ nevypověditelnosti [ pětileté ] ] hodnotě [ miliard [ 2 dolarů ] ] splatných [ října [ 1 2019 ] ] ] ] ] papíry [ #Separ.CONJ [ 8 / [ 3 4 ] ] cenné ] 96808 byl [ výnos % [ 9.06 ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##41.EnglishT-wsj_1950-s41a3
+EN:	The second part, consisting of $1 billion of noncallable bonds due Oct. 1, 1999, was priced as 8 3\/8% securities at 99.691 to yield 8.42%.
+CS:	Druhá část, sestávající z nevypověditelných dluhopisů v hodnotě 1 miliardy dolarů splatných 1. října 1999, byla oceněna jako 8 3/8% cenné papíry na 99691 tak, aby výnos byl 8.42 %. 
+EN_TT:	priced [ part [ second consisting [ <#Cor.ACT> $ [ billion [ 1 ] bonds [ noncallable due [ Oct. [ 1 1999 ] ] ] ] ] ] #Gen.ACT securities [ % [ #Separ.CONJ [ 8 3\/8 [ 3\/8 3\/8 ] ] ] ] 99.691 yield [ #Cor.ACT #Gen.ADDR % [ 8.42 ] ] ]
+CS_TT:	oceněna [ #PersPron.ACT část [ Druhá sestávající [ dluhopisů [ nevypověditelných hodnotě [ miliardy [ 1 dolarů ] ] splatných [ října [ 1 1999 ] ] ] ] ] papíry [ #Separ.CONJ [ 8 / [ 8 3 ] ] cenné ] 99691 byl [ výnos % [ 8.42 ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##41.EnglishT-wsj_1950-s41-t32_coract
+EN:	The second part, consisting of $1 billion of noncallable bonds due Oct. 1, 1999, was priced as 8 3\/8% securities at 99.691 to yield 8.42%.
+CS:	Druhá část, sestávající z nevypověditelných dluhopisů v hodnotě 1 miliardy dolarů splatných 1. října 1999, byla oceněna jako 8 3/8% cenné papíry na 99691 tak, aby výnos byl 8.42 %. 
+EN_TT:	priced [ part [ second consisting [ #Cor.ACT $ [ billion [ 1 ] bonds [ noncallable due [ Oct. [ 1 1999 ] ] ] ] ] ] #Gen.ACT securities [ % [ #Separ.CONJ [ 8 3\/8 [ 3\/8 3\/8 ] ] ] ] 99.691 yield [ <#Cor.ACT> #Gen.ADDR % [ 8.42 ] ] ]
+CS_TT:	oceněna [ #PersPron.ACT část [ Druhá sestávající [ dluhopisů [ nevypověditelných hodnotě [ miliardy [ 1 dolarů ] ] splatných [ října [ 1 1999 ] ] ] ] ] papíry [ #Separ.CONJ [ 8 / [ 8 3 ] ] cenné ] 99691 byl [ výnos % [ 8.42 ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##43.EnglishT-wsj_1950-s43a3
+EN:	The third part, consisting of $1 billion of noncallable bonds due Oct. 1, 1994, was priced as 8 1\/4% securities at 99.672 to yield 8.33%.
+CS:	Třetí část, sestávající z nevypověditelných dluhopisů v hodnotě 1 miliardy dolarů splatných 1. října 1994, byla oceněna jako 8 1/4% cenné papíry na 99672 tak, aby výnos byl 8.33 %. 
+EN_TT:	priced [ part [ third consisting [ <#Cor.ACT> $ [ billion [ 1 ] bonds [ noncallable due [ Oct. [ 1 1994 ] ] ] ] ] ] #Gen.ACT securities [ % [ #Separ.CONJ [ 8 1\/4 [ 1\/4 1\/4 ] ] ] ] 99.672 yield [ #Cor.ACT #Gen.ADDR % [ 8.33 ] ] ]
+CS_TT:	oceněna [ #PersPron.ACT část [ Třetí sestávající [ dluhopisů [ nevypověditelných hodnotě [ miliardy [ 1 dolarů ] ] splatných [ října [ 1 1994 ] ] ] ] ] papíry [ cenné #Separ.CONJ [ 8 / [ 1 4 ] ] ] 99672 byl [ výnos % [ 8.33 ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##43.EnglishT-wsj_1950-s43-t32_coract
+EN:	The third part, consisting of $1 billion of noncallable bonds due Oct. 1, 1994, was priced as 8 1\/4% securities at 99.672 to yield 8.33%.
+CS:	Třetí část, sestávající z nevypověditelných dluhopisů v hodnotě 1 miliardy dolarů splatných 1. října 1994, byla oceněna jako 8 1/4% cenné papíry na 99672 tak, aby výnos byl 8.33 %. 
+EN_TT:	priced [ part [ third consisting [ #Cor.ACT $ [ billion [ 1 ] bonds [ noncallable due [ Oct. [ 1 1994 ] ] ] ] ] ] #Gen.ACT securities [ % [ #Separ.CONJ [ 8 1\/4 [ 1\/4 1\/4 ] ] ] ] 99.672 yield [ <#Cor.ACT> #Gen.ADDR % [ 8.33 ] ] ]
+CS_TT:	oceněna [ #PersPron.ACT část [ Třetí sestávající [ dluhopisů [ nevypověditelných hodnotě [ miliardy [ 1 dolarů ] ] splatných [ října [ 1 1994 ] ] ] ] ] papíry [ cenné #Separ.CONJ [ 8 / [ 1 4 ] ] ] 99672 byl [ výnos % [ 8.33 ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##4.EnglishT-wsj_1950-s4a3
+EN:	Rated single-A-3 by Moody's Investors Service Inc. and single-A by Standard&Poor's Corp., the issue will be sold through underwriters led by Goldman, Sachs&Co.
+CS:	Tato emise s ratingem A3 podle agentury Moody's Investors Service Inc. a s ratingem A podle agentury Standard & Poor's Corp. se bude prodávat prostřednictvím upisovatelů, které vede společnost Goldman, Sachs & Co. 
+EN_TT:	sold [ and [ Rated [ single-A-3 Inc. [ Service [ Moody Investors ] ] ] <#Cor.PAT> Rated [ single-A Corp. [ & [ Standard Poor ] ] ] ] issue #Gen.ACT underwriters [ led [ #Cor.PAT & [ Sachs [ Goldman ] Co ] ] ] ]
+CS_TT:	prodávat [ emise [ Tato a [ ratingem [ A3 agentury [ #Forn.ID [ Moody ' s Investors Service Inc . ] ] ] ratingem [ A agentury [ #Forn.ID [ Standard & Poor ' s Corp . ] ] ] ] ] #Gen.ADDR #Gen.ACT upisovatelů [ vede [ které společnost [ #Forn.ID [ Goldman , Sachs & Co ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##5.EnglishT-wsj_1950-s5a1
+EN:	California Health Facilities Financing Authority -- $144.35 million of revenue bonds for Kaiser Permanente, due 19931999, 2004, 2008, 2018 and 2019, tentatively priced by a PaineWebber Inc. group to yield from 6.25% in 1993 to 7.227% in 2018.
+CS:	California Health Facilities Financing Authority - příjmové obligace pro organizaci Kaiser Permanente v hodnotě 144.35 milionu dolarů splatné v letech 1993, 1999, 2004, 2008, 2018 a 2019, předběžně oceněné skupinou PaineWebber Inc. tak, aby se výnosy pohybovaly v rozsahu od 6.25 % v roce 1993 do 7227 % v roce 2018. 
+EN_TT:	-- [ Authority [ California Financing [ Facilities [ Health ] ] ] $ [ million [ 144.35 ] bonds [ revenue Permanente [ Kaiser ] due [ and [ 19931999 2004 2008 2018 2019 ] ] priced [ tentatively <#Cor.PAT> group [ Inc. [ PaineWebber ] ] to [ #Cor.ACT #Gen.ADDR yield [ % [ 6.25 ] 1993 ] yield [ % [ 7.227 ] 2018 ] ] ] ] ] ]
+CS_TT:	- [ #Forn.DENOM [ California Health Facilities Financing Authority ] obligace [ příjmové organizaci [ #Forn.ID [ Kaiser Permanente ] ] hodnotě [ milionu [ 144.35 dolarů ] ] , [ splatné [ letech [ a [ 1993 1999 2004 2008 2018 2019 ] ] ] oceněné [ předběžně skupinou [ #Forn.ID [ PaineWebber Inc . ] ] pohybovaly [ výnosy rozsahu [ % [ 6.25 roce [ 1993 ] ] % [ 7227 roce [ 2018 ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##5.EnglishT-wsj_1950-s5-t39_coract
+EN:	California Health Facilities Financing Authority -- $144.35 million of revenue bonds for Kaiser Permanente, due 19931999, 2004, 2008, 2018 and 2019, tentatively priced by a PaineWebber Inc. group to yield from 6.25% in 1993 to 7.227% in 2018.
+CS:	California Health Facilities Financing Authority - příjmové obligace pro organizaci Kaiser Permanente v hodnotě 144.35 milionu dolarů splatné v letech 1993, 1999, 2004, 2008, 2018 a 2019, předběžně oceněné skupinou PaineWebber Inc. tak, aby se výnosy pohybovaly v rozsahu od 6.25 % v roce 1993 do 7227 % v roce 2018. 
+EN_TT:	-- [ Authority [ California Financing [ Facilities [ Health ] ] ] $ [ million [ 144.35 ] bonds [ revenue Permanente [ Kaiser ] due [ and [ 19931999 2004 2008 2018 2019 ] ] priced [ tentatively #Cor.PAT group [ Inc. [ PaineWebber ] ] to [ <#Cor.ACT> #Gen.ADDR yield [ % [ 6.25 ] 1993 ] yield [ % [ 7.227 ] 2018 ] ] ] ] ] ]
+CS_TT:	- [ #Forn.DENOM [ California Health Facilities Financing Authority ] obligace [ příjmové organizaci [ #Forn.ID [ Kaiser Permanente ] ] hodnotě [ milionu [ 144.35 dolarů ] ] , [ splatné [ letech [ a [ 1993 1999 2004 2008 2018 2019 ] ] ] oceněné [ předběžně skupinou [ #Forn.ID [ PaineWebber Inc . ] ] pohybovaly [ výnosy rozsahu [ % [ 6.25 roce [ 1993 ] ] % [ 7227 roce [ 2018 ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##6.EnglishT-wsj_1950-s6-t8_coract
+EN:	Serial bonds were priced to yield to 6.80% in 1999.
+CS:	Ceny sériových dluhopisů byly stanoveny tak, aby výnos v roce 1999 byl 6.80 %. 
+EN_TT:	priced [ bonds [ Serial ] #Gen.ACT yield [ <#Cor.ACT> #Gen.ADDR % [ 6.80 ] 1999 ] ]
+CS_TT:	stanoveny [ #PersPron.ACT Ceny [ dluhopisů [ sériových ] ] byl [ výnos roce [ 1999 ] % [ 6.80 ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##7.EnglishT-wsj_1950-s7a16
+EN:	There are about $10 million of 7% bonds priced at 99 1\/4 to yield 7.081% in 2004; about $15 million of 7% bonds priced at 98 1\/2 to yield 7.145% in 2008; about $88.35 million of 7% bonds priced at 97 1\/4 to yield 7.227% in 2018; and about $15 million of 6 3\/4% bonds priced to yield 7.15% in 2019.
+CS:	Nabízeny jsou 7% dluhopisy v hodnotě kolem 10 milionů dolarů oceněné na 99 1/4 tak, aby výnos v roce 2004 byl 7081 %, 7% dluhopisy v hodnotě kolem 15 milionů dolarů oceněné na 98 1/2 tak, aby výnos v roce 2008 byl 7145 %, 7% dluhopisy v hodnotě kolem 88.35 milionu dolarů oceněné na 97 1/4 tak, aby výnos v roce 2018 byl 7227 %, 6 3/4% dluhopisy v hodnotě kolem 15 milionů dolarů oceněné tak, aby výnos v roce 2019 byl 7.15 %. 
+EN_TT:	are [ and [ $ [ million [ 10 [ about ] ] bonds [ % [ 7 ] priced [ <#Cor.PAT> #Gen.ACT #Separ.CONJ [ 99 1\/4 [ 1\/4 1\/4 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.081 ] 2004 ] ] ] ] $ [ million [ 15 [ about ] ] bonds [ % [ 7 ] priced [ #Cor.PAT #Gen.ACT #Separ.CONJ [ 98 1\/2 [ 1\/2 1\/2 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.145 ] 2008 ] ] ] ] $ [ million [ 88.35 [ about ] ] bonds [ % [ 7 ] priced [ #Gen.ACT #Cor.PAT #Separ.CONJ [ 97 1\/4 [ 1\/4 1\/4 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.227 ] 2018 ] ] ] ] $ [ million [ 15 [ about ] ] bonds [ % [ #Separ.CONJ [ 6 3\/4 [ 3\/4 3\/4 ] ] ] priced [ #Gen.ACT #Cor.PAT yield [ #Cor.ACT #Gen.ADDR % [ 7.15 ] 2019 ] ] ] ] ] ]
+CS_TT:	Nabízeny [ #PersPron.ACT #Gen.ADDR , [ dluhopisy [ % [ 7 ] hodnotě [ milionů [ 10 dolarů ] ] oceněné [ #Separ.CONJ [ 99 / [ 1 4 ] ] byl [ výnos roce [ 2004 ] % [ 7081 ] ] ] ] dluhopisy [ % [ 7 ] hodnotě [ milionů [ 15 dolarů ] ] oceněné [ #Separ.CONJ [ 98 / [ 1 2 ] ] byl [ výnos roce [ 2008 ] % [ 7145 ] ] ] ] dluhopisy [ % [ 7 ] hodnotě [ milionu [ 88.35 dolarů ] ] oceněné [ #Separ.CONJ [ 97 / [ 1 4 ] ] byl [ výnos roce [ 2018 ] % [ 7227 ] ] ] ] dluhopisy [ % [ #Separ.CONJ [ 6 / [ 3 4 ] ] ] hodnotě [ milionů [ 15 dolarů ] ] oceněné [ byl [ výnos roce [ 2019 ] % [ 7.15 ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##7.EnglishT-wsj_1950-s7a17
+EN:	There are about $10 million of 7% bonds priced at 99 1\/4 to yield 7.081% in 2004; about $15 million of 7% bonds priced at 98 1\/2 to yield 7.145% in 2008; about $88.35 million of 7% bonds priced at 97 1\/4 to yield 7.227% in 2018; and about $15 million of 6 3\/4% bonds priced to yield 7.15% in 2019.
+CS:	Nabízeny jsou 7% dluhopisy v hodnotě kolem 10 milionů dolarů oceněné na 99 1/4 tak, aby výnos v roce 2004 byl 7081 %, 7% dluhopisy v hodnotě kolem 15 milionů dolarů oceněné na 98 1/2 tak, aby výnos v roce 2008 byl 7145 %, 7% dluhopisy v hodnotě kolem 88.35 milionu dolarů oceněné na 97 1/4 tak, aby výnos v roce 2018 byl 7227 %, 6 3/4% dluhopisy v hodnotě kolem 15 milionů dolarů oceněné tak, aby výnos v roce 2019 byl 7.15 %. 
+EN_TT:	are [ and [ $ [ million [ 10 [ about ] ] bonds [ % [ 7 ] priced [ #Cor.PAT #Gen.ACT #Separ.CONJ [ 99 1\/4 [ 1\/4 1\/4 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.081 ] 2004 ] ] ] ] $ [ million [ 15 [ about ] ] bonds [ % [ 7 ] priced [ <#Cor.PAT> #Gen.ACT #Separ.CONJ [ 98 1\/2 [ 1\/2 1\/2 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.145 ] 2008 ] ] ] ] $ [ million [ 88.35 [ about ] ] bonds [ % [ 7 ] priced [ #Gen.ACT #Cor.PAT #Separ.CONJ [ 97 1\/4 [ 1\/4 1\/4 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.227 ] 2018 ] ] ] ] $ [ million [ 15 [ about ] ] bonds [ % [ #Separ.CONJ [ 6 3\/4 [ 3\/4 3\/4 ] ] ] priced [ #Gen.ACT #Cor.PAT yield [ #Cor.ACT #Gen.ADDR % [ 7.15 ] 2019 ] ] ] ] ] ]
+CS_TT:	Nabízeny [ #PersPron.ACT #Gen.ADDR , [ dluhopisy [ % [ 7 ] hodnotě [ milionů [ 10 dolarů ] ] oceněné [ #Separ.CONJ [ 99 / [ 1 4 ] ] byl [ výnos roce [ 2004 ] % [ 7081 ] ] ] ] dluhopisy [ % [ 7 ] hodnotě [ milionů [ 15 dolarů ] ] oceněné [ #Separ.CONJ [ 98 / [ 1 2 ] ] byl [ výnos roce [ 2008 ] % [ 7145 ] ] ] ] dluhopisy [ % [ 7 ] hodnotě [ milionu [ 88.35 dolarů ] ] oceněné [ #Separ.CONJ [ 97 / [ 1 4 ] ] byl [ výnos roce [ 2018 ] % [ 7227 ] ] ] ] dluhopisy [ % [ #Separ.CONJ [ 6 / [ 3 4 ] ] ] hodnotě [ milionů [ 15 dolarů ] ] oceněné [ byl [ výnos roce [ 2019 ] % [ 7.15 ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##7.EnglishT-wsj_1950-s7a3
+EN:	There are about $10 million of 7% bonds priced at 99 1\/4 to yield 7.081% in 2004; about $15 million of 7% bonds priced at 98 1\/2 to yield 7.145% in 2008; about $88.35 million of 7% bonds priced at 97 1\/4 to yield 7.227% in 2018; and about $15 million of 6 3\/4% bonds priced to yield 7.15% in 2019.
+CS:	Nabízeny jsou 7% dluhopisy v hodnotě kolem 10 milionů dolarů oceněné na 99 1/4 tak, aby výnos v roce 2004 byl 7081 %, 7% dluhopisy v hodnotě kolem 15 milionů dolarů oceněné na 98 1/2 tak, aby výnos v roce 2008 byl 7145 %, 7% dluhopisy v hodnotě kolem 88.35 milionu dolarů oceněné na 97 1/4 tak, aby výnos v roce 2018 byl 7227 %, 6 3/4% dluhopisy v hodnotě kolem 15 milionů dolarů oceněné tak, aby výnos v roce 2019 byl 7.15 %. 
+EN_TT:	are [ and [ $ [ million [ 10 [ about ] ] bonds [ % [ 7 ] priced [ #Cor.PAT #Gen.ACT #Separ.CONJ [ 99 1\/4 [ 1\/4 1\/4 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.081 ] 2004 ] ] ] ] $ [ million [ 15 [ about ] ] bonds [ % [ 7 ] priced [ #Cor.PAT #Gen.ACT #Separ.CONJ [ 98 1\/2 [ 1\/2 1\/2 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.145 ] 2008 ] ] ] ] $ [ million [ 88.35 [ about ] ] bonds [ % [ 7 ] priced [ #Gen.ACT <#Cor.PAT> #Separ.CONJ [ 97 1\/4 [ 1\/4 1\/4 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.227 ] 2018 ] ] ] ] $ [ million [ 15 [ about ] ] bonds [ % [ #Separ.CONJ [ 6 3\/4 [ 3\/4 3\/4 ] ] ] priced [ #Gen.ACT #Cor.PAT yield [ #Cor.ACT #Gen.ADDR % [ 7.15 ] 2019 ] ] ] ] ] ]
+CS_TT:	Nabízeny [ #PersPron.ACT #Gen.ADDR , [ dluhopisy [ % [ 7 ] hodnotě [ milionů [ 10 dolarů ] ] oceněné [ #Separ.CONJ [ 99 / [ 1 4 ] ] byl [ výnos roce [ 2004 ] % [ 7081 ] ] ] ] dluhopisy [ % [ 7 ] hodnotě [ milionů [ 15 dolarů ] ] oceněné [ #Separ.CONJ [ 98 / [ 1 2 ] ] byl [ výnos roce [ 2008 ] % [ 7145 ] ] ] ] dluhopisy [ % [ 7 ] hodnotě [ milionu [ 88.35 dolarů ] ] oceněné [ #Separ.CONJ [ 97 / [ 1 4 ] ] byl [ výnos roce [ 2018 ] % [ 7227 ] ] ] ] dluhopisy [ % [ #Separ.CONJ [ 6 / [ 3 4 ] ] ] hodnotě [ milionů [ 15 dolarů ] ] oceněné [ byl [ výnos roce [ 2019 ] % [ 7.15 ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##7.EnglishT-wsj_1950-s7a4
+EN:	There are about $10 million of 7% bonds priced at 99 1\/4 to yield 7.081% in 2004; about $15 million of 7% bonds priced at 98 1\/2 to yield 7.145% in 2008; about $88.35 million of 7% bonds priced at 97 1\/4 to yield 7.227% in 2018; and about $15 million of 6 3\/4% bonds priced to yield 7.15% in 2019.
+CS:	Nabízeny jsou 7% dluhopisy v hodnotě kolem 10 milionů dolarů oceněné na 99 1/4 tak, aby výnos v roce 2004 byl 7081 %, 7% dluhopisy v hodnotě kolem 15 milionů dolarů oceněné na 98 1/2 tak, aby výnos v roce 2008 byl 7145 %, 7% dluhopisy v hodnotě kolem 88.35 milionu dolarů oceněné na 97 1/4 tak, aby výnos v roce 2018 byl 7227 %, 6 3/4% dluhopisy v hodnotě kolem 15 milionů dolarů oceněné tak, aby výnos v roce 2019 byl 7.15 %. 
+EN_TT:	are [ and [ $ [ million [ 10 [ about ] ] bonds [ % [ 7 ] priced [ #Cor.PAT #Gen.ACT #Separ.CONJ [ 99 1\/4 [ 1\/4 1\/4 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.081 ] 2004 ] ] ] ] $ [ million [ 15 [ about ] ] bonds [ % [ 7 ] priced [ #Cor.PAT #Gen.ACT #Separ.CONJ [ 98 1\/2 [ 1\/2 1\/2 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.145 ] 2008 ] ] ] ] $ [ million [ 88.35 [ about ] ] bonds [ % [ 7 ] priced [ #Gen.ACT #Cor.PAT #Separ.CONJ [ 97 1\/4 [ 1\/4 1\/4 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.227 ] 2018 ] ] ] ] $ [ million [ 15 [ about ] ] bonds [ % [ #Separ.CONJ [ 6 3\/4 [ 3\/4 3\/4 ] ] ] priced [ #Gen.ACT <#Cor.PAT> yield [ #Cor.ACT #Gen.ADDR % [ 7.15 ] 2019 ] ] ] ] ] ]
+CS_TT:	Nabízeny [ #PersPron.ACT #Gen.ADDR , [ dluhopisy [ % [ 7 ] hodnotě [ milionů [ 10 dolarů ] ] oceněné [ #Separ.CONJ [ 99 / [ 1 4 ] ] byl [ výnos roce [ 2004 ] % [ 7081 ] ] ] ] dluhopisy [ % [ 7 ] hodnotě [ milionů [ 15 dolarů ] ] oceněné [ #Separ.CONJ [ 98 / [ 1 2 ] ] byl [ výnos roce [ 2008 ] % [ 7145 ] ] ] ] dluhopisy [ % [ 7 ] hodnotě [ milionu [ 88.35 dolarů ] ] oceněné [ #Separ.CONJ [ 97 / [ 1 4 ] ] byl [ výnos roce [ 2018 ] % [ 7227 ] ] ] ] dluhopisy [ % [ #Separ.CONJ [ 6 / [ 3 4 ] ] ] hodnotě [ milionů [ 15 dolarů ] ] oceněné [ byl [ výnos roce [ 2019 ] % [ 7.15 ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##7.EnglishT-wsj_1950-s7-t19_coract
+EN:	There are about $10 million of 7% bonds priced at 99 1\/4 to yield 7.081% in 2004; about $15 million of 7% bonds priced at 98 1\/2 to yield 7.145% in 2008; about $88.35 million of 7% bonds priced at 97 1\/4 to yield 7.227% in 2018; and about $15 million of 6 3\/4% bonds priced to yield 7.15% in 2019.
+CS:	Nabízeny jsou 7% dluhopisy v hodnotě kolem 10 milionů dolarů oceněné na 99 1/4 tak, aby výnos v roce 2004 byl 7081 %, 7% dluhopisy v hodnotě kolem 15 milionů dolarů oceněné na 98 1/2 tak, aby výnos v roce 2008 byl 7145 %, 7% dluhopisy v hodnotě kolem 88.35 milionu dolarů oceněné na 97 1/4 tak, aby výnos v roce 2018 byl 7227 %, 6 3/4% dluhopisy v hodnotě kolem 15 milionů dolarů oceněné tak, aby výnos v roce 2019 byl 7.15 %. 
+EN_TT:	are [ and [ $ [ million [ 10 [ about ] ] bonds [ % [ 7 ] priced [ #Cor.PAT #Gen.ACT #Separ.CONJ [ 99 1\/4 [ 1\/4 1\/4 ] ] yield [ <#Cor.ACT> #Gen.ADDR % [ 7.081 ] 2004 ] ] ] ] $ [ million [ 15 [ about ] ] bonds [ % [ 7 ] priced [ #Cor.PAT #Gen.ACT #Separ.CONJ [ 98 1\/2 [ 1\/2 1\/2 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.145 ] 2008 ] ] ] ] $ [ million [ 88.35 [ about ] ] bonds [ % [ 7 ] priced [ #Gen.ACT #Cor.PAT #Separ.CONJ [ 97 1\/4 [ 1\/4 1\/4 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.227 ] 2018 ] ] ] ] $ [ million [ 15 [ about ] ] bonds [ % [ #Separ.CONJ [ 6 3\/4 [ 3\/4 3\/4 ] ] ] priced [ #Gen.ACT #Cor.PAT yield [ #Cor.ACT #Gen.ADDR % [ 7.15 ] 2019 ] ] ] ] ] ]
+CS_TT:	Nabízeny [ #PersPron.ACT #Gen.ADDR , [ dluhopisy [ % [ 7 ] hodnotě [ milionů [ 10 dolarů ] ] oceněné [ #Separ.CONJ [ 99 / [ 1 4 ] ] byl [ výnos roce [ 2004 ] % [ 7081 ] ] ] ] dluhopisy [ % [ 7 ] hodnotě [ milionů [ 15 dolarů ] ] oceněné [ #Separ.CONJ [ 98 / [ 1 2 ] ] byl [ výnos roce [ 2008 ] % [ 7145 ] ] ] ] dluhopisy [ % [ 7 ] hodnotě [ milionu [ 88.35 dolarů ] ] oceněné [ #Separ.CONJ [ 97 / [ 1 4 ] ] byl [ výnos roce [ 2018 ] % [ 7227 ] ] ] ] dluhopisy [ % [ #Separ.CONJ [ 6 / [ 3 4 ] ] ] hodnotě [ milionů [ 15 dolarů ] ] oceněné [ byl [ výnos roce [ 2019 ] % [ 7.15 ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##7.EnglishT-wsj_1950-s7-t41_coract
+EN:	There are about $10 million of 7% bonds priced at 99 1\/4 to yield 7.081% in 2004; about $15 million of 7% bonds priced at 98 1\/2 to yield 7.145% in 2008; about $88.35 million of 7% bonds priced at 97 1\/4 to yield 7.227% in 2018; and about $15 million of 6 3\/4% bonds priced to yield 7.15% in 2019.
+CS:	Nabízeny jsou 7% dluhopisy v hodnotě kolem 10 milionů dolarů oceněné na 99 1/4 tak, aby výnos v roce 2004 byl 7081 %, 7% dluhopisy v hodnotě kolem 15 milionů dolarů oceněné na 98 1/2 tak, aby výnos v roce 2008 byl 7145 %, 7% dluhopisy v hodnotě kolem 88.35 milionu dolarů oceněné na 97 1/4 tak, aby výnos v roce 2018 byl 7227 %, 6 3/4% dluhopisy v hodnotě kolem 15 milionů dolarů oceněné tak, aby výnos v roce 2019 byl 7.15 %. 
+EN_TT:	are [ and [ $ [ million [ 10 [ about ] ] bonds [ % [ 7 ] priced [ #Cor.PAT #Gen.ACT #Separ.CONJ [ 99 1\/4 [ 1\/4 1\/4 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.081 ] 2004 ] ] ] ] $ [ million [ 15 [ about ] ] bonds [ % [ 7 ] priced [ #Cor.PAT #Gen.ACT #Separ.CONJ [ 98 1\/2 [ 1\/2 1\/2 ] ] yield [ <#Cor.ACT> #Gen.ADDR % [ 7.145 ] 2008 ] ] ] ] $ [ million [ 88.35 [ about ] ] bonds [ % [ 7 ] priced [ #Gen.ACT #Cor.PAT #Separ.CONJ [ 97 1\/4 [ 1\/4 1\/4 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.227 ] 2018 ] ] ] ] $ [ million [ 15 [ about ] ] bonds [ % [ #Separ.CONJ [ 6 3\/4 [ 3\/4 3\/4 ] ] ] priced [ #Gen.ACT #Cor.PAT yield [ #Cor.ACT #Gen.ADDR % [ 7.15 ] 2019 ] ] ] ] ] ]
+CS_TT:	Nabízeny [ #PersPron.ACT #Gen.ADDR , [ dluhopisy [ % [ 7 ] hodnotě [ milionů [ 10 dolarů ] ] oceněné [ #Separ.CONJ [ 99 / [ 1 4 ] ] byl [ výnos roce [ 2004 ] % [ 7081 ] ] ] ] dluhopisy [ % [ 7 ] hodnotě [ milionů [ 15 dolarů ] ] oceněné [ #Separ.CONJ [ 98 / [ 1 2 ] ] byl [ výnos roce [ 2008 ] % [ 7145 ] ] ] ] dluhopisy [ % [ 7 ] hodnotě [ milionu [ 88.35 dolarů ] ] oceněné [ #Separ.CONJ [ 97 / [ 1 4 ] ] byl [ výnos roce [ 2018 ] % [ 7227 ] ] ] ] dluhopisy [ % [ #Separ.CONJ [ 6 / [ 3 4 ] ] ] hodnotě [ milionů [ 15 dolarů ] ] oceněné [ byl [ výnos roce [ 2019 ] % [ 7.15 ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##7.EnglishT-wsj_1950-s7-t63_coract
+EN:	There are about $10 million of 7% bonds priced at 99 1\/4 to yield 7.081% in 2004; about $15 million of 7% bonds priced at 98 1\/2 to yield 7.145% in 2008; about $88.35 million of 7% bonds priced at 97 1\/4 to yield 7.227% in 2018; and about $15 million of 6 3\/4% bonds priced to yield 7.15% in 2019.
+CS:	Nabízeny jsou 7% dluhopisy v hodnotě kolem 10 milionů dolarů oceněné na 99 1/4 tak, aby výnos v roce 2004 byl 7081 %, 7% dluhopisy v hodnotě kolem 15 milionů dolarů oceněné na 98 1/2 tak, aby výnos v roce 2008 byl 7145 %, 7% dluhopisy v hodnotě kolem 88.35 milionu dolarů oceněné na 97 1/4 tak, aby výnos v roce 2018 byl 7227 %, 6 3/4% dluhopisy v hodnotě kolem 15 milionů dolarů oceněné tak, aby výnos v roce 2019 byl 7.15 %. 
+EN_TT:	are [ and [ $ [ million [ 10 [ about ] ] bonds [ % [ 7 ] priced [ #Cor.PAT #Gen.ACT #Separ.CONJ [ 99 1\/4 [ 1\/4 1\/4 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.081 ] 2004 ] ] ] ] $ [ million [ 15 [ about ] ] bonds [ % [ 7 ] priced [ #Cor.PAT #Gen.ACT #Separ.CONJ [ 98 1\/2 [ 1\/2 1\/2 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.145 ] 2008 ] ] ] ] $ [ million [ 88.35 [ about ] ] bonds [ % [ 7 ] priced [ #Gen.ACT #Cor.PAT #Separ.CONJ [ 97 1\/4 [ 1\/4 1\/4 ] ] yield [ <#Cor.ACT> #Gen.ADDR % [ 7.227 ] 2018 ] ] ] ] $ [ million [ 15 [ about ] ] bonds [ % [ #Separ.CONJ [ 6 3\/4 [ 3\/4 3\/4 ] ] ] priced [ #Gen.ACT #Cor.PAT yield [ #Cor.ACT #Gen.ADDR % [ 7.15 ] 2019 ] ] ] ] ] ]
+CS_TT:	Nabízeny [ #PersPron.ACT #Gen.ADDR , [ dluhopisy [ % [ 7 ] hodnotě [ milionů [ 10 dolarů ] ] oceněné [ #Separ.CONJ [ 99 / [ 1 4 ] ] byl [ výnos roce [ 2004 ] % [ 7081 ] ] ] ] dluhopisy [ % [ 7 ] hodnotě [ milionů [ 15 dolarů ] ] oceněné [ #Separ.CONJ [ 98 / [ 1 2 ] ] byl [ výnos roce [ 2008 ] % [ 7145 ] ] ] ] dluhopisy [ % [ 7 ] hodnotě [ milionu [ 88.35 dolarů ] ] oceněné [ #Separ.CONJ [ 97 / [ 1 4 ] ] byl [ výnos roce [ 2018 ] % [ 7227 ] ] ] ] dluhopisy [ % [ #Separ.CONJ [ 6 / [ 3 4 ] ] ] hodnotě [ milionů [ 15 dolarů ] ] oceněné [ byl [ výnos roce [ 2019 ] % [ 7.15 ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##7.EnglishT-wsj_1950-s7-t84_coract
+EN:	There are about $10 million of 7% bonds priced at 99 1\/4 to yield 7.081% in 2004; about $15 million of 7% bonds priced at 98 1\/2 to yield 7.145% in 2008; about $88.35 million of 7% bonds priced at 97 1\/4 to yield 7.227% in 2018; and about $15 million of 6 3\/4% bonds priced to yield 7.15% in 2019.
+CS:	Nabízeny jsou 7% dluhopisy v hodnotě kolem 10 milionů dolarů oceněné na 99 1/4 tak, aby výnos v roce 2004 byl 7081 %, 7% dluhopisy v hodnotě kolem 15 milionů dolarů oceněné na 98 1/2 tak, aby výnos v roce 2008 byl 7145 %, 7% dluhopisy v hodnotě kolem 88.35 milionu dolarů oceněné na 97 1/4 tak, aby výnos v roce 2018 byl 7227 %, 6 3/4% dluhopisy v hodnotě kolem 15 milionů dolarů oceněné tak, aby výnos v roce 2019 byl 7.15 %. 
+EN_TT:	are [ and [ $ [ million [ 10 [ about ] ] bonds [ % [ 7 ] priced [ #Cor.PAT #Gen.ACT #Separ.CONJ [ 99 1\/4 [ 1\/4 1\/4 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.081 ] 2004 ] ] ] ] $ [ million [ 15 [ about ] ] bonds [ % [ 7 ] priced [ #Cor.PAT #Gen.ACT #Separ.CONJ [ 98 1\/2 [ 1\/2 1\/2 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.145 ] 2008 ] ] ] ] $ [ million [ 88.35 [ about ] ] bonds [ % [ 7 ] priced [ #Gen.ACT #Cor.PAT #Separ.CONJ [ 97 1\/4 [ 1\/4 1\/4 ] ] yield [ #Cor.ACT #Gen.ADDR % [ 7.227 ] 2018 ] ] ] ] $ [ million [ 15 [ about ] ] bonds [ % [ #Separ.CONJ [ 6 3\/4 [ 3\/4 3\/4 ] ] ] priced [ #Gen.ACT #Cor.PAT yield [ <#Cor.ACT> #Gen.ADDR % [ 7.15 ] 2019 ] ] ] ] ] ]
+CS_TT:	Nabízeny [ #PersPron.ACT #Gen.ADDR , [ dluhopisy [ % [ 7 ] hodnotě [ milionů [ 10 dolarů ] ] oceněné [ #Separ.CONJ [ 99 / [ 1 4 ] ] byl [ výnos roce [ 2004 ] % [ 7081 ] ] ] ] dluhopisy [ % [ 7 ] hodnotě [ milionů [ 15 dolarů ] ] oceněné [ #Separ.CONJ [ 98 / [ 1 2 ] ] byl [ výnos roce [ 2008 ] % [ 7145 ] ] ] ] dluhopisy [ % [ 7 ] hodnotě [ milionu [ 88.35 dolarů ] ] oceněné [ #Separ.CONJ [ 97 / [ 1 4 ] ] byl [ výnos roce [ 2018 ] % [ 7227 ] ] ] ] dluhopisy [ % [ #Separ.CONJ [ 6 / [ 3 4 ] ] ] hodnotě [ milionů [ 15 dolarů ] ] oceněné [ byl [ výnos roce [ 2019 ] % [ 7.15 ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##9.EnglishT-wsj_1950-s9a4
+EN:	Pennsylvania Higher Education Facilities Authority -- approximately $117 million of revenue bonds for Hahnemann University, Series 1989, due 1990-2002, 2009 and 2019, priced late Monday by a Merrill Lynch Capital Markets group to yield from 6% in 1990 to 7.282% in 2019.
+CS:	Pennsylvania Higher Education Facilities Authority - příjmové obligace v hodnotě přibližně 117 milionů dolarů pro Hahnemann University, série 1989, splatné v letech 1990 - 2002, 2009 a 2019, oceněné v pondělí večer skupinou Merrill Lynch Capital Markets tak, aby se výnosy pohybovaly v rozsahu od 6 % v roce 1990 do 7282 % v roce 2019. 
+EN_TT:	-- [ Authority [ Pennsylvania Facilities [ Education [ Higher ] ] ] $ [ million [ 117 [ approximately ] ] bonds [ revenue University [ Hahnemann ] Series [ 1989 ] due [ and [ 1990-2002 [ 1990-2002 1990-2002 ] 2009 2019 ] ] priced [ <#Cor.PAT> Monday [ late ] group [ Markets [ Lynch [ Merrill ] Capital ] ] to [ #Cor.ACT #Gen.ADDR yield [ % [ 6 ] 1990 ] yield [ % [ 7.282 ] 2019 ] ] ] ] ] ]
+CS_TT:	- [ #Forn.DENOM [ Pennsylvania Higher Education Facilities Authority ] , [ obligace [ příjmové hodnotě [ milionů [ 117 [ přibližně ] dolarů ] ] #Forn.BEN [ Hahnemann University ] , [ splatné [ letech [ a [ - [ 1990 2002 ] 2009 2019 ] ] ] oceněné [ pondělí [ večer ] skupinou [ #Forn.ID [ Merrill Lynch Capital Markets ] ] pohybovaly [ výnosy rozsahu [ do [ % [ 6 roce [ 1990 ] ] % [ 7282 roce [ 2019 ] ] ] ] ] ] ] ] série [ 1989 ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##9.EnglishT-wsj_1950-s9-t42_coract
+EN:	Pennsylvania Higher Education Facilities Authority -- approximately $117 million of revenue bonds for Hahnemann University, Series 1989, due 1990-2002, 2009 and 2019, priced late Monday by a Merrill Lynch Capital Markets group to yield from 6% in 1990 to 7.282% in 2019.
+CS:	Pennsylvania Higher Education Facilities Authority - příjmové obligace v hodnotě přibližně 117 milionů dolarů pro Hahnemann University, série 1989, splatné v letech 1990 - 2002, 2009 a 2019, oceněné v pondělí večer skupinou Merrill Lynch Capital Markets tak, aby se výnosy pohybovaly v rozsahu od 6 % v roce 1990 do 7282 % v roce 2019. 
+EN_TT:	-- [ Authority [ Pennsylvania Facilities [ Education [ Higher ] ] ] $ [ million [ 117 [ approximately ] ] bonds [ revenue University [ Hahnemann ] Series [ 1989 ] due [ and [ 1990-2002 [ 1990-2002 1990-2002 ] 2009 2019 ] ] priced [ #Cor.PAT Monday [ late ] group [ Markets [ Lynch [ Merrill ] Capital ] ] to [ <#Cor.ACT> #Gen.ADDR yield [ % [ 6 ] 1990 ] yield [ % [ 7.282 ] 2019 ] ] ] ] ] ]
+CS_TT:	- [ #Forn.DENOM [ Pennsylvania Higher Education Facilities Authority ] , [ obligace [ příjmové hodnotě [ milionů [ 117 [ přibližně ] dolarů ] ] #Forn.BEN [ Hahnemann University ] , [ splatné [ letech [ a [ - [ 1990 2002 ] 2009 2019 ] ] ] oceněné [ pondělí [ večer ] skupinou [ #Forn.ID [ Merrill Lynch Capital Markets ] ] pohybovaly [ výnosy rozsahu [ do [ % [ 6 roce [ 1990 ] ] % [ 7282 roce [ 2019 ] ] ] ] ] ] ] ] série [ 1989 ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1951.final.streex##12.EnglishT-wsj_1951-s12-t12_coract
+EN:	In July, Par and a 60%-owned unit agreed to plead guilty in that inquiry, as did another former Par official .
+CS:	V červenci se Par a pobočka, kterou z 60 % vlastní, dohodly v šetření přiznat vinu, stejně jako další bývalý funkcionář společnosti Par. 
+EN_TT:	agreed [ July and [ Par unit [ 60%-owned ] ] plead [ <#Cor.ACT> guilty inquiry [ that ] plead [ #PersPron.CPHR official [ another former Par ] ] ] ]
+CS_TT:	dohodly [ červenci a [ #Forn.ACT [ Par ] pobočka [ vlastní [ kterou #PersPron.ACT % [ 60 ] ] ] ] #Rcp.ADDR přiznat [ #Cor.ACT šetření [ #PersPron.PAT #Gen.ACT ] vinu stejně [ přiznat [ #PersPron.PAT funkcionář [ další bývalý společnosti [ Par ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1951.final.streex##13.EnglishT-wsj_1951-s13a1
+EN:	Mr. Sawyer began running the company on an interim basis in late September.
+CS:	Sawyer začal společnost prozatímně řídit na konci září. 
+EN_TT:	began [ Sawyer [ Mr. ] running [ <#Cor.ACT> company basis [ interim ] September [ late ] ] ]
+CS_TT:	začal [ Sawyer řídit [ společnost <#Cor.ACT> prozatímně ] konci [ září ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1951.final.streex##15.EnglishT-wsj_1951-s15-t19_coract
+EN:	Perry Levine, chairman, said Mr. Sawyer had ``taken significant steps'' to restore the company's credibility and sense of professionalism and integrity.
+CS:	Předseda Perry Levine uvedl, že Sawyer "udělal významné kroky" k obnovení důvěryhodnosti a dojmu profesionality a integrity, jímž firma působí. 
+EN_TT:	said [ , [ Levine [ Perry ] chairman ] #Gen.ADDR taken [ Sawyer [ Mr. ] steps [ significant ] restore [ <#Cor.ACT> #Gen.ADDR and [ company credibility sense [ and [ professionalism integrity ] ] ] ] ] ]
+CS_TT:	uvedl [ Levine [ Předseda Perry ] udělal [ Sawyer kroky [ významné obnovení [ <#PersPron.ACT> a [ důvěryhodnosti dojmu [ a [ profesionality integrity ] působí [ jímž firma #Gen.PAT ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1951.final.streex##2.EnglishT-wsj_1951-s2a5
+EN:	Par also said it was advised by the U.S. attorney for Maryland that it is one of a number of companies being investigated by a federal grand jury for alleged violations of the federal Food, Drug and Cosmetic Act.
+CS:	Společnost Par také uvedla, že ji státní zástupce Marylandu informoval, že je jednou z mnoha společností, u kterých federální trestní porota vyšetřuje údajné porušení federálního zákona o potravinách, lécích a kosmetice. 
+EN_TT:	said [ Par also #Gen.ADDR advised [ <#Cor.ADDR> attorney [ U.S. Maryland ] is [ it one [ number [ companies [ investigated [ #Cor.PAT #Forn.ACT [ grand jury [ federal violations [ alleged Act [ federal and [ Food Drug Cosmetic ] ] ] ] ] ] ] ] ] ] ] ]
+CS_TT:	uvedla [ Společnost [ Par ] také informoval [ ji zástupce [ státní Marylandu ] je [ #PersPron.ACT jednou [ společností [ mnoha vyšetřuje [ kterých porota [ federální trestní ] porušení [ #PersPron.ACT údajné zákona [ federálního a [ potravinách lécích kosmetice ] ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1951.final.streex##4.EnglishT-wsj_1951-s4a5
+EN:	A Par spokesman said he understood the criminal investigation in Maryland relates to matters Par disclosed in July, when Par said it filed false drug information with the FDA .
+CS:	Jeden mluvčí společnosti Par uvedl, že pochopil, že vyšetřování v Marylandu se váže k záležitostem odhaleným v červenci, kdy společnost Par oznámila, že u FDA registrovala nesprávnou informaci o lécích. 
+EN_TT:	said [ spokesman [ Par ] #Gen.ADDR understood [ he relates [ investigation [ criminal Maryland ] matters [ disclosed [ Par #Gen.ADDR <#Cor.PAT> July [ said [ when Par #Gen.ADDR filed [ it information [ false drug ] FDA ] ] ] ] ] ] ] ]
+CS_TT:	uvedl [ mluvčí [ Jeden společnosti [ Par ] ] pochopil [ #PersPron.ACT váže [ vyšetřování [ #PersPron.PAT #Gen.ACT Marylandu ] záležitostem [ odhaleným [ červenci [ oznámila [ #Gen.ADDR kdy společnost [ Par ] registrovala [ #PersPron.ACT #Idph.LOC [ FDA ] informaci [ nesprávnou lécích ] ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1951.final.streex##5.EnglishT-wsj_1951-s5a6
+EN:	At the time, the company said it was recalling one of its drugs and had stopped selling two others.
+CS:	V tu dobu společnost uvedla, že jeden ze svých léků zrušila a prodej dalších dvou zastavila. 
+EN_TT:	said [ time company #Gen.ADDR and [ it recalling [ #Gen.ORIG one [ drugs [ its ] ] ] stopped [ selling [ <#Cor.ACT> others [ two ] ] ] ] ]
+CS_TT:	uvedla [ dobu [ tu ] společnost a [ #PersPron.ACT zrušila [ jeden [ léků [ svých ] ] ] zastavila [ prodej [ léků [ dalších dvou ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1951.final.streex##7.EnglishT-wsj_1951-s7a3
+EN:	The book noted changes made at the manufacturing level that weren't disclosed to the FDA.
+CS:	V knize byly poznámky o změnách na úrovni výroby, které nebyly oznámeny FDA. 
+EN_TT:	noted [ book changes [ made [ #Gen.ACT <#Cor.CPHR> level [ manufacturing ] ] disclosed [ that n't #Gen.ACT FDA ] ] ]
+CS_TT:	byly [ knize poznámky [ změnách [ výroby oznámeny [ které #Neg.RHEM #PersPron.ACT #Idph.ADDR [ FDA ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1951.final.streex##9.EnglishT-wsj_1951-s9a4
+EN:	Also yesterday, Ashok Patel, a former Par official who pleaded guilty to providing an FDA employee an illegal gratuity of $3,000, was sentenced by a federal judge in Baltimore to one year of community service and a $150,000 fine.
+CS:	Včera byl také Ashok Patel, bývalý představitel společnosti Par, který se přiznal, že poskytl jednomu zaměstnanci FDA úplatek ve výši 3000 dolarů, odsouzen federálním soudem v Baltimore k jednomu roku veřejně prospěšných prací a pokutě 150000 dolarů. 
+EN_TT:	sentenced [ Also yesterday , [ Patel [ Ashok ] official [ former Par pleaded [ who guilty providing [ <#Cor.ACT> employee [ FDA ] gratuity [ illegal $ [ 3,000 ] ] ] ] ] ] judge [ federal ] Baltimore and [ year [ one service [ community ] ] fine [ $ [ 150,000 ] ] ] ]
+CS_TT:	odsouzen [ Včera také , [ Patel [ Ashok ] představitel [ bývalý společnosti [ Par ] přiznal [ který poskytl [ <#PersPron.ACT> zaměstnanci [ jednomu #Idph.RSTR [ FDA ] ] úplatek [ výši [ dolarů [ 3000 ] ] ] ] ] ] ] soudem [ federálním #Forn.LOC [ Baltimore ] ] a [ roku [ jednomu prací [ prospěšných [ veřejně ] ] ] pokutě [ dolarů [ 150000 ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##12.EnglishT-wsj_1952-s12-t13_coract
+EN:	``Lawmakers have been saying for weeks that they plan to roll back the cuts as soon as they agree to a compromise on a deficit-cutting bill.''
+CS:	"Zákonodárci již týdny tvrdí, že plánují tyto škrty omezit, jakmile se dohodnou na kompromisním návrhu snížení deficitu." 
+EN_TT:	saying [ Lawmakers #Gen.ADDR weeks plan [ they roll [ <#Cor.ACT> cuts agree [ they compromise [ bill [ deficit-cutting ] ] ] ] ] ]
+CS_TT:	tvrdí [ Zákonodárci již týdny plánují [ #PersPron.ACT omezit [ <#Cor.ACT> škrty [ tyto ] dohodnou [ #Rcp.ADDR #PersPron.ACT návrhu [ kompromisním snížení [ #Gen.ACT deficitu ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##13.EnglishT-wsj_1952-s13-t7_coract
+EN:	Mr. Darman's inclination to save the sequester was backed up yesterday by White House Press Secretary Marlin Fitzwater:
+CS:	Darmanovu chuť k zachování sekvestrace včera podpořil tiskový mluvčí Bílého domu Marlin Fitzwater: 
+EN_TT:	backed [ inclination [ Darman [ Mr. ] save [ <#Cor.ACT> sequester ] ] yesterday Fitzwater [ Secretary [ House [ White ] Press ] Marlin ] ]
+CS_TT:	podpořil [ chuť [ Darmanovu zachování [ <#PersPron.ACT> sekvestrace ] ] včera Fitzwater [ mluvčí [ tiskový domu [ Bílého ] ] Marlin ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##14.EnglishT-wsj_1952-s14-t17_coract
+EN:	``There is some feeling here that the cuts are the way to go .
+CS:	"Máme pocit, že cesta, kterou se musíme vydat, je cestou škrtů. 
+EN_TT:	is [ here feeling [ some are [ cuts way [ #Benef.BEN go [ <#Cor.ACT> #Gen.PAT ] ] ] ] ]
+CS_TT:	Máme [ #PersPron.ACT pocit [ je [ cesta [ vydat [ #PersPron.ACT kterou #Oblfm.DIR3 ] ] škrtů ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##17.EnglishT-wsj_1952-s17-t13_coract
+EN:	It looks to us like a golden opportunity for George Bush to chop off at the knees all this talk about a timid, unserious presidency.
+CS:	Nám se to zdá jako jedinečná příležitost pro George Bushe, aby všechny řeči o neprůbojné, neseriózní činnosti prezidenta uťal v kolenou. 
+EN_TT:	looks [ It us opportunity [ golden Bush [ George ] chop [ <#Cor.ACT> knees talk [ all this presidency [ timid unserious ] ] ] ] ]
+CS_TT:	zdá [ Nám to příležitost [ jedinečná Bushe [ George ] uťal [ řeči [ všechny činnosti [ , [ neprůbojné neseriózní ] prezidenta ] ] <#PersPron.ACT> kolenou ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##18.EnglishT-wsj_1952-s18a4
+EN:	Mr. Bush would be acting in the public interest if he let the Washington elites who manipulate these budgets -- the bureaucrats, the lobbyists, the congressional staffers -- live for just one year on a restricted diet.
+CS:	Bush by jednal ve veřejném zájmu, kdyby na rok utáhnl opasky washingtonské elitě, která těmito rozpočty manipuluje - byrokratům, lobbistům a členům kongresu. 
+EN_TT:	acting [ Bush [ Mr. ] interest [ public ] let [ he -- [ elites [ Washington manipulate [ who budgets [ these ] ] ] , [ bureaucrats lobbyists staffers [ congressional ] ] ] live [ <#Cor.ACT> year [ one [ just ] ] diet [ restricted ] ] ] ]
+CS_TT:	jednal [ Bush zájmu [ veřejném ] utáhnl [ rok #PersPron.ACT opasky - [ elitě [ washingtonské manipuluje [ která rozpočty [ těmito ] ] ] a [ byrokratům lobbistům členům [ kongresu ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##1.EnglishT-wsj_1952-s1-t11_coract
+EN:	Just after midnight Monday, federal spending started to drop by $16 billion.
+CS:	V pondělí hned po půlnoci začaly federální výdaje klesat o 16 miliard dolarů. 
+EN_TT:	started [ Just midnight Monday spending [ federal ] drop [ <#Cor.ACT> $ [ billion [ 16 ] ] ] ]
+CS_TT:	začaly [ pondělí [ hned půlnoci ] výdaje [ federální ] klesat [ <#Cor.ACT> miliard [ 16 dolarů ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##21.EnglishT-wsj_1952-s21-t20_coract
+EN:	Another major factor in this positive trend was Ronald Reagan's decision early in his presidency to fight the budget war on the expenditure side rather than raising taxes.
+CS:	Dalším významným faktorem tohoto pozitivního trendu bylo rozhodnutí Ronalda Reagana, které učinil na počátku své prezidentské funkce, a to bojovat rozpočtovou válku spíše na straně výdajů než zvyšováním daní. 
+EN_TT:	was [ factor [ Another major trend [ this positive ] ] decision [ Reagan [ Ronald ] early [ presidency [ his ] ] fight [ <#Cor.ACT> war [ budget ] side [ expenditure ] rather [ raising [ #PersPron.ACT taxes ] ] ] ] ]
+CS_TT:	bylo [ faktorem [ Dalším významným trendu [ tohoto pozitivního ] ] to [ rozhodnutí [ #PersPron.PAT Reagana [ Ronalda ] učinil [ #PersPron.ACT které počátku [ funkce [ své prezidentské ] ] ] ] rozhodnutí [ #PersPron.ACT bojovat [ #Cor.ACT válku [ rozpočtovou ] spíše [ bojovat [ #PersPron.PAT zvyšováním [ #PersPron.ACT daní ] <#PersPron.ACT> ] ] straně [ výdajů ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##22.EnglishT-wsj_1952-s22a3
+EN:	George Bush's continued support of the tax dam sustains this strategy of pressuring Congress to make choices among competing priorities, rather than just saying yes to all the grateful special-interest constituencies that fill the PAC trough.
+CS:	Pokračující podpora daňové bariéry ze strany George Bushe potvrzuje strategii v podobě tlačení Kongresu k tomu, aby volil mezi vzájemně neslučitelnými prioritami, spíše než aby přikyvoval všem vděčným lobbujícím voličům, kteří plní koryto soukromých zájmových skupin. 
+EN_TT:	sustains [ support [ Bush [ George ] continued dam [ tax ] ] strategy [ this #Gen.ACT pressuring [ #Cor.ACT Congress make [ #Cor.ACT choices priorities [ competing [ <#Cor.ACT> #Rcp.ADDR #Gen.PAT ] ] rather [ saying [ #Cor.ACT yes constituencies [ all grateful special-interest fill [ that trough [ PAC ] ] ] ] ] just ] ] ] ]
+CS_TT:	potvrzuje [ podpora [ Pokračující bariéry [ daňové ] Bushe [ George ] ] strategii [ tlačení [ #PersPron.ACT Kongresu volil [ #Gen.PAT #PersPron.ACT prioritami [ neslučitelnými [ vzájemně ] ] spíše [ přikyvoval [ #PersPron.ACT voličům [ všem vděčným lobbujícím plní [ kteří koryto [ skupin [ soukromých zájmových ] ] ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##22.EnglishT-wsj_1952-s22a6
+EN:	George Bush's continued support of the tax dam sustains this strategy of pressuring Congress to make choices among competing priorities, rather than just saying yes to all the grateful special-interest constituencies that fill the PAC trough.
+CS:	Pokračující podpora daňové bariéry ze strany George Bushe potvrzuje strategii v podobě tlačení Kongresu k tomu, aby volil mezi vzájemně neslučitelnými prioritami, spíše než aby přikyvoval všem vděčným lobbujícím voličům, kteří plní koryto soukromých zájmových skupin. 
+EN_TT:	sustains [ support [ Bush [ George ] continued dam [ tax ] ] strategy [ this #Gen.ACT pressuring [ <#Cor.ACT> Congress make [ #Cor.ACT choices priorities [ competing [ #Cor.ACT #Rcp.ADDR #Gen.PAT ] ] rather [ saying [ #Cor.ACT yes constituencies [ all grateful special-interest fill [ that trough [ PAC ] ] ] ] ] just ] ] ] ]
+CS_TT:	potvrzuje [ podpora [ Pokračující bariéry [ daňové ] Bushe [ George ] ] strategii [ tlačení [ <#PersPron.ACT> Kongresu volil [ #Gen.PAT #PersPron.ACT prioritami [ neslučitelnými [ vzájemně ] ] spíše [ přikyvoval [ #PersPron.ACT voličům [ všem vděčným lobbujícím plní [ kteří koryto [ skupin [ soukromých zájmových ] ] ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##22.EnglishT-wsj_1952-s22a8
+EN:	George Bush's continued support of the tax dam sustains this strategy of pressuring Congress to make choices among competing priorities, rather than just saying yes to all the grateful special-interest constituencies that fill the PAC trough.
+CS:	Pokračující podpora daňové bariéry ze strany George Bushe potvrzuje strategii v podobě tlačení Kongresu k tomu, aby volil mezi vzájemně neslučitelnými prioritami, spíše než aby přikyvoval všem vděčným lobbujícím voličům, kteří plní koryto soukromých zájmových skupin. 
+EN_TT:	sustains [ support [ Bush [ George ] continued dam [ tax ] ] strategy [ this #Gen.ACT pressuring [ #Cor.ACT Congress make [ #Cor.ACT choices priorities [ competing [ #Cor.ACT #Rcp.ADDR #Gen.PAT ] ] rather [ saying [ <#Cor.ACT> yes constituencies [ all grateful special-interest fill [ that trough [ PAC ] ] ] ] ] just ] ] ] ]
+CS_TT:	potvrzuje [ podpora [ Pokračující bariéry [ daňové ] Bushe [ George ] ] strategii [ tlačení [ #PersPron.ACT Kongresu volil [ #Gen.PAT #PersPron.ACT prioritami [ neslučitelnými [ vzájemně ] ] spíše [ přikyvoval [ <#PersPron.ACT> voličům [ všem vděčným lobbujícím plní [ kteří koryto [ skupin [ soukromých zájmových ] ] ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##22.EnglishT-wsj_1952-s22-t18_coract
+EN:	George Bush's continued support of the tax dam sustains this strategy of pressuring Congress to make choices among competing priorities, rather than just saying yes to all the grateful special-interest constituencies that fill the PAC trough.
+CS:	Pokračující podpora daňové bariéry ze strany George Bushe potvrzuje strategii v podobě tlačení Kongresu k tomu, aby volil mezi vzájemně neslučitelnými prioritami, spíše než aby přikyvoval všem vděčným lobbujícím voličům, kteří plní koryto soukromých zájmových skupin. 
+EN_TT:	sustains [ support [ Bush [ George ] continued dam [ tax ] ] strategy [ this #Gen.ACT pressuring [ #Cor.ACT Congress make [ <#Cor.ACT> choices priorities [ competing [ #Cor.ACT #Rcp.ADDR #Gen.PAT ] ] rather [ saying [ #Cor.ACT yes constituencies [ all grateful special-interest fill [ that trough [ PAC ] ] ] ] ] just ] ] ] ]
+CS_TT:	potvrzuje [ podpora [ Pokračující bariéry [ daňové ] Bushe [ George ] ] strategii [ tlačení [ #PersPron.ACT Kongresu volil [ #Gen.PAT #PersPron.ACT prioritami [ neslučitelnými [ vzájemně ] ] spíše [ přikyvoval [ #PersPron.ACT voličům [ všem vděčným lobbujícím plní [ kteří koryto [ skupin [ soukromých zájmových ] ] ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##23.EnglishT-wsj_1952-s23a3
+EN:	If Washington's elites ever succeed in bursting the tax dam, Americans will be engulfed in a red sea of new spending programs, such as federalized child care.
+CS:	Pokud se někdy elitám z Washingtonu podaří daňovou bariéru prolomit, budou Američané zaplaveni mořem nových výdajových programů, jako je například federalizovaná péče o děti. 
+EN_TT:	engulfed [ succeed [ elites [ Washington ] ever bursting [ <#Cor.ACT> dam [ tax ] ] ] Americans #Gen.ACT sea [ red as [ programs [ new spending ] care [ federalized child ] ] ] ]
+CS_TT:	zaplaveni [ podaří [ někdy elitám [ Washingtonu ] prolomit [ <#Cor.ACT> bariéru [ daňovou ] ] ] Američané mořem [ jako [ programů [ nových výdajových ] je [ programů například péče [ federalizovaná děti ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##26.EnglishT-wsj_1952-s26a4
+EN:	All this stuff still is in the House's 1,878-page reconciliation bill, and many Members say they're reluctant to pull out cherished bills, just to see them die.
+CS:	Všechny tyto věci jsou stále ve sněmovním schvalovacím návrhu, který má 1878 stran, a mnoho poslanců říká, že se jim nechce tyto hýčkané body pustit a být svědky jejich zániku. 
+EN_TT:	and [ is [ stuff [ All this ] still bill [ House 1,878-page reconciliation ] ] say [ Members [ many ] #Gen.ADDR 're [ they reluctant [ <#Cor.ACT> pull [ #Cor.ACT #Oblfm.DIR1 bills [ cherished ] just see [ #Cor.ACT die [ them ] ] ] ] ] ] ]
+CS_TT:	a [ jsou [ věci [ Všechny tyto ] stále návrhu [ sněmovním schvalovacím má [ který stran [ 1878 ] ] ] ] říká [ #Gen.ADDR poslanců [ mnoho ] nechce [ #Neg.RHEM jim a [ pustit [ body [ tyto hýčkané ] ] #Cor.ACT být [ svědky [ zániku [ jejich ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##26.EnglishT-wsj_1952-s26-t24_coract
+EN:	All this stuff still is in the House's 1,878-page reconciliation bill, and many Members say they're reluctant to pull out cherished bills, just to see them die.
+CS:	Všechny tyto věci jsou stále ve sněmovním schvalovacím návrhu, který má 1878 stran, a mnoho poslanců říká, že se jim nechce tyto hýčkané body pustit a být svědky jejich zániku. 
+EN_TT:	and [ is [ stuff [ All this ] still bill [ House 1,878-page reconciliation ] ] say [ Members [ many ] #Gen.ADDR 're [ they reluctant [ #Cor.ACT pull [ <#Cor.ACT> #Oblfm.DIR1 bills [ cherished ] just see [ #Cor.ACT die [ them ] ] ] ] ] ] ]
+CS_TT:	a [ jsou [ věci [ Všechny tyto ] stále návrhu [ sněmovním schvalovacím má [ který stran [ 1878 ] ] ] ] říká [ #Gen.ADDR poslanců [ mnoho ] nechce [ #Neg.RHEM jim a [ pustit [ body [ tyto hýčkané ] ] #Cor.ACT být [ svědky [ zániku [ jejich ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##26.EnglishT-wsj_1952-s26-t32_coract
+EN:	All this stuff still is in the House's 1,878-page reconciliation bill, and many Members say they're reluctant to pull out cherished bills, just to see them die.
+CS:	Všechny tyto věci jsou stále ve sněmovním schvalovacím návrhu, který má 1878 stran, a mnoho poslanců říká, že se jim nechce tyto hýčkané body pustit a být svědky jejich zániku. 
+EN_TT:	and [ is [ stuff [ All this ] still bill [ House 1,878-page reconciliation ] ] say [ Members [ many ] #Gen.ADDR 're [ they reluctant [ #Cor.ACT pull [ #Cor.ACT #Oblfm.DIR1 bills [ cherished ] just see [ <#Cor.ACT> die [ them ] ] ] ] ] ] ]
+CS_TT:	a [ jsou [ věci [ Všechny tyto ] stále návrhu [ sněmovním schvalovacím má [ který stran [ 1878 ] ] ] ] říká [ #Gen.ADDR poslanců [ mnoho ] nechce [ #Neg.RHEM jim a [ pustit [ body [ tyto hýčkané ] ] #Cor.ACT být [ svědky [ zániku [ jejich ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##29.EnglishT-wsj_1952-s29a1
+EN:	This is the way government is supposed to work , with politicians taking responsibility for votes that their constituents can identify , instead of concealing them in the great reconciliation garbage truck.
+CS:	Vláda by měla fungovat tak, že politikové přebírají zodpovědnost za hlasy, které mohou jejich voliči rozpoznat, namísto toho, aby je skryli do velkého popelářského vozu plného odsouhlasování. 
+EN_TT:	is [ This way [ supposed [ #Gen.ACT work [ government taking [ politicians responsibility votes [ identify [ constituents [ their ] that ] ] concealing [ <#Cor.ACT> them truck [ great reconciliation garbage ] ] ] ] ] ] ]
+CS_TT:	fungovat [ Vláda přebírají [ politikové zodpovědnost [ hlasy [ rozpoznat [ které voliči [ jejich ] ] ] ] skryli [ <#PersPron.ACT> je vozu [ velkého popelářského plného [ odsouhlasování [ #Gen.PAT #Gen.ACT ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##30.EnglishT-wsj_1952-s30a13
+EN:	We have as much nostalgia as anyone for those leafy, breezy days in Washington when honorable men and women dickered over budgets and even log-rolled a bit to see that the bridges got build , roads paved , soldiers paid or that the desperately poor were cared for .
+CS:	Jako každému se nám stýská po těch nenucených, žoviálních dnech ve Washingtonu, kdy ctihodní mužové a ženy smlouvali o rozpočtech a dokonce si i trochu vzájemně pomáhali, aby viděli, že se staví mosty, zpevňují silnice, vojáci dostávají zaplaceno a i o ty beznadějně chudé je postaráno. 
+EN_TT:	have [ We nostalgia [ much [ as [ have [ anyone #PersPron.PAT ] ] ] days [ those leafy breezy Washington and [ when and [ honorable men women ] dickered [ #Rcp.ADDR budgets ] even log-rolled [ bit see [ #Cor.ACT or [ #Gen.ACT got [ bridges build [ #PersPron.ACT <#Cor.PAT> ] ] got [ roads paved [ #PersPron.ACT #Cor.PAT ] ] got [ soldiers paid [ #PersPron.ACT #Cor.ADDR #Oblfm.PAT ] ] cared [ poor [ desperately ] ] ] ] ] ] ] ] ]
+CS_TT:	stýská [ #Equal.EXT [ stýská [ každému ] ] nám dnech [ těch , [ nenucených žoviálních ] Washingtonu a [ smlouvali [ kdy a [ ctihodní mužové ženy ] #Rcp.ADDR rozpočtech ] dokonce i pomáhali [ #PersPron.ACT trochu vzájemně si viděli [ #PersPron.ACT a [ staví [ #Gen.ACT mosty ] zpevňují [ #Gen.ACT silnice ] zaplaceno [ vojáci #Gen.PAT #Gen.ACT ] postaráno [ #Gen.ACT ty [ i chudé [ beznadějně ] ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##30.EnglishT-wsj_1952-s30a16
+EN:	We have as much nostalgia as anyone for those leafy, breezy days in Washington when honorable men and women dickered over budgets and even log-rolled a bit to see that the bridges got build , roads paved , soldiers paid or that the desperately poor were cared for .
+CS:	Jako každému se nám stýská po těch nenucených, žoviálních dnech ve Washingtonu, kdy ctihodní mužové a ženy smlouvali o rozpočtech a dokonce si i trochu vzájemně pomáhali, aby viděli, že se staví mosty, zpevňují silnice, vojáci dostávají zaplaceno a i o ty beznadějně chudé je postaráno. 
+EN_TT:	have [ We nostalgia [ much [ as [ have [ anyone #PersPron.PAT ] ] ] days [ those leafy breezy Washington and [ when and [ honorable men women ] dickered [ #Rcp.ADDR budgets ] even log-rolled [ bit see [ #Cor.ACT or [ #Gen.ACT got [ bridges build [ #PersPron.ACT #Cor.PAT ] ] got [ roads paved [ #PersPron.ACT <#Cor.PAT> ] ] got [ soldiers paid [ #PersPron.ACT #Cor.ADDR #Oblfm.PAT ] ] cared [ poor [ desperately ] ] ] ] ] ] ] ] ]
+CS_TT:	stýská [ #Equal.EXT [ stýská [ každému ] ] nám dnech [ těch , [ nenucených žoviálních ] Washingtonu a [ smlouvali [ kdy a [ ctihodní mužové ženy ] #Rcp.ADDR rozpočtech ] dokonce i pomáhali [ #PersPron.ACT trochu vzájemně si viděli [ #PersPron.ACT a [ staví [ #Gen.ACT mosty ] zpevňují [ #Gen.ACT silnice ] zaplaceno [ vojáci #Gen.PAT #Gen.ACT ] postaráno [ #Gen.ACT ty [ i chudé [ beznadějně ] ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##30.EnglishT-wsj_1952-s30a21
+EN:	We have as much nostalgia as anyone for those leafy, breezy days in Washington when honorable men and women dickered over budgets and even log-rolled a bit to see that the bridges got build , roads paved , soldiers paid or that the desperately poor were cared for .
+CS:	Jako každému se nám stýská po těch nenucených, žoviálních dnech ve Washingtonu, kdy ctihodní mužové a ženy smlouvali o rozpočtech a dokonce si i trochu vzájemně pomáhali, aby viděli, že se staví mosty, zpevňují silnice, vojáci dostávají zaplaceno a i o ty beznadějně chudé je postaráno. 
+EN_TT:	have [ We nostalgia [ much [ as [ have [ anyone #PersPron.PAT ] ] ] days [ those leafy breezy Washington and [ when and [ honorable men women ] dickered [ #Rcp.ADDR budgets ] even log-rolled [ bit see [ #Cor.ACT or [ #Gen.ACT got [ bridges build [ #PersPron.ACT #Cor.PAT ] ] got [ roads paved [ #PersPron.ACT #Cor.PAT ] ] got [ soldiers paid [ #PersPron.ACT <#Cor.ADDR> #Oblfm.PAT ] ] cared [ poor [ desperately ] ] ] ] ] ] ] ] ]
+CS_TT:	stýská [ #Equal.EXT [ stýská [ každému ] ] nám dnech [ těch , [ nenucených žoviálních ] Washingtonu a [ smlouvali [ kdy a [ ctihodní mužové ženy ] #Rcp.ADDR rozpočtech ] dokonce i pomáhali [ #PersPron.ACT trochu vzájemně si viděli [ #PersPron.ACT a [ staví [ #Gen.ACT mosty ] zpevňují [ #Gen.ACT silnice ] zaplaceno [ vojáci #Gen.PAT #Gen.ACT ] postaráno [ #Gen.ACT ty [ i chudé [ beznadějně ] ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##30.EnglishT-wsj_1952-s30-t31_coract
+EN:	We have as much nostalgia as anyone for those leafy, breezy days in Washington when honorable men and women dickered over budgets and even log-rolled a bit to see that the bridges got build , roads paved , soldiers paid or that the desperately poor were cared for .
+CS:	Jako každému se nám stýská po těch nenucených, žoviálních dnech ve Washingtonu, kdy ctihodní mužové a ženy smlouvali o rozpočtech a dokonce si i trochu vzájemně pomáhali, aby viděli, že se staví mosty, zpevňují silnice, vojáci dostávají zaplaceno a i o ty beznadějně chudé je postaráno. 
+EN_TT:	have [ We nostalgia [ much [ as [ have [ anyone #PersPron.PAT ] ] ] days [ those leafy breezy Washington and [ when and [ honorable men women ] dickered [ #Rcp.ADDR budgets ] even log-rolled [ bit see [ <#Cor.ACT> or [ #Gen.ACT got [ bridges build [ #PersPron.ACT #Cor.PAT ] ] got [ roads paved [ #PersPron.ACT #Cor.PAT ] ] got [ soldiers paid [ #PersPron.ACT #Cor.ADDR #Oblfm.PAT ] ] cared [ poor [ desperately ] ] ] ] ] ] ] ] ]
+CS_TT:	stýská [ #Equal.EXT [ stýská [ každému ] ] nám dnech [ těch , [ nenucených žoviálních ] Washingtonu a [ smlouvali [ kdy a [ ctihodní mužové ženy ] #Rcp.ADDR rozpočtech ] dokonce i pomáhali [ #PersPron.ACT trochu vzájemně si viděli [ <#PersPron.ACT> a [ staví [ #Gen.ACT mosty ] zpevňují [ #Gen.ACT silnice ] zaplaceno [ vojáci #Gen.PAT #Gen.ACT ] postaráno [ #Gen.ACT ty [ i chudé [ beznadějně ] ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##32.EnglishT-wsj_1952-s32-t10_coract
+EN:	Nor do we see any reason to believe that a metropolitan Washington that has gotten fat and rich and lazy in the shadow of the federal colossus will change much on its own initiative .
+CS:	Ani nevidíme důvod, proč bychom měli věřit, že velký Washington, který ve stínu federálních velikánů ztloustl, zbohatl a zlenivěl, se z vlastní iniciativy příliš změní. 
+EN_TT:	see [ Nor we reason [ any #PersPron.ACT believe [ <#Cor.ACT> change [ Washington [ metropolitan gotten [ that and [ fat rich lazy ] shadow [ colossus [ federal ] ] ] ] much initiative [ its own ] ] ] ] ]
+CS_TT:	nevidíme [ #PersPron.ACT Ani #Neg.RHEM důvod [ věřit [ <#PersPron.ACT> proč změní [ Washington [ velký a [ který stínu [ velikánů [ federálních ] ] ztloustl zbohatl zlenivěl ] ] iniciativy [ vlastní ] příliš ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##4.EnglishT-wsj_1952-s4a5
+EN:	If human beings can't cut federal spending honestly -- and they can't -- let the computers do it.
+CS:	Pokud lidé nedokáží poctivě snížit federální útraty - a oni nedokáží -, ať to udělají počítače. 
+EN_TT:	let [ cut [ beings [ human ] n't spending [ federal ] honestly cut [ #PersPron.PAT and they n't ] ] #PersPron.ACT computers do [ <#Cor.ACT> it ] ]
+CS_TT:	udělají [ nedokáží [ #Neg.RHEM lidé snížit [ #Cor.ACT poctivě útraty [ federální ] ] nedokáží [ #Neg.RHEM #PersPron.PAT a oni ] ] to počítače ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##8.EnglishT-wsj_1952-s8a4
+EN:	Consider, for instance, that even yesterday's widely publicized sequester is likely to be traduced if business as usual is allowed to prevail.
+CS:	Vezměme si například, že i včerejší široce zveřejňovaná sekvestrace bude pravděpodobně haněna, pokud bude umožněno, aby přetrvávala stávající situace. 
+EN_TT:	Consider [ #PersPron.ACT instance is [ traduced [ sequester [ even yesterday publicized [ widely #Gen.ACT <#Cor.PAT> ] ] #Gen.ACT ] likely allowed [ #Gen.ACT prevail [ business [ usual ] ] ] ] ]
+CS_TT:	Vezměme [ #PersPron.ACT například haněna [ #Gen.ACT i sekvestrace [ včerejší zveřejňovaná [ široce ] ] pravděpodobně umožněno [ #Gen.ADDR #Gen.ACT přetrvávala [ situace [ stávající ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1953.final.streex##2.EnglishT-wsj_1953-s2a1
+EN:	Seats are currently quoted at $425,000 bid and $475,000 offered .
+CS:	Mandáty mají momentálně nákupní cenu 425000 dolarů a prodejní 475000 dolarů. 
+EN_TT:	quoted [ Seats currently #Gen.ACT and [ $ [ 425,000 bid ] $ [ 475,000 offered [ #Gen.ADDR #Gen.ACT <#Cor.PAT> ] ] ] ]
+CS_TT:	a [ mají [ Mandáty momentálně cenu [ nákupní dolarů [ 425000 ] ] ] mají [ #PersPron.ACT cenu [ prodejní dolarů [ 475000 ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1954.final.streex##3.EnglishT-wsj_1954-s3a1
+EN:	Proceeds of the sale will be used to redeem C$ 675 million of government bonds maturing Nov. 1 and for general government purposes.
+CS:	Výtěžek z prodeje bude použit na vyplacení vládních dluhopisů splatných 1. listopadu v hodnotě 675 milionů kanadských dolarů a pro obecné účely vlády. 
+EN_TT:	used [ Proceeds [ sale ] #Gen.ACT and [ redeem [ #Cor.ACT C$ [ million [ 675 ] bonds [ government maturing [ <#Cor.ACT> Nov. [ 1 ] ] ] ] ] purposes [ general government ] ] ]
+CS_TT:	použit [ #PersPron.ACT Výtěžek [ prodeje ] a [ vyplacení [ #PersPron.ACT dluhopisů [ vládních splatných [ listopadu [ 1 ] ] hodnotě [ milionů [ 675 dolarů [ kanadských ] ] ] ] ] účely [ obecné vlády ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1954.final.streex##3.EnglishT-wsj_1954-s3-t11_coract
+EN:	Proceeds of the sale will be used to redeem C$ 675 million of government bonds maturing Nov. 1 and for general government purposes.
+CS:	Výtěžek z prodeje bude použit na vyplacení vládních dluhopisů splatných 1. listopadu v hodnotě 675 milionů kanadských dolarů a pro obecné účely vlády. 
+EN_TT:	used [ Proceeds [ sale ] #Gen.ACT and [ redeem [ <#Cor.ACT> C$ [ million [ 675 ] bonds [ government maturing [ #Cor.ACT Nov. [ 1 ] ] ] ] ] purposes [ general government ] ] ]
+CS_TT:	použit [ #PersPron.ACT Výtěžek [ prodeje ] a [ vyplacení [ <#PersPron.ACT> dluhopisů [ vládních splatných [ listopadu [ 1 ] ] hodnotě [ milionů [ 675 dolarů [ kanadských ] ] ] ] ] účely [ obecné vlády ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1955.final.streex##1.EnglishT-wsj_1955-s1a10
+EN:	Northern Trust Corp. said its board adopted a shareholder rights plan aimed at deterring unwanted takeover bids, but said it's not aware of any plan to acquire the banking concern.
+CS:	Společnost Northern Trust Corp. uvedla, že její rada přijala návrh akcionářských práv zaměřený na zabránění nechtěným nabídkám na převzetí, ale uvedla, že si žádných plánů na převzetí bankovního koncernu není vědoma. 
+EN_TT:	but [ Corp. [ Trust [ Northern ] ] said [ #Gen.ADDR adopted [ board [ its ] plan [ rights [ shareholder ] aimed [ #Gen.ACT #Cor.PAT deterring [ #Gen.ACT bids [ unwanted takeover ] ] ] ] ] ] said [ #Gen.ADDR 's [ it not aware [ <#Cor.ACT> plan [ any #Cor.ACT acquire [ #Cor.ACT concern [ banking ] ] ] ] ] ] ]
+CS_TT:	ale [ Společnost [ #Forn.ID [ Northern Trust Corp . ] ] uvedla [ přijala [ rada [ její ] návrh [ práv [ akcionářských ] zaměřený [ zabránění [ nabídkám [ nechtěným převzetí [ #Gen.ACT #PersPron.PAT ] ] ] ] ] ] ] uvedla [ není [ #Neg.RHEM #PersPron.ACT vědoma [ plánů [ žádných převzetí [ #Gen.ACT koncernu [ bankovního ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1955.final.streex##1.EnglishT-wsj_1955-s1a6
+EN:	Northern Trust Corp. said its board adopted a shareholder rights plan aimed at deterring unwanted takeover bids, but said it's not aware of any plan to acquire the banking concern.
+CS:	Společnost Northern Trust Corp. uvedla, že její rada přijala návrh akcionářských práv zaměřený na zabránění nechtěným nabídkám na převzetí, ale uvedla, že si žádných plánů na převzetí bankovního koncernu není vědoma. 
+EN_TT:	but [ Corp. [ Trust [ Northern ] ] said [ #Gen.ADDR adopted [ board [ its ] plan [ rights [ shareholder ] aimed [ #Gen.ACT <#Cor.PAT> deterring [ #Gen.ACT bids [ unwanted takeover ] ] ] ] ] ] said [ #Gen.ADDR 's [ it not aware [ #Cor.ACT plan [ any #Cor.ACT acquire [ #Cor.ACT concern [ banking ] ] ] ] ] ] ]
+CS_TT:	ale [ Společnost [ #Forn.ID [ Northern Trust Corp . ] ] uvedla [ přijala [ rada [ její ] návrh [ práv [ akcionářských ] zaměřený [ zabránění [ nabídkám [ nechtěným převzetí [ #Gen.ACT #PersPron.PAT ] ] ] ] ] ] ] uvedla [ není [ #Neg.RHEM #PersPron.ACT vědoma [ plánů [ žádných převzetí [ #Gen.ACT koncernu [ bankovního ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1955.final.streex##1.EnglishT-wsj_1955-s1a9
+EN:	Northern Trust Corp. said its board adopted a shareholder rights plan aimed at deterring unwanted takeover bids, but said it's not aware of any plan to acquire the banking concern.
+CS:	Společnost Northern Trust Corp. uvedla, že její rada přijala návrh akcionářských práv zaměřený na zabránění nechtěným nabídkám na převzetí, ale uvedla, že si žádných plánů na převzetí bankovního koncernu není vědoma. 
+EN_TT:	but [ Corp. [ Trust [ Northern ] ] said [ #Gen.ADDR adopted [ board [ its ] plan [ rights [ shareholder ] aimed [ #Gen.ACT #Cor.PAT deterring [ #Gen.ACT bids [ unwanted takeover ] ] ] ] ] ] said [ #Gen.ADDR 's [ it not aware [ #Cor.ACT plan [ any <#Cor.ACT> acquire [ #Cor.ACT concern [ banking ] ] ] ] ] ] ]
+CS_TT:	ale [ Společnost [ #Forn.ID [ Northern Trust Corp . ] ] uvedla [ přijala [ rada [ její ] návrh [ práv [ akcionářských ] zaměřený [ zabránění [ nabídkám [ nechtěným převzetí [ #Gen.ACT #PersPron.PAT ] ] ] ] ] ] ] uvedla [ není [ #Neg.RHEM #PersPron.ACT vědoma [ plánů [ žádných převzetí [ #Gen.ACT koncernu [ bankovního ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1955.final.streex##1.EnglishT-wsj_1955-s1-t34_coract
+EN:	Northern Trust Corp. said its board adopted a shareholder rights plan aimed at deterring unwanted takeover bids, but said it's not aware of any plan to acquire the banking concern.
+CS:	Společnost Northern Trust Corp. uvedla, že její rada přijala návrh akcionářských práv zaměřený na zabránění nechtěným nabídkám na převzetí, ale uvedla, že si žádných plánů na převzetí bankovního koncernu není vědoma. 
+EN_TT:	but [ Corp. [ Trust [ Northern ] ] said [ #Gen.ADDR adopted [ board [ its ] plan [ rights [ shareholder ] aimed [ #Gen.ACT #Cor.PAT deterring [ #Gen.ACT bids [ unwanted takeover ] ] ] ] ] ] said [ #Gen.ADDR 's [ it not aware [ #Cor.ACT plan [ any #Cor.ACT acquire [ <#Cor.ACT> concern [ banking ] ] ] ] ] ] ]
+CS_TT:	ale [ Společnost [ #Forn.ID [ Northern Trust Corp . ] ] uvedla [ přijala [ rada [ její ] návrh [ práv [ akcionářských ] zaměřený [ zabránění [ nabídkám [ nechtěným převzetí [ #Gen.ACT #PersPron.PAT ] ] ] ] ] ] ] uvedla [ není [ #Neg.RHEM #PersPron.ACT vědoma [ plánů [ žádných převzetí [ <#Gen.ACT> koncernu [ bankovního ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1955.final.streex##2.EnglishT-wsj_1955-s2a2
+EN:	Under Northern Trust's plan, shareholders were issued rights that, in the event of certain attempted takeovers, allow holders to buy shares in the company at half price.
+CS:	Podle návrhu společnosti Northern Trust dostali akcionáři práva, která v případě jistých pokusů o převzetí povolují akcionářům nakoupit akcie společnosti za poloviční cenu. 
+EN_TT:	issued [ plan [ Trust [ Northern ] ] shareholders #Gen.ACT rights [ allow [ event [ takeovers [ certain attempted [ #Gen.ACT <#Cor.PAT> ] ] ] that buy [ holders shares [ company ] price [ half ] ] ] ] ]
+CS_TT:	dostali [ návrhu [ společnosti [ #Forn.ID [ Northern Trust ] ] ] akcionáři práva [ povolují [ která pokusů [ jistých převzetí [ #Gen.ACT #PersPron.PAT ] ] akcionářům nakoupit [ #Cor.ACT akcie [ společnosti ] cenu [ poloviční ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1956.final.streex##1.EnglishT-wsj_1956-s1-t11_coract
+EN:	National Patent Development Corp. said it plans to purchase as many as 200,000 common shares of its 81%-controlled Interferon Sciences Inc. unit in periodic, open-market purchases.
+CS:	Společnost National Patent Development Corp. uvedla, že plánuje nakoupit 200000 kmenových akcií své již z 81 % vlastněné jednotky Interferon Sciences Inc. v periodických nákupech. 
+EN_TT:	said [ Corp. [ Development [ National Patent ] ] #Gen.ADDR plans [ it purchase [ <#Cor.ACT> shares [ 200,000 [ as ] common unit [ its 81%-controlled Inc. [ Sciences [ Interferon ] ] ] ] purchases [ periodic open-market ] ] ] ]
+CS_TT:	uvedla [ Společnost [ #Forn.ID [ National Patent Development Corp . ] ] plánuje [ #PersPron.ACT nakoupit [ <#Cor.ACT> akcií [ 200000 kmenových jednotky [ své vlastněné [ již % [ 81 ] ] #Forn.ID [ Interferon Sciences Inc . ] ] ] nákupech [ periodických ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1956.final.streex##3.EnglishT-wsj_1956-s3-t1
+EN:	Noting the recent Food and Drug Administration approval of Interferon's genital warts treatment, National Patent said it believes Interferon's stock is undervalued.
+CS:	Když společnost National Patent připomněla, že Úřad pro kontrolu potravin a léčiv schválil léčivo na genitální bradavice od firmy Interferon, vyjádřila se, že podle jejího názoru jsou akcie firmy Interferon podceněné. 
+EN_TT:	said [ Noting [ <#Cor.ACT> approval [ recent Administration [ and [ Food Drug ] ] treatment [ Interferon warts [ genital ] ] ] ] Patent [ National ] #Gen.ADDR believes [ it is [ stock [ Interferon ] undervalued ] ] ]
+CS_TT:	vyjádřila [ #PersPron.ACT připomněla [ #Gen.ADDR <společnost> [ #Forn.ID [ National Patent ] ] schválil [ Úřad [ kontrolu [ a [ potravin léčiv ] ] ] léčivo [ bradavice [ genitální ] firmy [ Interferon ] ] ] ] jsou [ názoru [ jejího ] akcie [ firmy [ Interferon ] ] podceněné ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##10.EnglishT-wsj_1957-s10a2
+EN:	Advancing issues outnumbered decliners 821-201, with 103 unchanged.
+CS:	Rostoucích akcií bylo více než klesajících, a to 821:201, přičemž 103 bylo beze změny. 
+EN_TT:	outnumbered [ issues [ Advancing [ <#Cor.ACT> ] ] decliners 821-201 [ 821-201 821-201 ] issues [ 103 unchanged ] ]
+CS_TT:	přičemž [ bylo [ akcií [ Rostoucích ] to [ více [ bylo [ akcií [ klesajících ] #Some.PAT ] ] #EmpVerb.PAT [ : [ 821 201 ] ] ] ] bylo [ 103 změny ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##13.EnglishT-wsj_1957-s13a1
+EN:	Foreign investors reportedly started off selling but later joined in the buying.
+CS:	Zahraniční investoři podle zpráv začali prodáváním, ale později se přidali ke kupujícím. 
+EN_TT:	but [ investors [ Foreign ] reportedly started [ selling [ #Gen.PAT <#Cor.ACT> ] ] joined [ later buying ] ]
+CS_TT:	ale [ investoři [ Zahraniční ] začali [ zpráv #Gen.PAT prodáváním [ #Gen.ADDR <#Cor.ACT> #PersPron.PAT ] ] přidali [ později kupujícím ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##14.EnglishT-wsj_1957-s14a5
+EN:	The Tokyo rally seemed to confirm the view , frequently expressed in Japan in the past few days, that the drop in New York was a local problem related to merger and acquisition activity in the U.S..
+CS:	Vypadalo to, že tokijské zotavení potvrdí názor, který se v Japonsku často objevoval během několika posledních dní, že propad v New Yorku je lokální problém týkající se činností spojených s fúzemi a akvizicemi v USA. 
+EN_TT:	seemed [ rally [ Tokyo ] confirm [ <#Cor.ACT> view [ expressed [ frequently #Gen.ACT #Cor.PAT Japan days [ past few ] ] was [ drop [ York [ New ] ] problem [ local related [ #Cor.PAT #Gen.ACT activity [ and [ merger acquisition ] U.S. ] ] ] ] ] ] ]
+CS_TT:	Vypadalo [ to potvrdí [ zotavení [ tokijské #PersPron.ACT ] názor [ objevoval [ který Japonsku často dní [ několika posledních ] ] je [ propad [ #Forn.LOC [ New Yorku ] ] problém [ lokální týkající [ činností [ spojených [ a [ fúzemi #Idph.LOC [ USA ] akvizicemi ] ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##14.EnglishT-wsj_1957-s14a7
+EN:	The Tokyo rally seemed to confirm the view , frequently expressed in Japan in the past few days, that the drop in New York was a local problem related to merger and acquisition activity in the U.S..
+CS:	Vypadalo to, že tokijské zotavení potvrdí názor, který se v Japonsku často objevoval během několika posledních dní, že propad v New Yorku je lokální problém týkající se činností spojených s fúzemi a akvizicemi v USA. 
+EN_TT:	seemed [ rally [ Tokyo ] confirm [ #Cor.ACT view [ expressed [ frequently #Gen.ACT #Cor.PAT Japan days [ past few ] ] was [ drop [ York [ New ] ] problem [ local related [ <#Cor.PAT> #Gen.ACT activity [ and [ merger acquisition ] U.S. ] ] ] ] ] ] ]
+CS_TT:	Vypadalo [ to potvrdí [ zotavení [ tokijské #PersPron.ACT ] názor [ objevoval [ který Japonsku často dní [ několika posledních ] ] je [ propad [ #Forn.LOC [ New Yorku ] ] problém [ lokální týkající [ činností [ spojených [ a [ fúzemi #Idph.LOC [ USA ] akvizicemi ] ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##18.EnglishT-wsj_1957-s18-t17_coract
+EN:	In particular, Japanese investors will be keeping a wary eye on Wall Street to see whether Monday's 88.12-point rally holds up as fresh U.S. economic data are released .
+CS:	Japonští investoři budou především pozorně sledovat Wall Street, aby zjistili, zda se pondělní zotavení o 88.12 bodu nezastaví, až budou zveřejněny nové údaje o americké ekonomice. 
+EN_TT:	keeping [ particular investors [ Japanese ] eye [ wary ] Street [ Wall ] see [ <#Cor.ACT> holds [ rally [ Monday 88.12-point ] released [ data [ fresh U.S. economic ] #Gen.ACT ] ] ] ]
+CS_TT:	sledovat [ investoři [ Japonští ] především pozorně #Forn.PAT [ Wall Street ] zjistili [ <#PersPron.ACT> nezastaví [ #Neg.RHEM zotavení [ pondělní #PersPron.ACT bodu [ 88.12 ] ] zveřejněny [ #Gen.ACT údaje [ nové ekonomice [ americké ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##1.EnglishT-wsj_1957-s1a2
+EN:	Japanese investors, reassured by Monday's strong rally on Wall Street, erased most of that day's losses on the Tokyo Stock Exchange.
+CS:	Japonští investoři, uklidněni pondělním mohutným zotavením na Wall Street, smazali na Tokijské burze cenných papírů většinu ztrát z téhož dne. 
+EN_TT:	erased [ investors [ Japanese ] reassured [ <#Cor.ADDR> #Gen.PAT rally [ Monday strong Street [ Wall ] ] ] most [ losses [ day [ that ] Exchange [ Tokyo Stock ] ] ] ]
+CS_TT:	smazali [ investoři [ Japonští ] uklidněni [ #Cor.PAT zotavením [ pondělním mohutným #Forn.LOC [ Wall Street ] #Unsp.ACT ] ] burze [ Tokijské papírů [ cenných ] ] většinu [ ztrát [ dne [ téhož ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##22.EnglishT-wsj_1957-s22a2
+EN:	Yesterday's buyers favored real estate, construction and other large-capitalization issues, reflecting the fact that many Tokyo investors now feel safer with domestically oriented stocks, analysts said .
+CS:	Analytikové uvedli, že včerejší kupující upřednostňovali emise realitních, stavebních a jiných společností s vysokou kapitalizací, což odráží skutečnost, že mnoho tokijských investorů se nyní cítí bezpečněji u domácích akcií. 
+EN_TT:	said [ favored [ buyers [ Yesterday ] and [ estate [ real ] construction issues [ other large-capitalization ] ] reflecting [ #Cor.ACT fact [ feel [ investors [ many Tokyo ] now safer stocks [ oriented [ domestically #Gen.ACT <#Cor.PAT> ] ] ] ] ] ] analysts #Gen.ADDR ]
+CS_TT:	uvedli [ Analytikové , [ upřednostňovali [ kupující [ včerejší ] emise [ společností [ a [ realitních stavebních jiných ] kapitalizací [ vysokou ] ] ] ] odráží [ což skutečnost [ cítí [ investorů [ mnoho tokijských ] nyní bezpečněji akcií [ domácích ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##40.EnglishT-wsj_1957-s40a4
+EN:	Dealers said London showed signs of calming in midafternoon after Wall Street avoided sharp losses despite the trade report, but a wave of futures-related selling later in the session sent buyers back to the sidelines.
+CS:	Obchodníci uvedli, že Londýn poté, co se burza Wall Street navzdory zmíněné obchodní zprávě vyhnula velkým ztrátám, uprostřed odpoledne vykazoval známky zklidnění, avšak vlna prodejů týkajících se termínových obchodů ke konci burzovního dne zatlačila kupující do ústraní. 
+EN_TT:	said [ Dealers #Gen.ADDR but [ showed [ London signs [ #Cor.ACT calming [ <#Cor.ACT> ] ] midafternoon avoided [ Street [ Wall ] losses [ sharp ] report [ trade ] ] ] sent [ wave [ selling [ futures-related ] later [ session ] ] buyers back [ sidelines ] ] ] ]
+CS_TT:	uvedli [ Obchodníci avšak [ vykazoval [ Londýn vyhnula [ burza [ #Forn.ID [ Wall Street ] ] zprávě [ zmíněné obchodní ] ztrátám [ velkým ] ] odpoledne známky [ zklidnění [ <#PersPron.ACT> ] ] ] zatlačila [ vlna [ prodejů [ týkajících [ obchodů [ termínových ] ] ] ] konci [ dne [ burzovního ] ] kupující ústraní ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##40.EnglishT-wsj_1957-s40a5
+EN:	Dealers said London showed signs of calming in midafternoon after Wall Street avoided sharp losses despite the trade report, but a wave of futures-related selling later in the session sent buyers back to the sidelines.
+CS:	Obchodníci uvedli, že Londýn poté, co se burza Wall Street navzdory zmíněné obchodní zprávě vyhnula velkým ztrátám, uprostřed odpoledne vykazoval známky zklidnění, avšak vlna prodejů týkajících se termínových obchodů ke konci burzovního dne zatlačila kupující do ústraní. 
+EN_TT:	said [ Dealers #Gen.ADDR but [ showed [ London signs [ <#Cor.ACT> calming [ #Cor.ACT ] ] midafternoon avoided [ Street [ Wall ] losses [ sharp ] report [ trade ] ] ] sent [ wave [ selling [ futures-related ] later [ session ] ] buyers back [ sidelines ] ] ] ]
+CS_TT:	uvedli [ Obchodníci avšak [ vykazoval [ Londýn vyhnula [ burza [ #Forn.ID [ Wall Street ] ] zprávě [ zmíněné obchodní ] ztrátám [ velkým ] ] odpoledne známky [ zklidnění [ #PersPron.ACT ] ] ] zatlačila [ vlna [ prodejů [ týkajících [ obchodů [ termínových ] ] ] ] konci [ dne [ burzovního ] ] kupující ústraní ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##41.EnglishT-wsj_1957-s41a1
+EN:	Still, some sectors found buying interest after being actively sold in recent weeks.
+CS:	Přesto některé sektory po té, co se v minulých týdnech aktivně prodávaly, nacházejí zájem o koupi. 
+EN_TT:	found [ Still sectors [ some ] interest [ buying ] sold [ actively #Gen.ACT <#Cor.PAT> weeks [ recent ] ] ]
+CS_TT:	nacházejí [ Přesto sektory [ některé ] prodávaly [ #Gen.ACT #Gen.ADDR týdnech [ minulých ] aktivně <#PersPron.PAT> ] zájem [ koupi ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##47.EnglishT-wsj_1957-s47-t10_coract
+EN:	Jaguar shares jumped 23 before easing to close at 654, up 6.
+CS:	Než opadly, vyskočily akcie společnosti Jaguar o 23, aby poté uzavřely na 654, což je zvýšení o 6. 
+EN_TT:	jumped [ shares [ Jaguar ] 23 easing [ #PersPron.ACT ] close [ <#Cor.ACT> , [ 654 up [ 6 ] ] ] ]
+CS_TT:	vyskočily [ opadly [ #PersPron.ACT ] akcie [ společnosti [ Jaguar ] ] 23 uzavřely [ <#PersPron.ACT> , [ 654 je [ což zvýšení [ #PersPron.ACT 6 ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##5.EnglishT-wsj_1957-s5-t13_coract
+EN:	Tokyo's Nikkei Index of 225 stocks jumped 527.39 points to close at 34996.08.
+CS:	Tokijský 225akciový index Nikkei vyskočil o 527.39 bodu a uzavřel na 34996.08. 
+EN_TT:	jumped [ Index [ Tokyo Nikkei stocks [ 225 ] ] points [ 527.39 ] close [ <#Cor.ACT> 34996.08 ] ]
+CS_TT:	a [ index [ Tokijský 225akciový [ 225akciový ] Nikkei ] vyskočil [ bodu [ 527.39 ] ] uzavřel [ 34996.08 ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##60.EnglishT-wsj_1957-s60a1
+EN:	Paris closed lower, and most Brussels shares were unable to trade for a second consecutive day because of technical problems.
+CS:	Paříž uzavřela níže a většina bruselských akcií nebyla kvůli technickým problémům již druhý den po sobě schopna obchodovat. 
+EN_TT:	and [ closed [ Paris lower ] were [ shares [ most Brussels ] unable [ <#Cor.ACT> trade [ #Cor.ACT ] ] day [ second consecutive ] problems [ technical ] ] ]
+CS_TT:	a [ uzavřela [ Paříž níže ] nebyla [ většina [ akcií [ bruselských ] ] #Neg.RHEM problémům [ technickým ] již den [ druhý sobě ] schopna [ obchodovat [ #Gen.PAT #Gen.ADDR #Cor.ACT ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##60.EnglishT-wsj_1957-s60-t13_coract
+EN:	Paris closed lower, and most Brussels shares were unable to trade for a second consecutive day because of technical problems.
+CS:	Paříž uzavřela níže a většina bruselských akcií nebyla kvůli technickým problémům již druhý den po sobě schopna obchodovat. 
+EN_TT:	and [ closed [ Paris lower ] were [ shares [ most Brussels ] unable [ #Cor.ACT trade [ <#Cor.ACT> ] ] day [ second consecutive ] problems [ technical ] ] ]
+CS_TT:	a [ uzavřela [ Paříž níže ] nebyla [ většina [ akcií [ bruselských ] ] #Neg.RHEM problémům [ technickým ] již den [ druhý sobě ] schopna [ obchodovat [ #Gen.PAT #Gen.ADDR <#Cor.ACT> ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##8.EnglishT-wsj_1957-s8a2
+EN:	On Tuesday, the broader-based Tokyo Stock Price Index of issues listed in the first section, which fell 45.66 Monday, rose 41.76, or 1.61%, to 2642.64.
+CS:	Index emisí tokijské burzy obchodovaných v první sekci, založený na vyšším počtu akcií, který spadl v pondělí o 45.66, v úterý vzrostl o 41.76, neboli 1.61 %, na 2642.64. 
+EN_TT:	rose [ Tuesday Index [ broader-based Tokyo Price [ Stock ] issues [ listed [ #Gen.ACT <#Cor.PAT> section [ first ] ] ] fell [ which 45.66 Monday ] ] or [ 41.76 % [ 1.61 ] ] 2642.64 ]
+CS_TT:	vzrostl [ Index [ emisí [ burzy [ tokijské ] obchodovaných [ sekci [ první ] ] ] založený [ počtu [ vyšším akcií ] ] spadl [ který pondělí 45.66 ] ] úterý neboli [ 41.76 % [ 1.61 ] ] 2642.64 ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1958.final.streex##1.EnglishT-wsj_1958-s1a3
+EN:	Zurn Industries Inc. said it received approval to proceed on four separate projects with a total contract value of $59 million.
+CS:	Společnost Zurn Industries Inc. uvedla, že dostala povolení pokračovat na čtyřech samostatných projektech s celkovou smluvní hodnotou 59 milionů dolarů. 
+EN_TT:	said [ Inc. [ Industries [ Zurn ] ] #Gen.ADDR received [ it approval [ <#Cor.ADDR> proceed [ #Cor.ACT projects [ four separate value [ total contract $ [ million [ 59 ] ] ] ] ] ] ] ]
+CS_TT:	uvedla [ Společnost [ #Forn.ID [ Zurn Industries Inc . ] ] dostala [ #PersPron.ACT povolení [ #Gen.ACT pokračovat [ #Cor.ACT projektech [ čtyřech samostatných hodnotou [ celkovou smluvní milionů [ 59 dolarů ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1958.final.streex##1.EnglishT-wsj_1958-s1-t11_coract
+EN:	Zurn Industries Inc. said it received approval to proceed on four separate projects with a total contract value of $59 million.
+CS:	Společnost Zurn Industries Inc. uvedla, že dostala povolení pokračovat na čtyřech samostatných projektech s celkovou smluvní hodnotou 59 milionů dolarů. 
+EN_TT:	said [ Inc. [ Industries [ Zurn ] ] #Gen.ADDR received [ it approval [ #Cor.ADDR proceed [ <#Cor.ACT> projects [ four separate value [ total contract $ [ million [ 59 ] ] ] ] ] ] ] ]
+CS_TT:	uvedla [ Společnost [ #Forn.ID [ Zurn Industries Inc . ] ] dostala [ #PersPron.ACT povolení [ #Gen.ACT pokračovat [ <#Cor.ACT> projektech [ čtyřech samostatných hodnotou [ celkovou smluvní milionů [ 59 dolarů ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1959.final.streex##1.EnglishT-wsj_1959-s1a4
+EN:	AVX Corp. and Unitrode Corp. said they completed the previously reported sale of Unitrode's San Diego-based Passive Components division to AVX.
+CS:	Společnosti AVX Corp. a Unitrode Corp. uvedly, že dokončily dříve ohlášený prodej divize Passive Components společnosti Unitrode, sídlící v San Diegu, společnosti AVX. 
+EN_TT:	said [ and [ Corp. [ AVX ] Corp. [ Unitrode ] ] #Gen.ADDR completed [ they sale [ reported [ previously #Gen.ACT <#Cor.PAT> #Gen.ADDR ] division [ Unitrode #Forn.LOC [ San Diego-based ] Components [ Passive ] ] AVX ] ] ]
+CS_TT:	uvedly [ Společnosti [ a [ #Forn.ID [ AVX Corp . ] #Forn.ID [ Unitrode Corp . ] ] ] dokončily [ #PersPron.ACT prodej [ ohlášený [ dříve ] divize [ #Forn.ID [ Passive Components ] společnosti [ Unitrode sídlící [ #Forn.LOC [ San Diegu ] ] ] ] společnosti [ AVX ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1959.final.streex##3.EnglishT-wsj_1959-s3a1
+EN:	Passive Components makes capacitors and filters used to protect electronics.
+CS:	Divize Passive Components vyrábí kondenzátory a filtry na ochranu elektroniky. 
+EN_TT:	makes [ Components [ Passive ] and [ capacitors filters used [ #Gen.ACT <#Cor.PAT> protect [ #Cor.ACT electronics ] ] ] ]
+CS_TT:	vyrábí [ Divize [ #Forn.ID [ Passive Components ] ] a [ kondenzátory filtry [ ochranu [ elektroniky ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1959.final.streex##3.EnglishT-wsj_1959-s3-t11_coract
+EN:	Passive Components makes capacitors and filters used to protect electronics.
+CS:	Divize Passive Components vyrábí kondenzátory a filtry na ochranu elektroniky. 
+EN_TT:	makes [ Components [ Passive ] and [ capacitors filters used [ #Gen.ACT #Cor.PAT protect [ <#Cor.ACT> electronics ] ] ] ]
+CS_TT:	vyrábí [ Divize [ #Forn.ID [ Passive Components ] ] a [ kondenzátory filtry [ ochranu [ elektroniky ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1960.final.streex##1.EnglishT-wsj_1960-s1-t10_coract
+EN:	Consolidated Papers Inc. said it plans to spend $495 million on new paper-manufacturing equipment and facilities.
+CS:	Společnost Consolidated Papers Inc. uvedla, že má v plánu vydat 495 milionů dolarů za nová zařízení a vybavení na výrobu papíru. 
+EN_TT:	said [ Inc. [ Papers [ Consolidated ] ] #Gen.ADDR plans [ it spend [ <#Cor.ACT> $ [ million [ 495 ] ] and [ new paper-manufacturing equipment facilities ] ] ] ]
+CS_TT:	uvedla [ Společnost [ #Forn.ID [ Consolidated Papers Inc ] ] má [ #PersPron.ACT plánu vydat [ <#Cor.ACT> milionů [ 495 dolarů ] a [ zařízení [ nová ] vybavení [ výrobu [ papíru ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1960.final.streex##2.EnglishT-wsj_1960-s2a5
+EN:	The producer of paper used in magazines and by commercial printers said spending on the expansion is planned to begin in the first quarter of 1990.
+CS:	Tento výrobce papíru používaného v časopisech a v komerčních tiskárnách uvedl, že investice do rozšíření mají začít v prvním čtvrtletí roku 1990. 
+EN_TT:	said [ producer [ paper [ and [ used [ #Gen.ACT <#Cor.PAT> magazines ] used [ #Gen.PAT printers [ commercial ] ] ] ] ] #Gen.ADDR planned [ #Gen.ACT begin [ spending [ #Gen.ACT #Gen.PAT expansion ] quarter [ first 1990 ] ] ] ]
+CS_TT:	uvedl [ výrobce [ Tento papíru [ používaného [ a [ časopisech tiskárnách [ komerčních ] ] ] ] ] začít [ investice [ rozšíření [ #PersPron.ACT #PersPron.PAT ] ] čtvrtletí [ prvním roku [ 1990 ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##12.EnglishT-wsj_1962-s12-t19_coract
+EN:	In addition to hedging new stock purchases, the married-put technique can be used to protect stocks that an investor already owns .
+CS:	Kromě stelážování nově nakoupených akcií lze techniku zajištěného opčního prodeje využít i k ochraně akcií, které už investor vlastní. 
+EN_TT:	used [ hedging [ #Gen.ACT purchases [ new stock ] ] technique [ married-put ] #Gen.ACT protect [ <#Cor.ACT> stocks [ owns [ investor already that ] ] ] ]
+CS_TT:	lze [ stelážování [ akcií [ nakoupených [ nově ] ] ] #Benef.BEN využít [ #Cor.ACT techniku [ prodeje [ zajištěného opčního ] ] ochraně [ i akcií [ vlastní [ které už investor ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##16.EnglishT-wsj_1962-s16a3
+EN:	-- If the stock stays at the same price between now and the put's expiration date, the investor's loss will be limited to the cost of the put, less any amount realized from a closing sale of the put.
+CS:	- Zůstane-li akcie mezi dneškem a datem vypršení prodejní opce na stejné ceně, ztráta investora bude omezena na cenu prodejní opce bez jakékoli částky realizované závěrečným prodejem oné prodejní opce. 
+EN_TT:	limited [ stays [ stock price [ same ] and [ now date [ put expiration ] ] ] loss [ investor ] #Gen.ACT cost [ put amount [ any realized [ #Gen.ACT <#Cor.PAT> sale [ closing put ] ] ] ] ]
+CS_TT:	omezena [ Zůstane [ akcie a [ dneškem datem [ vypršení [ opce [ prodejní ] ] ] ] ceně [ stejné ] ] #Gen.ACT ztráta [ investora ] cenu [ opce [ prodejní ] částky [ jakékoli realizované [ prodejem [ závěrečným opce [ oné prodejní ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##1.EnglishT-wsj_1962-s1a1
+EN:	The stock market's dizzying gyrations during the past few days have made a lot of individual investors wish they could buy some sort of insurance.
+CS:	Závratné výkyvy burzy během posledních několika dní přivedly mnoho individuálních investorů k přání pořídit si nějaký druh pojištění. 
+EN_TT:	made [ gyrations [ market [ stock ] dizzying days [ past few ] ] lot [ investors [ individual ] ] wish [ <#Cor.ACT> buy [ they sort [ some insurance ] ] ] ]
+CS_TT:	přivedly [ výkyvy [ Závratné burzy dní [ posledních několika ] ] investorů [ mnoho individuálních ] přání [ <#PersPron.ACT> pořídit [ #Cor.ACT si druh [ nějaký pojištění [ #Gen.PAT #Gen.ACT ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##22.EnglishT-wsj_1962-s22a1
+EN:	Or, the investor can exercise the put, by tendering the stock to his or her broker in return for payment from another investor who has sold a put on the same stock.
+CS:	Anebo investor může použít prodejní opci tak, že nabídne akcie svému makléři na oplátku za platbu od jiného investora, který prodal prodejní opci na stejné akcie. 
+EN_TT:	exercise [ Or investor put tendering [ <#Cor.ACT> stock broker [ or [ his her ] ] return [ payment [ investor [ another sold [ who put [ stock [ same ] ] ] ] ] ] ] ]
+CS_TT:	použít [ Anebo investor opci [ prodejní ] nabídne [ <#PersPron.ACT> akcie makléři [ svému ] oplátku platbu [ investora [ jiného prodal [ #Gen.ADDR který opci [ prodejní akcie [ stejné ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##28.EnglishT-wsj_1962-s28-t3_coract
+EN:	To simplify the calculations, commissions on the option and underlying stock aren't included in the table.
+CS:	Pro zjednodušení výpočtů nejsou v tabulce zahrnuty provize za opci a příslušnou akcii. 
+EN_TT:	included [ simplify [ <#Cor.ACT> calculations ] commissions [ and [ option stock [ underlying ] ] ] n't #Gen.ACT table ]
+CS_TT:	zahrnuty [ #Gen.ACT zjednodušení [ <#Gen.ACT> výpočtů ] tabulce #Neg.RHEM provize [ a [ opci akcii [ příslušnou ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##31.EnglishT-wsj_1962-s31a1
+EN:	They can do this by purchasing ``index puts,'' which are simply put options on indexes that match broad baskets of stocks.
+CS:	To mohou provést nákupem "indexových prodejních opcí", což jsou jednoduše prodejní opce na indexy, které odpovídají velkým košům akcií. 
+EN_TT:	do [ They this purchasing [ <#Cor.ACT> puts [ index are [ which simply options [ put [ #Oblfm.DIR3 #Gen.PAT #Gen.ACT ] indexes match [ that baskets [ broad stocks ] ] ] ] ] ] ]
+CS_TT:	provést [ #PersPron.ACT To nákupem [ , [ opcí [ indexových prodejních ] jsou [ což jednoduše opce [ prodejní indexy [ odpovídají [ které košům [ velkým akcií ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##32.EnglishT-wsj_1962-s32a2
+EN:	For instance, the most popular index option is the S&P 100 option, commonly called the OEX.
+CS:	Například nejpopulárnější indexová opce je opce indexu S&P 100, běžně zvaná OEX. 
+EN_TT:	is [ instance option [ popular index ] option [ S&P [ 100 ] called [ commonly #Gen.ACT <#Cor.PAT> OEX ] ] ]
+CS_TT:	je [ Například opce [ nejpopulárnější indexová ] opce [ indexu [ #Forn.ID [ S & P 100 ] ] zvaná [ běžně #Idph.EFF [ OEX ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##38.EnglishT-wsj_1962-s38a4
+EN:	In addition, OEX options were suspended from trading last Friday afternoon, after the stock-market sell-off got under way and trading in the S&P-500 futures contract was halted .
+CS:	Kromě toho bylo obchodování s opcemi OEX minulý pátek odpoledne pozastaveno poté, co se na burze rozběhl hromadný odprodej a termínové obchody indexu S&P 500 byly zastaveny. 
+EN_TT:	suspended [ addition options [ OEX ] #Gen.ACT trading [ <#Cor.PAT> #Gen.ACT ] afternoon [ last Friday ] and [ got [ sell-off [ stock-market ] way ] halted [ trading [ contract [ futures [ S&P-500 ] ] ] #Gen.ACT ] ] ]
+CS_TT:	pozastaveno [ #Gen.ACT toho obchodování [ #Gen.ACT opcemi [ OEX ] ] pátek [ minulý ] odpoledne a [ rozběhl [ burze odprodej [ hromadný ] ] zastaveny [ obchody [ termínové indexu [ #Forn.ID [ S & P 500 ] ] ] #Gen.ACT ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##39.EnglishT-wsj_1962-s39-t9_coract
+EN:	So an investor who wanted to realize a profit on OEX puts after the trading suspension would have been out of luck.
+CS:	Tudíž investor, který chtěl dosáhnout zisku na prodejních opcích OEX, měl po pozastavení obchodování smůlu. 
+EN_TT:	been [ So investor [ wanted [ who realize [ <#Cor.ACT> profit [ puts [ OEX ] ] suspension [ trading ] ] ] ] luck ]
+CS_TT:	měl [ Tudíž investor [ dosáhnout [ který zisku opcích [ prodejních OEX ] ] ] pozastavení [ #Gen.ACT obchodování [ #Gen.PAT #Gen.ACT ] ] smůlu ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##3.EnglishT-wsj_1962-s3a1
+EN:	But while they want to be on the alert for similar buying opportunities now, they're afraid of being hammered by another terrifying plunge.
+CS:	Avšak zatímco teď chtějí být na podobné nákupní příležitosti připravení, bojí se, že je zdrtí další děsivý propad. 
+EN_TT:	're [ But want [ they be [ #Cor.ACT alert [ opportunities [ similar buying ] ] now ] ] they afraid [ hammered [ <#Cor.PAT> plunge [ another terrifying ] ] ] ]
+CS_TT:	bojí [ #PersPron.ACT Avšak být [ #PersPron.ACT teď připravení [ příležitosti [ podobné nákupní ] ] ] zdrtí [ <je> propad [ další děsivý ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##3.EnglishT-wsj_1962-s3-t7_coract
+EN:	But while they want to be on the alert for similar buying opportunities now, they're afraid of being hammered by another terrifying plunge.
+CS:	Avšak zatímco teď chtějí být na podobné nákupní příležitosti připravení, bojí se, že je zdrtí další děsivý propad. 
+EN_TT:	're [ But want [ they be [ <#Cor.ACT> alert [ opportunities [ similar buying ] ] now ] ] they afraid [ hammered [ #Cor.PAT plunge [ another terrifying ] ] ] ]
+CS_TT:	bojí [ #PersPron.ACT Avšak být [ <#PersPron.ACT> teď připravení [ příležitosti [ podobné nákupní ] ] ] zdrtí [ je propad [ další děsivý ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##40.EnglishT-wsj_1962-s40a2
+EN:	On the other hand, only a handful of individual issues were suspended from trading on Friday.
+CS:	Na druhou stranu v pátek bylo pozastaveno obchodování pouze s hrstkou individuálních emisí. 
+EN_TT:	suspended [ hand handful [ only issues [ individual ] ] #Gen.ACT trading [ <#Cor.ACT> ] Friday ]
+CS_TT:	pozastaveno [ #Gen.ACT stranu [ druhou ] pátek obchodování [ <#Gen.ACT> hrstkou [ pouze emisí [ individuálních ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##41.EnglishT-wsj_1962-s41a3
+EN:	Normally, once the underlying investment is suspended from trading, the options on those investments also don't trade.
+CS:	Obvykle, když je pozastaveno obchodování s příslušnými investicemi, neobchoduje se ani s opcemi na tyto investice. 
+EN_TT:	trade [ Normally suspended [ investment [ underlying ] #Gen.ACT trading [ <#Cor.ACT> ] ] options [ investments [ those ] ] also n't ]
+CS_TT:	neobchoduje [ #Gen.ADDR #Gen.ACT Obvykle pozastaveno [ #Gen.ACT obchodování [ <#Gen.ACT> investicemi [ příslušnými ] ] ] #Neg.RHEM ani opcemi [ investice [ tyto ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##42.EnglishT-wsj_1962-s42a1
+EN:	Ultimately, whether the insurance provided by purchasing puts is worthwhile depends on the cost of the options.
+CS:	To, jestli se vyplatí pojištění vzniklé nákupem prodejních opcí, nakonec závisí hlavně na ceně těchto opcí. 
+EN_TT:	depends [ Ultimately is [ insurance [ provided [ #Gen.ADDR #Gen.ACT #Cor.PAT purchasing [ <#Cor.ACT> puts ] ] ] worthwhile ] cost [ options ] ]
+CS_TT:	závisí [ vyplatí [ #Gen.PAT pojištění [ #Gen.PAT #Gen.ACT vzniklé [ nákupem [ opcí [ prodejních ] ] ] ] ] nakonec ceně [ hlavně opcí [ těchto ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##42.EnglishT-wsj_1962-s42a2
+EN:	Ultimately, whether the insurance provided by purchasing puts is worthwhile depends on the cost of the options.
+CS:	To, jestli se vyplatí pojištění vzniklé nákupem prodejních opcí, nakonec závisí hlavně na ceně těchto opcí. 
+EN_TT:	depends [ Ultimately is [ insurance [ provided [ #Gen.ADDR #Gen.ACT <#Cor.PAT> purchasing [ #Cor.ACT puts ] ] ] worthwhile ] cost [ options ] ]
+CS_TT:	závisí [ vyplatí [ #Gen.PAT pojištění [ #Gen.PAT #Gen.ACT vzniklé [ nákupem [ opcí [ prodejních ] ] ] ] ] nakonec ceně [ hlavně opcí [ těchto ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##45.EnglishT-wsj_1962-s45a5
+EN:	The protection from using married puts is clearly superior to that afforded by another options strategy some investors consider using during troubled times: selling call options on stocks the investor owns .
+CS:	Ochrana při použití zajištěných prodejních opcí je evidentně lepší než ta, kterou lze získat jinou opční strategií, o jejímž použití někteří investoři v problémových dobách uvažují: Prodejem opcí k nákupu na akcie, které investor vlastní. 
+EN_TT:	is [ protection [ using [ #Gen.ACT puts [ married ] ] ] clearly superior [ that [ afforded [ #Cor.PAT : [ strategy [ another options consider [ investors [ some ] using [ #Cor.PAT <#Cor.ACT> ] times [ troubled ] ] ] selling [ #Gen.ACT options [ call stocks [ owns [ investor #Cor.PAT ] ] ] ] ] ] ] ] ]
+CS_TT:	je [ Ochrana [ použití [ #Gen.ACT opcí [ zajištěných prodejních ] ] ] evidentně lepší [ je [ Ochrana [ ta lze [ #Benef.BEN získat [ #Cor.ACT kterou : [ strategií [ jinou opční uvažují [ použití [ <#Gen.ACT> jejímž ] investoři [ někteří ] dobách [ problémových ] ] ] Prodejem [ opcí [ nákupu akcie [ vlastní [ které investor ] ] ] ] ] ] ] ] lepší ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##46.EnglishT-wsj_1962-s46a1
+EN:	A call option is similar to a put, except that it gives its owner the right to buy shares at a stated price until expiration.
+CS:	Opce k nákupu je podobná té prodejní, až na to, že dává svému majiteli právo do vypršení nakoupit akcie za stanovenou cenu. 
+EN_TT:	is [ option [ call ] similar [ put ] gives [ it owner [ its ] right [ <#Cor.ACT> buy [ #Cor.ACT shares price [ stated ] expiration ] ] ] ]
+CS_TT:	je [ Opce [ nákupu ] podobná [ té [ prodejní ] ] dává [ #PersPron.ACT majiteli [ svému ] právo [ nakoupit [ #Cor.ACT vypršení [ #PersPron.ACT ] akcie cenu [ stanovenou ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##46.EnglishT-wsj_1962-s46-t20_coract
+EN:	A call option is similar to a put, except that it gives its owner the right to buy shares at a stated price until expiration.
+CS:	Opce k nákupu je podobná té prodejní, až na to, že dává svému majiteli právo do vypršení nakoupit akcie za stanovenou cenu. 
+EN_TT:	is [ option [ call ] similar [ put ] gives [ it owner [ its ] right [ #Cor.ACT buy [ <#Cor.ACT> shares price [ stated ] expiration ] ] ] ]
+CS_TT:	je [ Opce [ nákupu ] podobná [ té [ prodejní ] ] dává [ #PersPron.ACT majiteli [ svému ] právo [ nakoupit [ <#Cor.ACT> vypršení [ #PersPron.ACT ] akcie cenu [ stanovenou ] ] ] ] ]
+ERR:
+
