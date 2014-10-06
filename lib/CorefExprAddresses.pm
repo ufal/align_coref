@@ -15,7 +15,7 @@ extends 'Treex::Core::Block';
 has 'anaphor_type' => (
     is => 'ro',
     required => 1,
-    isa => enum([qw/perspron relpron perspron_unexpr/])
+    isa => enum([qw/perspron relpron perspron_unexpr cor/])
 );
 
 has 'ignore_align_type' => (
@@ -57,7 +57,7 @@ sub _build_filter {
 # TODO: this works reliably only for gold annotations
 sub _is_cor {
     my ($node, $params) = @_;
-    return 0 if ($node->get_layer ne "t")
+    return 0 if ($node->get_layer ne "t");
     return ($node->t_lemma eq "#Cor");
 }
 
