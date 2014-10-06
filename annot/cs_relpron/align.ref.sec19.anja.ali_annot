@@ -3,7 +3,7 @@ CS:	Arizonská komise pro korporace schválila společnosti Tucson Electric Powe
 EN:	The Arizona Corporations Commission authorized an 11.5% rate increase at Tucson Electric Power Co., substantially lower than recommended last month by a commission hearing officer and barely half the rise sought by the utility.
 CS_T:	Arizonská komise korporace schválila Tucson #Forn.ID společnosti Electric Power Co . #Gen.ACT zvýšení sazby % 11.5 , <což> je podstatně #Gen.ADDR méně měsíc minulý a doporučoval #PersPron.PAT jednající úředník komise sotva polovina #PersPron.PAT #Gen.ACT zvýšení požadovaného podnikem
 EN_T:	Arizona Corporations Commission authorized 11.5 % rate <increase> Tucson Electric Power Co. substantially lower recommended #Gen.PAT #Gen.ADDR last month commission hearing officer and barely half rise sought #Cor.PAT utility
-ERR:ALIGN=ANTE V SYNTAX_CHANGE
+ERR:ALIGN=ANTE V
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1900.final.streex##6.T-wsj1900-001-p1s5a20
 CS:	Společnost Tucson Electric uzavřela v kompozitním obchodování na Newyorské burze cenných papírů na 20875 dolaru za akcii, což je pokles o 25 centů. 
@@ -157,21 +157,21 @@ CS:	Komise zjistila, že pokud by se britská vláda pokusila zabránit fúzi, s
 EN:	The commission found that if the British government attempted to block the merger, Rhone-Poulenc would likely respond by closing the salicylates plant Monsanto operates in Wales, removing the matter from U.K. jurisdiction.
 CS_T:	Komise #Gen.PAT zjistila Rhone #Forn.ID společnost Poulenc vláda britská pokusila #Cor.ACT zabránit fúzi odpověděla #PersPron.PAT pravděpodobně #PersPron.ACT své uzavřením , továrny salicyláty kterou provozuje společnost Monsanto Walesu <čímž> dostala problém působnost jurisdikce britské
 EN_T:	commission found British government attempted #Cor.ACT block merger Rhone-Poulenc likely respond #PersPron.PAT #Cor.ACT <closing> salicylates plant Monsanto operates #Cor.PAT Wales removing #Cor.ACT matter U.K. jurisdiction
-ERR:ALIGN=ANTE V SYNTAX_CHANGE
+ERR:ALIGN=ANTE V
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1905.final.streex##1.T-wsj1905-001-p1s0a25
 CS:	Společnost Morrison Knudsen Corp. vykázala čistý zisk za třetí čtvrtletí ve výši 7.9 miliónu dolarů, neboli 69 centů na akcii, čímž pokračuje v zotavení z velkých loňských ztrát. 
 EN:	Morrison Knudsen Corp. posted third-quarter net income of $7.9 million, or 69 cents a share, continuing a rebound from steep year-ago losses.
 CS_T:	Morrison Společnost #Forn.ID Knudsen Corp , . čistý vykázala zisk čtvrtletí třetí výši 7.9 miliónu neboli dolarů 69 centů akcii <čímž> pokračuje #Cor.ACT zotavení velkých ztrát loňských
 EN_T:	Morrison Knudsen Corp. <posted> third-quarter net income $ 7.9 million or 69 cents share #Cor.ACT continuing rebound steep year-ago losses
-ERR:ALIGN=ANTE V SYNTAX_CHANGE
+ERR:ALIGN=ANTE V
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1905.final.streex##5.T-wsj1905-001-p1s4a16
 CS:	Společnost Morrison uvedla, že si strojírenský a stavební segment vedl dobře, k čemuž významně přispěla těžba a provoz jednotky MK-Ferguson. 
 EN:	Morrison said the engineering and construction segment performed well, with the mining and MK-Ferguson operations making important contributions.
 CS_T:	Morrison Společnost strojírenský a segment uvedla stavební vedl dobře <čemuž> , významně přispěla těžba a provoz jednotky MK #Forn.ID - Ferguson
 EN_T:	Morrison said #Gen.ADDR engineering and construction segment <performed> well mining and MK-Ferguson operations making important contributions
-ERR:ALIGN=ANTE V SYNTAX_CHANGE
+ERR:ALIGN=ANTE V
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1906.final.streex##3.T-wsj1906-001-p1s2a15
 CS:	Více než rok poté, co Bertussiová napsala stížnost, vydala komise "pokárání", které uvádí, že poslanec Bates připustil jednání porušující sněmovní řád zakazující diskriminaci zaměstnanců na základě pohlaví. 
@@ -206,7 +206,7 @@ CS:	Výnosy před zdaněním vzrostly na 93.2 milionu liber (146.8 milionu dolar
 EN:	Pretax profit rose to # 93.2 million -LRB-$146.8 million-RRB- from # 80.6 million -LRB-$127 million-RRB-, matching analysts' expectations, which ranged from # 90 million to # 95 million.
 CS_T:	Výnosy #PersPron.PAT zdaněním #Gen.ACT vzrostly 93.2 milionu liber , ( 146.8 milionu dolarů 80.6 milionu ( liber 127 milionů dolarů <což> odpovídá #PersPron.PAT očekávání analytiků která byla 90 milionů rozmezí do liber 95 milionů liber
 EN_T:	Pretax profit <rose> # 93.2 million -LRB- $ 146.8 million # 80.6 million -LRB- $ 127 million matching #Cor.ACT analysts expectations which ranged # 90 million # 95 million
-ERR:ALIGN=ANTE V SYNTAX_CHANGE
+ERR:ALIGN=ANTE V
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1908.final.streex##2.T-wsj1908-001-p1s1a29
 CS:	Výnosy před zdaněním vzrostly na 93.2 milionu liber (146.8 milionu dolarů) z 80.6 milionu liber (127 milionů dolarů), což odpovídá očekávání analytiků, která byla v rozmezí od 90 milionů liber do 95 milionů liber. 
@@ -233,8 +233,8 @@ ERR:ALIGN=OK
 CS:	Společnost Benj. Franklin Federal Savings & Loan Association uvedla, že očekává vykázání čistých ztrát ve třetím čtvrtletí ve výši okolo 8 milionů dolarů neboli 1.04 dolaru na akcii, což je důsledkem navýšení rezerv na úvěrové ztráty o 11 milionů dolarů. 
 EN:	Benj. Franklin Federal Savings&Loan Association said it expects to post a third-quarter net loss of about $8 million, or $1.04 a share, as a result of adding $11 million in loan-loss reserves.
 CS_T:	Benj . Franklin #Forn.ID Společnost Federal Savings uvedla & Loan Association #PersPron.ACT očekává #PersPron.ACT , vykázání čistých ztrát čtvrtletí třetím výši 8 milionů dolarů neboli 1.04 dolaru <což> je akcii důsledkem #PersPron.ACT navýšení rezerv ztráty úvěrové 11 milionů dolarů
-EN_T:	Benj Franklin Federal Savings & Loan Association said #Gen.ADDR it <expects> #Cor.ACT post third-quarter net loss $ 8 million or $ 1.04 share result #PersPron.ACT adding #Oblfm.DIR3 $ 11 million loan-loss reserves
-ERR:ALIGN=ANTE V SYNTAX_CHANGE
+EN_T:	Benj Franklin Federal Savings & Loan Association said #Gen.ADDR it expects #Cor.ACT <post> third-quarter net loss $ 8 million or $ 1.04 share result #PersPron.ACT adding #Oblfm.DIR3 $ 11 million loan-loss reserves
+ERR:ALIGN=ANTE V
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1910.final.streex##2.T-wsj1910-001-p1s1a11
 CS:	Tato záložna z Portlandu ve státě Oregon, která vlastní aktiva v hodnotě 5.2 miliardy dolarů, měla ve třetím čtvrtletí loňského roku čistý příjem 1.8 milionu dolarů neboli 23 centů na akcii. 
@@ -255,7 +255,7 @@ CS:	Společnost Arkla oznámila, že za třetí čtvrtletí vykáže 179 milion�
 EN:	Arkla said it will report $179 milllion in one-time charges against continuing operations for the third quarter, reflecting settlement of certain natural gas contracts.
 CS_T:	#Gen.ADDR Společnost Arkla oznámila #PersPron.ACT čtvrtletí vykáže třetí 179 , milionů dolarů jednorázových výdajích operace probíhající <což> odráží #PersPron.ACT uzavření několika smluv plynu zemním
 EN_T:	Arkla said #Gen.ADDR it <report> #Gen.ADDR $ 179 milllion one-time charges continuing operations third quarter #Cor.ACT reflecting settlement certain natural gas contracts
-ERR:ALIGN=ANTE V SYNTAX_CHANGE ing
+ERR:ALIGN=ANTE V	ING
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1911.final.streex##6.T-wsj1911-001-p1s5a20
 CS:	Společnost oznámila, že za čtvrté čtvrtletí bude mít výdaje ve výši 10 milionů dolarů za operace, které již dále nepokračují, odrážející určité odpisy a plánovaný prodej jednotky. 
@@ -1242,7 +1242,7 @@ CS:	Společnost Whitbread z Británie dala na prodej svoji divizi lihovin, čím
 EN:	Whitbread of Britain put its spirits division up for sale, setting off a scramble among distillers.
 CS_T:	Whitbread Společnost Británie #Gen.ADDR dala prodej svoji , divizi lihovin <čímž> rozpoutala boj lihovary
 EN_T:	Whitbread Britain <put> its spirits division sale #Cor.ACT setting scramble distillers
-ERR:ALIGN=ANTE V SYNTAX_CHANGE NO_CLAUSE ING
+ERR:ALIGN=ANTE V	ING COMPL
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1930.final.streex##4.T-wsj1930-001-p1s3a10
 CS:	Investoři také rychle vyčlenili akcie společností, u kterých se očekává, že budou na neštěstí vydělávat nebo kvůli němu trpět. 
@@ -2102,15 +2102,15 @@ ERR:ALIGN=OK	TO
 CS:	Vydání dluhopisů je první veřejná nabídka TVA od roku 1974, kdy především z důvodu financování TVA vznikla Finanční banka. 
 EN:	The bond issue is TVA's first public offering since the Financing Bank was created in 1974, primarily to finance the TVA.
 CS_T:	#PersPron.ACT Vydání dluhopisů je první veřejná nabídka TVA roku 1974 <kdy> především #PersPron.ACT financování TVA vznikla Finanční banka
-EN_T:	bond issue is TVA first public offering Financing Bank <created> #Gen.ACT 1974 primarily #Cor.ACT finance TVA
-ERR:ALIGN=ANTE V {KDY=SINCE}
+EN_T:	bond issue is TVA first public offering Financing Bank created #Gen.ACT 1974 primarily #Cor.ACT finance TVA
+ERR:ALIGN=0 SYNTAX_CHANGE	TEMP_SINCE
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1943.final.streex##9.a-wsj1943-001-p1s8W36-Ta
 CS:	Společnost TVA se rozhodla přikročit k nabídce dluhopisů teprve poté, co se minulý týden dohodla s Finanční bankou, která povolí TVA nadále si krátkodobě půjčovat peníze od banky dva roky po tom, co vstoupí na veřejný trh. 
 EN:	The TVA, in fact, decided to proceed with the bond offering following an agreement last week with the Financing Bank, which allows TVA to keep borrowing short term from the bank for two years after it goes to the public market.
 CS_T:	Společnost TVA rozhodla #Cor.ACT přikročit nabídce dluhopisů teprve #PersPron.ACT minulý týden dohodla #PersPron.PAT Finanční bankou která povolí TVA #Cor.ACT nadále krátkodobě půjčovat peníze banky dva roky <vstoupí> #PersPron.ACT veřejný trh
-EN_T:	TVA fact decided #Cor.ACT proceed bond offering following #Cor.ACT week last agreement Financing Bank which allows TVA keep borrowing #Cor.ACT short term bank two years it <goes> public market
-ERR:ALIGN=ANTE V SYNTAX_CHANGE FORMAL_CZ {ANTE I V CZ}
+EN_T:	TVA fact decided #Cor.ACT proceed bond offering following #Cor.ACT week last agreement Financing Bank which allows TVA keep borrowing #Cor.ACT short term bank two years it goes public market
+ERR:ALIGN=0 SYNTAX_CHANGE	TEMP_AFTER	FORMAL_CZ {ANTE I V CZ}
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1943.final.streex##9.T-wsj1943-001-p1s8a20
 CS:	Společnost TVA se rozhodla přikročit k nabídce dluhopisů teprve poté, co se minulý týden dohodla s Finanční bankou, která povolí TVA nadále si krátkodobě půjčovat peníze od banky dva roky po tom, co vstoupí na veřejný trh. 
@@ -2347,8 +2347,8 @@ ERR:ALIGN=OK
 CS:	Zpráva o Ewardově odchodu do penze přichází den po tom, co Morgan oznámil, že Christopher Whittington odešel z pozice předsedy bankovní pobočky společnosti Morgan, aby nastoupil do firmy poskytující finanční služby. 
 EN:	News of Mr. Eward's retirement comes one day after Morgan said that Christopher Whittington resigned as chairman of Morgan's banking subsidiary to join a financial services firm.
 CS_T:	Zpráva Ewardově odchodu penze přichází den Morgan <__A:a-wsj1949-001-p1s10W12-Ta__oznámil> Christopher Whittington odešel pozice předsedy bankovní pobočky společnosti Morgan #PersPron.ACT nastoupil firmy poskytující finanční služby
-EN_T:	News Mr. Eward retirement comes one day Morgan <__A:EnglishA-wsj_1949-s11-t10__said> #Gen.ADDR Christopher Whittington resigned chairman Morgan banking subsidiary #PersPron.ACT join financial services firm
-ERR:ALIGN=ANTE V FORMAL_CZ
+EN_T:	News Mr. Eward retirement comes one day Morgan said #Gen.ADDR Christopher Whittington resigned chairman Morgan banking subsidiary #PersPron.ACT join financial services firm
+ERR:ALIGN=0 SYNTAX_CHANGE	TEMP_AFTER	FORMAL_CZ
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1949.final.streex##13.T-wsj1949-001-p1s12a17
 CS:	"Pokud spolu jejich odchody nějak souvisí, pak tak, že odcházejí v době, kdy je banka v poměrně dobrém stavu a vývoj je velmi slibný." 
@@ -2578,8 +2578,8 @@ ERR:ALIGN=OK	ED
 CS:	Analytikové uvedli, že včerejší kupující upřednostňovali emise realitních, stavebních a jiných společností s vysokou kapitalizací, což odráží skutečnost, že mnoho tokijských investorů se nyní cítí bezpečněji u domácích akcií. 
 EN:	Yesterday's buyers favored real estate, construction and other large-capitalization issues, reflecting the fact that many Tokyo investors now feel safer with domestically oriented stocks, analysts said .
 CS_T:	Analytikové uvedli včerejší kupující upřednostňovali emise realitních stavebních a jiných společností vysokou kapitalizací <což> odráží , skutečnost mnoho tokijských investorů nyní cítí bezpečněji domácích akcií
-EN_T:	Yesterday buyers favored real estate construction and other large-capitalization issues reflecting <#Cor.ACT> fact many Tokyo investors now feel safer domestically #Gen.ACT oriented #Cor.PAT stocks analysts said #Gen.ADDR
-ERR:ALIGN=ANTE V SYNTAX_CHANGE NO_CLAUSE ING
+EN_T:	Yesterday buyers favored real estate construction and other large-capitalization issues <reflecting> #Cor.ACT fact many Tokyo investors now feel safer domestically #Gen.ACT oriented #Cor.PAT stocks analysts said #Gen.ADDR
+ERR:ALIGN=ANTE V	ING
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1957.final.streex##26.T-wsj1957-001-p1s25a13
 CS:	Akcie stavebních společností, které stouply, zahrnují společnost Shimizu, která vzrostla o 130 na 2080. 
@@ -2641,8 +2641,8 @@ ERR:ALIGN=ANTE SYNTAX_CHANGE NO_CLAUSE
 CS:	Přesto některé sektory po té, co se v minulých týdnech aktivně prodávaly, nacházejí zájem o koupi. 
 EN:	Still, some sectors found buying interest after being actively sold in recent weeks.
 CS_T:	#Gen.ACT #Gen.ADDR Přesto některé sektory minulých týdnech aktivně <__A:a-wsj1957-001-p1s40W7-Ta__prodávaly> #PersPron.PAT nacházejí zájem koupi
-EN_T:	Still some sectors found buying interest actively <sold> #Gen.ACT #Cor.PAT recent weeks
-ERR:ALIGN=ANTE V SYNTAX_CHANGE NO_CLAUSE FORMAL_CZ ING
+EN_T:	Still some sectors found buying interest actively sold #Gen.ACT #Cor.PAT recent weeks
+ERR:ALIGN=0 SYNTAX_CHANGE	TEMP_AFTER	FORMAL_CZ ING
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/tmp/robust_ali/wsj_1957.final.streex##43.T-wsj1957-001-p1s42a8
 CS:	Společnost Morgan Grenfell, o níž se neoficiálně hovořilo v souvislosti s převzetím, vzrostla o 20 na 392 pencí (6.18 dolaru) na akcii. 
