@@ -4,6 +4,8 @@ use Moose;
 use Treex::Core::Common;
 
 use Treex::Tool::Align::Utils;
+use Treex::Tool::Coreference::NodeFilter::PersPron;
+use Treex::Block::My::CorefExprAddresses;
 
 extends 'Treex::Block::Write::BaseTextWriter';
 
@@ -29,7 +31,7 @@ sub feats_for_tnode {
     my @feats = ();
 
     push @feats, $tnode->get_address;
-    push @feats, $tnode->wild->{coref_expr_type} // "undef";
+    push @feats, get_type($tnode);
     push @feats, $tnode->t_lemma // "undef";
     push @feats, $tnode->gram_sempos // "undef";
 
@@ -58,7 +60,7 @@ sub feats_for_anode {
     
     my @feats = ();
     push @feats, $anode->get_address;
-    push @feats, $tnode->wild->{coref_expr_type} // "undef";
+    push @feats, get_type($anode);
     push @feats, map {"undef"} 1..2;
     push @feats, $anode->lemma;
     push @feats, substr($anode->tag, 0, 2);
@@ -71,6 +73,28 @@ sub get_ali_info {
     my $ali_info = defined $l1_node->wild->{align_info} ? uc($l1_node->language) . ":\t" . $l1_node->wild->{align_info} :
                   (defined $l2_node && defined $l2_node->wild->{align_info} ? uc($l2_node->language) . ":\t" . $l2_node->wild->{align_info} : "undef");
     return $ali_info;
+}
+
+sub get_type {
+    my ($node) = @_;
+    my $type = "undef";
+    if (Treex::Tool::Coreference::NodeFilter::PersPron::is_3rd_pers($node, {expressed => 1})) {
+        $type = "perspron";
+    }
+    elsif (Treex::Tool::Coreference::NodeFilter::PersPron::is_3rd_pers($node, {expressed => -1})) {
+        $type = "perspron_unexpr";
+    }
+    elsif (Treex::Tool::Coreference::NodeFilter::RelPron::is_relat($node)) {
+        $type = "relpron";
+    }
+    elsif (Treex::Block::My::CorefExprAddresses::_is_cor($node)) {
+        $type = "cor";
+    }
+    elsif (Treex::Block::My::CorefExprAddresses::_is_cs_ten($node)) {
+        $type = "ten";
+    }
+    $type = $node->language . "_" . $type;
+    return $type;
 }
 
 sub process_tnode {
@@ -104,7 +128,7 @@ sub process_anode {
     my @l2_feats = feats_for_anode($l2_anode);
 
     my @feats = (@l1_feats, @l2_feats);
-    push @feats, $l1_anode->wild->{align_info} // "undef";
+    push @feats, get_ali_info($l1_anode, $l2_anode);
 
     print {$self->_file_handle} (join "\t", @feats);
     print {$self->_file_handle} "\n";
