@@ -24,11 +24,12 @@ sub _build_gaf {
 sub feats_for_tnode {
     my ($tnode) = @_;
 
-    return map {"undef"} 1..6 if (!defined $tnode);
+    return map {"undef"} 1..7 if (!defined $tnode);
 
     my @feats = ();
 
     push @feats, $tnode->get_address;
+    push @feats, $tnode->wild->{coref_expr_type} // "undef";
     push @feats, $tnode->t_lemma // "undef";
     push @feats, $tnode->gram_sempos // "undef";
 
@@ -53,10 +54,11 @@ sub feats_for_tnode {
 sub feats_for_anode {
     my ($anode) = @_;
     
-    return map {"undef"} 1..6 if (!defined $anode);
+    return map {"undef"} 1..7 if (!defined $anode);
     
     my @feats = ();
     push @feats, $anode->get_address;
+    push @feats, $tnode->wild->{coref_expr_type} // "undef";
     push @feats, map {"undef"} 1..2;
     push @feats, $anode->lemma;
     push @feats, substr($anode->tag, 0, 2);

@@ -45,9 +45,12 @@ sub _build_align_records {
         my @annotated_nodes_idx = grep {$word_nodes[$_] =~ /^<.*>$/ && $word_nodes[$_] !~ /^<__A:.*__.*>$/} 0 .. $#word_nodes;
         my @anodes_ids =  grep {defined $_} map {my ($a_id) = ($_ =~ /^<__A:(.*)__.*>$/); $a_id} @word_nodes;
         # read the additional annotation info
-        my $info = <$f>;
-        chomp $info;
-        $info =~ s/^ERR://;
+        $line = <$f>;
+        chomp $line;
+        $line =~ s/^ERR://;
+        my @parts = split /\t/, $line;
+        my $info = join "\t", grep {$_!~/^TYPE=/} @parts;
+        my ($type) = grep {$_ =~ /^TYPE=/} @parts;
         # read the empty line
         $line = <$f>;
         log_warn "The every 7th line of the input annotation file is not empty" if ($line !~ /^\s*$/);
@@ -59,6 +62,10 @@ sub _build_align_records {
         }
         if ($info !~ /^\s*$/) {
             $align_rec->{$src_id}{info} = $info;
+        }
+        if (defined $type) {
+            $type =~ s/^TYPE=//;
+            $align_rec->{$src_id}{type} = $type;
         }
     }
     close $f;
@@ -122,9 +129,11 @@ sub process_document {
                 my $anode = $node->get_lex_anode();
                 _add_a_align($anode, @ali_anodes);
                 $anode->wild->{align_info} = $rec->{info} if (defined $rec->{info});
+                $anode->wild->{coref_expr_type} = $rec->{type} if (defined $rec->{type});
             }
         }
         $node->wild->{align_info} = $rec->{info} if (defined $rec->{info});
+        $node->wild->{coref_expr_type} = $rec->{type} if (defined $rec->{type});
         
         #if (@ali_tnodes) {
         #    print "ADDRESS: " . $ali_tnodes[0]->get_address . "\n";
