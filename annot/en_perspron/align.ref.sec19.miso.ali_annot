@@ -395,7 +395,7 @@ EN:	The sale price of McCall's -- twice what Mr. Lang originally paid for it -- 
 CS:	Prodejní cena McCall's - dvojnásobek toho, co Lang původně zaplatil - bude Lang Communications financovat zpětný odkup 50% podílu Time Warner ve Working Woman a Working Mother. 
 EN_T:	sale price McCall -- twice what Mr. Lang originally paid <it> finance Lang Communications buy-back Time Warner 50 % interest Working Woman and Working Mother
 CS_T:	Prodejní McCall #Forn.RSTR cena ' s co dvojnásobek zaplatil Lang původně Lang #Forn.BEN Communications financovat zpětný odkup 50 % podílu Time #Forn.RSTR Warner Working #Forn.LOC Woman a Working #Forn.LOC Mother
-ERR:MISS_ARG
+ERR:REWORD	MISS_ARG
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1910.final.streex##5.EnglishT-wsj_1910-s5-t21
 EN:	According to a spokeswoman, they also relate to changes Franklin will have to make in its accounting procedures to comply with new federal capitalization requirements for thrifts.
@@ -1529,7 +1529,7 @@ EN:	Sen. Kennedy, never mind his dubious credentials for the moral high ground, 
 CS:	Senátor Kennedy, nehleďme na pochybné doklady o jeho morální převaze, zahrál vynikajícím způsobem na emoce ostatních. 
 EN_T:	Sen. Kennedy never #PersPron.ACT mind <his> dubious credentials moral high ground emoted brilliantly
 CS_T:	Senátor Kennedy #Neg.RHEM #PersPron.ACT nehleďme pochybné doklady <jeho> morální převaze zahrál vynikajícím způsobem emoce #PersPron.PAT ostatních
-ERR:NULL_POSS SWITCH
+ERR:OK	SWITCH
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##1.EnglishT-wsj_1927-s1-t37
 EN:	Whether or not ``great cases make bad-law'' -- as Justice Holmes asserted -- who can doubt that when great confirmation hearings turn on the nominee's response to these great cases they make bad judicial history?

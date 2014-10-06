@@ -1718,7 +1718,7 @@ EN:	Recognition Equipment said it expected to put the agreement with Prospect to
 CS:	Společnost Recognition Equipment uvedla, že očekává, že na mimořádné schůzi v lednu nechá o dohodě se společností Prospect hlasovat. 
 EN_T:	Recognition Equipment said #Gen.ADDR it expected #Cor.ACT put agreement Prospect vote <its> stockholders special meeting January
 CS_T:	Společnost #Forn.ID Recognition Equipment uvedla #PersPron.ACT očekává #PersPron.ACT mimořádné schůzi lednu nechá #Cor.ACT dohodě společností Prospect hlasovat
-ERR:REWORD	MISSING_ARG
+ERR:REWORD	MISS_ARG
 
 /home/mnovak/projects/align_resolver/tmp/robust_ali/wsj_1981.final.streex##2.EnglishT-wsj_1981-s2-t8
 EN:	Sluggish sales of the Beretta, and its four-door sister car, the Corsica, prompted GM to idle the two plants that build the automobiles for a total of three weeks this month.
