@@ -39,10 +39,10 @@ create_list : annot/$(ALIGN_ANNOT_ID)/is_relat.ref.sec19.list
 annot/$(ALIGN_ANNOT_ID)/is_relat.%.sec19.list : data/gold_aligned.mgiza_on_czeng/list
 	mkdir -p annot/$(ALIGN_ANNOT_ID)
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$* \
+		My::CorefExprAddresses ignore_align_type=gold anaphor_type=$(ALIGN_ANNOT_TYPE) \
 		Read::Treex from=@$< \
-		My::CorefExprAddresses anaphor_type=$(ALIGN_ANNOT_TYPE) \
 			| sort > $@
-		#My::CorefExprAddresses ignore_align_type=gold anaphor_type=$(ALIGN_ANNOT_TYPE) \
+		#My::CorefExprAddresses anaphor_type=$(ALIGN_ANNOT_TYPE) \
 
 #=================================== PREPARE DATA FOR MANUAL ANNOTATION ==================================
 
@@ -90,7 +90,7 @@ revise_annot :
 ALIGN_TYPE=mgiza_on_czeng
 
 GOLD_ANNOT_FILE_EN=annot/en.all.align.ref.sec19_00-49.ali_annot
-GOLD_ANNOT_FILE_CS=annot/cs.align.ref.sec19.so_far.ali_annot
+GOLD_ANNOT_FILE_CS=annot/cs.all.align.ref.sec19_00-49.ali_annot
 #GOLD_ANNOT_FILE=annot/$(ALIGN_ANNOT_ID)/align.ref.sec19.misko.annot
 
 GOLD_ANNOT_TREES_DIR = $(DATA_DIR)/gold_aligned.$(ALIGN_TYPE)
@@ -106,16 +106,35 @@ import_align : $(ORIG_LIST)
 		Util::SetGlobal language=en \
 		My::AlignmentLoader from=$(GOLD_ANNOT_FILE_EN) align_language=cs \
 		My::ProjectAlignment trg_selector=src \
+		Util::SetGlobal language=cs \
+		My::AlignmentLoader from=$(GOLD_ANNOT_FILE_CS) align_language=en \
+		My::ProjectAlignment trg_selector=src \
 		Write::Treex path=$(GOLD_ANNOT_TREES_DIR) storable=1
-		#Util::SetGlobal language=cs \
-		#My::AlignmentLoader from=$(GOLD_ANNOT_FILE_CS) align_language=en \
-		#My::ProjectAlignment trg_selector=src \
 
 $(DATA_DIR)/gold_aligned.list : annot/$(ALIGN_ANNOT_ID)/is_relat.src.sec19.list
 	replace=`echo $(GOLD_ANNOT_TREES_DIR) | sed 's/^$(DATA_DIR)\///' | sed 's/\//\\\\\//g'`; \
 	cat $< | sed "s/^.*\//$$replace\//" | sed 's/treex\.gz/streex/g' > $@
 
 skuska : $(DATA_DIR)/gold_aligned.list
+
+#================================ PRINTING SUMMARY TABLE =======================
+
+ALL_EN_TYPES=perspron perspron_unexpr relpron cor
+ALL_CS_TYPES=perspron perspron_unexpr relpron cor
+
+ALIGN_ANNOT_LIST_ALL=annot/$(ALIGN_ANNOT_ID)/is_relat.ref.sec19_00-49.all.list
+
+summary_for_type : $(ALIGN_ANNOT_LIST_ALL)
+	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Sref \
+		Read::Treex from=@$< \
+		My::BitextCorefSummary align_lang=$(ALIGN_ANNOT_LANG2) to='.' substitute='{^.*/([^\/]*)}{tmp/summaries/$(ALIGN_ANNOT_ID)/$$1}' extension='.txt'
+	find tmp/summaries/$(ALIGN_ANNOT_ID) -path "*.txt" | sort | xargs cat > tmp/summaries/$(ALIGN_ANNOT_ID).all
+		
+summary :
+	for type in $(ALL_EN_TYPES); do \
+		make summary_for_type ALIGN_ANNOT_LANG=en ALIGN_ANNOT_TYPE=$$type; \
+	done
+
 
 extract_data_table : $(DATA_DIR)/train.pcedt_19.table
 $(DATA_DIR)/train.pcedt_19.table : $(GOLD_ANNOT_LIST)
