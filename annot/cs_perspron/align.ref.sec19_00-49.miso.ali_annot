@@ -1,0 +1,126 @@
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##28.T-wsj1903-001-p1s27a22
+CS:	Od časopisu Success se očekává, že si polepší, přinejmenším kvůli tomu, že se jeho rival Venture, další časopis pro rostoucí firmy, položil. 
+EN:	Success is expected to gain at least because of the recent folding of rival Venture, another magazine for growing companies.
+CS_TT:	očekává [ #Gen.ACT časopisu [ Success ] polepší [ #PersPron.ACT ] přinejmenším položil [ , [ rival [ <jeho> Venture ] časopis [ další firmy [ rostoucí ] ] ] ] ]
+EN_TT:	expected [ #Gen.ACT gain [ Success least folding [ recent , [ Venture [ rival ] magazine [ another companies [ growing [ #Cor.ACT ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1913.final.streex##1.T-wsj1913-001-p1s0a22
+CS:	Společnost New York Times Co. oznámila, že čistý příjem ve třetím kvartálu vzrostl díky jednorázovému zisku z prodeje jejího systému kabelové televize. 
+EN:	New York Times Co. said net income rose in the third quarter because of a one-time gain on the sale of the company's cable-TV system.
+CS_TT:	oznámila [ Společnost [ #Forn.ID [ New York Times Co . ] ] vzrostl [ příjem [ čistý ] kvartálu [ třetím ] zisku [ jednorázovému prodeje [ systému [ <jejího> televize [ kabelové ] ] ] ] ] ]
+EN_TT:	said [ Co. [ Times [ York [ New ] ] ] #Gen.ADDR rose [ income [ net ] quarter [ third ] gain [ one-time sale [ system [ company cable-TV ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1915.final.streex##73.T-wsj1915-001-p1s72a3
+CS:	Také její laboratoř pro vývoj softwaru v Santa Terese a výzkumné středisko v Almadenu byly včera uzavřeny. 
+EN:	Also closed yesterday were the company's Santa Teresa software-development lab and the Almaden research center.
+CS_TT:	uzavřeny [ #PersPron.ACT Také a [ laboratoř [ <její> #Forn.LOC [ Santa Terese ] vývoj [ softwaru ] ] středisko [ výzkumné Almadenu ] ] včera ]
+EN_TT:	were [ closed yesterday Also and [ lab [ company #Forn.LOC [ Santa Teresa ] software-development ] center [ Almaden research ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1915.final.streex##94.T-wsj1915-001-p1s93a11
+CS:	SPOLEČNOST PROCTER & GAMBLE CO., se sídlem v Cincinnati, její továrna na kávu Folgers Coffee v jižním San Francisku byla zavřena vzápětí po zemětřesení, neutrpěla však žádné větší škody, nikdo nebyl zraněn a jakékoliv ztráty v produkci dokáží nahradit ostatní továrny v zemi. 
+EN:	PROCTER&GAMBLE CO., Cincinnati-based company's Folgers Coffee plant in South San Francisco was closed following the earthquake, no injuries or major damage, other plants around country can make up for any lost production.
+CS_TT:	, [ SPOLEČNOST [ #Forn.ID [ PROCTER & GAMBLE CO . ] sídlem [ #Forn.LOC [ Cincinnati ] ] ] však [ zavřena [ #PersPron.ACT továrna [ <její> #Forn.LOC [ jižním San Francisku ] #Forn.ID [ Folgers Coffee ] kávu ] vzápětí [ zemětřesení ] ] a [ neutrpěla [ #Neg.RHEM #PersPron.ACT škody [ žádné větší ] ] zraněn [ #Gen.ACT nikdo #Neg.RHEM ] dokáží [ nahradit [ ztráty [ jakékoliv produkci ] #Cor.ACT ] továrny [ ostatní zemi ] ] ] ] ]
+EN_TT:	, [ was [ CO. [ & [ PROCTER GAMBLE ] ] plant [ company [ Cincinnati-based ] Coffee [ Folgers ] #Forn.LOC [ San Francisco [ South ] ] ] closed earthquake ] #EmpVerb.PRED [ or [ injuries [ no ] damage [ major ] ] ] make [ plants [ other country ] production [ any lost ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##8.T-wsj1927-001-p1s7a18
+CS:	Vzhledem ke zklamání demokratů z Reaganových vítězství a z jmenování Nejvyššího soudu, vzhledem k jejich plánům pro tyto mimořádné případy a vzhledem k písemným záznamům napadnutelných Borkových textů bylo celkem jasné, že soudce Bork nemá příliš šancí na to, že jeho jmenování bude schváleno. 
+EN:	Given Democratic frustration with the Reagan victories and Court appointments, the contingency plans in place, and Mr. Bork's paper trail of vulnerable writings, it was pretty clear that Judge Bork never stood much chance of being confirmed .
+CS_TT:	bylo [ a [ zklamání [ demokratů a [ vítězství [ Reaganových ] jmenování [ #Gen.ACT soudu [ Nejvyššího ] ] ] ] plánům [ <jejich> případy [ tyto mimořádné ] ] záznamům [ písemným textů [ napadnutelných Borkových ] ] ] jasné [ celkem ] nemá [ #Neg.RHEM Bork [ soudce ] šancí [ příliš schváleno [ #Gen.ACT jmenování [ #Gen.ACT jeho ] ] ] ] ]
+EN_TT:	was [ frustration [ Democratic and [ and [ victories [ Reagan ] appointments [ Court ] ] plans [ <contingency> place ] trail [ Bork [ Mr. ] paper writings [ vulnerable ] ] ] ] clear [ pretty ] stood [ Bork [ Judge ] never chance [ much ] confirmed [ #Gen.ACT #Gen.EFF #Cor.PAT ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##8.T-wsj1927-001-p1s7a46
+CS:	Vzhledem ke zklamání demokratů z Reaganových vítězství a z jmenování Nejvyššího soudu, vzhledem k jejich plánům pro tyto mimořádné případy a vzhledem k písemným záznamům napadnutelných Borkových textů bylo celkem jasné, že soudce Bork nemá příliš šancí na to, že jeho jmenování bude schváleno. 
+EN:	Given Democratic frustration with the Reagan victories and Court appointments, the contingency plans in place, and Mr. Bork's paper trail of vulnerable writings, it was pretty clear that Judge Bork never stood much chance of being confirmed .
+CS_TT:	bylo [ a [ zklamání [ demokratů a [ vítězství [ Reaganových ] jmenování [ #Gen.ACT soudu [ Nejvyššího ] ] ] ] plánům [ jejich případy [ tyto mimořádné ] ] záznamům [ písemným textů [ napadnutelných Borkových ] ] ] jasné [ celkem ] nemá [ #Neg.RHEM Bork [ soudce ] šancí [ příliš schváleno [ #Gen.ACT jmenování [ #Gen.ACT <jeho> ] ] ] ] ]
+EN_TT:	was [ frustration [ Democratic and [ and [ victories [ Reagan ] appointments [ Court ] ] plans [ contingency place ] trail [ Bork [ Mr. ] paper writings [ vulnerable ] ] ] ] clear [ pretty ] stood [ Bork [ Judge ] never chance [ much ] confirmed [ #Gen.ACT #Gen.EFF #Cor.PAT ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1928.final.streex##19.T-wsj1928-001-p1s18a19
+CS:	Když se představitelé společnosti Christie's ptali, proč nebyla pro prodej sbírky Dorranceových vybrána jejich společnost, zástupci rodiny Dorranceových "řekli, že je to otázka finančního hlediska", prohlásil Michael Findlay, ředitel oddělení pro impresionistické a moderní obrazy společnosti Christie's. 
+EN:	When Christie's officials asked why the firm wasn't picked to sell the Dorrance collection , representatives of the Dorrance family ``told us it was a question of financial considerations,'' said Michael Findlay, Christie's head of impressionist and modern paintings.
+CS_TT:	prohlásil [ řekli [ ptali [ #Gen.ADDR představitelé [ společnosti [ #Forn.ID [ Christie ' s ] ] ] vybrána [ #PersPron.ACT proč prodej [ sbírky [ Dorranceových ] ] #Neg.RHEM společnost [ <jejich> ] ] ] zástupci [ rodiny [ Dorranceových ] ] #PersPron.ADDR je [ to otázka [ hlediska [ finančního ] ] ] ] , [ Findlay [ Michael ] ředitel [ oddělení [ obrazy [ a [ impresionistické moderní ] ] společnosti [ #Forn.ID [ Christie ' s ] ] ] ] ] ]
+EN_TT:	said [ told [ asked [ When officials [ Christie ] #Gen.ADDR picked [ why firm n't #Gen.ACT sell [ #Cor.ACT collection [ Dorrance ] ] ] ] representatives [ family [ Dorrance ] ] us was [ it question [ considerations [ financial ] ] ] ] #Gen.ADDR , [ Findlay [ Michael ] head [ Christie paintings [ and [ impressionist modern ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1929.final.streex##1.T-wsj1929-001-p1s0a26
+CS:	Egon Krenz, muž, který byl včera zvolen do funkce nového čelního představitele Východního Německa, čelí stejnému úkolu, jenž připadl na jeho sousední socialistické kolegy: reformovat zemi v krizi. 
+EN:	Egon Krenz, the man tapped yesterday to become East Germany's new leader, faces the same task that has fallen to neighboring socialist colleagues: reforming a country in crisis.
+CS_TT:	čelí [ , [ Krenz [ Egon ] muž [ zvolen [ #Gen.ACT který včera funkce [ představitele [ nového čelního Německa [ Východního ] ] ] ] ] ] úkolu [ stejnému připadl [ jenž kolegy [ <jeho> sousední socialistické ] ] reformovat [ #PersPron.ACT zemi [ krizi ] ] ] ]
+EN_TT:	faces [ , [ Krenz [ Egon ] man [ tapped [ #Gen.ACT yesterday become [ #Cor.ACT leader [ Germany [ East ] new ] ] ] ] ] : [ task [ same fallen [ that colleagues [ neighboring [ #Cor.ACT #Gen.PAT ] socialist ] ] ] reforming [ #Gen.ACT country [ crisis ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1929.final.streex##39.T-wsj1929-001-p1s38a15
+CS:	V prohlášení, které bylo blízké "glasnosti" tak, jak ji uplatňuje Východní Německo, stranický teoretik Východního Německa Otto Reinhold vlastně potvrdil dilema opětovného sjednocení. 
+EN:	In a statement that was as close as East Germany gets to practicing ``glasnost'', Otto Reinhold, an East German party theorist, actually acknowledged the reunification dilemma.
+CS_TT:	potvrdil [ prohlášení [ bylo [ které blízké [ glasnosti [ uplatňuje [ jak <ji> Německo [ Východní ] ] ] ] ] ] Reinhold [ teoretik [ stranický Německa [ Východního ] ] Otto ] vlastně dilema [ sjednocení [ #PersPron.ACT opětovného #Rcp.PAT ] ] ]
+EN_TT:	acknowledged [ statement [ was [ that close [ as [ gets [ Germany [ East ] close [ practicing [ #Cor.ACT glasnost ] ] ] ] ] ] ] , [ Reinhold [ Otto ] theorist [ party [ German [ East ] ] ] ] actually dilemma [ reunification ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1930.final.streex##4.T-wsj1930-001-p1s3a21
+CS:	Investoři také rychle vyčlenili akcie společností, u kterých se očekává, že budou na neštěstí vydělávat nebo kvůli němu trpět. 
+EN:	Also, investors quickly singled out stocks of companies expected to profit or suffer from the disaster.
+CS_TT:	vyčlenili [ #Oblfm.DIR1 Investoři také rychle akcie [ společností [ očekává [ #Gen.ACT kterých nebo [ vydělávat [ neštěstí #Gen.PAT ] #PersPron.ACT trpět [ <němu> ] ] ] ] ] ]
+EN_TT:	singled [ Also investors quickly #Oblfm.DIR1 stocks [ expected [ #Gen.ACT or [ companies profit suffer disaster ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1931.final.streex##1.T-wsj1931-001-p1s0a8
+CS:	Dolar včera zakončil níže, protože ho tlačily dolů pokračující znepokojení ohledně burzy. 
+EN:	The dollar finished softer yesterday, tilted lower by continued concern about the stock market.
+CS_TT:	zakončil [ Dolar včera níže tlačily [ <ho> dolů znepokojení [ #Gen.PAT #Gen.ACT pokračující burzy ] ] ]
+EN_TT:	finished [ dollar #Gen.PAT softer yesterday tilted [ lower concern [ continued market [ stock ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1932.final.streex##47.T-wsj1932-001-p1s46a18
+CS:	"Je známo, že cukr potřebují, a očekávání, že vstoupí na trh, mu očividně dává podstatnou podporu," řekl prodejce. 
+EN:	``It 's known they need the sugar, and the expectation that they will come in is apparently giving the market its principal support,'' the dealer said .
+CS_TT:	řekl [ #Gen.ADDR a [ Je [ známo potřebují [ #PersPron.ACT cukr ] ] dává [ očekávání [ #Gen.ACT vstoupí [ #PersPron.ACT trh ] ] <mu> očividně podporu [ podstatnou ] ] ] prodejce ]
+EN_TT:	said [ and [ known [ #Gen.ACT need [ they sugar ] ] <__A:EnglishA-wsj_1932-s47-t21__giving> [ expectation [ come [ they ] ] apparently market support [ its principal ] ] ] dealer #Gen.ADDR ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1935.final.streex##59.T-wsj1935-001-p1s58a15
+CS:	Jsem si jist, že ocení, jakou efektivní reakci na její problémy jí vytvořil cenový systém. 
+EN:	I'm sure she'll appreciate what an efficient reaction to her problems the price system has created .
+CS_TT:	Jsem [ #PersPron.ACT jist [ ocení [ #PersPron.ACT vytvořil [ reakci [ jakou efektivní problémy [ její ] ] <jí> systém [ cenový ] ] ] ] ]
+EN_TT:	'm [ I sure [ appreciate [ she <__A:EnglishA-wsj_1935-s59-t18__created> [ reaction [ what efficient problems [ her ] ] system [ price ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1939.final.streex##15.T-wsj1939-001-p1s14a2
+CS:	Zanechal mu zprávu, ve které viní Darmana ze zaprodanosti. 
+EN:	He left a message accusing Mr. Darman of selling out.
+CS_TT:	Zanechal [ #PersPron.ACT <mu> zprávu [ viní [ které #PersPron.ACT Darmana zaprodanosti ] ] ]
+EN_TT:	left [ <He> #Oblfm.LOC message [ accusing [ #Cor.ACT Darman [ Mr. ] selling [ #Cor.ACT ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1939.final.streex##27.T-wsj1939-001-p1s26a24
+CS:	Když Richard Rahn oznámil finančnímu tisku, že pád burzy byl způsoben překážkou kapitálovým ziskům, všichni ho ignorovali a trochu se mu vysmívali. 
+EN:	When Richard Rahn advised the financial press that the market crash was caused by the setback to capital gains , he was generally ignored and mildly ridiculed .
+CS_TT:	a [ oznámil [ Rahn [ Richard ] tisku [ finančnímu ] způsoben [ pád [ burzy ] překážkou [ ziskům [ kapitálovým ] ] ] ] všichni ignorovali [ ho ] vysmívali [ trochu <mu> ] ]
+EN_TT:	and [ advised [ When Rahn [ Richard ] press [ financial ] caused [ crash [ market ] setback [ gains [ capital ] ] ] ] he ignored [ generally ] #Gen.ACT ridiculed [ mildly ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1939.final.streex##38.T-wsj1939-001-p1s37a9
+CS:	Protiargument, který vyslechl, je ten, že pokud on a jeho kolegové demokrati uspějí při zavržení prezidentova návrhu, v roce 1990 se kvůli oslabené ekonomice objeví obrovský daňový deficit. 
+EN:	The counter-argument, which he has heard , is that if he and his fellow Democrats are successful in killing the president's proposal, the revenue gap will open up tremendously in 1990 because of the weakened economy.
+CS_TT:	je [ Protiargument [ vyslechl [ který #PersPron.ACT ] ] objeví [ uspějí [ a [ <on> demokrati [ kolegové [ jeho ] ] ] zavržení [ #PersPron.ACT návrhu [ prezidentova ] ] ] roce [ 1990 ] ekonomice [ oslabené ] deficit [ obrovský daňový ] ] ]
+EN_TT:	is [ counter-argument [ heard [ which he ] ] open [ are [ and [ <he> Democrats [ his fellow ] ] successful [ killing [ #PersPron.ACT proposal [ president ] ] ] ] gap [ revenue ] tremendously 1990 economy [ weakened ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1948.final.streex##6.T-wsj1948-001-p1s5a12
+CS:	Protože společnost Bear Stearns funguje na fiskální roky, jsou její údaje k dispozici podstatně dříve než údaje jiných firem. 
+EN:	Because it operates on a fiscal year, Bear Stearns's yearly filings are available much earlier than those of other firms.
+CS_TT:	jsou [ funguje [ společnost [ #Forn.ID [ Bear Stearns ] ] roky [ fiskální ] ] údaje [ <její> ] dispozici dříve [ podstatně jsou [ dispozici údaje [ firem [ jiných ] ] ] ] ]
+EN_TT:	are [ operates [ it year [ fiscal ] ] filings [ Stearns [ Bear ] <yearly> ] available earlier [ much those [ firms [ other ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1949.final.streex##13.T-wsj1949-001-p1s12a6
+CS:	"Pokud spolu jejich odchody nějak souvisí, pak tak, že odcházejí v době, kdy je banka v poměrně dobrém stavu a vývoj je velmi slibný." 
+EN:	``If there's any coincidence about the departures it's that they are leaving at a time when the business is in reasonably good shape and going forward very well .''
+CS_TT:	souvisí [ #Rcp.PAT #PersPron.ACT souvisí [ spolu odchody [ <jejich> ] nějak #Rcp.PAT ] pak odcházejí [ #Oblfm.DIR1 #PersPron.ACT době [ a [ je [ kdy banka stavu [ dobrém [ poměrně ] ] ] je [ vývoj slibný [ velmi ] ] ] ] ] ]
+EN_TT:	's [ 's [ coincidence [ any <__A:EnglishA-wsj_1949-s13-t8__departures> ] ] it leaving [ they #PersPron.PAT time [ and [ business is [ when shape [ good [ reasonably ] ] ] going [ forward well [ very ] ] ] ] ] ]
+ERR:
+
