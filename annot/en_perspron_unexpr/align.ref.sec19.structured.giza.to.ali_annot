@@ -1,0 +1,1155 @@
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1900.final.streex##2.EnglishT-wsj_1900-s2a1
+EN:	The ruling follows a host of problems at Tucson Electric, including major write-downs, a 60% slash in the common stock dividend and the departure of former Chairman Einar Greve during a company investigation of his stock sales.
+CS:	Nařízení vyplývá z nahromaděných problémů ve společnosti Tucson Electric, včetně velkých odpisů, 60% snížení dividend z kmenových akcií a odchodu bývalého předsedy správní rady Einara Greveho v průběhu firemního vyšetřování prodeje jeho akcií. 
+EN_TT:	follows [ ruling host [ problems Electric [ Tucson ] including [ <#PersPron.ACT> and [ write-downs [ major ] slash [ % [ 60 ] dividend [ stock [ common ] ] ] departure [ Greve [ Chairman [ former ] Einar ] investigation [ company sales [ his stock ] ] ] ] ] ] ]
+CS_TT:	vyplývá [ Nařízení [ #PersPron.ACT #PersPron.PAT ] problémů [ nahromaděných společnosti [ #Forn.ID [ Tucson Electric ] ] a [ odpisů [ velkých ] snížení [ #PersPron.ACT % [ 60 ] dividend [ akcií [ kmenových ] ] ] odchodu [ Greveho [ předsedy [ bývalého rady [ správní ] ] Einara ] průběhu [ vyšetřování [ #Gen.ACT firemního prodeje [ akcií [ jeho ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1901.final.streex##3.EnglishT-wsj_1901-s3-t9_coract
+EN:	The U.S. wants a higher won to make South Korea's exports more expensive and help trim Seoul's trade surplus.
+CS:	Spojené státy chtějí silnější won, aby jihokorejský export byl dražší a pomohl tak zredukovat soulský obchodní přebytek. 
+EN_TT:	wants [ U.S. won [ higher ] and [ make [ <#PersPron.ACT> exports [ Korea [ South ] ] expensive ] help [ #Cor.ACT #Gen.ADDR trim [ #Gen.ACT surplus [ Seoul trade ] ] ] ] ]
+CS_TT:	chtějí [ státy [ Spojené ] won [ silnější ] a [ export [ jihokorejský ] byl [ dražší ] pomohl [ #Gen.ADDR tak zredukovat [ #Cor.ACT přebytek [ soulský obchodní ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1902.final.streex##2.EnglishT-wsj_1902-s2-t12_coract
+EN:	The proposed holding company's primary purpose would be to allow Great American to continue engaging in real estate development activities, it said .
+CS:	Prvořadým úkolem navrhované holdingové společnosti by bylo dovolit bance Great American pokračovat v aktivitách výstavby nemovitostí, prohlásila. 
+EN_TT:	said [ be [ purpose [ company [ proposed holding ] primary ] allow [ <#PersPron.ACT> continue [ American [ Great ] engaging [ activities [ development [ estate [ real ] ] ] ] ] ] ] it #Gen.ADDR ]
+CS_TT:	prohlásila [ #PersPron.ACT bylo [ úkolem [ Prvořadým společnosti [ navrhované holdingové ] ] dovolit [ <#Cor.ACT> bance [ #Forn.ID [ Great American ] ] pokračovat [ #Cor.ACT aktivitách [ výstavby [ nemovitostí ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##18.EnglishT-wsj_1903-s18a1
+EN:	It gets more mail in a month than McCall's got in a year, and it's not from mothers.
+CS:	Za měsíc dostane více dopisů, než McCall's za rok, a není to od matek. 
+EN_TT:	and [ gets [ It month mail [ more [ got [ McCall <#PersPron.PAT> year ] ] ] ] 's [ it not mothers ] ]
+CS_TT:	a [ dostane [ měsíc #PersPron.ACT dopisů [ více [ dostane [ #Forn.ACT [ McCall ' s ] #PersPron.PAT rok ] ] ] ] není [ #Neg.RHEM to matek ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##22.EnglishT-wsj_1903-s22-t18_coract
+EN:	Two weeks ago, Citicorp and Mr. Lang pumped $800,000 into Matilda just to keep the doors open.
+CS:	Citicorp a Dale Lang před dvěma týdny napumpovali do nakladatelství Matilda 800000 dolarů, jen aby udrželi dveře otevřené. 
+EN_TT:	pumped [ weeks [ Two ] and [ Citicorp Lang [ Mr. ] ] $ [ 800,000 ] Matilda just keep [ <#PersPron.ACT> doors open ] ]
+CS_TT:	napumpovali [ a [ Citicorp #Forn.ACT [ Dale Lang ] ] týdny [ dvěma ] nakladatelství [ Matilda ] dolarů [ 800000 ] udrželi [ <#PersPron.ACT> jen dveře otevřené ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##2.EnglishT-wsj_1903-s2-t22_coract
+EN:	Mr. Lang admits that Ms. is ``in dire straits'' and that Sassy needs big promotional dollars to keep it alive.
+CS:	Lang připouští, že Ms. je "v těžkých nesnázích" a že časopis Sassy potřebuje mnoho dolarů na reklamu, aby se udržel naživu. 
+EN_TT:	admits [ Lang [ Mr. ] and [ is [ Ms. straits [ dire ] ] needs [ Sassy dollars [ big promotional ] keep [ <#PersPron.ACT> it alive ] ] ] ]
+CS_TT:	připouští [ Lang a [ je [ #Idph.ACT [ Ms ] nesnázích [ těžkých ] ] potřebuje [ časopis [ Sassy ] dolarů [ mnoho ] reklamu udržel [ <#PersPron.ACT> se naživu ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##33.EnglishT-wsj_1903-s33a8
+EN:	Mr. Lang surprised Time soon after joining forces when he said he would negotiate rates individually with advertisers, a practice common in broadcasting but considered taboo by magazine publishers .
+CS:	Lang překvapil Time brzy po spojení sil, když prohlásil, že cenu bude s inzerenty dohadovat individuálně, což je praktika obvyklá ve vysílání, ale mezi vydavateli časopisů je považována za tabu. 
+EN_TT:	, [ surprised [ Lang [ Mr. ] Time soon joining [ <#PersPron.ACT> forces ] said [ when he #Gen.ADDR negotiate [ he rates individually advertisers ] ] ] #EmpVerb.PRED [ practice [ but [ common [ broadcasting ] considered [ #Cor.PAT taboo publishers [ magazine ] ] ] ] ] ]
+CS_TT:	překvapil [ Lang #Forn.PAT [ Time ] brzy [ spojení [ <#PersPron.ACT> sil #Rcp.ADDR ] ] prohlásil [ #PersPron.ACT , [ dohadovat [ #PersPron.ACT cenu inzerenty individuálně ] ale [ je [ což praktika obvyklá [ vysílání ] ] považována [ #PersPron.PAT vydavateli [ časopisů ] tabu ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##8.EnglishT-wsj_1903-s8-t11_coract
+EN:	``For Ms., it's time to publish for the reader, not the advertiser .''
+CS:	"Co se týče Ms., je čas vydávat pro čtenáře a ne pro inzerenta." 
+EN_TT:	's [ Ms. it time [ publish [ <#PersPron.ACT> #Gen.PAT , [ reader not advertiser ] ] ] ]
+CS_TT:	je [ týče [ Co #Idph.PAT [ Ms ] ] čas [ vydávat [ #PersPron.PAT <#PersPron.ACT> a [ čtenáře ne inzerenta ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1904.final.streex##2.EnglishT-wsj_1904-s2-t48_coract
+EN:	The commission, which was asked to study the deal by the Department of Trade and Industry after its announcement in February, said the diversity of global supply of chemicals used in making analgesic drugs was great enough to offset the dominant U.K. market share Rhone-Poulenc would gain through the acquisition.
+CS:	Komise, kterou ministerstvo průmyslu a obchodu po únorovém zveřejnění požádalo o přezkoumání dohody, uvedla, že různorodost globálních zdrojů chemikálií používaných pro výrobu analgetik je dostatečná, aby vyvážila dominantní podíl, který společnost Rhone-Poulenc na britském trhu díky akvizici získá. 
+EN_TT:	said [ commission [ asked [ which study [ #Cor.ACT deal ] Department [ and [ Trade Industry ] ] announcement [ its February ] ] ] #Gen.ADDR was [ diversity [ supply [ global chemicals [ used [ #Gen.ACT #Cor.PAT making [ #Cor.ACT drugs [ analgesic ] ] ] ] ] ] great [ enough [ offset [ <#PersPron.ACT> share [ dominant market [ U.K. ] gain [ Rhone-Poulenc #Cor.PAT acquisition ] ] ] ] ] ] ]
+CS_TT:	uvedla [ Komise [ požádalo [ kterou ministerstvo [ a [ průmyslu obchodu ] ] zveřejnění [ #PersPron.PAT #Gen.ACT únorovém ] přezkoumání [ #PersPron.ACT dohody ] ] ] je [ různorodost [ zdrojů [ globálních chemikálií [ používaných [ výrobu [ analgetik ] ] ] ] ] dostatečná [ vyvážila [ <#PersPron.ACT> podíl [ dominantní získá [ který společnost [ #Forn.ID [ Rhone - Poulenc ] ] trhu [ britském ] akvizici ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1904.final.streex##4.EnglishT-wsj_1904-s4a1
+EN:	The commission found that if the British government attempted to block the merger, Rhone-Poulenc would likely respond by closing the salicylates plant Monsanto operates in Wales, removing the matter from U.K. jurisdiction.
+CS:	Komise zjistila, že pokud by se britská vláda pokusila zabránit fúzi, společnost Rhone-Poulenc by pravděpodobně odpověděla uzavřením své továrny na salicyláty, kterou společnost Monsanto provozuje ve Walesu, čímž by problém dostala mimo působnost britské jurisdikce. 
+EN_TT:	found [ commission respond [ attempted [ government [ British ] block [ #Cor.ACT merger ] ] Rhone-Poulenc likely <#PersPron.PAT> closing [ #Cor.ACT plant [ salicylates operates [ Monsanto #Cor.PAT Wales ] ] removing [ #Cor.ACT matter jurisdiction [ U.K. ] ] ] ] ]
+CS_TT:	zjistila [ Komise #Gen.PAT , [ společnost [ #Forn.ID [ Rhone Poulenc ] ] odpověděla [ pokusila [ vláda [ britská ] zabránit [ #Cor.ACT fúzi ] ] <#PersPron.PAT> pravděpodobně uzavřením [ #PersPron.ACT továrny [ své salicyláty provozuje [ kterou společnost [ Monsanto ] Walesu ] ] ] ] dostala [ čímž problém působnost [ jurisdikce [ britské ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##1.EnglishT-wsj_1906-s1a4
+EN:	The House Ethics Committee officially cited Rep. Jim Bates -LRB-D., Calif.-RRB- for sexually harassing two female employees, but didn't recommend formal disciplinary action.
+CS:	Etická komise sněmovny oficiálně obvinila poslance Jima Batese (demokrata za Kalifornii) ze sexuálního obtěžování dvou zaměstnankyň, ale nedoporučila formální disciplinární řízení. 
+EN_TT:	but [ Committee [ House Ethics ] cited [ officially Bates [ Rep. Jim D. [ Calif ] ] harassing [ sexually <#PersPron.ACT> employees [ two female ] ] ] recommend [ n't #Gen.ADDR action [ formal disciplinary ] ] ]
+CS_TT:	ale [ komise [ Etická sněmovny ] obvinila [ oficiálně ( [ Batese [ poslance Jima ] demokrata [ Kalifornii ] ] obtěžování [ <#Cor.ACT> sexuálního zaměstnankyň [ dvou ] ] ] nedoporučila [ #Neg.RHEM #Gen.ADDR řízení [ formální disciplinární ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##5.EnglishT-wsj_1906-s5a5
+EN:	Rep. Bates said he would write the letters as ordered .
+CS:	Poslanec Bates prohlásil, že dopisy napíše tak, jak mu bylo nařízeno. 
+EN_TT:	said [ Bates [ Rep. ] #Gen.ADDR write [ he letters ordered [ #Gen.ACT #Cor.ADDR <#PersPron.PAT> ] ] ]
+CS_TT:	prohlásil [ Bates [ Poslanec ] napíše [ #PersPron.ACT dopisy nařízeno [ <#PersPron.PAT> #PersPron.ACT jak mu ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##9.EnglishT-wsj_1906-s9a6
+EN:	Rep. Bates has publicly begged for forgiveness from voters and was re-elected with 60% of the vote last November.
+CS:	Poslanec Bates veřejně požádal voliče o odpuštění a byl minulý listopad znovu zvolen 60 % hlasů. 
+EN_TT:	and [ begged [ Bates [ Rep. ] publicly #Gen.ADDR forgiveness [ voters ] ] re-elected [ <#PersPron.PAT> #Gen.ACT #Gen.EFF % [ 60 vote ] November [ last ] ] ]
+CS_TT:	a [ požádal [ Bates [ Poslanec ] veřejně voliče odpuštění [ #PersPron.PAT #PersPron.ADDR #PersPron.ACT ] ] zvolen [ listopad [ minulý ] znovu #PersPron.EFF #PersPron.PAT % [ 60 hlasů ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1910.final.streex##1.EnglishT-wsj_1910-s1a1
+EN:	Benj. Franklin Federal Savings&Loan Association said it expects to post a third-quarter net loss of about $8 million, or $1.04 a share, as a result of adding $11 million in loan-loss reserves.
+CS:	Společnost Benj. Franklin Federal Savings & Loan Association uvedla, že očekává vykázání čistých ztrát ve třetím čtvrtletí ve výši okolo 8 milionů dolarů neboli 1.04 dolaru na akcii, což je důsledkem navýšení rezerv na úvěrové ztráty o 11 milionů dolarů. 
+EN_TT:	said [ Association [ Franklin [ Benj ] Federal & [ Savings Loan ] ] #Gen.ADDR expects [ it post [ #Cor.ACT loss [ third-quarter net or [ $ [ million [ 8 ] ] $ [ 1.04 share ] ] ] result [ adding [ <#PersPron.ACT> #Oblfm.DIR3 $ [ million [ 11 reserves [ loan-loss ] ] ] ] ] ] ] ]
+CS_TT:	uvedla [ Společnost [ #Forn.ID [ Benj . Franklin Federal Savings & Loan Association ] ] , [ očekává [ #PersPron.ACT vykázání [ #PersPron.ACT ztrát [ čistých čtvrtletí [ třetím ] výši [ neboli [ milionů [ 8 dolarů ] dolaru [ 1.04 akcii ] ] ] ] ] ] je [ což důsledkem [ navýšení [ #PersPron.ACT rezerv [ ztráty [ úvěrové ] ] milionů [ 11 dolarů ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1912.final.streex##3.EnglishT-wsj_1912-s3a9
+EN:	The announcement coincides with the start of the Commonwealth Ministers Conference in Kuala Lumpur, where proposals for renewed sanctions against South Africa, including moves to block settling of a new debt agreement, were scheduled to be discussed .
+CS:	Uvedené oznámení se kryje se začátkem konference ministrů zemí Commonwealthu v Kuala Lumpuru, kde jsou naplánovány diskuse o návrzích na obnovení sankcí proti Jihoafrické republice včetně návrhů pozastavit uzavření nové dohody o pohledávkách. 
+EN_TT:	coincides [ announcement start [ Conference [ Ministers [ Commonwealth ] #Forn.LOC [ Kuala Lumpur scheduled [ where #Gen.ACT discussed [ #Gen.ACT proposals [ sanctions [ renewed Africa [ South ] #Gen.ACT moves [ <#PersPron.ACT> block [ #Cor.ACT settling [ #Gen.ACT agreement [ new debt ] ] ] ] ] ] ] ] ] ] ] ]
+CS_TT:	kryje [ oznámení [ #PersPron.ACT #PersPron.PAT #Gen.ADDR Uvedené ] začátkem [ konference [ ministrů [ zemí [ Commonwealthu ] ] #Forn.LOC [ Kuala Lumpuru ] naplánovány [ #Gen.ACT kde diskuse [ návrzích [ obnovení [ #Gen.ACT sankcí [ republice [ Jihoafrické ] ] ] návrhů [ pozastavit [ #Gen.ACT uzavření [ #Gen.ACT dohody [ nové pohledávkách ] ] ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1915.final.streex##106.EnglishT-wsj_1915-s106a4
+EN:	Closed yesterday due to power difficulties.
+CS:	Včera byla uzavřena kvůli problémům s dodávkami energie. 
+EN_TT:	#EmpVerb.PRED [ <#PersPron.ACT> Closed [ #Cor.PAT #Gen.ACT yesterday difficulties [ power ] ] ]
+CS_TT:	uzavřena [ #PersPron.PAT #PersPron.ACT Včera problémům [ dodávkami [ energie ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1915.final.streex##34.EnglishT-wsj_1915-s34a5
+EN:	CLOROX Co., Oakland, consumer products, annual sales of $1.36 billion, NYSE, was closed yesterday but plans to reopen today or tomorrow.
+CS:	SPOLEČNOST CLOROX Co. vyrábějící spotřební zboží v Oaklandu s ročním obratem 1.36 miliardy dolarů, registrovaná na Newyorské burze cenných papírů, byla včera uzavřena, avšak dnes nebo zítra opět plánuje obnovení provozu. 
+EN_TT:	but [ closed [ Co. [ CLOROX Oakland #EmpVerb.RSTR [ products [ consumer ] ] #EmpVerb.RSTR [ sales [ annual $ [ billion [ 1.36 ] ] ] ] NYSE ] #Gen.ACT yesterday ] plans [ <#PersPron.ACT> reopen [ #Cor.ACT or [ today tomorrow ] ] ] ]
+CS_TT:	avšak [ uzavřena [ SPOLEČNOST [ #Forn.ID [ CLOROX Co . ] vyrábějící [ zboží [ spotřební Oaklandu ] ] obratem [ ročním miliardy [ 1.36 dolarů ] ] registrovaná [ burze [ Newyorské papírů [ cenných ] ] ] ] včera #Gen.ACT ] plánuje [ nebo [ dnes zítra ] <#PersPron.ACT> opět obnovení [ #Cor.ACT provozu ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1915.final.streex##36.EnglishT-wsj_1915-s36a1
+EN:	Expects to be fully operational early next week.
+CS:	Očekává se, že počátkem příštího týdne bude plně v provozu. 
+EN_TT:	Expects [ <#PersPron.ACT> be [ #Cor.ACT operational [ fully ] week [ early next ] ] ]
+CS_TT:	Očekává [ <#Gen.ACT> bude [ #PersPron.ACT týdne [ příštího ] provozu [ plně ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1915.final.streex##9.EnglishT-wsj_1915-s9a8
+EN:	AMERICAN BUILDING MAINTENANCE INDUSTRIES Inc., San Francisco, provider of maintenance services, annual revenue of $582 million, NYSE, had some damage to headquarters and lost phone service, but operations were moved to a branch office and are running smoothly thanks to a decentralized computer system the company had developed before the quake.
+CS:	SPOLEČNOST AMERICAN BUILDING MAINTENANCE INDUSTRIES Inc. v San Francisku, poskytovatel údržbářských služeb s ročním obratem 582 miliony dolarů, registrovaná na Newyorské burze cenných papírů, utrpěla určité škody v hlavním sídle společnosti a ztratila telefonní spojení, avšak provoz byl převeden na pobočky a probíhá hladce díky decentralizovanému počítačovému systému, který společnost vyvinula ještě před zemětřesením. 
+EN_TT:	but [ and [ , [ Inc. [ INDUSTRIES [ AMERICAN MAINTENANCE [ BUILDING ] ] #Forn.PAR [ San Francisco ] ] provider [ services [ maintenance ] ] #EmpVerb.RSTR [ revenue [ annual $ [ million [ 582 ] ] ] ] NYSE ] had [ damage [ some headquarters ] ] lost [ service [ phone ] ] ] and [ moved [ operations office [ branch ] #Gen.ACT ] running [ <#PersPron.ACT> smoothly thanks [ system [ decentralized computer developed [ company #Cor.PAT quake ] ] ] ] ] ]
+CS_TT:	avšak [ a [ , [ SPOLEČNOST [ #Forn.LOC [ San Francisku ] #Forn.ID [ AMERICAN BUILDING MAINTENANCE INDUSTRIES Inc . ] ] poskytovatel [ služeb [ údržbářských ] obratem [ ročním miliony [ 582 dolarů ] ] ] registrovaná [ burze [ Newyorské papírů [ cenných ] ] ] ] utrpěla [ škody [ určité ] sídle [ hlavním společnosti ] ] ztratila [ spojení [ telefonní ] ] ] a [ převeden [ #PersPron.ACT provoz #Oblfm.DIR1 pobočky ] probíhá [ <#PersPron.ACT> hladce systému [ decentralizovanému počítačovému vyvinula [ který společnost ještě zemětřesením ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1916.final.streex##12.EnglishT-wsj_1916-s12a2
+EN:	That temblor measured 6.1 on the Richter scale; Tuesday's was
+CS:	Toto zemětřesení mělo sílu 6.1 stupně Richterovy škály, úterní bylo 
+EN_TT:	; [ measured [ temblor [ That ] 6.1 scale [ Richter ] ] was [ <#PersPron.PAT> temblor [ Tuesday ] ] ]
+CS_TT:	, [ mělo [ zemětřesení [ Toto ] sílu [ stupně [ 6.1 škály [ Richterovy ] ] ] ] bylo [ <#Gen.PAT> zemětřesení [ úterní ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1916.final.streex##17.EnglishT-wsj_1916-s17a5
+EN:	But most structural engineers attributed the destruction to improper reinforcement of the columns that supported the decks, and the fact that the ground beneath the highway is largely landfill and can become unstable, or ``liquefy,'' in a major quake.
+CS:	Většina stavebních inženýrů však zkázu přisoudila nedostatečné výztuži sloupů, které podpíraly patra, a skutečnosti, že země pod dálnicí je především zavážka a při větším zemětřesení může být nestabilní nebo "tekutá". 
+EN_TT:	attributed [ But engineers [ most structural ] destruction and [ reinforcement [ improper columns [ supported [ that decks ] ] ] fact [ and [ ground [ highway ] is [ largely landfill ] become [ or [ unstable liquefy [ <#PersPron.ACT> ] ] quake [ major ] ] ] ] ] ]
+CS_TT:	přisoudila [ Většina [ inženýrů [ stavebních ] ] však zkázu a [ výztuži [ nedostatečné sloupů [ podpíraly [ které patra ] ] ] skutečnosti [ a [ země [ dálnicí ] je [ především zavážka ] být [ zemětřesení [ větším ] nebo [ nestabilní tekutá ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1918.final.streex##7.EnglishT-wsj_1918-s7a1
+EN:	As the strike enters its 15th day today, some members are getting nervous, the spokesman conceded , but the majority of the 55,000 Machinists are prepared to ``wait it out as long as it takes .
+CS:	Jak dnes stávka pokračuje 15. dnem, někteří členové začínají být nervózní, uzavřel mluvčí, ale většina z 55000 strojníků je připravena "to vydržet, ať to trvá, jak dlouho chce". 
+EN_TT:	but [ getting [ enters [ strike day [ its 15th ] today ] members [ some ] nervous ] conceded [ spokesman <#PersPron.PAT> ] prepared [ majority [ Machinists [ 55,000 ] ] wait [ #Cor.ACT it long [ as [ takes [ it #PersPron.PAT ] ] ] ] ] ]
+CS_TT:	uzavřel [ #EmpVerb.COMPL [ ale [ začínají [ pokračuje [ dnes stávka dnem [ 15 ] ] členové [ někteří ] být [ #Cor.ACT nervózní ] ] je [ většina [ strojníků [ 55000 ] ] připravena [ vydržet [ #Cor.ACT to trvá [ to chce [ #PersPron.PAT #PersPron.ACT dlouho [ jak ] ] ] ] ] ] ] #Cor.ACT ] #Gen.PAT mluvčí ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1918.final.streex##7.EnglishT-wsj_1918-s7a2
+EN:	As the strike enters its 15th day today, some members are getting nervous, the spokesman conceded , but the majority of the 55,000 Machinists are prepared to ``wait it out as long as it takes .
+CS:	Jak dnes stávka pokračuje 15. dnem, někteří členové začínají být nervózní, uzavřel mluvčí, ale většina z 55000 strojníků je připravena "to vydržet, ať to trvá, jak dlouho chce". 
+EN_TT:	but [ getting [ enters [ strike day [ its 15th ] today ] members [ some ] nervous ] conceded [ spokesman #PersPron.PAT ] prepared [ majority [ Machinists [ 55,000 ] ] wait [ #Cor.ACT it long [ as [ takes [ it <#PersPron.PAT> ] ] ] ] ] ]
+CS_TT:	uzavřel [ #EmpVerb.COMPL [ ale [ začínají [ pokračuje [ dnes stávka dnem [ 15 ] ] členové [ někteří ] být [ #Cor.ACT nervózní ] ] je [ většina [ strojníků [ 55000 ] ] připravena [ vydržet [ #Cor.ACT to trvá [ to chce [ #PersPron.PAT #PersPron.ACT dlouho [ jak ] ] ] ] ] ] ] #Cor.ACT ] #Gen.PAT mluvčí ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1920.final.streex##4.EnglishT-wsj_1920-s4a3
+EN:	Mr. Bush and his aides were accused of responding too slowly after the Exxon Valdez oil tanker split open in Alaskan waters and Hurricane Hugo struck the Carolina coast, and they clearly don't want a repeat of those charges now.
+CS:	Bush a jeho poradci byli po tom, co v aljašských vodách ztroskotal naftový tanker Exxon Valdez a na pobřeží Karolíny udeřil hurikán Hugo, nařknuti z toho, že reagují příliš pomalu a zřejmě nechtějí, aby se tato obvinění nyní opakovala. 
+EN_TT:	and [ accused [ and [ Bush [ Mr. ] aides [ his ] ] #Gen.ACT responding [ #Gen.EFF <#PersPron.PAT> #Cor.ACT slowly [ too ] and [ split [ tanker [ Valdez [ Exxon ] oil ] open waters [ Alaskan ] ] struck [ Hugo [ Hurricane ] coast [ Carolina ] ] ] ] ] want [ they clearly n't repeat [ charges [ those ] ] now ] ]
+CS_TT:	nařknuti [ #Gen.ACT a [ Bush poradci [ jeho ] ] a [ ztroskotal [ vodách [ aljašských ] tanker [ naftový #Forn.ID [ Exxon Valdez ] ] ] udeřil [ pobřeží [ Karolíny ] hurikán [ Hugo ] ] ] a [ #PersPron.ACT reagují [ <#PersPron.PAT> pomalu [ příliš ] ] nechtějí [ #Neg.RHEM zřejmě opakovala [ obvinění [ #PersPron.PAT #PersPron.ADDR #Gen.ACT tato ] nyní ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1922.final.streex##17.EnglishT-wsj_1922-s17a1
+EN:	Reinforcing such old building stock, Mr. Johnson said , ``comes down to money.
+CS:	Johnson řekl, že vyztužení takových starých staveb "přijde na mnoho peněz. 
+EN_TT:	comes [ Reinforcing [ #Gen.ACT stock [ such old building ] ] said [ Johnson [ Mr. ] <#PersPron.EFF> #Gen.ADDR ] money ]
+CS_TT:	řekl [ #Gen.ADDR Johnson přijde [ vyztužení [ #Gen.ACT staveb [ takových starých ] ] #Gen.ADDR peněz [ mnoho ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1922.final.streex##21.EnglishT-wsj_1922-s21a2
+EN:	The urgency is heightened because this week's earthquake -- while major and followed by hundreds of aftershocks -- didn't release enough pent-up energy tension along the faultlines to preclude more and bigger quakes soon.
+CS:	Tato nutnost se ještě zvýšila, protože zemětřesení, k němuž došlo tento týden - ačkoli bylo silné a doprovázely jej stovky následných otřesů - neuvolnilo dostatečné množství zadržované nahromaděné energie podél linií zlomu, aby zamezilo dalším a větším otřesům v brzké době. 
+EN_TT:	heightened [ urgency #Gen.ACT release [ earthquake [ week [ this ] ] and [ major followed [ <#PersPron.PAT> hundreds [ aftershocks ] ] ] n't tension [ enough pent-up energy #Cor.ACT faultlines preclude [ #Cor.ACT quakes [ and [ more bigger ] soon ] ] ] ] ]
+CS_TT:	zvýšila [ nutnost [ Tato ] ještě neuvolnilo [ zemětřesení [ došlo [ němuž týden [ tento ] ] ] a [ bylo [ #PersPron.ACT silné ] doprovázely [ <jej> stovky [ otřesů [ následných ] ] ] ] #Neg.RHEM množství [ dostatečné [ zamezilo [ #PersPron.ACT otřesům [ a [ dalším větším ] době [ brzké ] ] ] ] energie [ zadržované nahromaděné linií [ zlomu ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1923.final.streex##13.EnglishT-wsj_1923-s13a1
+EN:	Coke has been studying the possibility of introducing a caffeine-free Classic for a year, a company spokesman said .
+CS:	Mluvčí společnosti sdělil, že společnost Coke zkoumá možnost uvést na trh bezkofeinový Classic již rok. 
+EN_TT:	said [ studying [ Coke possibility [ introducing [ <#PersPron.ACT> Classic [ caffeine-free ] ] ] year ] spokesman [ company ] #Gen.ADDR ]
+CS_TT:	sdělil [ #Gen.ADDR Mluvčí [ společnosti ] zkoumá [ společnost [ Coke ] možnost [ uvést [ <#PersPron.ACT> trh Classic [ bezkofeinový ] již rok ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1924.final.streex##33.EnglishT-wsj_1924-s33a1
+EN:	Christian legislators are insisting on a Syrian troop pullout from Lebanon before agreeing to political changes giving the nation's Moslems a greater role in Beirut's government.
+CS:	Křesťanští zákonodárci trvají na tom, aby předtím, než budou souhlasit s politickými změnami posilujícími roli národa Muslimů ve vládě v Bejrútu, byla syrská vojska stažena z Libanonu. 
+EN_TT:	insisting [ legislators [ Christian ] pullout [ troop [ Syrian ] Lebanon ] agreeing [ <#PersPron.ACT> changes [ political giving [ #Cor.ACT Moslems [ nation ] role [ greater government [ Beirut ] ] ] ] ] ]
+CS_TT:	trvají [ zákonodárci [ Křesťanští ] stažena [ souhlasit [ <#PersPron.ACT> změnami [ politickými posilujícími [ roli [ národa [ Muslimů ] vládě [ Bejrútu ] ] ] ] ] #PersPron.ACT vojska [ syrská ] Libanonu ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##12.EnglishT-wsj_1927-s12-t22_coract
+EN:	Harvard's Laurence Tribe was the constitutional heavy, laying out legal strategies for the senators and witnesses to follow .
+CS:	Těžkou váhou v oboru ústavního práva byl Laurence Tribe z Harvardu, to on rozpracoval právní strategie, kterými se mají řídit senátoři a svědci. 
+EN_TT:	was [ Tribe [ Harvard Laurence ] heavy [ constitutional laying [ #Cor.ACT strategies [ legal and [ senators witnesses ] follow [ <#PersPron.ACT> #Cor.PAT ] ] ] ] ]
+CS_TT:	, [ byl [ váhou [ Těžkou oboru [ práva [ ústavního ] ] ] Tribe [ Laurence Harvardu ] ] rozpracoval [ to on strategie [ právní řídit [ kterými a [ senátoři svědci ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##13.EnglishT-wsj_1927-s13a1
+EN:	But it was Ted Kennedy who scored most effectively with his searing portrayal of ``Robert Bork's America'' -- the parade of imaginary horribles that would follow logically, he claimed , from the positions Mr. Bork had taken over the space of two decades.
+CS:	Největšího úspěchu však dosáhl Ted Kennedy svým nemilosrdným vylíčením "Ameriky podle Roberta Borka" - přehlídkou vymyšlených hrůz, které by logicky vyplynuly, jak tvrdil, z názorů, které pan Bork v období dvou desetiletí zastával. 
+EN_TT:	scored [ But Kennedy [ Ted ] #Gen.PAT effectively portrayal [ his searing -- [ America [ Bork [ Robert ] ] parade [ horribles [ imaginary follow [ that #Gen.PAT logically claimed [ he <#PersPron.EFF> #Gen.ADDR ] positions [ taken [ Bork [ Mr. ] #Cor.CPHR space [ decades [ two ] ] ] ] ] ] ] ] ] ]
+CS_TT:	dosáhl [ úspěchu [ Největšího ] však Kennedy [ Ted ] - [ vylíčením [ svým nemilosrdným #Idph.PAT [ Ameriky [ Borka [ Roberta ] ] ] ] přehlídkou [ hrůz [ vymyšlených vyplynuly [ které logicky tvrdil [ <#PersPron.EFF> #PersPron.ACT ] názorů [ zastával [ které Bork [ pan ] desetiletí [ dvou ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##14.EnglishT-wsj_1927-s14a1
+EN:	Sen. Kennedy, never mind his dubious credentials for the moral high ground, emoted brilliantly.
+CS:	Senátor Kennedy, nehleďme na pochybné doklady o jeho morální převaze, zahrál vynikajícím způsobem na emoce ostatních. 
+EN_TT:	emoted [ Kennedy [ Sen. ] mind [ never <#PersPron.ACT> credentials [ his dubious ground [ moral high ] ] ] brilliantly ]
+CS_TT:	zahrál [ Kennedy [ Senátor ] nehleďme [ #Neg.RHEM <#PersPron.ACT> doklady [ pochybné převaze [ jeho morální ] ] ] způsobem [ vynikajícím ] emoce [ ostatních ] #PersPron.PAT ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##16.EnglishT-wsj_1927-s16a7
+EN:	Republican Sen. Arlen Specter of Pennsylvania engaged the nominee in a verbal contest aimed at showing that Mr. Bork was willing to stretch the Constitution in one area -LRB-free speech-RRB- while remaining rigid in all the others.
+CS:	Republikánský senátor Arlen Specter z Pensylvánie zatáhl kandidáta do slovní přestřelky s cílem ukázat, že soudce Bork je v jedné oblasti (svoboda projevu) ochoten Ústavu rozšířit, avšak ve všech ostatních oblastech zůstává rigidní. 
+EN_TT:	engaged [ Specter [ Sen. [ Republican ] Arlen Pennsylvania ] nominee contest [ verbal aimed [ #Gen.ACT #Cor.PAT showing [ #Cor.ACT was [ Bork [ Mr. ] willing [ stretch [ <#PersPron.ACT> Constitution area [ one speech [ free ] ] ] ] remaining [ #Cor.ACT rigid others [ all ] ] ] ] ] ] ]
+CS_TT:	zatáhl [ Specter [ senátor [ Republikánský ] Arlen Pensylvánie ] kandidáta přestřelky [ slovní ] cílem [ ukázat [ #Gen.ADDR #PersPron.ACT avšak [ je [ Bork [ soudce ] oblasti [ jedné svoboda [ projevu ] ] ochoten [ rozšířit [ <#Cor.ACT> Ústavu ] ] ] zůstává [ oblastech [ všech ostatních ] #PersPron.ACT rigidní ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##19.EnglishT-wsj_1927-s19a1
+EN:	The charge of being ``outside the mainstream'' of legal thought gravely undercut Mr. Bork's scholarly standing, leaving him bleeding on the platform.
+CS:	Obvinění, že se nachází "mimo hlavní proud" právního myšlení, výrazně podrylo postavení soudce Borka coby odborníka a nechalo ho doslova vykrvácet přímo na pódiu. 
+EN_TT:	undercut [ charge [ being [ <#PersPron.ACT> mainstream [ thought [ legal ] ] ] ] gravely standing [ Bork [ Mr. ] scholarly ] leaving [ #Cor.ACT him bleeding [ #Cor.ACT ] platform ] ]
+CS_TT:	a [ Obvinění [ #PersPron.ADDR #PersPron.ACT nachází [ <#PersPron.ACT> proud [ hlavní myšlení [ #Gen.ACT právního ] ] ] ] podrylo [ výrazně postavení [ Borka [ soudce ] odborníka ] ] nechalo [ ho doslova vykrvácet [ #Cor.ACT přímo pódiu ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##1.EnglishT-wsj_1927-s1a3
+EN:	Whether or not ``great cases make bad-law'' -- as Justice Holmes asserted -- who can doubt that when great confirmation hearings turn on the nominee's response to these great cases they make bad judicial history?
+CS:	Ať už "velké případy kazí soudnictví", jak tvrdil soudce Holmes, nebo ne, stejně, kdo může pochybovat o tom, že nekazí historii soudnictví, když výsledek velkých konfirmačních slyšení závisí na kandidátově reakci právě na tyto velké případy? 
+EN_TT:	doubt [ or [ make [ cases [ great ] bad-law ] make [ #PersPron.PAT <#PersPron.ACT> not ] asserted [ Holmes [ Justice ] #Cor.EFF ] ] who make [ turn [ when hearings [ great confirmation ] response [ nominee cases [ these great ] ] ] they history [ bad judicial ] ] ]
+CS_TT:	pochybovat [ nebo [ případy [ velké ] kazí [ tvrdil [ #PersPron.EFF Holmes [ soudce ] ] ] soudnictví už kazí [ ne ] ] stejně kdo nekazí [ #Neg.RHEM #PersPron.ACT historii [ soudnictví ] závisí [ výsledek [ slyšení [ velkých konfirmačních ] ] reakci [ kandidátově právě případy [ tyto velké ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##1.EnglishT-wsj_1927-s1a4
+EN:	Whether or not ``great cases make bad-law'' -- as Justice Holmes asserted -- who can doubt that when great confirmation hearings turn on the nominee's response to these great cases they make bad judicial history?
+CS:	Ať už "velké případy kazí soudnictví", jak tvrdil soudce Holmes, nebo ne, stejně, kdo může pochybovat o tom, že nekazí historii soudnictví, když výsledek velkých konfirmačních slyšení závisí na kandidátově reakci právě na tyto velké případy? 
+EN_TT:	doubt [ or [ make [ cases [ great ] bad-law ] make [ <#PersPron.PAT> #PersPron.ACT not ] asserted [ Holmes [ Justice ] #Cor.EFF ] ] who make [ turn [ when hearings [ great confirmation ] response [ nominee cases [ these great ] ] ] they history [ bad judicial ] ] ]
+CS_TT:	pochybovat [ nebo [ případy [ velké ] kazí [ tvrdil [ #PersPron.EFF Holmes [ soudce ] ] ] soudnictví už kazí [ ne ] ] stejně kdo nekazí [ #Neg.RHEM #PersPron.ACT historii [ soudnictví ] závisí [ výsledek [ slyšení [ velkých konfirmačních ] ] reakci [ kandidátově právě případy [ tyto velké ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##5.EnglishT-wsj_1927-s5a5
+EN:	In its basic structure and style the book is novelistic, with piquant character portrayal, hard-wire action and devious intrigue of the sort more likely to be encountered in a Washington docudrama than in a constitutional history.
+CS:	Z hlediska základní struktury a stylu je kniha zpracovaná jako román s provokativním vylíčením charakterů, syrovým dějem a s nevyzpytatelnými intrikami takového typu, že bychom je očekávali spíše v dokumentárním dramatu o mocenském prostředí Washingtonu než v ústavní historii. 
+EN_TT:	is [ and [ its structure [ basic ] style ] book novelistic and [ portrayal [ piquant character ] action [ hard-wire ] intrigue [ devious ] sort [ encountered [ likely [ more [ encountered [ #Gen.ACT <#PersPron.PAT> history [ constitutional ] ] ] ] #Gen.ACT #Cor.PAT docudrama [ Washington ] ] ] ] ]
+CS_TT:	je [ a [ struktury [ základní ] stylu ] kniha zpracovaná [ je [ zpracovaná román ] ] a [ vylíčením [ provokativním #PersPron.ACT charakterů ] dějem [ syrovým ] intrikami [ nevyzpytatelnými typu [ takového [ očekávali [ #PersPron.ACT je spíše [ očekávali [ #PersPron.PAT #PersPron.ACT historii [ ústavní ] ] ] dramatu [ dokumentárním prostředí [ mocenském Washingtonu ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1927.final.streex##9.EnglishT-wsj_1927-s9a3
+EN:	As Mr. Bronner himself says , the smell of ``raw meat'' was in the air.
+CS:	Jak říká sám pan Bronner, ve vzduchu byl cítit zápach "syrového masa". 
+EN_TT:	was [ says [ Bronner [ Mr. himself ] <#PersPron.EFF> #Gen.ADDR ] smell [ meat [ raw ] ] air ]
+CS_TT:	byl [ říká [ <#PersPron.EFF> #Gen.ADDR sám Bronner [ pan ] ] vzduchu #Benef.BEN cítit [ #Cor.ACT zápach [ masa [ syrového ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1928.final.streex##18.EnglishT-wsj_1928-s18-t12_coract
+EN:	Sotheby's made the $100 million guarantee to keep the Dorrance collection away from its archrival, auction house Christie's International PLC; Christie's has handled smaller sales for the Dorrance family over the years.
+CS:	Společnost Sotheby's nabídla záruku 100 milionů dolarů, aby sbírku Dorranceových udržela z dosahu svého hlavního konkurenta, aukčního domu Christie's International PLC, přičemž společnost Christie's v průběhu řady let vyřizovala pro Dorranceovy menší prodeje. 
+EN_TT:	; [ made [ Sotheby guarantee [ $ [ million [ 100 ] ] ] keep [ <#PersPron.ACT> collection [ Dorrance ] away PLC [ its [ archrival ] auction house International [ Christie ] ] ] ] handled [ Christie sales [ smaller ] family [ Dorrance ] years ] ]
+CS_TT:	přičemž [ nabídla [ Společnost [ #Forn.ID [ Sotheby ' s ] ] #Gen.ADDR záruku [ milionů [ 100 dolarů ] ] udržela [ <#PersPron.ACT> sbírku [ Dorranceových ] dosahu [ , [ konkurenta [ svého hlavního ] domu [ aukčního #Forn.ID [ Christie ' s International PLC ] ] ] ] ] ] vyřizovala [ společnost [ #Forn.ID [ Christie ' s ] ] řady [ let ] Dorranceovy prodeje [ menší ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1928.final.streex##20.EnglishT-wsj_1928-s20a3
+EN:	Collectors who have made their money on Wall Street have become an increasingly important part of the art business and their money has helped fuel the art boom, but recently it appears Sotheby's has been returning the compliment.
+CS:	Sběratelé, kteří si vydělali peníze na Wall Street, se stali více a více důležitou součástí obchodu s uměním a jejich peníze přispěly k urychlení rozvoje umění, avšak v poslední době se zdá, že jim společnost Sotheby's přízeň oplácí. 
+EN_TT:	but [ and [ become [ Collectors [ made [ who money [ their ] Street [ Wall ] ] ] part [ important [ increasingly ] business [ art ] ] ] helped [ money [ their ] #Gen.ADDR fuel [ #Gen.ACT boom [ art ] ] ] ] appears [ recently #Gen.PAT returning [ Sotheby <#PersPron.ADDR> compliment ] ] ]
+CS_TT:	avšak [ a [ stali [ Sběratelé [ vydělali [ kteří si peníze #Forn.LOC [ Wall Street ] ] ] součástí [ důležitou [ a [ více více ] ] obchodu [ uměním ] ] ] přispěly [ peníze [ jejich ] urychlení [ #Gen.ACT rozvoje [ umění ] ] ] ] zdá [ #Gen.ACT době [ poslední ] oplácí [ jim společnost [ #Forn.ID [ Sotheby ' s ] ] přízeň ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1928.final.streex##38.EnglishT-wsj_1928-s38a1
+EN:	In such situations, he says, the house ``is going to put the best light on things.''
+CS:	V takových situacích, říká, se dům "bude snažit prezentovat se v co nejlepším světle". 
+EN_TT:	put [ situations [ such ] says [ he <#PersPron.EFF> #Gen.ADDR ] house light [ best ] things ]
+CS_TT:	říká [ #PersPron.ACT #Gen.ADDR <snažit> [ situacích [ takových ] dům prezentovat [ #Cor.ACT světle [ nejlepším [ co ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1928.final.streex##41.EnglishT-wsj_1928-s41a2
+EN:	Dealers and auction houses ``know if they don't lay out a half a million for this, another one will ; it's that competitive.''
+CS:	Obchodníci a aukční domy "vědí, že když za to nenabídnou půl milionu, udělá to někdo jiný, protože až tak velká je konkurence". 
+EN_TT:	; [ know [ and [ Dealers houses [ auction ] ] lay [ lay [ they n't half [ million ] this ] <#PersPron.PAT> one [ another ] ] ] 's [ it competitive [ that ] ] ]
+CS_TT:	vědí [ a [ Obchodníci domy [ aukční ] ] udělá [ nenabídnou [ #Neg.RHEM #Gen.ADDR #PersPron.ACT to půl [ milionu ] ] to někdo [ jiný ] je [ velká [ až tak ] konkurence ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1929.final.streex##13.EnglishT-wsj_1929-s13a5
+EN:	Cartoonists in West Germany have already mocked the exodus by imagining an advertisement placed by Mr. Honecker: ``Wanted : one people.''
+CS:	Západoněmečtí karikaturisté se již vysmívají hromadnému odchodu tím, že za Honeckera podali inzerát: "Poptávám: jeden národ". 
+EN_TT:	mocked [ Cartoonists [ Germany [ West ] ] already exodus imagining [ <#PersPron.ACT> advertisement [ placed [ #Oblfm.DIR3 #Cor.PAT Honecker [ Mr. ] ] #EmpVerb.ID [ Wanted [ #Gen.ACT #Cor.PAT ] people [ one ] ] ] ] ]
+CS_TT:	vysmívají [ karikaturisté [ Západoněmečtí ] již odchodu [ hromadnému ] podali [ #Gen.ADDR #PersPron.ACT Honeckera inzerát [ Poptávám [ #PersPron.ACT národ [ jeden ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1929.final.streex##18.EnglishT-wsj_1929-s18-t14_coract
+EN:	There have been some reports that Mr. Krenz is moving to ``soften'' his reputation, notably rumors that it was he who kept East Germany's state police off protesters' backs at the country's dismal 40th anniversary celebrations earlier this month.
+CS:	Objevilo se několik zpráv o tom, že Krenz hodlá svoji pověst "vylepšit", především se jedná o zvěsti, že právě on na začátku tohoto měsíce udržel při oslavách neveselého 40. výročí východoněmeckou státní policii dál od zad protestujících. 
+EN_TT:	been [ , [ reports [ some moving [ Krenz [ Mr. ] soften [ <#PersPron.ACT> reputation [ his ] ] ] ] notably rumors [ was [ he kept [ who police [ Germany [ East ] state ] backs [ protesters ] celebrations [ country dismal anniversary [ 40th ] ] month [ earlier this ] ] ] ] ] ]
+CS_TT:	, [ Objevilo [ zpráv [ několik vylepšit [ Krenz pověst [ svoji ] ] ] ] jedná [ především zvěsti [ udržel [ právě on začátku [ měsíce [ tohoto ] ] oslavách [ výročí [ neveselého 40 ] ] policii [ východoněmeckou státní ] dál [ zad [ protestujících ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1929.final.streex##21.EnglishT-wsj_1929-s21-t6_coract
+EN:	When Poland moves to reform , it can at least lean on its past: However flawed and short-lived Joseph Pilsudski's interwar republic , it was a nonsocialist democracy.
+CS:	Když se Polsko rozhodne pro reformu, může se přinejmenším opřít o svoji minulost: Ať již byla meziválečná republika Josepha Pilsudskiho jakkoli nedokonalá a krátkodobá, byla to nesocialistická demokracie. 
+EN_TT:	: [ lean [ moves [ Poland reform [ <#PersPron.ACT> #Rcp.PAT ] ] it least past [ its ] ] was [ #EmpVerb.CNCS [ and [ flawed short-lived ] republic [ Pilsudski [ Joseph ] interwar ] ] it democracy [ nonsocialist ] ] ]
+CS_TT:	: [ opřít [ #PersPron.ACT rozhodne [ Polsko reformu ] přinejmenším minulost [ svoji ] ] byla [ byla [ již republika [ meziválečná Pilsudskiho [ Josepha ] ] a [ jakkoli nedokonalá krátkodobá ] ] to demokracie [ nesocialistická ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1929.final.streex##23.EnglishT-wsj_1929-s23a1
+EN:	Even the Soviet Union has Peter the Great to rediscover , should it choose to .
+CS:	Dokonce i Sovětský svaz může znovu objevit Petra Velikého, pokud se tak rozhodne. 
+EN_TT:	has [ Union [ Even Soviet ] rediscover [ Great [ Peter ] #Cor.ACT ] choose [ it <#PersPron.PAT> ] ]
+CS_TT:	objevit [ Dokonce i svaz [ Sovětský ] znovu Petra [ Velikého ] rozhodne [ #PersPron.ACT tak ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1929.final.streex##32.EnglishT-wsj_1929-s32a1
+EN:	Ideologues are the last to surrender, and Germans are an ideological people.
+CS:	Ideologové se vzdávají poslední a Němci národem ideologů opravdu jsou. 
+EN_TT:	and [ are [ Ideologues last [ surrender [ <#PersPron.ACT> ] ] ] are [ Germans people [ ideological ] ] ]
+CS_TT:	a [ vzdávají [ Ideologové poslední ] jsou [ Němci národem [ ideologů ] opravdu ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1929.final.streex##33.EnglishT-wsj_1929-s33a3
+EN:	The protesters who greeted Mikhail Gorbachev at East Berlin's airport earlier this month weren't shouting ``Go U.S.A'' -- they were chanting ``Gorby, Help Us.''
+CS:	Protestující, kteří na začátku měsíce vítali Michaila Gorbačova na východoberlínském letišti, nekřičeli "Za Amerikou" - skandovali "Gorby, pomoz nám". 
+EN_TT:	-- [ shouting [ protesters [ greeted [ who Gorbachev [ Mikhail ] airport [ Berlin [ East ] ] month [ earlier this ] ] ] n't Go [ <#PersPron.ACT> U.S.A ] ] chanting [ they Help [ Gorby #Gen.PAT #PersPron.ACT Us ] ] ]
+CS_TT:	- [ Protestující [ vítali [ kteří začátku [ měsíce ] Gorbačova [ Michaila ] letišti [ východoberlínském ] ] ] nekřičeli [ #Neg.RHEM #EmpVerb.PAT [ Amerikou ] ] skandovali [ pomoz [ Gorby nám ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1929.final.streex##33.EnglishT-wsj_1929-s33a4
+EN:	The protesters who greeted Mikhail Gorbachev at East Berlin's airport earlier this month weren't shouting ``Go U.S.A'' -- they were chanting ``Gorby, Help Us.''
+CS:	Protestující, kteří na začátku měsíce vítali Michaila Gorbačova na východoberlínském letišti, nekřičeli "Za Amerikou" - skandovali "Gorby, pomoz nám". 
+EN_TT:	-- [ shouting [ protesters [ greeted [ who Gorbachev [ Mikhail ] airport [ Berlin [ East ] ] month [ earlier this ] ] ] n't Go [ #PersPron.ACT U.S.A ] ] chanting [ they Help [ Gorby #Gen.PAT <#PersPron.ACT> Us ] ] ]
+CS_TT:	- [ Protestující [ vítali [ kteří začátku [ měsíce ] Gorbačova [ Michaila ] letišti [ východoberlínském ] ] ] nekřičeli [ #Neg.RHEM #EmpVerb.PAT [ Amerikou ] ] skandovali [ pomoz [ Gorby nám ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1929.final.streex##40.EnglishT-wsj_1929-s40a3
+EN:	``The main problem,'' Mr. Reinhold said in an East German radio interview monitored by Radio Free Europe in Munich, stems from the fact that ``the GDR is different'' from other East European states.
+CS:	"Hlavní problém," řekl Reinhold v rozhovoru pro východoněmecký rozhlas sledovaný rádiem Svobodná Evropa v Mnichově, vychází ze skutečnosti, že "NDR je jiná" než ostatní východoevropské státy. 
+EN_TT:	stems [ problem [ main ] said [ Reinhold [ Mr. ] <#PersPron.EFF> #Gen.ADDR interview [ German [ East ] radio monitored [ #Cor.PAT Europe [ Radio Free Munich ] ] ] ] fact [ is [ GDR different [ states [ other European [ East ] ] ] ] ] ]
+CS_TT:	řekl [ #Gen.ADDR Reinhold rozhovoru [ rozhlas [ východoněmecký sledovaný [ rádiem [ Evropa [ Svobodná ] Mnichově ] ] ] ] vychází [ problém [ Hlavní ] skutečnosti [ je [ #Idph.ACT [ NDR ] jiná [ je [ #Some.PAT státy [ ostatní východoevropské ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1930.final.streex##21.EnglishT-wsj_1930-s21a1
+EN:	B.A.T Industries may delay part of its defensive restructuring plan, including the sale of its Saks Fifth Avenue and Marshall Field units.
+CS:	Společnost B. A. T Industries možná pozdrží část svého plánu na obrannou restrukturalizaci včetně prodeje svých jednotek Saks Fifth Avenue a Marshall Field. 
+EN_TT:	delay [ Industries [ B.A.T ] part [ plan [ its defensive restructuring ] ] including [ <#PersPron.ACT> sale [ units [ its Field [ and [ Avenue [ Saks Fifth ] Marshall ] ] ] ] ] ]
+CS_TT:	pozdrží [ Společnost [ #Forn.ID [ B . A . T Industries ] ] možná část [ plánu [ svého restrukturalizaci [ obrannou ] ] prodeje [ a [ svých jednotek [ #Forn.ID [ Saks Fifth Avenue ] ] jednotek [ #Forn.ID [ Marshall Field ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1930.final.streex##26.EnglishT-wsj_1930-s26a1
+EN:	Jaguar hopes to reach a friendly accord with General Motors within a month that may involve producing a cheaper executive model.
+CS:	Společnost Jaguar doufá, že do měsíce dosáhne přátelské dohody se společností General Motors, která bude možná zahrnovat výrobu levnějšího exkluzivního modelu. 
+EN_TT:	hopes [ Jaguar reach [ #Cor.ACT accord [ friendly Motors [ General ] involve [ that producing [ <#PersPron.ACT> model [ cheaper executive ] ] ] ] month ] ]
+CS_TT:	doufá [ Společnost [ Jaguar ] dosáhne [ #PersPron.ACT měsíce dohody [ přátelské společností [ #Forn.ID [ General Motors ] ] zahrnovat [ která možná výrobu [ modelu [ levnějšího exkluzivního ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1930.final.streex##2.EnglishT-wsj_1930-s2a2
+EN:	But most businesses in the Bay area, including Silicon Valley, weren't greatly affected .
+CS:	Většina podniků v oblasti sanfranciské zátoky včetně oblasti Silicon Valley ale příliš poškozena nebyla. 
+EN_TT:	affected [ But businesses [ most area [ Bay ] including [ <#PersPron.ACT> Valley [ Silicon ] ] ] n't greatly #Gen.ACT ]
+CS_TT:	poškozena [ #PersPron.ACT Většina [ podniků [ oblasti [ zátoky [ sanfranciské ] oblasti [ #Forn.ID [ Silicon Valley ] ] ] ] ] #Neg.RHEM ale příliš ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1931.final.streex##20.EnglishT-wsj_1931-s20a1
+EN:	Some dealers noted that nervousness over the recent sharp dive in stock prices could intensify following suggestions by Bank of Japan Governor Satoshi Sumita that appeared to advise Japanese investors to be very careful in investing in U.S. leveraged buy-outs.
+CS:	Někteří obchodníci poznamenali, že nervozita ohledně nedávného prudkého pádu cen akcií by mohla zesílit příští doporučení guvernéra Japonské banky Satoshiho Sumita, která zjevně nabádala japonské investory, aby byli při investování do zadlužených odkupů v USA velmi opatrní. 
+EN_TT:	noted [ dealers [ Some ] intensify [ nervousness [ dive [ recent sharp prices [ stock ] ] ] suggestions [ Sumita [ Governor [ Bank [ Japan ] ] Satoshi ] appeared [ #Gen.PAT advise [ that investors [ Japanese ] be [ #Cor.ACT careful [ very ] investing [ <#PersPron.ACT> #Gen.PAT buy-outs [ U.S. leveraged ] ] ] ] ] ] ] ]
+CS_TT:	poznamenali [ obchodníci [ Někteří ] zesílit [ nervozita [ pádu [ nedávného prudkého cen [ akcií ] ] ] doporučení [ #Gen.PAT #PersPron.ADDR příští #Forn.ACT [ guvernéra [ banky [ Japonské ] ] Satoshiho Sumita ] nabádala [ která zjevně investory [ japonské ] byli [ #PersPron.ACT investování [ #Gen.PAT <#PersPron.ACT> odkupů [ zadlužených #Idph.LOC [ USA ] ] ] opatrní [ velmi ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1931.final.streex##6.EnglishT-wsj_1931-s6-t67_coract
+EN:	Harris Trust's Mr. Woodland noted that the unit continues to show resilience in the face of a barrage of ``headline negatives'' in recent weeks, including rate increases in Europe and Japan, aggressive central bank intervention, a 190-point plunge in New York stock prices, an unexpectedly poor U.S. trade report and action by the Federal Reserve to nudge U.S. rates lower.
+CS:	Woodland ze spořitelny Harris Trust poznamenal, že měna nadále projevuje odolnost vůči přívalu "pesimistických novinových titulků", které vznikly za poslední týdny a zahrnují zvýšení sazeb v Evropě a v Japonsku, agresivní intervenci centrální banky, prudký pokles cen akcií na newyorské burze o 190 bodů, neočekávaně špatnou zprávu o americkém obchodu a kroku, který podnikla Federální rezervní banka, aby napomohla snížení sazeb ve Spojených státech. 
+EN_TT:	noted [ Woodland [ Trust [ Harris ] Mr. ] continues [ unit show [ #Cor.ACT resilience face [ barrage [ negatives [ headline ] weeks [ recent ] including [ #PersPron.ACT and [ increases [ rate and [ Europe Japan ] ] intervention [ aggressive bank [ central ] ] plunge [ 190-point prices [ York [ New ] stock ] ] report [ poor [ unexpectedly ] U.S. trade ] action [ Reserve [ Federal ] nudge [ <#PersPron.ACT> rates [ U.S. ] lower ] ] ] ] ] ] ] ] ]
+CS_TT:	poznamenal [ Woodland [ spořitelny [ #Forn.ID [ Harris Trust ] ] ] projevuje [ měna nadále odolnost [ přívalu [ titulků [ pesimistických novinových a [ které vznikly [ týdny [ poslední ] ] zahrnují [ , [ zvýšení [ #Gen.ACT sazeb [ a [ Evropě Japonsku ] ] ] intervenci [ agresivní banky [ centrální ] ] pokles [ prudký cen [ akcií ] burze [ newyorské ] bodů [ 190 ] ] zprávu [ špatnou [ neočekávaně ] a [ obchodu [ americkém ] kroku [ podnikla [ který banka [ Federální rezervní ] napomohla [ <#PersPron.ACT> snížení [ #Gen.ACT sazeb [ státech [ Spojených ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1932.final.streex##21.EnglishT-wsj_1932-s21a2
+EN:	``The problem is that while on the surface everything is all right, the question is,'' said Mr. Barakat, ``was there any structural damage to the pipelines or anything else.''
+CS:	"Problém je, že zatímco na povrchu je všechno v pořádku, otázkou zůstává," řekl Barakat, "jestli nebyla poškozena konstrukce potrubí nebo cokoli jiného." 
+EN_TT:	is [ problem is [ is [ surface everything right [ all ] ] question said [ <#PersPron.EFF> #Gen.ADDR Barakat [ Mr. ] ] was [ damage [ any structural or [ pipelines anything [ else ] ] ] ] ] ]
+CS_TT:	řekl [ #Gen.ADDR je [ Problém zůstává [ je [ povrchu všechno pořádku ] otázkou poškozena [ #Neg.RHEM #PersPron.ACT nebo [ konstrukce [ potrubí ] cokoli [ jiného ] ] ] ] ] Barakat ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1932.final.streex##29.EnglishT-wsj_1932-s29a4
+EN:	Another analyst said the Cananea return to operation may not be as near as some expect .
+CS:	Jiný analytik uvedl, že návrat Cananey do provozu nemusí být tak brzký, jak někteří očekávají. 
+EN_TT:	said [ analyst [ Another ] #Gen.ADDR be [ return [ Cananea operation ] not near [ expect [ some <#PersPron.PAT> ] ] ] ]
+CS_TT:	uvedl [ analytik [ Jiný ] být [ návrat [ #Forn.RSTR [ Cananey ] provozu ] #Neg.RHEM brzký [ tak očekávají [ <#PersPron.PAT> někteří ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1932.final.streex##46.EnglishT-wsj_1932-s46a2
+EN:	That country recently bought 200,000 tons of sugar and had been expected to seek a like quantity last week but didn't .
+CS:	Tato země nedávno koupila 200000 tun cukru a očekávalo se, že minulý týden bude mít zájem koupit podobné množství, ale neměla. 
+EN_TT:	and [ bought [ country [ That ] recently tons [ 200,000 sugar ] ] expected [ #Gen.ACT but [ <#PersPron.ACT> quantity [ like ] seek [ week [ last ] ] seek [ n't ] ] ] ]
+CS_TT:	ale [ a [ koupila [ země [ Tato ] nedávno tun [ 200000 cukru ] ] očekávalo [ #Gen.ACT mít [ týden [ minulý ] #PersPron.ACT zájem [ koupit [ #Cor.ACT množství [ podobné ] ] ] ] ] ] neměla [ #Neg.RHEM zájem #PersPron.ACT ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1932.final.streex##8.EnglishT-wsj_1932-s8a1
+EN:	For more than the past year, even the rumor of a major West Coast refinery shutdown has been enough to spark a futures rally because the gasoline market is so tight.
+CS:	V době předcházející loňskému roku stačila i fáma o uzavření jedné velké rafinérie na západním pobřeží podnítit nárůst termínových obchodů, protože trh s ropou je příliš napjatý. 
+EN_TT:	been [ more [ year [ past ] ] rumor [ even shutdown [ refinery [ major Coast [ West ] ] ] ] enough [ spark [ <#PersPron.ACT> rally [ futures ] ] ] is [ market [ gasoline ] tight [ so ] ] ]
+CS_TT:	stačila [ době [ předcházející [ roku [ loňskému ] ] ] fáma [ i uzavření [ #Gen.ACT rafinérie [ jedné velké pobřeží [ západním ] ] ] ] podnítit [ <#Cor.ACT> nárůst [ obchodů [ termínových ] ] ] je [ trh [ ropou ] napjatý [ příliš ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1932.final.streex##9.EnglishT-wsj_1932-s9a6
+EN:	But yesterday, as the morning wore on, some major West Coast refinery operators -- including Chevron Corp., Exxon Corp. and the Shell Oil Co. unit of Royal Dutch\/Shell Group -- said their refineries weren't damaged and were continuing to operate normally.
+CS:	Včera ráno ale někteří velcí provozovatelé rafinérií na západním pobřeží - včetně společností Chevron Corp., Exxon Corp. a jednotky Royal Dutch/Shell Group Shell Oil Co. - oznámili, že jejich rafinérie poškozeny nejsou a jsou stále v normálním provozu. 
+EN_TT:	said [ But yesterday wore [ morning ] operators [ some refinery [ major Coast [ West ] ] and [ Corp. [ Chevron ] Corp. [ Exxon ] unit [ Co. [ Oil [ Shell ] ] Group [ Royal Dutch\/Shell ] ] ] ] #Gen.ADDR and [ damaged [ refineries [ their ] n't #Gen.ACT ] continuing [ <#PersPron.ACT> operate [ #Cor.ACT normally ] ] ] ]
+CS_TT:	oznámili [ #Gen.ADDR Včera ráno ale provozovatelé [ někteří velcí rafinérií [ pobřeží [ západním ] ] a [ společností [ , [ #Forn.ID [ Chevron Corp . ] #Forn.ID [ Exxon Corp . ] ] ] jednotky [ #Forn.ID [ Royal Dutch / Shell Group Shell Oil Co . ] ] ] ] a [ poškozeny [ #PersPron.ACT rafinérie [ jejich ] #Neg.RHEM ] jsou [ #PersPron.ACT stále provozu [ normálním ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1934.final.streex##16.EnglishT-wsj_1934-s16-t42_coract
+EN:	Researchers couldn't estimate the cost of the drug when it reaches the market , but they said FK-506 will enable patients to cut hospital stays by 50% and reduce the number of blood tests used to monitor the dosage of cyclosporine and other drugs among transplant recipients.
+CS:	Výzkumníci nedokázali odhadnout cenu léku, až vstoupí na trh, ale uvedli, že FK-506 umožní zkrátit pobyt pacientů v nemocnici o 50 % a u příjemců transplantátů snížit počet krevních testů, které se používají ke sledování dávek cyklosporinu a dalších léků. 
+EN_TT:	but [ estimate [ Researchers n't cost [ drug reaches [ when it market ] ] ] said [ they #Gen.ADDR and [ FK-506 enable [ patients cut [ #Cor.ACT stays [ hospital ] % [ 50 ] ] ] reduce [ number [ tests [ blood used [ #Gen.ACT #Cor.PAT monitor [ <#PersPron.ACT> dosage [ and [ cyclosporine drugs [ other ] ] ] ] recipients [ transplant ] ] ] ] ] ] ] ]
+CS_TT:	ale [ Výzkumníci nedokázali [ #Neg.RHEM odhadnout [ #Cor.ACT cenu [ léku ] vstoupí [ #PersPron.ACT trh ] ] ] uvedli [ umožní [ #Forn.ACT [ FK - 506 ] #Gen.ADDR a [ #Cor.ACT zkrátit [ pobyt [ pacientů nemocnici ] % [ 50 ] ] snížit [ příjemců [ transplantátů ] počet [ testů [ krevních používají [ #Gen.ACT které sledování [ <#Gen.ACT> dávek [ a [ cyklosporinu léků [ dalších ] ] ] ] ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1934.final.streex##19.EnglishT-wsj_1934-s19-t25_coract
+EN:	``We've known for six months the effect of this drug, and our advice to our people has been not to buy the company's stock,'' Dr. Starzl said , adding that profiting from FK-506 wouldn't be ethical.
+CS:	"Už šest měsíců známe účinky tohoto léku a své lidi nabádáme, aby akcie společnosti nekupovali," řekl dr. Starzl a dodal, že profitování z léku FK-506 by nebylo etické. 
+EN_TT:	said [ and [ known [ We months [ six ] effect [ drug [ this ] ] ] been [ advice [ our people [ our ] ] not buy [ <#PersPron.ACT> stock [ company ] ] ] ] Starzl [ Dr. ] #Gen.ADDR adding [ #Cor.ACT be [ profiting [ #Gen.ACT FK-506 ] n't ethical ] ] ]
+CS_TT:	a [ řekl [ a [ známe [ #PersPron.ACT měsíců [ Už šest ] účinky [ léku [ tohoto ] ] ] nabádáme [ lidi [ své ] #PersPron.ACT nekupovali [ #Neg.RHEM <#PersPron.ACT> akcie [ společnosti ] ] ] ] #Gen.ADDR Starzl [ dr ] ] dodal [ #PersPron.ACT nebylo [ #Neg.RHEM profitování [ léku [ #Forn.ID [ FK - 506 ] ] ] etické ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1935.final.streex##17.EnglishT-wsj_1935-s17a1
+EN:	Give him an F for his failure to understand the ethics of economic equity.
+CS:	Dejte mu pětku za neschopnost porozumět etice ekonomické rovnosti. 
+EN_TT:	Give [ <#PersPron.ACT> him F failure [ his understand [ #Cor.ACT ethics [ equity [ economic ] ] ] ] ]
+CS_TT:	Dejte [ <#PersPron.ACT> mu pětku neschopnost [ porozumět [ #PersPron.ACT etice [ rovnosti [ ekonomické ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1935.final.streex##18.EnglishT-wsj_1935-s18a1
+EN:	Signed by 25 students
+CS:	Podepsalo 25 studentů 
+EN_TT:	Signed [ <#PersPron.PAT> students [ 25 ] ]
+CS_TT:	Podepsalo [ <#PersPron.PAT> studentů [ 25 ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1935.final.streex##31.EnglishT-wsj_1935-s31a1
+EN:	Also, rather than increase supplies, they reduce them and encourage hoarding.
+CS:	Také namísto toho, aby dodávky zvýšily, sníží je a podpoří hromadění zásob. 
+EN_TT:	rather [ Also increase [ <#PersPron.ACT> supplies ] and [ they reduce [ them ] encourage [ hoarding ] ] ]
+CS_TT:	a [ Také zvýšily [ <#PersPron.ACT> dodávky ] sníží [ je ] #PersPron.ACT podpoří [ hromadění [ zásob ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1935.final.streex##5.EnglishT-wsj_1935-s5a1
+EN:	Allowing uncontrolled prices for necessities would indeed shorten the lines at stores, as he contends .
+CS:	Jak tvrdí, povolení neřízených cen za nezbytné potřeby by ve skutečnosti zkrátilo fronty v obchodech. 
+EN_TT:	shorten [ Allowing [ #Gen.ACT prices [ uncontrolled necessities ] ] indeed lines [ stores ] contends [ he <#PersPron.PAT> #Gen.ADDR ] ]
+CS_TT:	zkrátilo [ tvrdí [ #PersPron.EFF #PersPron.ACT ] povolení [ #Gen.ACT cen [ neřízených potřeby [ nezbytné ] ] ] skutečnosti fronty [ obchodech ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1936.final.streex##12.EnglishT-wsj_1936-s12a2
+EN:	The Wilbur translation is remarkable -- well worth a read and even better seen in the theater if you ever have the opportunity.
+CS:	Wilburův překlad je pozoruhodný - určitě stojí za přečtení a ještě spíše za shlédnutí v divadle, budete-li mít tu příležitost. 
+EN_TT:	is [ translation [ Wilbur ] -- [ remarkable and [ worth [ well read [ #PersPron.PAT #Gen.ACT ] ] seen [ better [ even ] <#PersPron.PAT> #Gen.ACT theater have [ you ever opportunity ] ] ] ] ]
+CS_TT:	- [ překlad [ Wilburův ] je [ pozoruhodný ] a [ stojí [ určitě přečtení [ #PersPron.PAT #Gen.ACT ] ] stojí [ spíše [ ještě ] shlédnutí [ divadle ] mít [ #PersPron.ACT příležitost [ tu ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1936.final.streex##12.EnglishT-wsj_1936-s12a4
+EN:	The Wilbur translation is remarkable -- well worth a read and even better seen in the theater if you ever have the opportunity.
+CS:	Wilburův překlad je pozoruhodný - určitě stojí za přečtení a ještě spíše za shlédnutí v divadle, budete-li mít tu příležitost. 
+EN_TT:	is [ translation [ Wilbur ] -- [ remarkable and [ worth [ well read [ <#PersPron.PAT> #Gen.ACT ] ] seen [ better [ even ] #PersPron.PAT #Gen.ACT theater have [ you ever opportunity ] ] ] ] ]
+CS_TT:	- [ překlad [ Wilburův ] je [ pozoruhodný ] a [ stojí [ určitě přečtení [ <#PersPron.PAT> #Gen.ACT ] ] stojí [ spíše [ ještě ] shlédnutí [ divadle ] mít [ #PersPron.ACT příležitost [ tu ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1936.final.streex##13.EnglishT-wsj_1936-s13a1
+EN:	But if you happen to be coming to Chicago in the next few weeks, don't fail to have a look at Robert Falls's ``The Misanthrope'' at the Goodman.
+CS:	Pokud ale budete mít v příštích několika týdnech náhodou cestu do Chicaga, nezapomeňte se jít podívat na Misantropa od Roberta Fallse, kterou uvádí soubor Goodman. 
+EN_TT:	fail [ But happen [ you coming [ #Cor.ACT Chicago weeks [ next few ] ] ] n't <#PersPron.ACT> have [ #Cor.ACT look Misanthrope [ Falls [ Robert ] Goodman ] ] ]
+CS_TT:	nezapomeňte [ ale mít [ #PersPron.ACT týdnech [ příštích několika ] náhodou cestu [ Chicaga ] ] #Neg.RHEM #PersPron.ACT jít [ #Oblfm.DIR3 #PersPron.ACT podívat [ #Cor.ACT Misantropa [ Fallse [ Roberta ] uvádí [ kterou soubor [ Goodman ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1936.final.streex##46.EnglishT-wsj_1936-s46a1
+EN:	``If we wanted to stage `Death of a Salesman,' ``Mr. Sagan says , ``Willie Loman would have to live in a ranch house because of the low ceiling.''
+CS:	"Kdybychom chtěli hrát 'Smrt obchodního cestujícího'," říká Sagan, "Willie Loman by kvůli nízkému stropu musel bydlet v přízemním domku." 
+EN_TT:	have [ wanted [ we stage [ #Cor.ACT Death [ Salesman ] ] ] says [ Sagan [ Mr. ] <#PersPron.EFF> #Gen.ADDR ] Loman [ Willie ] live [ #Cor.ACT house [ ranch ] ] ceiling [ low ] ]
+CS_TT:	říká [ #Gen.ADDR Sagan bydlet [ hrát [ #PersPron.ACT Smrt [ cestujícího [ obchodního ] ] ] Loman [ Willie ] stropu [ nízkému ] domku [ přízemním ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1936.final.streex##57.EnglishT-wsj_1936-s57a1
+EN:	``Let this building be Steppenwolf's legacy to Chicago theater.''
+CS:	"Nechť je tato budova odkazem souboru Steppenwolf chicagskému divadlu." 
+EN_TT:	Let [ <#PersPron.ACT> building [ this ] be [ #Cor.ACT legacy [ Steppenwolf theater [ Chicago ] ] ] ]
+CS_TT:	je [ Nechť budova [ tato ] odkazem [ souboru [ Steppenwolf ] divadlu [ chicagskému ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1936.final.streex##9.EnglishT-wsj_1936-s9a4
+EN:	Twenty-five years ago the poet Richard Wilbur modernized this 17th-century comedy merely by avoiding ``the zounds sort of thing,'' as he wrote in his introduction.
+CS:	Tuto komedii ze 17. století zmodernizoval před pětadvaceti lety básník Richard Wilbur prostě tak, že vynechal "strašnou spoustu věcí", jak napsal v předmluvě. 
+EN_TT:	modernized [ years [ Twenty-five ] Wilbur [ poet Richard ] comedy [ this 17th-century ] merely avoiding [ #Cor.ACT sort [ zounds thing ] wrote [ he <#PersPron.EFF> introduction [ his ] ] ] ]
+CS_TT:	zmodernizoval [ komedii [ Tuto století [ 17 ] ] lety [ pětadvaceti ] Wilbur [ básník Richard ] prostě vynechal [ #PersPron.ACT spoustu [ strašnou věcí ] napsal [ <#PersPron.EFF> #PersPron.ACT předmluvě ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1937.final.streex##13.EnglishT-wsj_1937-s13a3
+EN:	As investors speculated about the long - and short-term implications, shares of a number of companies that might either profit or face problems because of the disaster were actively traded .
+CS:	Zatímco investoři spekulovali o dlouhodobých a krátkodobých důsledcích, aktivně se obchodovalo s akciemi mnoha společností, které mohly mít ze katastrofy prospěch nebo škodu. 
+EN_TT:	traded [ speculated [ investors implications [ and [ long short-term ] ] ] shares [ number [ companies [ or [ that profit [ <#PersPron.PAT> ] face [ problems ] disaster ] ] ] ] actively #Gen.ACT ]
+CS_TT:	obchodovalo [ #Gen.ADDR #Gen.ACT spekulovali [ investoři důsledcích [ a [ dlouhodobých krátkodobých ] ] ] aktivně akciemi [ společností [ mnoha nebo [ které mít [ prospěch ] katastrofy mít [ škodu ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1937.final.streex##17.EnglishT-wsj_1937-s17a3
+EN:	Frank Gilmartin, a trader who follows insurance stocks for Fox-Pitt Kelton, said his strategy was to sell early.
+CS:	Frank Gilmartin, obchodník, který sleduje akcie pojišťoven pro společnost Fox-Pitt Kelton, řekl, že jeho strategií bylo prodat brzy. 
+EN_TT:	said [ , [ Gilmartin [ Frank ] trader [ follows [ who stocks [ insurance ] Kelton [ Fox-Pitt ] ] ] ] #Gen.ADDR was [ strategy [ his ] sell [ #Gen.PAT <#PersPron.ACT> early ] ] ]
+CS_TT:	řekl [ #Gen.ADDR , [ Gilmartin [ Frank ] obchodník [ sleduje [ který akcie [ pojišťoven ] společnost [ #Forn.ID [ Fox Pitt Kelton - ] ] ] ] ] bylo [ strategií [ jeho ] prodat [ #PersPron.PAT #Gen.ADDR <#Cor.ACT> brzy ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1937.final.streex##1.EnglishT-wsj_1937-s1a1
+EN:	After enduring three days of heavy selling, the beleaguered Nasdaq over-the-counter market finally rebounded, rising sharply in hearty trading.
+CS:	Obléhaný mimoburzovní trh Nasdaq se konečně vzchopil a při vydatném obchodování prudce stoupl poté, co přestál tři dny silného prodávání. 
+EN_TT:	rebounded [ enduring [ <#PersPron.ACT> days [ three selling [ heavy ] ] ] market [ beleaguered Nasdaq over-the-counter ] finally rising [ #Cor.ACT sharply trading [ hearty ] ] ]
+CS_TT:	a [ trh [ Obléhaný mimoburzovní Nasdaq ] vzchopil [ konečně ] stoupl [ obchodování [ #Gen.PAT #Gen.ACT vydatném ] prudce přestál [ <#PersPron.ACT> dny [ tři prodávání [ #Gen.ADDR #Gen.ACT silného #Gen.PAT ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1937.final.streex##23.EnglishT-wsj_1937-s23a1
+EN:	``Now, they'll have to increase their coffers to protect for the future and that means rate increases.''
+CS:	"Nyní budou muset zvýšit rezervy, aby se chránily do budoucna, a to znamená, že sazby vzrostou." 
+EN_TT:	and [ Now increase [ they coffers [ their ] protect [ #Cor.ACT <#PersPron.PAT> future ] ] means [ that increases [ rate ] ] ]
+CS_TT:	a [ zvýšit [ #PersPron.ACT Nyní rezervy chránily [ #PersPron.ACT se budoucna ] ] znamená [ to vzrostou [ sazby ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1937.final.streex##52.EnglishT-wsj_1937-s52a2
+EN:	Analysts figure Amgen could benefit as a result of troubles facing its competitor, Genetics Institute, over the anti-anemia drug EPO.
+CS:	Analytikové soudí, že by společnost Amgen mohla prosperovat následkem potíží, kterým v souvislosti s lékem proti anémii zvaným EPO čelí její konkurent, Institut genetiky. 
+EN_TT:	figure [ Analysts benefit [ Amgen <#PersPron.PAT> result [ troubles [ facing [ #Cor.PAT , [ competitor [ its ] Institute [ Genetics ] ] ] EPO [ drug [ anti-anemia ] ] ] ] ] ]
+CS_TT:	soudí [ Analytikové prosperovat [ společnost [ Amgen ] potíží [ čelí [ kterým lékem [ anémii [ zvaným [ #Idph.MANN [ EPO ] ] ] ] , [ konkurent [ její ] Institut [ genetiky ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1937.final.streex##5.EnglishT-wsj_1937-s5a3
+EN:	Richard Bruno, head of OTC trading at PaineWebber, said the OTC market has a habit of lagging big moves on the New York Stock Exchange.
+CS:	Richard Bruno, vedoucí mimoburzovního obchodování ve společnosti PaineWebber, řekl, že mimoburzovní trh má tendenci zaostávat za velkými pohyby na newyorské burze. 
+EN_TT:	said [ , [ Bruno [ Richard ] head [ trading [ OTC ] PaineWebber ] ] #Gen.ADDR has [ market [ OTC ] habit [ lagging [ <#PersPron.ACT> moves [ big ] Exchange [ York [ New ] Stock ] ] ] ] ]
+CS_TT:	řekl [ #Gen.ADDR , [ Bruno [ Richard ] vedoucí [ obchodování [ #Gen.PAT #Gen.ACT mimoburzovního ] společnosti [ PaineWebber ] ] ] má [ trh [ mimoburzovní ] tendenci [ zaostávat [ <#Cor.ACT> pohyby [ velkými burze [ newyorské ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1937.final.streex##7.EnglishT-wsj_1937-s7a10
+EN:	``Our market got hit a lot harder on Monday than the listed market,'' Mr. Bruno said .
+CS:	"Náš trh dostal v pondělí mnohem větší ránu než burzovní trh," řekl Bruno. 
+EN_TT:	said [ got [ market [ Our ] hit [ #Cor.PAT #Gen.ACT ] harder [ lot got [ <#PersPron.PAT> market [ listed ] ] ] Monday ] Bruno [ Mr. ] #Gen.ADDR ]
+CS_TT:	řekl [ #Gen.ADDR dostal [ trh [ Náš ] pondělí ránu [ větší [ mnohem dostal [ <#PersPron.PAT> trh [ burzovní ] ] ] ] ] Bruno ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1938.final.streex##2.EnglishT-wsj_1938-s2-t17_coract
+EN:	The companies earlier said they didn't want to raise their offer to match a rival bid by Institut Merieux S.A. of C$ 37 a share, or C$ 942 million.
+CS:	Tyto společnosti dříve řekly, že nechtějí nabídku zvýšit, aby se vyrovnaly konkurenční nabídce od Institutu Merieux S. A. za 37 kanadských dolarů za akcii, což činí 942 milionů kanadských dolarů. 
+EN_TT:	said [ companies earlier #Gen.ADDR want [ they n't raise [ #Cor.ACT offer [ their ] match [ <#PersPron.ACT> bid [ rival S.A. [ Merieux [ Institut ] ] or [ C$ [ 37 share ] C$ [ million [ 942 ] ] ] ] ] ] ] ]
+CS_TT:	řekly [ #Gen.ADDR společnosti [ Tyto ] dříve zvýšit [ #PersPron.ACT nabídku #Neg.RHEM vyrovnaly [ <#PersPron.ACT> nabídce [ konkurenční Institutu [ #Forn.ID [ Merieux S . A . ] ] , [ dolarů [ 37 kanadských akcii ] činí [ což milionů [ 942 dolarů [ kanadských ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1939.final.streex##23.EnglishT-wsj_1939-s23a6
+EN:	Isn't it reasonable to assume that the asset you own would be worth more if the government suddenly announced that if you sold it, you would be able to keep 30% more of its gain than you previously believed ?
+CS:	Není snad rozumné předpokládat, že vaše aktiva by měla vyšší cenu, kdyby vláda najednou prohlásila, že když svůj majetek prodáte, budete si moci nechat o 30 % více zisku, než jste se předtím domnívali? 
+EN_TT:	Is [ n't reasonable assume [ #Gen.ACT be [ asset [ own [ you #Cor.PAT ] ] worth [ more ] announced [ government suddenly #Gen.ADDR be [ sold [ you it ] you able [ keep [ #Cor.ACT % [ 30 gain [ its ] believed [ you previously <#PersPron.PAT> ] ] ] ] ] ] ] ] ]
+CS_TT:	Není [ #Neg.RHEM snad rozumné [ #Benef.BEN ] předpokládat [ #Cor.ACT měla [ aktiva [ vaše ] cenu [ vyšší ] prohlásila [ vláda najednou nechat [ #PersPron.ACT prodáte [ #Gen.ADDR #PersPron.ACT majetek [ svůj ] ] si zisku [ více [ % [ 30 ] domnívali [ <#PersPron.PAT> #PersPron.ACT předtím ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1939.final.streex##33.EnglishT-wsj_1939-s33a1
+EN:	Yet they somehow think that Wall Street is indifferent to losing the tax cut that seemed so close Friday morning and is now problematic.
+CS:	Přesto si jaksi myslí, že Wall Street nezajímá, že přijde o snížení daní, které v pátek ráno vypadalo tak blízko a nyní je problematické. 
+EN_TT:	think [ Yet they somehow is [ Street [ Wall ] indifferent [ losing [ <#PersPron.ACT> cut [ tax and [ that seemed [ close [ so ] morning [ Friday ] ] is [ now problematic ] ] ] ] ] ] ]
+CS_TT:	myslí [ #PersPron.ACT Přesto jaksi nezajímá [ #Neg.RHEM #Forn.ACT [ Wall Street ] přijde [ <#PersPron.ACT> snížení [ #Gen.ACT daní a [ které vypadalo [ pátek [ ráno ] blízko [ tak ] ] je [ nyní problematické ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1939.final.streex##36.EnglishT-wsj_1939-s36a3
+EN:	It would inevitably lead to an increase in marginal income-tax rates in 1990 , he thinks , when the White House is forced to ask for higher taxes to meet budget targets .
+CS:	Myslí si, že až Bílý dům bude nucen žádat o vyšší daně, aby splnil cíle rozpočtu, nevyhnutelně to povede ke zvýšení sazeb mezních daní z příjmu v roce 1990. 
+EN_TT:	lead [ It inevitably increase [ rates [ marginal income-tax ] 1990 ] thinks [ he <#PersPron.EFF> ] forced [ when House [ White ] #Gen.ACT ask [ #Cor.ACT #Gen.ADDR taxes [ higher ] meet [ #PersPron.ACT targets [ budget ] ] ] ] ]
+CS_TT:	Myslí [ #PersPron.ACT povede [ nucen [ #Gen.ACT dům [ Bílý ] žádat [ #Cor.ACT #Gen.ADDR daně [ vyšší ] splnil [ #PersPron.ACT cíle [ rozpočtu ] ] ] ] nevyhnutelně to zvýšení [ #Gen.ACT sazeb [ daní [ mezních příjmu ] ] roce [ 1990 ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1939.final.streex##36.EnglishT-wsj_1939-s36-t36_coract
+EN:	It would inevitably lead to an increase in marginal income-tax rates in 1990 , he thinks , when the White House is forced to ask for higher taxes to meet budget targets .
+CS:	Myslí si, že až Bílý dům bude nucen žádat o vyšší daně, aby splnil cíle rozpočtu, nevyhnutelně to povede ke zvýšení sazeb mezních daní z příjmu v roce 1990. 
+EN_TT:	lead [ It inevitably increase [ rates [ marginal income-tax ] 1990 ] thinks [ he #PersPron.EFF ] forced [ when House [ White ] #Gen.ACT ask [ #Cor.ACT #Gen.ADDR taxes [ higher ] meet [ <#PersPron.ACT> targets [ budget ] ] ] ] ]
+CS_TT:	Myslí [ #PersPron.ACT povede [ nucen [ #Gen.ACT dům [ Bílý ] žádat [ #Cor.ACT #Gen.ADDR daně [ vyšší ] splnil [ <#PersPron.ACT> cíle [ rozpočtu ] ] ] ] nevyhnutelně to zvýšení [ #Gen.ACT sazeb [ daní [ mezních příjmu ] ] roce [ 1990 ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1939.final.streex##37.EnglishT-wsj_1939-s37a2
+EN:	That is, with capital gains cut , the glue of the 1986 accord will be gone, and political realities will push up income-tax rates.
+CS:	To znamená, že spolu se snížením daní z kapitálových zisků se ztratí návaznost na dohodu z roku 1986 a politická skutečnost bude tlačit sazby daní z příjmu nahoru. 
+EN_TT:	and [ is [ That <#PersPron.PAT> ] cut [ gains [ capital ] #Gen.ACT ] gone [ glue [ accord [ 1986 ] ] #Oblfm.DIR3 ] push [ realities [ political ] rates [ income-tax ] ] ]
+CS_TT:	znamená [ To a [ ztratí [ snížením [ #Gen.ACT daní [ zisků [ kapitálových ] ] ] návaznost [ dohodu [ roku [ 1986 ] ] ] ] tlačit [ skutečnost [ politická ] sazby [ daní [ příjmu ] ] nahoru ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1939.final.streex##38.EnglishT-wsj_1939-s38a1
+EN:	The counter-argument, which he has heard , is that if he and his fellow Democrats are successful in killing the president's proposal, the revenue gap will open up tremendously in 1990 because of the weakened economy.
+CS:	Protiargument, který vyslechl, je ten, že pokud on a jeho kolegové demokrati uspějí při zavržení prezidentova návrhu, v roce 1990 se kvůli oslabené ekonomice objeví obrovský daňový deficit. 
+EN_TT:	is [ counter-argument [ heard [ which he ] ] open [ are [ and [ he Democrats [ his fellow ] ] successful [ killing [ <#PersPron.ACT> proposal [ president ] ] ] ] gap [ revenue ] tremendously 1990 economy [ weakened ] ] ]
+CS_TT:	je [ Protiargument [ vyslechl [ který #PersPron.ACT ] ] objeví [ uspějí [ a [ on demokrati [ kolegové [ jeho ] ] ] zavržení [ <#PersPron.ACT> návrhu [ prezidentova ] ] ] roce [ 1990 ] ekonomice [ oslabené ] deficit [ obrovský daňový ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1941.final.streex##2.EnglishT-wsj_1941-s2a1
+EN:	The companies are followed by at least three analysts, and had a minimum five-cent change in actual earnings per share.
+CS:	Společnosti sledují nejméně tři analytikové a měly minimálně pěticentovou změnu vlastních výdělků na akcii. 
+EN_TT:	and [ followed [ companies analysts [ three [ least ] ] ] had [ <#PersPron.ACT> change [ minimum five-cent earnings [ actual share ] ] ] ]
+CS_TT:	a [ sledují [ Společnosti analytikové [ tři [ nejméně ] ] ] měly [ <#PersPron.ACT> změnu [ pěticentovou [ minimálně ] výdělků [ vlastních ] akcii ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1943.final.streex##11.EnglishT-wsj_1943-s11a1
+EN:	The $4 billion in bonds break down as follows: $1 billion in five-year bonds with a coupon rate of 8.25% and a yield to maturity of 8.33%; $1 billion in 10-year bonds with a coupon rate of 8.375% and a yield to maturity of 8.42%; $2 billion in 30-year bonds with five-year call protection, a coupon rate of 8.75% and a yield to maturity of 9.06%.
+CS:	4 miliardy dolarů v dluhopisech se rozdělí následovně: 1 miliarda dolarů v pětiletých dluhopisech s úrokovou sazbou 8.25 % a výnosností do splatnosti 8.33 %, 1 miliarda dolarů v 10letých dluhopisech s úrokovou sazbou 8375 % a výnosností do splatnosti 8.42 %, 2 miliardy dolarů ve 30letých dluhopisech s pětiletou ochranou před umořením, úrokovou sazbou 8.75 % a výnosností do splatnosti 9.06 %. 
+EN_TT:	break [ $ [ billion [ 4 ] bonds ] ; [ follows [ <#PersPron.ACT> #Gen.PAT ] ; [ $ [ billion [ 1 ] bonds [ five-year ] and [ rate [ coupon % [ 8.25 ] ] yield [ maturity % [ 8.33 ] ] ] ] $ [ billion [ 1 ] bonds [ 10-year ] and [ rate [ coupon % [ 8.375 ] ] yield [ maturity % [ 8.42 ] ] ] ] $ [ billion [ 2 ] bonds [ 30-year ] and [ protection [ five-year call ] rate [ coupon % [ 8.75 ] ] yield [ maturity % [ 9.06 ] ] ] ] ] ] ]
+CS_TT:	rozdělí [ miliardy [ 4 dolarů dluhopisech ] #Gen.ACT : [ následovně , [ miliarda [ 1 dolarů dluhopisech [ pětiletých a [ sazbou [ úrokovou % [ 8.25 ] ] výnosností [ splatnosti % [ 8.33 ] ] ] ] ] miliarda [ 1 dolarů dluhopisech [ 10letých [ 10letých ] a [ sazbou [ úrokovou % [ 8375 ] ] výnosností [ splatnosti % [ 8.42 ] ] ] ] ] miliardy [ 2 dolarů dluhopisech [ 30letých [ 30letých ] a [ ochranou [ pětiletou umořením [ #Gen.PAT #Gen.ACT ] ] sazbou [ úrokovou % [ 8.75 ] ] výnosností [ splatnosti % [ 9.06 ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1944.final.streex##26.EnglishT-wsj_1944-s26a1
+EN:	Mr. Taft, who is also president of Taft Broadcasting Co., said he bought the shares because he keeps a utility account at the brokerage firm of Salomon Brothers Inc., which had recommended the stock as a good buy.
+CS:	Taft, který je také prezidentem Taft Broadcasting Co., uvedl, že akcie koupil, protože má zřízený účet v brokerské firmě Salomon Brothers Inc., která akcie označila za dobrou koupi. 
+EN_TT:	said [ Taft [ Mr. is [ who also president [ Co. [ Broadcasting [ Taft ] ] ] ] ] #Gen.ADDR bought [ he shares keeps [ he account [ utility ] firm [ brokerage Inc. [ Brothers [ Salomon ] ] recommended [ which <#PersPron.ADDR> stock buy [ good ] ] ] ] ] ]
+CS_TT:	uvedl [ Taft [ je [ který také prezidentem [ #Forn.RSTR [ Taft Broadcasting Co . ] ] ] ] koupil [ #PersPron.ACT akcie má [ #PersPron.ACT účet [ zřízený ] firmě [ brokerské #Forn.ID [ Salomon Brothers Inc . ] označila [ která akcie koupi [ dobrou ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1944.final.streex##28.EnglishT-wsj_1944-s28a1
+EN:	``Cincinnati Gas&Electric is in good shape,'' Mr. Taft said , and utilities are ``a good investment because interest rates are going down.''
+CS:	"Cincinnati Gas & Electric je v dobré formě," řekl Taft, a podniky veřejných služeb jsou "dobrou investicí, protože úrokové míry klesají". 
+EN_TT:	and [ is [ & [ Cincinnati Gas Electric ] shape [ good ] ] said [ Taft [ Mr. ] <#PersPron.EFF> #Gen.ADDR ] are [ utilities investment [ good ] going [ rates [ interest ] down ] ] ]
+CS_TT:	řekl [ #Gen.ADDR Taft a [ je [ #Forn.ACT [ Cincinnati Gas & Electric ] formě [ dobré ] ] jsou [ podniky [ služeb [ veřejných ] ] investicí [ dobrou ] klesají [ míry [ úrokové ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1944.final.streex##6.EnglishT-wsj_1944-s6a5
+EN:	``Emerging growth stocks haven't been popular in America for years, they've been neglected ,'' he said , and their prices often trail the market as a whole.
+CS:	"Akcie nově se rozvíjejících odvětví v Americe už léta nejsou populární, nikdo si jich nevšímá," řekl, a jejich ceny za sebou často táhnou celou burzu. 
+EN_TT:	and [ been [ stocks [ Emerging [ #Cor.ACT ] growth ] n't popular America years ] neglected [ they #Gen.ACT ] said [ he <#PersPron.EFF> #Gen.ADDR ] trail [ prices [ their ] often market [ whole ] ] ]
+CS_TT:	řekl [ #Gen.ADDR #PersPron.ACT a [ , [ nejsou [ Akcie [ odvětví [ rozvíjejících [ nově ] ] ] Americe už léta #Neg.RHEM populární ] nevšímá [ #Neg.RHEM nikdo jich ] ] táhnou [ ceny [ jejich ] sebou často burzu [ celou ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1944.final.streex##9.EnglishT-wsj_1944-s9a2
+EN:	He bought at share prices ranging from $9.375 to $9.625.
+CS:	Nakupoval za ceny od 9375 dolaru do 9625 dolaru za akcii. 
+EN_TT:	bought [ He <#PersPron.PAT> prices [ share ranging [ #Cor.ACT $ [ 9.375 ] $ [ 9.625 ] ] ] ]
+CS_TT:	Nakupoval [ <#PersPron.PAT> #PersPron.ACT ceny [ do [ dolaru [ 9375 ] dolaru [ 9625 ] akcii ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1946.final.streex##26.EnglishT-wsj_1946-s26a5
+EN:	Also, he said , the partnership is waiting to see whether the appellate division's ruling will be appealed .
+CS:	Také podle něj společenství čeká, zda dojde k odvolání proti rozhodnutí odvolací divize. 
+EN_TT:	waiting [ Also said [ he <#PersPron.EFF> #Gen.ADDR ] partnership see [ #Cor.ACT appealed [ ruling [ division [ appellate ] ] #Gen.ACT #Gen.ADDR ] ] ]
+CS_TT:	čeká [ Také něj společenství dojde [ odvolání [ #PersPron.ACT rozhodnutí [ #PersPron.PAT divize [ odvolací ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1946.final.streex##34.EnglishT-wsj_1946-s34a1
+EN:	To do so, the judge said , the U.S. courts must review the judicial process in the foreign country independently of the State Department's assessment.
+CS:	Aby se tak stalo, řekl soudce, musí americké soudy nezávisle na hodnocení Ministerstva zahraničních věcí přezkoumat soudní proces v příslušné cizí zemi. 
+EN_TT:	review [ #VerbPron.AIM [ #PersPron.ACT ] said [ judge <#PersPron.EFF> #Gen.ADDR ] courts [ U.S. ] process [ judicial country [ foreign ] ] independently [ assessment [ Department [ State ] ] ] ]
+CS_TT:	řekl [ #Gen.ADDR soudce přezkoumat [ stalo [ tak ] soudy [ americké ] nezávisle [ hodnocení [ #PersPron.PAT Ministerstva [ věcí [ zahraničních ] ] ] ] proces [ soudní zemi [ příslušné cizí ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1946.final.streex##34.EnglishT-wsj_1946-s34-t3_coract
+EN:	To do so, the judge said , the U.S. courts must review the judicial process in the foreign country independently of the State Department's assessment.
+CS:	Aby se tak stalo, řekl soudce, musí americké soudy nezávisle na hodnocení Ministerstva zahraničních věcí přezkoumat soudní proces v příslušné cizí zemi. 
+EN_TT:	review [ #VerbPron.AIM [ <#PersPron.ACT> ] said [ judge #PersPron.EFF #Gen.ADDR ] courts [ U.S. ] process [ judicial country [ foreign ] ] independently [ assessment [ Department [ State ] ] ] ]
+CS_TT:	řekl [ #Gen.ADDR soudce přezkoumat [ stalo [ <tak> ] soudy [ americké ] nezávisle [ hodnocení [ #PersPron.PAT Ministerstva [ věcí [ zahraničních ] ] ] ] proces [ soudní zemi [ příslušné cizí ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1946.final.streex##38.EnglishT-wsj_1946-s38a4
+EN:	``Up until now the courts have said it is not their role to supervise the foreign country's courts,'' said Jacques Semmelman, the assistant U.S. attorney on the case.
+CS:	"Až dosud soudy říkaly, že dozor nad cizími soudy není jejich práce," řekl Jacques Semmelman, asistent federálního návladního v této kauze. 
+EN_TT:	said [ said [ now courts #Gen.ADDR is [ not role [ their ] supervise [ <#PersPron.ACT> courts [ country [ foreign ] ] ] ] ] #Gen.ADDR , [ Semmelman [ Jacques ] attorney [ assistant U.S. case ] ] ]
+CS_TT:	řekl [ #Gen.ADDR říkaly [ #Gen.ADDR Až dosud soudy není [ #Neg.RHEM dozor [ soudy [ cizími ] ] práce [ jejich ] ] ] , [ Semmelman [ Jacques ] asistent [ návladního [ federálního kauze [ této ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1946.final.streex##3.EnglishT-wsj_1946-s3a1
+EN:	Glenn and Sharon Beebe of Cincinnati had sued the com - pany in 1981 after installing Burlington carpets in their office.
+CS:	Společnost zažalovali Glenn a Sharon Beebeovi z Cincinnati v roce 1981 poté, co si koberce Burlington položili do kanceláře. 
+EN_TT:	sued [ Beebe [ and [ Glenn Sharon ] Cincinnati ] #Gen.PAT pany [ com ] 1981 installing [ <#PersPron.ACT> carpets [ Burlington ] office [ their ] ] ]
+CS_TT:	zažalovali [ Společnost Beebeovi [ a [ Glenn Sharon ] #Forn.DIR1 [ Cincinnati ] ] roce [ 1981 ] položili [ si koberce [ Burlington ] #PersPron.ACT kanceláře ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1946.final.streex##42.EnglishT-wsj_1946-s42a4
+EN:	In a speech prepared for delivery in New York yesterday, retired Justice Lewis Powell contested the notion that the last Supreme Court term marked a turn toward conservatism: ``Commentators who agreed on little else unanimously proclaimed a `shift in direction' on the court ....
+CS:	V připravené řeči včera v New Yorku napadl soudce v důchodu Lewis Powell názor, že poslední období Nejvyššího soudu naznačilo obrat směrem ke konzervatismu: "Komentátoři, kteří se jinak shodli na máločem, jednomyslně deklarovali 'posun ve směřování' soudu... 
+EN_TT:	: [ contested [ speech [ prepared [ <#PersPron.ACT> #Cor.PAT delivery [ York [ New ] ] ] yesterday ] Powell [ Justice [ retired ] Lewis ] notion [ marked [ term [ last Court [ Supreme ] ] turn [ conservatism ] ] ] ] proclaimed [ Commentators [ agreed [ who #Rcp.ADDR else [ little ] ] ] unanimously shift [ direction court ] ] ]
+CS_TT:	napadl [ řeči [ připravené ] včera #Forn.LOC [ New Yorku ] Powell [ soudce [ důchodu ] Lewis ] názor [ naznačilo [ období [ poslední soudu [ Nejvyššího ] ] obrat [ konzervatismu ] ] ] #EmpVerb.COMPL [ deklarovali [ Komentátoři [ shodli [ kteří jinak #Rcp.ADDR máločem ] ] jednomyslně posun [ směřování [ #Oblfm.DIR3 soudu ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1946.final.streex##5.EnglishT-wsj_1946-s5a1
+EN:	As a result of their illness, the Beebes said , they lost $1.8 million in wages and earnings.
+CS:	Důsledkem nemoci, jak Beebeovi uvedli, přišli na mzdách a výdělcích o 1.8 milionu dolarů. 
+EN_TT:	lost [ illness [ their ] said [ Beebes <#PersPron.EFF> #Gen.ADDR ] they $ [ million [ 1.8 and [ wages earnings ] ] ] ]
+CS_TT:	přišli [ #PersPron.ACT nemoci uvedli [ <#PersPron.EFF> Beebeovi ] a [ mzdách výdělcích ] milionu [ 1.8 dolarů ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1949.final.streex##11.EnglishT-wsj_1949-s11-t26_coract
+EN:	News of Mr. Eward's retirement comes one day after Morgan said that Christopher Whittington resigned as chairman of Morgan's banking subsidiary to join a financial services firm.
+CS:	Zpráva o Ewardově odchodu do penze přichází den po tom, co Morgan oznámil, že Christopher Whittington odešel z pozice předsedy bankovní pobočky společnosti Morgan, aby nastoupil do firmy poskytující finanční služby. 
+EN_TT:	comes [ News [ retirement [ Eward [ Mr. ] ] ] day [ one ] said [ Morgan #Gen.ADDR resigned [ Whittington [ Christopher ] chairman [ subsidiary [ Morgan banking ] ] join [ <#PersPron.ACT> firm [ services [ financial ] ] ] ] ] ]
+CS_TT:	přichází [ Zpráva [ odchodu [ Ewardově penze ] ] den [ oznámil [ Morgan odešel [ Whittington [ Christopher ] pozice [ předsedy [ pobočky [ bankovní společnosti [ Morgan ] ] ] ] nastoupil [ <#PersPron.ACT> firmy [ poskytující [ služby [ finanční ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1949.final.streex##13.EnglishT-wsj_1949-s13a3
+EN:	``If there's any coincidence about the departures it's that they are leaving at a time when the business is in reasonably good shape and going forward very well .''
+CS:	"Pokud spolu jejich odchody nějak souvisí, pak tak, že odcházejí v době, kdy je banka v poměrně dobrém stavu a vývoj je velmi slibný." 
+EN_TT:	's [ 's [ coincidence [ any departures ] ] it leaving [ they <#PersPron.PAT> time [ and [ business is [ when shape [ good [ reasonably ] ] ] going [ forward well [ very ] ] ] ] ] ]
+CS_TT:	souvisí [ #Rcp.PAT #PersPron.ACT souvisí [ spolu odchody [ jejich ] nějak #Rcp.PAT ] pak odcházejí [ #Oblfm.DIR1 #PersPron.ACT době [ a [ je [ kdy banka stavu [ dobrém [ poměrně ] ] ] je [ vývoj slibný [ velmi ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##1.EnglishT-wsj_1950-s1a2
+EN:	The following were among yesterday's offerings and pricings in the U.S. and non-U.S. capital markets, with terms and syndicate manager, as compiled by Dow Jones Capital Markets Report:
+CS:	Podle Zprávy o kapitálových trzích indexu Dow Jones byly mezi včerejšími nabídkami cenných papírů a jejich cenami včetně podmínek a manažera syndikátu na amerických i zahraničních kapitálových trzích uvedeny tyto položky: 
+EN_TT:	were [ #EmpNoun.ACT [ following ] and [ yesterday offerings pricings markets [ and [ U.S. non-U.S. ] capital ] ] and [ terms manager [ syndicate ] ] compiled [ <#PersPron.PAT> Report [ Jones [ Dow ] Markets [ Capital ] ] ] ]
+CS_TT:	uvedeny [ #Gen.ACT Zprávy [ trzích [ kapitálových ] indexu [ #Forn.ID [ Dow Jones ] ] ] a [ nabídkami [ včerejšími papírů [ cenných ] ] cenami [ jejich ] a [ podmínek manažera [ syndikátu ] ] ] trzích [ i [ amerických zahraničních ] kapitálových ] položky [ tyto ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1950.final.streex##26.EnglishT-wsj_1950-s26a5
+EN:	The offering, Series 1989-82, is backed by Fannie Mae 9 1\/2% securities and used at-market pricing.
+CS:	Tato nabídka série 1989 - 82 je kryta 9 1/2% cennými papíry firmy Fannie Mae a použila též momentální cenu na trhu. 
+EN_TT:	and [ backed [ , [ offering Series [ 1989-82 [ 1989-82 1989-82 ] ] ] securities [ Mae [ Fannie ] % [ #Separ.CONJ [ 9 1\/2 [ 1\/2 1\/2 ] ] ] ] ] used [ <#PersPron.ACT> pricing [ at-market ] ] ]
+CS_TT:	a [ kryta [ nabídka [ Tato série [ - [ 1989 82 ] ] ] #Gen.ACT papíry [ #Separ.CONJ [ 9 / [ 1 2 ] ] cennými firmy [ #Forn.ID [ Fannie Mae ] ] ] ] použila [ <#PersPron.ACT> též cenu [ momentální trhu ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1951.final.streex##12.EnglishT-wsj_1951-s12a4
+EN:	In July, Par and a 60%-owned unit agreed to plead guilty in that inquiry, as did another former Par official .
+CS:	V červenci se Par a pobočka, kterou z 60 % vlastní, dohodly v šetření přiznat vinu, stejně jako další bývalý funkcionář společnosti Par. 
+EN_TT:	agreed [ July and [ Par unit [ 60%-owned ] ] plead [ #Cor.ACT guilty inquiry [ that ] plead [ <#PersPron.CPHR> official [ another former Par ] ] ] ]
+CS_TT:	dohodly [ červenci a [ #Forn.ACT [ Par ] pobočka [ vlastní [ kterou #PersPron.ACT % [ 60 ] ] ] ] #Rcp.ADDR přiznat [ #Cor.ACT šetření [ #PersPron.PAT #Gen.ACT ] vinu stejně [ přiznat [ #PersPron.PAT funkcionář [ další bývalý společnosti [ Par ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##19.EnglishT-wsj_1952-s19a1
+EN:	Ask Tommy Lasorda; thin is in.
+CS:	Zeptejte se Tommyho Lasorda, vždyť být štíhlý je v módě. 
+EN_TT:	; [ Ask [ <#PersPron.ACT> #Gen.PAT Lasorda [ Tommy ] ] is [ thin in ] ]
+CS_TT:	vždyť [ Zeptejte [ <#PersPron.ACT> #Gen.PAT Lasorda [ Tommyho ] ] je [ být [ #Cor.ACT štíhlý ] módě [ #Benef.BEN ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##21.EnglishT-wsj_1952-s21a1
+EN:	Another major factor in this positive trend was Ronald Reagan's decision early in his presidency to fight the budget war on the expenditure side rather than raising taxes.
+CS:	Dalším významným faktorem tohoto pozitivního trendu bylo rozhodnutí Ronalda Reagana, které učinil na počátku své prezidentské funkce, a to bojovat rozpočtovou válku spíše na straně výdajů než zvyšováním daní. 
+EN_TT:	was [ factor [ Another major trend [ this positive ] ] decision [ Reagan [ Ronald ] early [ presidency [ his ] ] fight [ #Cor.ACT war [ budget ] side [ expenditure ] rather [ raising [ <#PersPron.ACT> taxes ] ] ] ] ]
+CS_TT:	bylo [ faktorem [ Dalším významným trendu [ tohoto pozitivního ] ] to [ rozhodnutí [ #PersPron.PAT Reagana [ Ronalda ] učinil [ #PersPron.ACT které počátku [ funkce [ své prezidentské ] ] ] ] rozhodnutí [ #PersPron.ACT bojovat [ #Cor.ACT válku [ rozpočtovou ] spíše [ bojovat [ #PersPron.PAT zvyšováním [ <#PersPron.ACT> daní ] #PersPron.ACT ] ] straně [ výdajů ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##30.EnglishT-wsj_1952-s30a12
+EN:	We have as much nostalgia as anyone for those leafy, breezy days in Washington when honorable men and women dickered over budgets and even log-rolled a bit to see that the bridges got build , roads paved , soldiers paid or that the desperately poor were cared for .
+CS:	Jako každému se nám stýská po těch nenucených, žoviálních dnech ve Washingtonu, kdy ctihodní mužové a ženy smlouvali o rozpočtech a dokonce si i trochu vzájemně pomáhali, aby viděli, že se staví mosty, zpevňují silnice, vojáci dostávají zaplaceno a i o ty beznadějně chudé je postaráno. 
+EN_TT:	have [ We nostalgia [ much [ as [ have [ anyone <#PersPron.PAT> ] ] ] days [ those leafy breezy Washington and [ when and [ honorable men women ] dickered [ #Rcp.ADDR budgets ] even log-rolled [ bit see [ #Cor.ACT or [ #Gen.ACT got [ bridges build [ #PersPron.ACT #Cor.PAT ] ] got [ roads paved [ #PersPron.ACT #Cor.PAT ] ] got [ soldiers paid [ #PersPron.ACT #Cor.ADDR #Oblfm.PAT ] ] cared [ poor [ desperately ] ] ] ] ] ] ] ] ]
+CS_TT:	stýská [ #Equal.EXT [ stýská [ každému ] ] nám dnech [ těch , [ nenucených žoviálních ] Washingtonu a [ smlouvali [ kdy a [ ctihodní mužové ženy ] #Rcp.ADDR rozpočtech ] dokonce i pomáhali [ #PersPron.ACT trochu vzájemně si viděli [ #PersPron.ACT a [ staví [ #Gen.ACT mosty ] zpevňují [ #Gen.ACT silnice ] zaplaceno [ vojáci #Gen.PAT #Gen.ACT ] postaráno [ #Gen.ACT ty [ i chudé [ beznadějně ] ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##30.EnglishT-wsj_1952-s30a19
+EN:	We have as much nostalgia as anyone for those leafy, breezy days in Washington when honorable men and women dickered over budgets and even log-rolled a bit to see that the bridges got build , roads paved , soldiers paid or that the desperately poor were cared for .
+CS:	Jako každému se nám stýská po těch nenucených, žoviálních dnech ve Washingtonu, kdy ctihodní mužové a ženy smlouvali o rozpočtech a dokonce si i trochu vzájemně pomáhali, aby viděli, že se staví mosty, zpevňují silnice, vojáci dostávají zaplaceno a i o ty beznadějně chudé je postaráno. 
+EN_TT:	have [ We nostalgia [ much [ as [ have [ anyone #PersPron.PAT ] ] ] days [ those leafy breezy Washington and [ when and [ honorable men women ] dickered [ #Rcp.ADDR budgets ] even log-rolled [ bit see [ #Cor.ACT or [ #Gen.ACT got [ bridges build [ <#PersPron.ACT> #Cor.PAT ] ] got [ roads paved [ #PersPron.ACT #Cor.PAT ] ] got [ soldiers paid [ #PersPron.ACT #Cor.ADDR #Oblfm.PAT ] ] cared [ poor [ desperately ] ] ] ] ] ] ] ] ]
+CS_TT:	stýská [ #Equal.EXT [ stýská [ každému ] ] nám dnech [ těch , [ nenucených žoviálních ] Washingtonu a [ smlouvali [ kdy a [ ctihodní mužové ženy ] #Rcp.ADDR rozpočtech ] dokonce i pomáhali [ #PersPron.ACT trochu vzájemně si viděli [ #PersPron.ACT a [ staví [ <#Gen.ACT> mosty ] zpevňují [ #Gen.ACT silnice ] zaplaceno [ vojáci #Gen.PAT #Gen.ACT ] postaráno [ #Gen.ACT ty [ i chudé [ beznadějně ] ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##30.EnglishT-wsj_1952-s30a20
+EN:	We have as much nostalgia as anyone for those leafy, breezy days in Washington when honorable men and women dickered over budgets and even log-rolled a bit to see that the bridges got build , roads paved , soldiers paid or that the desperately poor were cared for .
+CS:	Jako každému se nám stýská po těch nenucených, žoviálních dnech ve Washingtonu, kdy ctihodní mužové a ženy smlouvali o rozpočtech a dokonce si i trochu vzájemně pomáhali, aby viděli, že se staví mosty, zpevňují silnice, vojáci dostávají zaplaceno a i o ty beznadějně chudé je postaráno. 
+EN_TT:	have [ We nostalgia [ much [ as [ have [ anyone #PersPron.PAT ] ] ] days [ those leafy breezy Washington and [ when and [ honorable men women ] dickered [ #Rcp.ADDR budgets ] even log-rolled [ bit see [ #Cor.ACT or [ #Gen.ACT got [ bridges build [ #PersPron.ACT #Cor.PAT ] ] got [ roads paved [ <#PersPron.ACT> #Cor.PAT ] ] got [ soldiers paid [ #PersPron.ACT #Cor.ADDR #Oblfm.PAT ] ] cared [ poor [ desperately ] ] ] ] ] ] ] ] ]
+CS_TT:	stýská [ #Equal.EXT [ stýská [ každému ] ] nám dnech [ těch , [ nenucených žoviálních ] Washingtonu a [ smlouvali [ kdy a [ ctihodní mužové ženy ] #Rcp.ADDR rozpočtech ] dokonce i pomáhali [ #PersPron.ACT trochu vzájemně si viděli [ #PersPron.ACT a [ staví [ #Gen.ACT mosty ] zpevňují [ <#Gen.ACT> silnice ] zaplaceno [ vojáci #Gen.PAT #Gen.ACT ] postaráno [ #Gen.ACT ty [ i chudé [ beznadějně ] ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##30.EnglishT-wsj_1952-s30a22
+EN:	We have as much nostalgia as anyone for those leafy, breezy days in Washington when honorable men and women dickered over budgets and even log-rolled a bit to see that the bridges got build , roads paved , soldiers paid or that the desperately poor were cared for .
+CS:	Jako každému se nám stýská po těch nenucených, žoviálních dnech ve Washingtonu, kdy ctihodní mužové a ženy smlouvali o rozpočtech a dokonce si i trochu vzájemně pomáhali, aby viděli, že se staví mosty, zpevňují silnice, vojáci dostávají zaplaceno a i o ty beznadějně chudé je postaráno. 
+EN_TT:	have [ We nostalgia [ much [ as [ have [ anyone #PersPron.PAT ] ] ] days [ those leafy breezy Washington and [ when and [ honorable men women ] dickered [ #Rcp.ADDR budgets ] even log-rolled [ bit see [ #Cor.ACT or [ #Gen.ACT got [ bridges build [ #PersPron.ACT #Cor.PAT ] ] got [ roads paved [ #PersPron.ACT #Cor.PAT ] ] got [ soldiers paid [ <#PersPron.ACT> #Cor.ADDR #Oblfm.PAT ] ] cared [ poor [ desperately ] ] ] ] ] ] ] ] ]
+CS_TT:	stýská [ #Equal.EXT [ stýská [ každému ] ] nám dnech [ těch , [ nenucených žoviálních ] Washingtonu a [ smlouvali [ kdy a [ ctihodní mužové ženy ] #Rcp.ADDR rozpočtech ] dokonce i pomáhali [ #PersPron.ACT trochu vzájemně si viděli [ #PersPron.ACT a [ staví [ #Gen.ACT mosty ] zpevňují [ #Gen.ACT silnice ] zaplaceno [ vojáci #Gen.PAT <#Gen.ACT> ] postaráno [ #Gen.ACT ty [ i chudé [ beznadějně ] ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##32.EnglishT-wsj_1952-s32a1
+EN:	Nor do we see any reason to believe that a metropolitan Washington that has gotten fat and rich and lazy in the shadow of the federal colossus will change much on its own initiative .
+CS:	Ani nevidíme důvod, proč bychom měli věřit, že velký Washington, který ve stínu federálních velikánů ztloustl, zbohatl a zlenivěl, se z vlastní iniciativy příliš změní. 
+EN_TT:	see [ Nor we reason [ any <#PersPron.ACT> believe [ #Cor.ACT change [ Washington [ metropolitan gotten [ that and [ fat rich lazy ] shadow [ colossus [ federal ] ] ] ] much initiative [ its own ] ] ] ] ]
+CS_TT:	nevidíme [ #PersPron.ACT Ani #Neg.RHEM důvod [ věřit [ #PersPron.ACT proč změní [ Washington [ velký a [ který stínu [ velikánů [ federálních ] ] ztloustl zbohatl zlenivěl ] ] iniciativy [ vlastní ] příliš ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##33.EnglishT-wsj_1952-s33a1
+EN:	Save the sequester, and let Washington scream.
+CS:	Zachovejte sekvestraci a nechte Washington křičet. 
+EN_TT:	and [ Save [ sequester ] <#PersPron.ACT> let [ Washington scream ] ]
+CS_TT:	a [ <#PersPron.ACT> Zachovejte [ sekvestraci ] nechte [ Washington křičet [ #Cor.ACT ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##3.EnglishT-wsj_1952-s3a3
+EN:	That's essentially what budget director Richard Darman is suggesting , and we think he deserves as much support as he can get .
+CS:	Právě to v podstatě navrhuje vedoucí rozpočtového oddělení Richard Darman, a my si myslíme, že si zaslouží tolik podpory, kolik jen může dostat. 
+EN_TT:	and [ 's [ That essentially suggesting [ what Darman [ director [ budget ] Richard ] #Gen.ADDR ] ] think [ we deserves [ he support [ much [ as [ get [ he <#PersPron.PAT> ] ] ] ] ] ] ]
+CS_TT:	a [ navrhuje [ #Gen.ADDR Právě to podstatě Darman [ vedoucí [ oddělení [ rozpočtového ] ] Richard ] ] myslíme [ my zaslouží [ #PersPron.ACT podpory [ dostat [ #PersPron.ACT <kolik> jen ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##4.EnglishT-wsj_1952-s4a3
+EN:	If human beings can't cut federal spending honestly -- and they can't -- let the computers do it.
+CS:	Pokud lidé nedokáží poctivě snížit federální útraty - a oni nedokáží -, ať to udělají počítače. 
+EN_TT:	let [ cut [ beings [ human ] n't spending [ federal ] honestly cut [ <#PersPron.PAT> and they n't ] ] #PersPron.ACT computers do [ #Cor.ACT it ] ]
+CS_TT:	udělají [ nedokáží [ #Neg.RHEM lidé snížit [ #Cor.ACT poctivě útraty [ federální ] ] nedokáží [ #Neg.RHEM #PersPron.PAT a oni ] ] to počítače ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##4.EnglishT-wsj_1952-s4a4
+EN:	If human beings can't cut federal spending honestly -- and they can't -- let the computers do it.
+CS:	Pokud lidé nedokáží poctivě snížit federální útraty - a oni nedokáží -, ať to udělají počítače. 
+EN_TT:	let [ cut [ beings [ human ] n't spending [ federal ] honestly cut [ #PersPron.PAT and they n't ] ] <#PersPron.ACT> computers do [ #Cor.ACT it ] ]
+CS_TT:	udělají [ nedokáží [ #Neg.RHEM lidé snížit [ #Cor.ACT poctivě útraty [ federální ] ] nedokáží [ #Neg.RHEM #PersPron.PAT a oni ] ] to počítače ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1952.final.streex##8.EnglishT-wsj_1952-s8a6
+EN:	Consider, for instance, that even yesterday's widely publicized sequester is likely to be traduced if business as usual is allowed to prevail.
+CS:	Vezměme si například, že i včerejší široce zveřejňovaná sekvestrace bude pravděpodobně haněna, pokud bude umožněno, aby přetrvávala stávající situace. 
+EN_TT:	Consider [ <#PersPron.ACT> instance is [ traduced [ sequester [ even yesterday publicized [ widely #Gen.ACT #Cor.PAT ] ] #Gen.ACT ] likely allowed [ #Gen.ACT prevail [ business [ usual ] ] ] ] ]
+CS_TT:	Vezměme [ <#PersPron.ACT> například haněna [ #Gen.ACT i sekvestrace [ včerejší zveřejňovaná [ široce ] ] pravděpodobně umožněno [ #Gen.ADDR #Gen.ACT přetrvávala [ situace [ stávající ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##24.EnglishT-wsj_1957-s24-t31_coract
+EN:	Currency concerns also weigh heavily on interest rate-sensitive stocks such as banking and other financial issues because of fears that Japanese interest rates might have to rise to keep the dollar in check.
+CS:	Znepokojení ohledně měny má také velký vliv na akcie citlivé na úrokovou sazbu, jako jsou například bankovní a jiné finanční emise, kvůli obavám, že by se japonské úrokové sazby musely zvednout, aby dostaly dolar pod kontrolu. 
+EN_TT:	weigh [ concerns [ Currency ] also heavily such [ stocks [ rate-sensitive [ interest ] ] issues [ and [ banking financial [ other ] ] ] ] fears [ rise [ rates [ Japanese interest ] keep [ <#PersPron.ACT> dollar check ] ] ] ]
+CS_TT:	má [ Znepokojení [ #PersPron.PAT #Gen.ACT měny ] také vliv [ velký jako [ akcie [ citlivé [ sazbu [ úrokovou ] ] ] jsou [ akcie například emise [ a [ bankovní finanční [ jiné ] ] ] ] ] ] obavám [ zvednout [ sazby [ japonské úrokové ] #Gen.ACT dostaly [ <#PersPron.ACT> dolar kontrolu ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##37.EnglishT-wsj_1957-s37a3
+EN:	If you bought, you wish you hadn't , and if you sold, you wish you hadn't .''
+CS:	Když jste koupili, litovali jste, a když jste prodali, litovali jste." 
+EN_TT:	and [ wish [ bought [ you #Gen.PAT ] you bought [ <#PersPron.PAT> you n't ] ] wish [ sold [ you #Gen.PAT ] you sold [ #PersPron.PAT you n't ] ] ]
+CS_TT:	a [ #Gen.PAT #PersPron.ACT litovali [ koupili [ <#Gen.PAT> #PersPron.ACT ] ] litovali [ prodali [ #PersPron.ACT #Gen.PAT #Gen.ADDR ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##37.EnglishT-wsj_1957-s37a8
+EN:	If you bought, you wish you hadn't , and if you sold, you wish you hadn't .''
+CS:	Když jste koupili, litovali jste, a když jste prodali, litovali jste." 
+EN_TT:	and [ wish [ bought [ you #Gen.PAT ] you bought [ #PersPron.PAT you n't ] ] wish [ sold [ you #Gen.PAT ] you sold [ <#PersPron.PAT> you n't ] ] ]
+CS_TT:	a [ #Gen.PAT #PersPron.ACT litovali [ koupili [ #Gen.PAT #PersPron.ACT ] ] litovali [ prodali [ #PersPron.ACT <#Gen.PAT> #Gen.ADDR ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##39.EnglishT-wsj_1957-s39a1
+EN:	Britain's economic fundamentals, he said , ``don't look very bright.''
+CS:	Řekl, že základy britské ekonomiky "nevypadají moc růžově". 
+EN_TT:	look [ fundamentals [ Britain economic ] said [ he <#PersPron.EFF> #Gen.ADDR ] n't bright [ very ] ]
+CS_TT:	Řekl [ #Gen.ADDR #PersPron.ACT nevypadají [ #Neg.RHEM základy [ ekonomiky [ britské ] ] růžově [ moc ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##47.EnglishT-wsj_1957-s47a1
+EN:	Jaguar shares jumped 23 before easing to close at 654, up 6.
+CS:	Než opadly, vyskočily akcie společnosti Jaguar o 23, aby poté uzavřely na 654, což je zvýšení o 6. 
+EN_TT:	jumped [ shares [ Jaguar ] 23 easing [ <#PersPron.ACT> ] close [ #Cor.ACT , [ 654 up [ 6 ] ] ] ]
+CS_TT:	vyskočily [ opadly [ <#PersPron.ACT> ] akcie [ společnosti [ Jaguar ] ] 23 uzavřely [ #PersPron.ACT , [ 654 je [ což zvýšení [ #PersPron.ACT 6 ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##4.EnglishT-wsj_1957-s4a2
+EN:	Paris shares had a similar reaction, but most other European bourses posted gains, as did all major Asian and Pacific stock markets .
+CS:	Pařížské akcie reagovaly obdobně, ale většina ostatních evropských burz oznámila zisk, stejně jako všechny významné asijské a pacifické burzy. 
+EN_TT:	but [ had [ shares [ Paris ] reaction [ similar ] ] posted [ bourses [ other European ] gains posted [ <#PersPron.PAT> markets [ all major and [ Asian Pacific ] stock ] ] ] ]
+CS_TT:	ale [ reagovaly [ #PersPron.PAT akcie [ Pařížské ] obdobně ] oznámila [ většina [ burz [ ostatních evropských ] ] zisk stejně [ oznámila [ <#PersPron.PAT> burzy [ všechny významné a [ asijské pacifické ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1957.final.streex##64.EnglishT-wsj_1957-s64a1
+EN:	Here are price trends on the world's major stock markets, as calculated by Morgan Stanley Capital International Perspective, Geneva.
+CS:	Zde jsou uvedeny cenové trendy na největších světových burzách, jak je spočítala společnost Morgan Stanley Capital International Perspective ze Ženevy. 
+EN_TT:	are [ Here trends [ price markets [ world major stock ] calculated [ <#PersPron.PAT> Perspective [ Capital [ Stanley [ Morgan ] ] International Geneva ] ] ] ]
+CS_TT:	uvedeny [ #Gen.ACT Zde trendy [ cenové burzách [ největších světových ] ] spočítala [ <je> společnost [ #Forn.ID [ Morgan Stanley Capital International Perspective ] Ženevy ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##25.EnglishT-wsj_1962-s25a2
+EN:	Though not reflected in the table, an investor should know that the cost of the option insurance can be partially offset by any dividends that the stock pays .
+CS:	Ačkoli to v tabulce není vidět, investor měl by vědět, že cenu opčního pojištění lze částečně vykompenzovat dividendami, které se z akcie vyplatí. 
+EN_TT:	know [ reflected [ not #Gen.ACT <#PersPron.PAT> table ] investor offset [ cost [ insurance [ option ] ] partially #Gen.ACT dividends [ any pays [ that stock ] ] ] ]
+CS_TT:	vědět [ není [ #Neg.RHEM #Benef.BEN vidět [ #Cor.ACT tabulce to ] ] investor lze [ #Benef.BEN vykompenzovat [ #Cor.ACT cenu [ pojištění [ #Gen.PAT #Gen.ACT opčního ] ] částečně dividendami [ vyplatí [ #Gen.ACT které akcie ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##26.EnglishT-wsj_1962-s26a4
+EN:	For example, Tenneco Inc. pays a quarterly dividend of 76 cents, which would be received before the February option expires and, thus, reduce the cost of using the technique by that amount.
+CS:	Například společnost Tenneco Inc. vyplatí čtvrtletní dividendy ve výši 76 centů, které by byly obdrženy dříve, než propadne únorová opce, a tudíž o tuto částku klesnou náklady na užití této techniky. 
+EN_TT:	pays [ example Inc. [ Tenneco ] dividend [ quarterly cents [ 76 ] and [ received [ which #Gen.ACT expires [ option [ February ] #Oblfm.TWHEN ] ] thus reduce [ <#PersPron.ACT> cost [ using [ #Gen.ACT technique ] ] amount [ that ] ] ] ] ]
+CS_TT:	a [ vyplatí [ Například společnost [ #Forn.ID [ Tenneco Inc . ] ] dividendy [ čtvrtletní výši [ centů [ 76 ] ] obdrženy [ #PersPron.ACT které dříve [ propadne [ opce [ únorová ] ] ] ] ] ] tudíž klesnou [ částku [ tuto ] náklady [ užití [ #PersPron.ACT techniky [ této ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##30.EnglishT-wsj_1962-s30a1
+EN:	But some investors might prefer a simpler strategy then hedging their individual holdings.
+CS:	Někteří investoři však možná upřednostní jednodušší strategii, než je stelážování osobního vlastnictví. 
+EN_TT:	prefer [ But investors [ some ] strategy [ simpler [ hedging [ <#PersPron.ACT> holdings [ their individual ] ] ] ] ]
+CS_TT:	upřednostní [ investoři [ Někteří ] však možná strategii [ jednodušší [ je [ jednodušší stelážování [ vlastnictví [ osobního ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1962.final.streex##7.EnglishT-wsj_1962-s7a6
+EN:	Because a put option gives its owner the right , but not the obligation , to sell a fixed number of shares of the stock at a stated price on or before the option's expiration date, the investor is protected against a sudden drop in the stock's price.
+CS:	Protože prodejní opce dává vlastníkovi právo, avšak nikoliv povinnost prodat stanovený počet akcií za určenou cenu v den vypršení opce nebo dříve, investor je chráněn proti náhlému poklesu ceny akcie. 
+EN_TT:	protected [ but [ option [ put ] gives [ right ] owner [ its ] gives [ obligation [ sell [ <#PersPron.ACT> number [ fixed shares [ stock ] ] price [ stated ] or [ date option expiration date ] ] ] ] not ] investor #Gen.ACT drop [ sudden price [ stock ] ] ]
+CS_TT:	chráněn [ avšak [ opce [ prodejní ] dává [ právo ] vlastníkovi nikoliv dává [ povinnost [ prodat [ #Gen.ADDR <#Cor.ACT> počet [ stanovený akcií ] cenu [ určenou ] nebo [ den [ vypršení [ opce ] ] dříve ] ] ] ] ] investor #PersPron.ACT poklesu [ náhlému ceny [ akcie ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1963.final.streex##10.EnglishT-wsj_1963-s10a4
+EN:	Senate leaders had hoped to be able to send a compromise version of the measure to President Bush by the end of the week, but Speaker Foley said that wasn't likely.
+CS:	Čelní představitelé senátu doufali, že budou schopni zaslat kompromisní verzi opatření prezidentovi Bushovi do konce týdne, ale mluvčí Foley řekl, že to není pravděpodobné. 
+EN_TT:	but [ hoped [ leaders [ Senate ] be [ #Cor.ACT able [ send [ <#PersPron.ACT> version [ compromise measure ] Bush [ President ] end [ week ] ] ] ] ] said [ Foley [ Speaker ] #Gen.ADDR was [ that n't likely ] ] ]
+CS_TT:	ale [ doufali [ představitelé [ Čelní senátu ] budou [ #PersPron.ACT schopni [ zaslat [ <#Cor.ACT> verzi [ kompromisní opatření ] Bushovi [ prezidentovi ] konce [ týdne ] ] ] ] ] řekl [ #Gen.ADDR Foley [ mluvčí ] není [ #Neg.RHEM to pravděpodobné ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1969.final.streex##2.EnglishT-wsj_1969-s2a5
+EN:	One unit, called the Escort, uses a new digital signal-processing technology to detect radar signals much sooner than was previously possible, the company said .
+CS:	Jeden z nich, zvaný Escort, používá novou technologii digitálního zpracování signálu k daleko včasnější detekci radarových signálů, než bylo možné dříve, uvedla společnost. 
+EN_TT:	said [ uses [ unit [ One called [ #Gen.ACT #Cor.PAT Escort ] ] technology [ new digital signal-processing ] detect [ #Cor.ACT signals [ radar ] sooner [ much was [ <#PersPron.ACT> previously possible ] ] ] ] company #Gen.ADDR ]
+CS_TT:	uvedla [ používá [ Jeden [ nich zvaný [ #Forn.EFF [ Escort ] ] ] technologii [ novou zpracování [ #Gen.ACT digitálního signálu ] ] detekci [ včasnější [ daleko bylo [ <#Gen.ACT> možné dříve ] ] signálů [ radarových ] ] ] společnost ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1969.final.streex##3.EnglishT-wsj_1969-s3a8
+EN:	The other, called the Solo, is battery operated and is the first high-performance radar detector that doesn't need a power cord, the company said .
+CS:	Druhý, zvaný Solo, je napájen baterií a je prvním radarovým detektorem vysoké kvality, který nepotřebuje napájecí šňůru, uvedla společnost. 
+EN_TT:	said [ and [ operated [ other [ called [ #Gen.ACT #Cor.PAT Solo ] ] battery #Gen.ACT ] is [ <#PersPron.ACT> detector [ first high-performance radar need [ that n't cord [ power ] ] ] ] ] company #Gen.ADDR ]
+CS_TT:	uvedla [ a [ napájen [ #EmpNoun.PAT [ Druhý zvaný [ #Forn.EFF [ Solo ] ] ] baterií ] je [ <#PersPron.ACT> detektorem [ prvním radarovým kvality [ vysoké ] nepotřebuje [ #Neg.RHEM který šňůru [ napájecí ] ] ] ] ] společnost ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1970.final.streex##25.EnglishT-wsj_1970-s25a3
+EN:	``People are sick and tired of hearing about these deficits, but the imbalances are still there and they are still a problem,'' said Mr. Robertson.
+CS:	"Lidé už jsou ze zpráv o těchto deficitech znechucení, avšak tyto nevyrovnanosti stále existují a stále představují problém," řekl Robertson. 
+EN_TT:	said [ but [ are [ People and [ sick tired hearing [ <#PersPron.ACT> deficits [ these ] ] ] ] and [ are [ imbalances still there ] are [ they still problem ] ] ] #Gen.ADDR Robertson [ Mr. ] ]
+CS_TT:	řekl [ #Gen.ADDR avšak [ jsou [ Lidé už znechucení [ zpráv [ deficitech [ těchto ] ] ] ] a [ nevyrovnanosti [ tyto ] existují [ stále ] představují [ stále problém ] ] ] Robertson ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1970.final.streex##2.EnglishT-wsj_1970-s2a3
+EN:	The merchandise trade deficit widened in August to $10.77 billion , the Commerce Department reported , a sharp deterioration from July's $8.24 billion and the largest deficit of any month this year.
+CS:	Ministerstvo obchodu informovalo, že obchodní deficit zboží v srpnu vzrostl na 10.77 miliardy dolarů, což je oproti červencovým 8.24 miliardy dolarů prudké zhoršení a nejvyšší měsíční deficit za celý letošní rok. 
+EN_TT:	, [ widened [ deficit [ trade [ merchandise ] ] August $ [ billion [ 10.77 ] ] reported [ Department [ Commerce ] #Gen.ADDR <#PersPron.PAT> ] ] #EmpVerb.PRED [ and [ deterioration [ sharp $ [ July billion [ 8.24 ] ] ] deficit [ largest month [ any year [ this ] ] ] ] ] ]
+CS_TT:	informovalo [ #Gen.ADDR Ministerstvo [ obchodu ] <vzrostl> [ deficit [ obchodní zboží ] srpnu , [ miliardy [ 10.77 dolarů ] je [ což a [ zhoršení [ miliardy [ červencovým 8.24 dolarů ] #PersPron.ACT prudké ] deficit [ nejvyšší měsíční rok [ celý letošní ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1970.final.streex##31.EnglishT-wsj_1970-s31a7
+EN:	``The best result we could get from these numbers would be to see the administration and Congress get serious about putting the U.S. on an internationally competitive economic footing,'' said Howard Lewis, vice president of international economic affairs at the National Association of Manufacturers.
+CS:	"Nejlepší výsledek, který bychom z těchto čísel mohli dostat, by bylo, že by vláda a Kongres začali brát vážně fakt, že Spojeným státům mají dát mezinárodně konkurenceschopnou ekonomiku," uvedl Howard Lewis, viceprezident mezinárodních ekonomických záležitostí Národní asociace výrobců. 
+EN_TT:	said [ be [ result [ best get [ we #Cor.PAT numbers [ these ] ] ] see [ <#PersPron.ACT> get [ and [ administration Congress ] serious [ #Cor.ACT putting [ #Cor.ACT U.S. footing [ competitive [ internationally ] economic ] ] ] ] ] ] #Gen.ADDR , [ Lewis [ Howard ] president [ vice affairs [ international economic ] Association [ National Manufacturers ] ] ] ]
+CS_TT:	uvedl [ bylo [ výsledek [ Nejlepší dostat [ #PersPron.ACT který čísel [ těchto ] ] ] začali [ a [ vláda Kongres ] brát [ #Cor.ACT vážně fakt [ dát [ #PersPron.ACT státům [ Spojeným ] ekonomiku [ konkurenceschopnou [ mezinárodně ] ] ] ] ] ] ] , [ Lewis [ Howard ] viceprezident [ záležitostí [ mezinárodních ekonomických ] asociace [ Národní výrobců ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1970.final.streex##5.EnglishT-wsj_1970-s5a5
+EN:	Like most analysts, Mr. Dennis was hesitant to read too much into one month's numbers; but he said, ``It indicates perhaps that the balance in the U.S. economy is not as good as we've been led to believe.''
+CS:	Stejně jako většina analytiků se i Dennis zdráhá mnoho usuzovat z čísel za jeden měsíc, avšak řekl: "Možná to znamená, že americká ekonomická bilance není tak dobrá, jak jsme měli věřit." 
+EN_TT:	but [ was [ analysts [ most ] Dennis [ Mr. ] hesitant [ read [ #Cor.ACT #Gen.PAT much [ too ] numbers [ month [ one ] ] ] ] ] said [ he #Gen.ADDR indicates [ It perhaps is [ balance [ economy [ U.S. ] ] not good [ as led [ we #Gen.ACT believe [ #Cor.ACT <#PersPron.PAT> ] ] ] ] ] ] ]
+CS_TT:	avšak [ Dennis zdráhá [ Stejně [ zdráhá [ většina [ analytiků ] #PersPron.PAT ] ] i usuzovat [ #Cor.ACT #EmpNoun.PAT [ mnoho ] čísel [ měsíc [ jeden ] ] ] ] řekl [ #Gen.ADDR znamená [ Možná to není [ #Neg.RHEM bilance [ americká ekonomická ] dobrá [ tak věřit [ <#PersPron.PAT> #PersPron.ACT jak ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1971.final.streex##1.EnglishT-wsj_1971-s1a1
+EN:	Steve Jobs took a step back from the frontier of personal-computer technology in an effort to spur sales of Next Inc.'s new machine.
+CS:	Steve Jobs udělal krok zpátky z první linie technologie osobních počítačů ve snaze urychlit prodej nového počítače od Next Inc. 
+EN_TT:	took [ Jobs [ Steve ] step back frontier [ technology [ personal-computer ] ] effort [ spur [ <#PersPron.ACT> sales [ machine [ Inc. [ Next ] new ] ] ] ] ]
+CS_TT:	udělal [ Jobs [ Steve ] krok [ zpátky linie [ první technologie [ počítačů [ osobních ] ] ] ] snaze [ urychlit [ <#PersPron.ACT> prodej [ počítače [ nového #Forn.RSTR [ Next Inc ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1971.final.streex##23.EnglishT-wsj_1971-s23a4
+EN:	``From the standpoint of being on the forefront of technology, this is a step backward,'' said Jerry W. Sprecher, a senior computing manager for the California state university system.
+CS:	"Ze stavu, kdy byli v první linii technologie, je to krok zpátky," řekl Jerry W. Sprecher, hlavní manažer počítačového systému na státní kalifornské univerzitě. 
+EN_TT:	said [ is [ standpoint [ being [ <#PersPron.ACT> forefront [ technology ] ] ] this step [ backward ] ] #Gen.ADDR , [ Sprecher [ Jerry W. ] manager [ senior computing system [ university [ California state ] ] ] ] ]
+CS_TT:	řekl [ #Gen.ADDR je [ stavu [ byli [ <#PersPron.ACT> kdy linii [ první technologie ] ] ] to krok [ zpátky ] ] , [ Sprecher [ Jerry W ] manažer [ hlavní systému [ počítačového univerzitě [ státní kalifornské ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1971.final.streex##2.EnglishT-wsj_1971-s2-t6_coract
+EN:	Mr. Jobs moved to remedy a couple of his computer's drawbacks yesterday by lowering the entry-level price for a Next machine by $1,500, or 23%, if the buyer chooses a hard-disk drive as an alternative to Next's optical-storage device.
+CS:	Jobs včera přistoupil k řešení několika nedostatků svých počítačů snížením základní ceny počítače Next o 1500 dolarů, což činí 23 %, pokud kupující zvolí místo optického paměťového zařízení pevný disk. 
+EN_TT:	moved [ Jobs [ Mr. ] remedy [ <#PersPron.ACT> couple [ drawbacks [ computer [ his ] ] ] yesterday lowering [ #Cor.ACT price [ entry-level machine [ Next ] ] or [ $ [ 1,500 ] % [ 23 ] ] chooses [ buyer drive [ hard-disk ] alternative [ device [ Next optical-storage ] ] ] ] ] ]
+CS_TT:	, [ přistoupil [ Jobs včera řešení [ <#PersPron.ACT> nedostatků [ několika počítačů [ svých ] ] ] snížením [ #PersPron.ACT ceny [ základní počítače [ Next ] ] dolarů [ 1500 ] ] ] činí [ což % [ 23 ] zvolí [ kupující zařízení [ optického paměťového ] disk [ pevný ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1973.final.streex##1.EnglishT-wsj_1973-s1a3
+EN:	Ashton-Tate Corp. reported a net loss of $19.4 million, or 74 cents a share, for the third quarter, which was burdened by severance costs and the expense of upgrading its database software inventories.
+CS:	Společnost Ashton-Tate Corp. vykázala čistou ztrátu za třetí čtvrtletí, které bylo zatíženo náklady na rozdělení a výdaji na aktualizaci obsahu databázového softwaru, ve výši 19.4 milionu dolarů, což činí 74 centů na akcii. 
+EN_TT:	reported [ Corp. [ Ashton-Tate ] #Gen.ADDR loss [ net or [ $ [ million [ 19.4 ] ] cents [ 74 share ] ] ] quarter [ third burdened [ which and [ costs [ severance ] expense [ upgrading [ <#PersPron.ACT> inventories [ its software [ database ] ] ] ] ] ] ] ]
+CS_TT:	vykázala [ Společnost [ #Forn.ID [ Ashton - Tate Corp . ] ] ztrátu [ čistou čtvrtletí [ třetí zatíženo [ které a [ náklady [ rozdělení [ #PersPron.ACT #PersPron.PAT ] ] výdaji [ aktualizaci [ obsahu [ softwaru [ databázového ] ] ] ] , [ výši [ milionu [ 19.4 dolarů ] ] činí [ což centů [ 74 akcii ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1982.final.streex##5.EnglishT-wsj_1982-s5a1
+EN:	Last week, Mesa rejected a proposal by StatesWest to acquire it or merge.
+CS:	Minulý týden odmítla společnost Mesa návrh společnosti StatesWest na převzetí nebo sloučení. 
+EN_TT:	rejected [ week [ Last ] Mesa proposal [ StatesWest or [ acquire [ #Cor.ACT it ] merge [ #Cor.ACT #Rcp.ADDR <#PersPron.PAT> ] ] ] ]
+CS_TT:	odmítla [ týden [ Minulý ] společnost [ Mesa ] návrh [ společnosti [ StatesWest ] nebo [ převzetí #PersPron.PAT #PersPron.ACT sloučení ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1983.final.streex##6.EnglishT-wsj_1983-s6a5
+EN:	By concealing the non-enforcement agreement, certain transactions with Messrs. Taylor and Watson were entered on FirstSouth's books as loans, allowing the thrift to report fees and interest as current income, according to the U.S. attorney's office in Little Rock, Ark.
+CS:	Utajením této dohody o nevymáhání záruk byly jisté transakce Taylora a Watsona zaúčtovány společností FirstSouth jakožto půjčky, což této záložně umožnilo vykázat poplatky a úrok jako běžný příjem, jak sdělilo federální zastupitelství ve městě Little Rock v Arkansasu. 
+EN_TT:	entered [ concealing [ <#PersPron.ACT> agreement [ non-enforcement ] ] transactions [ certain and [ Messrs. Taylor Watson ] ] #Gen.ACT books [ FirstSouth ] loans allowing [ #Cor.ACT report [ thrift #Gen.ADDR and [ fees interest ] income [ current ] ] ] office [ attorney [ U.S. ] Rock [ Little Ark ] ] ]
+CS_TT:	, [ zaúčtovány [ Utajením [ <#Gen.ACT> dohody [ této nevymáhání [ #Gen.ACT záruk ] ] ] transakce [ jisté a [ Taylora Watsona ] ] společností [ FirstSouth ] půjčky ] umožnilo [ což záložně [ této ] vykázat [ #Cor.ACT a [ poplatky úrok ] příjem [ běžný ] ] ] sdělilo [ #PersPron.EFF #Gen.ADDR zastupitelství [ federální městě [ #Forn.ID [ Little Rock ] Arkansasu ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1984.final.streex##15.EnglishT-wsj_1984-s15a5
+EN:	Supposedly the IRS will sell off the assets of MPI, but before it can , a lowly IRS agent is called into the hospital room of Wylie Slaughter, the dying head of the Central Intelligence Agency.
+CS:	Říká se, že úřad IRS majetek studia MPI rozprodá, ale než to může učinit, je jeden řadový agent IRS povolán do nemocničního pokoje Wylieho Slaughtera, umírajícího vedoucího Ústřední zpravodajské služby. 
+EN_TT:	but [ sell [ Supposedly IRS assets [ MPI ] ] called [ sell [ it <#PersPron.PAT> ] agent [ lowly IRS ] #Gen.ACT room [ hospital , [ Slaughter [ Wylie ] head [ dying [ #Cor.ACT ] Agency [ Central Intelligence ] ] ] ] ] ]
+CS_TT:	Říká [ #Gen.ADDR #Gen.ACT ale [ rozprodá [ #Gen.ADDR úřad [ IRS ] majetek [ studia [ MPI ] ] ] povolán [ #Gen.ACT učinit [ to #PersPron.ACT ] agent [ jeden řadový #Idph.RSTR [ IRS ] ] pokoje [ nemocničního , [ Slaughtera [ Wylieho ] vedoucího [ umírajícího služby [ Ústřední zpravodajské ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1984.final.streex##16.EnglishT-wsj_1984-s16a4
+EN:	The lowly agent, Abel Lamb, who as you might guess , is being led to the slaughter, is ordered to take over the studio.
+CS:	Tento řadový agent, Abel Lamb, který, jak se lze dovtípit, jde na smrt, dostane příkaz studio převzít. 
+EN_TT:	ordered [ , [ agent [ lowly ] Lamb [ Abel led [ who guess [ you <#PersPron.EFF> ] #Gen.ACT slaughter ] ] ] #Gen.ACT take [ #Cor.ACT studio ] ]
+CS_TT:	dostane [ , [ agent [ Tento řadový ] Lamb [ Abel ] jde [ který lze [ #Benef.BEN dovtípit [ #Cor.ACT #PersPron.PAT ] ] #Oblfm.DIR3 smrt ] ] příkaz [ převzít [ studio #Cor.ACT ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1984.final.streex##29.EnglishT-wsj_1984-s29a5
+EN:	As the hearings begin, the self-important Sen. Bowman -LRB-Jerome Kilty-RRB- announces: ``Let me emphaticize one thing at the outset: We are not looking for hides to skin nor goats to scape .''
+CS:	Sotva slyšení začnou, domýšlivý senátor Bowman (Jerome Kilty) oznámí: "Dovolte mi, abych na začátku zdůraznil jednu věc: Nehledáme, koho stáhnout z kůže ani obětní beránky." 
+EN_TT:	announces [ begin [ hearings ] -LRB- [ Bowman [ self-important Sen. ] Kilty [ Jerome ] ] #Gen.ADDR Let [ <#PersPron.ACT> me emphaticize [ #Cor.ACT : [ thing [ one ] looking [ We not nor [ hides [ skin ] goats [ scape [ #Cor.PAT #PersPron.ACT ] ] ] ] ] outset ] ] ]
+CS_TT:	oznámí [ začnou [ slyšení ] Bowman [ senátor [ domýšlivý ] Kilty [ Jerome ] ] Dovolte [ <#PersPron.ACT> mi zdůraznil [ #PersPron.ACT začátku : [ věc [ jednu ] Nehledáme [ #Neg.RHEM #PersPron.ACT ani [ stáhnout [ #PersPron.ACT koho kůže ] beránky [ obětní ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1984.final.streex##29.EnglishT-wsj_1984-s29a7
+EN:	As the hearings begin, the self-important Sen. Bowman -LRB-Jerome Kilty-RRB- announces: ``Let me emphaticize one thing at the outset: We are not looking for hides to skin nor goats to scape .''
+CS:	Sotva slyšení začnou, domýšlivý senátor Bowman (Jerome Kilty) oznámí: "Dovolte mi, abych na začátku zdůraznil jednu věc: Nehledáme, koho stáhnout z kůže ani obětní beránky." 
+EN_TT:	announces [ begin [ hearings ] -LRB- [ Bowman [ self-important Sen. ] Kilty [ Jerome ] ] #Gen.ADDR Let [ #PersPron.ACT me emphaticize [ #Cor.ACT : [ thing [ one ] looking [ We not nor [ hides [ skin ] goats [ scape [ #Cor.PAT <#PersPron.ACT> ] ] ] ] ] outset ] ] ]
+CS_TT:	oznámí [ začnou [ slyšení ] Bowman [ senátor [ domýšlivý ] Kilty [ Jerome ] ] Dovolte [ #PersPron.ACT mi zdůraznil [ #PersPron.ACT začátku : [ věc [ jednu ] Nehledáme [ #Neg.RHEM #PersPron.ACT ani [ stáhnout [ #PersPron.ACT koho kůže ] beránky [ obětní ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1985.final.streex##6.EnglishT-wsj_1985-s6a3
+EN:	In an interview, he said Fannie Mae faces a number of challenges with the restructuring of the thrift industry and the push to broaden its activities overseas.
+CS:	V jednom interview řekl, že FNMA čelí mnoha úkolům v oblasti restrukturalizace sektoru spořitelen a snah prosadit se v zahraničí. 
+EN_TT:	said [ interview he #Gen.ADDR faces [ Mae [ Fannie ] number [ challenges [ and [ restructuring [ industry [ thrift ] ] push [ <#PersPron.ADDR> broaden [ #Cor.ACT activities [ its overseas ] ] ] ] ] ] ] ]
+CS_TT:	řekl [ #Gen.ADDR #PersPron.ACT interview [ jednom ] čelí [ #Idph.ACT [ FNMA ] úkolům [ mnoha a [ restrukturalizace [ spořitelen [ sektoru ] ] snah [ prosadit [ #PersPron.ACT zahraničí ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1986.final.streex##14.EnglishT-wsj_1986-s14a1
+EN:	```Get off your ...,' he would bellow ,'' say the authors.
+CS:	"Řval by: "Vypadni, jdi do..."," říkají autoři. 
+EN_TT:	say [ bellow [ Get [ <#PersPron.ACT> #EmpNoun.PAT [ your ] ] he ] #Gen.ADDR authors ]
+CS_TT:	říkají [ #Gen.ADDR Řval [ #PersPron.ACT , [ Vypadni [ #Oblfm.DIR1 #PersPron.ACT ] jdi [ #PersPron.ACT do ] ] ] autoři ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1986.final.streex##18.EnglishT-wsj_1986-s18a5
+EN:	Mr. Gutfreund collected $32 million, while Billy Salomon got $10 million, much less than if he had conducted the sale.
+CS:	Gutfreund získal 32 miliónů dolarů, zatímco Billy Salomon získal jen 10 miliónů dolarů, tedy mnohem méně, než kdyby prodej řídil sám. 
+EN_TT:	while [ collected [ Gutfreund [ Mr. ] $ [ million [ 32 ] ] ] got [ Salomon [ Billy ] , [ $ [ million [ 10 ] ] less [ much [ got [ <#PersPron.ACT> #Gen.PAT conducted [ he sale ] ] ] ] ] ] ]
+CS_TT:	získal [ Gutfreund miliónů [ 32 dolarů ] získal [ Salomon [ Billy ] , [ miliónů [ jen 10 dolarů ] tedy méně [ mnohem získal [ #PersPron.PAT <#PersPron.ACT> řídil [ #PersPron.ACT prodej sám ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1986.final.streex##39.EnglishT-wsj_1986-s39a2
+EN:	As described in ``The New Crowd,'' they take on ambitious new wives, move to Greenwich, Conn., or Bedford, N.Y., buy OK pictures, and let their wives share the wealth with decorators.
+CS:	Podle popisu v knize "The New Crowd" se ožení s novými ambiciózními manželkami, přestěhují se do Greenwiche ve státě Connecticut nebo Bedfordu ve státě New York, nakoupí obrazy a dovolí svým manželkám, aby se o bohatství podělily s designéry. 
+EN_TT:	and [ described [ <#PersPron.PAT> #Gen.ACT Crowd [ New ] ] they take [ wives [ ambitious new ] ] move [ or [ Greenwich [ Conn. ] Bedford [ N.Y. ] ] ] buy [ pictures [ OK ] ] let [ wives [ their ] share [ #Cor.ACT wealth decorators ] ] ]
+CS_TT:	a [ #PersPron.ACT popisu [ knize [ #Forn.ID [ The New Crowd ] ] ] ožení [ manželkami [ novými ambiciózními ] ] přestěhují [ #Oblfm.DIR1 nebo [ Greenwiche [ státě [ Connecticut ] ] Bedfordu [ státě [ #Forn.ID [ New York ] ] ] ] ] nakoupí [ obrazy ] dovolí [ manželkám [ svým ] podělily [ #PersPron.ACT bohatství designéry ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1986.final.streex##52.EnglishT-wsj_1986-s52a1
+EN:	Mr. Boesky was a piker compared to Jay Gould and Jim Fiske, and Commodore Vanderbilt thought nothing of bribing judges and legislators.
+CS:	V porovnání s Jayem Goldem a Jimem Fiskem hrál Boesky "při zdi" a komodor Vanderbilt si z uplácení soudců a zákonodárců nic nedělal. 
+EN_TT:	and [ was [ Boesky [ Mr. ] piker and [ Gould [ Jay ] Fiske [ Jim ] ] ] thought [ Vanderbilt [ Commodore ] nothing bribing [ <#PersPron.ACT> and [ judges legislators ] ] ] ]
+CS_TT:	a [ hrál [ #Gen.PAT a [ Goldem [ Jayem ] Fiskem [ Jimem ] ] Boesky zdi ] nedělal [ Vanderbilt [ komodor ] #Neg.RHEM uplácení [ <#Gen.ACT> a [ soudců zákonodárců ] ] nic ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1987.final.streex##8.EnglishT-wsj_1987-s8a1
+EN:	Instead, Valhi said , they may increase, decrease or retain their Lockheed holdings, depending on a number of conditions.
+CS:	Namísto toho, uvedla společnost Valhi, může svůj vlastnický podíl ve společnosti Lockheed zvýšit, snížit nebo ponechat, což závisí na řadě podmínek. 
+EN_TT:	or [ Instead said [ Valhi <#PersPron.EFF> #Gen.ADDR ] they increase decrease retain holdings [ their Lockheed ] number [ conditions ] ]
+CS_TT:	uvedla [ společnost [ Valhi ] , [ nebo [ toho #PersPron.ACT podíl [ svůj vlastnický společnosti [ Lockheed ] ] zvýšit snížit ponechat [ #Gen.EFF ] ] závisí [ což řadě [ podmínek ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1988.final.streex##5.EnglishT-wsj_1988-s5a3
+EN:	The U.S. and Canada, which do more trade than any other pair of nations, are to meet next month to arrange an acceleration of planned tariff cuts under the U.S.-Canada free trade agreement.
+CS:	Představitelé USA a Kanady, dvojice států, které spolu obchodují více než kterékoli jiné dva státy světa, se mají sejít příští měsíc a projednat urychlení procesu plánovaného zrušení cla při vzájemném obchodování v rámci dohody o volném obchodu. 
+EN_TT:	are [ and [ U.S. Canada do [ which trade [ more [ do [ <#PersPron.PAT> pair [ any other nations ] ] ] ] ] ] meet [ #Cor.ACT #Rcp.PAT month [ next ] arrange [ #Cor.ACT acceleration [ cuts [ planned tariff agreement [ U.S.-Canada trade [ free ] ] ] ] ] ] ]
+CS_TT:	a [ Představitelé [ , [ a [ USA Kanady ] dvojice [ států [ obchodují [ #Gen.PAT které spolu #Rcp.ADDR více [ obchodují [ #Rcp.ADDR #Gen.PAT státy [ kterékoli jiné dva světa ] ] ] ] ] ] ] ] sejít [ #Rcp.PAT měsíc [ příští ] ] projednat [ #Rcp.ADDR urychlení [ #PersPron.ACT procesu [ zrušení [ #PersPron.ACT plánovaného cla [ obchodování [ #Gen.PAT #Gen.ACT vzájemném dohody [ obchodu [ volném ] ] ] ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1989.final.streex##5.EnglishT-wsj_1989-s5a3
+EN:	Loral said the contract with Turkey will provide opportunities for Loral to supply that country with other defense systems.
+CS:	Společnost Loral prohlásila, že uvedená smlouva s Tureckem zajistí společnosti další příležitosti dodávat do této země další obranné systémy. 
+EN_TT:	said [ Loral #Gen.ADDR provide [ contract [ Turkey ] Loral opportunities [ supply [ <#PersPron.ACT> country [ that ] systems [ other defense ] ] ] ] ]
+CS_TT:	prohlásila [ Společnost [ Loral ] zajistí [ smlouva [ uvedená Tureckem ] společnosti příležitosti [ další dodávat [ <#PersPron.ACT> země [ této ] systémy [ další obranné ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1993.final.streex##4.EnglishT-wsj_1993-s4a2
+EN:	The index has a base of 100 set in 1980 and isn't seasonally adjusted .
+CS:	Základ cenového indexu ve výši 100 byl stanoven v roce 1980 a není sezónně upravován. 
+EN_TT:	and [ has [ index base [ set [ 100 1980 ] ] ] adjusted [ n't seasonally <#PersPron.PAT> #Gen.ACT ] ]
+CS_TT:	a [ #Gen.ACT Základ [ indexu [ cenového ] výši [ 100 ] ] stanoven [ roce [ 1980 ] ] upravován [ #Neg.RHEM sezónně ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1996.final.streex##19.EnglishT-wsj_1996-s19a5
+EN:	Instead, he says , if the salespeople can get the customers to consider Wang's products on their merits, he or a top financial officer will try to assuage the fears about finances.
+CS:	A říká, že dokážou-li prodejci namísto toho přimět zákazníky, aby posuzovali výrobky společnosti Wang na základě jejich skutečné hodnoty, on nebo libovolný jiný vedoucí pracovník zabývající se financemi se pokusí zahnat obavy z finanční situace společnosti. 
+EN_TT:	try [ Instead says [ he <#PersPron.EFF> #Gen.ADDR ] get [ salespeople customers consider [ #Cor.ACT products [ Wang ] merits [ their ] ] ] or [ he officer [ top financial ] ] assuage [ #Cor.ACT fears [ finances ] ] ]
+CS_TT:	říká [ #Gen.ADDR #PersPron.ACT A pokusí [ dokážou [ prodejci toho přimět [ #Cor.ACT zákazníky posuzovali [ #PersPron.ACT výrobky [ společnosti [ Wang ] ] hodnoty [ jejich skutečné ] ] ] ] nebo [ on pracovník [ libovolný jiný vedoucí zabývající [ financemi ] ] ] zahnat [ #Cor.ACT obavy [ situace [ finanční společnosti ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1996.final.streex##27.EnglishT-wsj_1996-s27a1
+EN:	Still, says John Sullivan, a management recruiter with Daniel Roberts Inc. of Boston, who has held senior sales positions at Polaroid and Atari: ``The customer will react to strength.
+CS:	John Sullivan, pracovník bostonské personální agentury Daniel Roberts Inc., který pracoval ve vedoucích prodejních pozicích společností Polaroid a Atari, říká: "Na zákazníky bude působit síla. 
+EN_TT:	react [ Still says [ #Gen.ADDR <#PersPron.EFF> , [ Sullivan [ John ] recruiter [ management Inc. [ Roberts [ Daniel ] Boston ] held [ who positions [ senior sales and [ Polaroid Atari ] ] ] ] ] ] customer strength ]
+CS_TT:	říká [ #Gen.ADDR , [ Sullivan [ John ] pracovník [ agentury [ bostonské personální #Forn.ID [ Daniel Roberts Inc . ] ] pracoval [ který pozicích [ vedoucích prodejních a [ společností [ Polaroid ] společností [ Atari ] ] ] ] ] ] působit [ zákazníky síla ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1996.final.streex##29.EnglishT-wsj_1996-s29a1
+EN:	Show it's business as usual.''
+CS:	Ukažte, že se jedná o podnikání jako vždycky." 
+EN_TT:	Show [ <#PersPron.ACT> 's [ it business [ usual ] ] ]
+CS_TT:	Ukažte [ #PersPron.ADDR <#PersPron.ACT> jedná [ podnikání [ #Gen.ACT #EmpVerb.CPR [ vždycky ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1996.final.streex##2.EnglishT-wsj_1996-s2a2
+EN:	How soon Wang will stage a comeback , or if it will at all, are still matters of debate.
+CS:	Kdy se společnost Wang chystá znovu objevit na scéně a zda se vůbec vrátí, je stále ještě věc diskuse. 
+EN_TT:	are [ or [ stage [ soon Wang comeback ] stage [ <#PersPron.PAT> it all ] ] still matters [ debate ] ]
+CS_TT:	je [ a [ společnost [ Wang ] chystá [ Kdy <objevit> [ #Cor.ACT znovu scéně ] ] vrátí [ vůbec #Oblfm.DIR3 ] ] stále ještě věc [ diskuse ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1996.final.streex##35.EnglishT-wsj_1996-s35a4
+EN:	But ``their present financial condition means I'd have a hard time convincing the vice president in charge of purchasing.''
+CS:	Ale "vzhledem k její současné finanční situaci bych jen velmi obtížně přesvědčil viceprezidenta o nákupu". 
+EN_TT:	means [ But condition [ their present financial ] have [ I time [ hard ] convincing [ #Cor.ACT <#PersPron.PAT> president [ vice charge [ #Cor.ACT purchasing [ #Gen.PAT #Cor.ACT ] ] ] ] ] ]
+CS_TT:	přesvědčil [ #PersPron.ACT Ale situaci [ její současné finanční ] obtížně [ jen velmi ] viceprezidenta nákupu ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1996.final.streex##56.EnglishT-wsj_1996-s56a1
+EN:	``When a company realizes that , it 's hard to go with Wang.''
+CS:	"Když si to společnost uvědomí, je potom těžké spolupracovat se společností Wang." 
+EN_TT:	's [ realizes [ company that ] hard [ <#PersPron.BEN> ] go [ #Cor.ACT Wang ] ]
+CS_TT:	je [ uvědomí [ to společnost ] potom těžké [ <#Benef.BEN> ] spolupracovat [ #Cor.ACT společností [ Wang ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1996.final.streex##67.EnglishT-wsj_1996-s67a2
+EN:	Paul Hellman, a Framingham, Mass., sales and management consultant and author of ``Ready, Aim, You're Hired ,'' says: ``The bad news is, you'll be rejected more.
+CS:	Paul Hellman, manažerský a marketingový konzultant z Framinghamu v Massachusetts a autor publikace "Ready, Aim, You're Hired (Připravit, zamířit a jste přijat)", říká: "Špatnou zprávou je, že budete odmítáni ještě víc. 
+EN_TT:	says [ , [ Hellman [ Paul ] and [ consultant [ Framingham [ Mass. ] and [ sales management ] ] author [ , [ Ready Aim [ <#PersPron.ACT> #Gen.PAT #Gen.ADDR ] Hired [ You #Gen.ACT #Gen.PAT ] ] ] ] ] #Gen.ADDR is [ news [ bad ] rejected [ you #Gen.ACT more ] ] ]
+CS_TT:	říká [ , [ Hellman [ Paul ] a [ konzultant [ a [ manažerský marketingový ] Framinghamu [ #Forn.LOC [ Massachusetts ] ] ] autor [ publikace [ ( [ #Forn.ID [ Ready , Aim , You ' re Hired ] a [ Připravit [ #Gen.PAT #PersPron.ACT ] zamířit [ #PersPron.ACT #Oblfm.DIR3 ] přijat [ #PersPron.PAT #Gen.ACT ] ] ] ] ] ] ] #Gen.ADDR je [ zprávou [ Špatnou ] odmítáni [ #PersPron.PAT #Gen.ACT víc [ ještě ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1996.final.streex##6.EnglishT-wsj_1996-s6a1
+EN:	Consider the difficulties faced by Audi salespeople when the car was tainted by false charges of sudden acceleration , or Exxon dealers' problems in the wake of the Valdez oil spill.
+CS:	Zamysleme se nad problémy prodejců společnosti Audi, když byla auta falešně obviněna z neočekávaného přidávání plynu, a tím byla poškozena jejich dobrá pověst, nebo nad problémy prodejců společnosti Exxon, když z tankeru Valdez unikla ropa. 
+EN_TT:	Consider [ <#PersPron.ACT> or [ difficulties [ faced [ #Cor.PAT salespeople [ Audi ] tainted [ when car charges [ false acceleration [ sudden ] ] ] ] ] problems [ dealers [ Exxon ] wake [ spill [ Valdez oil ] ] ] ] ]
+CS_TT:	Zamysleme [ #PersPron.ACT nebo [ problémy [ prodejců [ společnosti [ Audi ] ] a [ obviněna [ auta falešně #Gen.ACT přidávání [ neočekávaného #PersPron.ACT plynu ] ] poškozena [ tím #Gen.ACT pověst [ jejich dobrá ] ] ] ] problémy [ prodejců [ společnosti [ Exxon ] ] unikla [ tankeru [ Valdez ] ropa ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1996.final.streex##73.EnglishT-wsj_1996-s73a3
+EN:	``Look a customer right in the eye and say, `I'm glad to be at Wang.
+CS:	"Dívejte se zákazníkovi přímo do očí a řekněte: "Jsem rád, že pracuji ve společnosti Wang. 
+EN_TT:	and [ <#PersPron.ACT> Look [ customer right eye ] say [ #Gen.ADDR 'm [ I glad [ be [ #PersPron.ACT Wang ] ] ] ] ]
+CS_TT:	a [ <#PersPron.ACT> Dívejte [ zákazníkovi přímo očí ] řekněte [ #PersPron.ADDR Jsem [ #PersPron.ACT rád [ pracuji [ #PersPron.ACT společnosti [ Wang ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1996.final.streex##73.EnglishT-wsj_1996-s73a5
+EN:	``Look a customer right in the eye and say, `I'm glad to be at Wang.
+CS:	"Dívejte se zákazníkovi přímo do očí a řekněte: "Jsem rád, že pracuji ve společnosti Wang. 
+EN_TT:	and [ #PersPron.ACT Look [ customer right eye ] say [ #Gen.ADDR 'm [ I glad [ be [ <#PersPron.ACT> Wang ] ] ] ] ]
+CS_TT:	a [ #PersPron.ACT Dívejte [ zákazníkovi přímo očí ] řekněte [ #PersPron.ADDR Jsem [ #PersPron.ACT rád [ pracuji [ <#PersPron.ACT> společnosti [ Wang ] ] ] ] ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1999.final.streex##14.EnglishT-wsj_1999-s14a2
+EN:	MCI, which stepped up efforts to sell long-distance telephone service to residential customers, reported a 59% jump in earnings.
+CS:	Společnost MCI, která vynaložila veškeré úsilí, aby místním zákazníkům nabídla dálkové hovory, oznámila 59% nárůst výnosů. 
+EN_TT:	reported [ MCI [ stepped [ which efforts [ sell [ <#PersPron.ACT> service [ telephone [ long-distance ] ] customers [ residential ] ] ] ] ] #Gen.ADDR jump [ % [ 59 ] earnings ] ]
+CS_TT:	oznámila [ #Gen.ADDR Společnost [ MCI vynaložila [ která úsilí [ veškeré ] nabídla [ #PersPron.ACT zákazníkům [ místním ] hovory [ dálkové ] ] ] ] nárůst [ % [ 59 ] výnosů ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1999.final.streex##26.EnglishT-wsj_1999-s26a1
+EN:	The current quarter, he said , ``looks fine.
+CS:	Řekl, že současné čtvrtletí "se vyvíjí dobře. 
+EN_TT:	looks [ quarter [ current ] said [ he <#PersPron.EFF> #Gen.ADDR ] fine ]
+CS_TT:	Řekl [ #PersPron.ACT #Gen.ADDR vyvíjí [ čtvrtletí [ současné ] dobře ] ]
+ERR:
+
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1999.final.streex##42.EnglishT-wsj_1999-s42a4
+EN:	Chairman D.H. Hibbard said the company has set a new five year goal of doubling revenues to about $1.8 billion while steadily increasing net.
+CS:	Předseda společnosti D. H. Hibbard řekl, že společnost si stanovila nový pětiletý cíl: zdvojnásobit tržby na 1.8 miliardy dolarů při stálém zvyšování čistého zisku. 
+EN_TT:	said [ Hibbard [ Chairman D.H. ] #Gen.ADDR set [ company goal [ new year [ five ] doubling [ #Cor.ACT revenues $ [ billion [ 1.8 [ about ] ] ] increasing [ steadily <#PersPron.ACT> net ] ] ] ] ]
+CS_TT:	řekl [ #Gen.ADDR Hibbard [ Předseda [ společnosti ] D H ] stanovila [ společnost si : [ cíl [ nový pětiletý ] zdvojnásobit [ #PersPron.ACT tržby miliardy [ 1.8 dolarů ] zvyšování [ <#PersPron.ACT> stálém zisku [ čistého ] ] ] ] ] ]
+ERR:
+
