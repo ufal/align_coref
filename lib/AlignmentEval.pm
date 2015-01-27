@@ -10,25 +10,36 @@ use Treex::Tool::Align::Utils;
 extends 'Treex::Block::Write::BaseTextWriter';
 
 has 'align_language' => (is => 'ro', isa => 'Str', required => 1);
+has 'align_reltypes' => (is => 'ro', isa => 'Str', default => '!gold,!robust,!supervised,.*');
 
 sub intersect {
     my ($a1, $a2) = @_;
     return grep {my $i = $_; any {$_ == $i} @$a2} @$a1;
 }
 
-sub process_tnode {
-    my ($self, $tnode) = @_;
-
-    my ($true_nodes, $true_types) = Treex::Tool::Align::Utils::get_aligned_nodes_by_filter($tnode,
+sub _process_node {
+    my ($self, $node) = @_;
+    
+    my ($true_nodes, $true_types) = Treex::Tool::Align::Utils::get_aligned_nodes_by_filter($node,
         {language => $self->align_language, selector => $self->selector, rel_types => ['gold']});
     log_info "TRUE_TYPES: " . (join " ", @$true_types);
-    my ($pred_nodes, $pred_types) = Treex::Tool::Align::Utils::get_aligned_nodes_by_filter($tnode,
-        {language => $self->align_language, selector => $self->selector, rel_types => ['!gold', '!robust', '!supervised', '.*']});
+    my @rel_types = split /,/, $self->align_reltypes;
+    my ($pred_nodes, $pred_types) = Treex::Tool::Align::Utils::get_aligned_nodes_by_filter($node,
+        {language => $self->align_language, selector => $self->selector, rel_types => \@rel_types });
     log_info "PRED_TYPES: " . (join " ", @$pred_types);
 
     my @both_nodes = intersect($true_nodes, $pred_nodes);
     print {$self->_file_handle} join " ", (scalar @$true_nodes, scalar @$pred_nodes, scalar @both_nodes);
     print {$self->_file_handle} "\n";
+}
+
+sub process_tnode {
+    my ($self, $tnode) = @_;
+    $self->_process_node($tnode);
+}
+sub process_anode {
+    my ($self, $anode) = @_;
+    $self->_process_node($anode);
 }
 
 1;

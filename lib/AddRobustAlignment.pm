@@ -31,7 +31,7 @@ after 'process_zone' => sub {
     my ($self, $zone) = @_;
 
     my $robust_label = $self->type;
-    my $align_filter = { %{$self->_align_zone}, rel_types => ["!$robust_label", '.*'] };
+    my $align_filter = { %{$self->_align_zone}, rel_types => ["!$robust_label", '!gold', '.*'] };
 
     foreach my $tnode ($zone->get_ttree->get_descendants) {
         if (defined $tnode->wild->{align_robust_err}) {
@@ -59,7 +59,8 @@ sub process_tnode {
     my $sieves = $self->_get_align_selectors();
     my $filters = $self->_get_align_filters();
 
-    my ($result_nodes, $errors) = Treex::Tool::Align::Utils::aligned_robust($tnode, [ $self->_align_zone ], $sieves, $filters);
+    my $robust_label = $self->type;
+    my ($result_nodes, $errors) = Treex::Tool::Align::Utils::aligned_robust($tnode, [ { %{$self->_align_zone}, rel_types => ["!$robust_label", '!gold', '.*'] } ], $sieves, $filters);
     $tnode->wild->{align_robust_err} = $errors;
     #log_info "ERROR_WRITE: " . $tnode->id . " " . (defined $errors ? "1" : "0");
     if (defined $result_nodes) {
