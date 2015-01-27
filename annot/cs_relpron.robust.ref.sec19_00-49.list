@@ -1,0 +1,904 @@
+TREEX-INFO:     1.809:	Local (single-process) execution.
+TREEX-INFO:     1.874:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/5)
+TREEX-INFO:     1.906:	Loading block Treex::Block::Util::SetGlobal language=cs (2/5)
+TREEX-INFO:     1.906:	Loading block Treex::Block::Read::Treex from=@data/train_19_00-49.orig.list (3/5)
+TREEX-INFO:     1.937:	Loading block Treex::Block::Project::Attributes layer=t alignment_type=monolingual alignment_direction=trg2src attributes=gram/indeftype (4/5)
+TREEX-INFO:     1.948:	Loading block Treex::Block::My::AddRobustAlignment::CsRelpron  (5/5)
+TREEX-INFO:     2.104:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     2.104:	Loading the scenario took 0 seconds
+TREEX-INFO:     2.104:	Applying process_start
+TREEX-INFO:     4.168:	Document 1/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1900.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1900.final.treex.gz
+TREEX-INFO:     4.168:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:     4.168:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:     4.168:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:     4.176:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1900.final.treex.gz##1.T-wsj1900-001-p1s0a18
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1900.final.treex.gz##1.T-wsj1900-001-p1s0a18
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1900.final.treex.gz##6.T-wsj1900-001-p1s5a20
+SELF-SIBLINGS-APPS-EMPVERB_APPOS	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1900.final.treex.gz##6.T-wsj1900-001-p1s5a20
+TREEX-INFO:     6.352:	Document 2/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1901.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1901.final.treex.gz
+TREEX-INFO:     6.352:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:     6.352:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:     6.352:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:     6.361:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1901.final.treex.gz##5.T-wsj1901-001-p1s4a13
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1901.final.treex.gz##5.T-wsj1901-001-p1s4a13
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1901.final.treex.gz##7.T-wsj1901-001-p1s6a28
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1901.final.treex.gz##7.T-wsj1901-001-p1s6a28
+TREEX-INFO:     8.008:	Document 3/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1902.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1902.final.treex.gz
+TREEX-INFO:     8.008:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:     8.008:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:     8.008:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:     8.015:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1902.final.treex.gz##1.T-wsj1902-001-p1s0a15
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1902.final.treex.gz##1.T-wsj1902-001-p1s0a15
+TREEX-INFO:    18.576:	Document 4/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz
+TREEX-INFO:    18.576:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    18.576:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    18.576:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:    18.619:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##1.T-wsj1903-001-p1s0a6
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##1.T-wsj1903-001-p1s0a6
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##7.T-wsj1903-001-p1s6a9
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##7.T-wsj1903-001-p1s6a9
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##8.T-wsj1903-001-p1s7a3
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##9.T-wsj1903-001-p1s8a5
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##9.T-wsj1903-001-p1s8a10
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##9.T-wsj1903-001-p1s8a10
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##10.T-wsj1903-001-p1s9a23
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##10.T-wsj1903-001-p1s9a23
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##15.T-wsj1903-001-p1s14a22
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##15.T-wsj1903-001-p1s14a22
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##15.T-wsj1903-001-p1s14a13
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##15.T-wsj1903-001-p1s14a13
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##23.T-wsj1903-001-p1s22a9
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##23.T-wsj1903-001-p1s22a9
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##33.T-wsj1903-001-p1s32a22
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##36.T-wsj1903-001-p1s35a18
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##36.T-wsj1903-001-p1s35a18
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##39.T-wsj1903-001-p1s38a13
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##39.T-wsj1903-001-p1s38a13
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##45.T-wsj1903-001-p1s44a11
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##45.T-wsj1903-001-p1s44a11
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##49.T-wsj1903-001-p1s48a7
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1903.final.treex.gz##49.T-wsj1903-001-p1s48a7
+TREEX-INFO:    20.472:	Document 5/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1904.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1904.final.treex.gz
+TREEX-INFO:    20.473:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    20.473:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    20.473:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:    20.479:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1904.final.treex.gz##2.T-wsj1904-001-p1s1a5
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1904.final.treex.gz##2.T-wsj1904-001-p1s1a5
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1904.final.treex.gz##2.T-wsj1904-001-p1s1a38
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1904.final.treex.gz##2.T-wsj1904-001-p1s1a38
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1904.final.treex.gz##4.T-wsj1904-001-p1s3a28
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1904.final.treex.gz##4.T-wsj1904-001-p1s3a28
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1904.final.treex.gz##4.T-wsj1904-001-p1s3a35
+TREEX-INFO:    22.553:	Document 6/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1905.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1905.final.treex.gz
+TREEX-INFO:    22.553:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    22.553:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    22.553:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:    22.561:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1905.final.treex.gz##1.T-wsj1905-001-p1s0a25
+PARENTS-COREF-FUNCTOR_3	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1905.final.treex.gz##1.T-wsj1905-001-p1s0a25
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1905.final.treex.gz##5.T-wsj1905-001-p1s4a16
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1905.final.treex.gz##5.T-wsj1905-001-p1s4a16
+TREEX-INFO:    24.748:	Document 7/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1906.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1906.final.treex.gz
+TREEX-INFO:    24.749:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    24.749:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    24.749:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:    24.757:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1906.final.treex.gz##3.T-wsj1906-001-p1s2a15
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1906.final.treex.gz##3.T-wsj1906-001-p1s2a15
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1906.final.treex.gz##8.T-wsj1906-001-p1s7a10
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1906.final.treex.gz##8.T-wsj1906-001-p1s7a10
+TREEX-INFO:    26.597:	Document 8/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1907.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1907.final.treex.gz
+TREEX-INFO:    26.597:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    26.597:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    26.597:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:    26.605:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1907.final.treex.gz##1.T-wsj1907-001-p1s0a9
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1907.final.treex.gz##1.T-wsj1907-001-p1s0a9
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1907.final.treex.gz##5.T-wsj1907-001-p1s4a11
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1907.final.treex.gz##5.T-wsj1907-001-p1s4a11
+TREEX-INFO:    28.074:	Document 9/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1908.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1908.final.treex.gz
+TREEX-INFO:    28.074:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    28.074:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    28.074:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:    28.080:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1908.final.treex.gz##2.T-wsj1908-001-p1s1a24
+PARENTS-COREF-FUNCTOR_2	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1908.final.treex.gz##2.T-wsj1908-001-p1s1a24
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1908.final.treex.gz##2.T-wsj1908-001-p1s1a29
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1908.final.treex.gz##2.T-wsj1908-001-p1s1a29
+TREEX-INFO:    29.732:	Document 10/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1909.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1909.final.treex.gz
+TREEX-INFO:    29.732:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    29.732:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    29.732:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:    29.738:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1909.final.treex.gz##3.T-wsj1909-001-p1s2a17
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1909.final.treex.gz##3.T-wsj1909-001-p1s2a17
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1909.final.treex.gz##4.T-wsj1909-001-p1s3a23
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1909.final.treex.gz##4.T-wsj1909-001-p1s3a23
+TREEX-INFO:    31.535:	Document 11/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1910.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1910.final.treex.gz
+TREEX-INFO:    31.535:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    31.535:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    31.535:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:    31.542:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1910.final.treex.gz##1.T-wsj1910-001-p1s0a33
+SIBLINGS-FUNCTOR_3	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1910.final.treex.gz##1.T-wsj1910-001-p1s0a33
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1910.final.treex.gz##2.T-wsj1910-001-p1s1a11
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1910.final.treex.gz##2.T-wsj1910-001-p1s1a11
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1910.final.treex.gz##5.T-wsj1910-001-p1s4a16
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1910.final.treex.gz##5.T-wsj1910-001-p1s4a16
+TREEX-INFO:    33.705:	Document 12/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1911.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1911.final.treex.gz
+TREEX-INFO:    33.705:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    33.705:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    33.705:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:    33.715:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1911.final.treex.gz##5.T-wsj1911-001-p1s4a21
+PARENTS-COREF-FUNCTOR_3	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1911.final.treex.gz##5.T-wsj1911-001-p1s4a21
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1911.final.treex.gz##6.T-wsj1911-001-p1s5a20
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1911.final.treex.gz##6.T-wsj1911-001-p1s5a20
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1911.final.treex.gz##7.T-wsj1911-001-p1s6a29
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1911.final.treex.gz##7.T-wsj1911-001-p1s6a29
+TREEX-INFO:    36.220:	Document 13/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1912.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1912.final.treex.gz
+TREEX-INFO:    36.220:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    36.220:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    36.220:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:    36.229:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1912.final.treex.gz##2.T-wsj1912-001-p1s1a19
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1912.final.treex.gz##2.T-wsj1912-001-p1s1a19
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1912.final.treex.gz##3.T-wsj1912-001-p1s2a16
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1912.final.treex.gz##3.T-wsj1912-001-p1s2a16
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1912.final.treex.gz##4.T-wsj1912-001-p1s3a15
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1912.final.treex.gz##4.T-wsj1912-001-p1s3a15
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1912.final.treex.gz##4.T-wsj1912-001-p1s3a21
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1912.final.treex.gz##9.T-wsj1912-001-p1s8a12
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1912.final.treex.gz##9.T-wsj1912-001-p1s8a12
+TREEX-INFO:    38.481:	Document 14/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1913.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1913.final.treex.gz
+TREEX-INFO:    38.481:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    38.481:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    38.481:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:    38.490:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+TREEX-INFO:    40.387:	Document 15/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1914.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1914.final.treex.gz
+TREEX-INFO:    40.387:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    40.387:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    40.387:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:    40.394:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1914.final.treex.gz##2.T-wsj1914-001-p1s1a14
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1914.final.treex.gz##2.T-wsj1914-001-p1s1a14
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1914.final.treex.gz##3.T-wsj1914-001-p1s2a21
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1914.final.treex.gz##3.T-wsj1914-001-p1s2a21
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1914.final.treex.gz##3.T-wsj1914-001-p1s2a29
+PARENTS-COREF-FUNCTOR_3	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1914.final.treex.gz##3.T-wsj1914-001-p1s2a29
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1914.final.treex.gz##5.T-wsj1914-001-p1s4a19
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1914.final.treex.gz##5.T-wsj1914-001-p1s4a19
+TREEX-INFO:    77.222:	Document 16/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz
+TREEX-INFO:    77.222:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    77.222:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    77.222:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:    77.385:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##9.T-wsj1915-001-p1s8a56
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##9.T-wsj1915-001-p1s8a56
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##11.T-wsj1915-001-p1s10a8
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##40.T-wsj1915-001-p1s39a55
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##40.T-wsj1915-001-p1s39a55
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##45.T-wsj1915-001-p1s44a37
+PARENTS-COREF-FUNCTOR_2	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##45.T-wsj1915-001-p1s44a37
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##54.T-wsj1915-001-p1s53a13
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##54.T-wsj1915-001-p1s53a13
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##55.T-wsj1915-001-p1s54a19
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##55.T-wsj1915-001-p1s54a19
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##71.T-wsj1915-001-p1s70a41
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##71.T-wsj1915-001-p1s70a41
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##77.T-wsj1915-001-p1s76a4
+SIBLINGS-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##77.T-wsj1915-001-p1s76a4
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##78.T-wsj1915-001-p1s77a6
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##78.T-wsj1915-001-p1s77a6
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##79.T-wsj1915-001-p1s78a6
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##79.T-wsj1915-001-p1s78a6
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##79.T-wsj1915-001-p1s78a14
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##79.T-wsj1915-001-p1s78a14
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##92.T-wsj1915-001-p1s91a98
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##92.T-wsj1915-001-p1s91a98
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##98.T-wsj1915-001-p1s97a44
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##98.T-wsj1915-001-p1s97a44
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##98.T-wsj1915-001-p1s97a51
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##98.T-wsj1915-001-p1s97a51
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##112.T-wsj1915-001-p1s111a63
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##112.T-wsj1915-001-p1s111a63
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##113.T-wsj1915-001-p1s112a47
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1915.final.treex.gz##113.T-wsj1915-001-p1s112a47
+TREEX-INFO:    87.876:	Document 17/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz
+TREEX-INFO:    87.876:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    87.876:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    87.876:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:    87.914:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##2.T-wsj1916-001-p1s1a5
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##2.T-wsj1916-001-p1s1a5
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##2.T-wsj1916-001-p1s1a36
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##2.T-wsj1916-001-p1s1a36
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##5.T-wsj1916-001-p1s4a9
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##5.T-wsj1916-001-p1s4a9
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##6.T-wsj1916-001-p1s5a16
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##6.T-wsj1916-001-p1s5a16
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##6.T-wsj1916-001-p1s5a62
+SIBLINGS-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##6.T-wsj1916-001-p1s5a62
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##9.T-wsj1916-001-p1s8a22
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##9.T-wsj1916-001-p1s8a22
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##15.T-wsj1916-001-p1s14a20
+SIBLINGS-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##15.T-wsj1916-001-p1s14a20
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##17.T-wsj1916-001-p1s16a12
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##17.T-wsj1916-001-p1s16a12
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##18.T-wsj1916-001-p1s17a21
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##18.T-wsj1916-001-p1s17a21
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##18.T-wsj1916-001-p1s17a28
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##18.T-wsj1916-001-p1s17a28
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##19.T-wsj1916-001-p1s18a35
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##19.T-wsj1916-001-p1s18a35
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##20.T-wsj1916-001-p1s19a9
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##20.T-wsj1916-001-p1s19a9
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##21.T-wsj1916-001-p1s20a29
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##21.T-wsj1916-001-p1s20a29
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##24.T-wsj1916-001-p1s23a14
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##24.T-wsj1916-001-p1s23a14
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##25.T-wsj1916-001-p1s24a41
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##25.T-wsj1916-001-p1s24a41
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##26.T-wsj1916-001-p1s25a9
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1916.final.treex.gz##26.T-wsj1916-001-p1s25a9
+TREEX-INFO:    90.283:	Document 18/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1917.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1917.final.treex.gz
+TREEX-INFO:    90.283:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    90.283:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    90.283:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:    90.292:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1917.final.treex.gz##3.T-wsj1917-001-p1s2a23
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1917.final.treex.gz##3.T-wsj1917-001-p1s2a23
+TREEX-INFO:    92.264:	Document 19/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1918.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1918.final.treex.gz
+TREEX-INFO:    92.264:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    92.264:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    92.264:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:    92.271:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1918.final.treex.gz##4.T-wsj1918-001-p1s3a7
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1918.final.treex.gz##4.T-wsj1918-001-p1s3a7
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1918.final.treex.gz##5.T-wsj1918-001-p1s4a19
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1918.final.treex.gz##5.T-wsj1918-001-p1s4a19
+TREEX-INFO:    94.956:	Document 20/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1919.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1919.final.treex.gz
+TREEX-INFO:    94.956:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    94.956:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    94.956:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:    94.967:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1919.final.treex.gz##3.T-wsj1919-001-p1s2a2
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1919.final.treex.gz##3.T-wsj1919-001-p1s2a2
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1919.final.treex.gz##7.T-wsj1919-001-p1s6a6
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1919.final.treex.gz##7.T-wsj1919-001-p1s6a6
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1919.final.treex.gz##8.T-wsj1919-001-p1s7a25
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1919.final.treex.gz##8.T-wsj1919-001-p1s7a25
+TREEX-INFO:    98.111:	Document 21/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1920.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1920.final.treex.gz
+TREEX-INFO:    98.111:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    98.111:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    98.111:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:    98.122:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1920.final.treex.gz##6.T-wsj1920-001-p1s5a16
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1920.final.treex.gz##6.T-wsj1920-001-p1s5a16
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1920.final.treex.gz##6.T-wsj1920-001-p1s5a22
+TREEX-INFO:    99.561:	Document 22/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1921.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1921.final.treex.gz
+TREEX-INFO:    99.561:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    99.561:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:    99.561:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:    99.566:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1921.final.treex.gz##2.T-wsj1921-001-p1s1a10
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1921.final.treex.gz##2.T-wsj1921-001-p1s1a10
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1921.final.treex.gz##2.T-wsj1921-001-p1s1a34
+PARENTS-COREF-FUNCTOR_2	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1921.final.treex.gz##2.T-wsj1921-001-p1s1a34
+TREEX-INFO:   105.361:	Document 23/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1922.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1922.final.treex.gz
+TREEX-INFO:   105.361:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   105.361:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   105.361:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   105.385:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1922.final.treex.gz##1.T-wsj1922-001-p1s0a5
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1922.final.treex.gz##1.T-wsj1922-001-p1s0a5
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1922.final.treex.gz##2.T-wsj1922-001-p1s1a3
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1922.final.treex.gz##2.T-wsj1922-001-p1s1a3
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1922.final.treex.gz##6.T-wsj1922-001-p1s5a32
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1922.final.treex.gz##6.T-wsj1922-001-p1s5a32
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1922.final.treex.gz##9.T-wsj1922-001-p1s8a14
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1922.final.treex.gz##9.T-wsj1922-001-p1s8a14
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1922.final.treex.gz##12.T-wsj1922-001-p1s11a8
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1922.final.treex.gz##12.T-wsj1922-001-p1s11a8
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1922.final.treex.gz##13.T-wsj1922-001-p1s12a11
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1922.final.treex.gz##13.T-wsj1922-001-p1s12a11
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1922.final.treex.gz##21.T-wsj1922-001-p1s20a8
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1922.final.treex.gz##21.T-wsj1922-001-p1s20a8
+TREEX-INFO:   108.478:	Document 24/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1923.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1923.final.treex.gz
+TREEX-INFO:   108.478:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   108.478:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   108.478:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   108.490:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1923.final.treex.gz##12.T-wsj1923-001-p1s11a10
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1923.final.treex.gz##12.T-wsj1923-001-p1s11a10
+TREEX-INFO:   117.001:	Document 25/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz
+TREEX-INFO:   117.001:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   117.001:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   117.001:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   117.036:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##2.T-wsj1924-001-p1s1a15
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##2.T-wsj1924-001-p1s1a15
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##4.T-wsj1924-001-p1s3a8
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##4.T-wsj1924-001-p1s3a8
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##8.T-wsj1924-001-p1s7a8
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##8.T-wsj1924-001-p1s7a8
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##9.T-wsj1924-001-p1s8a6
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##9.T-wsj1924-001-p1s8a6
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##10.T-wsj1924-001-p1s9a18
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##10.T-wsj1924-001-p1s9a18
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##11.T-wsj1924-001-p1s10a15
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##11.T-wsj1924-001-p1s10a15
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##13.T-wsj1924-001-p1s12a10
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##13.T-wsj1924-001-p1s12a10
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##13.T-wsj1924-001-p1s12a22
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##13.T-wsj1924-001-p1s12a22
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##13.T-wsj1924-001-p1s12a44
+PARENTS-COREF-FUNCTOR_2	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##13.T-wsj1924-001-p1s12a44
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##26.T-wsj1924-001-p1s25a27
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##26.T-wsj1924-001-p1s25a27
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##32.T-wsj1924-001-p1s31a10
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1924.final.treex.gz##32.T-wsj1924-001-p1s31a10
+TREEX-INFO:   118.415:	Document 26/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1925.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1925.final.treex.gz
+TREEX-INFO:   118.415:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   118.415:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   118.415:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   118.420:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1925.final.treex.gz##1.T-wsj1925-001-p1s0a18
+SIBLINGS-FUNCTOR_APPOS	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1925.final.treex.gz##1.T-wsj1925-001-p1s0a18
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1925.final.treex.gz##2.T-wsj1925-001-p1s1a6
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1925.final.treex.gz##2.T-wsj1925-001-p1s1a6
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1925.final.treex.gz##3.T-wsj1925-001-p1s2a31
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1925.final.treex.gz##3.T-wsj1925-001-p1s2a31
+TREEX-INFO:   122.685:	Document 27/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1926.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1926.final.treex.gz
+TREEX-INFO:   122.685:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   122.685:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   122.685:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   122.702:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1926.final.treex.gz##2.T-wsj1926-001-p1s1a9
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1926.final.treex.gz##2.T-wsj1926-001-p1s1a9
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1926.final.treex.gz##5.T-wsj1926-001-p1s4a19
+SELF-SIBLINGS-APPS-EMPVERB_APPOS	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1926.final.treex.gz##5.T-wsj1926-001-p1s4a19
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1926.final.treex.gz##7.T-wsj1926-001-p1s6a29
+SIBLINGS-FUNCTOR_V-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1926.final.treex.gz##7.T-wsj1926-001-p1s6a29
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1926.final.treex.gz##11.T-wsj1926-001-p1s10a8
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1926.final.treex.gz##11.T-wsj1926-001-p1s10a8
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1926.final.treex.gz##12.T-wsj1926-001-p1s11a32
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1926.final.treex.gz##12.T-wsj1926-001-p1s11a32
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1926.final.treex.gz##13.T-wsj1926-001-p1s12a13
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1926.final.treex.gz##13.T-wsj1926-001-p1s12a13
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1926.final.treex.gz##14.T-wsj1926-001-p1s13a21
+SELF-SIBLINGS-APPS-EMPVERB_APPOS	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1926.final.treex.gz##14.T-wsj1926-001-p1s13a21
+TREEX-INFO:   133.488:	Document 28/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz
+TREEX-INFO:   133.488:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   133.488:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   133.488:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   133.532:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##1.T-wsj1927-001-p1s0a17
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##1.T-wsj1927-001-p1s0a17
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##4.T-wsj1927-001-p1s3a6
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##4.T-wsj1927-001-p1s3a6
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##4.T-wsj1927-001-p1s3a20
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##4.T-wsj1927-001-p1s3a20
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##4.T-wsj1927-001-p1s3a28
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##11.T-wsj1927-001-p1s10a8
+PARENTS-COREF-FUNCTOR_2	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##11.T-wsj1927-001-p1s10a8
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##12.T-wsj1927-001-p1s11a22
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##12.T-wsj1927-001-p1s11a22
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##13.T-wsj1927-001-p1s12a3
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##13.T-wsj1927-001-p1s12a3
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##13.T-wsj1927-001-p1s12a33
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##13.T-wsj1927-001-p1s12a33
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##17.T-wsj1927-001-p1s16a9
+PARENTS-COREF-FUNCTOR_2	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##17.T-wsj1927-001-p1s16a9
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##18.T-wsj1927-001-p1s17a12
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##18.T-wsj1927-001-p1s17a12
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##18.T-wsj1927-001-p1s17a27
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##25.T-wsj1927-001-p1s24a12
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##26.T-wsj1927-001-p1s25a10
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##26.T-wsj1927-001-p1s25a10
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##26.T-wsj1927-001-p1s25a19
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##26.T-wsj1927-001-p1s25a19
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##31.T-wsj1927-001-p1s30a24
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##31.T-wsj1927-001-p1s30a24
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##33.T-wsj1927-001-p1s32a11
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##33.T-wsj1927-001-p1s32a11
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##34.T-wsj1927-001-p1s33a19
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##34.T-wsj1927-001-p1s33a19
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##36.T-wsj1927-001-p1s35a7
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1927.final.treex.gz##36.T-wsj1927-001-p1s35a7
+TREEX-INFO:   146.026:	Document 29/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz
+TREEX-INFO:   146.026:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   146.026:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   146.026:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   146.074:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##2.T-wsj1928-001-p1s1a28
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##2.T-wsj1928-001-p1s1a28
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##3.T-wsj1928-001-p1s2a26
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##3.T-wsj1928-001-p1s2a26
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##5.T-wsj1928-001-p1s4a6
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##5.T-wsj1928-001-p1s4a6
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##5.T-wsj1928-001-p1s4a19
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##5.T-wsj1928-001-p1s4a19
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##6.T-wsj1928-001-p1s5a16
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##6.T-wsj1928-001-p1s5a16
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##8.T-wsj1928-001-p1s7a13
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##8.T-wsj1928-001-p1s7a13
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##10.T-wsj1928-001-p1s9a35
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##10.T-wsj1928-001-p1s9a35
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##14.T-wsj1928-001-p1s13a18
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##14.T-wsj1928-001-p1s13a18
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##17.T-wsj1928-001-p1s16a18
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##20.T-wsj1928-001-p1s19a5
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##20.T-wsj1928-001-p1s19a5
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##24.T-wsj1928-001-p1s23a17
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##24.T-wsj1928-001-p1s23a17
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##27.T-wsj1928-001-p1s26a18
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##27.T-wsj1928-001-p1s26a18
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##28.T-wsj1928-001-p1s27a15
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##28.T-wsj1928-001-p1s27a15
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##30.T-wsj1928-001-p1s29a10
+PARENTS-COREF-FUNCTOR_3	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##30.T-wsj1928-001-p1s29a10
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##34.T-wsj1928-001-p1s33a29
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##34.T-wsj1928-001-p1s33a29
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##37.T-wsj1928-001-p1s36a12
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##37.T-wsj1928-001-p1s36a12
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##37.T-wsj1928-001-p1s36a18
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##37.T-wsj1928-001-p1s36a18
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##39.T-wsj1928-001-p1s38a13
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##39.T-wsj1928-001-p1s38a13
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##42.T-wsj1928-001-p1s41a23
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1928.final.treex.gz##42.T-wsj1928-001-p1s41a23
+TREEX-INFO:   157.354:	Document 30/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz
+TREEX-INFO:   157.354:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   157.354:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   157.354:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   157.396:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##1.T-wsj1929-001-p1s0a7
+SIBLINGS-FUNCTOR_V-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##1.T-wsj1929-001-p1s0a7
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##1.T-wsj1929-001-p1s0a23
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##1.T-wsj1929-001-p1s0a23
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##3.T-wsj1929-001-p1s2a13
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##3.T-wsj1929-001-p1s2a13
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##3.T-wsj1929-001-p1s2a21
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##3.T-wsj1929-001-p1s2a21
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##6.T-wsj1929-001-p1s5a25
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##6.T-wsj1929-001-p1s5a25
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##12.T-wsj1929-001-p1s11a13
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##12.T-wsj1929-001-p1s11a13
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##30.T-wsj1929-001-p1s29a20
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##30.T-wsj1929-001-p1s29a20
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##30.T-wsj1929-001-p1s29a30
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##30.T-wsj1929-001-p1s29a30
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##31.T-wsj1929-001-p1s30a7
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##31.T-wsj1929-001-p1s30a7
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##33.T-wsj1929-001-p1s32a11
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##33.T-wsj1929-001-p1s32a11
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##39.T-wsj1929-001-p1s38a11
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##39.T-wsj1929-001-p1s38a11
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##41.T-wsj1929-001-p1s40a3
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##41.T-wsj1929-001-p1s40a3
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##42.T-wsj1929-001-p1s41a7
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1929.final.treex.gz##42.T-wsj1929-001-p1s41a7
+TREEX-INFO:   164.218:	Document 31/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz
+TREEX-INFO:   164.218:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   164.218:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   164.218:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   164.247:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##4.T-wsj1930-001-p1s3a10
+SIBLINGS-FUNCTOR_V-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##4.T-wsj1930-001-p1s3a10
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##5.T-wsj1930-001-p1s4a13
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##5.T-wsj1930-001-p1s4a13
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##6.T-wsj1930-001-p1s5a4
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##6.T-wsj1930-001-p1s5a4
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##7.T-wsj1930-001-p1s6a4
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##7.T-wsj1930-001-p1s6a4
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##10.T-wsj1930-001-p1s9a6
+SIBLINGS-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##10.T-wsj1930-001-p1s9a6
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##11.T-wsj1930-001-p1s10a16
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##11.T-wsj1930-001-p1s10a20
+PARENTS-COREF-FUNCTOR_2	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##11.T-wsj1930-001-p1s10a20
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##11.T-wsj1930-001-p1s10a28
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##12.T-wsj1930-001-p1s11a7
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##12.T-wsj1930-001-p1s11a7
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##23.T-wsj1930-001-p1s22a9
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##23.T-wsj1930-001-p1s22a9
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##26.T-wsj1930-001-p1s25a18
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##26.T-wsj1930-001-p1s25a18
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1930.final.treex.gz##29.T-wsj1930-001-p1s28a13
+TREEX-INFO:   171.756:	Document 32/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz
+TREEX-INFO:   171.756:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   171.756:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   171.756:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   171.785:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##6.T-wsj1931-001-p1s5a21
+PARENTS-COREF-FUNCTOR_2	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##6.T-wsj1931-001-p1s5a21
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##6.T-wsj1931-001-p1s5a62
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##6.T-wsj1931-001-p1s5a62
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##8.T-wsj1931-001-p1s7a16
+SELF-SIBLINGS-APPS-EMPVERB_APPOS	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##8.T-wsj1931-001-p1s7a16
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##8.T-wsj1931-001-p1s7a30
+SELF-SIBLINGS-APPS-EMPVERB_APPOS	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##8.T-wsj1931-001-p1s7a30
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##9.T-wsj1931-001-p1s8a8
+SIBLINGS-FUNCTOR_V-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##9.T-wsj1931-001-p1s8a8
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##10.T-wsj1931-001-p1s9a14
+SELF-SIBLINGS-APPS-EMPVERB_APPOS-EMPVERB	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##10.T-wsj1931-001-p1s9a14
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##12.T-wsj1931-001-p1s11a23
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##12.T-wsj1931-001-p1s11a23
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##14.T-wsj1931-001-p1s13a19
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##14.T-wsj1931-001-p1s13a24
+SELF-SIBLINGS-APPS-EMPVERB_UNDIRECT-NV-EMPVERB	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##14.T-wsj1931-001-p1s13a24
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##20.T-wsj1931-001-p1s19a25
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##20.T-wsj1931-001-p1s19a25
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##21.T-wsj1931-001-p1s20a7
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##21.T-wsj1931-001-p1s20a7
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1931.final.treex.gz##22.T-wsj1931-001-p1s21a6
+TREEX-INFO:   184.994:	Document 33/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz
+TREEX-INFO:   184.994:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   184.994:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   184.994:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   185.044:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##3.T-wsj1932-001-p1s2a10
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##3.T-wsj1932-001-p1s2a10
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##7.T-wsj1932-001-p1s6a17
+SIBLINGS-FUNCTOR_APPOS	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##7.T-wsj1932-001-p1s6a17
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##13.T-wsj1932-001-p1s12a24
+SELF-SIBLINGS-APPS-EMPVERB_APPOS-EMPVERB	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##13.T-wsj1932-001-p1s12a24
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##17.T-wsj1932-001-p1s16a12
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##17.T-wsj1932-001-p1s16a12
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##19.T-wsj1932-001-p1s18a28
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##19.T-wsj1932-001-p1s18a28
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##26.T-wsj1932-001-p1s25a17
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##26.T-wsj1932-001-p1s25a17
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##26.T-wsj1932-001-p1s25a25
+SIBLINGS-FUNCTOR_V-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##26.T-wsj1932-001-p1s25a25
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##28.T-wsj1932-001-p1s27a22
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##28.T-wsj1932-001-p1s27a22
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##30.T-wsj1932-001-p1s29a14
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##30.T-wsj1932-001-p1s29a14
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##32.T-wsj1932-001-p1s31a12
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##32.T-wsj1932-001-p1s31a12
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##36.T-wsj1932-001-p1s35a30
+SELF-SIBLINGS-APPS-EMPVERB_APPOS	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##36.T-wsj1932-001-p1s35a30
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##37.T-wsj1932-001-p1s36a20
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##37.T-wsj1932-001-p1s36a20
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##41.T-wsj1932-001-p1s40a19
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##41.T-wsj1932-001-p1s40a19
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##45.T-wsj1932-001-p1s44a9
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1932.final.treex.gz##45.T-wsj1932-001-p1s44a9
+TREEX-INFO:   186.395:	Document 34/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1933.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1933.final.treex.gz
+TREEX-INFO:   186.395:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   186.395:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   186.395:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   186.400:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+TREEX-INFO:   191.677:	Document 35/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1934.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1934.final.treex.gz
+TREEX-INFO:   191.677:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   191.677:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   191.677:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   191.698:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1934.final.treex.gz##1.T-wsj1934-001-p1s0a20
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1934.final.treex.gz##1.T-wsj1934-001-p1s0a20
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1934.final.treex.gz##2.T-wsj1934-001-p1s1a7
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1934.final.treex.gz##2.T-wsj1934-001-p1s1a7
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1934.final.treex.gz##5.T-wsj1934-001-p1s4a12
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1934.final.treex.gz##5.T-wsj1934-001-p1s4a12
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1934.final.treex.gz##8.T-wsj1934-001-p1s7a7
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1934.final.treex.gz##8.T-wsj1934-001-p1s7a7
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1934.final.treex.gz##8.T-wsj1934-001-p1s7a14
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1934.final.treex.gz##8.T-wsj1934-001-p1s7a14
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1934.final.treex.gz##11.T-wsj1934-001-p1s10a22
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1934.final.treex.gz##11.T-wsj1934-001-p1s10a22
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1934.final.treex.gz##12.T-wsj1934-001-p1s11a18
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1934.final.treex.gz##12.T-wsj1934-001-p1s11a18
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1934.final.treex.gz##15.T-wsj1934-001-p1s14a13
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1934.final.treex.gz##15.T-wsj1934-001-p1s14a13
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1934.final.treex.gz##16.T-wsj1934-001-p1s15a35
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1934.final.treex.gz##16.T-wsj1934-001-p1s15a35
+TREEX-INFO:   203.069:	Document 36/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz
+TREEX-INFO:   203.069:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   203.069:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   203.069:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   203.115:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##1.T-wsj1935-001-p1s0a28
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##1.T-wsj1935-001-p1s0a28
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##6.T-wsj1935-001-p1s5a21
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##6.T-wsj1935-001-p1s5a21
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##12.T-wsj1935-001-p1s11a9
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##12.T-wsj1935-001-p1s11a9
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##14.T-wsj1935-001-p1s13a7
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##14.T-wsj1935-001-p1s13a17
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##14.T-wsj1935-001-p1s13a17
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##28.T-wsj1935-001-p1s27a9
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##28.T-wsj1935-001-p1s27a9
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##28.T-wsj1935-001-p1s27a36
+PARENTS-COREF-FUNCTOR_2	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##28.T-wsj1935-001-p1s27a36
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##29.T-wsj1935-001-p1s28a18
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##30.T-wsj1935-001-p1s29a9
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##36.T-wsj1935-001-p1s35a2
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##36.T-wsj1935-001-p1s35a2
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##36.T-wsj1935-001-p1s35a4
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##36.T-wsj1935-001-p1s35a4
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##36.T-wsj1935-001-p1s35a24
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##36.T-wsj1935-001-p1s35a24
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##38.T-wsj1935-001-p1s37a14
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##38.T-wsj1935-001-p1s37a14
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##39.T-wsj1935-001-p1s38a2
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##39.T-wsj1935-001-p1s38a2
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##56.T-wsj1935-001-p1s55a12
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##56.T-wsj1935-001-p1s55a12
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##58.T-wsj1935-001-p1s57a15
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##58.T-wsj1935-001-p1s57a32
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##58.T-wsj1935-001-p1s57a32
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##59.T-wsj1935-001-p1s58a8
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1935.final.treex.gz##59.T-wsj1935-001-p1s58a8
+TREEX-INFO:   218.755:	Document 37/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz
+TREEX-INFO:   218.755:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   218.755:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   218.755:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   218.816:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##2.T-wsj1936-001-p1s1a3
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##2.T-wsj1936-001-p1s1a3
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##6.T-wsj1936-001-p1s5a9
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##6.T-wsj1936-001-p1s5a9
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##13.T-wsj1936-001-p1s12a25
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##14.T-wsj1936-001-p1s13a11
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##14.T-wsj1936-001-p1s13a11
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##14.T-wsj1936-001-p1s13a27
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##14.T-wsj1936-001-p1s13a27
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##21.T-wsj1936-001-p1s20a25
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##21.T-wsj1936-001-p1s20a25
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##22.T-wsj1936-001-p1s21a21
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##22.T-wsj1936-001-p1s21a21
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##24.T-wsj1936-001-p1s23a7
+SELF-SIBLINGS-APPS-EMPVERB_UNDIRECT-NV-EMPVERB	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##24.T-wsj1936-001-p1s23a7
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##24.T-wsj1936-001-p1s23a40
+SIBLINGS-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##24.T-wsj1936-001-p1s23a40
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##25.T-wsj1936-001-p1s24a15
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##25.T-wsj1936-001-p1s24a15
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##25.T-wsj1936-001-p1s24a29
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##25.T-wsj1936-001-p1s24a29
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##31.T-wsj1936-001-p1s30a13
+SIBLINGS-FUNCTOR_3	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##31.T-wsj1936-001-p1s30a13
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##31.T-wsj1936-001-p1s30a28
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##31.T-wsj1936-001-p1s30a28
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##32.T-wsj1936-001-p1s31a3
+SIBLINGS-FUNCTOR_3	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##32.T-wsj1936-001-p1s31a3
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##38.T-wsj1936-001-p1s37a14
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##38.T-wsj1936-001-p1s37a14
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##39.T-wsj1936-001-p1s38a14
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##40.T-wsj1936-001-p1s39a12
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##40.T-wsj1936-001-p1s39a12
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##42.T-wsj1936-001-p1s41a19
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##42.T-wsj1936-001-p1s41a19
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##43.T-wsj1936-001-p1s42a41
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##43.T-wsj1936-001-p1s42a41
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##44.T-wsj1936-001-p1s43a18
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##45.T-wsj1936-001-p1s44a10
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##45.T-wsj1936-001-p1s44a10
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##48.T-wsj1936-001-p1s47a15
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##48.T-wsj1936-001-p1s47a15
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##49.T-wsj1936-001-p1s48a8
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##49.T-wsj1936-001-p1s48a8
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##50.T-wsj1936-001-p1s49a20
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##50.T-wsj1936-001-p1s49a20
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##55.T-wsj1936-001-p1s54a2
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1936.final.treex.gz##55.T-wsj1936-001-p1s54a2
+TREEX-INFO:   230.947:	Document 38/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz
+TREEX-INFO:   230.947:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   230.947:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   230.947:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   230.994:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##3.T-wsj1937-001-p1s2a12
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##3.T-wsj1937-001-p1s2a12
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##6.T-wsj1937-001-p1s5a8
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##6.T-wsj1937-001-p1s5a8
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##12.T-wsj1937-001-p1s11a14
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##12.T-wsj1937-001-p1s11a14
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##13.T-wsj1937-001-p1s12a19
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##13.T-wsj1937-001-p1s12a19
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##17.T-wsj1937-001-p1s16a8
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##17.T-wsj1937-001-p1s16a8
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##18.T-wsj1937-001-p1s17a19
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##18.T-wsj1937-001-p1s17a19
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##18.T-wsj1937-001-p1s17a40
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##18.T-wsj1937-001-p1s17a40
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##20.T-wsj1937-001-p1s19a11
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##20.T-wsj1937-001-p1s19a11
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##22.T-wsj1937-001-p1s21a9
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##22.T-wsj1937-001-p1s21a9
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##30.T-wsj1937-001-p1s29a12
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##30.T-wsj1937-001-p1s29a12
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##32.T-wsj1937-001-p1s31a17
+PARENTS-COREF-FUNCTOR_2	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##32.T-wsj1937-001-p1s31a17
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##35.T-wsj1937-001-p1s34a14
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##35.T-wsj1937-001-p1s34a27
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##47.T-wsj1937-001-p1s46a29
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##47.T-wsj1937-001-p1s46a29
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##52.T-wsj1937-001-p1s51a13
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##52.T-wsj1937-001-p1s51a13
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##53.T-wsj1937-001-p1s52a18
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1937.final.treex.gz##53.T-wsj1937-001-p1s52a18
+TREEX-INFO:   233.705:	Document 39/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1938.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1938.final.treex.gz
+TREEX-INFO:   233.705:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   233.705:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   233.705:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   233.715:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1938.final.treex.gz##2.T-wsj1938-001-p1s1a31
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1938.final.treex.gz##2.T-wsj1938-001-p1s1a31
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1938.final.treex.gz##3.T-wsj1938-001-p1s2a10
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1938.final.treex.gz##3.T-wsj1938-001-p1s2a10
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1938.final.treex.gz##8.T-wsj1938-001-p1s7a18
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1938.final.treex.gz##8.T-wsj1938-001-p1s7a18
+TREEX-INFO:   244.936:	Document 40/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz
+TREEX-INFO:   244.936:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   244.936:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   244.936:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   244.981:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##2.T-wsj1939-001-p1s1a16
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##2.T-wsj1939-001-p1s1a16
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##3.T-wsj1939-001-p1s2a20
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##3.T-wsj1939-001-p1s2a20
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##4.T-wsj1939-001-p1s3a16
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##5.T-wsj1939-001-p1s4a9
+SIBLINGS-FUNCTOR_3	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##5.T-wsj1939-001-p1s4a9
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##15.T-wsj1939-001-p1s14a7
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##15.T-wsj1939-001-p1s14a7
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##16.T-wsj1939-001-p1s15a8
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##16.T-wsj1939-001-p1s15a8
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##21.T-wsj1939-001-p1s20a5
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##21.T-wsj1939-001-p1s20a5
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##31.T-wsj1939-001-p1s30a16
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##31.T-wsj1939-001-p1s30a16
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##31.T-wsj1939-001-p1s30a27
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##31.T-wsj1939-001-p1s30a27
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##32.T-wsj1939-001-p1s31a9
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##32.T-wsj1939-001-p1s31a9
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##33.T-wsj1939-001-p1s32a19
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##33.T-wsj1939-001-p1s32a19
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##34.T-wsj1939-001-p1s33a23
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##34.T-wsj1939-001-p1s33a23
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##38.T-wsj1939-001-p1s37a4
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1939.final.treex.gz##38.T-wsj1939-001-p1s37a4
+TREEX-INFO:   247.001:	Document 41/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1940.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1940.final.treex.gz
+TREEX-INFO:   247.001:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   247.001:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   247.001:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   247.007:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+TREEX-INFO:   247.940:	Document 42/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1941.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1941.final.treex.gz
+TREEX-INFO:   247.940:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   247.940:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   247.940:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   247.943:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+TREEX-INFO:   249.171:	Document 43/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1942.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1942.final.treex.gz
+TREEX-INFO:   249.171:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   249.171:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   249.171:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   249.177:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+TREEX-INFO:   253.123:	Document 44/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1943.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1943.final.treex.gz
+TREEX-INFO:   253.123:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   253.123:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   253.123:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   253.139:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1943.final.treex.gz##2.T-wsj1943-001-p1s1a7
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1943.final.treex.gz##2.T-wsj1943-001-p1s1a7
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1943.final.treex.gz##4.T-wsj1943-001-p1s3a23
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1943.final.treex.gz##4.T-wsj1943-001-p1s3a23
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1943.final.treex.gz##5.T-wsj1943-001-p1s4a14
+SIBLINGS-FUNCTOR_3	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1943.final.treex.gz##5.T-wsj1943-001-p1s4a14
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1943.final.treex.gz##7.T-wsj1943-001-p1s6a13
+SIBLINGS-FUNCTOR_V-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1943.final.treex.gz##7.T-wsj1943-001-p1s6a13
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1943.final.treex.gz##9.T-wsj1943-001-p1s8a20
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1943.final.treex.gz##9.T-wsj1943-001-p1s8a20
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1943.final.treex.gz##12.T-wsj1943-001-p1s11a12
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1943.final.treex.gz##12.T-wsj1943-001-p1s11a18
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1943.final.treex.gz##12.T-wsj1943-001-p1s11a18
+TREEX-INFO:   260.641:	Document 45/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1944.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1944.final.treex.gz
+TREEX-INFO:   260.641:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   260.641:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   260.641:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   260.671:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1944.final.treex.gz##2.T-wsj1944-001-p1s1a22
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1944.final.treex.gz##2.T-wsj1944-001-p1s1a22
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1944.final.treex.gz##2.T-wsj1944-001-p1s1a35
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1944.final.treex.gz##2.T-wsj1944-001-p1s1a35
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1944.final.treex.gz##5.T-wsj1944-001-p1s4a16
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1944.final.treex.gz##5.T-wsj1944-001-p1s4a16
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1944.final.treex.gz##14.T-wsj1944-001-p1s13a7
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1944.final.treex.gz##14.T-wsj1944-001-p1s13a7
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1944.final.treex.gz##25.T-wsj1944-001-p1s24a8
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1944.final.treex.gz##25.T-wsj1944-001-p1s24a8
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1944.final.treex.gz##26.T-wsj1944-001-p1s25a5
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1944.final.treex.gz##26.T-wsj1944-001-p1s25a5
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1944.final.treex.gz##26.T-wsj1944-001-p1s25a32
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1944.final.treex.gz##26.T-wsj1944-001-p1s25a32
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1944.final.treex.gz##30.T-wsj1944-001-p1s29a12
+SELF-SIBLINGS-APPS-EMPVERB_APPOS	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1944.final.treex.gz##30.T-wsj1944-001-p1s29a12
+TREEX-INFO:   261.616:	Document 46/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1945.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1945.final.treex.gz
+TREEX-INFO:   261.616:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   261.616:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   261.616:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   261.619:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+TREEX-INFO:   272.332:	Document 47/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz
+TREEX-INFO:   272.333:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   272.333:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   272.333:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   272.374:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz##1.T-wsj1946-001-p1s0a13
+SIBLINGS-FUNCTOR_V-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz##1.T-wsj1946-001-p1s0a13
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz##6.T-wsj1946-001-p1s5a13
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz##6.T-wsj1946-001-p1s5a13
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz##12.T-wsj1946-001-p1s11a10
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz##12.T-wsj1946-001-p1s11a10
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz##14.T-wsj1946-001-p1s13a14
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz##14.T-wsj1946-001-p1s13a14
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz##17.T-wsj1946-001-p1s16a13
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz##17.T-wsj1946-001-p1s16a13
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz##18.T-wsj1946-001-p1s17a15
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz##18.T-wsj1946-001-p1s17a15
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz##19.T-wsj1946-001-p1s18a6
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz##19.T-wsj1946-001-p1s18a6
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz##20.T-wsj1946-001-p1s19a8
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz##20.T-wsj1946-001-p1s19a8
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz##40.T-wsj1946-001-p1s39a5
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz##40.T-wsj1946-001-p1s39a5
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz##42.T-wsj1946-001-p1s41a41
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1946.final.treex.gz##42.T-wsj1946-001-p1s41a41
+TREEX-INFO:   277.323:	Document 48/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz
+TREEX-INFO:   277.323:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   277.323:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   277.323:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   277.342:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz##1.T-wsj1947-001-p1s0a7
+SIBLINGS-FUNCTOR_V-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz##1.T-wsj1947-001-p1s0a7
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz##1.T-wsj1947-001-p1s0a21
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz##1.T-wsj1947-001-p1s0a21
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz##2.T-wsj1947-001-p1s1a4
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz##2.T-wsj1947-001-p1s1a4
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz##4.T-wsj1947-001-p1s3a19
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz##6.T-wsj1947-001-p1s5a6
+SIBLINGS-FUNCTOR_APPOS	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz##6.T-wsj1947-001-p1s5a6
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz##12.T-wsj1947-001-p1s11a5
+SELF-SIBLINGS-APPS-EMPVERB_UNDIRECT-NV-EMPVERB	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz##12.T-wsj1947-001-p1s11a5
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz##14.T-wsj1947-001-p1s13a14
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz##14.T-wsj1947-001-p1s13a14
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz##14.T-wsj1947-001-p1s13a27
+PARENTS-COREF-FUNCTOR_1	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz##14.T-wsj1947-001-p1s13a27
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz##16.T-wsj1947-001-p1s15a6
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz##20.T-wsj1947-001-p1s19a5
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz##20.T-wsj1947-001-p1s19a5
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz##22.T-wsj1947-001-p1s21a3
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1947.final.treex.gz##22.T-wsj1947-001-p1s21a3
+TREEX-INFO:   282.325:	Document 49/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1948.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1948.final.treex.gz
+TREEX-INFO:   282.325:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   282.326:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   282.326:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   282.345:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1948.final.treex.gz##4.T-wsj1948-001-p1s3a12
+SELF-SIBLINGS-APPS-EMPVERB_APPOS-EMPVERB	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1948.final.treex.gz##4.T-wsj1948-001-p1s3a12
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1948.final.treex.gz##8.T-wsj1948-001-p1s7a19
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1948.final.treex.gz##8.T-wsj1948-001-p1s7a19
+TREEX-INFO:   286.763:	Document 50/50 /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1949.final loaded from /home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1949.final.treex.gz
+TREEX-INFO:   286.763:	Applying block 1/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   286.763:	Applying block 2/4 Treex::Block::Util::SetGlobal
+TREEX-INFO:   286.763:	Applying block 3/4 Treex::Block::Project::Attributes
+TREEX-INFO:   286.780:	Applying block 4/4 Treex::Block::My::AddRobustAlignment::CsRelpron
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1949.final.treex.gz##1.T-wsj1949-001-p1s0a23
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1949.final.treex.gz##1.T-wsj1949-001-p1s0a23
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1949.final.treex.gz##7.T-wsj1949-001-p1s6a11
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1949.final.treex.gz##7.T-wsj1949-001-p1s6a11
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1949.final.treex.gz##8.T-wsj1949-001-p1s7a15
+SIBLINGS-FUNCTOR_N-UNDIRECT	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1949.final.treex.gz##8.T-wsj1949-001-p1s7a15
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1949.final.treex.gz##10.T-wsj1949-001-p1s9a11
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1949.final.treex.gz##10.T-wsj1949-001-p1s9a11
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1949.final.treex.gz##13.T-wsj1949-001-p1s12a17
+SELF-PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1949.final.treex.gz##13.T-wsj1949-001-p1s12a17
+IS_RELATIVE_PRONOUN	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1949.final.treex.gz##14.T-wsj1949-001-p1s13a26
+SIBLINGS-FUNCTOR_3	/home/mnovak/projects/coref_bitext/data/analysed/pcedt/train/0003/wsj_1949.final.treex.gz##14.T-wsj1949-001-p1s13a26
+TREEX-INFO:   286.930:	Applying process_end
+TREEX-INFO:   286.931:	Processed 50 documents
+TREEX-INFO:   286.931:	Processed 50 documents
+TREEX-INFO:   286.931:	Running the scenario took 285 seconds

@@ -1,0 +1,11 @@
+Number of all non-reflexive en_perspron instances?
+549
+
+Which level did find the counterpart?
+
+53.20	53.20	25.00	241	SELF-PRONOUN
+41.94	95.14	50.00	190	PARENTS-FUNCTOR
+3.97	99.12	75.00	18	SIBLINGS-FUNCTOR
+0.88	100.00	100.00	 4	ANCESTORS-DATIVE
+--------------------------------------------------
+                       453	TOTAL
