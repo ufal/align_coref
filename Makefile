@@ -30,7 +30,9 @@ else
 ALIGN_ANNOT_LANG2=en
 endif
 
-#======================================================================================================
+##########################################################################################
+################################# ALIGNMENT ANNOTATION ###################################
+##########################################################################################
 
 create_list : annot/$(ALIGN_ANNOT_ID)/is_relat.ref.sec19.list
 
@@ -136,6 +138,46 @@ summary :
 	done
 	find tmp/summaries -path "*/$(ALIGN_ANNOT_LANG)_*.all" | sort | xargs cat > $(SUMMARY_FILE)
 
+#================= EVALUATING THE ALIGNMENT - ROBUST and ORIGINAL  =======================
+
+## > evaluation of the original PCEDT alignment
+#ALIGN_ORIGIN=orig
+#ALIGN_RELTYPES=!gold,!robust,!supervised,.*
+## > evaluation of the rule-based (robust) heuristics 
+ALIGN_ORIGIN=robust
+ALIGN_RELTYPES=!gold,!supervised,robust,.*
+##		> lines 36-40 in AddRobustAlignment.pm must be uncommented: removing the original alignment for nodes targeted by robust
+## > to evaluate only on subclasses focused by AddRobustAlignment
+##		> in My::AlignmentEval, filter out all instances that have undefined wild->{align_robust_err}
+
+tmp/trees.for_eval.$(ALIGN_ORIGIN)/list : $(GOLD_ANNOT_TREES_DIR)/list
+	mkdir -p $(dir $@)
+	treex $(LRC_FLAGS) -Sref \
+		Read::Treex from=@$< \
+		Util::SetGlobal language=cs \
+		Project::Attributes layer=t alignment_type=monolingual alignment_direction=trg2src attributes=gram/indeftype \
+		My::AddRobustAlignment::CsRelpron \
+		Util::SetGlobal language=en \
+		My::AddRobustAlignment::EnPerspron \
+		Write::Treex storable=1 to='.' substitute='{^.*/([^\/]*)}{$(dir $@)/$$1}'
+	find $(dir $@) -path "*.streex" | sort | sed 's/^.*\///' > $@
+
+eval_for_type : $(ALIGN_ANNOT_LIST_ALL) tmp/trees.for_eval.$(ALIGN_ORIGIN)/list
+	mkdir -p tmp/align_eval
+	cat $< | sed 's|^.*/|$(PWD)/tmp/trees.for_eval.$(ALIGN_ORIGIN)/|' > tmp/align_eval/$(ALIGN_ANNOT_ID).input.list
+	treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Sref \
+		Read::Treex from=@tmp/align_eval/$(ALIGN_ANNOT_ID).input.list \
+		My::AlignmentEval align_language=$(ALIGN_ANNOT_LANG2) align_reltypes='$(ALIGN_RELTYPES)' to='.' substitute='{^.*/([^\/]*)}{tmp/align_eval/$(ALIGN_ANNOT_ID).$(ALIGN_ORIGIN)/$$1}' extension='.txt'
+	find tmp/align_eval/$(ALIGN_ANNOT_ID).$(ALIGN_ORIGIN) -path "*.txt" | sort | xargs cat > tmp/align_eval/$(ALIGN_ANNOT_ID).$(ALIGN_ORIGIN).all
+
+eval :
+	for type in $(ALL_TYPES); do \
+		make eval_for_type ALIGN_ANNOT_LANG=$(ALIGN_ANNOT_LANG) ALIGN_ANNOT_TYPE=$$type; \
+	done
+
+##########################################################################################
+############################## ALIGNMENT SUPERVISED PREDICTION ###########################
+##########################################################################################
 
 extract_data_table : $(DATA_DIR)/train.pcedt_19.table
 $(DATA_DIR)/train.pcedt_19.table : $(GOLD_ANNOT_LIST)
