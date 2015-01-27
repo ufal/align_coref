@@ -68,3 +68,8 @@ sed -i 's/^\([^c].*cs_perspron_unexpr	.*\)$/cs_anaphzero-en_other	\1/' cs.all.al
 
 # one of the "cs_pers-en_zero" -> "cs_refl-en_zero"
 # one of the "cs_inter_fused-en_no_ali_other" -> "cs_inter_fused-en_zero"
+
+sed -i 's/cs_inter_fused-en_wh_word/cs_other_relat-en_inter_fused/g' cs.all.align.ref.sec19_00-49.summary
+sed -i 's/cs_inter_fused-en_no_ali_other\(.*REPLACED_BY_NP.*$\)/cs_other_relat-en_no_ali_np_modif\1/g' cs.all.align.ref.sec19_00-49.summary
+sed -i 's/cs_inter_fused-en_no_ali_other/cs_other_relat-en_no_ali_other/g' cs.all.align.ref.sec19_00-49.summary
+
