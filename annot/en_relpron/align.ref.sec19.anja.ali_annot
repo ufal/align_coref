@@ -3,7 +3,7 @@ EN:	Mr. Lang surprised Time soon after joining forces when he said he would nego
 CS:	Lang překvapil Time brzy po spojení sil, když prohlásil, že cenu bude s inzerenty dohadovat individuálně, což je praktika obvyklá ve vysílání, ale mezi vydavateli časopisů je považována za tabu. 
 EN_T:	Mr. Lang surprised Time soon joining #PersPron.ACT forces , <when> he said #Gen.ADDR he negotiate #EmpVerb.PRED rates individually advertisers practice common broadcasting but #Cor.PAT considered taboo magazine publishers
 CS_T:	Lang Time překvapil #Forn.PAT #PersPron.ACT brzy spojení sil #Rcp.ADDR #PersPron.ACT <__A:a-wsj1903-001-p1s32W9-Ta__prohlásil> #PersPron.ACT cenu dohadovat inzerenty , individuálně což je praktika ale obvyklá vysílání #PersPron.PAT považována vydavateli časopisů tabu
-ERR:OK
+ERR:OK	FUSED
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##3.EnglishT-wsj_1906-s3-t30
 EN:	Acting more than a year after Ms. Bertussi filed a complaint, the panel issued a ``letter of reproval'' saying Rep. Bates had admitted conduct that violated a House rule forbidding discrimination against employees on account of their sex.
