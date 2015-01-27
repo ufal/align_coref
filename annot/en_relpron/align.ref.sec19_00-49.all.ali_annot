@@ -338,8 +338,8 @@ ERR:0 SYNTAX_CHANGE
 EN:	The plan, which has been plagued with delays and business-related setbacks, seeks to transform the area from a seedy thoroughfare to a more wholesome office and theater district.
 CS:	Tento plán sužovaný zpožděními a obchodními neúspěchy usiluje o přeměnu oblasti ze zchátralé průběžné komunikace na zdravější čtvrť kanceláří a divadel. 
 EN_T:	plan <which> #Gen.ACT plagued delays and business-related setbacks seeks #Cor.ACT transform area seedy thoroughfare wholesome office and theater district
-CS_T:	Tento plán sužovaný #PersPron.ACT zpožděními a obchodními neúspěchy usiluje přeměnu oblasti zchátralé průběžné komunikace zdravější čtvrť kanceláří a divadel
-ERR:0 SYNTAX_CHANGE
+CS_T:	Tento <plán> sužovaný #PersPron.ACT zpožděními a obchodními neúspěchy usiluje přeměnu oblasti zchátralé průběžné komunikace zdravější čtvrť kanceláří a divadel
+ERR:ANTE	N
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1946.final.streex##31.EnglishT-wsj_1946-s31-t20
 EN:	A magistrate had initially refused the request, ruling that the attack had been a political act for which the man, Mahmoud El-Abed Ahmad, would be exempt from extradition .

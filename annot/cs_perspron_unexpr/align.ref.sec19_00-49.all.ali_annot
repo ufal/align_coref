@@ -264,12 +264,12 @@ CS_TT:	řekl [ a [ a [ vyjít [ ven ] #PersPron.ACT získat [ peníze bankách ]
 EN_TT:	said [ and [ would [ We go [ #Cor.ACT outside banks get [ #Cor.ACT money ] ] ] am [ <I> not ready [ do [ #Cor.ACT that ] ] ] ] he #Gen.ADDR ]
 ERR:OK pers1
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##48.T-wsj1903-001-p1s47a10
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##48.T-wsj1903-001-p1s47a10
 CS:	"Kromě toho už máme na talíři naloženo dost. 
 EN:	``Besides, we have enough on our plate.
 CS_TT:	naloženo [ <#PersPron.ACT> toho už #PersPron.ADDR talíři #EmpNoun.PAT [ dost ] ]
 EN_TT:	have [ Besides we #Gen.PAT [ enough ] plate [ our ] ]
-ERR:
+ERR:0	should be #Gen
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##48.T-wsj1903-001-p1s47a12
 CS:	"Kromě toho už máme na talíři naloženo dost. 
@@ -285,12 +285,12 @@ CS_TT:	je [ udělat [ #Cor.ACT práce [ tom [ máme [ co <#PersPron.ACT> ] ] hod
 EN_TT:	is [ plenty [ work [ done [ #Cor.PAT #Gen.ACT have [ what <we> ] ] ] ] ]
 ERR:OK pers1
 
-+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##4.T-wsj1903-001-p1s3a18
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##4.T-wsj1903-001-p1s3a18
 CS:	Minulý pátek řekl zaměstnancům Ms., že časopis v lednu začne vydávat bez reklam. 
 EN:	Last Friday, he told the staff of Ms. that the magazine in January would begin publishing without advertising.
 CS_TT:	řekl [ #PersPron.ACT pátek [ Minulý ] zaměstnancům [ #Idph.RSTR [ Ms ] ] začne [ <#PersPron.ACT> vydávat [ #Cor.ACT časopis lednu reklam ] ] ]
 EN_TT:	told [ Friday [ Last ] he staff [ Ms. ] begin [ magazine January publishing [ #Cor.ACT #Gen.PAT advertising ] ] ]
-ERR:
+ERR:0	MISS_ARG SYNTAX_CHANGE
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1903.final.streex##8.T-wsj1903-001-p1s7a20
 CS:	"Co se týče Ms., je čas vydávat pro čtenáře a ne pro inzerenta." 

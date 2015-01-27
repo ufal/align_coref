@@ -320,12 +320,12 @@ EN_T:	When <it> made offer StatesWest declined #Cor.ACT disclose #Gen.ADDR detai
 CS_T:	<#PersPron.ACT> učinění nabídky StateWest společnost odmítla #Cor.ACT oznámit a podrobnosti totéž požádala společnost Mesa
 ERR:OK
 
-?/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##8.EnglishT-wsj_1906-s8-t9
+/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1906.final.streex##8.EnglishT-wsj_1906-s8-t9
 EN:	But Ms. Bertussi asked, ``Who in their right mind is going to file another complaint with the Ethics Committee?''
 CS:	Bertussiová se ale zeptala: "Kdo rozumný by podával další stížnost k Etické komisi?" 
 EN_T:	But Ms. Bertussi asked #Gen.ADDR Who <their> right mind file another complaint Ethics Committee
 CS_T:	#Gen.ADDR Bertussiová ale zeptala Kdo rozumný podával další stížnost komisi Etické
-ERR:OK
+ERR:REWORD
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1907.final.streex##8.EnglishT-wsj_1907-s8-t31
 EN:	In response to the specific offer, Gary Risley, Mesa vice president, said management will ask directors to employ a financial consultant to advise them.
@@ -2306,7 +2306,7 @@ EN:	``We consider it a life-saving drug, like one for AIDS,'' said Dr. John Fung
 CS:	"Považujeme ho za lék zachraňující život, jako lék na AIDS," řekl dr. John Fung, imunolog na Pittsburské univerzitě. 
 EN_T:	We consider <it> life-saving drug one AIDS said #Gen.ADDR Dr. John Fung , immunologist University Pittsburgh
 CS_T:	#PersPron.ACT #Gen.ADDR Považujeme <ho> lék #Equal.MANN zachraňující #PersPron.ACT #PersPron.EFF život Považujeme lék #Idph.AIM AIDS řekl dr John Fung , imunolog Pittsburské univerzitě
-ERR:OK
+ERR:OK	WRONG_LEMMA_TAG
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1932.final.streex##41.EnglishT-wsj_1932-s41-t9
 EN:	According to one dealer, Japan said it has only 40,000 tons of sugar remaining to be shipped to it this year by Cuba under current commitments.
