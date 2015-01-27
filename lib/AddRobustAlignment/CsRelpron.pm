@@ -14,7 +14,11 @@ has '_align_zone' => (is => 'ro', isa => 'HashRef[Str]', builder => '_build_alig
 
 sub _does_apply {
     my ($self, $tnode) = @_;
-    return Treex::Tool::Coreference::NodeFilter::RelPron::is_relat($tnode);
+    my $applies = Treex::Tool::Coreference::NodeFilter::RelPron::is_relat($tnode);
+    if ($applies) {
+        print STDERR "IS_RELATIVE_PRONOUN\t" . $tnode->get_address() . "\n";
+    }
+    return $applies;
 }
 
 sub _get_align_selectors {
