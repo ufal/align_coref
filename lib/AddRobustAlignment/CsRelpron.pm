@@ -24,7 +24,7 @@ sub _does_apply {
 sub _get_align_selectors {
     return [ 
         'self', 
-        \&Treex::Tool::Align::Robust::CS::RelPron::access_via_alayer, 
+#        \&Treex::Tool::Align::Robust::CS::RelPron::access_via_alayer, 
         'eparents', 
         'siblings', 
         \&Treex::Tool::Align::Robust::CS::RelPron::select_via_self_siblings,
@@ -34,7 +34,7 @@ sub _get_align_selectors {
 sub _get_align_filters {
     return [ 
         \&Treex::Tool::Align::Robust::CS::RelPron::filter_self,
-        \&Treex::Tool::Align::Robust::CS::RelPron::filter_anodes,
+#        \&Treex::Tool::Align::Robust::CS::RelPron::filter_anodes,
         \&Treex::Tool::Align::Robust::CS::RelPron::filter_eparents,
         \&Treex::Tool::Align::Robust::CS::RelPron::filter_siblings,
         \&Treex::Tool::Align::Robust::CS::RelPron::filter_appos,
