@@ -6,11 +6,13 @@ use Treex::Core::Common;
 use List::MoreUtils qw/any/;
 
 use Treex::Tool::Align::Utils;
+use Treex::Block::My::PrintAlignData;
 
 extends 'Treex::Block::Write::BaseTextWriter';
 
 has 'align_language' => (is => 'ro', isa => 'Str', required => 1);
 has 'align_reltypes' => (is => 'ro', isa => 'Str', default => '!gold,!robust,!supervised,.*');
+has 'anaph_type' => ( is => 'ro', isa => 'Str', default => 'all' );
 
 sub intersect {
     my ($a1, $a2) = @_;
@@ -35,11 +37,18 @@ sub _process_node {
 
 sub process_tnode {
     my ($self, $tnode) = @_;
+    
+    my $type = Treex::Block::My::PrintAlignData::get_type($tnode);
+    return if (!defined $type);
+    return if (($self->anaph_type ne "all") && ($self->anaph_type ne $type));
+    
     $self->_process_node($tnode);
 }
-sub process_anode {
-    my ($self, $anode) = @_;
-    $self->_process_node($anode);
-}
+
+# TODO for the time being, ignoring alignment of anodes with no tnode counterpart
+#sub process_anode {
+#    my ($self, $anode) = @_;
+#    $self->_process_node($anode);
+#}
 
 1;
