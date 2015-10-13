@@ -179,13 +179,17 @@ eval :
 ############################## ALIGNMENT SUPERVISED PREDICTION ###########################
 ##########################################################################################
 
-extract_data_table : $(DATA_DIR)/train.pcedt_19.table
-$(DATA_DIR)/train.pcedt_19.table : $(GOLD_ANNOT_LIST)
-	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Ssrc \
+ANAPH_TYPE=all
+SELECTOR=ref
+
+extract_data_table : $(DATA_DIR)/train.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
+$(DATA_DIR)/train.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table : $(GOLD_ANNOT_TREES_DIR)/list
+	mkdir -p tmp/data_table/train.$(SELECTOR).$(ANAPH_TYPE).pcedt_19
+	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
 		Read::Treex from=@$< \
-		My::PrintAlignData align_language=$(ALIGN_ANNOT_LANG2) to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/$$1}'
-	find tmp/data_table -name "wsj_19*" | sort | xargs cat | gzip -c > $(DATA_DIR)/train.pcedt_19.$(ALIGN_TYPE).table
-	ln -s train.pcedt_19.$(ALIGN_TYPE).table $(DATA_DIR)/train.pcedt_19.table
+		My::PrintAlignData align_language=$(ALIGN_ANNOT_LANG2) type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/train.$(SELECTOR).$(ANAPH_TYPE).pcedt_19/$$1}'
+	find tmp/data_table/train.$(SELECTOR).$(ANAPH_TYPE).pcedt_19 -name "wsj_19*" | sort | xargs cat | gzip -c > $(DATA_DIR)/train.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.$(ALIGN_TYPE).table
+	ln -s train.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.$(ALIGN_TYPE).table $(DATA_DIR)/train.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
 
 
 ############################## USING ML FRAMEWORK ###########################
