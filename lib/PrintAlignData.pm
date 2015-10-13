@@ -17,7 +17,7 @@ use Treex::Block::My::CorefExprAddresses;
 extends 'Treex::Block::Write::BaseTextWriter';
 
 has 'align_language' => (is => 'ro', isa => 'Str', required => 1);
-has 'type' => ( is => 'ro', isa => 'Str', default => 'all' );
+has 'anaph_type' => ( is => 'ro', isa => 'Str', default => 'all' );
 has 'gold_align_filter' => (is => 'ro', isa => 'HashRef', builder => '_build_gaf');
 
 has '_feat_extractor' => (is => 'ro', isa => 'Treex::Tool::Align::FeaturesRole', builder => '_build_feat_extractor');
@@ -94,7 +94,7 @@ sub process_tnode {
     my $type = get_type($tnode);
     
     return if (!defined $type);
-    return if (($self->type ne "all") && ($self->type ne $type));
+    return if (($self->anaph_type ne "all") && ($self->anaph_type ne $type));
     
     #print join "\t", ($type, $tnode->get_address);
     #print "\n";
