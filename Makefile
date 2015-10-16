@@ -182,21 +182,21 @@ eval :
 ANAPH_TYPE=all
 SELECTOR=ref
 
-FULL_DATA=$(DATA_DIR)/full.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
-TRAIN_DATA=$(DATA_DIR)/train.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
-DEV_DATA=$(DATA_DIR)/dev.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
-EVAL_DATA=$(DATA_DIR)/eval.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
+FULL_DATA=$(DATA_DIR)/full.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
+TRAIN_DATA=$(DATA_DIR)/train.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
+DEV_DATA=$(DATA_DIR)/dev.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
+EVAL_DATA=$(DATA_DIR)/eval.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
 
 #extract_data_table : $(FULL_DATA) $(TRAIN_DATA) $(DEV_DATA) $(EVAL_DATA)
 extract_data_table : $(FULL_DATA)
 
-$(DATA_DIR)/%.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table : $(GOLD_ANNOT_TREES_DIR)/%.list
-	mkdir -p tmp/data_table/$*.$(SELECTOR).$(ANAPH_TYPE).pcedt_19
+$(DATA_DIR)/%.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table : $(GOLD_ANNOT_TREES_DIR)/%.list
+	mkdir -p tmp/data_table/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
 		Read::Treex from=@$< \
-		My::PrintAlignData align_language=$(ALIGN_ANNOT_LANG2) anaph_type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/$*.$(SELECTOR).$(ANAPH_TYPE).pcedt_19/$$1}'
-	find tmp/data_table/$*.$(SELECTOR).$(ANAPH_TYPE).pcedt_19 -name "wsj_19*" | sort | xargs cat | gzip -c > $(DATA_DIR)/$*.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.$(ALIGN_TYPE).table
-	ln -s $*.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.$(ALIGN_TYPE).table $(DATA_DIR)/$*.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
+		My::PrintAlignData align_language=$(ALIGN_ANNOT_LANG2) anaph_type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19/$$1}'
+	find tmp/data_table/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19 -name "wsj_19*" | sort | xargs cat | gzip -c > $(DATA_DIR)/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.$(ALIGN_TYPE).table
+	ln -s $*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.$(ALIGN_TYPE).table $(DATA_DIR)/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
 
 
 ############################## USING ML FRAMEWORK ###########################
@@ -207,11 +207,12 @@ FEATSET_LIST=conf/$(ALIGN_ANNOT_ID).feat.list
 STATS_FILE=$(ALIGN_ANNOT_ID).ml.results
 
 baseline_% : $(GOLD_ANNOT_TREES_DIR)/%.list
-	mkdir -p tmp/baseline_$*
+	rm -rf tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)
+	mkdir -p tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
 		Read::Treex from=@$< \
-		My::AlignmentEval align_language=$(ALIGN_ANNOT_LANG2) anaph_type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/baseline_$*/$$1}'
-	find tmp/baseline_$* -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/results_to_triples.pl --ranking | $(ML_FRAMEWORK)/scripts/eval.pl --acc --prf
+		My::AlignmentEval align_language=$(ALIGN_ANNOT_LANG2) anaph_type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)/$$1}'
+	find tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE) -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/results_to_triples.pl --ranking | $(ML_FRAMEWORK)/scripts/eval.pl --acc --prf
 
 TRAIN_TEST_DATA_LIST=TRAIN_DATA DEV_DATA EVAL_DATA
 
