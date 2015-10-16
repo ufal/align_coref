@@ -182,14 +182,21 @@ eval :
 ANAPH_TYPE=all
 SELECTOR=ref
 
-extract_data_table : $(DATA_DIR)/train.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
-$(DATA_DIR)/train.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table : $(GOLD_ANNOT_TREES_DIR)/list
-	mkdir -p tmp/data_table/train.$(SELECTOR).$(ANAPH_TYPE).pcedt_19
+FULL_DATA=$(DATA_DIR)/full.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
+TRAIN_DATA=$(DATA_DIR)/train.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
+DEV_DATA=$(DATA_DIR)/dev.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
+EVAL_DATA=$(DATA_DIR)/eval.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
+
+#extract_data_table : $(FULL_DATA) $(TRAIN_DATA) $(DEV_DATA) $(EVAL_DATA)
+extract_data_table : $(FULL_DATA)
+
+$(DATA_DIR)/%.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table : $(GOLD_ANNOT_TREES_DIR)/%.list
+	mkdir -p tmp/data_table/$*.$(SELECTOR).$(ANAPH_TYPE).pcedt_19
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
 		Read::Treex from=@$< \
-		My::PrintAlignData align_language=$(ALIGN_ANNOT_LANG2) type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/train.$(SELECTOR).$(ANAPH_TYPE).pcedt_19/$$1}'
-	find tmp/data_table/train.$(SELECTOR).$(ANAPH_TYPE).pcedt_19 -name "wsj_19*" | sort | xargs cat | gzip -c > $(DATA_DIR)/train.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.$(ALIGN_TYPE).table
-	ln -s train.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.$(ALIGN_TYPE).table $(DATA_DIR)/train.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
+		My::PrintAlignData align_language=$(ALIGN_ANNOT_LANG2) anaph_type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/$*.$(SELECTOR).$(ANAPH_TYPE).pcedt_19/$$1}'
+	find tmp/data_table/$*.$(SELECTOR).$(ANAPH_TYPE).pcedt_19 -name "wsj_19*" | sort | xargs cat | gzip -c > $(DATA_DIR)/$*.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.$(ALIGN_TYPE).table
+	ln -s $*.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.$(ALIGN_TYPE).table $(DATA_DIR)/$*.$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
 
 
 ############################## USING ML FRAMEWORK ###########################
@@ -199,21 +206,41 @@ RUNS_DIR=tmp/ml/$(ALIGN_ANNOT_ID)
 FEATSET_LIST=conf/$(ALIGN_ANNOT_ID).feat.list
 STATS_FILE=$(ALIGN_ANNOT_ID).ml.results
 
-baseline_eval : $(GOLD_ANNOT_LIST)
-	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Ssrc \
+baseline_% : $(GOLD_ANNOT_TREES_DIR)/%.list
+	mkdir -p tmp/baseline_$*
+	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
 		Read::Treex from=@$< \
-		My::AlignmentEval align_language=$(ALIGN_ANNOT_LANG2) to='.' substitute='{^.*/([^\/]*)}{tmp/baseline_eval/$$1}'
-	find tmp/baseline_eval -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK)/scripts/eval.pl --acc --prf
+		My::AlignmentEval align_language=$(ALIGN_ANNOT_LANG2) anaph_type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/baseline_$*/$$1}'
+	find tmp/baseline_$* -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK)/scripts/eval.pl --acc --prf
 
-tte_feats :
-	$(MAKE) -C $(ML_FRAMEWORK) tte_feats \
-        RANKING=1 \
+TRAIN_TEST_DATA_LIST=TRAIN_DATA DEV_DATA EVAL_DATA
+
+train_test :
+	$(ML_FRAMEWORK_DIR)/run.sh -f conf/params.ini \
+        EXPERIMENT_TYPE=train_test \
+        DATA_LIST="$(TRAIN_TEST_DATA_LIST)" \
+        TRAIN_DATA=$(TRAIN_DATA) \
+        DEV_DATA=$(DEV_DATA) \
+        EVAL_DATA=$(EVAL_DATA) \
+        FEATSET_LIST=conf/featset.list \
+        ML_METHOD_LIST=conf/ml_method.list \
+        LRC=$(LRC) \
+        TMP_DIR=tmp/ml \
+        D="$(D)"
+
+CROSS_VALID_DATA_LIST=FULL_DATA
+
+cross_valid :
+	$(ML_FRAMEWORK_DIR)/run.sh -f conf/params.ini \
+        EXPERIMENT_TYPE=cross-validation \
 		CROSS_VALID_N=10 \
-        DATA_SOURCE=pcedt_19 \
-        DATA_DIR=$(PWD)/$(DATA_DIR) \
-        RUNS_DIR=$(PWD)/$(RUNS_DIR) \
-        FEATSET_LIST=$(PWD)/$(FEATSET_LIST) \
-        STATS_FILE=$(PWD)/$(STATS_FILE)
+        DATA_LIST="$(CROSS_VALID_DATA_LIST)" \
+        FULL_DATA=$(FULL_DATA) \
+        FEATSET_LIST=conf/featset.list \
+        ML_METHOD_LIST=conf/ml_method.list \
+        LRC=$(LRC) \
+        TMP_DIR=tmp/ml \
+        D="$(D)"
 
 self_training :
 	$(MAKE) -C $(ML_FRAMEWORK) self_training \
