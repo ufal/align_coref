@@ -211,7 +211,7 @@ baseline_% : $(GOLD_ANNOT_TREES_DIR)/%.list
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
 		Read::Treex from=@$< \
 		My::AlignmentEval align_language=$(ALIGN_ANNOT_LANG2) anaph_type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/baseline_$*/$$1}'
-	find tmp/baseline_$* -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK)/scripts/eval.pl --acc --prf
+	find tmp/baseline_$* -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/results_to_triples.pl --ranking | $(ML_FRAMEWORK)/scripts/eval.pl --acc --prf
 
 TRAIN_TEST_DATA_LIST=TRAIN_DATA DEV_DATA EVAL_DATA
 
