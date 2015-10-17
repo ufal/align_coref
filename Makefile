@@ -233,14 +233,12 @@ cross_valid :
 
 ##################### DIAGNOSTICS ##########################################
 
-RESULT_FILE=tmp/ml/en_perspron/tte_feats_2014-03-06_22-50-55/75c76c8175/result/train.pcedt_19.in.vw.ranking.8411a.res
+show_errors : tmp/show_errors/full.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).err
+	less -SR $<
 
-error_list : errors.ml.$(ALIGN_ANNOT_ID).list
-errors.ml.$(ALIGN_ANNOT_ID).list :
-	cat $(RESULT_FILE) | grep "^[^0]" | sed 's/\.0\+//' | sed 's/-1//' > tmp/results.tmp
-	cat $(GOLD_ANNOT_LIST) | sed 's/^/data\//' | \
-		perl -e 'my @l = <STDIN>; my $$a = []; push @$$a, [] foreach (0..9); for (my $$i=0; $$i < @l; $$i++) { push @{$$a->[$$i % 10]}, $$l[$$i]; } foreach (0..9) { print join "", @{$$a->[$$_]};	}' > tmp/addresses.tmp
-	paste tmp/results.tmp tmp/addresses.tmp | perl -pe 'chmod $$_; my @a = split /\s+/, $$_; $$_ = ($$a[0] eq $$a[1]) ? "" : "$$_";' > errors.ml.$(ALIGN_ANNOT_ID).res
-	cut -f2 errors.ml.$(ALIGN_ANNOT_ID).res > $@
-	rm tmp/results.tmp tmp/addresses.tmp
-
+tmp/show_errors/%.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).err : $(GOLD_ANNOT_TREES_DIR)/%.list
+	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
+		Read::Treex from=@$< \
+		Util::SetGlobal align_language=en anaph_type=relpron \
+		My::AlignmentResolver model_path='$(MODEL_PATH)' \
+		My::ShowAlignErrors pred_align_type='supervised' > $@
