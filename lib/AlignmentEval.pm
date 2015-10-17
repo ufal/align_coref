@@ -43,7 +43,7 @@ sub _process_node {
     if (!defined $pred_nodes || !@$pred_nodes) {
         $pred_nodes = [ $node ];
     }
-    for (my $i = 0; $i < $#aligned_cands; $i++) {
+    for (my $i = 0; $i < @aligned_cands; $i++) {
         my $ali_c  = $aligned_cands[$i];
         my $loss = (any {$_ == $ali_c} @$pred_nodes) ? "0.00" : "1.00";
         print {$self->_file_handle} ($i+1).":$loss $true_idx-1\n";
