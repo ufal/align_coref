@@ -16,7 +16,7 @@ sub _does_apply {
     my ($self, $tnode) = @_;
     my $applies = Treex::Tool::Coreference::NodeFilter::PersPron::is_3rd_pers($tnode, {reflexive => 0});
     if ($applies) {
-        print STDERR "IS_3RD_PERSON_NONREFLEX_PRONOUN\t" . $tnode->get_address() . "\n";
+        log_debug "IS_3RD_PERSON_NONREFLEX_PRONOUN\t" . $tnode->get_address(), 1;
     }
     return $applies;
 }

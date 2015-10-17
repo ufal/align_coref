@@ -20,11 +20,11 @@ sub _process_node {
     # get true and predicted aligned nodes
     my ($true_nodes, $true_types) = Treex::Tool::Align::Utils::get_aligned_nodes_by_filter($node,
         {language => $self->align_language, selector => $self->selector, rel_types => ['gold']});
-    log_info "TRUE_TYPES: " . (join " ", @$true_types);
+    log_debug "TRUE_TYPES: " . (join " ", @$true_types), 1;
     my @rel_types = split /,/, $self->align_reltypes;
     my ($pred_nodes, $pred_types) = Treex::Tool::Align::Utils::get_aligned_nodes_by_filter($node,
         {language => $self->align_language, selector => $self->selector, rel_types => \@rel_types });
-    log_info "PRED_TYPES: " . (join " ", @$pred_types);
+    log_debug "PRED_TYPES: " . (join " ", @$pred_types), 1;
    
     # get all candidates for alignment
     my $layer = $node->get_layer;

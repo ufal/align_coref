@@ -16,7 +16,7 @@ sub _does_apply {
     my ($self, $tnode) = @_;
     my $applies = Treex::Tool::Coreference::NodeFilter::RelPron::is_relat($tnode);
     if ($applies) {
-        print STDERR "IS_RELATIVE_PRONOUN\t" . $tnode->get_address() . "\n";
+        log_debug "IS_RELATIVE_PRONOUN\t" . $tnode->get_address(), 1;
     }
     return $applies;
 }
