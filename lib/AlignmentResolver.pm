@@ -10,6 +10,7 @@ use Treex::Tool::Align::Features;
 use Treex::Tool::ML::VowpalWabbit::Ranker;
 
 extends 'Treex::Core::Block';
+with 'Treex::Block::My::AnaphFilterRole';
 
 has 'align_language' => (is => 'ro', isa => 'Str', required => 1);
 has 'model_path' => (is => 'ro', isa => 'Str', required => 1);
@@ -43,11 +44,9 @@ sub _get_candidates {
     return @candidates;
 }
 
-sub process_tnode {
+sub process_filtered_tnode {
     my ($self, $tnode) = @_;
     
-    return if (!Treex::Tool::Coreference::NodeFilter::PersPron::is_3rd_pers($tnode));
-
     my @cands = $self->_get_candidates($tnode);
     if (@cands > 100) {
         log_warn "[Block::My::AlignmentResolver]\tMore than 100 alignment candidates.";
@@ -56,7 +55,7 @@ sub process_tnode {
     my $feats = $self->_feat_extractor->create_instances($tnode, \@cands);
     my $winner_idx = $self->_ranker->pick_winner($feats);
 
-    Treex::Tool::Align::Utils::remove_aligned_nodes_by_filter($tnode, {language => $self->align_language, selector => $self->selector});
+    Treex::Tool::Align::Utils::remove_aligned_nodes_by_filter($tnode, {language => $self->align_language, selector => $self->selector, rel_types => ['!gold']});
     if ($cands[$winner_idx] != $tnode) {
         log_info "Adding alignment: " . $tnode->id . " --> " . $cands[$winner_idx]->id;
         Treex::Tool::Align::Utils::add_aligned_node($tnode, $cands[$winner_idx], "supervised");
