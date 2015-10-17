@@ -9,6 +9,7 @@ extends 'Treex::Core::Block';
 has '_align_lang' => (is => 'ro', isa => 'Str', required => 1);
 has '_align_zone' => (is => 'ro', isa => 'HashRef[Str]', builder => '_build_align_zone', lazy => 1);
 
+has 'remove_original' => (is => 'ro', isa => 'Bool', default => 0);
 has 'type' => (is => 'ro', isa => 'Str', default => 'robust');
 
 sub BUILD {
@@ -30,12 +31,14 @@ sub _build_align_zone {
 after 'process_zone' => sub {
     my ($self, $zone) = @_;
 
-    my $robust_label = $self->type;
-    my $align_filter = { %{$self->_align_zone}, rel_types => ["!$robust_label", '!gold', '.*'] };
+    if ($self->remove_original) {
+        my $robust_label = $self->type;
+        my $align_filter = { %{$self->_align_zone}, rel_types => ["!$robust_label", '!gold', '.*'] };
 
-    foreach my $tnode ($zone->get_ttree->get_descendants) {
-        if (defined $tnode->wild->{align_robust_err}) {
-            Treex::Tool::Align::Utils::remove_aligned_nodes_by_filter($tnode, $align_filter);
+        foreach my $tnode ($zone->get_ttree->get_descendants) {
+            if (defined $tnode->wild->{align_robust_err}) {
+                Treex::Tool::Align::Utils::remove_aligned_nodes_by_filter($tnode, $align_filter);
+            }
         }
     }
 };
