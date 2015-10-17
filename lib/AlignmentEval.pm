@@ -6,9 +6,9 @@ use Treex::Core::Common;
 use List::MoreUtils qw/any/;
 
 use Treex::Tool::Align::Utils;
-use Treex::Block::My::PrintAlignData;
 
 extends 'Treex::Block::Write::BaseTextWriter';
+with 'Treex::Block::My::AnaphFilterRole';
 
 has 'align_language' => (is => 'ro', isa => 'Str', required => 1);
 has 'align_reltypes' => (is => 'ro', isa => 'Str', default => '!gold,!robust,!supervised,.*');
@@ -51,12 +51,8 @@ sub _process_node {
     print {$self->_file_handle} "\n";
 }
 
-sub process_tnode {
+sub process_filtered_tnode {
     my ($self, $tnode) = @_;
-    
-    my $type = Treex::Block::My::PrintAlignData::get_type($tnode);
-    return if (!defined $type);
-    return if (($self->anaph_type ne "all") && ($self->anaph_type ne $type));
     
     $self->_process_node($tnode);
 }

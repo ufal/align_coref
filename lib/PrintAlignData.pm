@@ -10,14 +10,10 @@ use Treex::Tool::Align::Utils;
 use Treex::Tool::Align::FeaturesRole;
 use Treex::Tool::Align::Features;
 
-use Treex::Tool::Coreference::NodeFilter::PersPron;
-use Treex::Tool::Coreference::NodeFilter::RelPron;
-use Treex::Block::My::CorefExprAddresses;
-
 extends 'Treex::Block::Write::BaseTextWriter';
+with 'Treex::Block::My::AnaphFilterRole';
 
 has 'align_language' => (is => 'ro', isa => 'Str', required => 1);
-has 'anaph_type' => ( is => 'ro', isa => 'Str', default => 'all' );
 has 'gold_align_filter' => (is => 'ro', isa => 'HashRef', builder => '_build_gaf');
 
 has '_feat_extractor' => (is => 'ro', isa => 'Treex::Tool::Align::FeaturesRole', builder => '_build_feat_extractor');
@@ -65,39 +61,8 @@ sub _get_losses {
     return \@losses;
 }
 
-sub get_type {
-    my ($node) = @_;
-    my $type = undef;
-    if (Treex::Tool::Coreference::NodeFilter::PersPron::is_3rd_pers($node, {expressed => 1})) {
-        $type = "perspron";
-    }
-    elsif (Treex::Tool::Coreference::NodeFilter::PersPron::is_3rd_pers($node, {expressed => -1})) {
-        #$type = "perspron_unexpr";
-        $type = "zero";
-    }
-    elsif (Treex::Tool::Coreference::NodeFilter::RelPron::is_relat($node)) {
-        $type = "relpron";
-    }
-    elsif (Treex::Block::My::CorefExprAddresses::_is_cor($node)) {
-        #$type = "cor";
-        $type = "zero";
-    }
-    #elsif (Treex::Block::My::CorefExprAddresses::_is_cs_ten($node)) {
-    #    $type = "ten";
-    #}
-    return $type;
-}
-
-sub process_tnode {
+sub process_filtered_tnode {
     my ($self, $tnode) = @_;
-
-    my $type = get_type($tnode);
-    
-    return if (!defined $type);
-    return if (($self->anaph_type ne "all") && ($self->anaph_type ne $type));
-    
-    #print join "\t", ($type, $tnode->get_address);
-    #print "\n";
 
     my @cands = $self->_get_candidates($tnode);
     my $feats = $self->_feat_extractor->create_instances($tnode, \@cands);
