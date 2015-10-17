@@ -138,49 +138,34 @@ summary :
 	done
 	find tmp/summaries -path "*/$(ALIGN_ANNOT_LANG)_*.all" | sort | xargs cat > $(SUMMARY_FILE)
 
-#================= EVALUATING THE ALIGNMENT - ROBUST and ORIGINAL  =======================
-
-## > evaluation of the original PCEDT alignment
-#ALIGN_ORIGIN=orig
-#ALIGN_RELTYPES=!gold,!robust,!supervised,.*
-## > evaluation of the rule-based (robust) heuristics 
-ALIGN_ORIGIN=robust
-ALIGN_RELTYPES=!gold,!supervised,robust,.*
-##		> lines 36-40 in AddRobustAlignment.pm must be uncommented: removing the original alignment for nodes targeted by robust
-## > to evaluate only on subclasses focused by AddRobustAlignment
-##		> in My::AlignmentEval, filter out all instances that have undefined wild->{align_robust_err}
-
-tmp/trees.for_eval.$(ALIGN_ORIGIN)/list : $(GOLD_ANNOT_TREES_DIR)/list
-	mkdir -p $(dir $@)
-	treex $(LRC_FLAGS) -Sref \
-		Read::Treex from=@$< \
-		Util::SetGlobal language=cs \
-		Project::Attributes layer=t alignment_type=monolingual alignment_direction=trg2src attributes=gram/indeftype \
-		My::AddRobustAlignment::CsRelpron \
-		Util::SetGlobal language=en \
-		My::AddRobustAlignment::EnPerspron \
-		Write::Treex storable=1 to='.' substitute='{^.*/([^\/]*)}{$(dir $@)/$$1}'
-	find $(dir $@) -path "*.streex" | sort | sed 's/^.*\///' > $@
-
-eval_for_type : $(ALIGN_ANNOT_LIST_ALL) tmp/trees.for_eval.$(ALIGN_ORIGIN)/list
-	mkdir -p tmp/align_eval
-	cat $< | sed 's|^.*/|$(PWD)/tmp/trees.for_eval.$(ALIGN_ORIGIN)/|' > tmp/align_eval/$(ALIGN_ANNOT_ID).input.list
-	treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Sref \
-		Read::Treex from=@tmp/align_eval/$(ALIGN_ANNOT_ID).input.list \
-		My::AlignmentEval align_language=$(ALIGN_ANNOT_LANG2) align_reltypes='$(ALIGN_RELTYPES)' to='.' substitute='{^.*/([^\/]*)}{tmp/align_eval/$(ALIGN_ANNOT_ID).$(ALIGN_ORIGIN)/$$1}' extension='.txt'
-	find tmp/align_eval/$(ALIGN_ANNOT_ID).$(ALIGN_ORIGIN) -path "*.txt" | sort | xargs cat > tmp/align_eval/$(ALIGN_ANNOT_ID).$(ALIGN_ORIGIN).all
-
-eval :
-	for type in $(ALL_TYPES); do \
-		make eval_for_type ALIGN_ANNOT_LANG=$(ALIGN_ANNOT_LANG) ALIGN_ANNOT_TYPE=$$type; \
-	done
-
 ##########################################################################################
-############################## ALIGNMENT SUPERVISED PREDICTION ###########################
+################################# ALIGNMENT RESOLUTION  ##################################
 ##########################################################################################
 
 ANAPH_TYPE=all
 SELECTOR=ref
+
+###################### ORIGINAL AND RULE-BASED ALIGNMENT #####################
+
+baseline_% : $(GOLD_ANNOT_TREES_DIR)/%.list
+	rm -rf tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)
+	mkdir -p tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)
+	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
+		Read::Treex from=@$< \
+		My::AlignmentEval align_language=$(ALIGN_ANNOT_LANG2) anaph_type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)/$$1}'
+	find tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE) -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/results_to_triples.pl --ranking | $(ML_FRAMEWORK_DIR)/scripts/eval.pl --acc --prf
+
+rule-based_% : $(GOLD_ANNOT_TREES_DIR)/%.list
+	rm -rf tmp/rule-based/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)
+	mkdir -p tmp/rule-based/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)
+	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
+		Read::Treex from=@$< \
+		My::AddRobustAlignment::CsRelpron remove_original=1 language=cs \
+		My::AddRobustAlignment::EnPerspron remove_original=1 language=en \
+		My::AlignmentEval align_reltypes='!gold,!supervised,robust,.*' align_language=$(ALIGN_ANNOT_LANG2) anaph_type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/rule-based/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)/$$1}'
+	find tmp/rule-based/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE) -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/results_to_triples.pl --ranking | $(ML_FRAMEWORK_DIR)/scripts/eval.pl --acc --prf
+
+######################## DATA TABLE EXTRACTION ###############################
 
 FULL_DATA=$(DATA_DIR)/full.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
 TRAIN_DATA=$(DATA_DIR)/train.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
@@ -194,25 +179,14 @@ $(DATA_DIR)/%.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table : $(G
 	mkdir -p tmp/data_table/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
 		Read::Treex from=@$< \
+		My::AddRobustAlignment::CsRelpron language=cs \
+		My::AddRobustAlignment::EnPerspron language=en \
 		My::PrintAlignData align_language=$(ALIGN_ANNOT_LANG2) anaph_type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19/$$1}'
 	find tmp/data_table/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19 -name "wsj_19*" | sort | xargs cat | gzip -c > $(DATA_DIR)/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.$(ALIGN_TYPE).table
 	ln -s $*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.$(ALIGN_TYPE).table $(DATA_DIR)/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
 
 
 ############################## USING ML FRAMEWORK ###########################
-
-ML_FRAMEWORK=/home/mnovak/projects/ml_framework
-RUNS_DIR=tmp/ml/$(ALIGN_ANNOT_ID)
-FEATSET_LIST=conf/$(ALIGN_ANNOT_ID).feat.list
-STATS_FILE=$(ALIGN_ANNOT_ID).ml.results
-
-baseline_% : $(GOLD_ANNOT_TREES_DIR)/%.list
-	rm -rf tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)
-	mkdir -p tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)
-	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
-		Read::Treex from=@$< \
-		My::AlignmentEval align_language=$(ALIGN_ANNOT_LANG2) anaph_type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)/$$1}'
-	find tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE) -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/results_to_triples.pl --ranking | $(ML_FRAMEWORK)/scripts/eval.pl --acc --prf
 
 TRAIN_TEST_DATA_LIST=TRAIN_DATA DEV_DATA EVAL_DATA
 
@@ -243,16 +217,19 @@ cross_valid :
         TMP_DIR=tmp/ml \
         D="$(D)"
 
-self_training :
-	$(MAKE) -C $(ML_FRAMEWORK) self_training \
-        RANKING=1 \
-        DATA_SOURCE=pcedt_19 \
-        DATA_DIR=$(PWD)/$(DATA_DIR) \
-        RUNS_DIR=$(PWD)/tmp/testing_self_training \
-        FEATSET_LIST=$(PWD)/$(FEATSET_LIST) \
-		ML_METHOD=vw.ranking \
-		ML_PARAMS="mc --loss_function logistic --passes 10" \
-		FEAT_LIST="__SELF__,n1_functor,n2_functor"
+#RUNS_DIR=tmp/ml/$(ALIGN_ANNOT_ID)
+#FEATSET_LIST=conf/$(ALIGN_ANNOT_ID).feat.list
+#
+#self_training :
+#	$(MAKE) -C $(ML_FRAMEWORK) self_training \
+#        RANKING=1 \
+#        DATA_SOURCE=pcedt_19 \
+#        DATA_DIR=$(PWD)/$(DATA_DIR) \
+#        RUNS_DIR=$(PWD)/tmp/testing_self_training \
+#        FEATSET_LIST=$(PWD)/$(FEATSET_LIST) \
+#		ML_METHOD=vw.ranking \
+#		ML_PARAMS="mc --loss_function logistic --passes 10" \
+#		FEAT_LIST="__SELF__,n1_functor,n2_functor"
 
 ##################### DIAGNOSTICS ##########################################
 
