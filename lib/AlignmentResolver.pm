@@ -3,6 +3,8 @@ package Treex::Block::My::AlignmentResolver;
 use Moose;
 use Treex::Core::Common;
 
+use List::Util /max/;
+
 use Treex::Tool::Align::Utils;
 
 use Treex::Tool::Coreference::NodeFilter::PersPron;
@@ -53,7 +55,17 @@ sub process_filtered_tnode {
         return;
     }
     my $feats = $self->_feat_extractor->create_instances($tnode, \@cands);
-    my $winner_idx = $self->_ranker->pick_winner($feats);
+    my $winner_idx;
+    if (Treex::Core::Log::get_error_level() eq 'DEBUG') {
+        log_info "ALIGN SUPERVISED DEBUG ZONE";
+        my @scores = $self->_ranker->rank($feats);
+        $tnode->wild->{align_supervised_scores} = { map {$cands[$_]->id => $scores[$_]} 0 .. $#cands };
+        my $max = max @scores;
+        ($winner_idx) = grep {$scores[$_] == $max} 0 .. $#scores;
+    }
+    else {
+        $winner_idx = $self->_ranker->pick_winner($feats);
+    }
 
     Treex::Tool::Align::Utils::remove_aligned_nodes_by_filter($tnode, {language => $self->align_language, selector => $self->selector, rel_types => ['!gold']});
     if ($cands[$winner_idx] != $tnode) {

@@ -29,7 +29,7 @@ sub _build_paf {
 }
 
 sub _linearize_tnode {
-    my ($tnode, $true_ids, $pred_ids) = @_;
+    my ($tnode, $true_ids, $pred_ids, $scores) = @_;
 
     my $word = "";
     
@@ -61,32 +61,37 @@ sub _linearize_tnode {
             $word = color('red') . $word . color('reset');
         }
     }
+
+    if (defined $scores) {
+        my $score = $scores->{$tnode->id};
+        $word .= color('yellow') . $score . color('reset');
+    }
     return $word;
 }
 
 sub _linearize_ttree {
-    my ($ttree, $true_ids, $pred_ids) = @_;
+    my ($ttree, $true_ids, $pred_ids, $scores) = @_;
 
-    my @words = map {_linearize_tnode($_, $true_ids, $pred_ids)} $ttree->get_descendants({ordered => 1});
+    my @words = map {_linearize_tnode($_, $true_ids, $pred_ids, $scores)} $ttree->get_descendants({ordered => 1});
     return join " ", @words;
 }
 
 sub _linearize_ttree_structured {
-    my ($ttree, $true_ids, $pred_ids) = @_;
+    my ($ttree, $true_ids, $pred_ids, $scores) = @_;
     
     my ($sub_root) = $ttree->get_children({ordered => 1});
-    my $str = _linearize_subtree_recur($sub_root, $true_ids, $pred_ids);
+    my $str = _linearize_subtree_recur($sub_root, $true_ids, $pred_ids, $scores);
     return $str;
 }
 
 sub _linearize_subtree_recur {
-    my ($subtree, $true_ids, $pred_ids) = @_;
+    my ($subtree, $true_ids, $pred_ids, $scores) = @_;
     
-    my $str = _linearize_tnode($subtree, $true_ids, $pred_ids);
+    my $str = _linearize_tnode($subtree, $true_ids, $pred_ids, $scores);
     my @childs = $subtree->get_children({ordered => 1});
     if (@childs) {
         $str .= " [ ";
-        my @child_strs = map {_linearize_subtree_recur($_, $true_ids, $pred_ids)} @childs;
+        my @child_strs = map {_linearize_subtree_recur($_, $true_ids, $pred_ids, $scores)} @childs;
         $str .= join " ", @child_strs;
         $str .= " ]";
     }
@@ -114,13 +119,15 @@ sub _process_node {
     my $l1_lang = uc($l1_zone->language);
     my $l2_lang = uc($l2_zone->language);
 
+    my $scores = $l1_node->wild->{align_supervised_scores};
+
     print {$self->_file_handle} $l1_node->get_address . "\n";
     print {$self->_file_handle} $l1_lang .":\t" . $l1_zone->sentence . "\n";
     print {$self->_file_handle} $l2_lang .":\t" . $l2_zone->sentence . "\n";
     #print {$self->_file_handle} $l1_lang ."_T:\t" . _linearize_ttree($l1_zone->get_ttree, $l1_node) . "\n";
-    print {$self->_file_handle} $l1_lang ."_TT:\t" . _linearize_ttree_structured($l1_zone->get_ttree, { $l1_node->id => 1 } ) . "\n";
+    print {$self->_file_handle} $l1_lang ."_TT:\t" . _linearize_ttree_structured($l1_zone->get_ttree, { $l1_node->id => 1 }, undef, $scores ) . "\n";
     #print {$self->_file_handle} $l2_lang ."_T:\t" . _linearize_ttree($l2_zone->get_ttree, $l2_node) . "\n";
-    print {$self->_file_handle} $l2_lang ."_TT:\t" . _linearize_ttree_structured($l2_zone->get_ttree, \%l2_true_ids, \%l2_pred_ids) . "\n";
+    print {$self->_file_handle} $l2_lang ."_TT:\t" . _linearize_ttree_structured($l2_zone->get_ttree, \%l2_true_ids, \%l2_pred_ids, $scores ) . "\n";
     print {$self->_file_handle} "\n";
 }
 

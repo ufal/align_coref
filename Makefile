@@ -237,7 +237,7 @@ show_errors : tmp/show_errors/full.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)
 	less -SR $<
 
 tmp/show_errors/%.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).err : $(GOLD_ANNOT_TREES_DIR)/%.list
-	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
+	-treex $(LRC_FLAGS) -e DEBUG -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
 		Read::Treex from=@$< \
 		Util::SetGlobal align_language=en anaph_type=relpron \
 		My::AlignmentResolver model_path='$(MODEL_PATH)' \
