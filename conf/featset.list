@@ -5,12 +5,12 @@ giza_aligned par_aligned
 path_len path_types
 
 # gram : (tecto)grammatical features
-node1_t_lemma node2_t_lemma
-    node1_tag node2_tag
-    node1_utag node2_utag
-    node1_par_utag node2_par_utag
-    node1_reflex node2_reflex
-    node1_functor node2_functor functor_cat functor_eq
+n1_t_lemma n2_t_lemma
+    n1_tag n2_tag
+    n1_utag n2_utag
+    n1_par_utag n2_par_utag
+    n1_reflex n2_reflex
+    n1_functor n2_functor functor_cat functor_eq
 
 # new_gram : new grammatical features
 t_lemma_cat tag_cat utag_cat
@@ -25,7 +25,7 @@ alidir_n1_t_lemma alipar_n1_t_lemma alisubtree_n1_t_lemma
 # giza_id : GIZA + id -> should overfit on the training set
 #__SELF__
 #    @align
-#    node1_id node2_id
+#    n1_id n2_id
 
 # all+subtree_ali : including sutree alignmnent
 #__SELF__
