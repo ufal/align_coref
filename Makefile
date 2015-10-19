@@ -231,6 +231,14 @@ cross_valid :
 #		ML_PARAMS="mc --loss_function logistic --passes 10" \
 #		FEAT_LIST="__SELF__,n1_functor,n2_functor"
 
+test_all:
+	for lang in en cs; do \
+		for anaph_type in perspron relpron zero; do \
+			make cross_valid SELECTOR=ref ANAPH_TYPE=$$anaph_type ALIGN_ANNOT_LANG=$$lang D="$$lang $$anaphtype on ref - for LREC abstract"; \
+		done; \
+	done
+
+
 ##################### DIAGNOSTICS ##########################################
 
 show_errors : tmp/show_errors/full.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).err
