@@ -8,52 +8,21 @@ vw.ranking:mc --loss_function logistic --passes 1 --l1 0.000005
 vw.ranking:mc --loss_function logistic --passes 1 --l1 0.000001
 vw.ranking:mc --loss_function logistic --passes 1 --l1 0.0000005
 vw.ranking:mc --loss_function logistic --passes 1 --l1 0.0000001
-vw.ranking:mc --loss_function logistic --passes 1 --l2 0.00005
-vw.ranking:mc --loss_function logistic --passes 1 --l2 0.00001
-vw.ranking:mc --loss_function logistic --passes 1 --l2 0.000005
-vw.ranking:mc --loss_function logistic --passes 1 --l2 0.000001
-vw.ranking:mc --loss_function logistic --passes 1 --l2 0.0000005
-vw.ranking:mc --loss_function logistic --passes 1 --l2 0.0000001
 vw.ranking:mc --loss_function logistic --passes 1
+vw.ranking:mc --loss_function logistic --passes 3 --l1 0.00005
+vw.ranking:mc --loss_function logistic --passes 3 --l1 0.00001
+vw.ranking:mc --loss_function logistic --passes 3 --l1 0.000005
+vw.ranking:mc --loss_function logistic --passes 3 --l1 0.000001
+vw.ranking:mc --loss_function logistic --passes 3 --l1 0.0000005
+vw.ranking:mc --loss_function logistic --passes 3 --l1 0.0000001
+vw.ranking:mc --loss_function logistic --passes 3
 vw.ranking:mc --loss_function logistic --passes 5 --l1 0.00005
 vw.ranking:mc --loss_function logistic --passes 5 --l1 0.00001
 vw.ranking:mc --loss_function logistic --passes 5 --l1 0.000005
 vw.ranking:mc --loss_function logistic --passes 5 --l1 0.000001
 vw.ranking:mc --loss_function logistic --passes 5 --l1 0.0000005
 vw.ranking:mc --loss_function logistic --passes 5 --l1 0.0000001
-vw.ranking:mc --loss_function logistic --passes 5 --l2 0.00005
-vw.ranking:mc --loss_function logistic --passes 5 --l2 0.00001
-vw.ranking:mc --loss_function logistic --passes 5 --l2 0.000005
-vw.ranking:mc --loss_function logistic --passes 5 --l2 0.000001
-vw.ranking:mc --loss_function logistic --passes 5 --l2 0.0000005
-vw.ranking:mc --loss_function logistic --passes 5 --l2 0.0000001
 vw.ranking:mc --loss_function logistic --passes 5
-vw.ranking:mc --loss_function logistic --passes 10 --l1 0.00005
-vw.ranking:mc --loss_function logistic --passes 10 --l1 0.00001
-vw.ranking:mc --loss_function logistic --passes 10 --l1 0.000005
-vw.ranking:mc --loss_function logistic --passes 10 --l1 0.000001
-vw.ranking:mc --loss_function logistic --passes 10 --l1 0.0000005
-vw.ranking:mc --loss_function logistic --passes 10 --l1 0.0000001
-vw.ranking:mc --loss_function logistic --passes 10 --l2 0.00005
-vw.ranking:mc --loss_function logistic --passes 10 --l2 0.00001
-vw.ranking:mc --loss_function logistic --passes 10 --l2 0.000005
-vw.ranking:mc --loss_function logistic --passes 10 --l2 0.000001
-vw.ranking:mc --loss_function logistic --passes 10 --l2 0.0000005
-vw.ranking:mc --loss_function logistic --passes 10 --l2 0.0000001
-vw.ranking:mc --loss_function logistic --passes 10
-vw.ranking:mc --loss_function logistic --passes 50 --l1 0.00005
-vw.ranking:mc --loss_function logistic --passes 50 --l1 0.00001
-vw.ranking:mc --loss_function logistic --passes 50 --l1 0.000005
-vw.ranking:mc --loss_function logistic --passes 50 --l1 0.000001
-vw.ranking:mc --loss_function logistic --passes 50 --l1 0.0000005
-vw.ranking:mc --loss_function logistic --passes 50 --l1 0.0000001
-vw.ranking:mc --loss_function logistic --passes 50 --l2 0.00005
-vw.ranking:mc --loss_function logistic --passes 50 --l2 0.00001
-vw.ranking:mc --loss_function logistic --passes 50 --l2 0.000005
-vw.ranking:mc --loss_function logistic --passes 50 --l2 0.000001
-vw.ranking:mc --loss_function logistic --passes 50 --l2 0.0000005
-vw.ranking:mc --loss_function logistic --passes 50 --l2 0.0000001
-vw.ranking:mc --loss_function logistic --passes 50
 #sklearn-ranking.knn:n_neighbors=3
 #sklearn-ranking.log_regression:penalty=&quot;l1&quot;,C=1
 #sklearn-ranking.log_regression:penalty=&quot;l1&quot;,C=0.5
