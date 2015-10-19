@@ -233,7 +233,7 @@ cross_valid :
 
 test_all:
 	for lang in en cs; do \
-		for anaph_type in perspron relpron zero; do \
+		for anaph_type in perspron relpron zero all; do \
 			make cross_valid SELECTOR=ref ANAPH_TYPE=$$anaph_type ALIGN_ANNOT_LANG=$$lang D="$$lang $$anaphtype on ref - for LREC abstract"; \
 		done; \
 	done
