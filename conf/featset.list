@@ -17,7 +17,10 @@ t_lemma_cat tag_cat utag_cat
 
 # comb : combined features
 alipar_functor_cat alipar_functor_eq
-    alidir_t_lemma alipar_t_lemma
+    alidir_n2_t_lemma alipar_n2_t_lemma
+
+# comb1 : features combining the source node with original alignment
+alidir_n1_t_lemma alipar_n1_t_lemma alisubtree_n1_t_lemma
 
 # giza_id : GIZA + id -> should overfit on the training set
 #__SELF__
@@ -34,27 +37,42 @@ alipar_functor_cat alipar_functor_eq
 __SELF__
     @align @graph @gram @comb
 
-# all+alisubtree_t_lemma : best including the ali-subtree combined with the target t_lemma
+# all+alisubtree_n2_t_lemma : best including the ali-subtree combined with the target t_lemma
 __SELF__
     @align @graph @gram @comb
-    alisubtree_t_lemma
+    alisubtree_n2_t_lemma
 
 # all+new_gram : best including the concats of t_lemmas, tags and utags
 __SELF__
     @align @graph @gram @comb
     @new_gram
 
-# all+alisubtree_t_lemma+new_gram : best including both
+# all+alisubtree_n2_t_lemma+new_gram : best including both
 __SELF__
     @align @graph @gram @comb
     @new_gram
-    alisubtree_t_lemma
+    alisubtree_n2_t_lemma
+
+# all+comb1 : using the best feature set so far
+__SELF__
+    @align @graph @gram @comb
+    @comb1
+
+# all+alisubtree_n2_t_lemma+new_gram+comb1 : best including both
+__SELF__
+    @align @graph @gram @comb
+    @new_gram
+    alisubtree_n2_t_lemma
+    @comb1
 
 <<<EXPERIMENTS>>>
 
 #giza
 #graph
 all
-all+alisubtree_t_lemma
+all+alisubtree_n2_t_lemma
 all+new_gram
-all+alisubtree_t_lemma+new_gram
+all+alisubtree_n2_t_lemma+new_gram
+
+all+comb1
+all+alisubtree_n2_t_lemma+new_gram+comb1
