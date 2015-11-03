@@ -231,10 +231,13 @@ cross_valid :
 #		ML_PARAMS="mc --loss_function logistic --passes 10" \
 #		FEAT_LIST="__SELF__,n1_functor,n2_functor"
 
+			#make baseline_full SELECTOR=ref ANAPH_TYPE=$$anaph_type ALIGN_ANNOT_LANG=$$lang D="$$lang $$anaph_type on ref - for LREC abstract";
+			#make rule-based_full SELECTOR=ref ANAPH_TYPE=$$anaph_type ALIGN_ANNOT_LANG=$$lang D="$$lang $$anaph_type on ref - for LREC abstract";
 test_all:
 	for lang in en cs; do \
 		for anaph_type in perspron relpron zero all; do \
-			make cross_valid SELECTOR=ref ANAPH_TYPE=$$anaph_type ALIGN_ANNOT_LANG=$$lang D="$$lang $$anaphtype on ref - for LREC abstract"; \
+			make extract_data_table SELECTOR=ref ANAPH_TYPE=$$anaph_type ALIGN_ANNOT_LANG=$$lang D="$$lang $$anaph_type on ref - for LREC abstract"; \
+			make cross_valid SELECTOR=ref ANAPH_TYPE=$$anaph_type ALIGN_ANNOT_LANG=$$lang D="$$lang $$anaph_type on ref - for LREC abstract"; \
 		done; \
 	done
 
