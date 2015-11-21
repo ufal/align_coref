@@ -1,0 +1,715 @@
+for lang in en cs; do \
+		for anaph_type in perspron relpron zero all; do \
+			make baseline_full SELECTOR=ref ANAPH_TYPE=$anaph_type ALIGN_ANNOT_LANG=$lang D="$lang $anaph_type on ref - for LREC abstract"; \
+			make rule-based_full SELECTOR=ref ANAPH_TYPE=$anaph_type ALIGN_ANNOT_LANG=$lang D="$lang $anaph_type on ref - for LREC abstract"; \
+		done; \
+	done
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+rm -rf tmp/baseline/full.en.ref.perspron
+mkdir -p tmp/baseline/full.en.ref.perspron
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Len -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AlignmentEval align_language=cs anaph_type=perspron to='.' substitute='{^.*/([^\/]*)}{tmp/baseline/full.en.ref.perspron/$1}'
+TREEX-INFO:     8.098:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     8.219:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/4)
+TREEX-INFO:     8.285:	Loading block Treex::Block::Util::SetGlobal language=en (2/4)
+TREEX-INFO:     8.286:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/4)
+TREEX-INFO:     8.343:	Loading block Treex::Block::My::AlignmentEval align_language=cs anaph_type=perspron to=. substitute={^.*/([^\/]*)}{tmp/baseline/full.en.ref.perspron/$1} (4/4)
+TREEX-INFO:     8.956:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     8.956:	Loading the scenario took 1 seconds
+TREEX-INFO:     8.956:	Execution begin at 2015-10-21 10:50:34
+TREEX-INFO:     8.975:	Working directory ./026-cluster-run-gsYob created
+TREEX-INFO:    16.425:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    16.426:	
+
+TREEX-INFO:    16.431:	Jobs:   0 started,   0 loaded | Docs:     0/    0/   50
+TREEX-INFO:    41.339:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    46.348:	Probe Results:
+TREEX-INFO:    46.348:	Probe	   _check_epilog_before_finish	     0.003	1
+TREEX-INFO:    46.348:	Probe	             _check_job_errors	     0.006	1
+TREEX-INFO:    46.348:	Probe	           _is_job_status.call	     1.192	312
+TREEX-INFO:    46.348:	Probe	           _is_job_status.disk	     0.518	109
+TREEX-INFO:    46.348:	Probe	    _print_output_files.stderr	     3.852	50
+TREEX-INFO:    46.348:	Probe	_print_output_files.stderr.sleep2	     3.000	1
+TREEX-INFO:    46.348:	Probe	    _print_output_files.stdout	     1.414	50
+TREEX-INFO:    46.348:	Probe	          _wait_for_jobs.sleep	    21.551	4
+TREEX-INFO:    46.447:	Total execution time: 1015
+TREEX-INFO:    46.447:	Execution time per job: 10.150
+TREEX-INFO:    46.447:	Slowest machine: hyperion3.ufal.hide.ms.mff.cuni.cz = 11.5
+TREEX-INFO:    46.447:	Fastest machine: pandora9.ufal.hide.ms.mff.cuni.cz = 9.33333333333333
+TREEX-INFO:    46.447:	Times: 13.96, 11.97, 11.91, 11.86, 11.80, 11.74, 11.7, 11.57, 11.53, 11.5, 11.40, 11.34, 11.3, 11.29, 11.28, 11.17, 11.16, 10.99, 10.98, 10.95, 10.94, 10.93, 10.92, 10.9, 10.90, 10.89, 10.88, 10.87, 10.84, 10.83, 10.82, 10.81, 10.8, 10.79, 10.78, 10.77, 10.76, 10.75, 10.73, 10.72, 10.71, 10.70, 10.69, 10.68, 10.67, 10.66, 10.65, 10.64, 10.63, 10.62, 10.61, 10.6, 10.60, 10.59, 10.58, 10.56, 10.55, 10.54, 10.52, 10.51, 10.50, 10.48, 10.47, 10.46, 10.45, 10.44, 10.43, 10.42, 10.41, 10.4, 10.39, 10.38, 10.37, 10.36, 10.35, 10.33, 10.32, 10.31, 10.30, 10.27, 10.25, 10.24, 10.23, 10.22, 10.21, 10.2, 10.20, 10.19, 10.18, 10.15, 10.14, 10.12, 10.11, 10.1, 10.10, 10.100, 9.85, 9.49, 9.26, 9.13
+TREEX-INFO:    46.447:	All jobs finished.
+TREEX-INFO:    46.449:	Deleting jobs: 5179098, 5179099, 5179100, 5179101, 5179102, 5179103, 5179104, 5179105, 5179106, 5179107, 5179108, 5179109, 5179110, 5179111, 5179112, 5179113, 5179114, 5179115, 5179116, 5179117, 5179118, 5179119, 5179120, 5179121, 5179122, 5179123, 5179124, 5179125, 5179126, 5179127, 5179128, 5179129, 5179130, 5179131, 5179132, 5179133, 5179134, 5179135, 5179136, 5179137, 5179138, 5179139, 5179140, 5179141, 5179142, 5179143, 5179144, 5179145, 5179146, 5179147, 5179148, 5179149, 5179150, 5179151, 5179152, 5179153, 5179154, 5179155, 5179156, 5179157, 5179158, 5179159, 5179160, 5179161, 5179162, 5179163, 5179164, 5179165, 5179166, 5179167, 5179168, 5179169, 5179170, 5179171, 5179172, 5179173, 5179174, 5179175, 5179176, 5179177, 5179178, 5179179, 5179180, 5179181, 5179182, 5179183, 5179184, 5179185, 5179186, 5179187, 5179188, 5179189, 5179190, 5179191, 5179192, 5179193, 5179194, 5179195, 5179196, 5179197
+TREEX-INFO:    49.116:	Execution finished at 2015-10-21 10:51:14
+find tmp/baseline/full.en.ref.perspron -name "wsj_19*" | sort | xargs cat | /home/mnovak/projects/ml_framework/scripts/results_to_triples.pl --ranking | /home/mnovak/projects/ml_framework/scripts/eval.pl --acc --prf
+80.33 (441/549)
+88.51 (385/435)
+80.21 (385/480)
+84.15 
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+rm -rf tmp/rule-based/full.en.ref.perspron
+mkdir -p tmp/rule-based/full.en.ref.perspron
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Len -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AddRobustAlignment::CsRelpron remove_original=1 language=cs \
+		My::AddRobustAlignment::EnPerspron remove_original=1 language=en \
+		My::AlignmentEval align_reltypes='!gold,!supervised,robust,.*' align_language=cs anaph_type=perspron to='.' substitute='{^.*/([^\/]*)}{tmp/rule-based/full.en.ref.perspron/$1}'
+TREEX-INFO:     2.959:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     3.064:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/6)
+TREEX-INFO:     3.121:	Loading block Treex::Block::Util::SetGlobal language=en (2/6)
+TREEX-INFO:     3.122:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/6)
+TREEX-INFO:     3.179:	Loading block Treex::Block::My::AddRobustAlignment::CsRelpron remove_original=1 language=cs (4/6)
+TREEX-INFO:     3.451:	Loading block Treex::Block::My::AddRobustAlignment::EnPerspron remove_original=1 language=en (5/6)
+TREEX-INFO:     3.486:	Loading block Treex::Block::My::AlignmentEval align_reltypes=!gold,!supervised,robust,.* align_language=cs anaph_type=perspron to=. substitute={^.*/([^\/]*)}{tmp/rule-based/full.en.ref.perspron/$1} (6/6)
+TREEX-INFO:     3.596:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     3.596:	Loading the scenario took 1 seconds
+TREEX-INFO:     3.597:	Execution begin at 2015-10-21 10:51:19
+TREEX-INFO:     3.599:	Working directory ./027-cluster-run-Sp6Za created
+TREEX-INFO:    11.011:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    11.012:	
+
+TREEX-INFO:    11.018:	Jobs:   0 started,   0 loaded | Docs:     0/    0/   50
+TREEX-INFO:    30.839:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    35.849:	Probe Results:
+TREEX-INFO:    35.849:	Probe	   _check_epilog_before_finish	     0.003	1
+TREEX-INFO:    35.849:	Probe	             _check_job_errors	     0.006	1
+TREEX-INFO:    35.849:	Probe	           _is_job_status.call	     0.801	304
+TREEX-INFO:    35.849:	Probe	           _is_job_status.disk	     0.001	3
+TREEX-INFO:    35.849:	Probe	    _print_output_files.stderr	     0.836	50
+TREEX-INFO:    35.849:	Probe	    _print_output_files.stdout	     1.369	50
+TREEX-INFO:    35.849:	Probe	          _wait_for_jobs.sleep	    21.551	4
+TREEX-INFO:    35.950:	Total execution time: 431
+TREEX-INFO:    35.950:	Execution time per job: 4.310
+TREEX-INFO:    35.950:	Slowest machine: pandora9.ufal.hide.ms.mff.cuni.cz = 7
+TREEX-INFO:    35.950:	Fastest machine: andromeda4.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    35.950:	Times: 7.68, 7.59, 7.54, 7.46, 7.29, 6.9, 6.66, 6.61, 6.57, 6.56, 6.40, 5.99, 5.96, 5.93, 5.82, 5.75, 5.72, 5.7, 5.67, 5.62, 5.60, 5.58, 5.45, 5.42, 5.37, 5.34, 5.15, 4.98, 4.97, 4.95, 4.94, 4.92, 4.91, 4.90, 4.89, 4.88, 4.85, 4.84, 4.83, 4.81, 4.80, 4.79, 4.77, 4.74, 4.73, 4.71, 4.65, 4.64, 4.63, 4.6, 4.55, 4.52, 4.51, 4.5, 4.49, 4.48, 4.47, 4.44, 4.43, 4.4, 4.39, 4.38, 4.36, 4.35, 4.33, 4.32, 4.31, 4.3, 4.30, 4.28, 4.26, 4.25, 4.24, 4.23, 4.22, 4.21, 4.2, 4.20, 4.19, 4.18, 4.17, 4.16, 4.14, 4.13, 4.11, 4.1, 4.10, 4.100, 3.87, 3.86, 3.8, 3.78, 3.76, 3.70, 3.69, 3.53, 3.50, 3.41, 3.27, 3.12
+TREEX-INFO:    35.951:	All jobs finished.
+TREEX-INFO:    35.952:	Deleting jobs: 5179202, 5179203, 5179204, 5179205, 5179206, 5179207, 5179208, 5179209, 5179210, 5179211, 5179212, 5179213, 5179214, 5179215, 5179216, 5179217, 5179218, 5179219, 5179220, 5179221, 5179222, 5179223, 5179224, 5179225, 5179226, 5179227, 5179228, 5179229, 5179230, 5179231, 5179232, 5179233, 5179234, 5179235, 5179236, 5179237, 5179238, 5179239, 5179240, 5179241, 5179242, 5179243, 5179244, 5179245, 5179246, 5179247, 5179248, 5179249, 5179250, 5179251, 5179252, 5179253, 5179254, 5179255, 5179256, 5179257, 5179258, 5179259, 5179260, 5179261, 5179262, 5179263, 5179264, 5179265, 5179266, 5179267, 5179269, 5179270, 5179271, 5179272, 5179273, 5179274, 5179275, 5179276, 5179277, 5179278, 5179279, 5179280, 5179281, 5179282, 5179283, 5179284, 5179285, 5179286, 5179287, 5179288, 5179289, 5179290, 5179291, 5179292, 5179293, 5179294, 5179295, 5179296, 5179297, 5179298, 5179299, 5179300, 5179301, 5179302
+TREEX-INFO:    38.611:	Execution finished at 2015-10-21 10:51:54
+find tmp/rule-based/full.en.ref.perspron -name "wsj_19*" | sort | xargs cat | /home/mnovak/projects/ml_framework/scripts/results_to_triples.pl --ranking | /home/mnovak/projects/ml_framework/scripts/eval.pl --acc --prf
+87.98 (483/549)
+93.60 (424/453)
+88.33 (424/480)
+90.89 
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+rm -rf tmp/baseline/full.en.ref.relpron
+mkdir -p tmp/baseline/full.en.ref.relpron
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Len -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AlignmentEval align_language=cs anaph_type=relpron to='.' substitute='{^.*/([^\/]*)}{tmp/baseline/full.en.ref.relpron/$1}'
+TREEX-INFO:     2.961:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     3.059:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/4)
+TREEX-INFO:     3.117:	Loading block Treex::Block::Util::SetGlobal language=en (2/4)
+TREEX-INFO:     3.118:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/4)
+TREEX-INFO:     3.174:	Loading block Treex::Block::My::AlignmentEval align_language=cs anaph_type=relpron to=. substitute={^.*/([^\/]*)}{tmp/baseline/full.en.ref.relpron/$1} (4/4)
+TREEX-INFO:     3.488:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     3.488:	Loading the scenario took 1 seconds
+TREEX-INFO:     3.488:	Execution begin at 2015-10-21 10:51:58
+TREEX-INFO:     3.491:	Working directory ./028-cluster-run-ET_SO created
+TREEX-INFO:    10.517:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    10.517:	
+
+TREEX-INFO:    10.523:	Jobs:   0 started,   0 loaded | Docs:     0/    0/   50
+TREEX-INFO:    16.623:	Jobs: 100 started,   5 loaded | Docs:    14/   50/   50
+TREEX-INFO:    24.054:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    29.063:	Probe Results:
+TREEX-INFO:    29.063:	Probe	   _check_epilog_before_finish	     0.253	2
+TREEX-INFO:    29.063:	Probe	             _check_job_errors	     0.259	2
+TREEX-INFO:    29.063:	Probe	           _is_job_status.call	     1.097	418
+TREEX-INFO:    29.063:	Probe	           _is_job_status.disk	     0.083	65
+TREEX-INFO:    29.063:	Probe	    _print_output_files.stderr	     0.823	50
+TREEX-INFO:    29.063:	Probe	    _print_output_files.stdout	     1.352	50
+TREEX-INFO:    29.063:	Probe	          _wait_for_jobs.sleep	    15.001	3
+TREEX-INFO:    29.161:	Total execution time: 415
+TREEX-INFO:    29.161:	Execution time per job: 4.150
+TREEX-INFO:    29.161:	Slowest machine: iridium.ufal.hide.ms.mff.cuni.cz = 8
+TREEX-INFO:    29.161:	Fastest machine: lucifer2.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    29.162:	Times: 8.66, 8.57, 7.46, 7.19, 7.100, 6.99, 6.97, 6.82, 6.62, 6.61, 6.50, 6.43, 6.34, 5.91, 5.89, 5.81, 5.76, 5.72, 5.65, 5.6, 5.60, 5.59, 5.58, 5.51, 5.42, 5.38, 4.96, 4.95, 4.94, 4.93, 4.92, 4.9, 4.87, 4.84, 4.83, 4.8, 4.80, 4.79, 4.78, 4.75, 4.73, 4.7, 4.69, 4.67, 4.63, 4.55, 4.52, 4.49, 4.47, 4.45, 4.44, 4.41, 4.4, 4.37, 4.36, 4.35, 4.32, 4.31, 4.30, 4.28, 4.25, 4.23, 4.22, 4.2, 4.18, 4.16, 4.14, 4.12, 4.10, 3.98, 3.90, 3.88, 3.86, 3.85, 3.77, 3.74, 3.71, 3.70, 3.68, 3.64, 3.56, 3.54, 3.53, 3.5, 3.48, 3.40, 3.39, 3.33, 3.3, 3.29, 3.27, 3.26, 3.24, 3.21, 3.20, 3.17, 3.15, 3.13, 3.11, 3.1
+TREEX-INFO:    29.162:	All jobs finished.
+TREEX-INFO:    29.163:	Deleting jobs: 5179311, 5179312, 5179313, 5179314, 5179315, 5179316, 5179317, 5179318, 5179319, 5179320, 5179321, 5179322, 5179323, 5179324, 5179325, 5179326, 5179327, 5179328, 5179329, 5179330, 5179331, 5179332, 5179333, 5179334, 5179335, 5179336, 5179337, 5179338, 5179339, 5179340, 5179341, 5179342, 5179343, 5179344, 5179345, 5179346, 5179347, 5179348, 5179349, 5179350, 5179351, 5179352, 5179353, 5179354, 5179355, 5179356, 5179357, 5179358, 5179359, 5179360, 5179361, 5179362, 5179363, 5179364, 5179365, 5179366, 5179367, 5179368, 5179369, 5179370, 5179371, 5179372, 5179373, 5179374, 5179375, 5179376, 5179377, 5179378, 5179379, 5179380, 5179381, 5179382, 5179383, 5179384, 5179385, 5179386, 5179387, 5179388, 5179389, 5179390, 5179391, 5179392, 5179393, 5179394, 5179395, 5179396, 5179397, 5179398, 5179399, 5179400, 5179401, 5179402, 5179403, 5179404, 5179405, 5179406, 5179407, 5179408, 5179409, 5179410
+TREEX-INFO:    31.756:	Execution finished at 2015-10-21 10:52:26
+find tmp/baseline/full.en.ref.relpron -name "wsj_19*" | sort | xargs cat | /home/mnovak/projects/ml_framework/scripts/results_to_triples.pl --ranking | /home/mnovak/projects/ml_framework/scripts/eval.pl --acc --prf
+96.86 (216/223)
+97.42 (189/194)
+96.92 (189/195)
+97.17 
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+rm -rf tmp/rule-based/full.en.ref.relpron
+mkdir -p tmp/rule-based/full.en.ref.relpron
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Len -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AddRobustAlignment::CsRelpron remove_original=1 language=cs \
+		My::AddRobustAlignment::EnPerspron remove_original=1 language=en \
+		My::AlignmentEval align_reltypes='!gold,!supervised,robust,.*' align_language=cs anaph_type=relpron to='.' substitute='{^.*/([^\/]*)}{tmp/rule-based/full.en.ref.relpron/$1}'
+TREEX-INFO:     2.956:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     3.061:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/6)
+TREEX-INFO:     3.118:	Loading block Treex::Block::Util::SetGlobal language=en (2/6)
+TREEX-INFO:     3.119:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/6)
+TREEX-INFO:     3.174:	Loading block Treex::Block::My::AddRobustAlignment::CsRelpron remove_original=1 language=cs (4/6)
+TREEX-INFO:     3.412:	Loading block Treex::Block::My::AddRobustAlignment::EnPerspron remove_original=1 language=en (5/6)
+TREEX-INFO:     3.447:	Loading block Treex::Block::My::AlignmentEval align_reltypes=!gold,!supervised,robust,.* align_language=cs anaph_type=relpron to=. substitute={^.*/([^\/]*)}{tmp/rule-based/full.en.ref.relpron/$1} (6/6)
+TREEX-INFO:     3.556:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     3.556:	Loading the scenario took 0 seconds
+TREEX-INFO:     3.556:	Execution begin at 2015-10-21 10:52:30
+TREEX-INFO:     3.559:	Working directory ./029-cluster-run-flxXc created
+TREEX-INFO:    10.751:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    10.751:	
+
+TREEX-INFO:    10.826:	Jobs:  44 started,   0 loaded | Docs:     0/    0/   50
+TREEX-INFO:    19.284:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    24.294:	Probe Results:
+TREEX-INFO:    24.294:	Probe	   _check_epilog_before_finish	     0.264	2
+TREEX-INFO:    24.294:	Probe	             _check_job_errors	     0.270	2
+TREEX-INFO:    24.294:	Probe	           _is_job_status.call	     1.008	403
+TREEX-INFO:    24.294:	Probe	           _is_job_status.disk	     0.008	46
+TREEX-INFO:    24.294:	Probe	    _print_output_files.stderr	     0.840	50
+TREEX-INFO:    24.294:	Probe	    _print_output_files.stdout	     1.419	50
+TREEX-INFO:    24.294:	Probe	          _wait_for_jobs.sleep	    10.000	2
+TREEX-INFO:    24.346:	Total execution time: 173
+TREEX-INFO:    24.346:	Execution time per job: 1.730
+TREEX-INFO:    24.346:	Slowest machine: pandora9.ufal.hide.ms.mff.cuni.cz = 7
+TREEX-INFO:    24.346:	Fastest machine: orion8.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    24.346:	Times: 7.33, 6.3, 6.27, 5.8, 5.44, 5.43, 5.37, 5.34, 5.13, 4.9, 4.7, 4.5, 4.42, 4.41, 4.4, 4.39, 4.38, 4.35, 4.31, 4.30, 4.28, 4.26, 4.24, 4.21, 4.14, 4.12, 4.11, 4.1, 3.6, 3.40, 3.36, 3.32, 3.29, 3.25, 3.23, 3.22, 3.2, 3.20, 3.19, 3.18, 3.17, 3.16, 3.15, 3.10
+TREEX-INFO:    24.346:	All jobs finished.
+TREEX-INFO:    24.348:	Deleting jobs: 5179411, 5179412, 5179413, 5179414, 5179415, 5179416, 5179417, 5179418, 5179419, 5179420, 5179421, 5179422, 5179423, 5179424, 5179425, 5179426, 5179427, 5179428, 5179429, 5179430, 5179431, 5179432, 5179433, 5179434, 5179435, 5179436, 5179437, 5179438, 5179439, 5179440, 5179441, 5179442, 5179443, 5179444, 5179445, 5179446, 5179447, 5179448, 5179449, 5179450, 5179451, 5179452, 5179453, 5179454, 5179455, 5179456, 5179457, 5179458, 5179459, 5179460, 5179461, 5179462, 5179463, 5179464, 5179465, 5179466, 5179467, 5179468, 5179469, 5179470, 5179471, 5179472, 5179473, 5179474, 5179475, 5179476, 5179477, 5179478, 5179479, 5179480, 5179481, 5179482, 5179483, 5179484, 5179485, 5179486, 5179487, 5179488, 5179489, 5179490, 5179491, 5179492, 5179493, 5179494, 5179495, 5179496, 5179497, 5179498, 5179499, 5179500, 5179501, 5179502, 5179503, 5179504, 5179505, 5179506, 5179507, 5179508, 5179509, 5179510
+TREEX-INFO:    28.984:	Execution finished at 2015-10-21 10:52:56
+find tmp/rule-based/full.en.ref.relpron -name "wsj_19*" | sort | xargs cat | /home/mnovak/projects/ml_framework/scripts/results_to_triples.pl --ranking | /home/mnovak/projects/ml_framework/scripts/eval.pl --acc --prf
+98.21 (219/223)
+98.97 (192/194)
+98.46 (192/195)
+98.71 
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+rm -rf tmp/baseline/full.en.ref.zero
+mkdir -p tmp/baseline/full.en.ref.zero
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Len -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AlignmentEval align_language=cs anaph_type=zero to='.' substitute='{^.*/([^\/]*)}{tmp/baseline/full.en.ref.zero/$1}'
+TREEX-INFO:     2.909:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     3.006:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/4)
+TREEX-INFO:     3.063:	Loading block Treex::Block::Util::SetGlobal language=en (2/4)
+TREEX-INFO:     3.064:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/4)
+TREEX-INFO:     3.120:	Loading block Treex::Block::My::AlignmentEval align_language=cs anaph_type=zero to=. substitute={^.*/([^\/]*)}{tmp/baseline/full.en.ref.zero/$1} (4/4)
+TREEX-INFO:     3.432:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     3.432:	Loading the scenario took 1 seconds
+TREEX-INFO:     3.432:	Execution begin at 2015-10-21 10:53:00
+TREEX-INFO:     3.434:	Working directory ./030-cluster-run-tqxBF created
+TREEX-INFO:    10.547:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    10.548:	
+
+TREEX-INFO:    10.646:	Jobs:  59 started,   0 loaded | Docs:     0/    0/   50
+TREEX-INFO:    19.081:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    24.091:	Probe Results:
+TREEX-INFO:    24.091:	Probe	   _check_epilog_before_finish	     0.264	2
+TREEX-INFO:    24.091:	Probe	             _check_job_errors	     0.270	2
+TREEX-INFO:    24.091:	Probe	           _is_job_status.call	     0.979	403
+TREEX-INFO:    24.091:	Probe	           _is_job_status.disk	     0.011	61
+TREEX-INFO:    24.091:	Probe	    _print_output_files.stderr	     0.833	50
+TREEX-INFO:    24.091:	Probe	    _print_output_files.stdout	     1.461	50
+TREEX-INFO:    24.091:	Probe	          _wait_for_jobs.sleep	    10.000	2
+TREEX-INFO:    24.151:	Total execution time: 229
+TREEX-INFO:    24.151:	Execution time per job: 2.290
+TREEX-INFO:    24.151:	Slowest machine: pandora9.ufal.hide.ms.mff.cuni.cz = 7
+TREEX-INFO:    24.151:	Fastest machine: fireball1.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    24.151:	Times: 7.56, 7.33, 6.54, 6.20, 5.8, 5.58, 5.50, 5.48, 5.40, 5.38, 5.34, 5.30, 5.22, 4.59, 4.57, 4.55, 4.51, 4.47, 4.46, 4.45, 4.44, 4.39, 4.37, 4.32, 4.31, 4.27, 4.25, 4.23, 4.19, 4.15, 4.14, 4.1, 4.10, 3.9, 3.7, 3.6, 3.53, 3.52, 3.5, 3.49, 3.43, 3.42, 3.41, 3.4, 3.36, 3.35, 3.3, 3.29, 3.28, 3.26, 3.24, 3.21, 3.2, 3.18, 3.17, 3.16, 3.13, 3.12, 3.11
+TREEX-INFO:    24.151:	All jobs finished.
+TREEX-INFO:    24.153:	Deleting jobs: 5179511, 5179512, 5179513, 5179514, 5179515, 5179516, 5179517, 5179518, 5179519, 5179520, 5179521, 5179522, 5179523, 5179524, 5179525, 5179526, 5179527, 5179528, 5179529, 5179530, 5179531, 5179532, 5179533, 5179534, 5179535, 5179536, 5179537, 5179538, 5179539, 5179540, 5179541, 5179542, 5179543, 5179544, 5179545, 5179546, 5179547, 5179548, 5179549, 5179550, 5179551, 5179552, 5179553, 5179554, 5179555, 5179556, 5179557, 5179558, 5179559, 5179560, 5179561, 5179562, 5179563, 5179564, 5179565, 5179566, 5179567, 5179568, 5179569, 5179570, 5179571, 5179572, 5179573, 5179574, 5179575, 5179576, 5179577, 5179578, 5179579, 5179580, 5179581, 5179582, 5179583, 5179584, 5179585, 5179586, 5179587, 5179588, 5179589, 5179590, 5179591, 5179592, 5179593, 5179594, 5179595, 5179596, 5179597, 5179598, 5179599, 5179600, 5179601, 5179602, 5179603, 5179604, 5179605, 5179606, 5179607, 5179608, 5179609, 5179610
+TREEX-INFO:    28.752:	Execution finished at 2015-10-21 10:53:25
+find tmp/baseline/full.en.ref.zero -name "wsj_19*" | sort | xargs cat | /home/mnovak/projects/ml_framework/scripts/results_to_triples.pl --ranking | /home/mnovak/projects/ml_framework/scripts/eval.pl --acc --prf
+75.82 (533/703)
+98.60 (281/285)
+62.44 (281/450)
+76.46 
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+rm -rf tmp/rule-based/full.en.ref.zero
+mkdir -p tmp/rule-based/full.en.ref.zero
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Len -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AddRobustAlignment::CsRelpron remove_original=1 language=cs \
+		My::AddRobustAlignment::EnPerspron remove_original=1 language=en \
+		My::AlignmentEval align_reltypes='!gold,!supervised,robust,.*' align_language=cs anaph_type=zero to='.' substitute='{^.*/([^\/]*)}{tmp/rule-based/full.en.ref.zero/$1}'
+TREEX-INFO:     2.906:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     3.009:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/6)
+TREEX-INFO:     3.066:	Loading block Treex::Block::Util::SetGlobal language=en (2/6)
+TREEX-INFO:     3.067:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/6)
+TREEX-INFO:     3.123:	Loading block Treex::Block::My::AddRobustAlignment::CsRelpron remove_original=1 language=cs (4/6)
+TREEX-INFO:     3.361:	Loading block Treex::Block::My::AddRobustAlignment::EnPerspron remove_original=1 language=en (5/6)
+TREEX-INFO:     3.395:	Loading block Treex::Block::My::AlignmentEval align_reltypes=!gold,!supervised,robust,.* align_language=cs anaph_type=zero to=. substitute={^.*/([^\/]*)}{tmp/rule-based/full.en.ref.zero/$1} (6/6)
+TREEX-INFO:     3.504:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     3.504:	Loading the scenario took 1 seconds
+TREEX-INFO:     3.504:	Execution begin at 2015-10-21 10:53:30
+TREEX-INFO:     3.506:	Working directory ./031-cluster-run-ywq_g created
+TREEX-INFO:    10.628:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    10.628:	
+
+TREEX-INFO:    10.739:	Jobs:  69 started,   0 loaded | Docs:     0/    0/   50
+TREEX-INFO:    18.926:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    23.935:	Probe Results:
+TREEX-INFO:    23.935:	Probe	   _check_epilog_before_finish	     0.125	2
+TREEX-INFO:    23.935:	Probe	             _check_job_errors	     0.129	2
+TREEX-INFO:    23.935:	Probe	           _is_job_status.call	     0.825	403
+TREEX-INFO:    23.935:	Probe	           _is_job_status.disk	     0.013	71
+TREEX-INFO:    23.935:	Probe	    _print_output_files.stderr	     0.843	50
+TREEX-INFO:    23.935:	Probe	    _print_output_files.stdout	     1.365	50
+TREEX-INFO:    23.935:	Probe	          _wait_for_jobs.sleep	    10.000	2
+TREEX-INFO:    24.002:	Total execution time: 274
+TREEX-INFO:    24.002:	Execution time per job: 2.740
+TREEX-INFO:    24.002:	Slowest machine: iridium.ufal.hide.ms.mff.cuni.cz = 7.5
+TREEX-INFO:    24.002:	Fastest machine: hydra3.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    24.003:	Times: 8.49, 7.66, 7.56, 7.33, 6.5, 6.48, 5.64, 5.63, 5.58, 5.46, 5.44, 5.37, 5.32, 5.18, 4.69, 4.67, 4.65, 4.62, 4.6, 4.59, 4.57, 4.55, 4.53, 4.52, 4.47, 4.42, 4.39, 4.38, 4.36, 4.34, 4.3, 4.30, 4.25, 4.23, 4.22, 4.17, 4.16, 4.15, 4.12, 4.11, 4.1, 4.10, 3.9, 3.8, 3.7, 3.68, 3.61, 3.60, 3.54, 3.51, 3.50, 3.45, 3.43, 3.41, 3.4, 3.40, 3.35, 3.31, 3.29, 3.28, 3.27, 3.26, 3.24, 3.21, 3.2, 3.20, 3.19, 3.14, 3.13
+TREEX-INFO:    24.003:	All jobs finished.
+TREEX-INFO:    24.005:	Deleting jobs: 5179611, 5179612, 5179613, 5179614, 5179615, 5179616, 5179617, 5179618, 5179619, 5179620, 5179621, 5179622, 5179623, 5179624, 5179625, 5179626, 5179627, 5179628, 5179629, 5179630, 5179631, 5179632, 5179633, 5179634, 5179635, 5179636, 5179637, 5179638, 5179639, 5179640, 5179641, 5179642, 5179643, 5179644, 5179645, 5179646, 5179647, 5179648, 5179649, 5179650, 5179651, 5179652, 5179653, 5179654, 5179655, 5179656, 5179657, 5179658, 5179659, 5179660, 5179661, 5179662, 5179663, 5179664, 5179665, 5179666, 5179667, 5179668, 5179669, 5179670, 5179671, 5179672, 5179673, 5179674, 5179675, 5179676, 5179677, 5179678, 5179679, 5179680, 5179681, 5179682, 5179683, 5179684, 5179685, 5179686, 5179687, 5179688, 5179689, 5179690, 5179691, 5179692, 5179693, 5179694, 5179695, 5179696, 5179697, 5179698, 5179699, 5179700, 5179701, 5179702, 5179703, 5179704, 5179705, 5179706, 5179707, 5179708, 5179709, 5179710
+TREEX-INFO:    28.674:	Execution finished at 2015-10-21 10:53:55
+find tmp/rule-based/full.en.ref.zero -name "wsj_19*" | sort | xargs cat | /home/mnovak/projects/ml_framework/scripts/results_to_triples.pl --ranking | /home/mnovak/projects/ml_framework/scripts/eval.pl --acc --prf
+79.66 (560/703)
+99.04 (308/311)
+68.44 (308/450)
+80.95 
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+rm -rf tmp/baseline/full.en.ref.all
+mkdir -p tmp/baseline/full.en.ref.all
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Len -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AlignmentEval align_language=cs anaph_type=all to='.' substitute='{^.*/([^\/]*)}{tmp/baseline/full.en.ref.all/$1}'
+TREEX-INFO:     2.892:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     2.990:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/4)
+TREEX-INFO:     3.046:	Loading block Treex::Block::Util::SetGlobal language=en (2/4)
+TREEX-INFO:     3.047:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/4)
+TREEX-INFO:     3.103:	Loading block Treex::Block::My::AlignmentEval align_language=cs anaph_type=all to=. substitute={^.*/([^\/]*)}{tmp/baseline/full.en.ref.all/$1} (4/4)
+TREEX-INFO:     3.411:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     3.411:	Loading the scenario took 1 seconds
+TREEX-INFO:     3.411:	Execution begin at 2015-10-21 10:53:59
+TREEX-INFO:     3.414:	Working directory ./032-cluster-run-zBYD9 created
+TREEX-INFO:    10.517:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    10.518:	
+
+TREEX-INFO:    10.534:	Jobs:   5 started,   0 loaded | Docs:     0/    0/   50
+TREEX-INFO:    18.917:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    23.926:	Probe Results:
+TREEX-INFO:    23.926:	Probe	   _check_epilog_before_finish	     0.190	2
+TREEX-INFO:    23.926:	Probe	             _check_job_errors	     0.194	2
+TREEX-INFO:    23.926:	Probe	           _is_job_status.call	     0.876	403
+TREEX-INFO:    23.926:	Probe	           _is_job_status.disk	     0.004	14
+TREEX-INFO:    23.926:	Probe	    _print_output_files.stderr	     0.818	50
+TREEX-INFO:    23.926:	Probe	    _print_output_files.stdout	     1.347	50
+TREEX-INFO:    23.926:	Probe	          _wait_for_jobs.sleep	    10.000	2
+TREEX-INFO:    24.012:	Total execution time: 344
+TREEX-INFO:    24.012:	Execution time per job: 3.440
+TREEX-INFO:    24.012:	Slowest machine: pandora9.ufal.hide.ms.mff.cuni.cz = 8
+TREEX-INFO:    24.012:	Fastest machine: hyperion1.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    24.012:	Times: 8.57, 8.33, 7.65, 7.49, 6.64, 6.61, 6.39, 6.38, 5.84, 5.81, 5.62, 5.6, 5.60, 5.58, 5.46, 5.45, 5.43, 5.36, 5.34, 5.31, 5.29, 5.14, 4.85, 4.83, 4.80, 4.79, 4.77, 4.75, 4.73, 4.7, 4.66, 4.56, 4.55, 4.53, 4.52, 4.51, 4.50, 4.48, 4.47, 4.41, 4.32, 4.30, 4.27, 4.25, 4.22, 4.21, 4.20, 4.15, 4.13, 4.12, 3.9, 3.86, 3.82, 3.8, 3.78, 3.76, 3.74, 3.72, 3.71, 3.70, 3.69, 3.68, 3.67, 3.63, 3.59, 3.54, 3.5, 3.44, 3.42, 3.4, 3.40, 3.37, 3.35, 3.3, 3.28, 3.26, 3.24, 3.23, 3.2, 3.19, 3.18, 3.17, 3.16, 3.11, 3.1, 3.10
+TREEX-INFO:    24.012:	All jobs finished.
+TREEX-INFO:    24.014:	Deleting jobs: 5179711, 5179712, 5179713, 5179714, 5179715, 5179716, 5179717, 5179718, 5179719, 5179720, 5179721, 5179722, 5179723, 5179724, 5179725, 5179726, 5179727, 5179728, 5179729, 5179730, 5179731, 5179732, 5179733, 5179734, 5179735, 5179736, 5179737, 5179738, 5179739, 5179740, 5179741, 5179742, 5179743, 5179744, 5179745, 5179746, 5179747, 5179748, 5179749, 5179750, 5179751, 5179752, 5179753, 5179754, 5179755, 5179756, 5179757, 5179758, 5179759, 5179760, 5179761, 5179762, 5179763, 5179764, 5179765, 5179766, 5179767, 5179768, 5179769, 5179770, 5179771, 5179772, 5179773, 5179774, 5179775, 5179776, 5179777, 5179778, 5179779, 5179780, 5179781, 5179782, 5179783, 5179784, 5179785, 5179786, 5179787, 5179788, 5179789, 5179790, 5179791, 5179792, 5179793, 5179794, 5179795, 5179796, 5179797, 5179798, 5179799, 5179800, 5179801, 5179802, 5179803, 5179804, 5179805, 5179806, 5179807, 5179808, 5179809, 5179810
+TREEX-INFO:    28.654:	Execution finished at 2015-10-21 10:54:24
+find tmp/baseline/full.en.ref.all -name "wsj_19*" | sort | xargs cat | /home/mnovak/projects/ml_framework/scripts/results_to_triples.pl --ranking | /home/mnovak/projects/ml_framework/scripts/eval.pl --acc --prf
+80.68 (1190/1475)
+93.54 (855/914)
+76.00 (855/1125)
+83.86 
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+rm -rf tmp/rule-based/full.en.ref.all
+mkdir -p tmp/rule-based/full.en.ref.all
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Len -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AddRobustAlignment::CsRelpron remove_original=1 language=cs \
+		My::AddRobustAlignment::EnPerspron remove_original=1 language=en \
+		My::AlignmentEval align_reltypes='!gold,!supervised,robust,.*' align_language=cs anaph_type=all to='.' substitute='{^.*/([^\/]*)}{tmp/rule-based/full.en.ref.all/$1}'
+TREEX-INFO:     2.882:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     2.986:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/6)
+TREEX-INFO:     3.043:	Loading block Treex::Block::Util::SetGlobal language=en (2/6)
+TREEX-INFO:     3.044:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/6)
+TREEX-INFO:     3.100:	Loading block Treex::Block::My::AddRobustAlignment::CsRelpron remove_original=1 language=cs (4/6)
+TREEX-INFO:     3.339:	Loading block Treex::Block::My::AddRobustAlignment::EnPerspron remove_original=1 language=en (5/6)
+TREEX-INFO:     3.373:	Loading block Treex::Block::My::AlignmentEval align_reltypes=!gold,!supervised,robust,.* align_language=cs anaph_type=all to=. substitute={^.*/([^\/]*)}{tmp/rule-based/full.en.ref.all/$1} (6/6)
+TREEX-INFO:     3.484:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     3.484:	Loading the scenario took 0 seconds
+TREEX-INFO:     3.484:	Execution begin at 2015-10-21 10:54:28
+TREEX-INFO:     3.487:	Working directory ./033-cluster-run-t8RRT created
+TREEX-INFO:    10.549:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    10.549:	
+
+TREEX-INFO:    10.555:	Jobs:   0 started,   0 loaded | Docs:     0/    0/   50
+TREEX-INFO:    21.822:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    26.831:	Probe Results:
+TREEX-INFO:    26.831:	Probe	   _check_epilog_before_finish	     0.003	1
+TREEX-INFO:    26.831:	Probe	             _check_job_errors	     0.006	1
+TREEX-INFO:    26.831:	Probe	           _is_job_status.call	     0.808	390
+TREEX-INFO:    26.831:	Probe	           _is_job_status.disk	     0.017	150
+TREEX-INFO:    26.831:	Probe	    _print_output_files.stderr	     3.847	50
+TREEX-INFO:    26.831:	Probe	_print_output_files.stderr.sleep2	     3.000	1
+TREEX-INFO:    26.831:	Probe	    _print_output_files.stdout	     1.368	50
+TREEX-INFO:    26.832:	Probe	          _wait_for_jobs.sleep	    10.000	2
+TREEX-INFO:    26.929:	Total execution time: 381
+TREEX-INFO:    26.929:	Execution time per job: 3.810
+TREEX-INFO:    26.929:	Slowest machine: iridium.ufal.hide.ms.mff.cuni.cz = 7
+TREEX-INFO:    26.929:	Fastest machine: andromeda4.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    26.929:	Times: 7.65, 7.48, 6.95, 6.86, 6.63, 6.61, 6.42, 6.34, 6.33, 6.12, 5.97, 5.91, 5.85, 5.84, 5.83, 5.64, 5.59, 5.58, 5.47, 5.43, 5.40, 5.36, 5.30, 5.11, 4.96, 4.94, 4.9, 4.78, 4.76, 4.75, 4.74, 4.7, 4.66, 4.62, 4.57, 4.54, 4.53, 4.52, 4.5, 4.45, 4.41, 4.37, 4.31, 4.28, 4.27, 4.26, 4.25, 4.23, 4.22, 4.21, 4.15, 3.98, 3.93, 3.92, 3.90, 3.89, 3.88, 3.87, 3.82, 3.81, 3.8, 3.80, 3.79, 3.77, 3.73, 3.72, 3.71, 3.70, 3.69, 3.68, 3.67, 3.6, 3.60, 3.56, 3.55, 3.51, 3.50, 3.49, 3.46, 3.44, 3.4, 3.39, 3.38, 3.35, 3.32, 3.3, 3.29, 3.24, 3.2, 3.20, 3.19, 3.18, 3.17, 3.16, 3.14, 3.13, 3.1, 3.10
+TREEX-INFO:    26.929:	All jobs finished.
+TREEX-INFO:    26.931:	Deleting jobs: 5179811, 5179812, 5179813, 5179814, 5179815, 5179816, 5179817, 5179818, 5179819, 5179820, 5179821, 5179822, 5179823, 5179824, 5179825, 5179826, 5179827, 5179828, 5179829, 5179830, 5179831, 5179832, 5179833, 5179834, 5179835, 5179836, 5179837, 5179838, 5179839, 5179840, 5179841, 5179842, 5179843, 5179844, 5179845, 5179846, 5179847, 5179848, 5179849, 5179850, 5179851, 5179852, 5179853, 5179854, 5179855, 5179856, 5179857, 5179858, 5179859, 5179860, 5179861, 5179862, 5179863, 5179864, 5179865, 5179866, 5179867, 5179868, 5179869, 5179870, 5179871, 5179872, 5179873, 5179874, 5179875, 5179876, 5179877, 5179878, 5179879, 5179880, 5179881, 5179882, 5179883, 5179884, 5179885, 5179886, 5179887, 5179888, 5179889, 5179890, 5179891, 5179892, 5179893, 5179894, 5179895, 5179896, 5179897, 5179898, 5179899, 5179900, 5179901, 5179902, 5179903, 5179904, 5179905, 5179906, 5179907, 5179908, 5179909, 5179910
+TREEX-INFO:    29.563:	Execution finished at 2015-10-21 10:54:55
+find tmp/rule-based/full.en.ref.all -name "wsj_19*" | sort | xargs cat | /home/mnovak/projects/ml_framework/scripts/results_to_triples.pl --ranking | /home/mnovak/projects/ml_framework/scripts/eval.pl --acc --prf
+85.56 (1262/1475)
+96.45 (924/958)
+82.13 (924/1125)
+88.72 
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+rm -rf tmp/baseline/full.cs.ref.perspron
+mkdir -p tmp/baseline/full.cs.ref.perspron
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Lcs -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AlignmentEval align_language=en anaph_type=perspron to='.' substitute='{^.*/([^\/]*)}{tmp/baseline/full.cs.ref.perspron/$1}'
+TREEX-INFO:     2.914:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     3.011:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/4)
+TREEX-INFO:     3.068:	Loading block Treex::Block::Util::SetGlobal language=cs (2/4)
+TREEX-INFO:     3.069:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/4)
+TREEX-INFO:     3.125:	Loading block Treex::Block::My::AlignmentEval align_language=en anaph_type=perspron to=. substitute={^.*/([^\/]*)}{tmp/baseline/full.cs.ref.perspron/$1} (4/4)
+TREEX-INFO:     3.435:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     3.435:	Loading the scenario took 1 seconds
+TREEX-INFO:     3.435:	Execution begin at 2015-10-21 10:54:59
+TREEX-INFO:     3.438:	Working directory ./034-cluster-run-pQLq_ created
+TREEX-INFO:    10.917:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    10.918:	
+
+TREEX-INFO:    10.964:	Jobs:  25 started,   0 loaded | Docs:     0/    0/   50
+TREEX-INFO:    19.383:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    24.393:	Probe Results:
+TREEX-INFO:    24.393:	Probe	   _check_epilog_before_finish	     0.265	2
+TREEX-INFO:    24.393:	Probe	             _check_job_errors	     0.271	2
+TREEX-INFO:    24.393:	Probe	           _is_job_status.call	     1.020	403
+TREEX-INFO:    24.393:	Probe	           _is_job_status.disk	     0.006	27
+TREEX-INFO:    24.393:	Probe	    _print_output_files.stderr	     0.826	50
+TREEX-INFO:    24.393:	Probe	    _print_output_files.stdout	     1.351	50
+TREEX-INFO:    24.393:	Probe	          _wait_for_jobs.sleep	    10.000	2
+TREEX-INFO:    24.477:	Total execution time: 288
+TREEX-INFO:    24.477:	Execution time per job: 2.880
+TREEX-INFO:    24.477:	Slowest machine: iridium.ufal.hide.ms.mff.cuni.cz = 7
+TREEX-INFO:    24.477:	Fastest machine: fireball1.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    24.477:	Times: 7.64, 7.61, 7.46, 7.33, 5.73, 5.70, 5.65, 5.63, 5.60, 5.48, 5.43, 5.40, 5.34, 5.26, 5.16, 4.78, 4.77, 4.75, 4.67, 4.62, 4.58, 4.56, 4.54, 4.52, 4.49, 4.44, 4.41, 4.36, 4.30, 4.24, 4.23, 3.9, 3.8, 3.76, 3.74, 3.72, 3.71, 3.7, 3.69, 3.68, 3.66, 3.6, 3.59, 3.57, 3.55, 3.53, 3.51, 3.5, 3.50, 3.47, 3.45, 3.42, 3.4, 3.39, 3.38, 3.37, 3.35, 3.32, 3.31, 3.3, 3.29, 3.28, 3.27, 3.25, 3.22, 3.21, 3.2, 3.20, 3.19, 3.18, 3.17, 3.15, 3.14, 3.13, 3.12, 3.11, 3.1, 3.10
+TREEX-INFO:    24.477:	All jobs finished.
+TREEX-INFO:    24.479:	Deleting jobs: 5179911, 5179912, 5179913, 5179914, 5179915, 5179916, 5179917, 5179918, 5179919, 5179920, 5179921, 5179922, 5179923, 5179924, 5179925, 5179926, 5179927, 5179928, 5179929, 5179930, 5179931, 5179932, 5179933, 5179934, 5179935, 5179936, 5179937, 5179938, 5179939, 5179940, 5179941, 5179942, 5179943, 5179944, 5179945, 5179946, 5179947, 5179948, 5179949, 5179950, 5179951, 5179952, 5179953, 5179954, 5179955, 5179956, 5179957, 5179958, 5179959, 5179960, 5179961, 5179962, 5179963, 5179964, 5179965, 5179966, 5179967, 5179968, 5179969, 5179970, 5179971, 5179972, 5179973, 5179974, 5179975, 5179976, 5179977, 5179978, 5179979, 5179980, 5179981, 5179982, 5179983, 5179984, 5179985, 5179986, 5179987, 5179988, 5179989, 5179990, 5179991, 5179992, 5179993, 5179994, 5179995, 5179996, 5179997, 5179998, 5179999, 5180000, 5180001, 5180002, 5180003, 5180004, 5180005, 5180006, 5180007, 5180008, 5180009, 5180010
+TREEX-INFO:    29.153:	Execution finished at 2015-10-21 10:55:25
+find tmp/baseline/full.cs.ref.perspron -name "wsj_19*" | sort | xargs cat | /home/mnovak/projects/ml_framework/scripts/results_to_triples.pl --ranking | /home/mnovak/projects/ml_framework/scripts/eval.pl --acc --prf
+88.11 (252/286)
+93.80 (227/242)
+89.02 (227/255)
+91.35 
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+rm -rf tmp/rule-based/full.cs.ref.perspron
+mkdir -p tmp/rule-based/full.cs.ref.perspron
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Lcs -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AddRobustAlignment::CsRelpron remove_original=1 language=cs \
+		My::AddRobustAlignment::EnPerspron remove_original=1 language=en \
+		My::AlignmentEval align_reltypes='!gold,!supervised,robust,.*' align_language=en anaph_type=perspron to='.' substitute='{^.*/([^\/]*)}{tmp/rule-based/full.cs.ref.perspron/$1}'
+TREEX-INFO:     2.920:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     3.025:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/6)
+TREEX-INFO:     3.082:	Loading block Treex::Block::Util::SetGlobal language=cs (2/6)
+TREEX-INFO:     3.083:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/6)
+TREEX-INFO:     3.140:	Loading block Treex::Block::My::AddRobustAlignment::CsRelpron remove_original=1 language=cs (4/6)
+TREEX-INFO:     3.381:	Loading block Treex::Block::My::AddRobustAlignment::EnPerspron remove_original=1 language=en (5/6)
+TREEX-INFO:     3.416:	Loading block Treex::Block::My::AlignmentEval align_reltypes=!gold,!supervised,robust,.* align_language=en anaph_type=perspron to=. substitute={^.*/([^\/]*)}{tmp/rule-based/full.cs.ref.perspron/$1} (6/6)
+TREEX-INFO:     3.527:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     3.527:	Loading the scenario took 1 seconds
+TREEX-INFO:     3.527:	Execution begin at 2015-10-21 10:55:29
+TREEX-INFO:     3.530:	Working directory ./035-cluster-run-GxQ56 created
+TREEX-INFO:    10.745:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    10.745:	
+
+TREEX-INFO:    10.759:	Jobs:   4 started,   0 loaded | Docs:     0/    0/   50
+TREEX-INFO:    19.484:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    24.493:	Probe Results:
+TREEX-INFO:    24.493:	Probe	   _check_epilog_before_finish	     0.563	2
+TREEX-INFO:    24.493:	Probe	             _check_job_errors	     0.569	2
+TREEX-INFO:    24.493:	Probe	           _is_job_status.call	     0.850	403
+TREEX-INFO:    24.493:	Probe	           _is_job_status.disk	     0.021	106
+TREEX-INFO:    24.493:	Probe	    _print_output_files.stderr	     0.820	50
+TREEX-INFO:    24.493:	Probe	    _print_output_files.stdout	     1.341	50
+TREEX-INFO:    24.493:	Probe	          _wait_for_jobs.sleep	    10.000	2
+TREEX-INFO:    24.578:	Total execution time: 334
+TREEX-INFO:    24.578:	Execution time per job: 3.340
+TREEX-INFO:    24.578:	Slowest machine: pandora9.ufal.hide.ms.mff.cuni.cz = 7
+TREEX-INFO:    24.578:	Fastest machine: twister1.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    24.578:	Times: 7.61, 7.33, 6.81, 6.8, 6.67, 6.64, 6.63, 6.59, 6.53, 6.46, 6.44, 6.39, 6.34, 6.12, 5.85, 5.60, 5.5, 5.38, 5.28, 4.82, 4.78, 4.74, 4.70, 4.65, 4.62, 4.56, 4.55, 4.52, 4.50, 4.49, 4.47, 4.42, 4.41, 4.32, 4.31, 4.3, 4.29, 4.27, 4.26, 4.20, 4.19, 4.16, 4.15, 4.14, 3.9, 3.84, 3.83, 3.80, 3.79, 3.77, 3.76, 3.75, 3.73, 3.72, 3.71, 3.7, 3.69, 3.68, 3.66, 3.6, 3.58, 3.57, 3.54, 3.51, 3.48, 3.45, 3.43, 3.4, 3.40, 3.37, 3.36, 3.35, 3.30, 3.25, 3.24, 3.23, 3.22, 3.21, 3.2, 3.18, 3.17, 3.13, 3.11, 3.1, 3.10
+TREEX-INFO:    24.578:	All jobs finished.
+TREEX-INFO:    24.580:	Deleting jobs: 5180011, 5180012, 5180013, 5180014, 5180015, 5180016, 5180017, 5180018, 5180019, 5180020, 5180021, 5180022, 5180023, 5180024, 5180025, 5180026, 5180027, 5180028, 5180029, 5180030, 5180031, 5180032, 5180033, 5180034, 5180035, 5180036, 5180037, 5180038, 5180039, 5180040, 5180041, 5180042, 5180043, 5180044, 5180045, 5180046, 5180047, 5180048, 5180049, 5180050, 5180051, 5180052, 5180053, 5180054, 5180055, 5180056, 5180057, 5180058, 5180059, 5180060, 5180061, 5180062, 5180063, 5180064, 5180065, 5180066, 5180067, 5180068, 5180069, 5180070, 5180071, 5180072, 5180073, 5180074, 5180075, 5180076, 5180077, 5180078, 5180079, 5180080, 5180081, 5180082, 5180083, 5180084, 5180085, 5180086, 5180087, 5180088, 5180089, 5180090, 5180091, 5180092, 5180093, 5180094, 5180095, 5180096, 5180097, 5180098, 5180099, 5180100, 5180101, 5180102, 5180103, 5180104, 5180105, 5180106, 5180107, 5180108, 5180109, 5180110
+TREEX-INFO:    29.237:	Execution finished at 2015-10-21 10:55:55
+find tmp/rule-based/full.cs.ref.perspron -name "wsj_19*" | sort | xargs cat | /home/mnovak/projects/ml_framework/scripts/results_to_triples.pl --ranking | /home/mnovak/projects/ml_framework/scripts/eval.pl --acc --prf
+89.16 (255/286)
+94.26 (230/244)
+90.20 (230/255)
+92.18 
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+rm -rf tmp/baseline/full.cs.ref.relpron
+mkdir -p tmp/baseline/full.cs.ref.relpron
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Lcs -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AlignmentEval align_language=en anaph_type=relpron to='.' substitute='{^.*/([^\/]*)}{tmp/baseline/full.cs.ref.relpron/$1}'
+TREEX-INFO:     2.912:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     3.009:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/4)
+TREEX-INFO:     3.066:	Loading block Treex::Block::Util::SetGlobal language=cs (2/4)
+TREEX-INFO:     3.067:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/4)
+TREEX-INFO:     3.124:	Loading block Treex::Block::My::AlignmentEval align_language=en anaph_type=relpron to=. substitute={^.*/([^\/]*)}{tmp/baseline/full.cs.ref.relpron/$1} (4/4)
+TREEX-INFO:     3.438:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     3.438:	Loading the scenario took 0 seconds
+TREEX-INFO:     3.438:	Execution begin at 2015-10-21 10:55:59
+TREEX-INFO:     3.441:	Working directory ./036-cluster-run-HzRrG created
+TREEX-INFO:    10.615:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    10.615:	
+
+TREEX-INFO:    10.664:	Jobs:  27 started,   0 loaded | Docs:     0/    0/   50
+TREEX-INFO:    19.065:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    24.074:	Probe Results:
+TREEX-INFO:    24.074:	Probe	   _check_epilog_before_finish	     0.275	2
+TREEX-INFO:    24.074:	Probe	             _check_job_errors	     0.279	2
+TREEX-INFO:    24.074:	Probe	           _is_job_status.call	     1.025	403
+TREEX-INFO:    24.074:	Probe	           _is_job_status.disk	     0.006	29
+TREEX-INFO:    24.074:	Probe	    _print_output_files.stderr	     0.819	50
+TREEX-INFO:    24.074:	Probe	    _print_output_files.stdout	     1.340	50
+TREEX-INFO:    24.074:	Probe	          _wait_for_jobs.sleep	    10.000	2
+TREEX-INFO:    24.159:	Total execution time: 295
+TREEX-INFO:    24.159:	Execution time per job: 2.950
+TREEX-INFO:    24.159:	Slowest machine: iridium.ufal.hide.ms.mff.cuni.cz = 6
+TREEX-INFO:    24.159:	Fastest machine: andromeda8.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    24.159:	Times: 6.69, 6.61, 6.54, 6.34, 6.33, 6.11, 5.9, 5.64, 5.63, 5.62, 5.46, 5.45, 5.42, 5.41, 5.29, 5.28, 4.77, 4.74, 4.65, 4.60, 4.59, 4.58, 4.56, 4.55, 4.49, 4.48, 4.47, 4.40, 4.39, 4.32, 4.31, 4.30, 4.25, 4.20, 4.19, 4.14, 3.8, 3.79, 3.78, 3.76, 3.75, 3.73, 3.72, 3.71, 3.7, 3.70, 3.68, 3.67, 3.66, 3.6, 3.57, 3.53, 3.52, 3.51, 3.5, 3.50, 3.44, 3.43, 3.4, 3.38, 3.37, 3.36, 3.35, 3.3, 3.27, 3.26, 3.24, 3.23, 3.22, 3.21, 3.2, 3.18, 3.17, 3.16, 3.15, 3.13, 3.12, 3.1, 3.10
+TREEX-INFO:    24.159:	All jobs finished.
+TREEX-INFO:    24.161:	Deleting jobs: 5180111, 5180112, 5180113, 5180114, 5180115, 5180116, 5180117, 5180118, 5180119, 5180120, 5180121, 5180122, 5180123, 5180124, 5180125, 5180126, 5180127, 5180128, 5180129, 5180130, 5180131, 5180132, 5180133, 5180134, 5180135, 5180136, 5180137, 5180138, 5180139, 5180140, 5180141, 5180142, 5180143, 5180144, 5180145, 5180146, 5180147, 5180148, 5180149, 5180150, 5180151, 5180152, 5180153, 5180154, 5180155, 5180156, 5180157, 5180158, 5180159, 5180160, 5180161, 5180162, 5180163, 5180164, 5180165, 5180166, 5180167, 5180168, 5180169, 5180170, 5180171, 5180172, 5180173, 5180174, 5180175, 5180176, 5180177, 5180178, 5180179, 5180180, 5180181, 5180182, 5180183, 5180184, 5180185, 5180186, 5180187, 5180188, 5180189, 5180190, 5180191, 5180192, 5180193, 5180194, 5180195, 5180196, 5180197, 5180198, 5180199, 5180200, 5180201, 5180202, 5180203, 5180204, 5180205, 5180206, 5180207, 5180208, 5180209, 5180210
+TREEX-INFO:    28.895:	Execution finished at 2015-10-21 10:56:25
+find tmp/baseline/full.cs.ref.relpron -name "wsj_19*" | sort | xargs cat | /home/mnovak/projects/ml_framework/scripts/results_to_triples.pl --ranking | /home/mnovak/projects/ml_framework/scripts/eval.pl --acc --prf
+67.16 (225/335)
+87.60 (219/250)
+66.77 (219/328)
+75.78 
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+rm -rf tmp/rule-based/full.cs.ref.relpron
+mkdir -p tmp/rule-based/full.cs.ref.relpron
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Lcs -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AddRobustAlignment::CsRelpron remove_original=1 language=cs \
+		My::AddRobustAlignment::EnPerspron remove_original=1 language=en \
+		My::AlignmentEval align_reltypes='!gold,!supervised,robust,.*' align_language=en anaph_type=relpron to='.' substitute='{^.*/([^\/]*)}{tmp/rule-based/full.cs.ref.relpron/$1}'
+TREEX-INFO:     2.894:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     2.998:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/6)
+TREEX-INFO:     3.055:	Loading block Treex::Block::Util::SetGlobal language=cs (2/6)
+TREEX-INFO:     3.056:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/6)
+TREEX-INFO:     3.113:	Loading block Treex::Block::My::AddRobustAlignment::CsRelpron remove_original=1 language=cs (4/6)
+TREEX-INFO:     3.353:	Loading block Treex::Block::My::AddRobustAlignment::EnPerspron remove_original=1 language=en (5/6)
+TREEX-INFO:     3.388:	Loading block Treex::Block::My::AlignmentEval align_reltypes=!gold,!supervised,robust,.* align_language=en anaph_type=relpron to=. substitute={^.*/([^\/]*)}{tmp/rule-based/full.cs.ref.relpron/$1} (6/6)
+TREEX-INFO:     3.499:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     3.499:	Loading the scenario took 0 seconds
+TREEX-INFO:     3.499:	Execution begin at 2015-10-21 10:56:29
+TREEX-INFO:     3.502:	Working directory ./037-cluster-run-SLS1w created
+TREEX-INFO:    10.625:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    10.625:	
+
+TREEX-INFO:    10.659:	Jobs:  17 started,   0 loaded | Docs:     0/    0/   50
+TREEX-INFO:    19.113:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    24.122:	Probe Results:
+TREEX-INFO:    24.122:	Probe	   _check_epilog_before_finish	     0.401	2
+TREEX-INFO:    24.122:	Probe	             _check_job_errors	     0.407	2
+TREEX-INFO:    24.122:	Probe	           _is_job_status.call	     0.768	423
+TREEX-INFO:    24.122:	Probe	           _is_job_status.disk	     0.026	143
+TREEX-INFO:    24.123:	Probe	    _print_output_files.stderr	     0.824	50
+TREEX-INFO:    24.123:	Probe	    _print_output_files.stdout	     1.342	50
+TREEX-INFO:    24.123:	Probe	          _wait_for_jobs.sleep	    10.000	2
+TREEX-INFO:    24.197:	Total execution time: 314
+TREEX-INFO:    24.198:	Execution time per job: 3.140
+TREEX-INFO:    24.198:	Slowest machine: iridium.ufal.hide.ms.mff.cuni.cz = 7
+TREEX-INFO:    24.198:	Fastest machine: orion7.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    24.198:	Times: 7.69, 7.64, 7.55, 6.34, 6.33, 6.2, 6.18, 5.75, 5.62, 5.61, 5.60, 5.58, 5.48, 5.45, 5.41, 5.39, 5.31, 5.26, 4.9, 4.76, 4.74, 4.73, 4.71, 4.70, 4.68, 4.67, 4.66, 4.65, 4.63, 4.6, 4.59, 4.54, 4.53, 4.52, 4.50, 4.49, 4.47, 4.44, 4.43, 4.40, 4.38, 4.37, 4.36, 4.35, 4.3, 4.29, 4.28, 4.27, 4.25, 4.20, 4.17, 4.16, 4.14, 4.13, 4.12, 4.11, 4.1, 4.10, 3.8, 3.72, 3.7, 3.57, 3.56, 3.51, 3.5, 3.46, 3.42, 3.4, 3.32, 3.30, 3.24, 3.23, 3.22, 3.21, 3.19, 3.15
+TREEX-INFO:    24.198:	All jobs finished.
+TREEX-INFO:    24.200:	Deleting jobs: 5180211, 5180212, 5180213, 5180214, 5180215, 5180216, 5180217, 5180218, 5180219, 5180220, 5180221, 5180222, 5180223, 5180224, 5180225, 5180226, 5180227, 5180228, 5180229, 5180230, 5180231, 5180232, 5180233, 5180234, 5180235, 5180236, 5180237, 5180238, 5180239, 5180240, 5180241, 5180242, 5180243, 5180244, 5180245, 5180246, 5180247, 5180248, 5180249, 5180250, 5180251, 5180252, 5180253, 5180254, 5180255, 5180256, 5180257, 5180258, 5180259, 5180260, 5180261, 5180262, 5180263, 5180264, 5180265, 5180266, 5180267, 5180268, 5180269, 5180270, 5180271, 5180272, 5180273, 5180274, 5180275, 5180276, 5180277, 5180278, 5180279, 5180280, 5180281, 5180282, 5180283, 5180284, 5180285, 5180286, 5180287, 5180288, 5180289, 5180290, 5180291, 5180292, 5180293, 5180294, 5180295, 5180296, 5180297, 5180298, 5180299, 5180300, 5180301, 5180302, 5180303, 5180304, 5180305, 5180306, 5180307, 5180308, 5180309, 5180310
+TREEX-INFO:    28.851:	Execution finished at 2015-10-21 10:56:55
+find tmp/rule-based/full.cs.ref.relpron -name "wsj_19*" | sort | xargs cat | /home/mnovak/projects/ml_framework/scripts/results_to_triples.pl --ranking | /home/mnovak/projects/ml_framework/scripts/eval.pl --acc --prf
+84.18 (282/335)
+90.85 (278/306)
+84.76 (278/328)
+87.70 
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+rm -rf tmp/baseline/full.cs.ref.zero
+mkdir -p tmp/baseline/full.cs.ref.zero
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Lcs -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AlignmentEval align_language=en anaph_type=zero to='.' substitute='{^.*/([^\/]*)}{tmp/baseline/full.cs.ref.zero/$1}'
+TREEX-INFO:     2.876:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     2.973:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/4)
+TREEX-INFO:     3.029:	Loading block Treex::Block::Util::SetGlobal language=cs (2/4)
+TREEX-INFO:     3.030:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/4)
+TREEX-INFO:     3.086:	Loading block Treex::Block::My::AlignmentEval align_language=en anaph_type=zero to=. substitute={^.*/([^\/]*)}{tmp/baseline/full.cs.ref.zero/$1} (4/4)
+TREEX-INFO:     3.394:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     3.394:	Loading the scenario took 1 seconds
+TREEX-INFO:     3.394:	Execution begin at 2015-10-21 10:56:59
+TREEX-INFO:     3.397:	Working directory ./038-cluster-run-e6I1s created
+TREEX-INFO:    10.520:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    10.520:	
+
+TREEX-INFO:    10.526:	Jobs:   0 started,   0 loaded | Docs:     0/    0/   50
+TREEX-INFO:    18.598:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    23.607:	Probe Results:
+TREEX-INFO:    23.607:	Probe	   _check_epilog_before_finish	     0.003	1
+TREEX-INFO:    23.607:	Probe	             _check_job_errors	     0.006	1
+TREEX-INFO:    23.607:	Probe	           _is_job_status.call	     0.564	375
+TREEX-INFO:    23.607:	Probe	           _is_job_status.disk	     0.006	84
+TREEX-INFO:    23.607:	Probe	    _print_output_files.stderr	     0.855	50
+TREEX-INFO:    23.607:	Probe	    _print_output_files.stdout	     1.391	50
+TREEX-INFO:    23.607:	Probe	          _wait_for_jobs.sleep	    10.000	2
+TREEX-INFO:    23.696:	Total execution time: 335
+TREEX-INFO:    23.696:	Execution time per job: 3.350
+TREEX-INFO:    23.696:	Slowest machine: pandora9.ufal.hide.ms.mff.cuni.cz = 6
+TREEX-INFO:    23.696:	Fastest machine: belzebub.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    23.696:	Times: 6.69, 6.63, 6.52, 6.44, 6.35, 5.89, 5.65, 5.62, 5.50, 5.34, 5.28, 5.22, 5.15, 4.91, 4.90, 4.87, 4.86, 4.85, 4.83, 4.77, 4.75, 4.73, 4.67, 4.61, 4.60, 4.59, 4.58, 4.56, 4.51, 4.49, 4.47, 4.46, 4.45, 4.42, 4.41, 4.40, 4.39, 4.30, 4.29, 4.24, 4.23, 4.19, 4.18, 4.16, 3.9, 3.88, 3.84, 3.82, 3.81, 3.8, 3.80, 3.79, 3.78, 3.76, 3.74, 3.72, 3.71, 3.7, 3.70, 3.68, 3.66, 3.64, 3.6, 3.57, 3.55, 3.54, 3.53, 3.5, 3.48, 3.43, 3.4, 3.38, 3.37, 3.36, 3.33, 3.32, 3.31, 3.3, 3.27, 3.26, 3.25, 3.21, 3.2, 3.20, 3.17, 3.14, 3.13, 3.12, 3.11, 3.1, 3.10
+TREEX-INFO:    23.696:	All jobs finished.
+TREEX-INFO:    23.698:	Deleting jobs: 5180311, 5180312, 5180313, 5180314, 5180315, 5180316, 5180317, 5180318, 5180319, 5180320, 5180321, 5180322, 5180323, 5180324, 5180325, 5180326, 5180327, 5180328, 5180329, 5180330, 5180331, 5180332, 5180333, 5180334, 5180335, 5180336, 5180337, 5180338, 5180339, 5180340, 5180341, 5180342, 5180343, 5180344, 5180345, 5180346, 5180347, 5180348, 5180349, 5180350, 5180351, 5180352, 5180353, 5180354, 5180355, 5180356, 5180357, 5180358, 5180359, 5180360, 5180361, 5180362, 5180363, 5180364, 5180365, 5180366, 5180367, 5180368, 5180369, 5180370, 5180371, 5180372, 5180373, 5180374, 5180375, 5180376, 5180377, 5180378, 5180379, 5180380, 5180381, 5180382, 5180383, 5180384, 5180385, 5180386, 5180387, 5180388, 5180389, 5180390, 5180391, 5180392, 5180393, 5180394, 5180395, 5180396, 5180397, 5180398, 5180399, 5180400, 5180401, 5180402, 5180403, 5180404, 5180405, 5180406, 5180407, 5180408, 5180409, 5180410
+TREEX-INFO:    28.280:	Execution finished at 2015-10-21 10:57:24
+find tmp/baseline/full.cs.ref.zero -name "wsj_19*" | sort | xargs cat | /home/mnovak/projects/ml_framework/scripts/results_to_triples.pl --ranking | /home/mnovak/projects/ml_framework/scripts/eval.pl --acc --prf
+78.71 (669/850)
+98.89 (447/452)
+71.18 (447/628)
+82.78 
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+rm -rf tmp/rule-based/full.cs.ref.zero
+mkdir -p tmp/rule-based/full.cs.ref.zero
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Lcs -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AddRobustAlignment::CsRelpron remove_original=1 language=cs \
+		My::AddRobustAlignment::EnPerspron remove_original=1 language=en \
+		My::AlignmentEval align_reltypes='!gold,!supervised,robust,.*' align_language=en anaph_type=zero to='.' substitute='{^.*/([^\/]*)}{tmp/rule-based/full.cs.ref.zero/$1}'
+TREEX-INFO:     2.904:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     3.008:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/6)
+TREEX-INFO:     3.064:	Loading block Treex::Block::Util::SetGlobal language=cs (2/6)
+TREEX-INFO:     3.065:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/6)
+TREEX-INFO:     3.121:	Loading block Treex::Block::My::AddRobustAlignment::CsRelpron remove_original=1 language=cs (4/6)
+TREEX-INFO:     3.355:	Loading block Treex::Block::My::AddRobustAlignment::EnPerspron remove_original=1 language=en (5/6)
+TREEX-INFO:     3.389:	Loading block Treex::Block::My::AlignmentEval align_reltypes=!gold,!supervised,robust,.* align_language=en anaph_type=zero to=. substitute={^.*/([^\/]*)}{tmp/rule-based/full.cs.ref.zero/$1} (6/6)
+TREEX-INFO:     3.498:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     3.498:	Loading the scenario took 1 seconds
+TREEX-INFO:     3.498:	Execution begin at 2015-10-21 10:57:28
+TREEX-INFO:     3.501:	Working directory ./039-cluster-run-KOrf7 created
+TREEX-INFO:    10.507:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    10.507:	
+
+TREEX-INFO:    10.513:	Jobs:   0 started,   0 loaded | Docs:     0/    0/   50
+TREEX-INFO:    16.557:	Jobs: 100 started,   5 loaded | Docs:    14/   50/   50
+TREEX-INFO:    23.997:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    29.006:	Probe Results:
+TREEX-INFO:    29.006:	Probe	   _check_epilog_before_finish	     0.256	2
+TREEX-INFO:    29.006:	Probe	             _check_job_errors	     0.262	2
+TREEX-INFO:    29.007:	Probe	           _is_job_status.call	     1.048	433
+TREEX-INFO:    29.007:	Probe	           _is_job_status.disk	     0.013	76
+TREEX-INFO:    29.007:	Probe	    _print_output_files.stderr	     0.826	50
+TREEX-INFO:    29.007:	Probe	    _print_output_files.stdout	     1.353	50
+TREEX-INFO:    29.007:	Probe	          _wait_for_jobs.sleep	    15.001	3
+TREEX-INFO:    29.106:	Total execution time: 386
+TREEX-INFO:    29.106:	Execution time per job: 3.860
+TREEX-INFO:    29.106:	Slowest machine: iridium.ufal.hide.ms.mff.cuni.cz = 7
+TREEX-INFO:    29.106:	Fastest machine: fireball2.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    29.106:	Times: 7.70, 7.64, 7.55, 7.35, 6.95, 6.5, 6.44, 6.34, 5.91, 5.90, 5.88, 5.76, 5.62, 5.6, 5.60, 5.58, 5.46, 5.41, 5.28, 5.13, 5.100, 4.99, 4.94, 4.89, 4.82, 4.81, 4.80, 4.77, 4.75, 4.65, 4.63, 4.61, 4.59, 4.57, 4.56, 4.52, 4.49, 4.48, 4.47, 4.45, 4.43, 4.40, 4.39, 4.33, 4.32, 4.3, 4.22, 4.21, 4.20, 4.19, 4.18, 4.17, 4.11, 3.98, 3.97, 3.96, 3.93, 3.92, 3.9, 3.87, 3.86, 3.85, 3.84, 3.83, 3.8, 3.79, 3.78, 3.74, 3.73, 3.72, 3.71, 3.7, 3.69, 3.68, 3.67, 3.66, 3.54, 3.53, 3.51, 3.50, 3.42, 3.4, 3.38, 3.37, 3.36, 3.31, 3.30, 3.29, 3.27, 3.26, 3.25, 3.24, 3.23, 3.2, 3.16, 3.15, 3.14, 3.12, 3.1, 3.10
+TREEX-INFO:    29.106:	All jobs finished.
+TREEX-INFO:    29.108:	Deleting jobs: 5180411, 5180412, 5180413, 5180414, 5180415, 5180416, 5180417, 5180418, 5180419, 5180420, 5180421, 5180422, 5180423, 5180424, 5180425, 5180426, 5180427, 5180428, 5180429, 5180430, 5180431, 5180432, 5180433, 5180434, 5180435, 5180436, 5180437, 5180438, 5180439, 5180440, 5180441, 5180442, 5180443, 5180444, 5180445, 5180446, 5180447, 5180448, 5180449, 5180450, 5180451, 5180452, 5180453, 5180454, 5180455, 5180456, 5180457, 5180458, 5180459, 5180460, 5180461, 5180462, 5180463, 5180464, 5180465, 5180466, 5180467, 5180468, 5180469, 5180470, 5180471, 5180472, 5180473, 5180474, 5180475, 5180476, 5180477, 5180478, 5180479, 5180480, 5180481, 5180482, 5180483, 5180484, 5180485, 5180486, 5180487, 5180488, 5180489, 5180490, 5180491, 5180492, 5180493, 5180494, 5180495, 5180496, 5180497, 5180498, 5180499, 5180500, 5180501, 5180502, 5180503, 5180504, 5180505, 5180506, 5180507, 5180508, 5180509, 5180510
+TREEX-INFO:    31.758:	Execution finished at 2015-10-21 10:57:56
+find tmp/rule-based/full.cs.ref.zero -name "wsj_19*" | sort | xargs cat | /home/mnovak/projects/ml_framework/scripts/results_to_triples.pl --ranking | /home/mnovak/projects/ml_framework/scripts/eval.pl --acc --prf
+81.76 (695/850)
+98.75 (473/479)
+75.32 (473/628)
+85.46 
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+rm -rf tmp/baseline/full.cs.ref.all
+mkdir -p tmp/baseline/full.cs.ref.all
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Lcs -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AlignmentEval align_language=en anaph_type=all to='.' substitute='{^.*/([^\/]*)}{tmp/baseline/full.cs.ref.all/$1}'
+TREEX-INFO:     2.897:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     2.995:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/4)
+TREEX-INFO:     3.053:	Loading block Treex::Block::Util::SetGlobal language=cs (2/4)
+TREEX-INFO:     3.054:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/4)
+TREEX-INFO:     3.110:	Loading block Treex::Block::My::AlignmentEval align_language=en anaph_type=all to=. substitute={^.*/([^\/]*)}{tmp/baseline/full.cs.ref.all/$1} (4/4)
+TREEX-INFO:     3.422:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     3.422:	Loading the scenario took 1 seconds
+TREEX-INFO:     3.423:	Execution begin at 2015-10-21 10:58:01
+TREEX-INFO:     3.426:	Working directory ./040-cluster-run-D47px created
+TREEX-INFO:    10.553:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    10.553:	
+
+TREEX-INFO:    16.820:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    21.829:	Probe Results:
+TREEX-INFO:    21.829:	Probe	   _check_epilog_before_finish	     0.003	1
+TREEX-INFO:    21.829:	Probe	             _check_job_errors	     0.006	1
+TREEX-INFO:    21.829:	Probe	           _is_job_status.call	     0.773	303
+TREEX-INFO:    21.829:	Probe	           _is_job_status.disk	     0.005	23
+TREEX-INFO:    21.829:	Probe	    _print_output_files.stderr	     3.845	50
+TREEX-INFO:    21.829:	Probe	_print_output_files.stderr.sleep2	     3.000	1
+TREEX-INFO:    21.829:	Probe	    _print_output_files.stdout	     1.379	50
+TREEX-INFO:    21.830:	Probe	          _wait_for_jobs.sleep	     5.000	1
+TREEX-INFO:    21.859:	Total execution time: 105
+TREEX-INFO:    21.859:	Execution time per job: 1.050
+TREEX-INFO:    21.859:	Slowest machine: orion10.ufal.hide.ms.mff.cuni.cz = 5
+TREEX-INFO:    21.859:	Fastest machine: andromeda11.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    21.859:	Times: 5.27, 5.17, 5.11, 5.10, 4.8, 4.7, 4.6, 4.28, 4.25, 4.18, 4.16, 4.15, 4.13, 4.12, 3.9, 3.5, 3.4, 3.3, 3.29, 3.26, 3.24, 3.23, 3.22, 3.21, 3.2, 3.20, 3.19, 3.14, 3.1
+TREEX-INFO:    21.859:	All jobs finished.
+TREEX-INFO:    21.861:	Deleting jobs: 5180511, 5180512, 5180513, 5180514, 5180515, 5180516, 5180517, 5180518, 5180519, 5180520, 5180521, 5180522, 5180523, 5180524, 5180525, 5180526, 5180527, 5180528, 5180529, 5180530, 5180531, 5180532, 5180533, 5180534, 5180535, 5180536, 5180537, 5180538, 5180539, 5180540, 5180541, 5180542, 5180543, 5180544, 5180545, 5180546, 5180547, 5180548, 5180549, 5180550, 5180551, 5180552, 5180553, 5180554, 5180555, 5180556, 5180557, 5180558, 5180559, 5180560, 5180561, 5180562, 5180563, 5180564, 5180565, 5180566, 5180567, 5180568, 5180569, 5180570, 5180571, 5180572, 5180573, 5180574, 5180575, 5180576, 5180577, 5180578, 5180579, 5180580, 5180581, 5180582, 5180583, 5180584, 5180585, 5180586, 5180587, 5180588, 5180589, 5180590, 5180591, 5180592, 5180593, 5180594, 5180595, 5180596, 5180597, 5180598, 5180599, 5180600, 5180601, 5180602, 5180603, 5180604, 5180605, 5180606, 5180607, 5180608, 5180609, 5180610
+TREEX-INFO:    24.472:	Execution finished at 2015-10-21 10:58:22
+find tmp/baseline/full.cs.ref.all -name "wsj_19*" | sort | xargs cat | /home/mnovak/projects/ml_framework/scripts/results_to_triples.pl --ranking | /home/mnovak/projects/ml_framework/scripts/eval.pl --acc --prf
+77.91 (1146/1471)
+94.60 (893/944)
+73.74 (893/1211)
+82.88 
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+rm -rf tmp/rule-based/full.cs.ref.all
+mkdir -p tmp/rule-based/full.cs.ref.all
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Lcs -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AddRobustAlignment::CsRelpron remove_original=1 language=cs \
+		My::AddRobustAlignment::EnPerspron remove_original=1 language=en \
+		My::AlignmentEval align_reltypes='!gold,!supervised,robust,.*' align_language=en anaph_type=all to='.' substitute='{^.*/([^\/]*)}{tmp/rule-based/full.cs.ref.all/$1}'
+TREEX-INFO:     2.883:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     2.987:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/6)
+TREEX-INFO:     3.044:	Loading block Treex::Block::Util::SetGlobal language=cs (2/6)
+TREEX-INFO:     3.046:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/6)
+TREEX-INFO:     3.102:	Loading block Treex::Block::My::AddRobustAlignment::CsRelpron remove_original=1 language=cs (4/6)
+TREEX-INFO:     3.341:	Loading block Treex::Block::My::AddRobustAlignment::EnPerspron remove_original=1 language=en (5/6)
+TREEX-INFO:     3.376:	Loading block Treex::Block::My::AlignmentEval align_reltypes=!gold,!supervised,robust,.* align_language=en anaph_type=all to=. substitute={^.*/([^\/]*)}{tmp/rule-based/full.cs.ref.all/$1} (6/6)
+TREEX-INFO:     3.486:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     3.486:	Loading the scenario took 1 seconds
+TREEX-INFO:     3.486:	Execution begin at 2015-10-21 10:58:27
+TREEX-INFO:     3.490:	Working directory ./041-cluster-run-qMXZ5 created
+TREEX-INFO:    10.510:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    10.510:	
+
+TREEX-INFO:    10.516:	Jobs:   0 started,   0 loaded | Docs:     0/    0/   50
+TREEX-INFO:    15.931:	Jobs: 100 started,   9 loaded | Docs:     2/   50/   50
+TREEX-INFO:    23.930:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    28.939:	Probe Results:
+TREEX-INFO:    28.939:	Probe	   _check_epilog_before_finish	     0.265	2
+TREEX-INFO:    28.939:	Probe	             _check_job_errors	     0.271	2
+TREEX-INFO:    28.939:	Probe	           _is_job_status.call	     0.981	409
+TREEX-INFO:    28.939:	Probe	           _is_job_status.disk	     0.020	83
+TREEX-INFO:    28.940:	Probe	    _print_output_files.stderr	     0.820	50
+TREEX-INFO:    28.940:	Probe	    _print_output_files.stdout	     1.345	50
+TREEX-INFO:    28.940:	Probe	          _wait_for_jobs.sleep	    15.001	3
+TREEX-INFO:    29.039:	Total execution time: 408
+TREEX-INFO:    29.039:	Execution time per job: 4.080
+TREEX-INFO:    29.039:	Slowest machine: pandora9.ufal.hide.ms.mff.cuni.cz = 8
+TREEX-INFO:    29.039:	Fastest machine: andromeda1.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    29.039:	Times: 8.63, 8.34, 7.70, 7.55, 6.95, 6.92, 6.64, 6.59, 6.45, 6.41, 6.36, 6.35, 6.15, 5.99, 5.98, 5.96, 5.94, 5.93, 5.85, 5.84, 5.80, 5.62, 5.60, 5.58, 5.46, 5.44, 5.43, 5.42, 5.39, 5.31, 5.13, 5.10, 4.97, 4.90, 4.89, 4.82, 4.77, 4.75, 4.7, 4.66, 4.61, 4.50, 4.48, 4.47, 4.38, 4.33, 4.3, 4.30, 4.29, 4.25, 4.24, 4.22, 4.21, 4.18, 4.17, 4.16, 4.12, 3.91, 3.9, 3.88, 3.87, 3.86, 3.83, 3.81, 3.8, 3.79, 3.78, 3.76, 3.74, 3.73, 3.72, 3.71, 3.69, 3.68, 3.67, 3.65, 3.6, 3.57, 3.56, 3.54, 3.53, 3.52, 3.51, 3.5, 3.49, 3.4, 3.40, 3.37, 3.32, 3.28, 3.27, 3.26, 3.23, 3.2, 3.20, 3.19, 3.14, 3.11, 3.1, 3.100
+TREEX-INFO:    29.039:	All jobs finished.
+TREEX-INFO:    29.041:	Deleting jobs: 5180611, 5180612, 5180613, 5180614, 5180615, 5180616, 5180617, 5180618, 5180619, 5180620, 5180621, 5180622, 5180623, 5180624, 5180625, 5180626, 5180627, 5180628, 5180629, 5180630, 5180631, 5180632, 5180633, 5180634, 5180635, 5180636, 5180637, 5180638, 5180639, 5180640, 5180641, 5180642, 5180643, 5180644, 5180645, 5180646, 5180647, 5180648, 5180649, 5180650, 5180651, 5180652, 5180653, 5180654, 5180655, 5180656, 5180657, 5180658, 5180659, 5180660, 5180661, 5180662, 5180663, 5180664, 5180665, 5180666, 5180667, 5180668, 5180669, 5180670, 5180671, 5180672, 5180673, 5180674, 5180675, 5180676, 5180677, 5180678, 5180679, 5180680, 5180681, 5180682, 5180683, 5180684, 5180685, 5180686, 5180687, 5180688, 5180689, 5180690, 5180691, 5180692, 5180693, 5180694, 5180695, 5180696, 5180697, 5180698, 5180699, 5180700, 5180701, 5180702, 5180703, 5180704, 5180705, 5180706, 5180707, 5180708, 5180709, 5180710
+TREEX-INFO:    31.677:	Execution finished at 2015-10-21 10:58:55
+find tmp/rule-based/full.cs.ref.all -name "wsj_19*" | sort | xargs cat | /home/mnovak/projects/ml_framework/scripts/results_to_triples.pl --ranking | /home/mnovak/projects/ml_framework/scripts/eval.pl --acc --prf
+83.75 (1232/1471)
+95.34 (981/1029)
+81.01 (981/1211)
+87.59 
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'

@@ -1,0 +1,855 @@
+for lang in en cs; do \
+		for anaph_type in perspron relpron zero all; do \
+			make extract_data_table SELECTOR=ref ANAPH_TYPE=$anaph_type ALIGN_ANNOT_LANG=$lang D="$lang $anaph_type on ref - for LREC abstract"; \
+			make cross_valid SELECTOR=ref ANAPH_TYPE=$anaph_type ALIGN_ANNOT_LANG=$lang D="$lang $anaph_type on ref - for LREC abstract"; \
+		done; \
+	done
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+mkdir -p tmp/data_table/full.en.ref.perspron.pcedt_19
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Len -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AddRobustAlignment::CsRelpron language=cs \
+		My::AddRobustAlignment::EnPerspron language=en \
+		My::PrintAlignData align_language=cs anaph_type=perspron to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/full.en.ref.perspron.pcedt_19/$1}'
+TREEX-INFO:     3.438:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     3.540:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/6)
+TREEX-INFO:     3.611:	Loading block Treex::Block::Util::SetGlobal language=en (2/6)
+TREEX-INFO:     3.612:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/6)
+TREEX-INFO:     3.686:	Loading block Treex::Block::My::AddRobustAlignment::CsRelpron language=cs (4/6)
+TREEX-INFO:     4.031:	Loading block Treex::Block::My::AddRobustAlignment::EnPerspron language=en (5/6)
+TREEX-INFO:     4.067:	Loading block Treex::Block::My::PrintAlignData align_language=cs anaph_type=perspron to=. substitute={^.*/([^\/]*)}{tmp/data_table/full.en.ref.perspron.pcedt_19/$1} (6/6)
+TREEX-INFO:     4.942:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     4.942:	Loading the scenario took 1 seconds
+TREEX-INFO:     4.942:	Execution begin at 2015-10-21 15:26:18
+TREEX-INFO:     4.945:	Working directory ./010-cluster-run-n2RFu created
+TREEX-INFO:    12.143:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    12.144:	
+
+TREEX-INFO:    12.150:	Jobs:   0 started,   0 loaded | Docs:     0/    0/   50
+TREEX-INFO:    23.751:	Jobs: 100 started,  13 loaded | Docs:    14/   50/   50
+TREEX-INFO:    31.215:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    36.224:	Probe Results:
+TREEX-INFO:    36.224:	Probe	   _check_epilog_before_finish	     0.233	2
+TREEX-INFO:    36.224:	Probe	             _check_job_errors	     0.239	2
+TREEX-INFO:    36.225:	Probe	           _is_job_status.call	     1.033	419
+TREEX-INFO:    36.225:	Probe	           _is_job_status.disk	     0.007	58
+TREEX-INFO:    36.225:	Probe	    _print_output_files.stderr	     0.859	50
+TREEX-INFO:    36.225:	Probe	    _print_output_files.stdout	     1.407	50
+TREEX-INFO:    36.225:	Probe	          _wait_for_jobs.sleep	    20.501	4
+TREEX-INFO:    36.325:	Total execution time: 455
+TREEX-INFO:    36.325:	Execution time per job: 4.550
+TREEX-INFO:    36.325:	Slowest machine: hyperion5.ufal.hide.ms.mff.cuni.cz = 9
+TREEX-INFO:    36.325:	Fastest machine: andromeda3.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    36.325:	Times: 11.89, 9.80, 9.14, 6.99, 6.63, 6.62, 6.59, 6.51, 6.44, 6.43, 6.40, 6.36, 6.3, 6.27, 6.11, 5.93, 5.92, 5.75, 5.74, 5.73, 5.66, 5.65, 5.61, 5.6, 5.54, 5.53, 5.52, 5.46, 5.45, 5.41, 5.39, 5.33, 5.32, 5.31, 5.26, 5.15, 5.1, 4.98, 4.97, 4.96, 4.95, 4.94, 4.91, 4.9, 4.88, 4.87, 4.86, 4.85, 4.84, 4.83, 4.82, 4.81, 4.8, 4.79, 4.76, 4.72, 4.70, 4.69, 4.68, 4.64, 4.60, 4.58, 4.57, 4.56, 4.55, 4.5, 4.50, 4.49, 4.48, 4.47, 4.42, 4.4, 4.38, 4.37, 4.34, 4.30, 4.29, 4.25, 4.24, 4.23, 4.22, 4.21, 4.2, 4.20, 4.19, 4.18, 4.17, 4.16, 4.13, 4.12, 4.10, 4.100, 3.90, 3.78, 3.77, 3.71, 3.7, 3.67, 3.35, 3.28
+TREEX-INFO:    36.326:	All jobs finished.
+TREEX-INFO:    36.327:	Deleting jobs: 5184986, 5184987, 5184988, 5184989, 5184990, 5184991, 5184992, 5184993, 5184994, 5184995, 5184996, 5184997, 5184998, 5184999, 5185000, 5185001, 5185002, 5185003, 5185004, 5185005, 5185006, 5185007, 5185008, 5185009, 5185010, 5185011, 5185012, 5185013, 5185014, 5185015, 5185016, 5185017, 5185018, 5185019, 5185020, 5185021, 5185022, 5185023, 5185024, 5185025, 5185026, 5185027, 5185028, 5185029, 5185030, 5185031, 5185032, 5185033, 5185034, 5185035, 5185036, 5185037, 5185038, 5185039, 5185040, 5185041, 5185042, 5185043, 5185044, 5185045, 5185046, 5185047, 5185048, 5185049, 5185050, 5185051, 5185052, 5185053, 5185054, 5185055, 5185056, 5185057, 5185058, 5185059, 5185060, 5185061, 5185062, 5185063, 5185064, 5185065, 5185066, 5185067, 5185068, 5185069, 5185070, 5185071, 5185072, 5185073, 5185074, 5185075, 5185076, 5185077, 5185078, 5185079, 5185080, 5185081, 5185082, 5185083, 5185084, 5185085
+TREEX-INFO:    39.055:	Execution finished at 2015-10-21 15:26:52
+find tmp/data_table/full.en.ref.perspron.pcedt_19 -name "wsj_19*" | sort | xargs cat | gzip -c > data/full.en.ref.perspron.pcedt_19.mgiza_on_czeng.table
+ln -s full.en.ref.perspron.pcedt_19.mgiza_on_czeng.table data/full.en.ref.perspron.pcedt_19.table
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+/home/mnovak/projects/ml_framework/run.sh -f conf/params.ini \
+        EXPERIMENT_TYPE=cross-validation \
+		CROSS_VALID_N=10 \
+        DATA_LIST="FULL_DATA" \
+        FULL_DATA=data/full.en.ref.perspron.pcedt_19.table \
+        FEATSET_LIST=conf/featset.list \
+        ML_METHOD_LIST=conf/ml_method.list \
+        LRC=1 \
+        TMP_DIR=tmp/ml \
+        D="en perspron on ref - for LREC abstract"
+[35m[2015-10-21 15:26:53]	DEBUG Loading parameters...[0m
+[35m[2015-10-21 15:26:53]	DEBUG DATE = 2015-10-21_15-26-53[0m
+[35m[2015-10-21 15:26:53]	DEBUG TMP_DIR: run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract[0m
+[35m[2015-10-21 15:26:53]	DEBUG Saving parameters into tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/config[0m
+[35m[2015-10-21 15:26:53]	DEBUG Loading parameters...[0m
+[35m[2015-10-21 15:26:53]	DEBUG DATE = 2015-10-21_15-26-53[0m
+[35m[2015-10-21 15:26:53]	DEBUG Saving parameters into tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/config[0m
+[36m[2015-10-21 15:26:53]	INFO Running /home/mnovak/projects/ml_framework/run_experiment.sh...[0m
+[35m[2015-10-21 15:26:53]	DEBUG Processing the featset list: conf/featset.list => tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/featset_per_line.list[0m
+[36m[2015-10-21 15:26:53]	INFO Running an experiment no. 001 using the featset with sha 8a5ed07b07[0m
+[35m[2015-10-21 15:26:53]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset[0m
+[36m[2015-10-21 15:26:53]	INFO Running job featset_exper.8a5ed07b07 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.8a5ed07b07 -o tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-oiE2hZ.bash
+Your job 5185086 ("featset_exper.8a5ed07b07") has been submitted
+[36m[2015-10-21 15:27:23]	INFO Running an experiment no. 002 using the featset with sha 62461071e4[0m
+[35m[2015-10-21 15:27:23]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/002.62461071e4.featset[0m
+[36m[2015-10-21 15:27:23]	INFO Running job featset_exper.62461071e4 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/002.62461071e4.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.62461071e4 -o tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/002.62461071e4.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-u3GnnQ.bash
+Your job 5185090 ("featset_exper.62461071e4") has been submitted
+[36m[2015-10-21 15:27:54]	INFO Running an experiment no. 003 using the featset with sha eb02bac9e1[0m
+[35m[2015-10-21 15:27:54]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset[0m
+[36m[2015-10-21 15:27:54]	INFO Running job featset_exper.eb02bac9e1 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.eb02bac9e1 -o tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-9pKGDO.bash
+Your job 5185170 ("featset_exper.eb02bac9e1") has been submitted
+[36m[2015-10-21 15:28:24]	INFO Running an experiment no. 004 using the featset with sha 52c0267285[0m
+[35m[2015-10-21 15:28:24]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/004.52c0267285.featset[0m
+[36m[2015-10-21 15:28:24]	INFO Running job featset_exper.52c0267285 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/004.52c0267285.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.52c0267285 -o tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/004.52c0267285.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-Fmt1Ab.bash
+Your job 5185393 ("featset_exper.52c0267285") has been submitted
+[36m[2015-10-21 15:28:54]	INFO Running an experiment no. 005 using the featset with sha 73ab14d232[0m
+[35m[2015-10-21 15:28:54]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/005.73ab14d232.featset[0m
+[36m[2015-10-21 15:28:54]	INFO Running job featset_exper.73ab14d232 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/005.73ab14d232.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.73ab14d232 -o tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/005.73ab14d232.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-r8yH8f.bash
+Your job 5185637 ("featset_exper.73ab14d232") has been submitted
+[36m[2015-10-21 15:29:24]	INFO Running an experiment no. 006 using the featset with sha 8ea9f3463d[0m
+[35m[2015-10-21 15:29:24]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset[0m
+[36m[2015-10-21 15:29:24]	INFO Running job featset_exper.8ea9f3463d on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.8ea9f3463d -o tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-anNI4e.bash
+Your job 5185892 ("featset_exper.8ea9f3463d") has been submitted
+[36m[2015-10-21 15:29:54]	INFO Waiting for jobs to be completed...[0m
+[35m[2015-10-21 15:29:54]	DEBUG 2 6[0m
+[35m[2015-10-21 15:30:04]	DEBUG 2 6[0m
+[35m[2015-10-21 15:30:14]	DEBUG 2 6[0m
+[35m[2015-10-21 15:30:24]	DEBUG 3 6[0m
+[35m[2015-10-21 15:30:36]	DEBUG 3 6[0m
+[35m[2015-10-21 15:30:47]	DEBUG 3 6[0m
+[35m[2015-10-21 15:30:57]	DEBUG 4 6[0m
+[35m[2015-10-21 15:31:07]	DEBUG 4 6[0m
+[35m[2015-10-21 15:31:17]	DEBUG 4 6[0m
+[35m[2015-10-21 15:31:27]	DEBUG 5 6[0m
+[35m[2015-10-21 15:31:37]	DEBUG 5 6[0m
+[35m[2015-10-21 15:31:47]	DEBUG 5 6[0m
+[36m[2015-10-21 15:31:57]	INFO Collecting results of the experiments to: tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/stats[0m
+[36m[2015-10-21 15:31:57]	INFO Complete results stored in: tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/stats[0m
+[36m[2015-10-21 15:31:57]	INFO Complete results in HTML stored in: tmp/ml/run_2015-10-21_15-26-53_6627.en_perspron_on_ref_-_for_LREC_abstract/stats.html[0m
+#make baseline_full SELECTOR=ref ANAPH_TYPE=$anaph_type ALIGN_ANNOT_LANG=$lang D="$lang $anaph_type on ref - for LREC abstract";
+#make rule-based_full SELECTOR=ref ANAPH_TYPE=$anaph_type ALIGN_ANNOT_LANG=$lang D="$lang $anaph_type on ref - for LREC abstract";
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+mkdir -p tmp/data_table/full.en.ref.relpron.pcedt_19
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Len -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AddRobustAlignment::CsRelpron language=cs \
+		My::AddRobustAlignment::EnPerspron language=en \
+		My::PrintAlignData align_language=cs anaph_type=relpron to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/full.en.ref.relpron.pcedt_19/$1}'
+TREEX-INFO:     2.987:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     3.090:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/6)
+TREEX-INFO:     3.148:	Loading block Treex::Block::Util::SetGlobal language=en (2/6)
+TREEX-INFO:     3.149:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/6)
+TREEX-INFO:     3.206:	Loading block Treex::Block::My::AddRobustAlignment::CsRelpron language=cs (4/6)
+TREEX-INFO:     3.447:	Loading block Treex::Block::My::AddRobustAlignment::EnPerspron language=en (5/6)
+TREEX-INFO:     3.482:	Loading block Treex::Block::My::PrintAlignData align_language=cs anaph_type=relpron to=. substitute={^.*/([^\/]*)}{tmp/data_table/full.en.ref.relpron.pcedt_19/$1} (6/6)
+TREEX-INFO:     3.730:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     3.730:	Loading the scenario took 1 seconds
+TREEX-INFO:     3.730:	Execution begin at 2015-10-21 15:32:02
+TREEX-INFO:     3.732:	Working directory ./011-cluster-run-nFfFZ created
+TREEX-INFO:    10.825:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    10.825:	
+
+TREEX-INFO:    10.831:	Jobs:   0 started,   0 loaded | Docs:     0/    0/   50
+TREEX-INFO:    22.741:	Jobs: 100 started,  34 loaded | Docs:    14/   50/   50
+TREEX-INFO:    29.988:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    34.997:	Probe Results:
+TREEX-INFO:    34.997:	Probe	   _check_epilog_before_finish	     0.178	2
+TREEX-INFO:    34.997:	Probe	             _check_job_errors	     0.184	2
+TREEX-INFO:    34.997:	Probe	           _is_job_status.call	     1.181	419
+TREEX-INFO:    34.997:	Probe	           _is_job_status.disk	     0.258	133
+TREEX-INFO:    34.997:	Probe	    _print_output_files.stderr	     0.836	50
+TREEX-INFO:    34.997:	Probe	    _print_output_files.stdout	     1.377	50
+TREEX-INFO:    34.997:	Probe	          _wait_for_jobs.sleep	    20.501	4
+TREEX-INFO:    35.098:	Total execution time: 399
+TREEX-INFO:    35.098:	Execution time per job: 3.990
+TREEX-INFO:    35.098:	Slowest machine: pandora10.ufal.hide.ms.mff.cuni.cz = 7
+TREEX-INFO:    35.098:	Fastest machine: hyperion7.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    35.098:	Times: 8.36, 7.89, 6.98, 6.62, 6.35, 5.97, 5.95, 5.94, 5.90, 5.86, 5.84, 5.73, 5.72, 5.69, 5.63, 5.52, 5.5, 5.49, 5.45, 5.42, 5.4, 5.40, 5.37, 5.34, 5.28, 5.24, 5.19, 5.17, 5.13, 4.91, 4.88, 4.81, 4.8, 4.80, 4.79, 4.75, 4.71, 4.70, 4.68, 4.67, 4.64, 4.61, 4.58, 4.57, 4.55, 4.51, 4.48, 4.46, 4.44, 4.38, 4.32, 4.31, 4.29, 4.27, 4.26, 4.25, 4.18, 4.16, 4.15, 4.14, 4.12, 4.100, 3.99, 3.96, 3.93, 3.92, 3.9, 3.87, 3.85, 3.83, 3.82, 3.78, 3.77, 3.76, 3.74, 3.7, 3.66, 3.65, 3.6, 3.60, 3.59, 3.56, 3.54, 3.53, 3.50, 3.47, 3.43, 3.41, 3.39, 3.33, 3.3, 3.30, 3.23, 3.22, 3.21, 3.2, 3.20, 3.11, 3.1, 3.10
+TREEX-INFO:    35.099:	All jobs finished.
+TREEX-INFO:    35.100:	Deleting jobs: 5186610, 5186611, 5186612, 5186613, 5186614, 5186615, 5186616, 5186617, 5186618, 5186619, 5186620, 5186621, 5186622, 5186623, 5186624, 5186625, 5186626, 5186627, 5186628, 5186629, 5186630, 5186631, 5186632, 5186633, 5186634, 5186635, 5186636, 5186637, 5186638, 5186639, 5186640, 5186641, 5186642, 5186643, 5186644, 5186645, 5186646, 5186647, 5186648, 5186649, 5186650, 5186651, 5186652, 5186653, 5186654, 5186655, 5186656, 5186657, 5186658, 5186659, 5186660, 5186661, 5186662, 5186663, 5186664, 5186665, 5186666, 5186667, 5186668, 5186669, 5186670, 5186671, 5186672, 5186673, 5186674, 5186675, 5186676, 5186677, 5186678, 5186679, 5186680, 5186681, 5186682, 5186683, 5186684, 5186685, 5186686, 5186687, 5186688, 5186689, 5186690, 5186691, 5186692, 5186693, 5186694, 5186695, 5186696, 5186697, 5186698, 5186699, 5186700, 5186701, 5186702, 5186703, 5186704, 5186705, 5186706, 5186707, 5186708, 5186709
+TREEX-INFO:    37.778:	Execution finished at 2015-10-21 15:32:36
+find tmp/data_table/full.en.ref.relpron.pcedt_19 -name "wsj_19*" | sort | xargs cat | gzip -c > data/full.en.ref.relpron.pcedt_19.mgiza_on_czeng.table
+ln -s full.en.ref.relpron.pcedt_19.mgiza_on_czeng.table data/full.en.ref.relpron.pcedt_19.table
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+/home/mnovak/projects/ml_framework/run.sh -f conf/params.ini \
+        EXPERIMENT_TYPE=cross-validation \
+		CROSS_VALID_N=10 \
+        DATA_LIST="FULL_DATA" \
+        FULL_DATA=data/full.en.ref.relpron.pcedt_19.table \
+        FEATSET_LIST=conf/featset.list \
+        ML_METHOD_LIST=conf/ml_method.list \
+        LRC=1 \
+        TMP_DIR=tmp/ml \
+        D="en relpron on ref - for LREC abstract"
+[35m[2015-10-21 15:32:36]	DEBUG Loading parameters...[0m
+[35m[2015-10-21 15:32:36]	DEBUG DATE = 2015-10-21_15-32-36[0m
+[35m[2015-10-21 15:32:36]	DEBUG TMP_DIR: run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract[0m
+[35m[2015-10-21 15:32:36]	DEBUG Saving parameters into tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/config[0m
+[35m[2015-10-21 15:32:36]	DEBUG Loading parameters...[0m
+[35m[2015-10-21 15:32:36]	DEBUG DATE = 2015-10-21_15-32-36[0m
+[35m[2015-10-21 15:32:36]	DEBUG Saving parameters into tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/config[0m
+[36m[2015-10-21 15:32:36]	INFO Running /home/mnovak/projects/ml_framework/run_experiment.sh...[0m
+[35m[2015-10-21 15:32:36]	DEBUG Processing the featset list: conf/featset.list => tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/featset_per_line.list[0m
+[36m[2015-10-21 15:32:36]	INFO Running an experiment no. 001 using the featset with sha 8a5ed07b07[0m
+[35m[2015-10-21 15:32:36]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset[0m
+[36m[2015-10-21 15:32:36]	INFO Running job featset_exper.8a5ed07b07 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.8a5ed07b07 -o tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-CNbuWT.bash
+Your job 5186710 ("featset_exper.8a5ed07b07") has been submitted
+[36m[2015-10-21 15:33:06]	INFO Running an experiment no. 002 using the featset with sha 62461071e4[0m
+[35m[2015-10-21 15:33:06]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/002.62461071e4.featset[0m
+[36m[2015-10-21 15:33:06]	INFO Running job featset_exper.62461071e4 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/002.62461071e4.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.62461071e4 -o tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/002.62461071e4.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-3JRIbR.bash
+Your job 5186713 ("featset_exper.62461071e4") has been submitted
+[36m[2015-10-21 15:33:37]	INFO Running an experiment no. 003 using the featset with sha eb02bac9e1[0m
+[35m[2015-10-21 15:33:37]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset[0m
+[36m[2015-10-21 15:33:37]	INFO Running job featset_exper.eb02bac9e1 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.eb02bac9e1 -o tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-Vqo553.bash
+Your job 5186793 ("featset_exper.eb02bac9e1") has been submitted
+[36m[2015-10-21 15:34:07]	INFO Running an experiment no. 004 using the featset with sha 52c0267285[0m
+[35m[2015-10-21 15:34:07]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/004.52c0267285.featset[0m
+[36m[2015-10-21 15:34:07]	INFO Running job featset_exper.52c0267285 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/004.52c0267285.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.52c0267285 -o tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/004.52c0267285.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-2OuEKu.bash
+Your job 5187014 ("featset_exper.52c0267285") has been submitted
+[36m[2015-10-21 15:34:37]	INFO Running an experiment no. 005 using the featset with sha 73ab14d232[0m
+[35m[2015-10-21 15:34:37]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/005.73ab14d232.featset[0m
+[36m[2015-10-21 15:34:37]	INFO Running job featset_exper.73ab14d232 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/005.73ab14d232.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.73ab14d232 -o tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/005.73ab14d232.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-LJ3HA1.bash
+Your job 5187249 ("featset_exper.73ab14d232") has been submitted
+[36m[2015-10-21 15:35:07]	INFO Running an experiment no. 006 using the featset with sha 8ea9f3463d[0m
+[35m[2015-10-21 15:35:07]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset[0m
+[36m[2015-10-21 15:35:07]	INFO Running job featset_exper.8ea9f3463d on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.8ea9f3463d -o tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-XWruLW.bash
+Your job 5187503 ("featset_exper.8ea9f3463d") has been submitted
+[36m[2015-10-21 15:35:37]	INFO Waiting for jobs to be completed...[0m
+[35m[2015-10-21 15:35:37]	DEBUG 2 6[0m
+[35m[2015-10-21 15:35:47]	DEBUG 2 6[0m
+[35m[2015-10-21 15:35:57]	DEBUG 2 6[0m
+[35m[2015-10-21 15:36:07]	DEBUG 3 6[0m
+[35m[2015-10-21 15:36:19]	DEBUG 3 6[0m
+[35m[2015-10-21 15:36:29]	DEBUG 3 6[0m
+[35m[2015-10-21 15:36:39]	DEBUG 4 6[0m
+[35m[2015-10-21 15:36:49]	DEBUG 4 6[0m
+[35m[2015-10-21 15:36:59]	DEBUG 4 6[0m
+[35m[2015-10-21 15:37:09]	DEBUG 4 6[0m
+[35m[2015-10-21 15:37:19]	DEBUG 4 6[0m
+[35m[2015-10-21 15:37:29]	DEBUG 4 6[0m
+[35m[2015-10-21 15:37:39]	DEBUG 5 6[0m
+[35m[2015-10-21 15:37:49]	DEBUG 5 6[0m
+[35m[2015-10-21 15:37:59]	DEBUG 5 6[0m
+[36m[2015-10-21 15:38:09]	INFO Collecting results of the experiments to: tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/stats[0m
+[36m[2015-10-21 15:38:09]	INFO Complete results stored in: tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/stats[0m
+[36m[2015-10-21 15:38:09]	INFO Complete results in HTML stored in: tmp/ml/run_2015-10-21_15-32-36_7814.en_relpron_on_ref_-_for_LREC_abstract/stats.html[0m
+#make baseline_full SELECTOR=ref ANAPH_TYPE=$anaph_type ALIGN_ANNOT_LANG=$lang D="$lang $anaph_type on ref - for LREC abstract";
+#make rule-based_full SELECTOR=ref ANAPH_TYPE=$anaph_type ALIGN_ANNOT_LANG=$lang D="$lang $anaph_type on ref - for LREC abstract";
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+mkdir -p tmp/data_table/full.en.ref.zero.pcedt_19
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Len -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AddRobustAlignment::CsRelpron language=cs \
+		My::AddRobustAlignment::EnPerspron language=en \
+		My::PrintAlignData align_language=cs anaph_type=zero to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/full.en.ref.zero.pcedt_19/$1}'
+TREEX-INFO:     3.014:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     3.118:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/6)
+TREEX-INFO:     3.177:	Loading block Treex::Block::Util::SetGlobal language=en (2/6)
+TREEX-INFO:     3.178:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/6)
+TREEX-INFO:     3.235:	Loading block Treex::Block::My::AddRobustAlignment::CsRelpron language=cs (4/6)
+TREEX-INFO:     3.477:	Loading block Treex::Block::My::AddRobustAlignment::EnPerspron language=en (5/6)
+TREEX-INFO:     3.512:	Loading block Treex::Block::My::PrintAlignData align_language=cs anaph_type=zero to=. substitute={^.*/([^\/]*)}{tmp/data_table/full.en.ref.zero.pcedt_19/$1} (6/6)
+TREEX-INFO:     3.762:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     3.763:	Loading the scenario took 1 seconds
+TREEX-INFO:     3.763:	Execution begin at 2015-10-21 15:38:14
+TREEX-INFO:     3.764:	Working directory ./012-cluster-run-Ig9bT created
+TREEX-INFO:    10.902:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    10.903:	
+
+TREEX-INFO:    10.909:	Jobs:   0 started,   0 loaded | Docs:     0/    0/   50
+TREEX-INFO:    21.425:	Jobs:   0 started,   0 loaded | Docs:     0/    3/   50
+TREEX-INFO:    30.454:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    35.463:	Probe Results:
+TREEX-INFO:    35.463:	Probe	   _check_epilog_before_finish	     0.003	1
+TREEX-INFO:    35.463:	Probe	             _check_job_errors	     0.006	1
+TREEX-INFO:    35.463:	Probe	           _is_job_status.call	     0.520	310
+TREEX-INFO:    35.463:	Probe	           _is_job_status.disk	     0.031	189
+TREEX-INFO:    35.463:	Probe	    _print_output_files.stderr	     0.834	50
+TREEX-INFO:    35.463:	Probe	    _print_output_files.stdout	     1.392	50
+TREEX-INFO:    35.463:	Probe	          _wait_for_jobs.sleep	    21.551	4
+TREEX-INFO:    35.564:	Total execution time: 458
+TREEX-INFO:    35.564:	Execution time per job: 4.580
+TREEX-INFO:    35.564:	Slowest machine: pandora10.ufal.hide.ms.mff.cuni.cz = 7
+TREEX-INFO:    35.564:	Fastest machine: fireball4.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    35.565:	Times: 10.34, 8.51, 7.83, 6.89, 6.82, 6.79, 6.75, 6.63, 6.52, 6.50, 6.46, 6.38, 6.36, 6.28, 6.26, 6.16, 6.14, 5.98, 5.95, 5.92, 5.86, 5.84, 5.80, 5.78, 5.74, 5.73, 5.70, 5.65, 5.57, 5.56, 5.55, 5.53, 5.44, 5.43, 5.40, 5.39, 5.37, 5.25, 5.22, 5.2, 5.20, 5.19, 5.18, 5.17, 5.13, 5.10, 4.99, 4.96, 4.94, 4.93, 4.91, 4.9, 4.90, 4.88, 4.87, 4.85, 4.77, 4.72, 4.71, 4.7, 4.69, 4.68, 4.67, 4.66, 4.62, 4.6, 4.59, 4.58, 4.54, 4.5, 4.49, 4.48, 4.47, 4.45, 4.42, 4.41, 4.35, 4.33, 4.3, 4.30, 4.27, 4.24, 4.23, 4.21, 4.12, 4.11, 4.1, 4.100, 3.97, 3.81, 3.8, 3.76, 3.64, 3.61, 3.60, 3.4, 3.32, 3.31, 3.29, 3.15
+TREEX-INFO:    35.565:	All jobs finished.
+TREEX-INFO:    35.567:	Deleting jobs: 5188234, 5188235, 5188236, 5188237, 5188238, 5188239, 5188240, 5188241, 5188242, 5188243, 5188244, 5188245, 5188246, 5188247, 5188248, 5188249, 5188250, 5188251, 5188252, 5188253, 5188254, 5188255, 5188256, 5188257, 5188258, 5188259, 5188260, 5188261, 5188262, 5188263, 5188264, 5188265, 5188266, 5188267, 5188268, 5188269, 5188270, 5188271, 5188272, 5188273, 5188274, 5188275, 5188276, 5188277, 5188278, 5188279, 5188280, 5188281, 5188282, 5188283, 5188284, 5188285, 5188286, 5188287, 5188288, 5188289, 5188290, 5188291, 5188292, 5188293, 5188294, 5188295, 5188296, 5188297, 5188298, 5188299, 5188300, 5188301, 5188302, 5188303, 5188304, 5188305, 5188306, 5188307, 5188308, 5188309, 5188310, 5188311, 5188312, 5188313, 5188314, 5188315, 5188316, 5188317, 5188318, 5188319, 5188320, 5188321, 5188322, 5188323, 5188324, 5188325, 5188326, 5188327, 5188328, 5188329, 5188330, 5188331, 5188332, 5188333
+TREEX-INFO:    38.312:	Execution finished at 2015-10-21 15:38:48
+find tmp/data_table/full.en.ref.zero.pcedt_19 -name "wsj_19*" | sort | xargs cat | gzip -c > data/full.en.ref.zero.pcedt_19.mgiza_on_czeng.table
+ln -s full.en.ref.zero.pcedt_19.mgiza_on_czeng.table data/full.en.ref.zero.pcedt_19.table
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+/home/mnovak/projects/ml_framework/run.sh -f conf/params.ini \
+        EXPERIMENT_TYPE=cross-validation \
+		CROSS_VALID_N=10 \
+        DATA_LIST="FULL_DATA" \
+        FULL_DATA=data/full.en.ref.zero.pcedt_19.table \
+        FEATSET_LIST=conf/featset.list \
+        ML_METHOD_LIST=conf/ml_method.list \
+        LRC=1 \
+        TMP_DIR=tmp/ml \
+        D="en zero on ref - for LREC abstract"
+[35m[2015-10-21 15:38:49]	DEBUG Loading parameters...[0m
+[35m[2015-10-21 15:38:49]	DEBUG DATE = 2015-10-21_15-38-49[0m
+[35m[2015-10-21 15:38:49]	DEBUG TMP_DIR: run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract[0m
+[35m[2015-10-21 15:38:49]	DEBUG Saving parameters into tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/config[0m
+[35m[2015-10-21 15:38:49]	DEBUG Loading parameters...[0m
+[35m[2015-10-21 15:38:49]	DEBUG DATE = 2015-10-21_15-38-49[0m
+[35m[2015-10-21 15:38:49]	DEBUG Saving parameters into tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/config[0m
+[36m[2015-10-21 15:38:49]	INFO Running /home/mnovak/projects/ml_framework/run_experiment.sh...[0m
+[35m[2015-10-21 15:38:49]	DEBUG Processing the featset list: conf/featset.list => tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/featset_per_line.list[0m
+[36m[2015-10-21 15:38:49]	INFO Running an experiment no. 001 using the featset with sha 8a5ed07b07[0m
+[35m[2015-10-21 15:38:49]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset[0m
+[36m[2015-10-21 15:38:49]	INFO Running job featset_exper.8a5ed07b07 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.8a5ed07b07 -o tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-xbWsnR.bash
+Your job 5188334 ("featset_exper.8a5ed07b07") has been submitted
+[36m[2015-10-21 15:39:19]	INFO Running an experiment no. 002 using the featset with sha 62461071e4[0m
+[35m[2015-10-21 15:39:19]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/002.62461071e4.featset[0m
+[36m[2015-10-21 15:39:19]	INFO Running job featset_exper.62461071e4 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/002.62461071e4.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.62461071e4 -o tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/002.62461071e4.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-FN4PRU.bash
+Your job 5188336 ("featset_exper.62461071e4") has been submitted
+[36m[2015-10-21 15:39:50]	INFO Running an experiment no. 003 using the featset with sha eb02bac9e1[0m
+[35m[2015-10-21 15:39:50]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset[0m
+[36m[2015-10-21 15:39:50]	INFO Running job featset_exper.eb02bac9e1 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.eb02bac9e1 -o tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-8wOiSg.bash
+Your job 5188369 ("featset_exper.eb02bac9e1") has been submitted
+[36m[2015-10-21 15:40:20]	INFO Running an experiment no. 004 using the featset with sha 52c0267285[0m
+[35m[2015-10-21 15:40:20]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/004.52c0267285.featset[0m
+[36m[2015-10-21 15:40:20]	INFO Running job featset_exper.52c0267285 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/004.52c0267285.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.52c0267285 -o tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/004.52c0267285.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-5UL7dg.bash
+Your job 5188550 ("featset_exper.52c0267285") has been submitted
+[36m[2015-10-21 15:40:50]	INFO Running an experiment no. 005 using the featset with sha 73ab14d232[0m
+[35m[2015-10-21 15:40:50]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/005.73ab14d232.featset[0m
+[36m[2015-10-21 15:40:50]	INFO Running job featset_exper.73ab14d232 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/005.73ab14d232.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.73ab14d232 -o tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/005.73ab14d232.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-Xn3H66.bash
+Your job 5188793 ("featset_exper.73ab14d232") has been submitted
+[36m[2015-10-21 15:41:20]	INFO Running an experiment no. 006 using the featset with sha 8ea9f3463d[0m
+[35m[2015-10-21 15:41:20]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset[0m
+[36m[2015-10-21 15:41:20]	INFO Running job featset_exper.8ea9f3463d on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.8ea9f3463d -o tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-XpuQG3.bash
+Your job 5189047 ("featset_exper.8ea9f3463d") has been submitted
+[36m[2015-10-21 15:41:51]	INFO Waiting for jobs to be completed...[0m
+[35m[2015-10-21 15:41:52]	DEBUG 2 6[0m
+[35m[2015-10-21 15:42:02]	DEBUG 2 6[0m
+[35m[2015-10-21 15:42:12]	DEBUG 2 6[0m
+[35m[2015-10-21 15:42:22]	DEBUG 3 6[0m
+[35m[2015-10-21 15:42:32]	DEBUG 3 6[0m
+[35m[2015-10-21 15:42:42]	DEBUG 3 6[0m
+[35m[2015-10-21 15:42:53]	DEBUG 3 6[0m
+[35m[2015-10-21 15:43:03]	DEBUG 3 6[0m
+[35m[2015-10-21 15:43:13]	DEBUG 3 6[0m
+[35m[2015-10-21 15:43:23]	DEBUG 4 6[0m
+[35m[2015-10-21 15:43:33]	DEBUG 4 6[0m
+[35m[2015-10-21 15:43:43]	DEBUG 4 6[0m
+[35m[2015-10-21 15:43:53]	DEBUG 5 6[0m
+[35m[2015-10-21 15:44:03]	DEBUG 5 6[0m
+[35m[2015-10-21 15:44:13]	DEBUG 5 6[0m
+[35m[2015-10-21 15:44:23]	DEBUG 5 6[0m
+[35m[2015-10-21 15:44:33]	DEBUG 5 6[0m
+[35m[2015-10-21 15:44:43]	DEBUG 5 6[0m
+[36m[2015-10-21 15:44:53]	INFO Collecting results of the experiments to: tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/stats[0m
+[36m[2015-10-21 15:44:53]	INFO Complete results stored in: tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/stats[0m
+[36m[2015-10-21 15:44:53]	INFO Complete results in HTML stored in: tmp/ml/run_2015-10-21_15-38-49_8995.en_zero_on_ref_-_for_LREC_abstract/stats.html[0m
+#make baseline_full SELECTOR=ref ANAPH_TYPE=$anaph_type ALIGN_ANNOT_LANG=$lang D="$lang $anaph_type on ref - for LREC abstract";
+#make rule-based_full SELECTOR=ref ANAPH_TYPE=$anaph_type ALIGN_ANNOT_LANG=$lang D="$lang $anaph_type on ref - for LREC abstract";
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+mkdir -p tmp/data_table/full.en.ref.all.pcedt_19
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Len -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AddRobustAlignment::CsRelpron language=cs \
+		My::AddRobustAlignment::EnPerspron language=en \
+		My::PrintAlignData align_language=cs anaph_type=all to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/full.en.ref.all.pcedt_19/$1}'
+TREEX-INFO:     2.969:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     3.071:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/6)
+TREEX-INFO:     3.129:	Loading block Treex::Block::Util::SetGlobal language=en (2/6)
+TREEX-INFO:     3.130:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/6)
+TREEX-INFO:     3.187:	Loading block Treex::Block::My::AddRobustAlignment::CsRelpron language=cs (4/6)
+TREEX-INFO:     3.429:	Loading block Treex::Block::My::AddRobustAlignment::EnPerspron language=en (5/6)
+TREEX-INFO:     3.464:	Loading block Treex::Block::My::PrintAlignData align_language=cs anaph_type=all to=. substitute={^.*/([^\/]*)}{tmp/data_table/full.en.ref.all.pcedt_19/$1} (6/6)
+TREEX-INFO:     3.713:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     3.713:	Loading the scenario took 0 seconds
+TREEX-INFO:     3.713:	Execution begin at 2015-10-21 15:44:57
+TREEX-INFO:     3.715:	Working directory ./013-cluster-run-XZz6M created
+TREEX-INFO:    10.840:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    10.841:	
+
+TREEX-INFO:    10.847:	Jobs:   0 started,   0 loaded | Docs:     0/    0/   50
+TREEX-INFO:    28.640:	Jobs: 100 started, 100 loaded | Docs:    14/   50/   50
+TREEX-INFO:    40.803:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    45.812:	Probe Results:
+TREEX-INFO:    45.812:	Probe	   _check_epilog_before_finish	     0.260	3
+TREEX-INFO:    45.812:	Probe	             _check_job_errors	     0.269	3
+TREEX-INFO:    45.812:	Probe	           _is_job_status.call	     0.860	441
+TREEX-INFO:    45.812:	Probe	           _is_job_status.disk	     0.035	219
+TREEX-INFO:    45.812:	Probe	    _print_output_files.stderr	     0.848	50
+TREEX-INFO:    45.812:	Probe	    _print_output_files.stdout	     1.387	50
+TREEX-INFO:    45.812:	Probe	          _wait_for_jobs.sleep	    31.551	6
+TREEX-INFO:    45.913:	Total execution time: 514
+TREEX-INFO:    45.913:	Execution time per job: 5.140
+TREEX-INFO:    45.913:	Slowest machine: fireball1.ufal.hide.ms.mff.cuni.cz = 9.5
+TREEX-INFO:    45.913:	Fastest machine: fireball4.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    45.913:	Times: 15.60, 10.54, 9.91, 9.76, 9.75, 9.30, 9.28, 9.23, 8.72, 7.79, 7.7, 7.52, 7.24, 7.22, 6.94, 6.88, 6.67, 6.63, 6.55, 6.42, 6.37, 6.36, 6.34, 6.16, 6.12, 5.86, 5.83, 5.77, 5.74, 5.73, 5.65, 5.61, 5.58, 5.57, 5.56, 5.51, 5.5, 5.49, 5.48, 5.45, 5.44, 5.41, 5.35, 5.33, 5.32, 5.31, 5.3, 5.27, 5.26, 5.20, 5.19, 5.100, 4.99, 4.98, 4.97, 4.96, 4.95, 4.93, 4.92, 4.9, 4.90, 4.89, 4.87, 4.85, 4.84, 4.82, 4.81, 4.8, 4.80, 4.78, 4.71, 4.70, 4.69, 4.68, 4.66, 4.64, 4.62, 4.6, 4.59, 4.53, 4.50, 4.47, 4.46, 4.43, 4.4, 4.40, 4.39, 4.38, 4.29, 4.21, 4.2, 4.18, 4.17, 4.15, 4.14, 4.13, 4.11, 4.1, 4.10, 3.25
+TREEX-INFO:    45.914:	All jobs finished.
+TREEX-INFO:    45.915:	Deleting jobs: 5189858, 5189859, 5189860, 5189861, 5189862, 5189863, 5189864, 5189865, 5189866, 5189867, 5189868, 5189869, 5189870, 5189871, 5189872, 5189873, 5189874, 5189875, 5189876, 5189877, 5189878, 5189879, 5189880, 5189881, 5189882, 5189883, 5189884, 5189885, 5189886, 5189887, 5189888, 5189889, 5189890, 5189891, 5189892, 5189893, 5189894, 5189895, 5189896, 5189897, 5189898, 5189899, 5189900, 5189901, 5189902, 5189903, 5189904, 5189905, 5189906, 5189907, 5189908, 5189909, 5189910, 5189911, 5189912, 5189913, 5189914, 5189915, 5189916, 5189917, 5189918, 5189919, 5189920, 5189921, 5189922, 5189923, 5189924, 5189925, 5189926, 5189927, 5189928, 5189929, 5189930, 5189931, 5189932, 5189933, 5189934, 5189935, 5189936, 5189937, 5189938, 5189939, 5189940, 5189941, 5189942, 5189943, 5189944, 5189945, 5189946, 5189947, 5189948, 5189949, 5189950, 5189951, 5189952, 5189953, 5189954, 5189955, 5189956, 5189957
+TREEX-INFO:    48.618:	Execution finished at 2015-10-21 15:45:42
+find tmp/data_table/full.en.ref.all.pcedt_19 -name "wsj_19*" | sort | xargs cat | gzip -c > data/full.en.ref.all.pcedt_19.mgiza_on_czeng.table
+ln -s full.en.ref.all.pcedt_19.mgiza_on_czeng.table data/full.en.ref.all.pcedt_19.table
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+/home/mnovak/projects/ml_framework/run.sh -f conf/params.ini \
+        EXPERIMENT_TYPE=cross-validation \
+		CROSS_VALID_N=10 \
+        DATA_LIST="FULL_DATA" \
+        FULL_DATA=data/full.en.ref.all.pcedt_19.table \
+        FEATSET_LIST=conf/featset.list \
+        ML_METHOD_LIST=conf/ml_method.list \
+        LRC=1 \
+        TMP_DIR=tmp/ml \
+        D="en all on ref - for LREC abstract"
+[35m[2015-10-21 15:45:43]	DEBUG Loading parameters...[0m
+[35m[2015-10-21 15:45:43]	DEBUG DATE = 2015-10-21_15-45-43[0m
+[35m[2015-10-21 15:45:43]	DEBUG TMP_DIR: run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract[0m
+[35m[2015-10-21 15:45:43]	DEBUG Saving parameters into tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/config[0m
+[35m[2015-10-21 15:45:43]	DEBUG Loading parameters...[0m
+[35m[2015-10-21 15:45:43]	DEBUG DATE = 2015-10-21_15-45-43[0m
+[35m[2015-10-21 15:45:43]	DEBUG Saving parameters into tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/config[0m
+[36m[2015-10-21 15:45:43]	INFO Running /home/mnovak/projects/ml_framework/run_experiment.sh...[0m
+[35m[2015-10-21 15:45:43]	DEBUG Processing the featset list: conf/featset.list => tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/featset_per_line.list[0m
+[36m[2015-10-21 15:45:44]	INFO Running an experiment no. 001 using the featset with sha 8a5ed07b07[0m
+[35m[2015-10-21 15:45:44]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset[0m
+[36m[2015-10-21 15:45:44]	INFO Running job featset_exper.8a5ed07b07 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.8a5ed07b07 -o tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-YuwNdW.bash
+Your job 5189958 ("featset_exper.8a5ed07b07") has been submitted
+[36m[2015-10-21 15:46:14]	INFO Running an experiment no. 002 using the featset with sha 62461071e4[0m
+[35m[2015-10-21 15:46:14]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/002.62461071e4.featset[0m
+[36m[2015-10-21 15:46:14]	INFO Running job featset_exper.62461071e4 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/002.62461071e4.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.62461071e4 -o tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/002.62461071e4.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-hx0u9q.bash
+Your job 5189960 ("featset_exper.62461071e4") has been submitted
+[36m[2015-10-21 15:46:44]	INFO Running an experiment no. 003 using the featset with sha eb02bac9e1[0m
+[35m[2015-10-21 15:46:44]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset[0m
+[36m[2015-10-21 15:46:44]	INFO Running job featset_exper.eb02bac9e1 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.eb02bac9e1 -o tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-3vr6rS.bash
+Your job 5189979 ("featset_exper.eb02bac9e1") has been submitted
+[36m[2015-10-21 15:47:14]	INFO Running an experiment no. 004 using the featset with sha 52c0267285[0m
+[35m[2015-10-21 15:47:14]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/004.52c0267285.featset[0m
+[36m[2015-10-21 15:47:14]	INFO Running job featset_exper.52c0267285 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/004.52c0267285.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.52c0267285 -o tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/004.52c0267285.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-fkITkF.bash
+Your job 5190131 ("featset_exper.52c0267285") has been submitted
+[36m[2015-10-21 15:47:44]	INFO Running an experiment no. 005 using the featset with sha 73ab14d232[0m
+[35m[2015-10-21 15:47:44]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/005.73ab14d232.featset[0m
+[36m[2015-10-21 15:47:44]	INFO Running job featset_exper.73ab14d232 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/005.73ab14d232.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.73ab14d232 -o tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/005.73ab14d232.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-Shpbn3.bash
+Your job 5190318 ("featset_exper.73ab14d232") has been submitted
+[36m[2015-10-21 15:48:15]	INFO Running an experiment no. 006 using the featset with sha 8ea9f3463d[0m
+[35m[2015-10-21 15:48:15]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset[0m
+[36m[2015-10-21 15:48:15]	INFO Running job featset_exper.8ea9f3463d on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.8ea9f3463d -o tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-sVXIaS.bash
+Your job 5190573 ("featset_exper.8ea9f3463d") has been submitted
+[36m[2015-10-21 15:48:45]	INFO Waiting for jobs to be completed...[0m
+[35m[2015-10-21 15:48:45]	DEBUG 1 6[0m
+[35m[2015-10-21 15:48:55]	DEBUG 1 6[0m
+[35m[2015-10-21 15:49:05]	DEBUG 1 6[0m
+[35m[2015-10-21 15:49:15]	DEBUG 2 6[0m
+[35m[2015-10-21 15:49:25]	DEBUG 2 6[0m
+[35m[2015-10-21 15:49:36]	DEBUG 2 6[0m
+[35m[2015-10-21 15:49:46]	DEBUG 3 6[0m
+[35m[2015-10-21 15:49:58]	DEBUG 3 6[0m
+[35m[2015-10-21 15:50:08]	DEBUG 3 6[0m
+[35m[2015-10-21 15:50:19]	DEBUG 3 6[0m
+[35m[2015-10-21 15:50:29]	DEBUG 3 6[0m
+[35m[2015-10-21 15:50:39]	DEBUG 3 6[0m
+[35m[2015-10-21 15:50:50]	DEBUG 3 6[0m
+[35m[2015-10-21 15:51:00]	DEBUG 3 6[0m
+[35m[2015-10-21 15:51:10]	DEBUG 3 6[0m
+[35m[2015-10-21 15:51:20]	DEBUG 4 6[0m
+[35m[2015-10-21 15:51:30]	DEBUG 4 6[0m
+[35m[2015-10-21 15:51:40]	DEBUG 4 6[0m
+[36m[2015-10-21 15:51:50]	INFO Collecting results of the experiments to: tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/stats[0m
+[36m[2015-10-21 15:51:50]	INFO Complete results stored in: tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/stats[0m
+[36m[2015-10-21 15:51:50]	INFO Complete results in HTML stored in: tmp/ml/run_2015-10-21_15-45-43_10252.en_all_on_ref_-_for_LREC_abstract/stats.html[0m
+#make baseline_full SELECTOR=ref ANAPH_TYPE=$anaph_type ALIGN_ANNOT_LANG=$lang D="$lang $anaph_type on ref - for LREC abstract";
+#make rule-based_full SELECTOR=ref ANAPH_TYPE=$anaph_type ALIGN_ANNOT_LANG=$lang D="$lang $anaph_type on ref - for LREC abstract";
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+mkdir -p tmp/data_table/full.cs.ref.perspron.pcedt_19
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Lcs -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AddRobustAlignment::CsRelpron language=cs \
+		My::AddRobustAlignment::EnPerspron language=en \
+		My::PrintAlignData align_language=en anaph_type=perspron to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/full.cs.ref.perspron.pcedt_19/$1}'
+TREEX-INFO:     2.973:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     3.076:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/6)
+TREEX-INFO:     3.134:	Loading block Treex::Block::Util::SetGlobal language=cs (2/6)
+TREEX-INFO:     3.135:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/6)
+TREEX-INFO:     3.192:	Loading block Treex::Block::My::AddRobustAlignment::CsRelpron language=cs (4/6)
+TREEX-INFO:     3.436:	Loading block Treex::Block::My::AddRobustAlignment::EnPerspron language=en (5/6)
+TREEX-INFO:     3.471:	Loading block Treex::Block::My::PrintAlignData align_language=en anaph_type=perspron to=. substitute={^.*/([^\/]*)}{tmp/data_table/full.cs.ref.perspron.pcedt_19/$1} (6/6)
+TREEX-INFO:     3.719:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     3.719:	Loading the scenario took 1 seconds
+TREEX-INFO:     3.719:	Execution begin at 2015-10-21 15:51:54
+TREEX-INFO:     3.721:	Working directory ./014-cluster-run-_rPE1 created
+TREEX-INFO:    10.918:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    10.919:	
+
+TREEX-INFO:    10.976:	Jobs:  29 started,   0 loaded | Docs:     0/    1/   50
+TREEX-INFO:    17.112:	Jobs:  29 started,  29 loaded | Docs:    14/   50/   50
+TREEX-INFO:    24.650:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    29.659:	Probe Results:
+TREEX-INFO:    29.659:	Probe	   _check_epilog_before_finish	     0.380	3
+TREEX-INFO:    29.659:	Probe	             _check_job_errors	     0.389	3
+TREEX-INFO:    29.659:	Probe	           _is_job_status.call	     1.150	563
+TREEX-INFO:    29.659:	Probe	           _is_job_status.disk	     0.032	246
+TREEX-INFO:    29.659:	Probe	    _print_output_files.stderr	     0.843	50
+TREEX-INFO:    29.659:	Probe	    _print_output_files.stdout	     1.431	50
+TREEX-INFO:    29.659:	Probe	          _wait_for_jobs.sleep	    15.001	3
+TREEX-INFO:    29.755:	Total execution time: 415
+TREEX-INFO:    29.756:	Execution time per job: 4.150
+TREEX-INFO:    29.756:	Slowest machine: pandora5.ufal.hide.ms.mff.cuni.cz = 7
+TREEX-INFO:    29.756:	Fastest machine: lucifer9.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    29.756:	Times: 11.29, 6.88, 6.8, 6.28, 6.27, 6.23, 6.17, 6.13, 5.95, 5.94, 5.93, 5.92, 5.9, 5.87, 5.86, 5.83, 5.82, 5.79, 5.71, 5.70, 5.69, 5.66, 5.64, 5.52, 5.5, 5.48, 5.4, 5.38, 5.26, 5.25, 5.24, 5.22, 5.21, 5.2, 5.20, 5.19, 5.18, 5.16, 5.15, 5.14, 5.12, 5.11, 5.1, 4.99, 4.98, 4.97, 4.96, 4.85, 4.84, 4.81, 4.80, 4.74, 4.7, 4.67, 4.63, 4.62, 4.61, 4.6, 4.60, 4.59, 4.55, 4.51, 4.50, 4.49, 4.46, 4.42, 4.41, 4.40, 4.37, 4.34, 4.32, 4.3, 4.30, 4.10, 3.91, 3.90, 3.78, 3.76, 3.73, 3.68, 3.65, 3.58, 3.57, 3.54, 3.53, 3.47, 3.45, 3.43, 3.36, 3.33, 3.100, 2.77, 2.75, 2.44, 2.39, 2.35, 2.31
+TREEX-INFO:    29.756:	All jobs finished.
+TREEX-INFO:    29.758:	Deleting jobs: 5191482, 5191483, 5191484, 5191485, 5191486, 5191487, 5191488, 5191489, 5191490, 5191491, 5191492, 5191493, 5191494, 5191495, 5191496, 5191497, 5191498, 5191499, 5191500, 5191501, 5191502, 5191503, 5191504, 5191505, 5191506, 5191507, 5191508, 5191509, 5191510, 5191511, 5191512, 5191513, 5191514, 5191515, 5191516, 5191517, 5191518, 5191519, 5191520, 5191521, 5191522, 5191523, 5191524, 5191525, 5191526, 5191527, 5191528, 5191529, 5191530, 5191531, 5191532, 5191533, 5191534, 5191535, 5191536, 5191537, 5191538, 5191539, 5191540, 5191541, 5191542, 5191543, 5191544, 5191545, 5191546, 5191547, 5191548, 5191549, 5191550, 5191551, 5191552, 5191553, 5191554, 5191555, 5191556, 5191557, 5191558, 5191559, 5191560, 5191561, 5191562, 5191563, 5191564, 5191565, 5191566, 5191567, 5191568, 5191569, 5191570, 5191571, 5191572, 5191573, 5191574, 5191575, 5191576, 5191577, 5191578, 5191579, 5191580, 5191581
+TREEX-INFO:    32.441:	Execution finished at 2015-10-21 15:52:23
+find tmp/data_table/full.cs.ref.perspron.pcedt_19 -name "wsj_19*" | sort | xargs cat | gzip -c > data/full.cs.ref.perspron.pcedt_19.mgiza_on_czeng.table
+ln -s full.cs.ref.perspron.pcedt_19.mgiza_on_czeng.table data/full.cs.ref.perspron.pcedt_19.table
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+/home/mnovak/projects/ml_framework/run.sh -f conf/params.ini \
+        EXPERIMENT_TYPE=cross-validation \
+		CROSS_VALID_N=10 \
+        DATA_LIST="FULL_DATA" \
+        FULL_DATA=data/full.cs.ref.perspron.pcedt_19.table \
+        FEATSET_LIST=conf/featset.list \
+        ML_METHOD_LIST=conf/ml_method.list \
+        LRC=1 \
+        TMP_DIR=tmp/ml \
+        D="cs perspron on ref - for LREC abstract"
+[35m[2015-10-21 15:52:23]	DEBUG Loading parameters...[0m
+[35m[2015-10-21 15:52:23]	DEBUG DATE = 2015-10-21_15-52-23[0m
+[35m[2015-10-21 15:52:23]	DEBUG TMP_DIR: run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract[0m
+[35m[2015-10-21 15:52:23]	DEBUG Saving parameters into tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/config[0m
+[35m[2015-10-21 15:52:23]	DEBUG Loading parameters...[0m
+[35m[2015-10-21 15:52:23]	DEBUG DATE = 2015-10-21_15-52-23[0m
+[35m[2015-10-21 15:52:23]	DEBUG Saving parameters into tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/config[0m
+[36m[2015-10-21 15:52:23]	INFO Running /home/mnovak/projects/ml_framework/run_experiment.sh...[0m
+[35m[2015-10-21 15:52:23]	DEBUG Processing the featset list: conf/featset.list => tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/featset_per_line.list[0m
+[36m[2015-10-21 15:52:23]	INFO Running an experiment no. 001 using the featset with sha 8a5ed07b07[0m
+[35m[2015-10-21 15:52:23]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset[0m
+[36m[2015-10-21 15:52:23]	INFO Running job featset_exper.8a5ed07b07 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.8a5ed07b07 -o tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-u9yQwh.bash
+Your job 5191582 ("featset_exper.8a5ed07b07") has been submitted
+[36m[2015-10-21 15:52:54]	INFO Running an experiment no. 002 using the featset with sha 62461071e4[0m
+[35m[2015-10-21 15:52:54]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/002.62461071e4.featset[0m
+[36m[2015-10-21 15:52:54]	INFO Running job featset_exper.62461071e4 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/002.62461071e4.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.62461071e4 -o tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/002.62461071e4.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-TtqUJc.bash
+Your job 5191586 ("featset_exper.62461071e4") has been submitted
+[36m[2015-10-21 15:53:24]	INFO Running an experiment no. 003 using the featset with sha eb02bac9e1[0m
+[35m[2015-10-21 15:53:24]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset[0m
+[36m[2015-10-21 15:53:24]	INFO Running job featset_exper.eb02bac9e1 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.eb02bac9e1 -o tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-1DslXy.bash
+Your job 5191655 ("featset_exper.eb02bac9e1") has been submitted
+[36m[2015-10-21 15:53:54]	INFO Running an experiment no. 004 using the featset with sha 52c0267285[0m
+[35m[2015-10-21 15:53:54]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/004.52c0267285.featset[0m
+[36m[2015-10-21 15:53:54]	INFO Running job featset_exper.52c0267285 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/004.52c0267285.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.52c0267285 -o tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/004.52c0267285.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-KwAwrQ.bash
+Your job 5191879 ("featset_exper.52c0267285") has been submitted
+[36m[2015-10-21 15:54:24]	INFO Running an experiment no. 005 using the featset with sha 73ab14d232[0m
+[35m[2015-10-21 15:54:24]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/005.73ab14d232.featset[0m
+[36m[2015-10-21 15:54:24]	INFO Running job featset_exper.73ab14d232 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/005.73ab14d232.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.73ab14d232 -o tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/005.73ab14d232.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-IbRr6r.bash
+Your job 5192126 ("featset_exper.73ab14d232") has been submitted
+[36m[2015-10-21 15:54:54]	INFO Running an experiment no. 006 using the featset with sha 8ea9f3463d[0m
+[35m[2015-10-21 15:54:54]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset[0m
+[36m[2015-10-21 15:54:54]	INFO Running job featset_exper.8ea9f3463d on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.8ea9f3463d -o tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-Xh8yGs.bash
+Your job 5192371 ("featset_exper.8ea9f3463d") has been submitted
+[36m[2015-10-21 15:55:25]	INFO Waiting for jobs to be completed...[0m
+[35m[2015-10-21 15:55:25]	DEBUG 2 6[0m
+[35m[2015-10-21 15:55:35]	DEBUG 2 6[0m
+[35m[2015-10-21 15:55:45]	DEBUG 2 6[0m
+[35m[2015-10-21 15:55:55]	DEBUG 2 6[0m
+[35m[2015-10-21 15:56:05]	DEBUG 2 6[0m
+[35m[2015-10-21 15:56:15]	DEBUG 2 6[0m
+[35m[2015-10-21 15:56:25]	DEBUG 4 6[0m
+[35m[2015-10-21 15:56:35]	DEBUG 4 6[0m
+[35m[2015-10-21 15:56:45]	DEBUG 4 6[0m
+[35m[2015-10-21 15:56:55]	DEBUG 5 6[0m
+[35m[2015-10-21 15:57:05]	DEBUG 5 6[0m
+[35m[2015-10-21 15:57:15]	DEBUG 5 6[0m
+[36m[2015-10-21 15:57:25]	INFO Collecting results of the experiments to: tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/stats[0m
+[36m[2015-10-21 15:57:25]	INFO Complete results stored in: tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/stats[0m
+[36m[2015-10-21 15:57:25]	INFO Complete results in HTML stored in: tmp/ml/run_2015-10-21_15-52-23_11504.cs_perspron_on_ref_-_for_LREC_abstract/stats.html[0m
+#make baseline_full SELECTOR=ref ANAPH_TYPE=$anaph_type ALIGN_ANNOT_LANG=$lang D="$lang $anaph_type on ref - for LREC abstract";
+#make rule-based_full SELECTOR=ref ANAPH_TYPE=$anaph_type ALIGN_ANNOT_LANG=$lang D="$lang $anaph_type on ref - for LREC abstract";
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Nothing to be done for `extract_data_table'.
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+/home/mnovak/projects/ml_framework/run.sh -f conf/params.ini \
+        EXPERIMENT_TYPE=cross-validation \
+		CROSS_VALID_N=10 \
+        DATA_LIST="FULL_DATA" \
+        FULL_DATA=data/full.cs.ref.relpron.pcedt_19.table \
+        FEATSET_LIST=conf/featset.list \
+        ML_METHOD_LIST=conf/ml_method.list \
+        LRC=1 \
+        TMP_DIR=tmp/ml \
+        D="cs relpron on ref - for LREC abstract"
+[35m[2015-10-21 15:57:25]	DEBUG Loading parameters...[0m
+[35m[2015-10-21 15:57:25]	DEBUG DATE = 2015-10-21_15-57-25[0m
+[35m[2015-10-21 15:57:25]	DEBUG TMP_DIR: run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract[0m
+[35m[2015-10-21 15:57:25]	DEBUG Saving parameters into tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/config[0m
+[35m[2015-10-21 15:57:25]	DEBUG Loading parameters...[0m
+[35m[2015-10-21 15:57:25]	DEBUG DATE = 2015-10-21_15-57-25[0m
+[35m[2015-10-21 15:57:25]	DEBUG Saving parameters into tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/config[0m
+[36m[2015-10-21 15:57:25]	INFO Running /home/mnovak/projects/ml_framework/run_experiment.sh...[0m
+[35m[2015-10-21 15:57:25]	DEBUG Processing the featset list: conf/featset.list => tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/featset_per_line.list[0m
+[36m[2015-10-21 15:57:25]	INFO Running an experiment no. 001 using the featset with sha 8a5ed07b07[0m
+[35m[2015-10-21 15:57:25]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset[0m
+[36m[2015-10-21 15:57:25]	INFO Running job featset_exper.8a5ed07b07 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.8a5ed07b07 -o tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-LjJUus.bash
+Your job 5193106 ("featset_exper.8a5ed07b07") has been submitted
+[36m[2015-10-21 15:57:55]	INFO Running an experiment no. 002 using the featset with sha 62461071e4[0m
+[35m[2015-10-21 15:57:55]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/002.62461071e4.featset[0m
+[36m[2015-10-21 15:57:55]	INFO Running job featset_exper.62461071e4 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/002.62461071e4.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.62461071e4 -o tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/002.62461071e4.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-SFhCEw.bash
+Your job 5193111 ("featset_exper.62461071e4") has been submitted
+[36m[2015-10-21 15:58:26]	INFO Running an experiment no. 003 using the featset with sha eb02bac9e1[0m
+[35m[2015-10-21 15:58:26]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset[0m
+[36m[2015-10-21 15:58:26]	INFO Running job featset_exper.eb02bac9e1 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.eb02bac9e1 -o tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-_d4XWj.bash
+Your job 5193193 ("featset_exper.eb02bac9e1") has been submitted
+[36m[2015-10-21 15:58:56]	INFO Running an experiment no. 004 using the featset with sha 52c0267285[0m
+[35m[2015-10-21 15:58:56]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/004.52c0267285.featset[0m
+[36m[2015-10-21 15:58:56]	INFO Running job featset_exper.52c0267285 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/004.52c0267285.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.52c0267285 -o tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/004.52c0267285.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-D9Got7.bash
+Your job 5193426 ("featset_exper.52c0267285") has been submitted
+[36m[2015-10-21 15:59:26]	INFO Running an experiment no. 005 using the featset with sha 73ab14d232[0m
+[35m[2015-10-21 15:59:26]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/005.73ab14d232.featset[0m
+[36m[2015-10-21 15:59:26]	INFO Running job featset_exper.73ab14d232 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/005.73ab14d232.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.73ab14d232 -o tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/005.73ab14d232.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-C4sQ_w.bash
+Your job 5193664 ("featset_exper.73ab14d232") has been submitted
+[36m[2015-10-21 15:59:56]	INFO Running an experiment no. 006 using the featset with sha 8ea9f3463d[0m
+[35m[2015-10-21 15:59:56]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset[0m
+[36m[2015-10-21 15:59:56]	INFO Running job featset_exper.8ea9f3463d on cluster. The logfile can be found in tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.8ea9f3463d -o tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-5M9Qme.bash
+Your job 5193888 ("featset_exper.8ea9f3463d") has been submitted
+[36m[2015-10-21 16:00:26]	INFO Waiting for jobs to be completed...[0m
+[35m[2015-10-21 16:00:26]	DEBUG 2 6[0m
+[35m[2015-10-21 16:00:37]	DEBUG 2 6[0m
+[35m[2015-10-21 16:00:48]	DEBUG 2 6[0m
+[35m[2015-10-21 16:00:58]	DEBUG 3 6[0m
+[35m[2015-10-21 16:01:08]	DEBUG 3 6[0m
+[35m[2015-10-21 16:01:18]	DEBUG 3 6[0m
+[35m[2015-10-21 16:01:28]	DEBUG 3 6[0m
+[35m[2015-10-21 16:01:38]	DEBUG 3 6[0m
+[35m[2015-10-21 16:01:48]	DEBUG 3 6[0m
+[35m[2015-10-21 16:01:58]	DEBUG 3 6[0m
+[35m[2015-10-21 16:02:08]	DEBUG 3 6[0m
+[35m[2015-10-21 16:02:18]	DEBUG 3 6[0m
+[35m[2015-10-21 16:02:28]	DEBUG 4 6[0m
+[35m[2015-10-21 16:02:38]	DEBUG 4 6[0m
+[35m[2015-10-21 16:02:48]	DEBUG 4 6[0m
+[35m[2015-10-21 16:02:58]	DEBUG 5 6[0m
+[35m[2015-10-21 16:03:08]	DEBUG 5 6[0m
+[35m[2015-10-21 16:03:18]	DEBUG 5 6[0m
+[36m[2015-10-21 16:03:28]	INFO Collecting results of the experiments to: tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/stats[0m
+[36m[2015-10-21 16:03:28]	INFO Complete results stored in: tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/stats[0m
+[36m[2015-10-21 16:03:28]	INFO Complete results in HTML stored in: tmp/ml/run_2015-10-21_15-57-25_11973.cs_relpron_on_ref_-_for_LREC_abstract/stats.html[0m
+#make baseline_full SELECTOR=ref ANAPH_TYPE=$anaph_type ALIGN_ANNOT_LANG=$lang D="$lang $anaph_type on ref - for LREC abstract";
+#make rule-based_full SELECTOR=ref ANAPH_TYPE=$anaph_type ALIGN_ANNOT_LANG=$lang D="$lang $anaph_type on ref - for LREC abstract";
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+mkdir -p tmp/data_table/full.cs.ref.zero.pcedt_19
+treex -p --priority "-1" --qsub '-hard -l mem_free=2G -l act_mem_free=2G -l h_vmem=2G' --jobs 100 -Lcs -Sref \
+		Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list \
+		My::AddRobustAlignment::CsRelpron language=cs \
+		My::AddRobustAlignment::EnPerspron language=en \
+		My::PrintAlignData align_language=en anaph_type=zero to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/full.cs.ref.zero.pcedt_19/$1}'
+TREEX-INFO:     2.983:	Parallelized execution. This process is the head coordinating 100 server processes.
+TREEX-INFO:     3.087:	Loading block Treex::Block::Util::SetGlobal selector=ref (1/6)
+TREEX-INFO:     3.145:	Loading block Treex::Block::Util::SetGlobal language=cs (2/6)
+TREEX-INFO:     3.146:	Loading block Treex::Block::Read::Treex from=@data/gold_aligned.mgiza_on_czeng/full.list (3/6)
+TREEX-INFO:     3.203:	Loading block Treex::Block::My::AddRobustAlignment::CsRelpron language=cs (4/6)
+TREEX-INFO:     3.449:	Loading block Treex::Block::My::AddRobustAlignment::EnPerspron language=en (5/6)
+TREEX-INFO:     3.485:	Loading block Treex::Block::My::PrintAlignData align_language=en anaph_type=zero to=. substitute={^.*/([^\/]*)}{tmp/data_table/full.cs.ref.zero.pcedt_19/$1} (6/6)
+TREEX-INFO:     3.734:	ALL BLOCKS SUCCESSFULLY LOADED.
+TREEX-INFO:     3.734:	Loading the scenario took 1 seconds
+TREEX-INFO:     3.734:	Execution begin at 2015-10-21 16:03:33
+TREEX-INFO:     3.737:	Working directory ./015-cluster-run-Nzdzd created
+TREEX-INFO:    10.869:	100 jobs submitted to the cluster. Waiting for confirmation that they started...
+TREEX-INFO:    10.870:	
+
+TREEX-INFO:    10.876:	Jobs:   0 started,   0 loaded | Docs:     0/    0/   50
+TREEX-INFO:    22.555:	Jobs: 100 started,  30 loaded | Docs:    14/   50/   50
+TREEX-INFO:    29.906:	Jobs: 100 started, 100 loaded | Docs:    50/   50/   50
+TREEX-INFO:    34.915:	Probe Results:
+TREEX-INFO:    34.916:	Probe	   _check_epilog_before_finish	     0.189	2
+TREEX-INFO:    34.916:	Probe	             _check_job_errors	     0.195	2
+TREEX-INFO:    34.916:	Probe	           _is_job_status.call	     0.973	419
+TREEX-INFO:    34.916:	Probe	           _is_job_status.disk	     0.013	108
+TREEX-INFO:    34.916:	Probe	    _print_output_files.stderr	     0.855	50
+TREEX-INFO:    34.916:	Probe	    _print_output_files.stdout	     1.440	50
+TREEX-INFO:    34.916:	Probe	          _wait_for_jobs.sleep	    20.501	4
+TREEX-INFO:    35.016:	Total execution time: 456
+TREEX-INFO:    35.016:	Execution time per job: 4.560
+TREEX-INFO:    35.016:	Slowest machine: hydra1.ufal.hide.ms.mff.cuni.cz = 7
+TREEX-INFO:    35.016:	Fastest machine: andromeda10.ufal.hide.ms.mff.cuni.cz = 3
+TREEX-INFO:    35.016:	Times: 12.73, 7.79, 7.77, 7.59, 7.35, 7.31, 6.84, 6.8, 6.6, 6.38, 6.36, 6.27, 6.10, 5.97, 5.96, 5.95, 5.91, 5.89, 5.87, 5.86, 5.76, 5.72, 5.65, 5.64, 5.63, 5.62, 5.61, 5.60, 5.58, 5.57, 5.56, 5.52, 5.50, 5.48, 5.45, 5.40, 5.39, 5.37, 5.32, 5.25, 5.22, 5.2, 5.20, 4.99, 4.98, 4.94, 4.93, 4.92, 4.9, 4.90, 4.88, 4.85, 4.83, 4.82, 4.81, 4.80, 4.75, 4.74, 4.71, 4.69, 4.68, 4.67, 4.66, 4.55, 4.54, 4.53, 4.5, 4.49, 4.47, 4.46, 4.42, 4.41, 4.4, 4.34, 4.3, 4.30, 4.29, 4.28, 4.26, 4.23, 4.19, 4.18, 4.17, 4.16, 4.14, 4.13, 4.12, 4.11, 4.1, 3.78, 3.7, 3.70, 3.51, 3.44, 3.43, 3.33, 3.24, 3.21, 3.15, 3.100
+TREEX-INFO:    35.016:	All jobs finished.
+TREEX-INFO:    35.018:	Deleting jobs: 5194630, 5194631, 5194632, 5194633, 5194634, 5194635, 5194636, 5194637, 5194638, 5194639, 5194640, 5194641, 5194642, 5194643, 5194644, 5194645, 5194646, 5194647, 5194648, 5194649, 5194650, 5194651, 5194652, 5194653, 5194654, 5194655, 5194656, 5194657, 5194658, 5194659, 5194660, 5194661, 5194662, 5194663, 5194664, 5194665, 5194666, 5194667, 5194668, 5194669, 5194670, 5194671, 5194672, 5194673, 5194674, 5194675, 5194676, 5194677, 5194678, 5194679, 5194680, 5194681, 5194682, 5194683, 5194684, 5194685, 5194686, 5194687, 5194688, 5194689, 5194690, 5194691, 5194692, 5194693, 5194694, 5194695, 5194696, 5194697, 5194698, 5194699, 5194700, 5194701, 5194702, 5194703, 5194704, 5194705, 5194706, 5194707, 5194708, 5194709, 5194710, 5194711, 5194712, 5194713, 5194714, 5194715, 5194716, 5194717, 5194718, 5194719, 5194720, 5194721, 5194722, 5194723, 5194724, 5194725, 5194726, 5194727, 5194728, 5194729
+TREEX-INFO:    37.734:	Execution finished at 2015-10-21 16:04:07
+find tmp/data_table/full.cs.ref.zero.pcedt_19 -name "wsj_19*" | sort | xargs cat | gzip -c > data/full.cs.ref.zero.pcedt_19.mgiza_on_czeng.table
+ln -s full.cs.ref.zero.pcedt_19.mgiza_on_czeng.table data/full.cs.ref.zero.pcedt_19.table
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+/home/mnovak/projects/ml_framework/run.sh -f conf/params.ini \
+        EXPERIMENT_TYPE=cross-validation \
+		CROSS_VALID_N=10 \
+        DATA_LIST="FULL_DATA" \
+        FULL_DATA=data/full.cs.ref.zero.pcedt_19.table \
+        FEATSET_LIST=conf/featset.list \
+        ML_METHOD_LIST=conf/ml_method.list \
+        LRC=1 \
+        TMP_DIR=tmp/ml \
+        D="cs zero on ref - for LREC abstract"
+[35m[2015-10-21 16:04:07]	DEBUG Loading parameters...[0m
+[35m[2015-10-21 16:04:07]	DEBUG DATE = 2015-10-21_16-04-07[0m
+[35m[2015-10-21 16:04:07]	DEBUG TMP_DIR: run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract[0m
+[35m[2015-10-21 16:04:07]	DEBUG Saving parameters into tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/config[0m
+[35m[2015-10-21 16:04:07]	DEBUG Loading parameters...[0m
+[35m[2015-10-21 16:04:07]	DEBUG DATE = 2015-10-21_16-04-07[0m
+[35m[2015-10-21 16:04:07]	DEBUG Saving parameters into tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/config[0m
+[36m[2015-10-21 16:04:07]	INFO Running /home/mnovak/projects/ml_framework/run_experiment.sh...[0m
+[35m[2015-10-21 16:04:07]	DEBUG Processing the featset list: conf/featset.list => tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/featset_per_line.list[0m
+[36m[2015-10-21 16:04:08]	INFO Running an experiment no. 001 using the featset with sha 8a5ed07b07[0m
+[35m[2015-10-21 16:04:08]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset[0m
+[36m[2015-10-21 16:04:08]	INFO Running job featset_exper.8a5ed07b07 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.8a5ed07b07 -o tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-YOzn4U.bash
+Your job 5194730 ("featset_exper.8a5ed07b07") has been submitted
+[36m[2015-10-21 16:04:38]	INFO Running an experiment no. 002 using the featset with sha 62461071e4[0m
+[35m[2015-10-21 16:04:38]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/002.62461071e4.featset[0m
+[36m[2015-10-21 16:04:38]	INFO Running job featset_exper.62461071e4 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/002.62461071e4.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.62461071e4 -o tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/002.62461071e4.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-dkUQ8m.bash
+Your job 5194734 ("featset_exper.62461071e4") has been submitted
+[36m[2015-10-21 16:05:08]	INFO Running an experiment no. 003 using the featset with sha eb02bac9e1[0m
+[35m[2015-10-21 16:05:08]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset[0m
+[36m[2015-10-21 16:05:08]	INFO Running job featset_exper.eb02bac9e1 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.eb02bac9e1 -o tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-x2FmmL.bash
+Your job 5194803 ("featset_exper.eb02bac9e1") has been submitted
+[36m[2015-10-21 16:05:38]	INFO Running an experiment no. 004 using the featset with sha 52c0267285[0m
+[35m[2015-10-21 16:05:38]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/004.52c0267285.featset[0m
+[36m[2015-10-21 16:05:38]	INFO Running job featset_exper.52c0267285 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/004.52c0267285.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.52c0267285 -o tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/004.52c0267285.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-HWTbo_.bash
+Your job 5195036 ("featset_exper.52c0267285") has been submitted
+[36m[2015-10-21 16:06:08]	INFO Running an experiment no. 005 using the featset with sha 73ab14d232[0m
+[35m[2015-10-21 16:06:08]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/005.73ab14d232.featset[0m
+[36m[2015-10-21 16:06:08]	INFO Running job featset_exper.73ab14d232 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/005.73ab14d232.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.73ab14d232 -o tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/005.73ab14d232.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-DzSH3X.bash
+Your job 5195240 ("featset_exper.73ab14d232") has been submitted
+[36m[2015-10-21 16:06:40]	INFO Running an experiment no. 006 using the featset with sha 8ea9f3463d[0m
+[35m[2015-10-21 16:06:40]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset[0m
+[36m[2015-10-21 16:06:40]	INFO Running job featset_exper.8ea9f3463d on cluster. The logfile can be found in tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.8ea9f3463d -o tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-m7dQRZ.bash
+Your job 5195427 ("featset_exper.8ea9f3463d") has been submitted
+[36m[2015-10-21 16:07:10]	INFO Waiting for jobs to be completed...[0m
+[35m[2015-10-21 16:07:10]	DEBUG 1 6[0m
+[35m[2015-10-21 16:07:20]	DEBUG 1 6[0m
+[35m[2015-10-21 16:07:30]	DEBUG 1 6[0m
+[35m[2015-10-21 16:07:41]	DEBUG 2 6[0m
+[35m[2015-10-21 16:07:51]	DEBUG 2 6[0m
+[35m[2015-10-21 16:08:01]	DEBUG 2 6[0m
+[35m[2015-10-21 16:08:11]	DEBUG 3 6[0m
+[35m[2015-10-21 16:08:21]	DEBUG 3 6[0m
+[35m[2015-10-21 16:08:31]	DEBUG 3 6[0m
+[35m[2015-10-21 16:08:41]	DEBUG 3 6[0m
+[35m[2015-10-21 16:08:51]	DEBUG 3 6[0m
+[35m[2015-10-21 16:09:01]	DEBUG 3 6[0m
+[35m[2015-10-21 16:09:11]	DEBUG 5 6[0m
+[35m[2015-10-21 16:09:21]	DEBUG 5 6[0m
+[35m[2015-10-21 16:09:31]	DEBUG 5 6[0m
+[36m[2015-10-21 16:09:41]	INFO Collecting results of the experiments to: tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/stats[0m
+[36m[2015-10-21 16:09:42]	INFO Complete results stored in: tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/stats[0m
+[36m[2015-10-21 16:09:42]	INFO Complete results in HTML stored in: tmp/ml/run_2015-10-21_16-04-07_13288.cs_zero_on_ref_-_for_LREC_abstract/stats.html[0m
+#make baseline_full SELECTOR=ref ANAPH_TYPE=$anaph_type ALIGN_ANNOT_LANG=$lang D="$lang $anaph_type on ref - for LREC abstract";
+#make rule-based_full SELECTOR=ref ANAPH_TYPE=$anaph_type ALIGN_ANNOT_LANG=$lang D="$lang $anaph_type on ref - for LREC abstract";
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Nothing to be done for `extract_data_table'.
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+make[1]: Entering directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
+/home/mnovak/projects/ml_framework/run.sh -f conf/params.ini \
+        EXPERIMENT_TYPE=cross-validation \
+		CROSS_VALID_N=10 \
+        DATA_LIST="FULL_DATA" \
+        FULL_DATA=data/full.cs.ref.all.pcedt_19.table \
+        FEATSET_LIST=conf/featset.list \
+        ML_METHOD_LIST=conf/ml_method.list \
+        LRC=1 \
+        TMP_DIR=tmp/ml \
+        D="cs all on ref - for LREC abstract"
+[35m[2015-10-21 16:09:42]	DEBUG Loading parameters...[0m
+[35m[2015-10-21 16:09:42]	DEBUG DATE = 2015-10-21_16-09-42[0m
+[35m[2015-10-21 16:09:42]	DEBUG TMP_DIR: run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract[0m
+[35m[2015-10-21 16:09:42]	DEBUG Saving parameters into tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/config[0m
+[35m[2015-10-21 16:09:42]	DEBUG Loading parameters...[0m
+[35m[2015-10-21 16:09:42]	DEBUG DATE = 2015-10-21_16-09-42[0m
+[35m[2015-10-21 16:09:42]	DEBUG Saving parameters into tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/config[0m
+[36m[2015-10-21 16:09:42]	INFO Running /home/mnovak/projects/ml_framework/run_experiment.sh...[0m
+[35m[2015-10-21 16:09:42]	DEBUG Processing the featset list: conf/featset.list => tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/featset_per_line.list[0m
+[36m[2015-10-21 16:09:42]	INFO Running an experiment no. 001 using the featset with sha 8a5ed07b07[0m
+[35m[2015-10-21 16:09:42]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset[0m
+[36m[2015-10-21 16:09:42]	INFO Running job featset_exper.8a5ed07b07 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.8a5ed07b07 -o tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/001.8a5ed07b07.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-MtmIts.bash
+Your job 5196254 ("featset_exper.8a5ed07b07") has been submitted
+[36m[2015-10-21 16:10:12]	INFO Running an experiment no. 002 using the featset with sha 62461071e4[0m
+[35m[2015-10-21 16:10:12]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/002.62461071e4.featset[0m
+[36m[2015-10-21 16:10:12]	INFO Running job featset_exper.62461071e4 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/002.62461071e4.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.62461071e4 -o tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/002.62461071e4.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-luD0XP.bash
+Your job 5196256 ("featset_exper.62461071e4") has been submitted
+[36m[2015-10-21 16:10:42]	INFO Running an experiment no. 003 using the featset with sha eb02bac9e1[0m
+[35m[2015-10-21 16:10:42]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset[0m
+[36m[2015-10-21 16:10:42]	INFO Running job featset_exper.eb02bac9e1 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.eb02bac9e1 -o tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/003.eb02bac9e1.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-Ng7Vnd.bash
+Your job 5196279 ("featset_exper.eb02bac9e1") has been submitted
+[36m[2015-10-21 16:11:13]	INFO Running an experiment no. 004 using the featset with sha 52c0267285[0m
+[35m[2015-10-21 16:11:13]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/004.52c0267285.featset[0m
+[36m[2015-10-21 16:11:13]	INFO Running job featset_exper.52c0267285 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/004.52c0267285.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.52c0267285 -o tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/004.52c0267285.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-aoo6o1.bash
+Your job 5196463 ("featset_exper.52c0267285") has been submitted
+[36m[2015-10-21 16:11:43]	INFO Running an experiment no. 005 using the featset with sha 73ab14d232[0m
+[35m[2015-10-21 16:11:43]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/005.73ab14d232.featset[0m
+[36m[2015-10-21 16:11:43]	INFO Running job featset_exper.73ab14d232 on cluster. The logfile can be found in tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/005.73ab14d232.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.73ab14d232 -o tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/005.73ab14d232.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-dBcPu6.bash
+Your job 5196713 ("featset_exper.73ab14d232") has been submitted
+[36m[2015-10-21 16:12:13]	INFO Running an experiment no. 006 using the featset with sha 8ea9f3463d[0m
+[35m[2015-10-21 16:12:13]	DEBUG Its running directory is: tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset[0m
+[36m[2015-10-21 16:12:13]	INFO Running job featset_exper.8ea9f3463d on cluster. The logfile can be found in tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset/log[0m
+Executing: qsub -j y -cwd -S /bin/bash -p -50 -N featset_exper.8ea9f3463d -o tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/006.8ea9f3463d.featset/log/$JOB_NAME.o$JOB_ID -hard -l mf=5g -hard -l h_vmem=5g /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/.qsubmit-RhKJ2D.bash
+Your job 5196929 ("featset_exper.8ea9f3463d") has been submitted
+[36m[2015-10-21 16:12:43]	INFO Waiting for jobs to be completed...[0m
+[35m[2015-10-21 16:12:43]	DEBUG 1 6[0m
+[35m[2015-10-21 16:12:53]	DEBUG 1 6[0m
+[35m[2015-10-21 16:13:03]	DEBUG 1 6[0m
+[35m[2015-10-21 16:13:14]	DEBUG 1 6[0m
+[35m[2015-10-21 16:13:25]	DEBUG 1 6[0m
+[35m[2015-10-21 16:13:35]	DEBUG 1 6[0m
+[35m[2015-10-21 16:13:46]	DEBUG 2 6[0m
+[35m[2015-10-21 16:13:59]	DEBUG 2 6[0m
+[35m[2015-10-21 16:14:09]	DEBUG 2 6[0m
+[35m[2015-10-21 16:14:19]	DEBUG 2 6[0m
+[35m[2015-10-21 16:14:29]	DEBUG 2 6[0m
+[35m[2015-10-21 16:14:39]	DEBUG 2 6[0m
+[35m[2015-10-21 16:14:49]	DEBUG 3 6[0m
+[35m[2015-10-21 16:14:59]	DEBUG 3 6[0m
+[35m[2015-10-21 16:15:09]	DEBUG 3 6[0m
+[35m[2015-10-21 16:15:19]	DEBUG 4 6[0m
+[35m[2015-10-21 16:15:29]	DEBUG 4 6[0m
+[35m[2015-10-21 16:15:39]	DEBUG 4 6[0m
+[35m[2015-10-21 16:15:49]	DEBUG 5 6[0m
+[35m[2015-10-21 16:15:59]	DEBUG 5 6[0m
+[35m[2015-10-21 16:16:09]	DEBUG 5 6[0m
+[36m[2015-10-21 16:16:19]	INFO Collecting results of the experiments to: tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/stats[0m
+[36m[2015-10-21 16:16:19]	INFO Complete results stored in: tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/stats[0m
+[36m[2015-10-21 16:16:19]	INFO Complete results in HTML stored in: tmp/ml/run_2015-10-21_16-09-42_13788.cs_all_on_ref_-_for_LREC_abstract/stats.html[0m
+#make baseline_full SELECTOR=ref ANAPH_TYPE=$anaph_type ALIGN_ANNOT_LANG=$lang D="$lang $anaph_type on ref - for LREC abstract";
+#make rule-based_full SELECTOR=ref ANAPH_TYPE=$anaph_type ALIGN_ANNOT_LANG=$lang D="$lang $anaph_type on ref - for LREC abstract";
+make[1]: Leaving directory `/ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver'
