@@ -9,7 +9,7 @@ use Treex::Block::My::CorefExprAddresses;
 
 requires 'process_filtered_tnode';
 
-has 'anaph_type' => ( is => 'ro', isa => 'Str', default => 'all' );
+has 'filter' => ( is => 'ro', isa => 'Str', default => 'all' );
 
 sub get_types {
     my ($node) = @_;
@@ -38,20 +38,11 @@ sub get_types {
 }
 
 
-sub process_tnode {
-    my ($self, $tnode) = @_;
-    
-    my $types = get_types($tnode);
-    return if (!$types->{$self->anaph_type});
-
-    $self->process_filtered_tnode($tnode);
-}
-
 sub process_anode {
     my ($self, $anode) = @_;
 
     my $types = get_types($anode);
-    return if (!$types->{$self->anaph_type});
+    return if (!$types->{$self->filter});
 
     $self->process_filtered_anode($anode);
 }
