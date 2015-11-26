@@ -1,6 +1,8 @@
 package Treex::Block::Print::AlignAnnot;
 
 use Moose;
+use Moose::Util::TypeConstraints;
+
 use Treex::Core::Common;
 
 use List::Util qw/first/;
@@ -16,52 +18,67 @@ coerce 'Treex::Type::LangArrayRef'
     => from 'Str'
     => via { [ split /,/ ] };
 
-has 'annot_lang' => (is => 'ro', isa => 'Str', required => 1);
-has 'other_langs' => (is => 'ro', isa => 'Treex::Type::LangArrayRef');
+has 'annot_langs' => (is => 'ro', isa => 'Treex::Type::LangArrayRef', required => 1, coerce => 1);
 has 'layer' => (is => 'ro', isa => 'Str', default => 't');
+
+sub _gold_and_other_aligned_nodes {
+    my ($curr_node, $align_lang) = @_;
+    my ($nodes, $types) = Treex::Tool::Align::Utils::get_aligned_nodes_by_filter(
+        $curr_node,
+        { language => $align_lang, rel_types => [ "gold", ".*" ] },
+    );
+    my @gold_nodes = map {$nodes->[$_]} grep {$types->[$_] eq "gold"} 0 .. $#$types;
+    return (scalar @gold_nodes ? @gold_nodes : @$nodes);
+}
 
 sub _aligned_nodes {
     my ($self, $node) = @_;
 
-    my @other_lang_nodes = map {
-        my ($nodes, $types) = Treex::Tool::Align::Utils::get_aligned_nodes_by_filter(
-            $node,
-            { language => $_, rel_types => [ "gold" ] },
-        );
-        defined $nodes ? $nodes->[0] : undef;
-    } @{$self->other_langs};
+    my @all_aligned_nodes = ( [ $node ] );
+    for my $annot_lang (@{$self->annot_langs}) {
+        my @aligned_nodes = ();
+        my $source_nodes_idx = 0;
+        while ($source_nodes_idx < @all_aligned_nodes && !@aligned_nodes) {
+            @aligned_nodes = map {
+                _gold_and_other_aligned_nodes($_, $annot_lang)
+            } @{$all_aligned_nodes[$source_nodes_idx]};
+            if (!@aligned_nodes && $node->get_layer eq "a") {
+                @aligned_nodes = map {
+                    my ($tnode) = ($_->get_referencing_nodes('a/lex.rf'), $_->get_referencing_nodes('a/aux.rf'));
+                    my @aligned_tnodes = _gold_and_other_aligned_nodes($tnode, $annot_lang);
+                    grep {defined $_} map {$_->get_lex_anode} @aligned_tnodes;
+                } @{$all_aligned_nodes[$source_nodes_idx]};
+            }
+            $source_nodes_idx++;
+        }
+        push @all_aligned_nodes, \@aligned_nodes;
+        #print STDERR "ALI_".$annot_lang.": " . join " ", map {$_->id} @aligned_nodes;
+        #print STDERR "\n";
+    }
     
-    my $annot_lang_node = first {defined $_} map {
-        my ($nodes, $types) = Treex::Tool::Align::Utils::get_aligned_nodes_by_filter(
-            $_,
-            { language => $self->annot_lang },
-        );
-        defined $nodes ? $nodes->[0] : undef;
-    } ($node, @other_lang_nodes);
-
-    return ($annot_lang_node, @other_lang_nodes);
+    return @all_aligned_nodes;
 }
 
 sub _process_node {
     my ($self, $node) = @_;
 
-    my @nodes = ($node, $self->_aligned_nodes($node));
-    my @langs = ($self->language, $self->annot_lang, @{$self->other_langs});
-    my @zones = map {$_->get_bundle->get_zone($_, $self->selector)} @langs;
+    my @nodes = $self->_aligned_nodes($node);
+    my @langs = ($self->language, @{$self->annot_langs});
+    my @zones = map {$node->get_bundle->get_zone($_, $self->selector)} @langs;
 
-    print {$self->_file_handle} $node->get_address . "\n";
+    print {$self->_file_handle} "ID: " . $node->get_address . "\n";
     
     if ($self->layer eq "a") {
         for (my $i = 0; $i < @langs; $i++) {
-            print {$self->_file_handle} $langs[$i]."_A:\t" . _linearize_atree($zones[$i], $nodes[$i]) . "\n";
+            print {$self->_file_handle} uc($langs[$i])."_A:\t" . _linearize_atree($zones[$i], $nodes[$i]) . "\n";
         }
     }
     else {
         for (my $i = 0; $i < @langs; $i++) {
-            print {$self->_file_handle} $langs[$i].":\t" . $zones[$i]->sentence . "\n";
+            print {$self->_file_handle} uc($langs[$i]).":\t" . $zones[$i]->sentence . "\n";
         }
         for (my $i = 0; $i < @langs; $i++) {
-            print {$self->_file_handle} $langs[$i]."_T:\t" . _linearize_ttree_structured($zones[$i], $nodes[$i]) . "\n";
+            print {$self->_file_handle} uc($langs[$i])."_T:\t" . _linearize_ttree_structured($zones[$i], $nodes[$i]) . "\n";
         }
     }
 
@@ -72,25 +89,31 @@ sub _process_node {
 
 sub process_filtered_tnode {
     my ($self, $tnode) = @_;
-    
+    return if ($self->layer ne "t");
+    $self->_process_node($tnode);
 }
 
 sub process_filtered_anode {
+    my ($self, $anode) = @_;
+    return if ($self->layer ne "a");
+    $self->_process_node($anode);
 }
 
 sub _linearize_atree {
-    my ($zone, $node) = @_;
+    my ($zone, $on_nodes) = @_;
+
+    my %on_nodes_indic = map {$_->id => 1} @$on_nodes;
 
     my @tree_nodes = $zone->get_atree->get_descendants({ordered => 1});
     my @tree_forms = map {
-        $_ == $node ? "<" . $_->form . ">" : $_->form;
+        $on_nodes_indic{$_->id} ? "<" . $_->form . ">" : $_->form;
     } @tree_nodes;
 
-    return join " ", @tree_nodes;
+    return join " ", @tree_forms;
 }
 
 sub _linearize_tnode {
-    my ($tnode, @highlight) = @_;
+    my ($tnode, $highlight_indic) = @_;
    
     my $word = "";
     
@@ -107,10 +130,10 @@ sub _linearize_tnode {
     $word =~ s/\[/&osb;/g;
     $word =~ s/\]/&csb;/g;
 
-    if (any {$_ == $tnode} @highlight) {
+    if ($highlight_indic->{$tnode->id}) {
         $word = "<" . $word . ">";
     }
-    my @hl_anodes = grep {$_->get_layer eq "a"} @highlight;
+    my @hl_anodes = grep {$_->get_layer eq "a"} values %$highlight_indic;
     my ($hl_anode_idx) = grep {
         my ($hl_tnode) = $hl_anodes[$_]->get_referencing_nodes('a/aux.rf');
         defined $hl_tnode && $hl_tnode == $tnode
@@ -122,32 +145,32 @@ sub _linearize_tnode {
 }
 
 sub _linearize_ttree {
-    my ($ttree, @highlight) = @_;
+    my ($ttree, $highlight_arr) = @_;
 
-    @highlight = grep {defined $_} @highlight; 
+    my $highlight_indic = { map {$_->id => $_} grep {defined $_} @$highlight_arr };
 
-    my @words = map {_linearize_tnode($_, @highlight)} $ttree->get_descendants({ordered => 1});
+    my @words = map {_linearize_tnode($_, $highlight_indic)} $ttree->get_descendants({ordered => 1});
     return join " ", @words;
 }
 
 sub _linearize_ttree_structured {
-    my ($ttree, @highlight_arr) = @_;
+    my ($ttree, $highlight_arr) = @_;
     
-    my $highlight = [ grep {defined $_} @highlight_arr ];
+    my $highlight_indic = { map {$_->id => $_} grep {defined $_} @$highlight_arr };
 
     my ($sub_root) = $ttree->get_children({ordered => 1});
-    my $str = _linearize_subtree_recur($sub_root, $highlight);
+    my $str = _linearize_subtree_recur($sub_root, $highlight_indic);
     return $str;
 }
 
 sub _linearize_subtree_recur {
-    my ($subtree, $highlight) = @_;
+    my ($subtree, $highlight_indic) = @_;
     
-    my $str = _linearize_tnode($subtree, @$highlight);
+    my $str = _linearize_tnode($subtree, $highlight_indic);
     my @childs = $subtree->get_children({ordered => 1});
     if (@childs) {
         $str .= " [ ";
-        my @child_strs = map {_linearize_subtree_recur($_, $highlight)} @childs;
+        my @child_strs = map {_linearize_subtree_recur($_, $highlight_indic)} @childs;
         $str .= join " ", @child_strs;
         $str .= " ]";
     }
