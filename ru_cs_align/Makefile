@@ -78,3 +78,16 @@ out/pcerdt_19_mgiza/full.list : out/pcerdt_19/full.list
 			dir_or_sym=intersection,grow-diag-final-and model_from_share=cs-ru cpu_cores=1 \
 		Write::Treex path='$(dir $@)'
 	find $(dir $@) -name '*.streex' | sed 's|.*/||' | sort > $@
+
+ALL_LANGUAGES=en,cs,ru
+LANGUAGE=en
+ANNOT_LANGUAGES=$(shell perl -e 'print join ",", grep {$$_ ne "$(LANGUAGE)"} split /,/, $$ARGV[0];' $(ALL_LANGUAGES))
+FILTER=poss
+
+print_annot_files : annot/$(LANGUAGE)_$(FILTER)/align.src.sec19_00-49.clean.ali_annot
+annot/$(LANGUAGE)_$(FILTER)/align.src.sec19_00-49.clean.ali_annot : out/pcerdt_19_giza/full.list
+	mkdir -p $(dir $@)
+	treex -Ssrc -L$(LANGUAGE) \
+		Read::Treex from='@$<' \
+		Print::AlignAnnot filter=$(FILTER) layer=a annot_langs='$(ANNOT_LANGUAGES)' to='-' \
+	> $@
