@@ -11,38 +11,46 @@ requires 'process_filtered_tnode';
 
 has 'anaph_type' => ( is => 'ro', isa => 'Str', default => 'all' );
 
-sub get_type {
+sub get_types {
     my ($node) = @_;
-    my $type = undef;
+    my $types = { all => 1 };
     if (Treex::Tool::Coreference::NodeFilter::PersPron::is_3rd_pers($node, {expressed => 1})) {
-        $type = "perspron";
+        $types->{perspron} = 1;
     }
-    elsif (Treex::Tool::Coreference::NodeFilter::PersPron::is_3rd_pers($node, {expressed => -1})) {
+    if (Treex::Tool::Coreference::NodeFilter::PersPron::is_3rd_pers($node, {expressed => -1})) {
         #$type = "perspron_unexpr";
-        $type = "zero";
+        $types->{zero} = 1;
     }
-    elsif (Treex::Tool::Coreference::NodeFilter::RelPron::is_relat($node)) {
-        $type = "relpron";
+    if (Treex::Tool::Coreference::NodeFilter::RelPron::is_relat($node)) {
+        $types->{relpron} = 1;
     }
-    elsif (Treex::Block::My::CorefExprAddresses::_is_cor($node)) {
+    if (Treex::Block::My::CorefExprAddresses::_is_cor($node)) {
         #$type = "cor";
-        $type = "zero";
+        $types->{zero} = 1;
     }
     #elsif (Treex::Block::My::CorefExprAddresses::_is_cs_ten($node)) {
     #    $type = "ten";
     #}
-    return $type;
+    return $types;
 }
 
 
 sub process_tnode {
     my ($self, $tnode) = @_;
     
-    my $type = get_type($tnode);
-    return if (!defined $type);
-    return if (($self->anaph_type ne "all") && ($self->anaph_type ne $type));
+    my $types = get_types($tnode);
+    return if (!$types->{$self->anaph_type});
 
     $self->process_filtered_tnode($tnode);
+}
+
+sub process_anode {
+    my ($self, $anode) = @_;
+
+    my $types = get_types($anode);
+    return if (!$types->{$self->anaph_type});
+
+    $self->process_filtered_anode($anode);
 }
 
 1;
