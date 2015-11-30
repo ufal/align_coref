@@ -79,15 +79,16 @@ out/pcerdt_19_mgiza/full.list : out/pcerdt_19/full.list
 		Write::Treex path='$(dir $@)'
 	find $(dir $@) -name '*.streex' | sed 's|.*/||' | sort > $@
 
-ALL_LANGUAGES=en,cs,ru
+ALL_LANGUAGES=cs,en,ru
 LANGUAGE=en
 ANNOT_LANGUAGES=$(shell perl -e 'print join ",", grep {$$_ ne "$(LANGUAGE)"} split /,/, $$ARGV[0];' $(ALL_LANGUAGES))
+ALIGN_TYPES=$(shell perl -e 'my $$types = {en => {cs => "gold", ru => ".*"}, cs => {en => "gold", ru => ".*"}, ru => {cs => ".*", en => "gold"}}; print join ",", map {$$types->{"$(LANGUAGE)"}{$$_}} split /,/, "$(ANNOT_LANGUAGES)"')
 FILTER=poss
 
-print_annot_files : annot/$(LANGUAGE)_$(FILTER)/align.src.sec19_00-49.clean.ali_annot
-annot/$(LANGUAGE)_$(FILTER)/align.src.sec19_00-49.clean.ali_annot : out/pcerdt_19_giza/full.list
+print_annot_files : annot/$(LANGUAGE)_$(FILTER)/align.src.sec19_00-49.all.clean.ali_annot
+annot/$(LANGUAGE)_$(FILTER)/align.src.sec19_00-49.all.clean.ali_annot : out/pcerdt_19_giza/full.list
 	mkdir -p $(dir $@)
 	treex -Ssrc -L$(LANGUAGE) \
 		Read::Treex from='@$<' \
-		Print::AlignAnnot filter=$(FILTER) layer=a annot_langs='$(ANNOT_LANGUAGES)' to='-' \
+		Print::AlignAnnot filter=$(FILTER) layer=a annot_langs='$(ANNOT_LANGUAGES)' align_types='$(ALIGN_TYPES)' to='-' \
 	> $@

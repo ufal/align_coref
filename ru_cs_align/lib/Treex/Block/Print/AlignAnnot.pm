@@ -13,19 +13,20 @@ use Treex::Tool::Align::Utils;
 extends 'Treex::Block::Write::BaseTextWriter';
 with 'Treex::Block::Filter::A';
 
-subtype 'Treex::Type::LangArrayRef' => as 'ArrayRef';
-coerce 'Treex::Type::LangArrayRef' 
+subtype 'Treex::Type::CommaArrayRef' => as 'ArrayRef';
+coerce 'Treex::Type::CommaArrayRef' 
     => from 'Str'
     => via { [ split /,/ ] };
 
-has 'annot_langs' => (is => 'ro', isa => 'Treex::Type::LangArrayRef', required => 1, coerce => 1);
+has 'annot_langs' => (is => 'ro', isa => 'Treex::Type::CommaArrayRef', required => 1, coerce => 1);
+has 'align_types' => (is => 'ro', isa => 'Treex::Type::CommaArrayRef', required => 1, coerce => 1);
 has 'layer' => (is => 'ro', isa => 'Str', default => 't');
 
 sub _gold_and_other_aligned_nodes {
-    my ($curr_node, $align_lang) = @_;
+    my ($curr_node, $align_lang, $align_type) = @_;
     my ($nodes, $types) = Treex::Tool::Align::Utils::get_aligned_nodes_by_filter(
         $curr_node,
-        { language => $align_lang, rel_types => [ "gold", ".*" ] },
+        { language => $align_lang, rel_types => [ $align_type ] },
     );
     my @gold_nodes = map {$nodes->[$_]} grep {$types->[$_] eq "gold"} 0 .. $#$types;
     return (scalar @gold_nodes ? @gold_nodes : @$nodes);
@@ -35,17 +36,19 @@ sub _aligned_nodes {
     my ($self, $node) = @_;
 
     my @all_aligned_nodes = ( [ $node ] );
-    for my $annot_lang (@{$self->annot_langs}) {
+    for (my $i = 0; $i < @{$self->annot_langs}; $i++) {
+        my $annot_lang = $self->annot_langs->[$i];
+        my $align_type = $self->align_types->[$i];
         my @aligned_nodes = ();
         my $source_nodes_idx = 0;
         while ($source_nodes_idx < @all_aligned_nodes && !@aligned_nodes) {
             @aligned_nodes = map {
-                _gold_and_other_aligned_nodes($_, $annot_lang)
+                _gold_and_other_aligned_nodes($_, $annot_lang, $align_type)
             } @{$all_aligned_nodes[$source_nodes_idx]};
             if (!@aligned_nodes && $node->get_layer eq "a") {
                 @aligned_nodes = map {
                     my ($tnode) = ($_->get_referencing_nodes('a/lex.rf'), $_->get_referencing_nodes('a/aux.rf'));
-                    my @aligned_tnodes = _gold_and_other_aligned_nodes($tnode, $annot_lang);
+                    my @aligned_tnodes = _gold_and_other_aligned_nodes($tnode, $annot_lang, $align_type);
                     grep {defined $_} map {$_->get_lex_anode} @aligned_tnodes;
                 } @{$all_aligned_nodes[$source_nodes_idx]};
             }
@@ -82,7 +85,9 @@ sub _process_node {
         }
     }
 
-    print {$self->_file_handle} "INFO:\n";
+    for (my $i = 1; $i < @langs; $i++) {
+        print {$self->_file_handle} "INFO_".uc($langs[$i]).":\t\n";
+    }
     print {$self->_file_handle} "\n";
 }
 
