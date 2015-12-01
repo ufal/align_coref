@@ -65,7 +65,7 @@ sub process_filtered_tnode {
     my ($self, $tnode) = @_;
 
     my @cands = $self->_get_candidates($tnode);
-    my $feats = $self->_feat_extractor->create_instances($tnode, \@cands, { "nodetype" => $self->anaph_type });
+    my $feats = $self->_feat_extractor->create_instances($tnode, \@cands);
     
     my ($gold_aligned_node) = $self->_get_positive_candidate($tnode);
     #log_info "GOLD_ALIGNED_LEMMA: ". ($gold_aligned_node != $tnode ? $gold_aligned_node->t_lemma : "undef");
@@ -75,6 +75,9 @@ sub process_filtered_tnode {
 
     my $instance_str = Treex::Tool::ML::VowpalWabbit::Util::format_multiline($feats, $losses, [ \@comments, "" ]);
     print {$self->_file_handle} $instance_str;
+}
+
+sub process_filtered_anode {
 }
 
 1;
