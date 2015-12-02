@@ -8,7 +8,7 @@ use List::MoreUtils qw/any/;
 use Treex::Tool::Align::Utils;
 
 extends 'Treex::Block::Write::BaseTextWriter';
-with 'Treex::Block::My::AnaphFilterRole';
+with 'Treex::Block::Filter::Node::T';
 
 has 'align_language' => (is => 'ro', isa => 'Str', required => 1);
 has 'align_reltypes' => (is => 'ro', isa => 'Str', default => '!gold,!robust,!supervised,.*');

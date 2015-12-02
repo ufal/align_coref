@@ -12,7 +12,7 @@ use Treex::Tool::Align::Features;
 use Treex::Tool::ML::VowpalWabbit::Ranker;
 
 extends 'Treex::Core::Block';
-with 'Treex::Block::My::AnaphFilterRole';
+with 'Treex::Block::Filter::Node::T';
 
 has 'align_language' => (is => 'ro', isa => 'Str', required => 1);
 has 'model_path' => (is => 'ro', isa => 'Str', required => 1);

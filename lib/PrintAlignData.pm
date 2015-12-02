@@ -11,7 +11,7 @@ use Treex::Tool::Align::FeaturesRole;
 use Treex::Tool::Align::Features;
 
 extends 'Treex::Block::Write::BaseTextWriter';
-with 'Treex::Block::My::AnaphFilterRole';
+with 'Treex::Block::Filter::Node::T';
 
 has 'align_language' => (is => 'ro', isa => 'Str', required => 1);
 has 'gold_align_filter' => (is => 'ro', isa => 'HashRef', builder => '_build_gaf');
@@ -75,9 +75,6 @@ sub process_filtered_tnode {
 
     my $instance_str = Treex::Tool::ML::VowpalWabbit::Util::format_multiline($feats, $losses, [ \@comments, "" ]);
     print {$self->_file_handle} $instance_str;
-}
-
-sub process_filtered_anode {
 }
 
 1;

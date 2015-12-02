@@ -8,7 +8,7 @@ use Term::ANSIColor;
 use Treex::Tool::Align::Utils;
 
 extends 'Treex::Block::Write::BaseTextWriter';
-with 'Treex::Block::My::AnaphFilterRole';
+with 'Treex::Block::Filter::Node::T';
 
 has 'align_language' => (is => 'ro', isa => 'Str', required => 1);
 has 'true_align_type' => (is => 'ro', isa => 'Str', default => 'gold');
