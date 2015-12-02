@@ -142,7 +142,7 @@ summary :
 ################################# ALIGNMENT RESOLUTION  ##################################
 ##########################################################################################
 
-ANAPH_TYPE=all
+ANAPH_TYPE=all_anaph
 SELECTOR=ref
 
 ###################### ORIGINAL AND RULE-BASED ALIGNMENT #####################
@@ -152,7 +152,7 @@ baseline_% : $(GOLD_ANNOT_TREES_DIR)/%.list
 	mkdir -p tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
 		Read::Treex from=@$< \
-		My::AlignmentEval align_language=$(ALIGN_ANNOT_LANG2) anaph_type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)/$$1}'
+		My::AlignmentEval align_language=$(ALIGN_ANNOT_LANG2) node_type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)/$$1}'
 	find tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE) -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/results_to_triples.pl --ranking | $(ML_FRAMEWORK_DIR)/scripts/eval.pl --acc --prf
 
 rule-based_% : $(GOLD_ANNOT_TREES_DIR)/%.list
@@ -162,7 +162,7 @@ rule-based_% : $(GOLD_ANNOT_TREES_DIR)/%.list
 		Read::Treex from=@$< \
 		My::AddRobustAlignment::CsRelpron remove_original=1 language=cs \
 		My::AddRobustAlignment::EnPerspron remove_original=1 language=en \
-		My::AlignmentEval align_reltypes='!gold,!supervised,robust,.*' align_language=$(ALIGN_ANNOT_LANG2) anaph_type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/rule-based/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)/$$1}'
+		My::AlignmentEval align_reltypes='!gold,!supervised,robust,.*' align_language=$(ALIGN_ANNOT_LANG2) node_type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/rule-based/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)/$$1}'
 	find tmp/rule-based/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE) -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/results_to_triples.pl --ranking | $(ML_FRAMEWORK_DIR)/scripts/eval.pl --acc --prf
 
 ######################## DATA TABLE EXTRACTION ###############################
@@ -181,7 +181,7 @@ $(DATA_DIR)/%.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table : $(G
 		Read::Treex from=@$< \
 		My::AddRobustAlignment::CsRelpron language=cs \
 		My::AddRobustAlignment::EnPerspron language=en \
-		Align::T::Supervised::PrintData align_language=$(ALIGN_ANNOT_LANG2) anaph_type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19/$$1}'
+		Align::T::Supervised::PrintData align_language=$(ALIGN_ANNOT_LANG2) node_type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19/$$1}'
 	find tmp/data_table/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19 -name "wsj_19*" | sort | xargs cat | gzip -c > $(DATA_DIR)/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.$(ALIGN_TYPE).table
 	ln -s $*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.$(ALIGN_TYPE).table $(DATA_DIR)/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
 
@@ -231,13 +231,13 @@ cross_valid :
 #		ML_PARAMS="mc --loss_function logistic --passes 10" \
 #		FEAT_LIST="__SELF__,n1_functor,n2_functor"
 
-			#make baseline_full SELECTOR=ref ANAPH_TYPE=$$anaph_type ALIGN_ANNOT_LANG=$$lang D="$$lang $$anaph_type on ref - for LREC abstract";
-			#make rule-based_full SELECTOR=ref ANAPH_TYPE=$$anaph_type ALIGN_ANNOT_LANG=$$lang D="$$lang $$anaph_type on ref - for LREC abstract";
+			#make baseline_full SELECTOR=ref ANAPH_TYPE=$$node_type ALIGN_ANNOT_LANG=$$lang D="$$lang $$node_type on ref - for LREC abstract";
+			#make rule-based_full SELECTOR=ref ANAPH_TYPE=$$node_type ALIGN_ANNOT_LANG=$$lang D="$$lang $$node_type on ref - for LREC abstract";
 test_all:
 	for lang in en cs; do \
-		for anaph_type in perspron relpron zero all; do \
-			make extract_data_table SELECTOR=ref ANAPH_TYPE=$$anaph_type ALIGN_ANNOT_LANG=$$lang D="$$lang $$anaph_type on ref - for LREC abstract"; \
-			make cross_valid SELECTOR=ref ANAPH_TYPE=$$anaph_type ALIGN_ANNOT_LANG=$$lang D="$$lang $$anaph_type on ref - for LREC abstract"; \
+		for node_type in perspron relpron zero all_anaph; do \
+			make extract_data_table SELECTOR=ref ANAPH_TYPE=$$node_type ALIGN_ANNOT_LANG=$$lang D="$$lang $$node_type on ref - for LREC abstract"; \
+			make cross_valid SELECTOR=ref ANAPH_TYPE=$$node_type ALIGN_ANNOT_LANG=$$lang D="$$lang $$node_type on ref - for LREC abstract"; \
 		done; \
 	done
 
@@ -250,6 +250,6 @@ show_errors : tmp/show_errors/full.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)
 tmp/show_errors/%.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).err : $(GOLD_ANNOT_TREES_DIR)/%.list
 	-treex $(LRC_FLAGS) -e DEBUG -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
 		Read::Treex from=@$< \
-		Util::SetGlobal align_language=en anaph_type=relpron \
+		Util::SetGlobal align_language=en node_type=relpron \
 		My::AlignmentResolver model_path='$(MODEL_PATH)' \
 		My::ShowAlignErrors pred_align_type='supervised' > $@
