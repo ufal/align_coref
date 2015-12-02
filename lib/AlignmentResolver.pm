@@ -14,6 +14,7 @@ use Treex::Tool::ML::VowpalWabbit::Ranker;
 extends 'Treex::Core::Block';
 with 'Treex::Block::Filter::Node::T';
 
+has '+node_types' => ( default => 'all_anaph' );
 has 'align_language' => (is => 'ro', isa => 'Str', required => 1);
 has 'model_path' => (is => 'ro', isa => 'Str', required => 1);
 
