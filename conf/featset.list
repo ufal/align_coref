@@ -1,3 +1,6 @@
+# type : the type of a node to be aligned
+n1_nodetype
+
 # align : using only GIZA++ alignment and parent alignemnt
 giza_aligned par_aligned
 
@@ -35,32 +38,32 @@ alidir_n1_t_lemma alipar_n1_t_lemma alisubtree_n1_t_lemma
 
 # all : using the best feature set so far
 __SELF__
-    @align @graph @gram @comb
+    @type @align @graph @gram @comb
 
 # all+alisubtree_n2_t_lemma : best including the ali-subtree combined with the target t_lemma
 __SELF__
-    @align @graph @gram @comb
+    @all
     alisubtree_n2_t_lemma
 
 # all+new_gram : best including the concats of t_lemmas, tags and utags
 __SELF__
-    @align @graph @gram @comb
+    @all
     @new_gram
 
 # all+alisubtree_n2_t_lemma+new_gram : best including both
 __SELF__
-    @align @graph @gram @comb
+    @all
     @new_gram
     alisubtree_n2_t_lemma
 
 # all+comb1 : using the best feature set so far
 __SELF__
-    @align @graph @gram @comb
+    @all
     @comb1
 
 # all+alisubtree_n2_t_lemma+new_gram+comb1 : best including both
 __SELF__
-    @align @graph @gram @comb
+    @all
     @new_gram
     alisubtree_n2_t_lemma
     @comb1
@@ -70,9 +73,9 @@ __SELF__
 #giza
 #graph
 all
-all+alisubtree_n2_t_lemma
-all+new_gram
-all+alisubtree_n2_t_lemma+new_gram
+#all+alisubtree_n2_t_lemma
+#all+new_gram
+#all+alisubtree_n2_t_lemma+new_gram
 
-all+comb1
+#all+comb1
 all+alisubtree_n2_t_lemma+new_gram+comb1
