@@ -251,5 +251,5 @@ tmp/show_errors/%.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).err : $(GOLD_ANN
 	-treex $(LRC_FLAGS) -e DEBUG -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
 		Read::Treex from=@$< \
 		Util::SetGlobal align_language=en node_type=relpron \
-		My::AlignmentResolver model_path='$(MODEL_PATH)' \
-		My::ShowAlignErrors pred_align_type='supervised' > $@
+		Align::T::Supervised::Resolver language=en,cs align_trg_lang=en delete_orig_align=0 \
+		My::ShowAlignErrors language=$(ALIGN_ANNOT_LANG) pred_align_type='supervised' > $@
