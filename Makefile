@@ -152,7 +152,7 @@ baseline_% : $(GOLD_ANNOT_TREES_DIR)/%.list
 	mkdir -p tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
 		Read::Treex from=@$< \
-		My::AlignmentEval align_language=$(ALIGN_ANNOT_LANG2) node_type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)/$$1}'
+		Align::T::Eval align_language=$(ALIGN_ANNOT_LANG2) node_types=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)/$$1}'
 	find tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE) -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/results_to_triples.pl --ranking | $(ML_FRAMEWORK_DIR)/scripts/eval.pl --acc --prf
 
 rule-based_% : $(GOLD_ANNOT_TREES_DIR)/%.list
@@ -162,7 +162,7 @@ rule-based_% : $(GOLD_ANNOT_TREES_DIR)/%.list
 		Read::Treex from=@$< \
 		My::AddRobustAlignment::CsRelpron remove_original=1 language=cs \
 		My::AddRobustAlignment::EnPerspron remove_original=1 language=en \
-		My::AlignmentEval align_reltypes='!gold,!supervised,robust,.*' align_language=$(ALIGN_ANNOT_LANG2) node_type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/rule-based/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)/$$1}'
+		Align::T::Eval align_reltypes='!gold,!supervised,robust,.*' align_language=$(ALIGN_ANNOT_LANG2) node_types=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/rule-based/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)/$$1}'
 	find tmp/rule-based/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE) -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/results_to_triples.pl --ranking | $(ML_FRAMEWORK_DIR)/scripts/eval.pl --acc --prf
 
 ######################## DATA TABLE EXTRACTION ###############################
@@ -181,7 +181,7 @@ $(DATA_DIR)/%.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table : $(G
 		Read::Treex from=@$< \
 		My::AddRobustAlignment::CsRelpron language=cs \
 		My::AddRobustAlignment::EnPerspron language=en \
-		Align::T::Supervised::PrintData align_language=$(ALIGN_ANNOT_LANG2) node_type=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19/$$1}'
+		Align::T::Supervised::PrintData align_language=$(ALIGN_ANNOT_LANG2) node_types=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19/$$1}'
 	find tmp/data_table/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19 -name "wsj_19*" | sort | xargs cat | gzip -c > $(DATA_DIR)/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.$(ALIGN_TYPE).table
 	ln -s $*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.$(ALIGN_TYPE).table $(DATA_DIR)/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
 
@@ -250,6 +250,6 @@ show_errors : tmp/show_errors/full.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)
 tmp/show_errors/%.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).err : $(GOLD_ANNOT_TREES_DIR)/%.list
 	-treex $(LRC_FLAGS) -e DEBUG -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
 		Read::Treex from=@$< \
-		Util::SetGlobal align_language=en node_type=relpron \
+		Util::SetGlobal align_language=en node_types=relpron \
 		Align::T::Supervised::Resolver language=en,cs align_trg_lang=en delete_orig_align=0 \
 		My::ShowAlignErrors language=$(ALIGN_ANNOT_LANG) pred_align_type='supervised' > $@
