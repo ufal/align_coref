@@ -252,4 +252,4 @@ tmp/show_errors/%.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).err : $(GOLD_ANN
 		Read::Treex from=@$< \
 		Util::SetGlobal align_language=en node_types=relpron \
 		Align::T::Supervised::Resolver language=en,cs align_trg_lang=en delete_orig_align=0 \
-		My::ShowAlignErrors language=$(ALIGN_ANNOT_LANG) pred_align_type='supervised' > $@
+		Align::T::Compare language=$(ALIGN_ANNOT_LANG) pred_align_type='supervised' > $@
