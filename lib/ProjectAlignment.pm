@@ -12,23 +12,25 @@ has 'rel_type' => (is => 'ro', isa => 'Str', default => 'gold');
 sub _get_projected_nodes {
     my ($self, $z1_src_node) = @_;
 
-    my ($z2_src_nodes, $z2_src_types) = Treex::Tool::Align::Utils::get_aligned_nodes_by_filter(
-        $z1_src_node, 
-        {selector => $self->trg_selector, language => $z1_src_node->language}
-    );
+    my ($z2_src_nodes, $z2_src_types) = $z1_src_node->get_undirected_aligned_nodes({
+        selector => $self->trg_selector,
+        language => $z1_src_node->language,
+    });
     if (!@$z2_src_nodes) {
         log_info "No z2 counterpart: ".$z1_src_node->id;
         return;
     }
     
-    my ($z1_trg_nodes, $z1_trg_types) = Treex::Tool::Align::Utils::get_aligned_nodes_by_filter($z1_src_node, {rel_types => [$self->rel_type]});
+    my ($z1_trg_nodes, $z1_trg_types) = $z1_src_node->get_undirected_aligned_nodes({
+        rel_types => [$self->rel_type]
+    });
     #print STDERR Dumper(\@z1_trg_nodes);
     #print STDERR join " ", (map {$_->id} @z1_trg_nodes);
     my @z2_trg_nodes = map {
-        my ($nodes, $types) = Treex::Tool::Align::Utils::get_aligned_nodes_by_filter(
-            $_,
-            {selector => $self->trg_selector, language => $_->language}
-        );
+        my ($nodes, $types) = $_->get_undirected_aligned_nodes({
+            selector => $self->trg_selector,
+            language => $_->language,
+        });
         log_info "No z2 counterpart: ".$_->id  if (!@$nodes);
         @$nodes
     } @$z1_trg_nodes;

@@ -8,8 +8,6 @@ use Cwd;
 use Treex::Tool::Coreference::NodeFilter::PersPron; 
 use Treex::Tool::Coreference::NodeFilter::RelPron;
 
-use Treex::Tool::Align::Utils;
-
 extends 'Treex::Core::Block';
 
 has 'anaphor_type' => (
@@ -79,7 +77,7 @@ sub _is_ignored {
     my ($self, $node) = @_;
     my $type = $self->ignore_align_type;
     return 0 if (!defined $type);
-    my ($ali_nodes, $ali_types) = Treex::Tool::Align::Utils::get_aligned_nodes_by_filter($node, {rel_types => [$type]});
+    my ($ali_nodes, $ali_types) = $node->get_undirected_aligned_nodes({rel_types => [$type]});
     return @$ali_nodes > 0 ? 1 : 0;
 }
 

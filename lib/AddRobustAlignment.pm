@@ -37,7 +37,7 @@ after 'process_zone' => sub {
 
         foreach my $tnode ($zone->get_ttree->get_descendants) {
             if (defined $tnode->wild->{align_robust_err}) {
-                Treex::Tool::Align::Utils::remove_aligned_nodes_by_filter($tnode, $align_filter);
+                $tnode->delete_aligned_nodes_by_filter($align_filter);
             }
         }
     }

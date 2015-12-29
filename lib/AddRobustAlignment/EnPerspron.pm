@@ -1,7 +1,6 @@
 package Treex::Block::My::AddRobustAlignment::EnPerspron;
 
 use Moose;
-use Treex::Tool::Align::Utils;
 use Treex::Core::Common;
 
 use Treex::Tool::Align::Robust::EN::PersPron;
