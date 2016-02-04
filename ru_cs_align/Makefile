@@ -35,7 +35,7 @@ out/all.cs-ru.giza.gz : out/all.cs-ru.for_giza.gz
 	| paste <(zcat $< | cut -f1 ) - \
 	| gzip > $@
 
-PCEDT_19_LIST=/home/mnovak/projects/align_resolver/data/gold_aligned.mgiza_on_czeng/full.list
+PCEDT_19_LIST=/home/mnovak/projects/align_coref/data/gold_aligned.mgiza_on_czeng/full.list
 
 pcerdt_19 : out/pcerdt_19/full.list
 out/pcerdt_19/full.list : $(PCEDT_19_LIST) data/pcedt_19/all.ru.untok.txt
