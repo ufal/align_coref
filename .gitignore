@@ -6,3 +6,7 @@
 # iba docasne
 /rcp.cs.list
 /rcp.en.list
+
+# generated and manually adjusted files comparing the original and new Russian translations
+/ru_cs_align/update_translations/new_translations.ru.txt
+/ru_cs_align/update_translations/orig_translations.ru.txt
