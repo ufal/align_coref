@@ -54,8 +54,17 @@ out/pcedt_19.cs-ru.giza.gz : out/all.cs-ru.giza.gz out/pcerdt_19/full.list
 	sentnum=`cat out/pcerdt_19.bundle.ids | wc -l`; \
 	zcat $(word 1,$^) | tail -n $$sentnum | cut -f1 --complement | cut -f1,2,6,7 | paste out/pcerdt_19.bundle.ids - | gzip -c > $@
 
+# TODO: the following target swaping the order of cs-ru alignment to ru-cs is here only for the time being
+# if GIZA is run again, ru-cs alignemnt should be created
+# or the blocks Align::A::InsertAlignmentFromFile and Align::A::AlignMGiza should be extended with the link swaping mechanism
+
+out/pcedt_19.ru-cs.giza.gz : out/pcedt_19.cs-ru.giza.gz
+	zcat $< | \
+		perl -ne 'my @cols = split /\t/, $$_; my @alis = splice @cols, 1, 2; my @new_alis = map {my @links = split / /, $$_; join " ", map {my ($$a, $$b) = split /-/, $$_; $$b."-".$$a} @links} @alis; unshift @new_alis, shift @cols; push @new_alis, @cols; print join "\t", @new_alis;' | \
+		gzip -c > $@
+
 pcerdt_19_giza : out/pcerdt_19_giza/full.list
-out/pcerdt_19_giza/full.list : out/pcerdt_19/full.list out/pcedt_19.cs-ru.giza.gz
+out/pcerdt_19_giza/full.list : out/pcerdt_19/full.list out/pcedt_19.ru-cs.giza.gz
 	mkdir -p $(dir $@)
 	treex -Ssrc -Lru \
 		Read::Treex from='@$(word 1,$^)' \
@@ -63,9 +72,11 @@ out/pcerdt_19_giza/full.list : out/pcerdt_19/full.list out/pcedt_19.cs-ru.giza.g
 		W2A::TagTreeTagger lemmatize=1 \
 		Align::A::InsertAlignmentFromFile from='$(word 2,$^)' \
 			inputcols=gdfa_int_therescore_backscore \
-			selector=src language=cs to_selector=src to_language=ru \
+			selector=src language=ru to_selector=src to_language=cs \
 		Write::Treex path='$(dir $@)'
 	find $(dir $@) -name '*.streex' | sed 's|.*/||' | sort > $@
+
+# TODO: the following target should be adjusted to produce ru-cs alignment, not cs-ru
 
 pcerdt_19_mgiza : out/pcerdt_19_mgiza/full.list
 out/pcerdt_19_mgiza/full.list : out/pcerdt_19/full.list
