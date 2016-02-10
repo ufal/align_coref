@@ -35,7 +35,7 @@ out/all.cs-ru.giza.gz : out/all.cs-ru.for_giza.gz
 	| paste <(zcat $< | cut -f1 ) - \
 	| gzip > $@
 
-PCEDT_19_LIST=/home/mnovak/projects/align_coref/data/gold_aligned.mgiza_on_czeng/full.list
+PCEDT_19_LIST=/home/mnovak/projects/align_coref/data/train_19_00-49.orig.list
 
 pcerdt_19 : out/pcerdt_19/full.list
 out/pcerdt_19/full.list : $(PCEDT_19_LIST) data/pcedt_19/all.ru.untok.txt
@@ -43,7 +43,7 @@ out/pcerdt_19/full.list : $(PCEDT_19_LIST) data/pcedt_19/all.ru.untok.txt
 	treex -Ssrc -Lru \
 		Read::Treex from='@$(word 1,$^)' \
 		Import::Sentences from='$(word 2,$^)' \
-		Write::Treex path='$(dir $@)'
+		Write::Treex storable=1 path='$(dir $@)'
 	find $(dir $@) -name '*.streex' | sed 's|.*/||' | sort > $@
 
 out/pcedt_19.cs-ru.giza.gz : out/all.cs-ru.giza.gz out/pcerdt_19/full.list
@@ -73,7 +73,7 @@ out/pcerdt_19_giza/full.list : out/pcerdt_19/full.list out/pcedt_19.ru-cs.giza.g
 		Align::A::InsertAlignmentFromFile from='$(word 2,$^)' \
 			inputcols=gdfa_int_therescore_backscore \
 			selector=src language=ru to_selector=src to_language=cs \
-		Write::Treex path='$(dir $@)'
+		Write::Treex storable=1 path='$(dir $@)'
 	find $(dir $@) -name '*.streex' | sed 's|.*/||' | sort > $@
 
 # TODO: the following target should be adjusted to produce ru-cs alignment, not cs-ru
@@ -87,7 +87,7 @@ out/pcerdt_19_mgiza/full.list : out/pcerdt_19/full.list
 		W2A::TagTreeTagger lemmatize=1 \
 		Align::A::AlignMGiza from_language=cs from_selector=src to_language=ru to_selector=src \
 			dir_or_sym=intersection,grow-diag-final-and model_from_share=cs-ru cpu_cores=1 \
-		Write::Treex path='$(dir $@)'
+		Write::Treex storable=1 path='$(dir $@)'
 	find $(dir $@) -name '*.streex' | sed 's|.*/||' | sort > $@
 
 ALL_LANGUAGES=cs,en,ru
