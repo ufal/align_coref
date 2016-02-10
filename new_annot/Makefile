@@ -13,6 +13,7 @@ project_cs-en : ../tmp/testing_import_ali_annot/02.cs-en.all.project/list
 	mkdir -p $(dir $@)
 	treex -p --jobs 50 \
 		Read::Treex from=@$< \
+		Align::ProjectAlignment layer=a selector=ref trg_selector=src aligns="cs-en:gold" \
 		Align::ProjectAlignment layer=t selector=ref trg_selector=src aligns="cs-en:gold" \
 		Align::ProjectAlignment layer=t selector=src trg_layer=a aligns="cs-en:gold" \
 		Write::Treex path=$(dir $@) storable=1
