@@ -1,10 +1,11 @@
 PCERDT_19_ORIG=../ru_cs_align/out/pcerdt_19_giza/full.list
 
-PHASE1_ALI_ANNOT=cs-en.all.align.ref.sec19_00-49.ali_annot
-PHASE2_ALI_ANNOT=en.poss.align.src.sec19_00-49.ali_annot
-PHASE3_ALI_ANNOT_CLEAN=cs.poss.align.src.sec19_00-49.clean.ali_annot
-PHASE3_ALI_ANNOT=cs.poss.align.src.sec19_00-49.ali_annot
-PHASE4_ALI_ANNOT_CLEAN=ru.poss.align.src.sec19_00-49.clean.ali_annot
+PHASE1_ALI_ANNOT=ali_annot/filled/cs-en.all.align.ref.sec19_00-49.ali_annot
+PHASE2_ALI_ANNOT=ali_annot/filled/en.poss.align.src.sec19_00-49.ali_annot
+PHASE3_ALI_ANNOT=ali_annot/filled/cs.poss.align.src.sec19_00-49.ali_annot
+
+PHASE3_ALI_ANNOT_CLEAN=ali_annot/clean/cs.poss.align.src.sec19_00-49.ali_annot
+PHASE4_ALI_ANNOT_CLEAN=ali_annot/clean/ru.poss.align.src.sec19_00-49.ali_annot
 
 ####################################################################################################################
 #############################################       PHASE 1      ###################################################
@@ -43,7 +44,7 @@ import_en-with-ru_poss : ../tmp/testing_import_ali_annot/03.en-with-ru.poss.impo
 ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/list : ../tmp/testing_import_ali_annot/02.cs-en.all.project/list
 	bin/import_ali_annot.sh $< $(PHASE2_ALI_ANNOT) $@ "cs-en:gold;ru-cs:gold;en-ru:gold"
 
-summary.en_poss : ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/list
+summary/en_poss : ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/list
 	bin/print_summary.sh $< en src a perspron.poss cs,ru > $@
 
 ####################################################################################################################
@@ -59,7 +60,7 @@ import_cs-with-ru_poss : ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.impo
 ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/list : ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/list
 	bin/import_ali_annot.sh $< $(PHASE3_ALI_ANNOT) $@ "cs-en:gold;ru-cs:gold;en-ru:gold"
 
-summary.cs_poss : ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/list
+summary/cs_poss : ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/list
 	bin/print_summary.sh $< cs src a perspron.poss en,ru > $@
 
 ####################################################################################################################
@@ -75,5 +76,5 @@ import_ru-with-ru_poss : ../tmp/testing_import_ali_annot/05.ru-with-ru.poss.impo
 ../tmp/testing_import_ali_annot/05.ru-with-ru.poss.import/list : ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/list
 	bin/import_ali_annot.sh $< $(PHASE4_ALI_ANNOT) $@ "cs-en:gold;ru-cs:gold;en-ru:gold"
 
-summary.ru_poss : ../tmp/testing_import_ali_annot/05.ru-with-ru.poss.import/list
+summary/ru_poss : ../tmp/testing_import_ali_annot/05.ru-with-ru.poss.import/list
 	bin/print_summary.sh $< ru src a perspron.poss en,cs > $@
