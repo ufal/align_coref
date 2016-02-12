@@ -1,0 +1,168 @@
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1903.final.streex##28.a_tree-cs_src-s28-n1625
+CS_A:	Od časopisu Success se očekává , že si polepší , přinejmenším kvůli tomu , že se jeho rival Venture , další časopis pro rostoucí firmy , položil .
+EN_A:	Success is expected to gain at least because of the recent folding of rival Venture , another magazine for growing companies .
+RU_A:	Ожидается , что Успех выиграет , по крайней мере , по причине недавней свёртки конкурирующего " Риска " , другого журнала для растущих компаний .
+INFO_EN:<ERR>	
+INFO_RU:<ERR>	
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1904.final.streex##4.a_tree-cs_src-s4-n293
+CS_A:	Komise zjistila , že pokud by se britská vláda pokusila zabránit fúzi , společnost Rhone-Poulenc by pravděpodobně odpověděla uzavřením <své> továrny na salicyláty , kterou společnost Monsanto provozuje ve Walesu , čímž by problém dostala mimo působnost britské jurisdikce .
+EN_A:	The commission found that if the British government attempted to block the merger , Rhone-Poulenc would likely respond by closing <the> salicylates plant Monsanto operates in Wales , removing the matter from U . K . jurisdiction .
+RU_A:	Комиссия сочла , что если бы британское правительство попыталось блокировать слияние , Рона – Пуленк , вероятно , ответил бы закрытием салицилатного завода , которым Monsanto Company управляет в Уэльсе , тем самым удаляя производство из-под юрисдикции Великобритании .
+INFO_EN:<THE>
+INFO_RU:<NUL>
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1911.final.streex##7.a_tree-cs_src-s7-n355
+CS_A:	Společnost Arkla podle <svých> slov očekává , že její výchozí veřejná nabídka 18 % společnosti Arkla Exploration Co . vynese čistý zisk okolo 90 milionů dolarů , které budou využity ke splacení dluhu společnosti Arkla .
+EN_A:	Arkla said its initial offering of 18 % of Arkla Exploration Co . is expected to result in a net gain of about $ 90 million , which will be used to pay down Arkla debt .
+RU_A:	Аркла сказала , что ожидается , что её первоначальное предложение 18 % компании Разработки Аркла приведёт к чистой прибыли почти в $ 90 млн . , которые будут использованы для оплаты ее долга .
+INFO_EN:<PER>
+INFO_RU:<PER>	
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1913.final.streex##1.a_tree-cs_src-s1-n242
+CS_A:	Společnost New York Times Co . oznámila , že čistý příjem ve třetím kvartálu vzrostl díky jednorázovému zisku z prodeje <jejího> systému kabelové televize .
+EN_A:	New York Times Co . said net income rose in the third quarter because of a one-time gain on the sale of the <company> 's cable-TV system .
+RU_A:	Компания Нью-Йорк Таймс сказала , что чистый доход возрос в третьем квартале из-за разового дохода от продажи системы кабельного телевидения компании .
+INFO_EN:<NOUN>
+INFO_RU:<NUL>
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1915.final.streex##38.a_tree-cs_src-s38-n4584
+CS_A:	CONSOLIDATED FREIGHTWAYS INC . , přepravní společnost v Menlo Parku s ročním obratem 2.69 miliardy dolarů , registrovaná na Newyorské burze cenných papírů , utrpěla škody na statice kanceláří <své> pobočky CF Motor Freight v Palo Altu , v Menlo Parku nebyly škody žádné .
+EN_A:	CONSOLIDATED FREIGHTWAYS INC . , Menlo Park , trucking company , $ 2.69 billion in annual sales , NYSE , had structural damage to CF Motor Freight subsidiary 's office in Palo Alto , no damage in Menlo Park .
+RU_A:	CONSOLIDATED FREIGHTWAYS INC . , Менло-Парк , автотранспортная компания , $ 2.69 млрд . годовых продаж , NYSE , потерпела системные повреждения в бюро дочерней компании CF Motor Freight в Пало-Альто , без повреждений в Менло-Парке .
+INFO_EN:<NOUN>	
+INFO_RU:<NUL>	
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1915.final.streex##73.a_tree-cs_src-s73-n5678
+CS_A:	Také <její> laboratoř pro vývoj softwaru v Santa Terese a výzkumné středisko v Almadenu byly včera uzavřeny .
+EN_A:	Also closed yesterday were the <company> 's Santa Teresa software-development lab and the Almaden research center .
+RU_A:	Также вчера были закрыты лаборатория разработки программного обеспечения в Санта-Терезе и центр исследований в Альмадене .
+INFO_EN:<NOUN>	
+INFO_RU:<NUL>	
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1915.final.streex##90.a_tree-cs_src-s90-n6185
+CS_A:	NORDSTROM INC . , maloobchodní společnost v Seattlu s ročním obratem 2.33 miliardy dolarů , registrovaná na mimoburzovním trhu , včera uzavřela 5 z 9 obchodů v oblasti zálivu ze <svého> obchodního řetězce čítajícího 59 obchodů , přičemž škody se zdají být zejména povrchové a společnost doufá , že dnes opět otevře čtyři obchody a do soboty pátý .
+EN_A:	NORDSTROM INC . , Seattle , retailer , annual sales $ 2.33 billion , OTC , five of <this> 59-store chain 's nine stores in the Bay Area were closed yesterday , damage appears primarily cosmetic , hopes to reopen four of the stores by today and the fifth by Saturday .
+RU_A:	Nordstrom Inc . , Сиэтл , розничный магазин , годовые продажи $ 2.33 млрд . , OTC , пять из девяти магазинов <этой> сети из 59 магазинов , находящиеся в Области Залива были закрыты вчера , повреждение представляется главным образом косметическим , надеется вновь открыть четыре магазина к сегодняшнему дню , и пятый – к субботе .
+INFO_EN:<PER><NOUN>	
+INFO_RU:<PER><NOUN>
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1915.final.streex##94.a_tree-cs_src-s94-n6468
+CS_A:	SPOLEČNOST PROCTER & GAMBLE CO . , se sídlem v Cincinnati , <její> továrna na kávu Folgers Coffee v jižním San Francisku byla zavřena vzápětí po zemětřesení , neutrpěla však žádné větší škody , nikdo nebyl zraněn a jakékoliv ztráty v produkci dokáží nahradit ostatní továrny v zemi .
+EN_A:	PROCTER & GAMBLE CO . , Cincinnati-based <company> 's Folgers Coffee plant in South San Francisco was closed following the earthquake , no injuries or major damage , other plants around country can make up for any lost production .
+RU_A:	КОМПАНИЯ PROCTER & GAMBLE , Кофейный завод Folgers в Сан-Франциско , принадлежащий компании из Цинциннати , был закрыт после землетрясения , без ранений и больших повреждений , другие заводы страны могут окупить все утраченное производство .
+INFO_EN:<PER>	
+INFO_RU:<PER>
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1915.final.streex##113.a_tree-cs_src-s113-n7185
+CS_A:	WELLS FARGO & CO . , bankovní holdingová společnost v San Francisku s ročním obratem 4.9 miliardy dolarů , registrovaná na Newyorské burze cenných papírů , utrpěla malé škody na hlavním sídle společnosti , 12 ze 170 poboček v severní Kalifornii utrpělo škody na statice , které zamezí <jejich> otevření v nejbližší budoucnosti , 45 míst s alespoň jedním bankomatem je nefunkčních , centrální počítačový systém je funkční , nikdo nebyl zraněn .
+EN_A:	WELLS FARGO & CO . , San Francisco , bank holding company , annual revenue $ 4.9 billion , NYSE , minor damage at headquarters , 12 branches out of 170 in Northern California sustained structural damage that will preclude <them> from opening in the near future , 45 locations with at least one automatic teller machine inoperable , central computer systems are operating , no injuries .
+RU_A:	WELLS FARGO & CO . , Сан-Франциско , банковская холдинговая компания , годовой доход $ 4.9 млрд . , NYSE , незначительные повреждения в штаб-квартире , 12 филиалов из 170 в северной Калифорнии понесли системный ущерб , который помешает <им> открыться в близком будущем , в 45 точках неисправен по крайней мере один банкомат , центральные компьютерные системы работают , травм нет .
+INFO_EN:<PER><NOUN>	
+INFO_RU:<PER><NOUN>
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1920.final.streex##6.a_tree-cs_src-s6-n447
+CS_A:	Dopoledne měl Bush dva telefonáty od viceprezidenta Dana Quayleho , který je v Kalifornii , natočil televizní prohlášení , kde vyjádřil <svoji> účast , podepsal vyhlášení katastrofy , dostal písemnou zprávu od Federální agentury pro krizové řízení ( FEMA ) a navštívil vedení agentury FEMA .
+EN_A:	By noon , Mr. Bush had taken two phone calls from Vice President Dan Quayle , who was in California ; made a televised statement of concern ; signed a disaster proclamation ; received a written report from the Federal Emergency Management Agency ; and visited FEMA headquarters .
+RU_A:	К полудню г-н Буш получил два телефонных звонка от Вице-президента Дэна Куейла , который находился в Калифорнии ; сделал переданное по телевидению заявление о <своей> озабоченности вопросом ; подписал указ об аварийной ситуации ; получил письменный отчёт от Федерального Агентства по чрезвычайным ситуациям ; и посетил штаб-квартиру FEMA .
+INFO_EN:<NUL>phrase	
+INFO_RU:<RFL>
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1927.final.streex##8.a_tree-cs_src-s8-n1256
+CS_A:	Vzhledem ke zklamání demokratů z Reaganových vítězství a z jmenování Nejvyššího soudu , vzhledem k <jejich> plánům pro tyto mimořádné případy a vzhledem k písemným záznamům napadnutelných Borkových textů bylo celkem jasné , že soudce Bork nemá příliš šancí na to , že jeho jmenování bude schváleno .
+EN_A:	Given Democratic frustration with the Reagan victories and Court appointments , <the> contingency plans in place , and Mr. Bork 's paper trail of vulnerable writings , it was pretty clear that Judge Bork never stood much chance of being confirmed .
+RU_A:	Учитывая разочарование демократов в связи с победами Рейгана и назначениями в Суде , планами на случай непредвиденных обстоятельств и документальным подтверждением уязвимых сочинений г-на Bork , было довольно очевидно , что судья Bork никогда не будет иметь высокого шанса на утверждение .
+INFO_EN:<THE>	
+INFO_RU:<NUL>
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1927.final.streex##8.a_tree-cs_src-s8-n1284
+CS_A:	Vzhledem ke zklamání demokratů z Reaganových vítězství a z jmenování Nejvyššího soudu , vzhledem k jejich plánům pro tyto mimořádné případy a vzhledem k písemným záznamům napadnutelných Borkových textů bylo celkem jasné , že soudce Bork nemá příliš šancí na to , že <jeho> jmenování bude schváleno .
+EN_A:	Given Democratic frustration with the Reagan victories and Court appointments , the contingency plans in place , and Mr. Bork 's paper trail of vulnerable writings , it was pretty clear that Judge Bork never stood much chance of being confirmed .
+RU_A:	Учитывая разочарование демократов в связи с победами Рейгана и назначениями в Суде , планами на случай непредвиденных обстоятельств и документальным подтверждением уязвимых сочинений г-на Bork , было довольно очевидно , что судья Bork никогда не будет иметь высокого шанса на утверждение .
+INFO_EN:<PER>	
+INFO_RU:<PER>
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1928.final.streex##19.a_tree-cs_src-s19-n1676
+CS_A:	Když se představitelé společnosti Christie's ptali , proč nebyla pro prodej sbírky Dorranceových vybrána <jejich> společnost , zástupci rodiny Dorranceových " řekli , že je to otázka finančního hlediska " , prohlásil Michael Findlay , ředitel oddělení pro impresionistické a moderní obrazy společnosti Christie's .
+EN_A:	When Christie 's officials asked why <the> firm was n't picked to sell the Dorrance collection , representatives of the Dorrance family `` told us it was a question of financial considerations , '' said Michael Findlay , Christie 's head of impressionist and modern paintings .
+RU_A:	Когда должностные лица Кристи спросили , почему фирма не была выбрана , чтобы продать коллекцию <Дорранса> , представители семьи Дорранса " сказали нам , что это вопрос финансовых соображений " , – сказал Майкл Финдли , глава импрессионистической и модернистской живописи у Кристи .
+INFO_EN:<THE>
+INFO_RU:<NOUN>
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1929.final.streex##1.a_tree-cs_src-s1-n1142
+CS_A:	Egon Krenz , muž , který byl včera zvolen do funkce nového čelního představitele Východního Německa , čelí stejnému úkolu , jenž připadl na <jeho> sousední socialistické kolegy : reformovat zemi v krizi .
+EN_A:	Egon Krenz , the man tapped yesterday to become East Germany 's new leader , faces the same task that has fallen to neighboring socialist colleagues : reforming a country in crisis .
+RU_A:	Эгон Кренз , человек , назначенный вчера на пост нового лидера Восточной Германии , сталкивается с такой же задачей , которая пала на соседних социалистических коллег : реформой страны в кризис .
+INFO_EN:<NUL>
+INFO_RU:<NUL>
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1930.final.streex##28.a_tree-cs_src-s28-n1072
+CS_A:	Tento maloobchodník nebyl schopen najít pro <svoji> budovu kupce .
+EN_A:	The retailer was unable to find a buyer for <the> building .
+RU_A:	Компания была неспособна найти покупателя для здания .
+INFO_EN:<THE>
+INFO_RU:<NUL>
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1931.final.streex##4.a_tree-cs_src-s4-n805
+CS_A:	Zprávy o úterním silném zemětřesení v Kalifornii spustily v ranních obchodech v Asii sérii prodejů dolaru , avšak většina směnárníků uvedla , že podle <jejich> očekávání bude dopad zemětřesení na finanční trhy krátkodobý .
+EN_A:	News of the major earthquake in California Tuesday triggered a round of dollar sales in early Asian trade , but most foreign-exchange dealers said <they> expect the impact of the quake on financial markets to be short-lived .
+RU_A:	Новости об основном землетрясении в Калифорнии во вторник вызвали раунд продаж долларов на ранних торгах в Азии , но большинство дилеров иностранной валюты сказало , что <они> ожидают , что воздействие землетрясения на финансовые рынки будет временным .
+INFO_EN:<PER><NOUN>
+INFO_RU:<PER><NOUN>
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1932.final.streex##26.a_tree-cs_src-s26-n1852
+CS_A:	Podle jednoho analytika se pracovníci dolu na měď ve městě Cananea v Mexiku , který byl mimo provoz od konce srpna , kdy mexická vláda oznámila <jeho> krach , mají vracet do práce .
+EN_A:	According to one analyst , workers at the Cananea copper mine in Mexico , which has n't been operating since <it> was declared bankrupt by the Mexican government in late August , are set to return to work .
+RU_A:	По утверждению одного аналитика , работникам на медном руднике Кананеа в Мексике , который не действует с тех пор , как <он> был объявлен мексиканским правительством банкротом в конце августа , предложено вернуться к работе .
+INFO_EN:<PER><NOUN><VAL>
+INFO_RU:<PER><NOUN><VAL>	
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1932.final.streex##42.a_tree-cs_src-s42-n2206
+CS_A:	Toto prohlášení bylo učiněno po úterních zprávách , že Kuba odloží <své> dodávky do Japonska naplánované na konec tohoto roku na počátek roku příštího .
+EN_A:	The announcement was made because of reports Tuesday that Cuba would delay shipments to Japan scheduled for later this year , into early next year .
+RU_A:	Это объявление было сделано из-за сообщений во вторник , что Куба задержала поставки в Японию , запланированные на конец этого года , до начала следующего года .
+INFO_EN:<NUL>
+INFO_RU:<NUL>
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1934.final.streex##19.a_tree-cs_src-s19-n951
+CS_A:	" Už šest měsíců známe účinky tohoto léku a <své> lidi nabádáme , aby akcie společnosti nekupovali , " řekl dr . Starzl a dodal , že profitování z léku FK-506 by nebylo etické .
+EN_A:	`` We 've known for six months the effect of this drug , and our advice to <our> people has been not to buy the company 's stock , '' Dr. Starzl said , adding that profiting from FK-506 would n't be ethical .
+RU_A:	" Мы наблюдаем действие этого препарата в течение шести месяцев , и наш совет <нашим> людям состоял в том , чтобы не покупать акции этой компании " , – сказал д-р Старзл , добавляя , что получение прибыли с FK-506 не было бы этично .
+INFO_EN:<POS>
+INFO_RU:<POS>
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1936.final.streex##42.a_tree-cs_src-s42-n2481
+CS_A:	Během několika hodin sledujeme <její> vývoj z plaché , neznámé švagrové , v bohyni masa , která nahradí zemřelou matku , a pak i ostatní .
+EN_A:	We have seen <her> develop within a few hours from a shy and unknown in-law to a goddess of the flesh who will replace the dead mother , and then some .
+RU_A:	Мы видим , как <она> в течение нескольких часов из застенчивой и безвестной невестки превращается в богиню семьи , которая заменит мёртвую мать и остальных .
+INFO_EN:<PER><NOUN><VAL>	
+INFO_RU:<PER><NOUN><VAL>	
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1943.final.streex##1.a_tree-cs_src-s1-n390
+CS_A:	Federální podnik veřejných služeb Tennessee Valley Authority vydal při <své> první veřejné nabídce dluhu za 15 let dluhopisy ve výši 4 miliard dolarů .
+EN_A:	The Tennessee Valley Authority issued $ 4 billion in bonds in the federal <utility 's> first public debt offering in 15 years .
+RU_A:	Администрация Долины Теннесси выпустила первые за 15 лет долговые обязательства федерального коммунального предприятия на $ 4 млрд .
+INFO_EN:<NOUN>
+INFO_RU:<NUL>
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1944.final.streex##18.a_tree-cs_src-s18-n1085
+CS_A:	Sherry odmítl <svůj> prodej komentovat .
+EN_A:	Mr. Sherry declined to comment when asked about <the> sales .
+RU_A:	Г-н Шерри отказался давать комментарии по поводу продаж .
+INFO_EN:<THE>
+INFO_RU:<NUL>
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1948.final.streex##6.a_tree-cs_src-s6-n605
+CS_A:	Protože společnost Bear Stearns funguje na fiskální roky , jsou <její> údaje k dispozici podstatně dříve než údaje jiných firem .
+EN_A:	Because it operates on a fiscal year , Bear <Stearns 's> yearly filings are available much earlier than those of other firms .
+RU_A:	Поскольку она действует на весь финансовый год , годовые документы <Bear Stearns> доступны гораздо раньше , чем документы других фирм .
+INFO_EN:<NOUN>
+INFO_RU:<NOUN>
+
+ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1949.final.streex##13.a_tree-cs_src-s13-n696
+CS_A:	" Pokud spolu <jejich> odchody nějak souvisí , pak tak , že odcházejí v době , kdy je banka v poměrně dobrém stavu a vývoj je velmi slibný . "
+EN_A:	`` If there 's any coincidence about <the> departures it 's that they are leaving at a time when the business is in reasonably good shape and going forward very well . ''
+RU_A:	" Если есть какое-либо совпадение по поводу уходов , то дело в том , что <они> уходят одновременно , когда предприятие находится в относительно хорошей форме и идёт вперёд очень хорошо " .
+INFO_EN:<THE>	
+INFO_RU:<NUL>
+
