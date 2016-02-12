@@ -3,6 +3,7 @@ PCERDT_19_ORIG=../ru_cs_align/out/pcerdt_19_giza/full.list
 PHASE1_ALI_ANNOT=ali_annot/filled/cs-en.all.align.ref.sec19_00-49.ali_annot
 PHASE2_ALI_ANNOT=ali_annot/filled/en.poss.align.src.sec19_00-49.ali_annot
 PHASE3_ALI_ANNOT=ali_annot/filled/cs.poss.align.src.sec19_00-49.ali_annot
+PHASE4_ALI_ANNOT=ali_annot/filled/ru.poss.align.src.sec19_00-49.ali_annot
 
 PHASE3_ALI_ANNOT_CLEAN=ali_annot/clean/cs.poss.align.src.sec19_00-49.ali_annot
 PHASE4_ALI_ANNOT_CLEAN=ali_annot/clean/ru.poss.align.src.sec19_00-49.ali_annot
