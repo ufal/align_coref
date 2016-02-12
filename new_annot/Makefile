@@ -53,10 +53,7 @@ summary.en_poss : ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/list
 
 ali_annot.cs_poss : $(PHASE3_ALI_ANNOT_CLEAN)
 $(PHASE3_ALI_ANNOT_CLEAN) : ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/list
-	treex -p --jobs=50 \
-		Read::Treex from=@$< \
-		Align::Annot::Print language=cs selector=src layers=a align_langs="en,ru" node_types="perspron.poss" \
-		> $@
+	bin/prepare_clean_ali_annot.sh $< cs src a perspron.poss en,ru > $@
 
 import_cs-with-ru_poss : ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/list
 ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/list : ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/list
@@ -72,10 +69,7 @@ summary.cs_poss : ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/list
 
 ali_annot.ru_poss : $(PHASE4_ALI_ANNOT_CLEAN)
 $(PHASE4_ALI_ANNOT_CLEAN) : ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/list
-	treex -p --jobs=50 \
-		Read::Treex from=@$< \
-		Align::Annot::Print language=ru selector=src layers=a align_langs="en,cs" node_types="perspron.poss" \
-		> $@
+	bin/prepare_clean_ali_annot.sh $< ru src a perspron.poss en,cs > $@
 
 import_ru-with-ru_poss : ../tmp/testing_import_ali_annot/05.ru-with-ru.poss.import/list
 ../tmp/testing_import_ali_annot/05.ru-with-ru.poss.import/list : ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/list
