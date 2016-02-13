@@ -48,7 +48,7 @@ import_en-with-ru_poss : ../tmp/testing_import_ali_annot/03.en-with-ru.poss.impo
 ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/list : ../tmp/testing_import_ali_annot/02.cs-en.all.project/list
 	bin/import_ali_annot.sh $< $(PHASE2_ALI_ANNOT) $@ "cs-en:gold;ru-cs:gold;en-ru:gold"
 
-summary/en_poss : ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/list
+summary/en_poss.summary : ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/list
 	bin/print_summary.sh $< en src a perspron.poss cs,ru > $@
 
 ####################################################################################################################
@@ -64,7 +64,7 @@ import_cs-with-ru_poss : ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.impo
 ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/list : ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/list
 	bin/import_ali_annot.sh $< $(PHASE3_ALI_ANNOT) $@ "cs-en:gold;ru-cs:gold;en-ru:gold"
 
-summary/cs_poss : ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/list
+summary/cs_poss.summary : ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/list
 	bin/print_summary.sh $< cs src a perspron.poss en,ru > $@
 
 ####################################################################################################################
@@ -80,5 +80,5 @@ import_ru-with-ru_poss : ../tmp/testing_import_ali_annot/05.ru-with-ru.poss.impo
 ../tmp/testing_import_ali_annot/05.ru-with-ru.poss.import/list : ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/list
 	bin/import_ali_annot.sh $< $(PHASE4_ALI_ANNOT) $@ "cs-en:gold;ru-cs:gold;en-ru:gold"
 
-summary/ru_poss : ../tmp/testing_import_ali_annot/05.ru-with-ru.poss.import/list
+summary/ru_poss.summary : ../tmp/testing_import_ali_annot/05.ru-with-ru.poss.import/list
 	bin/print_summary.sh $< ru src a perspron.poss en,cs > $@
