@@ -11,16 +11,16 @@ RU_A:	Руководители Time жаловались на плохое ка�
 CS_A:	Vedoucí pracovníci Time si stěžovali na nekvalitní vydavatelskou práci a nakonec jeden z řídících pracovníků Time , který si nepřál <být> jmenován , uvedl : " Upřímně řečeno , McCall's a společný podnik byly jedna potíž . "
 EN_A:	Time executives complained about the shoddy editorial quality , and in the end , one Time executive who asked not to be identified said , `` Frankly , McCall 's and the joint venture were an embarrassment . ''
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1907.final.streex##8.a_tree-ru_src-s8-n162
 RU_A:	В ответ на конкретное предложение , Гэри Рисли , вице-президент Месы , сказал , что руководство попросит директоров нанять финансового консультанта , чтобы проконсультировать <их> .
 CS_A:	Gary Risley , vicepresident společnosti Mesa , uvedl , že jako odpověď na konkrétní nabídku požádá vedení společnosti představenstvo , aby použilo služeb finančního poradce .
 EN_A:	In response to the specific offer , Gary Risley , Mesa vice president , said management will ask directors to employ a financial consultant to advise them .
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1915.final.streex##52.a_tree-ru_src-s52-n1452
 RU_A:	<Его> бизнес не пострадал .
@@ -35,16 +35,16 @@ RU_A:	По иронии судьбы , Калтрэнс в этом году н�
 CS_A:	Caltrans letos paradoxně začal pracovat na druhé etapě seismického zesílení dálnic ve státě , přičemž tentokrát balí sloupy dálnic do " ocelových plášťů " , aby <je> vyztužil .
 EN_A:	Ironically , Caltrans this year began working on a second round of seismic reinforcements of freeways around the state , this time wrapping freeway columns in `` steel blankets '' to reinforce them .
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1917.final.streex##3.a_tree-ru_src-s3-n80
 RU_A:	Лайонел также сказала , что предложение Ограниченного Товарищества Роберта Ай . Тоусси неудовлетворительно и полно условий , которые делают <его> " подверженным значительной неопределенности " .
 CS_A:	Společnost Lionel též sdělila , že nabídka od Limited Partnership Roberta I . Toussieho je neadekvátní a plná podmínek , kvůli kterým <stále> " podléhá značné nejistotě " .
 EN_A:	Lionel also said the offer by Robert I . Toussie Limited Partnership is inadequate , and full of conditions that leave it `` subject to substantial uncertainty . ''
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1918.final.streex##6.a_tree-ru_src-s6-n130
 RU_A:	" Компания не изменит <своей> позиции ни в чем " , – сказал представитель союза .
@@ -59,24 +59,24 @@ RU_A:	Будучи соединена с 1.2 миллионами акций , �
 CS_A:	Ve spojení s jeho současným 1.2 milionu akcií a 4 % , které <vlastní> <jeden> společník , by mu tento podíl poskytl kontrolu nad 55 % podniku .
 EN_A:	Coupled with his current 1.2 million shares and 4 % held by an associate , the stake would have given him control of 55 % of the concern .
 INFO_RU:	<PERS>
-INFO_CS:<PER>	
-INFO_EN:<PER>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1920.final.streex##1.a_tree-ru_src-s1-n11
 RU_A:	Белый Дом убеждается в том , что никто не обвинит <его> в лёгком отношении к этому кризису .
 CS_A:	Bílý dům dělá vše pro to , aby <jej> nikdo nemohl nařknout , že k této krizi přistupuje lehkomyslně .
 EN_A:	The White House is making sure nobody will accuse it of taking this crisis lightly .
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1920.final.streex##10.a_tree-ru_src-s10-n281
 RU_A:	Он посетил места , разрушенные Хьюго , только после того , как местные лидеры уговорили <его> сделать это .
 CS_A:	Navštívil i místa zničená hurikánem Hugem , avšak až poté , co <jej> k tomu vybídli místní činitelé .
 EN_A:	He visited the Hugo devastation but not until after local leaders urged him to do so .
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1924.final.streex##25.a_tree-ru_src-s25-n527
 RU_A:	Администрация Буша обвинила Израильского Премьер-министра Шамира в том , что он препятствует усилиям по достижению мира на Ближнем Востоке <своими> " бесполезными " и разочаровывающими заявлениями .
@@ -99,8 +99,8 @@ RU_A:	Обвинение , что г-н Борк находится " вне м�
 CS_A:	Obvinění , že se nachází " mimo hlavní proud " právního myšlení , výrazně podrylo postavení soudce Borka coby odborníka a nechalo <ho> doslova vykrvácet přímo na pódiu .
 EN_A:	The charge of being `` outside the mainstream '' of legal thought gravely undercut Mr. Bork 's scholarly standing , leaving him bleeding on the platform .
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1927.final.streex##20.a_tree-ru_src-s20-n510
 RU_A:	Назначение ещё могло бы быть спасено , если бы некоторое количество Умеренных демократов на Юге и Юго-западе пошло против линии <своих> партий .
@@ -115,48 +115,48 @@ RU_A:	Противники г-на Борка выбрали поле боя , �
 CS_A:	Oponenti soudce Borka zvolili bojiště , drželi ho a udrželi si <ho> .
 EN_A:	Mr. Bork 's opponents chose the battlefield , held it and kept it .
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1927.final.streex##31.a_tree-ru_src-s31-n720
 RU_A:	Он бы открыл <её> также у Александра Бикела , тонкого конституционного учёного , самого близкого друга г-на Борка в Йеле , чьё влияние на судью выходит далеко за рамки сообщения г-на Броннера .
 CS_A:	To samé by <zjistil> i u Alexandera Bickela , bystrého ústavního odborníka a nejbližšího přítele Roberta Borka na univerzitě v Yale , jehož vliv na tohoto soudce je mnohem větší , než uvádí pan Bronner .
 EN_A:	He would discover it also in Alexander Bickel , a subtle constitutional scholar , Mr. Bork 's closest friend at Yale , whose influence on the judge goes well beyond Mr. Bronner 's reporting .
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1929.final.streex##36.a_tree-ru_src-s36-n818
 RU_A:	Но в правительство и в мозговых центрах вне <его> многие Западные немцы настаивают , что они не хотят немедленного воссоединения .
 CS_A:	Jenže řada západních Němců ve vládě i mimo <ni> ve společnostech provádějících průzkumy tvrdí , že si okamžité sjednocení nepřeje .
 EN_A:	But within the government and in the think tanks outside it , many West Germans maintain that they do n't want immediate reunification .
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1935.final.streex##6.a_tree-ru_src-s6-n123
 RU_A:	Но не потому что ресурсы используются наиболее эффективно , оставляя дефицитный товар " выделенным для тех покупателей , которые ценят <его> выше всего " .
 CS_A:	Ale ne proto , že prostředky budou využity nejefektivněji , když bude vzácné zboží " zanecháno těm kupujícím , kteří za <ně> nabídnou nejvyšší hodnotu " .
 EN_A:	But not because resources are going to their most efficient use , leaving scarce goods `` allocated to those buyers who place the highest value on them . ''
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1935.final.streex##31.a_tree-ru_src-s31-n541
 RU_A:	Кроме того , вместо того , чтобы увеличивать снабжение , они сокращают <его> и поощряют запасание .
 CS_A:	Také namísto toho , aby dodávky zvýšily , sníží <je> a podpoří hromadění zásob .
 EN_A:	Also , rather than increase supplies , they reduce them and encourage hoarding .
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1935.final.streex##32.a_tree-ru_src-s32-n550
 RU_A:	И они или даже <их> перспектива препятствуют подготовке к бедствию , потому что торговцы начинают заблаговременно запасаться спекулятивными товарами .
 CS_A:	A tyto vyhlášky nebo jen pouhé vyhlídky na <ně> odradí obchodníky , aby se na neštěstí připravili formou spekulativního předzásobení .
 EN_A:	And they , or even the prospect of them , discourage disaster preparedness in the form of speculative advance stocking of supplies by merchants .
 INFO_RU:	<PERS>
-INFO_CS:<PER>	
-INFO_EN:<PER>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1935.final.streex##57.a_tree-ru_src-s57-n923
 RU_A:	Возможно , учитывая ценность <своего> времени , мы будем неспособны регулярно посеoщать их учреждения в эру после Хьюго .
@@ -171,69 +171,69 @@ RU_A:	Г-н Фоллз , художественный руководитель �
 CS_A:	Falls , umělecký ředitel divadelního souboru Goodman , vzal nedávnou adaptaci Neila Bartletta a značně <ji> upravil .
 EN_A:	Mr. Falls , the Goodman 's artistic director , took a recent adaptation by Neil Bartlett and significantly adapted it .
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1936.final.streex##16.a_tree-ru_src-s16-n330
 RU_A:	Г-н Бартлетт уменьшил до 6 количество персонажей у Мольера и поместил <их> в лондонский медиа мир тэтчерианской Британии .
 CS_A:	Bartlett zúžil Molierovo obsazení postav na šest a zasadil <je> do londýnského mediálního světa v thatcherovské Británii .
 EN_A:	Mr. Bartlett had slimmed Moliere 's cast of characters to six and set them in the London media world of Thatcherite Britain .
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1936.final.streex##33.a_tree-ru_src-s33-n743
 RU_A:	Ободренная хитрыми усмешками , гримасами замешательства и брызжущим гневом г-на Уайлдера , аудитория проникается <его> юмором и начинает смеяться до конца первого акта .
 CS_A:	Publikum , povzbuzené Wilderovými potměšilými úšklebky , rozpačitými grimasami a výbuchy vzteku , <tomu> humoru porozumí a před koncem prvního jednání se začne smát .
-EN_A:	Encouraged by Mr. Wilder 's sly grins , embarrassed grimaces and sputtering rages , the audience gets the joke and begins to laugh before the end of the first act .
+EN_A:	Encouraged by Mr. Wilder 's sly grins , embarrassed grimaces and sputtering rages , the audience gets <the> joke and begins to laugh before the end of the first act .
 INFO_RU:	<POS>
 INFO_CS:<NOUN><DP>	
-INFO_EN:<NOUN><DP>	
+INFO_EN:<NOUN><THE>	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1937.final.streex##18.a_tree-ru_src-s18-n357
 RU_A:	Если акции резко упадут , он планировал начинать покупать <их> агрессивно , предполагая , что компаниям , которые страхуют от имущественного ущерба и несчастных случаев , придётся поднять ставки в конце концов , чтобы компенсировать заявки , которые они оплатят жертвам землетрясения и жертвам Урагана Хьюго прошлого месяца .
 CS_A:	Kdyby potom akcie prudce klesly , měl v úmyslu je aktivně <nakupovat> <na> základě teorie , že společnosti , které pojišťují proti majetkovým škodám a nehodám , budou nakonec muset zvýšit sazby , aby mohly uhradit pojistné škody , které vyplatí obětem zemětřesení a obětem hurikánu Huga z minulého měsíce .
 EN_A:	Then , if the stocks fell sharply , he planned to begin buying them aggressively , on the theory that the companies that insure against property damage and accidents will have to raise rates eventually to compensate for the claims they will pay to earthquake victims and victims of last month 's Hurricane Hugo .
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1939.final.streex##1.a_tree-ru_src-s1-n23
 RU_A:	Буквально через несколько минут после того как фондовый рынок закрылся в пятницу , я позвонил сенатору из Нью-Джерси Биллу Брэдли , проинформировал <его> , что Промышленный Индекс Доу-Джонса упал на 190 пунктов вечером того дня , и весело объявил ему , что виноват в этом он и его товарищи демократы .
 CS_A:	Několik minut po tom , co burza v pátek uzavřela , jsem zavolal senátorovi Billu Bradleymu z New Jersey , oznámil <mu> , že Dow-Jonesův index akcií průmyslových společností klesl ke konci odpoledne o 190 bodů , a vesele mu sdělil , že vinu za to nese on a jeho kolegové demokraté .
 EN_A:	Within minutes after the stock market closed Friday , I called Sen . Bill Bradley of New Jersey , advised him that the Dow Jones Industrial Average had declined by 190 points late that afternoon , and cheerfully informed him that he and his fellow Democrats were to blame .
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1939.final.streex##6.a_tree-ru_src-s6-n164
 RU_A:	Он помог убедить 10 из этих сенаторов поддержать <его> и Лидера Большинства Джорджа Митчелла на этом основании .
 CS_A:	Pomáhal přesvědčit 10 z těchto senátorů , aby <jej> a vůdce většiny George Mitchella z těchto důvodů podpořili .
 EN_A:	He helped persuade 10 of these senators to support him and Majority Leader George Mitchell on these grounds .
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1939.final.streex##23.a_tree-ru_src-s23-n522
 RU_A:	Не разумно ли предположить , что актив , которым вы владеете , будет стоить больше , если правительство неожиданно объявит , что , если вы продадите <его> , вы сможете сохранить на 30 % большую часть прибыли с него , чем вы ранее считали ?
 CS_A:	Není snad rozumné předpokládat , že vaše aktiva by měla vyšší cenu , kdyby vláda najednou prohlásila , že když svůj majetek <prodáte> , budete si moci nechat o 30 % více zisku , než jste se předtím domnívali ?
 EN_A:	Is n't it reasonable to assume that the asset you own would be worth more if the government suddenly announced that if you sold it , you would be able to keep 30 % more of its gain than you previously believed ?
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1939.final.streex##27.a_tree-ru_src-s27-n611
 RU_A:	Когда Ричард Ран сообщил финансовой прессе , что биржевой крах был вызван ударом по приросту капитала , он в целом был проигнорирован , и <его> мягко высмеивали .
 CS_A:	Když Richard Rahn oznámil finančnímu tisku , že pád burzy byl způsoben překážkou kapitálovým ziskům , všichni ho ignorovali a trochu <se> <mu> vysmívali .
 EN_A:	When Richard Rahn advised the financial press that the market crash was caused by the setback to capital gains , he was generally ignored and mildly ridiculed .
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1944.final.streex##14.a_tree-ru_src-s14-n302
 RU_A:	Менеджеры , которые получили $ 30.88 за акцию за <свои> доли , продемонстрировали хорошее чувство времени .
 CS_A:	Tito vedoucí pracovníci , kteří za podíl dostali 30.88 dolaru za akcii , prokázali dobré načasování .
-EN_A:	The executives , who got $ 30.88 a share for the stock , showed good timing .
+EN_A:	The executives , who got $ 30.88 a share for <the> stock , showed good timing .
 INFO_RU:	<RFL>
 INFO_CS:<NUL>	
 INFO_EN:<THE>	
@@ -251,39 +251,39 @@ RU_A:	Биби заявили , что <их> стало мутить от то�
 CS_A:	Beebeovi prohlásili , že z toxických výparů z koberců onemocněli .
 EN_A:	The Beebes alleged that toxic fumes from the carpets made them sick .
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1946.final.streex##6.a_tree-ru_src-s6-n127
 RU_A:	Кроме того , они сказали , что долгие месяцы воздействия химикатов сделали <их> чувствительными к широкому ряду обычно используемых веществ .
 CS_A:	Kromě toho prohlásili , že kvůli měsícům , po které byli vystaveni chemikáliím , <jsou> <nyní> citliví na mnoho běžně užívaných látek .
 EN_A:	In addition , they said that months of exposure to the chemicals has left them sensitive to a wide range of commonly used substances .
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1946.final.streex##28.a_tree-ru_src-s28-n608
 RU_A:	Должностные лица штата и представители городских властей ещё договариваются с застройщиками , чтобы отремонтировать исторические театры и построить выставочный центр и отель и запустить <их> в действие .
 CS_A:	Představitelé státu a města stále vyjednávají se staviteli o renovaci historických divadel a stavbě a <provozu> obchodního domu a hotelu .
 EN_A:	State and city officials are still negotiating with developers to renovate historic theaters and build and operate a merchandise mart and hotel .
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1946.final.streex##33.a_tree-ru_src-s33-n736
 RU_A:	Судья Уайнстайн также постановил , что судьи должны определить , справедливо ли обратятся с ответчиком в иностранном суде , прежде , чем <его> экстрадировать .
 CS_A:	Weinstein také rozhodl , že před vydáním musí soudci uvážit , zda bude zahraniční soud s obžalovaným <zacházet> spravedlivě .
 EN_A:	Judge Weinstein also ruled that judges must consider prior to extradition whether the defendant will be treated fairly in a foreign court .
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1947.final.streex##16.a_tree-ru_src-s16-n271
 RU_A:	Япония и Европа , которые намного сильнее зависят от ближневосточной нефти , чем США , не обидели бы арабов и не стали бы сбывать <их> ценные запасы .
 CS_A:	Japonsko a Evropa , které byly mnohem závislejší na ropě ze Středního východu než USA , by proti Arabům nic nepodnikly ani by nerozprodaly <své> drahocenné zásoby .
 EN_A:	Japan and Europe , far more dependent on Mideast oil than the U. S. , would n't offend the Arabs or trade off <their> precious supplies .
 INFO_RU:	<POS>
-INFO_CS:<POS>Anja_check	
+INFO_CS:<RFL>	
 INFO_EN:<POS>	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1947.final.streex##17.a_tree-ru_src-s17-n294
@@ -296,7 +296,7 @@ INFO_EN:<POS>
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1948.final.streex##9.a_tree-ru_src-s9-n236
 RU_A:	Однако , Bear Stearns в понедельник сообщил об увеличившейся прибыли за <свой> первый квартал , закончившийся 29 сентября , частично из-за увеличения комиссий на 31 % в течение квартала .
-CS_A:	Společnost Bear Stearns nicméně v pondělí oznámila zvýšené výdělky za <první> čtvrtletí , končící 29 . září , částečně díky 31 % nárůstu provizí během čtvrtletí .
+CS_A:	Společnost Bear Stearns nicméně v pondělí oznámila zvýšené výdělky za první čtvrtletí , končící 29 . září , částečně díky 31 % nárůstu provizí během čtvrtletí .
 EN_A:	However , Bear Stearns on Monday reported improved earnings for <its> first quarter , ended Sept . 29 , partly because of a 31 % increase in commissions during the quarter .
 INFO_RU:	<RFL>
 INFO_CS:<NUL>	
@@ -304,10 +304,10 @@ INFO_EN:<POS>
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1949.final.streex##3.a_tree-ru_src-s3-n52
 RU_A:	Г-н Крэйвен заработал хорошую репутацию за переориентацию основных сил Морган Гренфелл на <его> основные корпоративные финансы , управление фондом и банковскую деятельность в течение прошлого года .
-CS_A:	Craven je všeobecně uznáván za to , že během minulého roku zaměřil energii společnosti Morgan Grenfell na <jádro> firemního financování , řízení fondů a bankovní aktivity .
+CS_A:	Craven je všeobecně uznáván za to , že během minulého roku zaměřil energii společnosti Morgan Grenfell na jádro firemního financování , řízení fondů a bankovní aktivity .
 EN_A:	Mr. Craven is widely credited with refocusing Morgan Grenfell 's energies on <its> core corporate finance , fund management and banking activities over the past year .
 INFO_RU:	<POS>
-INFO_CS:<PER>Anja_check	
+INFO_CS:<PER>	
 INFO_EN:<POS>	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1949.final.streex##12.a_tree-ru_src-s12-n298
@@ -315,6 +315,6 @@ RU_A:	Г-н Крэйвен сказал , что оба , Эвард и Уитт
 CS_A:	Craven uvedl , že Eward i Whittington měli v plánu odejít z banky již dříve , ale Craven <je> přesvědčil , aby zůstali , než banka bude v dobrém postavení .
 EN_A:	Mr. Craven said both Messrs . Eward and Whittington had planned to leave the bank earlier , but Mr. Craven had persuaded <them> to remain until the bank was in a healthy position .
 INFO_RU:	<PERS>
-INFO_CS:<PERS>	
-INFO_EN:<PERS>	
+INFO_CS:	
+INFO_EN:	
 
