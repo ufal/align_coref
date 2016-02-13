@@ -3453,8 +3453,8 @@ ERR:TYPE=en_perspron	OK
 EN:	Isn't it reasonable to assume that the asset you own would be worth more if the government suddenly announced that if you sold it, you would be able to keep 30% more of its gain than you previously believed ?
 CS:	Není snad rozumné předpokládat, že vaše aktiva by měla vyšší cenu, kdyby vláda najednou prohlásila, že když svůj majetek prodáte, budete si moci nechat o 30 % více zisku, než jste se předtím domnívali? 
 EN_T:	Is n't reasonable #Gen.ACT assume asset you own #Cor.PAT be worth more government suddenly announced #Gen.ADDR you sold it you be able #Cor.ACT keep 30 % <its> gain you previously believed #PersPron.PAT
-CS_T:	#Neg.RHEM Není snad rozumné #Benef.BEN #Cor.ACT předpokládat vaše aktiva měla vyšší cenu vláda najednou prohlásila #Gen.ADDR #PersPron.ACT #PersPron.ACT <svůj> majetek prodáte si nechat 30 % více zisku #PersPron.PAT #PersPron.ACT předtím domnívali
-ERR:TYPE=en_perspron	OK
+CS_T:	#Neg.RHEM Není snad rozumné #Benef.BEN #Cor.ACT předpokládat vaše aktiva měla vyšší cenu vláda najednou prohlásila #Gen.ADDR #PersPron.ACT #PersPron.ACT svůj majetek prodáte si nechat 30 % více zisku #PersPron.PAT #PersPron.ACT předtím domnívali
+ERR:TYPE=en_perspron	NULL_POSS
 
 /home/mnovak/projects/align_resolver/tmp/robust_ali/wsj_1939.final.streex##3.EnglishT-wsj_1939-s3-t7
 EN:	Sen. Bradley has it in his mind that such a tax cut would unravel the tax reform he helped engineer in 1986.
