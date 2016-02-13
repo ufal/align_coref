@@ -5,6 +5,7 @@ PHASE2_ALI_ANNOT=ali_annot/filled/en.poss.align.src.sec19_00-49.ali_annot
 PHASE3_ALI_ANNOT=ali_annot/filled/cs.poss.align.src.sec19_00-49.ali_annot
 PHASE4_ALI_ANNOT=ali_annot/filled/ru.poss.align.src.sec19_00-49.ali_annot
 
+PHASE2_ALI_ANNOT_CLEAN=ali_annot/clean/en.poss.align.src.sec19_00-49.ali_annot
 PHASE3_ALI_ANNOT_CLEAN=ali_annot/clean/cs.poss.align.src.sec19_00-49.ali_annot
 PHASE4_ALI_ANNOT_CLEAN=ali_annot/clean/ru.poss.align.src.sec19_00-49.ali_annot
 
@@ -38,8 +39,10 @@ project_cs-en : ../tmp/testing_import_ali_annot/02.cs-en.all.project/list
 ###################### EN-CS-RU gold alignments annotation for English possessive pronouns #########################
 ####################################################################################################################
 
-# generating of ali_annot file missing - done by the script in ../ru_cs_align
-# TODO move it here
+# the original version of generating ali_annot file for en_poss can be found in ../ru_cs_align
+ali_annot.en_poss : $(PHASE2_ALI_ANNOT_CLEAN)
+$(PHASE2_ALI_ANNOT_CLEAN) : ../tmp/testing_import_ali_annot/02.cs-en.all.project/list
+	bin/prepare_clean_ali_annot.sh $< en src a perspron.poss cs,ru > $@
 
 import_en-with-ru_poss : ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/list
 ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/list : ../tmp/testing_import_ali_annot/02.cs-en.all.project/list
