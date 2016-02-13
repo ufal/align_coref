@@ -81,4 +81,4 @@ import_ru-with-ru_poss : ../tmp/testing_import_ali_annot/05.ru-with-ru.poss.impo
 	bin/import_ali_annot.sh $< $(PHASE4_ALI_ANNOT) $@ "cs-en:gold;ru-cs:gold;en-ru:gold"
 
 summary/ru_poss.summary : ../tmp/testing_import_ali_annot/05.ru-with-ru.poss.import/list
-	bin/print_summary.sh $< ru src a perspron.poss en,cs > $@
+	bin/print_summary.sh $< ru src a perspron.poss en,cs | grep -v "RU:[  ]*<PERS>" > $@
