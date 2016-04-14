@@ -81,7 +81,6 @@ wsj_1910.final.streex##4.a_tree-cs_src-s4-n285	jejím	CS:<POSS>	CS:<POSS>	wsj_19
 wsj_1911.final.streex##2.a_tree-cs_src-s2-n236	své	CS:<RFL>	CS:<RFL>	wsj_1911.final.streex##2.a_tree-en_src-s2-n41	its	EN:<POSS>	EN:<POSS>	wsj_1911.final.streex##2.a_tree-ru_src-s2-n39	своей	RU:<RFL>	RU:<RFL>
 wsj_1911.final.streex##7.a_tree-cs_src-s7-n355	svých	CS:<RFL>	CS:<RFL>	undef	undef	EN:<REWORD>	EN:<PER>	undef	undef	RU:<REWORD>	RU:<PER>
 wsj_1911.final.streex##7.a_tree-cs_src-s7-n360	její	CS:<POSS>	CS:<POSS>	wsj_1911.final.streex##7.a_tree-en_src-s7-n154	its	EN:<POSS>	EN:<POSS>	wsj_1911.final.streex##7.a_tree-ru_src-s7-n167	её	RU:<POSS>	RU:<POSS>
-wsj_1912.final.streex##1.a_tree-cs_src-s1-n270	svými	CS:<RFL>	CS:<RFL>  <PER> (I added <> to <svými>)	wsj_1912.final.streex##1.a_tree-en_src-s1-n19	its	EN:<POSS>	EN:<POSS>	wsj_1912.final.streex##1.a_tree-ru_src-s1-n21	своего	RU:<RFL>	RU:<RFL>
 wsj_1912.final.streex##1.a_tree-cs_src-s1-n270	svými	CS:<RFL>	CS:<RFL>	wsj_1912.final.streex##1.a_tree-en_src-s1-n9	its	EN:<POSS>	EN:<POSS>	wsj_1912.final.streex##1.a_tree-ru_src-s1-n9	своими	RU:<RFL>	RU:<RFL>
 wsj_1913.final.streex##1.a_tree-cs_src-s1-n242	jejího	CS:<POSS>	CS:<POSS>	wsj_1913.final.streex##1.a_tree-en_src-s1-n24	company	EN:<NOUN>	EN:<NOUN>	undef	undef	RU:<NOPOSS>	RU:<NUL>
 wsj_1914.final.streex##2.a_tree-cs_src-s2-n248	jejich	CS:<POSS> <OPT>	CS:<POSS> <OPT>	wsj_1914.final.streex##2.a_tree-en_src-s2-n59	their	EN:<POSS>	EN:<POSS>	wsj_1914.final.streex##2.a_tree-ru_src-s2-n54	их	RU:<POSS> <OPT>	RU:<POSS> <OPT>
