@@ -238,14 +238,6 @@ INFO_RU:	<RFL>
 INFO_CS:<NUL>	
 INFO_EN:<THE>	
 
-ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1946.final.streex##3.a_tree-ru_src-s3-n78
-RU_A:	Гленн Шэрон Биби подали в суд на компанию в 1981 году после того , как они установили берлингтонские ковры в <своём> офисе .
-CS_A:	Společnost zažalovali Glenn a Sharon Beebeovi z Cincinnati v roce 1981 poté , co <si> koberce Burlington položili do kanceláře .
-EN_A:	Glenn and Sharon Beebe of Cincinnati had sued the com - pany in 1981 after installing Burlington carpets in <their> office .
-INFO_RU:	<RFL>
-INFO_CS:<SI>	
-INFO_EN:<POS>	
-
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1946.final.streex##4.a_tree-ru_src-s4-n85
 RU_A:	Биби заявили , что <их> стало мутить от токсичного пара из ковров .
 CS_A:	Beebeovi prohlásili , že z toxických výparů z koberců onemocněli .
