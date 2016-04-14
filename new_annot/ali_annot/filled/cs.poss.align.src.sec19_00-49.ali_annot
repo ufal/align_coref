@@ -147,8 +147,8 @@ CS_A:	" Už šest měsíců známe účinky tohoto léku a <své> lidi nabádám
 EN_A:	`` We 've known for six months the effect of this drug , and our advice to <our> people has been not to buy the company 's stock , '' Dr. Starzl said , adding that profiting from FK-506 would n't be ethical .
 RU_A:	" Мы наблюдаем действие этого препарата в течение шести месяцев , и наш совет <нашим> людям состоял в том , чтобы не покупать акции этой компании " , – сказал д-р Старзл , добавляя , что получение прибыли с FK-506 не было бы этично .
 INFO_CS:	<RFL>
-INFO_EN:<POS>
-INFO_RU:<POS>
+INFO_EN:<POS_12>
+INFO_RU:<POS_12>
 
 ID: ../tmp/testing_import_ali_annot/03.en-with-ru.poss.import/wsj_1936.final.streex##42.a_tree-cs_src-s42-n2481
 CS_A:	Během několika hodin sledujeme <její> vývoj z plaché , neznámé švagrové , v bohyni masa , která nahradí zemřelou matku , a pak i ostatní .
