@@ -82,3 +82,21 @@ import_ru-with-ru_poss : ../tmp/testing_import_ali_annot/05.ru-with-ru.poss.impo
 
 summary/ru_poss.summary : ../tmp/testing_import_ali_annot/05.ru-with-ru.poss.import/list
 	bin/print_summary.sh $< ru src a perspron.poss en,cs | grep -v "RU:[  ]*<PERS>" > $@
+
+
+#####################################################################################################################
+############################## STATISTICAL SIGNIFICANCE OF SELECTED HYPOTHESES ######################################
+#####################################################################################################################
+
+# join all summary tables into a single one, and filter out all the columns except for the ID, form and comment (info, category)
+bootstrap/all.filtered.summary :
+	mkdir -p $(dir $@)
+	cat summary/cs_poss.summary | perl -ne 'chomp $$_; my @cols = split /\t/, $$_; print join "\t", map {$$cols[$$_]} (0, 1, 5, 6, 7, 11, 12, 13, 17); print "\n";' > bootstrap/all.concat_filt.summary
+	cat summary/en_poss.summary | perl -ne 'chomp $$_; my @cols = split /\t/, $$_; print join "\t", map {$$cols[$$_]} (6, 7, 11, 0, 1, 5, 12, 13, 17); print "\n";' >> bootstrap/all.concat_filt.summary
+	cat summary/ru_poss.summary | perl -ne 'chomp $$_; my @cols = split /\t/, $$_; print join "\t", map {$$cols[$$_]} (12, 13, 17, 6, 7, 11, 0, 1, 5); print "\n";' >> bootstrap/all.concat_filt.summary
+	cat bootstrap/all.concat_filt.summary | \
+	perl -ne 'chomp $$_; my @cols = split /\t/, $$_; my @new_cols = map {$$_ =~ s/^.*wsj_/wsj_/; $$_} @cols; print join "\t", @new_cols; print "\n";' | \
+	sort | uniq > $@
+
+
+
