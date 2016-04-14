@@ -2,8 +2,7 @@ undef	undef	CS:<NOPOSS>	CS:<ERR> <NUL>	wsj_1927.final.streex##27.a_tree-en_src-s
 undef	undef	CS:<NOPOSS>	CS:<NUL> <EXT> <PER>	wsj_1922.final.streex##16.a_tree-en_src-s16-n386	its	EN:<POSS>	EN:<POSS>	undef	undef	RU:<OTHER>	RU:<NUL> <EXT> <PER>
 undef	undef	CS:<NOPOSS>	CS:<NUL> <EXT>	wsj_1922.final.streex##16.a_tree-en_src-s16-n403	its	EN:<POSS>	EN:<POSS>	undef	undef	RU:<OTHER>	RU:<NUL> <EXT>
 undef	undef	CS:<NOPOSS>	CS:<NUL> <MSP>	wsj_1903.final.streex##27.a_tree-en_src-s27-n578	its	EN:<POSS>	EN:<POSS>	wsj_1903.final.streex##27.a_tree-ru_src-s27-n568	его	RU:<POSS>	RU:<POSS>
-undef	undef	CS:<NOPOSS>	CS:<NUL> <MSP>	wsj_1949.final.streex##3.a_tree-en_src-s3-n60	its	EN:<POSS>	EN:<POSS>	undef	undef	RU:<NOPOSS>	RU:<NUL> <POSS>?
-undef	undef	CS:<NOPOSS>	CS:<NUL> <MSP>	wsj_1949.final.streex##3.a_tree-en_src-s3-n60	its	EN:<POSS>	EN:<POSS>	wsj_1949.final.streex##3.a_tree-ru_src-s3-n52	его	RU:<NOPOSS>	RU:<NUL> <POSS>?
+undef	undef	CS:<NOPOSS>	CS:<NUL> <MSP>	wsj_1949.final.streex##3.a_tree-en_src-s3-n60	its	EN:<POSS>	EN:<POSS>	wsj_1949.final.streex##3.a_tree-ru_src-s3-n52	его	RU:<POSS>	RU:<NUL> <POSS>?
 undef	undef	CS:<NOPOSS> <OPT>	CS:<NUL> <OPT> <MSP>	wsj_1937.final.streex##50.a_tree-en_src-s50-n1032	their	EN:<POSS>	EN:<POSS>	wsj_1937.final.streex##50.a_tree-ru_src-s50-n973	своих	RU:<RFL>	RU:<RFL>
 undef	undef	CS:<NOPOSS> <OPT>	CS:<NUL> <OPT>	wsj_1915.final.streex##65.a_tree-en_src-s65-n1807	its	EN:<POSS>	EN:<POSS>	wsj_1915.final.streex##65.a_tree-ru_src-s65-n1760	её	RU:<POSS>	RU:<POSS>
 undef	undef	CS:<NOPOSS> <OPT>	CS:<NUL> <OPT>	wsj_1920.final.streex##8.a_tree-en_src-s8-n212	his	EN:<POSS>	EN:<POSS>	wsj_1920.final.streex##8.a_tree-ru_src-s8-n207	своего	RU:<RFL> <OPT>	RU:<RFL> <OPT>
@@ -37,8 +36,7 @@ undef	undef	CS:<NOPOSS>	CS:<NUL>	wsj_1940.final.streex##4.a_tree-en_src-s4-n92	h
 undef	undef	CS:<NOPOSS>	CS:<NUL>	wsj_1943.final.streex##4.a_tree-en_src-s4-n88	its	EN:<POSS>	EN:<POSS>	wsj_1943.final.streex##4.a_tree-ru_src-s4-n77	его	RU:<POSS> <OPT>	RU:<POSS> <OPT>
 undef	undef	CS:<NOPOSS>	CS:<NUL>	wsj_1944.final.streex##14.a_tree-en_src-s14-n320	the	EN:<THE>	EN:<THE>	wsj_1944.final.streex##14.a_tree-ru_src-s14-n302	свои	RU:<RFL>	RU:<RFL>
 undef	undef	CS:<NOPOSS>	CS:<NUL>	wsj_1946.final.streex##5.a_tree-en_src-s5-n95	their	EN:<POSS>	EN:<POSS>	wsj_1946.final.streex##5.a_tree-ru_src-s5-n96	своей	RU:<RFL> <OPT>	RU:<RFL> <OPT>
-undef	undef	CS:<NOPOSS>	CS:<NUL>	wsj_1948.final.streex##9.a_tree-en_src-s9-n231	its	EN:<POSS>	EN:<POSS>	undef	undef	RU:<NOPOSS>	RU:<NUL>
-undef	undef	CS:<NOPOSS>	CS:<NUL>	wsj_1948.final.streex##9.a_tree-en_src-s9-n231	its	EN:<POSS>	EN:<POSS>	wsj_1948.final.streex##9.a_tree-ru_src-s9-n236	свой	RU:<NOPOSS>	RU:<NUL>
+undef	undef	CS:<NOPOSS>	CS:<NUL>	wsj_1948.final.streex##9.a_tree-en_src-s9-n231	its	EN:<POSS>	EN:<POSS>	wsj_1948.final.streex##9.a_tree-ru_src-s9-n236	свой	RU:<RFL>	RU:<RFL>
 undef	undef	CS:<REWORD>	CS:<PER> <NUL>	wsj_1929.final.streex##4.a_tree-en_src-s4-n100	his	EN:<POSS>	EN:<POSS>	wsj_1929.final.streex##4.a_tree-ru_src-s4-n91	свои	RU:<RFL> <OPT>	RU:<RFL> <OPT>
 undef	undef	CS:<REWORD>	CS:<PER> phrase	wsj_1906.final.streex##8.a_tree-en_src-s8-n193	their	EN:<POSS>	EN:<POSS>	undef	undef	RU:<REWORD>	RU:<PER> phrase
 undef	undef	CS:<OTHER>	CS:<PER> <relVV>	wsj_1947.final.streex##1.a_tree-en_src-s1-n3	its	EN:<POSS>	EN:<POSS>	wsj_1947.final.streex##1.a_tree-ru_src-s1-n4	своего	RU:<RFL>	RU:<RFL>
@@ -84,7 +82,6 @@ wsj_1911.final.streex##2.a_tree-cs_src-s2-n236	své	CS:<RFL>	CS:<RFL>	wsj_1911.f
 wsj_1911.final.streex##7.a_tree-cs_src-s7-n355	svých	CS:<RFL>	CS:<RFL>	undef	undef	EN:<REWORD>	EN:<PER>	undef	undef	RU:<REWORD>	RU:<PER>
 wsj_1911.final.streex##7.a_tree-cs_src-s7-n360	její	CS:<POSS>	CS:<POSS>	wsj_1911.final.streex##7.a_tree-en_src-s7-n154	its	EN:<POSS>	EN:<POSS>	wsj_1911.final.streex##7.a_tree-ru_src-s7-n167	её	RU:<POSS>	RU:<POSS>
 wsj_1912.final.streex##1.a_tree-cs_src-s1-n270	svými	CS:<RFL>	CS:<RFL>  <PER> (I added <> to <svými>)	wsj_1912.final.streex##1.a_tree-en_src-s1-n19	its	EN:<POSS>	EN:<POSS>	wsj_1912.final.streex##1.a_tree-ru_src-s1-n21	своего	RU:<RFL>	RU:<RFL>
-wsj_1912.final.streex##1.a_tree-cs_src-s1-n270	svými	CS:<RFL>	CS:<RFL>  <PER> (I added <> to <svými>)	wsj_1912.final.streex##1.a_tree-en_src-s1-n9	its	EN:<POSS>	EN:<POSS>	wsj_1912.final.streex##1.a_tree-ru_src-s1-n21	своего	RU:<RFL>	RU:<RFL>
 wsj_1912.final.streex##1.a_tree-cs_src-s1-n270	svými	CS:<RFL>	CS:<RFL>	wsj_1912.final.streex##1.a_tree-en_src-s1-n9	its	EN:<POSS>	EN:<POSS>	wsj_1912.final.streex##1.a_tree-ru_src-s1-n9	своими	RU:<RFL>	RU:<RFL>
 wsj_1913.final.streex##1.a_tree-cs_src-s1-n242	jejího	CS:<POSS>	CS:<POSS>	wsj_1913.final.streex##1.a_tree-en_src-s1-n24	company	EN:<NOUN>	EN:<NOUN>	undef	undef	RU:<NOPOSS>	RU:<NUL>
 wsj_1914.final.streex##2.a_tree-cs_src-s2-n248	jejich	CS:<POSS> <OPT>	CS:<POSS> <OPT>	wsj_1914.final.streex##2.a_tree-en_src-s2-n59	their	EN:<POSS>	EN:<POSS>	wsj_1914.final.streex##2.a_tree-ru_src-s2-n54	их	RU:<POSS> <OPT>	RU:<POSS> <OPT>
@@ -199,13 +196,12 @@ wsj_1930.final.streex##27.a_tree-cs_src-s27-n1055	svého	CS:<RFL> <OPT>	CS:<RFL>
 wsj_1930.final.streex##28.a_tree-cs_src-s28-n1072	svoji	CS:<RFL>	CS:<RFL>	wsj_1930.final.streex##28.a_tree-en_src-s28-n481	the	EN:<THE>	EN:<THE>	undef	undef	RU:<NOPOSS>	RU:<NUL>
 wsj_1930.final.streex##29.a_tree-cs_src-s29-n1083	svoji	CS:<RFL>	CS:<RFL>	wsj_1930.final.streex##29.a_tree-en_src-s29-n488	its	EN:<POSS>	EN:<POSS>	wsj_1930.final.streex##29.a_tree-ru_src-s29-n485	свой	RU:<RFL> <OPT>	RU:<RFL> <OPT>? <LPM>
 wsj_1931.final.streex##4.a_tree-cs_src-s4-n805	jejich	CS:<POSS>	CS:OK	wsj_1931.final.streex##4.a_tree-en_src-s4-n94	they	EN:<NOPOSS>	EN:TYPE=en_perspron	wsj_1931.final.streex##4.a_tree-ru_src-s4-n90	они	RU:<NOUN>	RU:<PER><NOUN>
-wsj_1931.final.streex##7.a_tree-cs_src-s7-n929	její	CS:<POSS>	CS:<POSS>	wsj_1931.final.streex##7.a_tree-en_src-s7-n239	its	EN:<POSS>	EN:<POSS>	undef	undef	RU:<POSS>	RU:<POSS>
 wsj_1931.final.streex##7.a_tree-cs_src-s7-n929	její	CS:<POSS>	CS:<POSS>	wsj_1931.final.streex##7.a_tree-en_src-s7-n239	its	EN:<POSS>	EN:<POSS>	wsj_1931.final.streex##7.a_tree-ru_src-s7-n212	ее	RU:<POSS>	RU:<POSS>
 wsj_1932.final.streex##26.a_tree-cs_src-s26-n1852	jeho	CS:<POSS>	CS:OK	wsj_1932.final.streex##26.a_tree-en_src-s26-n587	it	EN:<NOPOSS>	EN:TYPE=en_perspron	wsj_1932.final.streex##26.a_tree-ru_src-s26-n591	он	RU:<NOUN>	RU:<PER><NOUN><VAL>
 wsj_1932.final.streex##35.a_tree-cs_src-s35-n2075	svůj	CS:<RFL>	CS:<RFL>	wsj_1932.final.streex##35.a_tree-en_src-s35-n850	their	EN:<POSS>	EN:<POSS>	undef	undef	RU:<REWORD>	RU:<PER>
 wsj_1932.final.streex##42.a_tree-cs_src-s42-n2206	své	CS:<RFL>	CS:<RFL>	undef	undef	EN:<NOPOSS>	EN:<NUL>	undef	undef	RU:<NOPOSS>	RU:<NUL>
 wsj_1932.final.streex##9.a_tree-cs_src-s9-n1522	jejich	CS:<POSS>	CS:<POSS>	wsj_1932.final.streex##9.a_tree-en_src-s9-n261	their	EN:<POSS>	EN:<POSS>	wsj_1932.final.streex##9.a_tree-ru_src-s9-n253	их	RU:<POSS>	RU:<POSS>
-wsj_1934.final.streex##19.a_tree-cs_src-s19-n951	své	CS:<RFL>	CS:<RFL>	wsj_1934.final.streex##19.a_tree-en_src-s19-n492	our	EN:<POSS>	EN:<POSS>	wsj_1934.final.streex##19.a_tree-ru_src-s19-n440	нашим	RU:<POSS>	RU:<POSS>
+wsj_1934.final.streex##19.a_tree-cs_src-s19-n951	své	CS:<RFL>	CS:<RFL>	wsj_1934.final.streex##19.a_tree-en_src-s19-n492	our	EN:<POSS_12>	EN:<POSS_12>	wsj_1934.final.streex##19.a_tree-ru_src-s19-n440	нашим	RU:<POSS_12>	RU:<POSS_12>
 wsj_1934.final.streex##2.a_tree-cs_src-s2-n568	jeho	CS:<POSS>	CS:<POSS>	wsj_1934.final.streex##2.a_tree-en_src-s2-n54	its	EN:<POSS>	EN:<POSS>	wsj_1934.final.streex##2.a_tree-ru_src-s2-n44	его	RU:<POSS>	RU:<POSS>
 wsj_1935.final.streex##14.a_tree-cs_src-s14-n1373	svůj	CS:<RFL>	CS:<RFL>	wsj_1935.final.streex##14.a_tree-en_src-s14-n323	their	EN:<POSS>	EN:<POSS>	wsj_1935.final.streex##14.a_tree-ru_src-s14-n293	своей	RU:<OTHER>	RU:<RFL> <EXT>
 wsj_1935.final.streex##15.a_tree-cs_src-s15-n1381	svoji	CS:<RFL> <OPT>	CS:<RFL> <OPT>?	wsj_1935.final.streex##15.a_tree-en_src-s15-n334	its	EN:<POSS>	EN:<POSS>	wsj_1935.final.streex##15.a_tree-ru_src-s15-n304	свои	RU:<RFL> <OPT>	RU:<RFL> <OPT>
@@ -220,7 +216,7 @@ wsj_1935.final.streex##49.a_tree-cs_src-s49-n1887	svá	CS:<RFL>	CS:<RFL>	wsj_193
 wsj_1935.final.streex##52.a_tree-cs_src-s52-n1924	jeho	CS:<POSS> <OPT>	CS:<POSS> <OPT>	wsj_1935.final.streex##52.a_tree-en_src-s52-n901	his	EN:<POSS>	EN:<POSS>	wsj_1935.final.streex##52.a_tree-ru_src-s52-n855	его	RU:<POSS> <OPT>	RU:<POSS> <OPT>
 wsj_1935.final.streex##53.a_tree-cs_src-s53-n1933	Jeho	CS:<POSS>	CS:<POSS>	wsj_1935.final.streex##53.a_tree-en_src-s53-n910	His	EN:<POSS>	EN:<POSS>	wsj_1935.final.streex##53.a_tree-ru_src-s53-n865	Его	RU:<POSS>	RU:<POSS>
 wsj_1935.final.streex##53.a_tree-cs_src-s53-n1937	jeho	CS:<POSS>	CS:<POSS>	wsj_1935.final.streex##53.a_tree-en_src-s53-n914	its	EN:<POSS>	EN:<POSS>	wsj_1935.final.streex##53.a_tree-ru_src-s53-n869	его	RU:<POSS>	RU:<POSS>
-wsj_1935.final.streex##57.a_tree-cs_src-s57-n1989	našeho	CS:<POSS>	CS:<POSS>	undef	undef	EN:<POSS>	EN:<POSS>	wsj_1935.final.streex##57.a_tree-ru_src-s57-n923	своего	RU:<RFL>	RU:<RFL>
+wsj_1935.final.streex##57.a_tree-cs_src-s57-n1989	našeho	CS:<POSS_12>	CS:<POSS_12>	TODO_ADDRESS	our	EN:<POSS_12>	EN:<POSS_12>	wsj_1935.final.streex##57.a_tree-ru_src-s57-n923	своего	RU:<RFL>	RU:<RFL>
 wsj_1935.final.streex##57.a_tree-cs_src-s57-n1998	jejich	CS:<POSS>	CS:<POSS>	wsj_1935.final.streex##57.a_tree-en_src-s57-n977	their	EN:<POSS>	EN:<POSS>	wsj_1935.final.streex##57.a_tree-ru_src-s57-n931	их	RU:<POSS>	RU:<POSS>
 wsj_1935.final.streex##58.a_tree-cs_src-s58-n2038	její	CS:<POSS>	CS:<POSS>	wsj_1935.final.streex##58.a_tree-en_src-s58-n1024	her	EN:<POSS>	EN:<POSS>	wsj_1935.final.streex##58.a_tree-ru_src-s58-n975	своих	RU:<RFL>	RU:<RFL>
 wsj_1935.final.streex##58.a_tree-cs_src-s58-n2043	ji	CS:<NOUN>	CS:<PER> <NOUN>	wsj_1935.final.streex##58.a_tree-en_src-s58-n1031	her	EN:<POSS>	EN:<POSS>	wsj_1935.final.streex##58.a_tree-ru_src-s58-n980	её	RU:<POSS>	RU:<POSS>
@@ -263,14 +259,9 @@ wsj_1944.final.streex##6.a_tree-cs_src-s6-n856	jejich	CS:<POSS>	CS:<POSS>	wsj_19
 wsj_1946.final.streex##13.a_tree-cs_src-s13-n1329	jejich	CS:<POSS>	CS:<POSS>	wsj_1946.final.streex##13.a_tree-en_src-s13-n283	their	EN:<POSS>	EN:<POSS>	wsj_1946.final.streex##13.a_tree-ru_src-s13-n282	их	RU:<POSS>	RU:<POSS>
 wsj_1946.final.streex##32.a_tree-cs_src-s32-n1721	svém	CS:<RFL> <OPT>	CS:<RFL> <OPT>	wsj_1946.final.streex##32.a_tree-en_src-s32-n735	his	EN:<POSS>	EN:<POSS>	wsj_1946.final.streex##32.a_tree-ru_src-s32-n691	своём	RU:<RFL> <OPT>	RU:<RFL> <OPT>
 wsj_1946.final.streex##38.a_tree-cs_src-s38-n1844	jejich	CS:<POSS>	CS:<POSS>	wsj_1946.final.streex##38.a_tree-en_src-s38-n866	their	EN:<POSS>	EN:<POSS>	wsj_1946.final.streex##38.a_tree-ru_src-s38-n818	их	RU:<POSS>	RU:<POSS>
-wsj_1946.final.streex##3.a_tree-cs_src-s3-n1127	si	CS:<EXT> <SI>	CS:<EXT> <SI>	wsj_1946.final.streex##3.a_tree-en_src-s3-n75	their	EN:<POSS>	EN:<POSS>	wsj_1946.final.streex##3.a_tree-ru_src-s3-n78	своём	RU:<RFL> <OPT>	RU:<RFL> <OPT>
-wsj_1946.final.streex##3.a_tree-cs_src-s3-n1127	si	CS:<OTHER>	CS:<SI>	wsj_1946.final.streex##3.a_tree-en_src-s3-n75	their	EN:<POSS>	EN:<POSS>	wsj_1946.final.streex##3.a_tree-ru_src-s3-n78	своём	RU:<RFL>	RU:<RFL>
-wsj_1947.final.streex##16.a_tree-cs_src-s16-n710	své	CS:<RFL>	CS:<RFL>	wsj_1947.final.streex##16.a_tree-en_src-s16-n297	their	EN:<POSS>	EN:<POSS>	undef	undef	RU:<RFL>	RU:<RFL>
-wsj_1947.final.streex##16.a_tree-cs_src-s16-n710	své	CS:<RFL>	CS:<RFL>	wsj_1947.final.streex##16.a_tree-en_src-s16-n297	their	EN:<POSS>	EN:<POSS>	wsj_1947.final.streex##16.a_tree-ru_src-s16-n271	их	RU:<RFL>	RU:<RFL>
-wsj_1947.final.streex##16.a_tree-cs_src-s16-n710	své	CS:<RFL>	CS:<RFL>	wsj_1947.final.streex##16.a_tree-en_src-s16-n298	precious	EN:<POSS>	EN:<POSS>	wsj_1947.final.streex##16.a_tree-ru_src-s16-n271	их	RU:<POSS>	RU:<POSS>
-wsj_1947.final.streex##17.a_tree-cs_src-s17-n738	její	CS:<POSS>	CS:<POSS>	wsj_1947.final.streex##17.a_tree-en_src-s17-n327	its	EN:<POSS>	EN:<POSS>	undef	undef	RU:<POSS>	RU:<POSS>
+wsj_1946.final.streex##3.a_tree-cs_src-s3-n1127	si	CS:<OTHER>	CS:<EXT> <SI>	wsj_1946.final.streex##3.a_tree-en_src-s3-n75	their	EN:<POSS>	EN:<POSS>	wsj_1946.final.streex##3.a_tree-ru_src-s3-n78	своём	RU:<RFL> <OPT>	RU:<RFL> <OPT>
+wsj_1947.final.streex##16.a_tree-cs_src-s16-n710	své	CS:<RFL>	CS:<RFL>	wsj_1947.final.streex##16.a_tree-en_src-s16-n297	their	EN:<POSS>	EN:<POSS>	wsj_1947.final.streex##16.a_tree-ru_src-s16-n271	их	RU:<POSS>	RU:<POSS>
 wsj_1947.final.streex##17.a_tree-cs_src-s17-n738	její	CS:<POSS>	CS:<POSS>	wsj_1947.final.streex##17.a_tree-en_src-s17-n327	its	EN:<POSS>	EN:<POSS>	wsj_1947.final.streex##17.a_tree-ru_src-s17-n294	её	RU:<POSS>	RU:<POSS>
-wsj_1947.final.streex##17.a_tree-cs_src-s17-n738	její	CS:<POSS>	CS:<POSS>	wsj_1947.final.streex##17.a_tree-en_src-s17-n328	source	EN:<POSS>	EN:<POSS>	wsj_1947.final.streex##17.a_tree-ru_src-s17-n294	её	RU:<POSS>	RU:<POSS>
 wsj_1948.final.streex##12.a_tree-cs_src-s12-n747	svého	CS:<RFL>	CS:<RFL>	wsj_1948.final.streex##12.a_tree-en_src-s12-n317	its	EN:<POSS>	EN:<POSS>	wsj_1948.final.streex##12.a_tree-ru_src-s12-n319	его	RU:<POSS>	RU:<POSS>
 wsj_1948.final.streex##6.a_tree-cs_src-s6-n605	její	CS:<POSS>	CS:<POSS>	wsj_1948.final.streex##6.a_tree-en_src-s6-n146	Stearns	EN:<NOUN>	EN:<NOUN>	undef	undef	RU:<NOUN>	RU:<NOUN>
 wsj_1949.final.streex##10.a_tree-cs_src-s10-n615	Jeho	CS:<POSS>	CS:<POSS>	wsj_1949.final.streex##10.a_tree-en_src-s10-n243	His	EN:<POSS>	EN:<POSS>	wsj_1949.final.streex##10.a_tree-ru_src-s10-n231	Его	RU:<POSS>	RU:<POSS>
