@@ -37,7 +37,7 @@ undef	undef	CS:<NOPOSS>	CS:<NUL>	wsj_1943.final.streex##4.a_tree-en_src-s4-n88	i
 undef	undef	CS:<NOPOSS>	CS:<NUL>	wsj_1944.final.streex##14.a_tree-en_src-s14-n320	the	EN:<THE>	EN:<THE>	wsj_1944.final.streex##14.a_tree-ru_src-s14-n302	свои	RU:<RFL>	RU:<RFL>
 undef	undef	CS:<NOPOSS>	CS:<NUL>	wsj_1946.final.streex##5.a_tree-en_src-s5-n95	their	EN:<POSS>	EN:<POSS>	wsj_1946.final.streex##5.a_tree-ru_src-s5-n96	своей	RU:<RFL> <OPT>	RU:<RFL> <OPT>
 undef	undef	CS:<NOPOSS>	CS:<NUL>	wsj_1948.final.streex##9.a_tree-en_src-s9-n231	its	EN:<POSS>	EN:<POSS>	wsj_1948.final.streex##9.a_tree-ru_src-s9-n236	свой	RU:<RFL>	RU:<RFL>
-undef	undef	CS:<NOPOSS>	CS:<RFL> <PER> (I added <> to <svými>)	wsj_1912.final.streex##1.a_tree-en_src-s1-n19	its EN:<POSS>	EN:<POSS>	wsj_1912.final.streex##1.a_tree-ru_src-s1-n21	своего	RU:<RFL>	RU:<RFL>
+undef	undef	CS:<NOPOSS>	CS:orig<RFL> <PER> (I added <> to <svými>)	wsj_1912.final.streex##1.a_tree-en_src-s1-n19	its EN:<POSS>	EN:<POSS>	wsj_1912.final.streex##1.a_tree-ru_src-s1-n21	своего	RU:<RFL>	RU:<RFL>
 undef	undef	CS:<REWORD>	CS:<PER> <NUL>	wsj_1929.final.streex##4.a_tree-en_src-s4-n100	his	EN:<POSS>	EN:<POSS>	wsj_1929.final.streex##4.a_tree-ru_src-s4-n91	свои	RU:<RFL> <OPT>	RU:<RFL> <OPT>
 undef	undef	CS:<REWORD>	CS:<PER> phrase	wsj_1906.final.streex##8.a_tree-en_src-s8-n193	their	EN:<POSS>	EN:<POSS>	undef	undef	RU:<REWORD>	RU:<PER> phrase
 undef	undef	CS:<OTHER>	CS:<PER> <relVV>	wsj_1947.final.streex##1.a_tree-en_src-s1-n3	its	EN:<POSS>	EN:<POSS>	wsj_1947.final.streex##1.a_tree-ru_src-s1-n4	своего	RU:<RFL>	RU:<RFL>
