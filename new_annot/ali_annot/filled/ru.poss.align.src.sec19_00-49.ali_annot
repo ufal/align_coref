@@ -163,8 +163,8 @@ RU_A:	Возможно , учитывая ценность <своего> вре
 CS_A:	Možná , zvážíme - li hodnotu <našeho> času , nedokážeme v éře po hurikánu Hugo jejich podniky chránit .
 EN_A:	Perhaps , considering the value of <our> time , we will be unable to patronize their establishments in the post-Hugo era .
 INFO_RU:	<RFL>
-INFO_CS:<POS_1>	
-INFO_EN:<POS_1>	
+INFO_CS:<POS_12>	
+INFO_EN:<POS_12>	
 
 ID: ../tmp/testing_import_ali_annot/04.cs-with-ru.poss.import/wsj_1936.final.streex##15.a_tree-ru_src-s15-n317
 RU_A:	Г-н Фоллз , художественный руководитель Гудмэна , взял последнюю редакцию Нила Бартлетта и существенно переделал <её> .
