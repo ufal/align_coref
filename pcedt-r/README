@@ -1,0 +1,53 @@
+Prague Czech-English Dependency Treebank 2.0 - Russian translation (PCEDT-R)
+--------------------------------------------------------------------------------------
+
+- a data collection of some of the original PCEDT 2.0 documents translated to Russian
+- the main purpose of this dataset is to provide data for cross-lingual comparison
+  of coreferential expressions
+- scripts to create the dataset can be found on GitHub: https://github.com/ufal/align_coref
+
+Data creation pipeline:
+    Input: a subset of PCEDT 2.0 - documents wsj_1900-49
+    Output: PCEDT-R
+    A) Translate English sentences to Russian
+        - manual translation of English sentences to Russian
+        - provided by a single translator
+            - Russian: native
+            - English: acquired - long-time stay in the U.S.
+    B) Align Russian translations with PCEDT documents automatically both on sentence
+       and word level; provide automatic morphological analysis of Russian sentences
+        - fully automatic processing using Treex framework and supporting scripts
+        - pipeline stored in the GitHub repository, directory: "/ru_cs_align"
+        - Processing steps:
+            1) Czech translations from the input data and Russian translations collected
+               in stage A were merged with the following data:
+                * UMC 0.1 Czech-English-Russian (https://ufal.mff.cuni.cz/umc/cer/)
+                * OpenSubtitles2012 (http://opus.lingfil.uu.se/OpenSubtitles2012.php)
+                * NewsCommentary (http://opus.lingfil.uu.se/News-Commentary.php)
+            2) aligned Czech-Russian sentences from step 1 were aligned on a word level
+               using GIZA++
+            3) Russian translated sentences were imported to the input documents,
+               so that the resulting English-Czech-Russian documents are aligned
+               on the sentence level
+            4) Russian part of the documents were tokenized and tagged with part-of-speech
+               tags and morphologic features
+            5) word alignments produced for the input data and the Russian translations in 
+               step 2 were imported to the documents from step 4 
+    C) Add manual word alignment for coreferential expressions
+        - English-Czech manual alignment for sections wsj_1900-49 coreferential expressions 
+          has been already added in Prague Czech-English Dependency Treebank 2.0 Coref
+          (http://ufal.mff.cuni.cz/pcedt2.0-coref)
+        - here, we also add word alignment with Russian, particularly for Czech, English,
+          and Russian possessive pronouns
+        - processing steps consist of alternating export of current alignment to "ali_annot"
+          format designed for fast manual annotation of word alignment and import of manual
+          annotation back to the documents
+        - this processing pipeline is prepared to be used for more aligned languages
+        - pipeline stored in the GitHub repository in the directory: "/pcedt-r" 
+
+Known issues:
+- some of the translations provided in stage A needed to be corrected while working
+  on manual alignment of English possessive pronouns in stage C
+    - out of 1127 English sentences, 205 contain a possessive pronoun, out of which 46 were re-translated
+    - the fact that the only corrected translation were those containing an English possessive pronoun
+      gives rise to a suspicion that the translations may be biased
