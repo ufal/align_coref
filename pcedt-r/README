@@ -11,9 +11,7 @@ Data creation pipeline:
     Output: PCEDT-R
     A) Translate English sentences to Russian
         - manual translation of English sentences to Russian
-        - provided by a single translator
-            - Russian: native
-            - English: acquired - long-time stay in the U.S.
+        - provided by a single translator (Russian = native language)
     B) Align Russian translations with PCEDT documents automatically both on sentence
        and word level; provide automatic morphological analysis of Russian sentences
         - fully automatic processing using Treex framework and supporting scripts
@@ -39,10 +37,10 @@ Data creation pipeline:
           (http://ufal.mff.cuni.cz/pcedt2.0-coref)
         - here, we also add word alignment with Russian, particularly for Czech, English,
           and Russian possessive pronouns
-        - processing steps consist of alternating export of current alignment to "ali_annot"
-          format designed for fast manual annotation of word alignment and import of manual
+        - processing steps consist of alternating export of current alignment to the "ali_annot"
+          format designed for fast manual annotation of word alignment, and import of manual
           annotation back to the documents
-        - this processing pipeline is prepared to be used for more aligned languages
+        - the processing pipeline is ready to be used for any number of aligned languages
         - pipeline stored in the GitHub repository in the directory: "/pcedt-r" 
 
 Known issues:
