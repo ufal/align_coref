@@ -1,0 +1,64 @@
+#####################################################################################################################
+######################################## PREPARE PCEDT-R FOR RELEASE ################################################
+#####################################################################################################################
+
+release : release/data release/DOCUMENTATION release/README release/resources pack
+
+# the working version of the PCEDT-R data, ready to be further extended - contains both ref and src selectors
+SOURCE_DATA=../tmp/testing_import_ali_annot/05.ru-with-ru.poss.import/list
+#SOURCE_DATA=../tmp/testing_import_ali_annot/05.ru-with-ru.poss.import/wsj_1901.final.streex
+
+# Going from a working version to the release version 0.5:
+# 1) Read the working copy
+# 2) Copy ru_src to ru_ref
+# 3) Align monolingually ru_ref with ru_src
+# 4) Project "gold" cs-en alignment from t-layer to a-layer
+# 5) Project all ru-cs and ru-en alignments from src to ref
+# 6) Remove all src zones
+# 7) Must be stored into a PML format to ensure that an updated PML schema is loaded next time
+# 8) Load together with a PML schema (containing "is_align_coref" attribute for a-nodes)
+# 9) Set "is_align_coref" attribute on both a- and t-nodes
+# 10) Rename "gold" alignment to "coref_gold" between both a- and t-nodes
+# 11) Remove wild attributes from both a- and t-nodes
+# 12) Rename files to the "wsj_????.treex.gz" format
+
+
+release/data : $(SOURCE_DATA)
+	mkdir -p $@
+	mkdir -p $@/tmp
+	treex -p \
+		Read::Treex from=@$< \
+		Util::Eval language=ru selector=src zone='$$zone->copy("ref")' \
+		Align::A::MonolingualGreedy language=ru selector=src to_language=ru to_selector=ref \
+		Align::ProjectAlignment layer=t selector=ref trg_layer=a aligns="cs-en:gold" \
+		Align::ProjectAlignment layer=a selector=src trg_selector=ref aligns="ru-en:.*;ru-cs:.*" \
+		Util::Eval bundle='for my $$lang (qw/en cs ru/) { $$bundle->remove_zone($$lang, "src"); }' \
+		Write::Treex path=$@/tmp storable=0
+	treex -p \
+		Read::Treex from='!$@/tmp/*.treex.gz' \
+		Util::Eval selector=ref anode='my ($$ali_n, $$ali_t) = $$anode->get_undirected_aligned_nodes({rel_types => ["gold"]}); if (@$$ali_n || defined $$anode->wild->{"align_info"}) { $$anode->set_attr("is_align_coref", 1); }' \
+		Util::Eval selector=ref tnode='my ($$ali_n, $$ali_t) = $$tnode->get_undirected_aligned_nodes({rel_types => ["gold"]}); if (@$$ali_n || defined $$tnode->wild->{"align_info"}) { $$tnode->set_attr("is_align_coref", 1); }' \
+		Util::Eval selector=ref anode='my $$links_rf = $$anode->get_attr("alignment"); for my $$l (@$$links_rf) {if ($$l->{type} eq "gold") {$$l->{type} = "coref_gold"}}' \
+		Util::Eval selector=ref tnode='my $$links_rf = $$tnode->get_attr("alignment"); for my $$l (@$$links_rf) {if ($$l->{type} eq "gold") {$$l->{type} = "coref_gold"}}' \
+		Util::Eval selector=ref anode='$$anode->set_wild()' \
+		Util::Eval selector=ref tnode='$$tnode->set_wild()' \
+		Util::Eval selector=ref zone='$$zone->set_selector("")' \
+		Write::Treex path=$@
+	rm -rf $@/tmp
+	for i in $@/*.final.treex.gz; do \
+		new_i=`echo $$i | sed 's/final\.//g'`; \
+		mv $$i $$new_i; \
+	done
+
+release/DOCUMENTATION : DOCUMENTATION
+	cp $< $@
+release/README : README
+	cp $< $@
+release/resources :
+	mkdir -p $@
+	cp ${TMT_ROOT}/treex/lib/Treex/Core/share/tred_extension/treex/resources/treex_*.xml $@
+
+pack :
+	mv release pcedt-r
+	zip -r pcedt-r.zip pcedt-r
+	mv pcedt-r release

@@ -1,0 +1,141 @@
+================================================================================================================
+============ Prague Czech-English Dependency Treebank - Russian translation (PCEDT-R)  version 0.5 =============
+================================================================================================================
+
+Prague Czech-English Dependency Treebank - Russian translation (PCEDT-R) is a project of translating Prague 
+Czech-English Dependency Treebank 2.0 (PCEDT 2.0) to Russian and annotating the Russian translations with emphasis 
+on coreference and cross-lingual alignment of coreferential expressions. Cross-lingual comparison of coreference
+means is the motivation that currently drives development of this corpus.
+
+The current version 0.5 is a preliminary version, which contains (+ denotes new features):
+    * complete PCEDT 2.0 documents "wsj_1900"-"wsj_1949"
+    * Czech-English word alignment of coreferential expressions annotated manually mainly on the t-layer
+    + Russian translations of the original English sentences
+    + automatic tokenization, part-of-speech tagging and morphological analysis for Russian
+    + automatic word alignment between all Czech and Russian words
+    + manual alignment between Russian and the other two languages on possessive pronouns
+
+The further text of the documentation gives more details on the individual features.
+
+Prague Czech-English Dependency Treebank 2.0
+============================================
+
+The Prague Czech-English Dependency Treebank 2.0 (Hajič et al., 2011; Hajič et al., 2012) is a parallel treebank
+of Czech and English comprising over 1.2 million running words in almost 50,000 sentences for each part. The treebank
+contains texts from the entire Penn Treebank - Wall Street Journal section and its Czech translations. On top
+of it, it includes three levels of rich linguistic annotation: morphological layer (part-of-speech tags, lemmas),
+analytical layer (labeled dependency tree of shallow syntax), and tectogrammatical layer (labeled dependency tree
+of deep syntax). The tectogrammatical tree consists only of the content words; however, new nodes unexpressed
+in a surface representation may be introduced, e.g., elided subjects in Czech. The tectogrammatical layer is also 
+the place where coreference relations are annotated, as it allows for annotating zero anaphora.
+
+In version 0.5, only sections "wsj_1900"-"wsj_1949" have been used in PCEDT-R as a source data.
+
+Manual Czech-English alignment of coreferential expressions
+===========================================================
+
+In the work of Novák and Nedoluzhko (2015), the authors conducted a thorough analysis of coreferential expressions
+and their counterparts on English texts and their Czech translations. For this purpose, exactly the same sections
+of PCEDT 2.0 as selected for this corpus ("wsj_1900"-"wsj_1949") were extended with manual annotation of coreferential
+expressions' alignment. This annotation was later published in Prague Czech-English Dependency Treebank 2.0 Coref
+(Nedoluzhko et al., 2016; PCEDT 2.0 Coref) and now, it has been imported also to PCEDT-R.
+
+The annotation of alignment focuses on central pronouns (embracing personal, possessive, and reflexive pronouns), 
+relative pronouns, and anaphoric zeros. In fact, the set of targeted coreferential nodes have been selected automatically
+using solely morpho-syntactic attributes, without the coreference information itself. Each such node is indicated 
+by the is_align_coref attribute. 
+The manual annotation of alignment has been conducted by two annotators. These alignment links are labeled by the 
+coref_gold type. Missing coref_gold link connected to a node labeled by the is_align_coref attribute means
+that the node has been inspected by a human annotator, who confirmed that it has no counterpart in the other language.
+
+Russian translations of English sentences
+=========================================
+
+The original sentences in English have been translated to Russian. The translations have been provided by a single
+human translator, whose native language is Russian.
+
+The Russian translations have then been imported to corresponding places in the source PCEDT documents.
+
+Automatic linguistic analysis of Russian texts
+==============================================
+
+The texts translated to Russian has been processed with automatic tools for linguistic analysis. The sentences
+have been tokenized and the tokens have been assigned lemmas, part-of-speech tags, and morphological categories.
+Whereas the tokenizer is based on simple rules, the latter three tasks have been completed using TreeTagger 
+(Schmid, 1995) with a model trained on SynTagRus treebank (Boguslavsky, 2000). The analysis has been performed
+by the Treex framework (Popel and Žabokrtský, 2010), encapsulating all the required tools.
+
+Czech-Russian word alignment
+============================
+
+Word alignment between Czech and Russian have been collected by running a popular tool GIZA++ (Och and Ney, 2000).
+Running it only on the subset of PCEDT might result in low-quality output due to its small size (1k sentences). 
+Therefore, we concatenated it with much bigger Czech-Russian data that consisted of:
+    * UMC 0.1 Czech-English-Russian (88k sentences; https://ufal.mff.cuni.cz/umc/cer/)
+    * OpenSubtitles2012 (3434k sentences; http://opus.lingfil.uu.se/OpenSubtitles2012.php)
+    * NewsCommentary (129k sentences; http://opus.lingfil.uu.se/News-Commentary.php)
+
+After running GIZA++ on the whole portion of available data, we extracted the alignment links only from its
+PCEDT part and imported it to the documents already containing the output of all the previous steps.
+
+Manual Russian-English and Russian-Czech alignment of possessive pronouns
+=========================================================================
+
+Apart from already existing manual annotations of alignments between Czech and English coreferential expressions,
+we aim at collecting the same between Russian and the other two languages. As Russian texts have no tectogrammatical
+representation in version 0.5, Czech-English manual alignments represented on the other hand mainly on the tectogrammatical
+layer needed to be projected to the analytical layer, which is much closer to the surface representation.
+
+We started with collecting Czech-English-Russian alignments of possessive pronouns in the current version. For English 
+and Czech possessive pronouns, it was sufficient to fill in possible Russian counterparts in addition to already 
+annotated Czech/English counterparts. Next, it was necessary to find English and Czech counterparts of Russian 
+possessive pronouns that had not been covered in the previous step. Manual annotation of alignment was collected 
+by a single annotator, who can speak all the three languages (her native language is Russian), by post-editing the output 
+of the automatic Czech-Russian aligned obtained by GIZA++.
+
+Known issues
+============
+
+Some of the Russian translations needed to be corrected while collecting manual annotations of English possessive
+pronouns' alignments. Out of 1127 English sentences, 205 contain a possessive pronoun, out of which 46 were 
+re-translated. The fact that the only corrected translation were those containing an English possessive pronoun
+gives rise to a suspicion that statistics collected on such translations may be biased.
+
+Future work
+===========
+
+PCEDT-R is planned to be extended in two directions:
+    1) Add manual annotation of coreferential relations in Russian. As prerequisite, a tectogrammatical structure
+       is required. This will be obtained by automatic means and subsequent manual post-editing where necessary.
+    2) Manual annotation of alignment between coreferential expressions should be extended to Russian also for
+       the other expressions than possessive pronouns.
+Extending the corpus by including more texts from PCEDT is not expected even in a long-term plan.
+
+References
+==========
+
+* Boguslavsky Igor, Grigorieva Svetlana, Grigoriev Nikolai, Kreidlin Leonid, Frid Nadezhda: Dependency Treebank 
+  for Russian: Concept, Tools, Types of Information. In: Proceedings of the 18th International Conference 
+  on Computational Linguistics (COLING 2000), DFKI GmbH, Saarbrücken, Germany, pp. 987–991, 2000
+* Hajič Jan, Hajičová Eva, Panevová Jarmila, Sgall Petr, Cinková Silvie, Fučíková Eva, Mikulová Marie, Pajas Petr,
+  Popelka Jan, Semecký Jiří, Šindlerová Jana, Štěpánek Jan, Toman Josef, Urešová Zdeňka, Žabokrtský Zdeněk: 
+  Prague Czech-English Dependency Treebank 2.0. Data/software, Institute of Formal and Applied Linguistics, Prague,
+  Czech republic, http://ufal.mff.cuni.cz/pcedt2.0/, 2011
+* Hajič Jan, Hajičová Eva, Panevová Jarmila, Sgall Petr, Bojar Ondřej, Cinková Silvie, Fučíková Eva, Mikulová Marie,
+  Pajas Petr, Popelka Jan, Semecký Jiří, Šindlerová Jana, Štěpánek Jan, Toman Josef, Urešová Zdeňka, Žabokrtský Zdeněk:
+  Announcing Prague Czech-English Dependency Treebank 2.0. In: Proceedings of the 8th International Conference on Language
+  Resources and Evaluation (LREC 2012), European Language Resources Association, İstanbul, Turkey, pp. 3153-3160, 2012
+* Nedoluzhko Anna, Novák Michal, Cinková Silvie, Mikulová Marie, Mírovský Jiří: Prague Czech-English Dependency 
+  Treebank 2.0 Coref. Data/software, LINDAT/CLARIN digital library at the Institute of Formal and Applied Linguistics,
+  Charles University in Prague, Prague, Czech republic, http://ufal.mff.cuni.cz/pcedt2.0-coref/, 2016 
+* Novák Michal, Nedoluzhko Anna: Correspondences between Czech and English Coreferential Expressions. In: Discours:
+  Revue de linguistique, psycholinguistique et informatique., Vol. 16, Presses universitaires de Caen, Caen, France,
+  pp. 1-41, 2015
+* Och Franz Josef, Ney Hermann: Improved Statistical Alignment Models. In: Proceedings of the 38th Annual Meeting
+  on Association for Computational Linguistics (ACL '00), Association for Computational Linguistics, Stroudsburg, PA, USA,
+  pp. 440-447, 2000
+* Popel Martin, Žabokrtský Zdeněk: TectoMT: Modular NLP Framework. In: Lecture Notes in Computer Science, Vol. 6233, 
+  Proceedings of the 7th International Conference on Advances in Natural Language Processing (IceTAL 2010), Springer, 
+  Berlin / Heidelberg, pp. 293-304, 2010
+* Schmid Helmut: Improvements in Part-of-Speech Tagging with an Application to German. In: Proceedings of the ACL 
+  SIGDAT-Workshop. Dublin, Ireland, pp. 47-50, 1995

@@ -1,51 +1,65 @@
-Prague Czech-English Dependency Treebank 2.0 - Russian translation (PCEDT-R)
---------------------------------------------------------------------------------------
+================================================================================================================
+============ Prague Czech-English Dependency Treebank - Russian translation (PCEDT-R)  version 0.5 =============
+================================================================================================================
 
-- a data collection of some of the original PCEDT 2.0 documents translated to Russian
-- the main purpose of this dataset is to provide data for cross-lingual comparison
-  of coreferential expressions
+Prague Czech-English Dependency Treebank - Russian translation (PCEDT-R) is a project of translating Prague 
+Czech-English Dependency Treebank 2.0 (PCEDT 2.0) to Russian and annotating the Russian translations with emphasis 
+on coreference and cross-lingual alignment of coreferential expressions. Cross-lingual comparison of coreference
+means is currently the purpose that drives development of this corpus.
+
+The current version 0.5 is a preliminary version, which contains (+ denotes new features):
+    * complete PCEDT 2.0 documents "wsj_1900"-"wsj_1949"
+    * Czech-English word alignment of coreferential expressions annotated manually mainly on the t-layer
+    + Russian translations of the original English sentences
+    + automatic tokenization, part-of-speech tagging and morphological analysis for Russian
+    + automatic word alignment between all Czech and Russian words
+    + manual alignment between Russian and the other two languages on possessive pronouns
 - scripts to create the dataset can be found on GitHub: https://github.com/ufal/align_coref
 
-Data creation pipeline:
-    Input: a subset of PCEDT 2.0 - documents wsj_1900-49
-    Output: PCEDT-R
-    A) Translate English sentences to Russian
-        - manual translation of English sentences to Russian
-        - provided by a single translator (Russian = native language)
-    B) Align Russian translations with PCEDT documents automatically both on sentence
-       and word level; provide automatic morphological analysis of Russian sentences
-        - fully automatic processing using Treex framework and supporting scripts
-        - pipeline stored in the GitHub repository, directory: "/ru_cs_align"
-        - Processing steps:
-            1) Czech translations from the input data and Russian translations collected
-               in stage A were merged with the following data:
-                * UMC 0.1 Czech-English-Russian (https://ufal.mff.cuni.cz/umc/cer/)
-                * OpenSubtitles2012 (http://opus.lingfil.uu.se/OpenSubtitles2012.php)
-                * NewsCommentary (http://opus.lingfil.uu.se/News-Commentary.php)
-            2) aligned Czech-Russian sentences from step 1 were aligned on a word level
-               using GIZA++
-            3) Russian translated sentences were imported to the input documents,
-               so that the resulting English-Czech-Russian documents are aligned
-               on the sentence level
-            4) Russian part of the documents were tokenized and tagged with part-of-speech
-               tags and morphologic features
-            5) word alignments produced for the input data and the Russian translations in 
-               step 2 were imported to the documents from step 4 
-    C) Add manual word alignment for coreferential expressions
-        - English-Czech manual alignment for sections wsj_1900-49 coreferential expressions 
-          has been already added in Prague Czech-English Dependency Treebank 2.0 Coref
-          (http://ufal.mff.cuni.cz/pcedt2.0-coref)
-        - here, we also add word alignment with Russian, particularly for Czech, English,
-          and Russian possessive pronouns
-        - processing steps consist of alternating export of current alignment to the "ali_annot"
-          format designed for fast manual annotation of word alignment, and import of manual
-          annotation back to the documents
-        - the processing pipeline is ready to be used for any number of aligned languages
-        - pipeline stored in the GitHub repository in the directory: "/pcedt-r" 
+Licensing
+=========
 
-Known issues:
-- some of the translations provided in stage A needed to be corrected while working
-  on manual alignment of English possessive pronouns in stage C
-    - out of 1127 English sentences, 205 contain a possessive pronoun, out of which 46 were re-translated
-    - the fact that the only corrected translation were those containing an English possessive pronoun
-      gives rise to a suspicion that the translations may be biased
+Copyright (C) 2016 by Charles University, Faculty of Mathematics and Physics, Institute of Formal and Applied Linguistics.
+PCEDT-R 0.5 is available from the LINDAT/CLARIN repository (http://hdl.handle.net/11234/1-1791) under a mixture of the 
+Linguistic Data Consortium standard licence (https://catalog.ldc.upenn.edu/LDC99T42) and the Creative Commons 3.0 - BY-NC-SA
+license (http://creativecommons.org/licenses/by-nc-sa/3.0/).
+
+Authors and their affiliation
+=============================
+
+* Michal Novák <mnovak@ufal.mff.cuni.cz>
+* Anja Nedoluzhko <nedoluzko@ufal.mff.cuni.cz>
++ TODO: prekladatelka
+
+* Charles University, Faculty of Mathematics and Physics, Institute of Formal and Applied Linguistics,
+  Malostranské náměstí 25, 118 00, Prague, Czech Republic.
++ TODO: affiliation
+
+Acknowledgment
+==============
+
+We gratefully acknowledge support from grant GA-16-05394S "Structure of coreferential chains in parallel 
+language data" of the Grant Agency of the Czech Republic, grant GAUK 338915 "Cross-lingual approaches 
+to coreference resolution" of the Grant Agency of Charles University, and the LINDAT-Clarin project LM2015071
+of the Ministry of Education, Youth and Sports of the Czech Republic.
+
+How to cite?
+============
+
+See http://hdl.handle.net/11234/1-1791.
+
+Directory structure
+===================
+
+--- data
+--- resources
+--- README
+--- DOCUMENTATION
+
+Publications and documentation
+==============================
+
+PCEDT-R is documented in the DOCUMENTATION file.
+For more information, see the documentation of the related corpora:
+    * PCEDT 2.0: http://ufal.mff.cuni.cz/pcedt2.0
+    * PCEDT 2.0 Coref: http://ufal.mff.cuni.cz/pcedt2.0-coref
