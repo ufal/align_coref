@@ -2,10 +2,10 @@
 ============ Prague Czech-English Dependency Treebank - Russian translation (PCEDT-R)  version 0.5 =============
 ================================================================================================================
 
-Prague Czech-English Dependency Treebank - Russian translation (PCEDT-R) is a project of translating Prague 
-Czech-English Dependency Treebank 2.0 (PCEDT 2.0) to Russian and annotating the Russian translations with emphasis 
-on coreference and cross-lingual alignment of coreferential expressions. Cross-lingual comparison of coreference
-means is currently the purpose that drives development of this corpus.
+Prague Czech-English Dependency Treebank - Russian translation (PCEDT-R) is a project of translating a subset
+of Prague Czech-English Dependency Treebank 2.0 (PCEDT 2.0) to Russian and linguistically annotating the Russian 
+translations with emphasis on coreference and cross-lingual alignment of coreferential expressions. Cross-lingual
+comparison of coreference means is currently the purpose that drives development of this corpus.
 
 The current version 0.5 is a preliminary version, which contains (+ denotes new features):
     * complete PCEDT 2.0 documents "wsj_1900"-"wsj_1949"
@@ -28,20 +28,23 @@ Authors and their affiliation
 =============================
 
 * Michal Novák <mnovak@ufal.mff.cuni.cz>
-* Anja Nedoluzhko <nedoluzko@ufal.mff.cuni.cz>
-+ TODO: prekladatelka
+* Anna Nedoluzhko <nedoluzko@ufal.mff.cuni.cz>
++ Anna Schwarz (Khoroshkina) <annakhor@gmail.com>
 
 * Charles University, Faculty of Mathematics and Physics, Institute of Formal and Applied Linguistics,
   Malostranské náměstí 25, 118 00, Prague, Czech Republic.
-+ TODO: affiliation
++ Lomonosov Moscow State University, Institute of World Cultures
+  Leninskie Gory, 1st Education Building, auditorium 854, 119991, Moscow, Russia
 
 Acknowledgment
 ==============
 
 We gratefully acknowledge support from grant GA-16-05394S "Structure of coreferential chains in parallel 
 language data" of the Grant Agency of the Czech Republic, grant GAUK 338915 "Cross-lingual approaches 
-to coreference resolution" of the Grant Agency of Charles University, and the LINDAT-Clarin project LM2015071
-of the Ministry of Education, Youth and Sports of the Czech Republic.
+to coreference resolution" of the Grant Agency of Charles University, the project SVV 260 333 of Charles
+University, the KONTAKT II project LH14011 "Multilingual Corpus Annotation as a Support for Language 
+Technologies" and the LINDAT-Clarin project LM2015071, both supported by the Ministry of Education, Youth
+and Sports of the Czech Republic.
 
 How to cite?
 ============
@@ -63,3 +66,11 @@ PCEDT-R is documented in the DOCUMENTATION file.
 For more information, see the documentation of the related corpora:
     * PCEDT 2.0: http://ufal.mff.cuni.cz/pcedt2.0
     * PCEDT 2.0 Coref: http://ufal.mff.cuni.cz/pcedt2.0-coref
+
+Works based on this corpus:
+
+* Nedoluzhko Anna, Schwarz (Khoroshkina) Anna, Novák Michal: Possessives in Parallel English‑Czech-Russian Texts.
+  In: Computational Linguistics and Intellectual Technologies, No. 15, RGGU, Moscow, Russia, pp. 483-497, 2016
+* Nedoluzhko Anna: A new look at possessive reflexivization: A comparative study between Czech and Russian. 
+  In: Proceedings of the Workshop Grammar and Lexicon: Interactions and Interfaces, International Committee 
+  for Computational Linguistics, Ōsaka, Japan, 2016, not yet published
