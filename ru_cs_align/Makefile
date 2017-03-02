@@ -159,3 +159,21 @@ UDPIPE=/net/projects/udpipe/bin/udpipe-1.0.0-bin/bin-linux64/udpipe
 
 $(UDPIPE_TRAIN_TMP_DIR)/ru.hamledt.prague.model : $(UDPIPE_TRAIN_TMP_DIR)/hamledt_conllu/train.conll $(UDPIPE_TRAIN_TMP_DIR)/hamledt_conllu/dev.conll
 	$(UDPIPE) --train $@ --heldout=$(word 2,$^) $(word 1,$^)
+
+############################################### STAGE 7 ######################################################
+##################### RUN RUSSIAN UDPipe AND A2T ANALYSIS ON RUSSIAN PART OF PCEDT-R  ########################
+####################### THIS BLOCK DELETES RUSSIAN MORPHO ANNOTATION CREATED SO FAR, #########################
+############################## AS NO SYNTACTIC PARSER IS COMPATIBLE WITH IT ##################################
+##############################################################################################################
+
+pcerdt_19_tecto : out/pcerdt_19_tecto/full.list
+out/pcerdt_19_tecto/full.list : out/pcerdt_19_giza/full.list
+	mkdir -p $(dir $@)
+	treex -p -Ssrc -Lru \
+		Read::Treex from='@$<' \
+		Util::Eval zone='$$.remove_tree("a");' \
+		Scen::Analysis::RU unknown_afun_to_atr=0 default_functor='' \
+		Write::Treex storable=1 path='$(dir $@)' \
+		Write::PDT path='$(dir $@)'
+	find $(dir $@) -name '*.t.gz' | sed 's|.*/||' | sort > $(dir $@)/full.t.list
+	find $(dir $@) -name '*.streex' | sed 's|.*/||' | sort > $@
