@@ -145,17 +145,20 @@ summary :
 ANAPH_TYPE=all_anaph
 SELECTOR=ref
 
+#EVAL_GOLD_ANNOT_TREES_DIR=$(GOLD_ANNOT_TREES_DIR)
+EVAL_GOLD_ANNOT_TREES_DIR=${COREF_BITEXT_DIR}/data/analysed/pcedt/wsj1900-49/0025.no_coref_supervised_align
+
 ###################### ORIGINAL AND RULE-BASED ALIGNMENT #####################
 
-baseline_% : $(GOLD_ANNOT_TREES_DIR)/%.list
+baseline_% : $(EVAL_GOLD_ANNOT_TREES_DIR)/%.list
 	rm -rf tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)
 	mkdir -p tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
 		Read::Treex from=@$< \
 		Align::T::Eval align_language=$(ALIGN_ANNOT_LANG2) node_types=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)/$$1}'
-	find tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE) -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/results_to_triples.pl --ranking | $(ML_FRAMEWORK_DIR)/scripts/eval.pl --acc --prf
+	find tmp/baseline/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE) -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/eval.pl --acc --prf
 
-rule-based_% : $(GOLD_ANNOT_TREES_DIR)/%.list
+rule-based_% : $(EVAL_GOLD_ANNOT_TREES_DIR)/%.list
 	rm -rf tmp/rule-based/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)
 	mkdir -p tmp/rule-based/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
@@ -163,7 +166,7 @@ rule-based_% : $(GOLD_ANNOT_TREES_DIR)/%.list
 		My::AddRobustAlignment::CsRelpron remove_original=1 language=cs \
 		My::AddRobustAlignment::EnPerspron remove_original=1 language=en \
 		Align::T::Eval align_reltypes='!gold,!supervised,robust,.*' align_language=$(ALIGN_ANNOT_LANG2) node_types=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/rule-based/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)/$$1}'
-	find tmp/rule-based/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE) -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/results_to_triples.pl --ranking | $(ML_FRAMEWORK_DIR)/scripts/eval.pl --acc --prf
+	find tmp/rule-based/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE) -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/eval.pl --acc --prf
 
 ######################## DATA TABLE EXTRACTION ###############################
 
@@ -253,3 +256,67 @@ tmp/show_errors/%.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).err : $(GOLD_ANN
 		Util::SetGlobal align_language=en node_types=relpron \
 		Align::T::Supervised::Resolver language=en,cs align_trg_lang=en delete_orig_align=0 \
 		Align::T::Compare language=$(ALIGN_ANNOT_LANG) pred_align_type='supervised' > $@
+
+####################################################################################################
+########################### DOCUMENT-BASED 10-FOLD CROSS-VALIDATION ################################
+######### TO OBTAIN UNBIASED ANNOTATION OF SUPERVISED ALIGNMENT ON THE WSJ_1900-49 DATA ############
+####################################################################################################
+
+DOC_CROSS_VAL_DIR=$(DATA_DIR)/docbased_crossval/$(ALIGN_ANNOT_LANG).$(SELECTOR)
+
+################# TRAIN: CREATE 10 DATA FOLDS, TRAIN AND EVAL MODELS ON THEM ###############
+
+$(DOC_CROSS_VAL_DIR)/%/done :
+	mkdir -p $(dir $@)
+	mkdir -p $(dir $@)/tmp/data.parts
+	cat data/gold_aligned.mgiza_on_czeng/full.list | grep 'wsj_19.$*' | sed 's/^/..\/..\/..\/gold_aligned.mgiza_on_czeng\//g' > $(dir $@)/test.list && \
+	cat data/gold_aligned.mgiza_on_czeng/full.list | grep -v 'wsj_19.$*' | sed 's/^/..\/..\/..\/gold_aligned.mgiza_on_czeng\//g' > $(dir $@)/train.list && \
+	for l in $(dir $@)/test.list $(dir $@)/train.list; do \
+		data=$${l%.list}.data; \
+		treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
+			Read::Treex from=@$$l \
+			My::AddRobustAlignment::CsRelpron language=cs \
+			My::AddRobustAlignment::EnPerspron language=en \
+			Align::T::Supervised::PrintData align_language=$(ALIGN_ANNOT_LANG2) node_types=$(ANAPH_TYPE) | \
+		gzip -c > $$data; \
+	done && \
+	touch $@
+
+$(DOC_CROSS_VAL_DIR)/%/ml.done : $(DOC_CROSS_VAL_DIR)/%/done
+	$(ML_FRAMEWORK_DIR)/run.sh -f conf/params.ini \
+        EXPERIMENT_TYPE=train_test \
+        DATA_LIST="TRAIN_DATA DEV_DATA" \
+        TRAIN_DATA=$(dir $@)/train.data \
+        DEV_DATA=$(dir $@)/test.data \
+        FEATSET_LIST=conf/featset.list \
+        ML_METHOD_LIST=conf/ml_method.list \
+        LRC=$(LRC) \
+        TMP_DIR=$(dir $@)/tmp/ml \
+        D="crossval models for wsj1900-49" && \
+	touch $@
+
+$(DATA_DIR)/docbased_crossval/%/all.done :
+	lang=`echo "$*" | cut -f1 -d'.'`; \
+	sel=`echo "$*" | cut -f2 -d'.'`; \
+	mkdir -p $(dir $@); \
+	for i in `seq 0 9`; do \
+		echo "Running model training on fold no. $$i..." >&2; \
+		$(MAKE) $(dir $@)$$i/ml.done ALIGN_ANNOT_LANG=$$lang SELECTOR=$$sel LRC=$(LRC) > $(dir $@)/run.$$i.log 2>&1 & \
+		sleep 10; \
+	done
+	while [ `ls $(dir $@)/*/ml.done | wc -w` -lt 10 ]; do \
+		sleep 10; \
+	done
+
+################# RESOLVE USING MODELS TRAINED ON 10 DATA FOLDS AND EVALUATE ####################
+######## see $COREF_BITEXT_DIR/makefile.wsj1900-49.data_gener how the data was created ##########
+
+SRC_SUPERVISED_TO_EVAL_DIR=${COREF_BITEXT_DIR}/data/analysed/pcedt/wsj1900-49/0025
+
+supervised_% : $(SRC_SUPERVISED_TO_EVAL_DIR)/%.list
+	rm -rf tmp/supervised/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)
+	mkdir -p tmp/supervised/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)
+	treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
+		Read::Treex from=@$< \
+		Align::T::Eval align_language=$(ALIGN_ANNOT_LANG2) align_reltypes='supervised,coref_supervised' node_types=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/supervised/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE)/$$1}' && \
+	find tmp/supervised/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE) -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/eval.pl --acc --prf
