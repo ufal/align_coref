@@ -1,11 +1,14 @@
 ####### This Makefile has been moved from ~/projects/align_coref/pcedt-r  on 3th August 2017 #########
 ####### Look up the original directory in the bash-history file for its usage. #######################
 
+OUTDIR=data
+
 ##############################################################################################################
-##################### RUN RUSSIAN UDPipe AND A2T ANALYSIS ON RUSSIAN PART OF PCEDT-R  ########################
-####################### THIS BLOCK DELETES RUSSIAN MORPHO ANNOTATION CREATED SO FAR, #########################
-############################## AS NO SYNTACTIC PARSER IS COMPATIBLE WITH IT ##################################
+################### STAGE 3: CREATE AUTOMATIC RUSSIAN TECTO TREES FOR MANUAL ANNOTATION ######################
 ##############################################################################################################
+
+# RUN RUSSIAN UDPipe AND A2T ANALYSIS ON RUSSIAN PART OF PCEDT-R  
+# This block deletes Russian morpho annotation created so far, as no syntactic parser is compatible with it 
 
 #!!!!! To get high-quality Russian trees, switch Treex repo to the 'hamledt.ud2_to_prague' branch !!!!!
 # The only available Russian UDPipe model was trained by me (see the targets below), however its quality was poor
@@ -14,8 +17,8 @@
 # Think about merging 'hamledt.ud2_to_prague' branch to the master
 
 
-before_coref_annot : out/03.tecto.before_coref_annot/full.list
-out/03.tecto.before_coref_annot/full.list : out/02.texts.checked/ru/list
+before_coref_annot : $(OUTDIR)/03.tecto.before_coref_annot/full.list
+$(OUTDIR)/03.tecto.before_coref_annot/full.list : $(OUTDIR)/02.texts.checked/ru/list
 	mkdir -p $(dir $@)
 	treex -Lru \
 		Read::Sentences from='@$<' \
@@ -25,6 +28,29 @@ out/03.tecto.before_coref_annot/full.list : out/02.texts.checked/ru/list
 		Write::PDT version=3.0 path='$(dir $@)'
 	find $(dir $@) -name '*.t.gz' | sed 's|.*/||' | sort > $(dir $@)/full.t.list
 	find $(dir $@) -name '*.streex' | sed 's|.*/||' | sort > $@
+
+
+##############################################################################################################
+################ STAGE 4: MANUAL ANNOTATION OF COREFERENCE AND COREFERENCE-DRIVEN TECTO ######################
+##############################################################################################################
+
+# done by Anja on PDT-like t-trees only
+# !!!!! links between t-nodes and a-nodes may be unresolved !!!!!!
+
+# transform the PDT-like documents to Treex documents
+after_coref_annot : $(OUTDIR)/04.tecto.after_coref_annot/full.list
+$(OUTDIR)/04.tecto.after_coref_annot/full.list :
+	treex -p -Lru \
+		Read::PDT from='!$(dir $@)/*.t.gz' schema_dir='../common/schema' \
+		Write::Treex path='$(dir $@)' && \
+	find $(dir $@) -name '*.treex.gz' | sed 's|.*/||' | sort > $@
+
+
+#=============================================================================================================
+#=============================================================================================================
+#====================================== STUFF NO LONGER USED =================================================
+#=============================================================================================================
+#=============================================================================================================
 
 
 ##############################################################################################################
