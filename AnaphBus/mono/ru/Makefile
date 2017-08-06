@@ -3,6 +3,8 @@
 
 OUTDIR=data
 
+TREEX=PERL5LIB=${PWD}/lib:${PERL5LIB} treex --qsub "-v PERL5LIB=${PWD}/lib"
+
 ##############################################################################################################
 ################### STAGE 3: CREATE AUTOMATIC RUSSIAN TECTO TREES FOR MANUAL ANNOTATION ######################
 ##############################################################################################################
@@ -44,6 +46,33 @@ $(OUTDIR)/04.tecto.after_coref_annot/full.list :
 		Read::PDT from='!$(dir $@)/*.t.gz' schema_dir='../common/schema' \
 		Write::Treex path='$(dir $@)' && \
 	find $(dir $@) -name '*.treex.gz' | sed 's|.*/||' | sort > $@
+
+##############################################################################################################
+#################### STAGE 5: CHECK IF EVERY A-NODE HAS ITS T-NODE CORRESPONDENCE ############################
+##############################################################################################################
+
+check_anode_to_tnode : $(OUTDIR)/05.list.anode_vs_tnode/anode_list.tsv
+check_tnode_to_anode : $(OUTDIR)/05.list.anode_vs_tnode/tnode_list.tsv
+$(OUTDIR)/05.list.anode_vs_tnode/anode_list.tsv : $(OUTDIR)/04.tecto.after_coref_annot/full.list
+	mkdir -p $(dir $@)
+	$(TREEX) -Lru \
+		Read::Treex from='@$<' \
+		Util::Eval anode='my $$tlex = join " ", map {$$_->id} $$anode->get_referencing_nodes("a/lex.rf"); my $$taux = join " ", map {$$_->id} $$anode->get_referencing_nodes("a/aux.rf"); print join "\t", ("A=".$$anode->get_address, "TL=".$$tlex, "TA=".$$taux, "Z=".($$anode->tag =~ /^Z/ ? 1 : 0)); print "\n";' \
+	> $@
+$(OUTDIR)/05.list.anode_vs_tnode/tnode_list.tsv : $(OUTDIR)/04.tecto.after_coref_annot/full.list
+	mkdir -p $(dir $@)
+	$(TREEX) -Lru \
+		Read::Treex from='@$<' \
+		Util::Eval tnode='my $$alex = join " ", map {$$_->id} $$tnode->get_lex_anode(); my $$aaux = join " ", map {$$_->id} $$tnode->get_aux_anodes(); print join "\t", ("T=".$$tnode->get_address, "AL=".$$alex, "AA=".$$aaux, "IG=".($$tnode->is_generated ? 1 : 0), "TL=".$$tnode->t_lemma); print "\n";' \
+	> $@
+print_anode_to_tnode_annot : $(OUTDIR)/05.list.anode_vs_tnode/anode.atref_annot
+$(OUTDIR)/05.list.anode_vs_tnode/anode.atref_annot : $(OUTDIR)/04.tecto.after_coref_annot/full.list
+	mkdir -p $(dir $@)
+	$(TREEX) -Lru \
+		Read::Treex from='@$<' \
+		AnaphBus::PrintNoTToA \
+	> $@
+
 
 
 #=============================================================================================================
