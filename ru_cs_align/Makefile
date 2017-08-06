@@ -48,12 +48,12 @@ out/all.cs-ru.giza.gz : out/all.cs-ru.for_giza.gz
 ############################## IMPORT RUSSIAN TRANSLATIONS TO PCEDT_19 #######################################
 ##############################################################################################################
 
-PCEDT_19_LIST=/home/mnovak/projects/align_coref/data/train_19_00-49.orig.list
+PCEDT_19_LIST=pcedt_20_coref.1900-49.list
 
 pcerdt_19 : out/pcerdt_19/full.list
 out/pcerdt_19/full.list : $(PCEDT_19_LIST) data/pcedt_19/all.ru.untok.txt
 	mkdir -p $(dir $@) 
-	treex -Ssrc -Lru \
+	treex -Lru \
 		Read::Treex from='@$(word 1,$^)' \
 		Import::Sentences from='$(word 2,$^)' \
 		Write::Treex storable=1 path='$(dir $@)'
@@ -65,7 +65,7 @@ out/pcerdt_19/full.list : $(PCEDT_19_LIST) data/pcedt_19/all.ru.untok.txt
 
 out/pcedt_19.cs-ru.giza.gz : out/all.cs-ru.giza.gz out/pcerdt_19/full.list
 	treex \
-		Read::Treex from='@out/pcerdt_19/full.list' \
+		Read::Treex from='@$(word 2,$^)' \
 		Util::Eval bundle='print $$bundle->get_document->full_filename . ".streex-" . $$bundle->id . "\n";' \
 	> out/pcerdt_19.bundle.ids
 	sentnum=`cat out/pcerdt_19.bundle.ids | wc -l`; \
@@ -87,19 +87,19 @@ out/pcedt_19.ru-cs.giza.gz : out/pcedt_19.cs-ru.giza.gz
 pcerdt_19_giza : out/pcerdt_19_giza/full.list
 out/pcerdt_19_giza/full.list : out/pcerdt_19/full.list out/pcedt_19.ru-cs.giza.gz
 	mkdir -p $(dir $@)
-	treex -Ssrc -Lru \
+	treex -Lru \
 		Read::Treex from='@$(word 1,$^)' \
 		W2A::RU::Tokenize \
 		W2A::TagTreeTagger lemmatize=1 \
 		Align::A::InsertAlignmentFromFile from='$(word 2,$^)' \
 			inputcols=gdfa_int_therescore_backscore \
-			selector=src language=ru to_selector=src to_language=cs \
+			language=ru to_language=cs \
 		Write::Treex storable=1 path='$(dir $@)'
 	find $(dir $@) -name '*.streex' | sed 's|.*/||' | sort > $@
 
 # TODO: the following target should be adjusted to produce ru-cs alignment, not cs-ru
 
-############################################## STAGE 5b ######################################################
+############################################## STAGE 5b - obsolete ###########################################
 ##### MORPHO-ANALYZE RUSSIAN TRANSLATIONS OF PCEDT_19 AND ANNOTATE RU-CS WORD ALIGNMENT WITH MGIZA   #########
 ##############################################################################################################
 
@@ -169,10 +169,9 @@ $(UDPIPE_TRAIN_TMP_DIR)/ru.hamledt.prague.model : $(UDPIPE_TRAIN_TMP_DIR)/hamled
 pcerdt_19_tecto : out/pcerdt_19_tecto/full.list
 out/pcerdt_19_tecto/full.list : out/pcerdt_19_giza/full.list
 	mkdir -p $(dir $@)
-	treex -p -Ssrc -Lru \
+	treex -p -Lru \
 		Read::Treex from='@$<' \
-		Util::Eval zone='$$.remove_tree("a");' \
-		Scen::Analysis::RU unknown_afun_to_atr=0 default_functor='' \
+		Scen::Analysis::RU tokenized=1 unknown_afun_to_atr=0 default_functor='' \
 		Write::Treex storable=1 path='$(dir $@)' \
 		Write::PDT path='$(dir $@)'
 	find $(dir $@) -name '*.t.gz' | sed 's|.*/||' | sort > $(dir $@)/full.t.list
