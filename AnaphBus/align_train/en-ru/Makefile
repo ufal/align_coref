@@ -47,7 +47,7 @@ $(ALITRAIN_FOR_GIZA_DIR)/all_train.en_ru.for_giza.gz : $(ALITRAIN_SPLIT_DIR)/all
 ############ PREPARE ALL "TEST" DATA FOR L1-L2 WORD ALIGNMENT MODEL ON LEMMATIZED TEXTS ######################
 ##############################################################################################################
 
-TEST_DATA_en_ru='/home/mnovak/projects/align_coref/pcedt-r/out/02.texts.checked/en/*.txt;/home/mnovak/projects/align_coref/pcedt-r/out/02.texts.checked/ru/*.txt'
+TEST_DATA_en_ru='/home/mnovak/projects/align_coref/AnaphBus/mono/ru/data/02.texts.checked/en/*.txt;/home/mnovak/projects/align_coref/AnaphBus/mono/ru/data/02.texts.checked/ru/*.txt'
 TEST_NAME_en_ru=wsj_1900-49
 
 for_giza_test_ru : $(ALITRAIN_FOR_GIZA_DIR)/$(TEST_NAME_en_ru).en_ru.for_giza.gz
@@ -117,3 +117,11 @@ $(ALITRAIN_GIZA_DIR)/train.$(LPAIR).postcat.gz : $(ALITRAIN_FOR_GIZA_DIR)/train.
 	mkdir -p $(ALITRAIN_TMP)/03.postcat.tempdir; \
 
 
+############################################### STAGE 4 ######################################################
+####################### EXTRACT EN-RU WORD ALIGNMENT FOR ANAPHBUS AND PREPARE  ###############################
+##############################################################################################################
+
+extract_anaphbus_ali : $(ALITRAIN_GIZA_DIR)/wsj_1900-49.en_ru.giza.gz
+$(ALITRAIN_GIZA_DIR)/wsj_1900-49.en_ru.giza.gz : $(ALITRAIN_GIZA_DIR)/all_train_wsj_1900-49.en_ru.giza.gz
+	sentnum=`cat $(shell echo $(TEST_DATA_en_ru) | cut -f1 -d";") | wc -l`; \
+	zcat $(word 1,$^) | tail -n $$sentnum | cut -f1,2,3,7,8 | perl -ne 'chomp $$_; my ($$id, @cols) = split /\t/, $$_; $$id =~ s{^.*/}{}; $$id =~ s{\.txt}{}; print join "\t", ($$id, @cols); print "\n";' | gzip -c > $@
