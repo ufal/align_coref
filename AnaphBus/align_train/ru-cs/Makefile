@@ -80,6 +80,19 @@ out/pcedt_19.ru-cs.giza.gz : out/pcedt_19.cs-ru.giza.gz
 		perl -ne 'my @cols = split /\t/, $$_; my @alis = splice @cols, 1, 2; my @new_alis = map {my @links = split / /, $$_; join " ", map {my ($$a, $$b) = split /-/, $$_; $$b."-".$$a} @links} @alis; unshift @new_alis, shift @cols; push @new_alis, @cols; print join "\t", @new_alis;' | \
 		gzip -c > $@
 
+######################################### STAGE 4-AnaphBus ###################################################
+###################### EXTRACT RU-CS WORD ALIGNMENT FOR ANAPHBUSs AND PREPARE  ###############################
+##############################################################################################################
+
+# for the time being, this makes use of the bundle list "out/pcerdt_19.bundle.ids"
+# in the future, this should be refactored as it is in "en-ru" align training
+
+extract_anaphbus_ali : out/wsj_1900-49.cs_ru.giza.gz
+out/wsj_1900-49.cs_ru.giza.gz : out/all.cs-ru.giza.gz data/pcedt_19/all.ru.untok.txt out/pcerdt_19.bundle.ids
+	sentnum=`cat $(word 2,$^) | grep -v -P '^\s*$$' | wc -l`; \
+	zcat $(word 1,$^) | tail -n $$sentnum | cut -f2,3,7,8 | paste $(word 3,$^) - | \
+		perl -ne 'chomp $$_; my ($$id, @cols) = split /\t/, $$_; $$id =~ s{^.*/}{}; $$id =~ s{\.streex}{}; print join "\t", ($$id, @cols); print "\n";' | gzip -c > $@
+
 ############################################## STAGE 5a ######################################################
 ####### MORPHO-ANALYZE RUSSIAN TRANSLATIONS OF PCEDT_19 AND IMPORT RU-CS GIZA++ WORD ALIGNMENT   #############
 ##############################################################################################################
