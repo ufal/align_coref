@@ -1,0 +1,6 @@
+Split this processing to contain alignment training only!
+1) remove analysis of Russian data
+2) this should start from raw document-based data as it is in "en-ru" alignment training
+3) think about how to use the same schema for aligning other data (e.g., for the "coref_projection" project in "en-ru")
+4) this should be renamed to "cs-ru" after being refactored
+    - if a new language is added to AnaphBus, all alignments from the original languages should point to this new languages, i.e. "en-cs", "en-ru", "cs-ru", "en-pl", "cs-pl", "ru-pl"
