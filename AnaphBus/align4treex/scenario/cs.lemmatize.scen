@@ -1,0 +1,3 @@
+Util::SetGlobal language=cs
+W2A::CS::Tokenize
+W2A::CS::TagMorphoDiTa lemmatize=1
