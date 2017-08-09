@@ -1,0 +1,47 @@
+SHELL=/bin/bash
+
+SPLIT_SIZE=2000
+MAX_TOKENS=100
+SAMPLE_PERC=50
+
+EXTRA_DIR=extra/$(LPAIR)
+
+IN_DIR=$(EXTRA_DIR)/00.in
+MERGE_DIR=$(EXTRA_DIR)/01.merged
+SPLIT_DIR=$(EXTRA_DIR)/02.split
+ANALYSED_DIR=$(EXTRA_DIR)/03.analysed
+FOR_GIZA_DIR=$(EXTRA_DIR)/04.for_giza
+
+IN_DATA_en_ru:=$(addprefix $(DIR)/00.train.in/,MultiUN.en-ru.txt.gz OpenSubtitles2016.en-ru.txt.gz TED2013.en-ru.txt.gz Wikipedia.en-ru.txt.gz)
+
+merge : $(MERGE_DIR)/all_extra.$(LPAIR).txt.gz
+$(MERGE_DIR)/all_extra.$(LPAIR).txt.gz : $(IN_DIR)/list
+	mkdir -p $(dir $@)
+	cat $< | sed 's:^:$(IN_DIR)/:' > $(IN_DIR)/abs.list
+	cat $(IN_DIR)/abs.list | xargs zcat | gzip -c > $@
+	rm $(IN_DIR)/abs.list
+
+data_split : $(SPLIT_DIR)/all_extra.$(LPAIR).done
+$(SPLIT_DIR)/all_extra.$(LPAIR).done : $(MERGE_DIR)/all_extra.$(LPAIR).txt.gz
+	mkdir -p $(dir $@)/files
+	( zcat $< | split -d -a 7 --additional-suffix .txt -l $(SPLIT_SIZE) - $(dir $@)/files/all_extra.$(LPAIR). ) && \
+	touch $@
+
+analysed : $(ANALYSED_DIR)/all_extra.$(LPAIR).done
+$(ANALYSED_DIR)/all_extra.$(LPAIR).done : $(SPLIT_DIR)/all_extra.$(LPAIR).done
+	scripts/analyse_to_treex.sh '!$(dir $<)/files/all_extra.$(LPAIR).*.txt' $(dir $@)/files $(LPAIR) && \
+	touch $@
+
+for_giza_full : $(FOR_GIZA_DIR)/all_extra.$(LPAIR).for_giza.full.gz
+$(FOR_GIZA_DIR)/all_extra.$(LPAIR).for_giza.full.gz : $(ANALYSED_DIR)/all_extra.$(LPAIR).done
+	mkdir $(dir $@)
+	scripts/print_lemmatized_bitext.sh '!$(dir $<)/files/all_extra.$(LPAIR).*.treex.gz' $@ $(LPAIR)	$(MAX_TOKENS)
+
+for_giza_sample : $(FOR_GIZA_DIR)/all_extra.$(LPAIR).for_giza.sample_$(SAMPLE_PERC).gz
+$(FOR_GIZA_DIR)/all_extra.$(LPAIR).for_giza.sample_$(SAMPLE_PERC).gz : $(FOR_GIZA_DIR)/all_extra.$(LPAIR).for_giza.full.gz
+	zcat $< | perl -e 'srand(1986); while (<>) { print $$_ if (int(rand(100)) <= int("$(SAMPLE_PERC)")); }' | gzip -c > $@
+
+for_giza : $(FOR_GIZA_DIR)/all_extra.$(LPAIR).for_giza.gz
+$(FOR_GIZA_DIR)/all_extra.$(LPAIR).for_giza.gz : $(FOR_GIZA_DIR)/all_extra.$(LPAIR).for_giza.sample_$(SAMPLE_PERC).gz
+	rm -f $@
+	ln -s $< $@
