@@ -14,3 +14,9 @@ function parse_lpair {
     l1=`echo $lpair | cut -f1 -d'-'`
     l2=`echo $lpair | cut -f2 -d'-'`
 }
+
+function parse_spair {
+    spair=$1
+    s1=`echo $spair | cut -f1 -d'-'`
+    s2=`echo $spair | cut -f2 -d'-'`
+}
