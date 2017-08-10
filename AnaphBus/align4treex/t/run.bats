@@ -1,7 +1,6 @@
 #!/usr/bin/env bats
 
 @test "prepare data from input files" {
-    #skip
     infile=$BATS_TEST_DIRNAME/test.treex.gz
     outdir=$BATS_TEST_DIRNAME/data/prepare_input.en-cs
 
@@ -36,6 +35,8 @@
     in_forgiza=$BATS_TEST_DIRNAME/test.for_giza.txt.gz
     extra_forgiza=$BATS_TEST_DIRNAME/extra.for_giza.txt.gz
     out_giza=$BATS_TEST_DIRNAME/data/giza_align_input.en-cs/test.giza.txt.gz
+    
+    rm -rf $(basename $out_giza)
 
     export TMP_DIR=$(dirname $out_giza)
     echo run scripts/giza_align_input.sh $in_forgiza $extra_forgiza $out_giza >&2
@@ -45,6 +46,26 @@
     in_lines=`zcat $in_forgiza | wc -l`
     out_lines=`zcat $out_giza | wc -l`
     [ $in_lines -eq $out_lines ]
+}
+
+@test "import GIZA alignment to Treex files, project to the original selector, and remove the align selector" {
+    treex_file=$BATS_TEST_DIRNAME/test.for_giza.treex.gz
+    treex_path='!'$treex_file
+    align_path=$BATS_TEST_DIRNAME/data/giza_align_input.en-cs/test.giza.txt.gz
+    outdir=$BATS_TEST_DIRNAME/data/finalize.en-cs
+
+    [ -e $treex_file ]
+    alilines=`zcat $treex_file | grep "<alignment>" | wc -l`
+    [ $alilines -eq 0 ]
+
+    rm -rf $outdir
+
+    echo run scripts/finalize_input.sh $treex_path $align_path $outdir en-cs >&2
+    run scripts/finalize_input.sh $treex_path $align_path $outdir en-cs
+    [ "$status" -eq 0 ]
+    [ -e $outdir/test.for_giza.treex.gz ]
+    alilines=`zcat $outdir/test.for_giza.treex.gz | grep "<alignment>" | wc -l`
+    [ $alilines -gt 0 ]
 }
 
 @test "all" {
