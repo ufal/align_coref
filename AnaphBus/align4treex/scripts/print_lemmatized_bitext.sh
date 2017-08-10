@@ -12,6 +12,8 @@ max_tokens=${4:-0}
 # set $lpaircomma, $l1 and $l2
 parse_lpair $lpair
 
+mkdir -p $(dirname $outfile)
+
 run_treex \
     Read::Treex from=$inpath \
     Write::LemmatizedBitexts selector=align language=$l1 to_language=$l2 to_selector=align max_tokens=$max_tokens | \
