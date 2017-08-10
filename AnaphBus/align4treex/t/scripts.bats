@@ -1,5 +1,24 @@
 #!/usr/bin/env bats
 
+@test "copying sentences from the defined zone to an align zone" {
+    infile=$BATS_TEST_DIRNAME/data/test.treex.gz
+    outdir=$BATS_TEST_DIRNAME/data/copy_sent.en-cs
+
+    rm -rf $outdir
+    mkdir -p $outdir
+
+    [ -e $infile ]
+    lines=`cat $infile | grep '<zone.*selector="align"' | wc -l`
+    [ "$lines" -eq 0 ]
+
+    run scripts/copy_sents_to_align_sel.sh '!'$infile $outdir en-cs
+    [ "$status" -eq 0 ]
+    [ -e $outdir/test.treex.gz ]
+    sents=`zcat $outdir/test.treex.gz | grep '<zones>' | wc -l`
+    lines=`zcat $outdir/test.treex.gz | grep '<zone.*selector="align"' | wc -l`
+    [ "$lines" -eq $((2 * $sents)) ]
+}
+
 @test "analysing sample en-cs text" {
     indir=$BATS_TEST_DIRNAME/data/analyse.en-cs
     outdir=$BATS_TEST_DIRNAME/data/analyse.en-cs
@@ -33,6 +52,7 @@
     inpath='!'$indir'/*.treex.gz'
 
     run scripts/print_lemmatized_bitext.sh $inpath $outdir/for_giza.gz en-cs 4
+    [ "$status" -eq 0 ]
     [ -e $outdir/for_giza.gz ]
     lines=`zcat $outdir/for_giza.gz | wc -l`
     [ "$lines" -eq 1 ]
