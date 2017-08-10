@@ -8,13 +8,18 @@ inpath=$1
 outdir=$2
 lpair=$3
 
-mkdir -p $outdir
-
 # set $lpaircomma, $l1 and $l2
 parse_lpair $lpair
 
+mkdir -p $outdir
+
+reader="Read::SentencesTSV from=$inpath langs=$lpaircomma"
+if [[ "$inpath" == *.treex.gz ]]; then
+    reader="Read::Treex from=$inpath"
+fi
+
 run_treex -Salign \
-    Read::SentencesTSV from=$inpath langs=$lpaircomma \
+    $reader \
     scenario/$l1.lemmatize.scen \
     scenario/$l2.lemmatize.scen \
     Write::Treex path=$outdir
