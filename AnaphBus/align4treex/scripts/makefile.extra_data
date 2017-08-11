@@ -1,9 +1,10 @@
 SHELL=/bin/bash
 
+# parameters
+LPAIR=
 SPLIT_SIZE=2000
 MAX_TOKENS=100
 SAMPLE_PERC=50
-
 EXTRA_DIR=extra/$(LPAIR)
 
 IN_DIR=$(EXTRA_DIR)/00.in
@@ -11,8 +12,6 @@ MERGE_DIR=$(EXTRA_DIR)/01.merged
 SPLIT_DIR=$(EXTRA_DIR)/02.split
 ANALYSED_DIR=$(EXTRA_DIR)/03.analysed
 FOR_GIZA_DIR=$(EXTRA_DIR)/04.for_giza
-
-IN_DATA_en_ru:=$(addprefix $(DIR)/00.train.in/,MultiUN.en-ru.txt.gz OpenSubtitles2016.en-ru.txt.gz TED2013.en-ru.txt.gz Wikipedia.en-ru.txt.gz)
 
 merge : $(MERGE_DIR)/all_extra.$(LPAIR).txt.gz
 $(MERGE_DIR)/all_extra.$(LPAIR).txt.gz : $(IN_DIR)/list
@@ -45,3 +44,6 @@ for_giza : $(FOR_GIZA_DIR)/all_extra.$(LPAIR).for_giza.gz
 $(FOR_GIZA_DIR)/all_extra.$(LPAIR).for_giza.gz : $(FOR_GIZA_DIR)/all_extra.$(LPAIR).for_giza.sample_$(SAMPLE_PERC).gz
 	rm -f $@
 	ln -s $< $@
+
+path_for_giza : $(FOR_GIZA_DIR)/all_extra.$(LPAIR).for_giza.gz
+	echo "$<"
