@@ -9,7 +9,7 @@ outdir=$2
 lpair=$3
 spair=$4
 
-tmp_outdir=$TMP_DIR/01.sents_in_align_sel
+tmp_outdir=$RUN_DIR/01.sents_in_align_sel
 $my_dir/copy_sents_to_align_sel.sh $inpath $tmp_outdir $lpair $spair
 tmp_inpath='!'$tmp_outdir'/*.treex.gz'
 $my_dir/analyse_to_treex.sh $tmp_inpath $outdir $lpair

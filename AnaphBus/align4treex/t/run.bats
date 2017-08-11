@@ -17,7 +17,7 @@
 
     inpath='!'$infile
 
-    export TMP_DIR=$outdir
+    export RUN_DIR=$outdir
     run scripts/prepare_input.sh $inpath $outdir en-cs
     [ "$status" -eq 0 ]
     [ -e $outdir/test.treex.gz ]
@@ -38,7 +38,7 @@
     
     rm -rf $(basename $out_giza)
 
-    export TMP_DIR=$(dirname $out_giza)
+    export RUN_DIR=$(dirname $out_giza)
     echo run scripts/giza_align_input.sh $in_forgiza $extra_forgiza $out_giza >&2
     run scripts/giza_align_input.sh $in_forgiza $extra_forgiza $out_giza
     [ "$status" -eq 0 ]

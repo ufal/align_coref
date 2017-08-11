@@ -2,8 +2,8 @@
 
 function run_treex {
     if [ ${LRC:-0} -eq 1 ]; then
-        mkdir -p $TMP_DIR/treex_runs
-        lrc_flag="-p --jobs 200 --priority=0 --queue 'troja-all.q@*' --workdir='$TMP_DIR/treex_runs/{NNN}-run-{XXXX}'"
+        mkdir -p $RUN_DIR/treex_runs
+        lrc_flag="-p --jobs 200 --priority=0 --queue 'troja-all.q@*' --workdir='$RUN_DIR/treex_runs/{NNN}-run-{XXXX}'"
     fi
     treex $lrc_flag "$@"
 }
