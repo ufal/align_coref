@@ -20,6 +20,6 @@ fi
 
 run_treex -Salign \
     $reader \
-    scenario/$l1.lemmatize.scen \
-    scenario/$l2.lemmatize.scen \
+    $my_dir/../scenario/$l1.lemmatize.scen \
+    $my_dir/../scenario/$l2.lemmatize.scen \
     Write::Treex path=$outdir
