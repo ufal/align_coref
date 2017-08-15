@@ -15,7 +15,7 @@ data_size=`zcat $data_forgiza | wc -l`
 all_forgiza=$RUN_DIR/all.for_giza.txt.gz
 zcat $data_forgiza $extra_forgiza | gzip -c > $all_forgiza
 all_giza=$RUN_DIR/all.giza.txt.gz
-bin/gizawrapper.pl \
+$my_dir/../bin/gizawrapper.pl \
         --tempdir=$RUN_DIR \
         --bindir=$my_dir/../bin "$all_forgiza" \
         --lcol=1 --rcol=2 \
