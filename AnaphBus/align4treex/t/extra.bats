@@ -48,10 +48,23 @@ setup() {
     lines=`find $EXTRADIR/02.split/files -name '*.txt' | wc -l`
     [ "$lines" -eq 2 ]
 }
-    
-@test "analysing splits" {
+
+@test "analysing splits with default tokenization (on whitespaces)" {
+    rm -rf $EXTRADIR/03.analysed
     echo run make -f scripts/makefile.extra_data analysed EXTRA_DIR=$EXTRADIR LPAIR=$lpair SPLIT_SIZE=$split_size MAX_TOKENS=$max_tokens SAMPLE_PERC=$sample_perc >&2
     run make -f scripts/makefile.extra_data analysed EXTRA_DIR=$EXTRADIR LPAIR=$lpair SPLIT_SIZE=$split_size MAX_TOKENS=$max_tokens SAMPLE_PERC=$sample_perc
+    [ "$status" -eq 0 ]
+    [ -e $EXTRADIR/03.analysed/all_extra.en-cs.done ]
+    lines=`find $EXTRADIR/03.analysed/files -name '*.treex.gz' | wc -l`
+    [ "$lines" -eq 2 ]
+    lemmas=`zcat $EXTRADIR/03.analysed/files/*.treex.gz | grep "<lemma>" | wc -l`
+    [ "$lemmas" -eq 93 ]
+}
+    
+@test "analysing splits with language-specific tokenization" {
+    rm -rf $EXTRADIR/03.analysed
+    echo run make -f scripts/makefile.extra_data analysed EXTRA_DIR=$EXTRADIR LPAIR=$lpair SPLIT_SIZE=$split_size MAX_TOKENS=$max_tokens SAMPLE_PERC=$sample_perc TOKENIZE= >&2
+    run make -f scripts/makefile.extra_data analysed EXTRA_DIR=$EXTRADIR LPAIR=$lpair SPLIT_SIZE=$split_size MAX_TOKENS=$max_tokens SAMPLE_PERC=$sample_perc TOKENIZE=
     [ "$status" -eq 0 ]
     [ -e $EXTRADIR/03.analysed/all_extra.en-cs.done ]
     lines=`find $EXTRADIR/03.analysed/files -name '*.treex.gz' | wc -l`

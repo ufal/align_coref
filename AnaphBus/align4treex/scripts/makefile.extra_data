@@ -5,6 +5,8 @@ LPAIR=
 SPLIT_SIZE=2000
 MAX_TOKENS=100
 SAMPLE_PERC=50
+#TOKENIZE=
+TOKENIZE=whitespace
 EXTRA_DIR=extra/$(LPAIR)
 
 IN_DIR=$(EXTRA_DIR)/00.in
@@ -28,7 +30,7 @@ $(SPLIT_DIR)/all_extra.$(LPAIR).done : $(MERGE_DIR)/all_extra.$(LPAIR).txt.gz
 
 analysed : $(ANALYSED_DIR)/all_extra.$(LPAIR).done
 $(ANALYSED_DIR)/all_extra.$(LPAIR).done : $(SPLIT_DIR)/all_extra.$(LPAIR).done
-	scripts/analyse_to_treex.sh '!$(dir $<)/files/all_extra.$(LPAIR).*.txt' $(dir $@)/files $(LPAIR) && \
+	scripts/analyse_to_treex.sh '!$(dir $<)/files/all_extra.$(LPAIR).*.txt' $(dir $@)/files $(LPAIR) $(TOKENIZE) && \
 	touch $@
 
 for_giza_full : $(FOR_GIZA_DIR)/all_extra.$(LPAIR).for_giza.full.gz

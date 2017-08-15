@@ -1,7 +1,7 @@
 #!/usr/bin/env bats
 
 @test "copying sentences from the defined zone to an align zone" {
-    infile=$BATS_TEST_DIRNAME/data/test.treex.gz
+    infile=$BATS_TEST_DIRNAME/test.treex.gz
     outdir=$BATS_TEST_DIRNAME/data/copy_sent.en-cs
 
     rm -rf $outdir
