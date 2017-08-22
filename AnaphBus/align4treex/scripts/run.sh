@@ -40,6 +40,9 @@ fi
 if [ -n "$EXTRA_SAMPLE_PERC" ]; then
     extra_params+=" SAMPLE_PERC=$EXTRA_SAMPLE_PERC"
 fi
+if [ -n "$EXTRA_NAME" ]; then
+    extra_params+=" EXTRA_NAME=$EXTRA_NAME"
+fi
 make -f $my_dir/makefile.extra_data for_giza $extra_params
 extra_forgiza=`make -s -f $my_dir/makefile.extra_data path_for_giza $extra_params`
 
