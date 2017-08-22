@@ -30,6 +30,7 @@
     
     inpath='!'$indir'/*.txt'
     
+    echo run scripts/analyse_to_treex.sh $inpath $outdir en-cs >&2
     run scripts/analyse_to_treex.sh $inpath $outdir en-cs
     [ "$status" -eq 0 ]
 
@@ -46,11 +47,15 @@
     indir=$BATS_TEST_DIRNAME/data/analyse.en-cs
     outdir=$BATS_TEST_DIRNAME/data/extract_for_giza.en-cs
 
+    export RUN_DIR=$outdir/files
+
     rm -rf $outdir
     mkdir -p $outdir
+    mkdir -p $RUN_DIR
 
     inpath='!'$indir'/*.treex.gz'
 
+    echo run scripts/print_lemmatized_bitext.sh $inpath $outdir/for_giza.gz en-cs 4 >&2
     run scripts/print_lemmatized_bitext.sh $inpath $outdir/for_giza.gz en-cs 4
     [ "$status" -eq 0 ]
     [ -e $outdir/for_giza.gz ]
