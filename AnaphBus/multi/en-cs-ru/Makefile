@@ -1,7 +1,11 @@
 
 OUTDIR=data
 
-TREEX=PERL5LIB=${PWD}/lib:${PERL5LIB} treex --qsub "-v PERL5LIB=${PWD}/lib"
+LRC_FLAG=
+ifeq ($(LRC),1)
+LRC_FLAG=-p --jobs 50 --qsub "-v PERL5LIB=${PWD}/lib"
+endif
+TREEX=PERL5LIB=${PWD}/lib:${PERL5LIB} treex $(LRC_FLAG)
 
 ##############################################################################################################
 ###################### STAGE 1: MERGE MONOLINGUAL PARTS TO A PARALLEL TREEX DOCUMENT #########################
@@ -43,6 +47,18 @@ ALIGN4TREEX=../../align4treex/scripts/run.sh
 # the alternative version uses align4treex, however, only the pre- and post-processing
 # it does not run GIZA as it was run before and the alignments for both en-ru and cs-ru data are ready
 $(OUTDIR)/03.treex.cs-ru_align_imported/full.list : $(OUTDIR)/02a.treex.en-ru_align_imported/full.list
-	LRC=$(LRC) TMPDIR=$(PWD)/tmp $(ALIGN4TREEX) '!'$(dir $<)'*.treex.gz' $(dir $@) cs-ru && \
+	LRC=$(LRC) TMPDIR=$(PWD)/tmp EXTRA_NAME=total EXTRA_SAMPLE_PERC=80 $(ALIGN4TREEX) '!'$(dir $<)'*.treex.gz' $(dir $@) cs-ru && \
+	find $(dir $@) -name '*.treex.gz' | sed 's|.*/||' | sort > $@
+
+##############################################################################################################
+##################### STAGE 4: TRANSFER ALIGNMENT FROM THE A-LAYER TO THE T_LAYER ############################
+##############################################################################################################
+
+$(OUTDIR)/04.treex.all_align_to_t/full.list : $(OUTDIR)/03.treex.cs-ru_align_imported/full.list
+	$(TREEX) \
+		Read::Treex from=@$< \
+		Align::T::CopyAlignmentFromAlayer language=en to_language=ru \
+		Align::T::CopyAlignmentFromAlayer language=cs to_language=ru \
+		Write::Treex path=$(dir $@) && \
 	find $(dir $@) -name '*.treex.gz' | sed 's|.*/||' | sort > $@
 
