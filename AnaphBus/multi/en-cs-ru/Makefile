@@ -57,8 +57,8 @@ $(OUTDIR)/03.treex.cs-ru_align_imported/full.list : $(OUTDIR)/02a.treex.en-ru_al
 $(OUTDIR)/04.treex.all_align_to_t/full.list : $(OUTDIR)/03.treex.cs-ru_align_imported/full.list
 	$(TREEX) \
 		Read::Treex from=@$< \
-		Align::T::CopyAlignmentFromAlayer language=en to_language=ru \
-		Align::T::CopyAlignmentFromAlayer language=cs to_language=ru \
+		Align::T::CopyAlignmentFromAlayer language=en to_language=ru del_prev_align=0 \
+		Align::T::CopyAlignmentFromAlayer language=cs to_language=ru del_prev_align=0 \
 		Write::Treex path=$(dir $@) && \
 	find $(dir $@) -name '*.treex.gz' | sed 's|.*/||' | sort > $@
 
