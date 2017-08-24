@@ -90,7 +90,9 @@ revise_annot :
 # v0002
 #ALIGN_TYPE=giza_on_train-pcedt.no_left_right_revgdfa
 # v0003
-ALIGN_TYPE=mgiza_on_czeng
+#ALIGN_TYPE=mgiza_on_czeng
+# version 0026.no_coref_supervised_align of pcedt_bi
+ALIGN_TYPE=0026.no_coref_supervised_align
 
 GOLD_ANNOT_FILE_EN=annot/en.all.align.ref.sec19_00-49.ali_annot
 GOLD_ANNOT_FILE_CS=annot/cs.all.align.ref.sec19_00-49.ali_annot
@@ -190,14 +192,15 @@ EVAL_DATA=$(DATA_DIR)/eval.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_1
 extract_data_table : $(FULL_DATA) $(TRAIN_DATA) $(DEV_DATA) $(EVAL_DATA)
 #extract_data_table : $(FULL_DATA)
 
-$(DATA_DIR)/%.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table : $(GOLD_ANNOT_TREES_DIR)/%.list
-	mkdir -p tmp/data_table/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19
+$(DATA_DIR)/%.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table : $(EVAL_GOLD_ANNOT_TREES_DIR)/%.list
+	mkdir -p tmp/data_table/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19/trees
+	mkdir -p tmp/data_table/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19/tables
 	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -S$(SELECTOR) \
 		Read::Treex from=@$< \
-		My::AddRobustAlignment::CsRelpron language=cs \
-		My::AddRobustAlignment::EnPerspron language=en \
-		Align::T::Supervised::PrintData align_language=$(ALIGN_ANNOT_LANG2) node_types=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19/$$1}'
-	find tmp/data_table/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19 -name "wsj_19*" | sort | xargs cat | gzip -c > $(DATA_DIR)/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.$(ALIGN_TYPE).table
+		Align::ProjectAlignment layer=t selector=ref trg_selector=$(SELECTOR) aligns="$(ALIGN_ANNOT_LANG)-$(ALIGN_ANNOT_LANG2):coref_gold,gold" \
+		Write::Treex path=tmp/data_table/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19/trees \
+		Align::T::Supervised::PrintData align_language=$(ALIGN_ANNOT_LANG2) node_types=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/data_table/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19/tables/$$1}'
+	find tmp/data_table/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19/tables -name "wsj_19*" | sort | xargs cat | gzip -c > $(DATA_DIR)/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.$(ALIGN_TYPE).table
 	ln -s $*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.$(ALIGN_TYPE).table $(DATA_DIR)/$*.$(ALIGN_ANNOT_LANG).$(SELECTOR).$(ANAPH_TYPE).pcedt_19.table
 
 
