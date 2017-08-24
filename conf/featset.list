@@ -3,6 +3,7 @@ n1_nodetype
 
 # align : using only GIZA++ alignment and parent alignemnt
 giza_aligned par_aligned
+    subtree_aligned_head subtree_aligned_all
 
 # graph : using graph-based features
 path_len path_types
@@ -20,18 +21,7 @@ n1_t_lemma n2_t_lemma
     tag_cat
     utag_cat
 
-# gram : new grammatical features
-
-# comb : combined features
-alipar_functor_cat alipar_functor_eq
-    alidir_n2_t_lemma alipar_n2_t_lemma
-
-# comb1 : features combining the source node with original alignment
-alidir_n1_t_lemma alipar_n1_t_lemma 
-    alisubtreeall_n1_t_lemma alisubtreeall_n2_t_lemma
-
-# gram2 : new grammatical features
-n1_lemma n2_lemma
+    n1_lemma n2_lemma
     n1_gen n2_gen
     n1_num n2_num
     n1_gennum n2_gennum
@@ -43,56 +33,17 @@ n1_lemma n2_lemma
     gennum_cat gennum_eq
     gennumlemma_cat
 
-# comb2 : new combined features
-alisubtreehead_n1_t_lemma alisubtreehead_n2_t_lemma
-
-
-
-# giza_id : GIZA + id -> should overfit on the training set
-#__SELF__
-#    @align
-#    n1_id n2_id
-
-# all+subtree_ali : including sutree alignmnent
-#__SELF__
-#    @align @graph @gram @comb
-#    subtree_aligned_all
-
+# comb : combined features
+alipar_functor_cat alipar_functor_eq
+    alidir_n2_t_lemma alipar_n2_t_lemma
+    alidir_n1_t_lemma alipar_n1_t_lemma 
+    alisubtreeall_n1_t_lemma alisubtreeall_n2_t_lemma
+    alisubtreehead_n1_t_lemma alisubtreehead_n2_t_lemma
 
 # all : using the best feature set so far
 __SELF__
     @type @align @graph @gram @comb
 
-# best : best including both
-@all @comb1
-
-# best+gram2 : best including new grammatical feats
-@best @gram2
-
-# best+gram2+alihead : best including new grammatical feats and aligned head
-@best @gram2 subtree_aligned_head
-
-# best+comb2 : best including new combined feats
-@best @comb2
-
-# best+comb2+alihead : best including new combined feats and aligned head
-@best @comb2 subtree_aligned_head
-
-# best+gram2+comb2 : best including new grammatical and combined feats
-@best @gram2 @comb2
-
-# best+gram2+comb2+alihead : best including new grammatical and combined feats and aligned head
-@best @gram2 @comb2 subtree_aligned_head
-
 <<<EXPERIMENTS>>>
 
-#giza
-#graph
 all
-best
-best+gram2
-best+gram2+alihead
-best+comb2
-best+comb2+alihead
-best+gram2+comb2
-best+gram2+comb2+alihead
