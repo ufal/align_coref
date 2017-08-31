@@ -151,7 +151,7 @@ SELECTOR=ref
 # old trees
 #EVAL_GOLD_ANNOT_TREES_DIR=$(GOLD_ANNOT_TREES_DIR)
 # new trees with extended #Cors
-EVAL_GOLD_ANNOT_TREES_DIR=${COREF_BITEXT_DIR}/data/analysed/pcedt/wsj1900-49/0026.no_coref_supervised_align
+EVAL_GOLD_ANNOT_TREES_DIR=${COREF_BITEXT_DIR}/data/analysed/pcedt/wsj1900-49/0027.no_coref_supervised_align
 REF_EVAL_DIR=$(GOLD_ANNOT_TREES_DIR)
 
 ###################### ORIGINAL AND RULE-BASED ALIGNMENT #####################
