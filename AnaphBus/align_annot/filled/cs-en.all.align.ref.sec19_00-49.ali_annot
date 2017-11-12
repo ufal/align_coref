@@ -3120,189 +3120,189 @@ EN_T:	Genetics Institute disclosed #Gen.ADDR recently <it> embroiled #Gen.ACT di
 CS_T:	#Gen.ADDR Institut genetiky nedávno oznámil #Gen.ACT zapleten <#PersPron.ADDR> sporu společností #Forn.ID Boehringer Mannheim která tento lék distribuuje použitelnosti některých výrobních dávek
 ERR:TYPE=en_perspron	OK
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1915.final.treex.gz##54.EnglishA-wsj_1915-s54-t11##54.EnglishA-wsj_1915-s54-t11
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1915.final.streex##54.EnglishA-wsj_1915-s54-t11
 EN:	There was limited production of some models yesterday, but it wasn't clear when the normal 750-car-a-day pace will resume .
 CS:	Včera probíhala omezená výroba některých modelů, ale nebylo jasné, kdy se znovu obnoví normální tempo 750 vozů za den. 
 EN_T:	was limited production some models yesterday but <__A:EnglishA-wsj_1915-s54-t11__was> n't clear when normal 750-car-a-day pace resume
 CS_T:	Včera probíhala omezená výroba některých modelů ale #Neg.RHEM nebylo jasné kdy znovu obnoví #Gen.ACT normální tempo 750 vozů den
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1916.final.treex.gz##28.EnglishA-wsj_1916-s28-t11##28.EnglishA-wsj_1916-s28-t11
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1916.final.streex##28.EnglishA-wsj_1916-s28-t11
 EN:	Given the seismic history of the Bay Area, ``it seems to me that a 6.9 earthquake is a foreseeable event.''
 CS:	Vezmeme-li v úvahu seismickou historii oblasti zátoky, "zdá se mi, že zemětřesení o síle 6.9 je předvídatelná událost". 
 EN_T:	seismic history Bay Area seems me 6.9 earthquake <__A:EnglishA-wsj_1916-s28-t11__is> foreseeable event
 CS_T:	#PersPron.ACT Vezmeme úvahu seismickou historii oblasti zátoky zdá mi zemětřesení síle 6.9 je předvídatelná událost
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1916.final.treex.gz##6.EnglishA-wsj_1916-s6-t1##6.EnglishA-wsj_1916-s6-t1
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1916.final.streex##6.EnglishA-wsj_1916-s6-t1
 EN:	It could easily be two years before the well-traveled artery that helps connect Oakland with San Francisco is reopened , and the cost to build a new stretch of highway could soar to more than $250 million, said Charles J. O'Connell, deputy district director in Los Angeles of the California Department of Transportation, nicknamed Caltrans.
 CS:	Mohlo by docela dobře trvat dva roky, než bude hojně používaná tepna, která pomáhá spojit Oakland a San Francisco, znovu otevřena a náklady na vybudování nového úseku dálnice by se mohly vyšplhat na více než 250 milionů dolarů, sdělil Charles J. O'Connell, náměstek obvodního ředitele Kalifornského ministerstva dopravy v Los Angeles, kterému se říká Caltrans. 
 EN_T:	easily be two years well-traveled artery that helps #Gen.ADDR connect #Cor.ACT Oakland #Forn.ADDR San Francisco <__A:EnglishA-wsj_1916-s6-t1__reopened> #Gen.ACT and cost #Benef.BEN #Cor.ACT build new stretch highway soar more $ 250 million said #Gen.ADDR Charles J. O'Connell , deputy district director #Forn.LOC Los Angeles California Department Transportation #Gen.ACT nicknamed #Cor.PAT Caltrans
 CS_T:	#Gen.PAT docela dobře trvat dva roky hojně používaná tepna #Gen.ADDR která pomáhá #Cor.ACT spojit #Rcp.ADDR Oakland a #Forn.PAT San Francisco otevřena #Gen.ACT znovu a náklady #Gen.ACT vybudování nového úseku dálnice vyšplhat více 250 milionů dolarů #Gen.ADDR sdělil Charles J Connell , náměstek obvodního ředitele Kalifornského ministerstva dopravy #Forn.LOC Los Angeles #Gen.ACT kterému říká Caltrans
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1915.final.treex.gz##92.EnglishA-wsj_1915-s92-t72##92.EnglishA-wsj_1915-s92-t72
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1915.final.streex##92.EnglishA-wsj_1915-s92-t72
 EN:	PACIFIC GAS&ELECTRIC CO., San Francisco, electric, gas and water supplier, annual sales $7.6 billion, some minor damage to headquarters, undetermined damage to four nearby substations, severe structural damage to a major power plant at Moss Landing, extensive damage to gas lines and electric lines, 400,000 residences without electricity and 69,000 without gas, can not reconnect electricity until it is certain there are no gas leaks, no predictions on when this will happen .
 CS:	SPOLEČNOST PACIFIC GAS & ELECTRIC CO. v San Francisku, dodavatel elektrické energie, plynu a vody s ročním obratem 7.6 miliardy dolarů, utrpěla lehké škody v hlavním sídle společnosti, blíže neurčené škody na čtyřech rozvodnách poblíž, těžké škody na statice budovy hlavní elektrárny v Moss Landingu, rozsáhlé škody na plynovém potrubí a elektrickém vedení, přičemž 400000 domácností je bez elektřiny a 69000 domácností je bez dodávek plynu a společnost nemůže obnovit elektrické vedení, dokud nebude jisté, že nikde neuniká plyn, a nejsou žádné předběžné odhady, kdy se tak stane. 
 EN_T:	PACIFIC GAS & ELECTRIC CO. San Francisco #Forn.PAR electric , gas and water supplier #EmpVerb.DESCR annual sales $ 7.6 billion some minor damage headquarters undetermined damage four nearby substations severe structural damage major power plant Moss Landing extensive damage gas lines , and electric lines 400,000 #EmpVerb.PRED residences electricity and residences 69,000 gas not reconnect , , electricity is certain <__A:EnglishA-wsj_1915-s92-t72__are> no gas leaks no predictions #EmpVerb.PRED when this happen
 CS_T:	přičemž a SPOLEČNOST #Forn.LOC #Forn.ID PACIFIC GAS & ELECTRIC CO . San Francisku dodavatel elektrické energie plynu a vody ročním obratem 7.6 miliardy , dolarů utrpěla , lehké škody hlavním sídle společnosti blíže neurčené škody čtyřech rozvodnách poblíž těžké škody statice budovy #Forn.LOC hlavní elektrárny Moss Landingu rozsáhlé škody plynovém potrubí a elektrickém vedení 400000 domácností je elektřiny 69000 domácností je dodávek plynu společnost obnovit #Neg.RHEM elektrické vedení #Neg.RHEM nebude #Neg.RHEM jisté neuniká #Oblfm.DIR1 nikde plyn nejsou #Neg.RHEM žádné předběžné odhady kdy tak stane
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1915.final.treex.gz##78.EnglishA-wsj_1915-s78-t1##78.EnglishA-wsj_1915-s78-t1
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1915.final.streex##78.EnglishA-wsj_1915-s78-t1
 EN:	It wasn't known to what extent, if any, the facility was damaged .
 CS:	Nebylo známo, do jaké míry, a jestli vůbec, bylo zařízení poškozeno. 
 EN_T:	n't <__A:EnglishA-wsj_1915-s78-t1__known> #Gen.ACT what extent any facility #Gen.ACT damaged
 CS_T:	#Neg.RHEM #PersPron.ACT Nebylo známo jaké míry a poškozeno vůbec zařízení poškozeno
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1915.final.treex.gz##79.EnglishA-wsj_1915-s79-t1##79.EnglishA-wsj_1915-s79-t1
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1915.final.streex##79.EnglishA-wsj_1915-s79-t1
 EN:	It also wasn't known what the impact will be on the division's work, which includes the Navy's Trident submarine-based missile program and the Air Force's Strategic Defense Initiative.
 CS:	Zároveň nebylo známo, jaké dopady to bude mít na provoz divize, který zahrnuje i tridentský námořní program střel umístěných na ponorkách a strategickou obrannou iniciativu letectva. 
 EN_T:	also n't <__A:EnglishA-wsj_1915-s79-t1__known> #Gen.ACT what impact be division work which includes Navy Trident submarine-based missile program and Air Force Strategic Defense Initiative
 CS_T:	#Neg.RHEM Zároveň nebylo známo jaké dopady to mít provoz divize který zahrnuje i tridentský námořní program střel umístěných ponorkách a strategickou obrannou iniciativu letectva
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1927.final.treex.gz##13.EnglishA-wsj_1927-s13-t2##13.EnglishA-wsj_1927-s13-t2
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1927.final.streex##13.EnglishA-wsj_1927-s13-t2
 EN:	But it was Ted Kennedy who scored most effectively with his searing portrayal of ``Robert Bork's America'' -- the parade of imaginary horribles that would follow logically, he claimed , from the positions Mr. Bork had taken over the space of two decades.
 CS:	Největšího úspěchu však dosáhl Ted Kennedy svým nemilosrdným vylíčením "Ameriky podle Roberta Borka" - přehlídkou vymyšlených hrůz, které by logicky vyplynuly, jak tvrdil, z názorů, které pan Bork v období dvou desetiletí zastával. 
 EN_T:	But Ted <__A:EnglishA-wsj_1927-s13-t2__Kennedy> scored #Gen.PAT effectively his searing portrayal Robert Bork America -- parade imaginary horribles that follow #Gen.PAT logically he claimed #PersPron.EFF #Gen.ADDR positions Mr. Bork taken #Cor.CPHR space two decades
 CS_T:	#PersPron.EFF #PersPron.ACT Největšího úspěchu však dosáhl Ted Kennedy svým nemilosrdným vylíčením #Idph.PAT Ameriky Roberta Borka - přehlídkou vymyšlených hrůz které logicky vyplynuly tvrdil názorů které pan Bork dvou desetiletí zastával
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1927.final.treex.gz##8.EnglishA-wsj_1927-s8-t28##8.EnglishA-wsj_1927-s8-t28
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1927.final.streex##8.EnglishA-wsj_1927-s8-t28
 EN:	Given Democratic frustration with the Reagan victories and Court appointments, the contingency plans in place, and Mr. Bork's paper trail of vulnerable writings, it was pretty clear that Judge Bork never stood much chance of being confirmed .
 CS:	Vzhledem ke zklamání demokratů z Reaganových vítězství a z jmenování Nejvyššího soudu, vzhledem k jejich plánům pro tyto mimořádné případy a vzhledem k písemným záznamům napadnutelných Borkových textů bylo celkem jasné, že soudce Bork nemá příliš šancí na to, že jeho jmenování bude schváleno. 
 EN_T:	Democratic frustration Reagan victories and Court appointments contingency plans place and Mr. Bork paper trail vulnerable writings <__A:EnglishA-wsj_1927-s8-t28__was> pretty clear Judge Bork never stood much chance #Gen.ACT confirmed #Gen.EFF #Cor.PAT
 CS_T:	zklamání demokratů Reaganových vítězství a #Gen.ACT jmenování Nejvyššího soudu jejich plánům tyto mimořádné případy a písemným záznamům napadnutelných Borkových textů bylo celkem jasné #Neg.RHEM soudce Bork nemá příliš šancí #Gen.ACT #Gen.ACT jeho jmenování schváleno
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1928.final.treex.gz##20.EnglishA-wsj_1928-s20-t34##20.EnglishA-wsj_1928-s20-t34
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1928.final.streex##20.EnglishA-wsj_1928-s20-t34
 EN:	Collectors who have made their money on Wall Street have become an increasingly important part of the art business and their money has helped fuel the art boom, but recently it appears Sotheby's has been returning the compliment.
 CS:	Sběratelé, kteří si vydělali peníze na Wall Street, se stali více a více důležitou součástí obchodu s uměním a jejich peníze přispěly k urychlení rozvoje umění, avšak v poslední době se zdá, že jim společnost Sotheby's přízeň oplácí. 
 EN_T:	Collectors who made their money Wall Street become increasingly important part art business and their money helped #Gen.ADDR #Gen.ACT fuel art boom but recently appears #Gen.PAT Sotheby <__A:EnglishA-wsj_1928-s20-t34__returning> #PersPron.ADDR compliment
 CS_T:	Sběratelé kteří si vydělali peníze #Forn.LOC Wall Street stali více a více důležitou součástí obchodu uměním a jejich peníze přispěly #Gen.ACT urychlení rozvoje umění avšak #Gen.ACT poslední době zdá jim společnost #Forn.ID Sotheby ' s přízeň oplácí
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1928.final.treex.gz##28.EnglishA-wsj_1928-s28-t2##28.EnglishA-wsj_1928-s28-t2
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1928.final.streex##28.EnglishA-wsj_1928-s28-t2
 EN:	But it 's likely that Sotheby's will take a higher than usual commission, called an override, on the amount exceeding the guarantee.
 CS:	Je však pravděpodobné, že společnost Sotheby's za částku, která přesáhne záruku, získá vyšší než obvyklou provizi, tzv. manažerskou provizi. 
 EN_T:	But <__A:EnglishA-wsj_1928-s28-t2__'s> likely Sotheby take higher usual commission #Gen.ACT called #Cor.PAT override amount #Cor.ACT exceeding guarantee
 CS_T:	Je však pravděpodobné společnost Sotheby ' #Forn.ID s částku která přesáhne záruku získá vyšší získá #PersPron.ACT provizi obvyklou provizi , tzv manažerskou provizi
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1928.final.treex.gz##33.EnglishA-wsj_1928-s33-t30##33.EnglishA-wsj_1928-s33-t30
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1928.final.streex##33.EnglishA-wsj_1928-s33-t30
 EN:	The decision to put the entire collection on the block stunned many, since Mr. Dorrance had served as chairman of the Philadelphia Museum of Art, and it had been assumed many of the works would be donated to the institution.
 CS:	Rozhodnutí dát k prodeji celou sbírku mnoho lidí překvapilo, jelikož Dorrance působil jako předseda Muzea umění ve Filadelfii a předpokládalo se, že řada děl bude darována této instituci. 
 EN_T:	decision #Gen.ACT #Cor.ACT put entire collection block stunned many Mr. Dorrance served chairman Philadelphia Museum Art and assumed #Gen.ACT many works <__A:EnglishA-wsj_1928-s33-t30__donated> #Gen.ACT institution
 CS_T:	Rozhodnutí #PersPron.ACT dát #PersPron.ADDR prodeji celou sbírku mnoho lidí překvapilo Dorrance působil #Oblfm.LOC předseda Muzea umění Filadelfii a předpokládalo #Gen.ACT #PersPron.ACT řada děl darována této instituci
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1929.final.treex.gz##11.EnglishA-wsj_1929-s11-t4##11.EnglishA-wsj_1929-s11-t4
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1929.final.streex##11.EnglishA-wsj_1929-s11-t4
 EN:	In this scenario it 's hard to imagine that a pale imitation of the Federal Republic could avoid being pulled into some kind of tie -- economic, federal or stronger -- with West Germany.
 CS:	V takovém scénáři je těžké si představit, že by se chabá napodobenina spolkové republiky mohla vyhnout vtažení do určitého svazku - ekonomického, spolkového či ještě silnějšího - se Západním Německem. 
 EN_T:	this scenario <__A:EnglishA-wsj_1929-s11-t4__'s> hard #Gen.ACT imagine pale imitation Federal Republic avoid pulled #Cor.PAT #Gen.ACT some kind tie economic federal or stronger West Germany
 CS_T:	takovém scénáři je těžké #Benef.BEN #Cor.ACT představit chabá napodobenina spolkové republiky vyhnout vtažení #Gen.ACT #PersPron.PAT určitého svazku ekonomického spolkového či ještě silnějšího Západním Německem
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1929.final.treex.gz##30.EnglishA-wsj_1929-s30-t11##30.EnglishA-wsj_1929-s30-t11
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1929.final.streex##30.EnglishA-wsj_1929-s30-t11
 EN:	There's a certain cruel logic at work here: It 's particularly appropriate -- and tragic -- that the land that produced Karl Marx should prove socialism's failure in an experiment that uses its own people as controls.
 CS:	Funguje zde jistá krutá logika: Je obzvláště vhodné - a tragické -, aby země, která zplodila Karla Marxe, prokázala selhání socialismu v experimentu, který využívá ke kontrole svůj vlastní národ. 
 EN_T:	's certain cruel logic work here : <__A:EnglishA-wsj_1929-s30-t11__'s> particularly appropriate and tragic land that produced Karl Marx prove socialism failure experiment that uses its own people controls
 CS_T:	Funguje zde jistá krutá logika : Je obzvláště vhodné a tragické země která zplodila Karla Marxe prokázala selhání socialismu experimentu který využívá kontrole svůj vlastní národ
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1929.final.treex.gz##38.EnglishA-wsj_1929-s38-t2##38.EnglishA-wsj_1929-s38-t2
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1929.final.streex##38.EnglishA-wsj_1929-s38-t2
 EN:	But it would be ironic if Germany's reunification, just like its division, eventually were the result of actions in centers of power other than Bonn and Berlin.
 CS:	Bylo by však ironické, kdyby znovusjednocení Německa, stejně jako jeho rozdělení, bylo nakonec výsledkem jednání mocenských center jinde než v Bonnu a Berlíně. 
 EN_T:	But be ironic Germany reunification just its division eventually <__A:EnglishA-wsj_1929-s38-t2__were> result actions centers power other Bonn and Berlin
 CS_T:	Bylo však ironické #Rcp.PAT znovusjednocení Německa stejně bylo výsledkem jeho rozdělení #Gen.ACT bylo nakonec výsledkem #PersPron.PAT jednání #Rcp.ADDR mocenských center jinde #EmpVerb.CPR Bonnu a Berlíně
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1929.final.treex.gz##18.EnglishA-wsj_1929-s18-t22##18.EnglishA-wsj_1929-s18-t22
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1929.final.streex##18.EnglishA-wsj_1929-s18-t22
 EN:	There have been some reports that Mr. Krenz is moving to ``soften'' his reputation, notably rumors that it was he who kept East Germany's state police off protesters' backs at the country's dismal 40th anniversary celebrations earlier this month.
 CS:	Objevilo se několik zpráv o tom, že Krenz hodlá svoji pověst "vylepšit", především se jedná o zvěsti, že právě on na začátku tohoto měsíce udržel při oslavách neveselého 40. výročí východoněmeckou státní policii dál od zad protestujících. 
 EN_T:	been , some reports Mr. Krenz moving #PersPron.ACT soften his reputation notably rumors was he who <__A:EnglishA-wsj_1929-s18-t22__kept> East Germany state police protesters backs country dismal 40th anniversary celebrations earlier this month
 CS_T:	Objevilo několik zpráv Krenz svoji pověst vylepšit , především jedná zvěsti právě on začátku tohoto měsíce udržel oslavách neveselého 40 výročí východoněmeckou státní policii dál zad protestujících
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1931.final.treex.gz##12.EnglishA-wsj_1931-s12-t18##12.EnglishA-wsj_1931-s12-t18
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1931.final.streex##12.EnglishA-wsj_1931-s12-t18
 EN:	Some analysts note that after last week's stock market tailspin and Tuesday's California earthquake, it 's hard to gauge where the central bank wants the key federal funds rate .
 CS:	Někteří analytikové poznamenávají, že po burzovním zmatku v minulém týdnu a úterním zemětřesení v Kalifornii je těžké odhadnout, jakou chce mít centrální banka hlavní sazbu federálních fondů. 
 EN_T:	Some analysts note last week stock market tailspin and Tuesday California earthquake 's hard #Benef.BEN #Cor.ACT <__A:EnglishA-wsj_1931-s12-t18__gauge> where central bank wants key federal funds rate
 CS_T:	Někteří analytikové poznamenávají burzovním zmatku minulém týdnu a úterním zemětřesení Kalifornii je těžké #Benef.BEN #Cor.ACT odhadnout jakou mít centrální banka hlavní sazbu federálních fondů
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1932.final.treex.gz##35.EnglishA-wsj_1932-s35-t13##35.EnglishA-wsj_1932-s35-t13
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1932.final.streex##35.EnglishA-wsj_1932-s35-t13
 EN:	``Now that the supply situation seems to be improving, it would be best for traders to switch their concentration to the demand side.''
 CS:	"Teď, když se zdá, že se situace v dodávkách zlepšuje, bylo by pro obchodníky nejlepší obrátit svůj zájem k poptávce." 
 EN_T:	Now supply situation seems improving #Cor.ACT <__A:EnglishA-wsj_1932-s35-t13__be> best traders #Cor.ACT switch their concentration demand side
 CS_T:	Teď #Gen.ACT zdá situace dodávkách zlepšuje bylo obchodníky nejlepší #Cor.ACT obrátit svůj zájem poptávce
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1932.final.treex.gz##27.EnglishA-wsj_1932-s27-t5##27.EnglishA-wsj_1932-s27-t5
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1932.final.streex##27.EnglishA-wsj_1932-s27-t5
 EN:	The analyst said it will take about two to three months before the mine begins to produce copper in significant quantities.
 CS:	Tento analytik uvedl, že bude trvat asi dva až tři měsíce, než začne důl produkovat měď ve významnějším množství. 
 EN_T:	analyst said #Gen.ADDR take about two to three months mine <__A:EnglishA-wsj_1932-s27-t5__begins> #Cor.ACT produce copper significant quantities
 CS_T:	Tento analytik uvedl trvat #Gen.PAT asi dva až tři měsíce začne důl #Cor.ACT produkovat měď významnějším množství
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1932.final.treex.gz##12.EnglishA-wsj_1932-s12-t2##12.EnglishA-wsj_1932-s12-t2
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1932.final.streex##12.EnglishA-wsj_1932-s12-t2
 EN:	``It 's hard to imagine how the markets were speculating , given that nobody could get through to San Francisco,'' said one amazed oil company executive.
 CS:	"Je těžké si představit, jak burzy spekulovaly, když se do San Franciska nemohl nikdo dovolat," řekl jeden ohromený vedoucí pracovník ropné společnosti. 
 EN_T:	hard #Gen.ACT <__A:EnglishA-wsj_1932-s12-t2__imagine> how markets speculating 's nobody get #Gen.PAT #Forn.DIR3 San Francisco said #Gen.ADDR one amazed oil company executive
 CS_T:	#Gen.ADDR Je těžké #Benef.BEN #Cor.ACT představit #PersPron.PAT jak burzy spekulovaly San #Forn.DIR3 Franciska nikdo dovolat #Neg.RHEM řekl jeden ohromený vedoucí pracovník ropné společnosti
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1932.final.treex.gz##1.EnglishA-wsj_1932-s1-t29##1.EnglishA-wsj_1932-s1-t29
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1932.final.streex##1.EnglishA-wsj_1932-s1-t29
 EN:	Crude prices spurted upward in brisk trading on the assumption that heavy earthquake damage occurred to San Francisco area refinery complexes, but the rise quickly fizzled when it became apparent that oil operations weren't severely curtailed .
 CS:	Na základě domněnky, že rafinérské komplexy v sanfranciské oblasti postihlo silné zemětřesení, prudce stouply ceny ropy při rychlém obchodování, ale když se ukázalo, že ropné provozy nebyly vážně poškozeny, tento vzrůst rychle opadl. 
 EN_T:	Crude prices spurted upward brisk trading assumption heavy earthquake damage occurred San Francisco #Forn.LOC area refinery complexes but rise quickly fizzled <__A:EnglishA-wsj_1932-s1-t29__became> apparent oil operations n't severely #Gen.ACT curtailed
 CS_T:	domněnky rafinérské komplexy sanfranciské oblasti postihlo silné zemětřesení prudce stouply ceny ropy #Gen.PAT #Gen.ACT rychlém obchodování ale ukázalo #PersPron.ACT ropné provozy vážně poškozeny #Neg.RHEM tento vzrůst rychle opadl
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1932.final.treex.gz##47.EnglishA-wsj_1932-s47-t2##47.EnglishA-wsj_1932-s47-t2
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1932.final.streex##47.EnglishA-wsj_1932-s47-t2
 EN:	``It 's known they need the sugar, and the expectation that they will come in is apparently giving the market its principal support,'' the dealer said .
 CS:	"Je známo, že cukr potřebují, a očekávání, že vstoupí na trh, mu očividně dává podstatnou podporu," řekl prodejce. 
 EN_T:	known #Gen.ACT they <__A:EnglishA-wsj_1932-s47-t2__need> sugar and expectation they come apparently giving market its principal support dealer said #Gen.ADDR
 CS_T:	#Gen.ADDR Je známo #PersPron.ACT cukr potřebují a #Gen.ACT očekávání #PersPron.ACT vstoupí trh mu očividně dává podstatnou podporu řekl prodejce
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1935.final.treex.gz##8.EnglishA-wsj_1935-s8-t1##8.EnglishA-wsj_1935-s8-t1
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1935.final.streex##8.EnglishA-wsj_1935-s8-t1
 EN:	It is inhumane to imply that a poor, unemployed woman can not receive immediate relief for her family at fair prices because she does not have as much to protect as a rich family.
 CS:	Je nehumánní naznačovat, že chudá, nezaměstnaná žena nedostane pro svoji rodinu okamžitou pomoc za rozumné ceny proto, že toho nemusí platit tolik, co bohatá rodina. 
 EN_T:	<__A:EnglishA-wsj_1935-s8-t1__is> inhumane #Gen.ACT imply poor unemployed woman not receive immediate relief her family fair prices she not have as much #Cor.ACT protect #Cor.PAT rich family
 CS_T:	Je nehumánní #Benef.BEN #Gen.ADDR #Cor.ACT naznačovat chudá , #Neg.RHEM nezaměstnaná žena nedostane svoji rodinu okamžitou pomoc rozumné ceny #PersPron.ACT toho platit #Neg.RHEM tolik platit #PersPron.PAT bohatá rodina
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1939.final.treex.gz##16.EnglishA-wsj_1939-s16-t1##16.EnglishA-wsj_1939-s16-t1
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1939.final.streex##16.EnglishA-wsj_1939-s16-t1
 EN:	It was the Senate Republicans, though, who had edged away from the veto strategy.
 CS:	Byli to ale senátní republikáni, kdo se odklonil od strategie veta. 
 EN_T:	was Senate Republicans though who <__A:EnglishA-wsj_1939-s16-t1__edged> away veto strategy
 CS_T:	Byli to ale senátní republikáni kdo odklonil strategie veta
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1939.final.treex.gz##23.EnglishA-wsj_1939-s23-t3##23.EnglishA-wsj_1939-s23-t3
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1939.final.streex##23.EnglishA-wsj_1939-s23-t3
 EN:	Isn't it reasonable to assume that the asset you own would be worth more if the government suddenly announced that if you sold it, you would be able to keep 30% more of its gain than you previously believed ?
 CS:	Není snad rozumné předpokládat, že vaše aktiva by měla vyšší cenu, kdyby vláda najednou prohlásila, že když svůj majetek prodáte, budete si moci nechat o 30 % více zisku, než jste se předtím domnívali? 
 EN_T:	<__A:EnglishA-wsj_1939-s23-t3__Is> n't reasonable #Gen.ACT assume asset you own #Cor.PAT be worth more government suddenly announced #Gen.ADDR you sold it you be able #Cor.ACT keep 30 % its gain you previously believed #PersPron.PAT
 CS_T:	#Neg.RHEM Není snad rozumné #Benef.BEN #Cor.ACT předpokládat vaše aktiva měla vyšší cenu vláda najednou prohlásila #Gen.ADDR #PersPron.ACT #PersPron.ACT svůj majetek prodáte si nechat 30 % více zisku #PersPron.PAT #PersPron.ACT předtím domnívali
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1939.final.treex.gz##3.EnglishA-wsj_1939-s3-t4##3.EnglishA-wsj_1939-s3-t4
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1939.final.streex##3.EnglishA-wsj_1939-s3-t4
 EN:	Sen. Bradley has it in his mind that such a tax cut would unravel the tax reform he helped engineer in 1986.
 CS:	Senátor Bradley si myslí, že takové snížení daní by způsobilo rozpad daňové reformy, kterou v roce 1986 pomáhal připravovat. 
 EN_T:	Sen. Bradley <__A:EnglishA-wsj_1939-s3-t4__has> his mind such tax cut unravel tax reform he engineer #Cor.PAT 1986
 CS_T:	Senátor Bradley myslí #Gen.ACT takové snížení daní způsobilo rozpad daňové reformy #Gen.ADDR #PersPron.ACT #Cor.ACT kterou roce 1986 pomáhal připravovat
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1939.final.treex.gz##19.EnglishA-wsj_1939-s19-t3##19.EnglishA-wsj_1939-s19-t3
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1939.final.streex##19.EnglishA-wsj_1939-s19-t3
 EN:	Why should it be so surprising that a 30% cut in the capital-gains tax would have such an enormous impact on the value of the nation's capital stock ?
 CS:	Proč by mělo být tak překvapující, že 30% snížení daně z kapitálového zisku bude na hodnotu národního akciového kapitálu mít tak obrovský dopad? 
 EN_T:	Why <__A:EnglishA-wsj_1939-s19-t3__be> so surprising 30 % cut capital-gains tax have such enormous impact value nation capital stock
 CS_T:	Proč být tak překvapující #Gen.ACT 30 % snížení daně kapitálového zisku hodnotu národního akciového kapitálu mít tak obrovský dopad
 ERR:TYPE=en_perspron	PLEO
 
-/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1936.final.treex.gz##37.EnglishA-wsj_1936-s37-t2##37.EnglishA-wsj_1936-s37-t2
+/net/work/people/mnovak/data/coref_bitext/analysed/pcedt/train/0001/wsj_1936.final.streex##37.EnglishA-wsj_1936-s37-t2
 EN:	Though it's clearly Max's wife who held sway here until her death, now none of the other male residents of this misbegotten household can challenge Max.
 CS:	Ačkoli je jasné, že hlavou rodiny byla až do smrti Maxova žena, žádný z obyvatel mužského pohlaví v této špatné domácnosti se nyní nedokáže Maxovi postavit. 
 EN_T:	's clearly Max wife who <__A:EnglishA-wsj_1936-s37-t2__held> sway here her death now none other male residents this misbegotten household challenge Max
