@@ -62,3 +62,59 @@ $(OUTDIR)/04.treex.all_align_to_t/full.list : $(OUTDIR)/03.treex.cs-ru_align_imp
 		Write::Treex path=$(dir $@) && \
 	find $(dir $@) -name '*.treex.gz' | sed 's|.*/||' | sort > $@
 
+##############################################################################################################
+############# STAGE 5: IMPORT ALIGNMENT ANNOTATION FILES PREPARED FOR PCEDT 2.0 COREF  #######################
+##############################################################################################################
+
+ALI_ANNOT_DIR=../../align_annot
+
+PHASE1_ALI_ANNOT=$(ALI_ANNOT_DIR)/filled/cs-en.all.align.ref.sec19_00-49.ali_annot
+
+$(OUTDIR)/05.treex.pcedtr_gold_align_import.cs-en.all/full.list : $(OUTDIR)/04.treex.all_align_to_t/full.list
+	../bin/import_ali_annot.sh $< $(PHASE1_ALI_ANNOT) $@ "cs-en:gold"
+
+##############################################################################################################
+################# STAGE 6: IMPORT ALIGNMENT ANNOTATION FILES PREPARED FOR PCEDT-R  ###########################
+##############################################################################################################
+
+# The released PCEDT-R does not contain align_info wild attributes. We need to use the intermediate files 
+# from which the PCEDT-R release was generated -> PCEDT-R intermediate data.
+# Intermediate data have no "ru_ref" zone and all alignment covering Russian lies in the "src" zone => it aligns Russian
+# words with those from the automatically analyzed trees - the tokenization differs. To rectify this we have to:
+# 1) create Russian "ref" zone just by copying its "src" and project all gold aligns to the "ref".
+# 		Analysis must be run to get the PDT form of pos tags for the NodeType filter to work.
+# 2) extract ali_annot files annotated fo PCEDT-R from the "ref" zone
+
+PCEDTR_INTER_DATA=/lnet/tspec/tmp/mnovak/tmp/pcedt-r/05.ru-with-ru.poss.import/list
+
+tmp/pcedtr_with_ru-ref/list : $(PCEDTR_INTER_DATA)
+	mkdir -p $(dir $@)
+	treex $(LRC_FLAG) -Lru -Sref \
+		Read::Treex from=@$< \
+		A2A::CopyAtree source_selector=src align=1 \
+		Scen::Analysis::RU tokenized=1 tecto=none \
+		Align::ProjectAlignment layer=a selector=src trg_selector=ref aligns="cs-en:gold;ru-cs:gold;en-ru:gold" \
+		Write::Treex path=$(dir $@) && \
+	find $(dir $@) -name '*.streex' | sed 's|.*/||' | sort > $@
+
+PHASE2_ALI_ANNOT=$(ALI_ANNOT_DIR)/filled/en.poss.align.ref.sec19_00-49.ali_annot
+PHASE3_ALI_ANNOT=$(ALI_ANNOT_DIR)/filled/cs.poss.align.ref.sec19_00-49.ali_annot
+PHASE4_ALI_ANNOT=$(ALI_ANNOT_DIR)/filled/ru.poss.align.ref.sec19_00-49.ali_annot
+
+$(PHASE2_ALI_ANNOT) : LANGUAGE=en
+$(PHASE3_ALI_ANNOT) : LANGUAGE=cs
+$(PHASE4_ALI_ANNOT) : LANGUAGE=ru
+$(PHASE2_ALI_ANNOT) $(PHASE3_ALI_ANNOT) $(PHASE4_ALI_ANNOT) : tmp/pcedtr_with_ru-ref/list
+	all_langs=en,cs,ru; \
+	align_langs=`echo $$all_langs | perl -ne 'chomp $$_; my @langs = split /,/, $$_; print(join ",", grep {$$_ ne "$(LANGUAGE)"} @langs);'`; \
+	treex $(LRC_FLAG) \
+		Read::Treex from=@$< \
+		Align::Annot::Print language=$(LANGUAGE) selector=ref layers=a align_langs=$$align_langs node_types=perspron.poss only_missing_langs=0 > $@
+
+# the new clean align annot file should be compared with the annot file already filled for the PCEDT-R build
+$(OUTDIR)/06.treex.pcedtr_gold_align_import.en.poss/full.list : $(OUTDIR)/05.treex.pcedtr_gold_align_import.cs-en.all/full.list
+	../bin/import_ali_annot.sh $< $(PHASE2_ALI_ANNOT) $@ "cs-en:gold;ru-cs:gold;en-ru:gold"
+$(OUTDIR)/07.treex.pcedtr_gold_align_import.cs.poss/full.list : $(OUTDIR)/06.treex.pcedtr_gold_align_import.en.poss/full.list
+	../bin/import_ali_annot.sh $< $(PHASE3_ALI_ANNOT) $@ "cs-en:gold;ru-cs:gold;en-ru:gold"
+$(OUTDIR)/08.treex.pcedtr_gold_align_import.ru.poss/full.list : $(OUTDIR)/07.treex.pcedtr_gold_align_import.cs.poss/full.list
+	../bin/import_ali_annot.sh $< $(PHASE4_ALI_ANNOT) $@ "cs-en:gold;ru-cs:gold;en-ru:gold"
