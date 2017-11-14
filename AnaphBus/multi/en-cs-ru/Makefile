@@ -74,7 +74,7 @@ $(OUTDIR)/05.treex.pcedtr_gold_align_import.cs-en.all/full.list : $(OUTDIR)/04.t
 	../bin/import_ali_annot.sh $< $(PHASE1_ALI_ANNOT) $@ "cs-en:gold"
 
 ##############################################################################################################
-################# STAGE 6: IMPORT ALIGNMENT ANNOTATION FILES PREPARED FOR PCEDT-R  ###########################
+################# STAGE 6-9: IMPORT ALIGNMENT ANNOTATION FILES PREPARED FOR PCEDT-R  ###########################
 ##############################################################################################################
 
 # The released PCEDT-R does not contain align_info wild attributes. We need to use the intermediate files 
@@ -110,11 +110,21 @@ $(PHASE2_ALI_ANNOT) $(PHASE3_ALI_ANNOT) $(PHASE4_ALI_ANNOT) : tmp/pcedtr_with_ru
 	treex $(LRC_FLAG) \
 		Read::Treex from=@$< \
 		Align::Annot::Print language=$(LANGUAGE) selector=ref layers=a align_langs=$$align_langs node_types=perspron.poss only_missing_langs=0 > $@
+	sed -i 's/final\.streex/streex/g' $@
 
-# the new clean align annot file should be compared with the annot file already filled for the PCEDT-R build
+# import PCEDT-R align_annot files
 $(OUTDIR)/06.treex.pcedtr_gold_align_import.en.poss/full.list : $(OUTDIR)/05.treex.pcedtr_gold_align_import.cs-en.all/full.list
 	../bin/import_ali_annot.sh $< $(PHASE2_ALI_ANNOT) $@ "cs-en:gold;ru-cs:gold;en-ru:gold"
 $(OUTDIR)/07.treex.pcedtr_gold_align_import.cs.poss/full.list : $(OUTDIR)/06.treex.pcedtr_gold_align_import.en.poss/full.list
 	../bin/import_ali_annot.sh $< $(PHASE3_ALI_ANNOT) $@ "cs-en:gold;ru-cs:gold;en-ru:gold"
 $(OUTDIR)/08.treex.pcedtr_gold_align_import.ru.poss/full.list : $(OUTDIR)/07.treex.pcedtr_gold_align_import.cs.poss/full.list
 	../bin/import_ali_annot.sh $< $(PHASE4_ALI_ANNOT) $@ "cs-en:gold;ru-cs:gold;en-ru:gold"
+
+# project PCEDT-R alignment annotations to the tectogrammatical layer
+$(OUTDIR)/09.treex.pcedtr_gold_align.to_ttree/full.list : $(OUTDIR)/08.treex.pcedtr_gold_align_import.ru.poss/full.list
+	mkdir -p $(dir $@)
+	treex $(LRC_FLAG) \
+		Read::Treex from=@$< \
+		Align::ProjectAlignment layer=a trg_layer=t aligns="cs-en:gold;ru-cs:gold;en-ru:gold" \
+		Write::Treex path=$(dir $@) && \
+	find $(dir $@) -name '*.streex' | sed 's|.*/||' | sort > $@
