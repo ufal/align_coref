@@ -17,7 +17,7 @@ PL_TRANSL=data/00.translated/full.list
 # "b" on the second position means that it was parsed to UD2 style.
 # No second position means UD2 style (default).
 
-data/01.analysed_for_annot/full.list : $(PL_TRANSL)
+data/01.analysed_for_annot.ud2/full.list : $(PL_TRANSL)
 	mkdir -p $(dir $@)
 	treex -Lpl \
 		Read::Sentences from='@$<' \
