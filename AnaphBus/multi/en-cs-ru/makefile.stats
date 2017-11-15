@@ -1,0 +1,14 @@
+TREEX=PERL5LIB=$$PERL5LIB:../lib treex
+
+stats/for_lrec2018_abstract/basic.txt :
+	$(TREEX) 
+		Read::Treex from='!data/04.treex.all_align_to_t/*.treex.gz' \
+		Util::Eval language=all anode='print join "\t", ("anode", $$anode->language, $$anode->get_address); print "\n";' \
+		Util::Eval language=all tnode='print join "\t", ("tnode", $$tnode->language, $$tnode->get_address); print "\n";' \
+		> $@
+
+stats/for_lrec2018_abstract/coref.txt :
+	$(TREEX) \
+		Read::Treex from='!data/04.treex.all_align_to_t/*.treex.gz' \
+		AnaphBus::Stats language=all \
+		> $@
