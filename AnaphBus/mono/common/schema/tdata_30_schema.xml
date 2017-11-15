@@ -182,6 +182,7 @@
       <member name="number" type="t-number.type"/>
       <member name="typgroup" type="t-typgroup.type"/>
       <member name="degcmp" type="t-degcmp.type"/>
+      <member name="verbmod" type="t-verbmod.type"/>
       <member name="deontmod" type="t-deontmod.type"/>
       <member name="tense" type="t-tense.type"/>
       <member name="aspect" type="t-aspect.type"/>
@@ -311,6 +312,16 @@
       <value>fac</value>
       <value>decl</value>
       <value>nr</value>
+    </choice>
+  </type>
+
+  <type name="t-verbmod.type">
+    <choice>
+      <value>ind</value>
+      <value>imp</value>
+      <value>cdn</value>
+      <value>nr</value>
+      <value>nil</value>
     </choice>
   </type>
 
