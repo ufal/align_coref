@@ -1,6 +1,6 @@
 set wrap
-highlight OccurEdit ctermbg=lightgray ctermfg=black guibg=lightgray guifg=black
-highlight OccurView ctermbg=green ctermfg=black guibg=green guifg=black
+highlight OccurEdit ctermbg=green ctermfg=black guibg=green guifg=black
+highlight OccurView ctermbg=lightgray ctermfg=black guibg=lightgray guifg=black
 highlight CS ctermfg=DarkCyan guifg=DarkCyan
 highlight EN ctermfg=DarkRed guifg=DarkRed
 highlight RU ctermfg=DarkYellow guifg=DarkYellow
