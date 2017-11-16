@@ -9,3 +9,6 @@ call matchadd('EN', '^EN.*$')
 call matchadd('RU', '^RU.*$')
 call matchadd('OccurEdit', '<[^>]\+>')
 call matchadd('OccurView', '{[^}]\+}')
+
+imap <C-d> <C-o>diw
+nmap <C-d> diw
