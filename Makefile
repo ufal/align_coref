@@ -151,18 +151,20 @@ SELECTOR=ref
 # old trees
 #EVAL_GOLD_ANNOT_TREES_DIR=$(GOLD_ANNOT_TREES_DIR)
 # new trees with extended #Cors
-EVAL_GOLD_ANNOT_TREES_DIR=${COREF_BITEXT_DIR}/data/analysed/pcedt/wsj1900-49/0027.no_coref_supervised_align
+#EVAL_GOLD_ANNOT_TREES_DIR=${COREF_BITEXT_DIR}/data/analysed/pcedt/wsj1900-49/0027.no_coref_supervised_align
+# even newer trees with alignment of English #Cors increased from 34% to 52%
+EVAL_GOLD_ANNOT_TREES_DIR=${COREF_BITEXT_DIR}/data/analysed/pcedt/wsj1900-49/0030.no_coref_supervised_align
 REF_EVAL_DIR=$(GOLD_ANNOT_TREES_DIR)
 
 ###################### ORIGINAL AND RULE-BASED ALIGNMENT #####################
 
 baseline_src_% : $(EVAL_GOLD_ANNOT_TREES_DIR)/%.list
-	rm -rf tmp/baseline/$*.$(ALIGN_ANNOT_LANG).src.$(ANAPH_TYPE)
-	mkdir -p tmp/baseline/$*.$(ALIGN_ANNOT_LANG).src.$(ANAPH_TYPE)
-	-treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Ssrc \
+	tmpdir=`mktemp -d tmp/baseline/$*.$(ALIGN_ANNOT_LANG).src.$(ANAPH_TYPE).XXX`; \
+	treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Ssrc \
 		Read::Treex from=@$< \
-		Align::T::Eval align_reltypes='!gold,!coref_gold,!supervised,!coref_supervised,!robust,.*' align_language=$(ALIGN_ANNOT_LANG2) node_types=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/baseline/$*.$(ALIGN_ANNOT_LANG).src.$(ANAPH_TYPE)/$$1}' && \
-	find tmp/baseline/$*.$(ALIGN_ANNOT_LANG).src.$(ANAPH_TYPE) -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/eval.pl --acc --prf
+		Align::T::Eval align_reltypes='!gold,!coref_gold,!supervised,!coref_supervised,!robust,.*' align_language=$(ALIGN_ANNOT_LANG2) node_types=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{'$$tmpdir'/$$1}' && \
+	echo "RESULTS FOR $*.$(ALIGN_ANNOT_LANG).src.$(ANAPH_TYPE)" && \
+	find $$tmpdir -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/eval.pl --acc --prf
 
 baseline_ref_% : $(REF_EVAL_DIR)/%.list
 	rm -rf tmp/baseline/$*.$(ALIGN_ANNOT_LANG).ref.$(ANAPH_TYPE)
@@ -331,15 +333,15 @@ $(DATA_DIR)/docbased_crossval/%/all.done :
 ######## see $COREF_BITEXT_DIR/makefile.wsj1900-49.data_gener how the data was created ##########
 
 #SRC_SUPERVISED_TO_EVAL_DIR=${COREF_BITEXT_DIR}/data/analysed/pcedt/wsj1900-49/0025.retrained_supervised_align.resolve_fixed_1
-SRC_SUPERVISED_TO_EVAL_DIR=${COREF_BITEXT_DIR}/data/analysed/pcedt/wsj1900-49/0026
+SRC_SUPERVISED_TO_EVAL_DIR=${COREF_BITEXT_DIR}/data/analysed/pcedt/wsj1900-49/0030
 
 supervised_src_% : $(SRC_SUPERVISED_TO_EVAL_DIR)/%.list
-	rm -rf tmp/supervised/$*.$(ALIGN_ANNOT_LANG).src.$(ANAPH_TYPE)
-	mkdir -p tmp/supervised/$*.$(ALIGN_ANNOT_LANG).src.$(ANAPH_TYPE)
+	tmpdir=`mktemp -d tmp/supervised/$*.$(ALIGN_ANNOT_LANG).src.$(ANAPH_TYPE).XXX`; \
 	treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Ssrc \
 		Read::Treex from=@$< \
-		Align::T::Eval align_language=$(ALIGN_ANNOT_LANG2) align_reltypes='supervised,coref_supervised' node_types=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/supervised/$*.$(ALIGN_ANNOT_LANG).src.$(ANAPH_TYPE)/$$1}' && \
-	find tmp/supervised/$*.$(ALIGN_ANNOT_LANG).src.$(ANAPH_TYPE) -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/eval.pl --acc --prf
+		Align::T::Eval align_language=$(ALIGN_ANNOT_LANG2) align_reltypes='supervised,coref_supervised' node_types=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{'$$tmpdir'/$$1}' && \
+	echo "RESULTS FOR $*.$(ALIGN_ANNOT_LANG).src.$(ANAPH_TYPE)" && \
+	find $$tmpdir -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/eval.pl --acc --prf
 
 supervised_ref_% : $(REF_EVAL_DIR)/%.list
 	rm -rf tmp/supervised/$*.$(ALIGN_ANNOT_LANG).ref.$(ANAPH_TYPE)
