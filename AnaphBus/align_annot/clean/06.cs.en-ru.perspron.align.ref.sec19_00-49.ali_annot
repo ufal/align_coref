@@ -609,7 +609,7 @@ EN:	`` Landfill -- loose and unconsolidated earth -- may feel like rock but it b
 RU:	" Мусорная свалка – рыхлая и нетвердая земля – может быть внешне похожа на камень , но ведёт себя подобно жидкости при сотрясении " , – сказал Дуглас Сигар , профессор геонаук из Сан -францисского Государственного Университета , в интервью телевидению .
 CS_T:	řekl [ ale [ - [ Zavážka půda [ a [ ložená [ volně ] nezpevněná ] ] ] být [ pohled [ první ] pevná ] chová [ zatřesete [ <ní> #PersPron.ACT ] #Equal.MANN [ chová [ #Oblfm.MANN tekutina ] ] ] ] #Gen.ADDR rozhovoru [ televizním ] , [ Segar [ Douglas ] profesor [ věd [ geofyzikálních ] univerzitě [ Státní města [ #Forn.ID [ San Franciska ] ] ] ] ] ]
 EN_T:	said [ but [ feel [ -- [ Landfill earth [ and [ loose unconsolidated ] ] ] rock ] behaves [ it liquid shake [ you <it> ] ] ] #Gen.ADDR , [ Segar [ Douglas ] professor [ geosciences University [ #Forn.NE [ San Francisco ] State ] ] ] interview [ televised ] ]
-RU_T:	но [ свалка [ Мусорная земля [ и [ рыхлая нетвердая ] ] ] может [ быть [ #PersPron.ACT похожа [ внешне камень ] ] ] ведёт [ себя жидкости [ сотрясении ] ] ]
+RU_T:	но [ свалка [ Мусорная земля [ и [ рыхлая нетвердая ] ] ] может [ быть [ #PersPron.ACT похожа [ внешне камень ] ] ] ведёт [ себя жидкости [ сотрясении ] ] ] сказал [ , [ Дуглас [ Сигар ] профессор [ геонаук Университета [ -францисского [ Сан ] Государственного ] интервью [ телевидению ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_perspron
 INFO_RU:	
