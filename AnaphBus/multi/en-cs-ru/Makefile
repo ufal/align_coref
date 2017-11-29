@@ -51,14 +51,16 @@ $(OUTDIR)/03.treex.cs-ru_align_imported/full.list : $(OUTDIR)/02a.treex.en-ru_al
 	find $(dir $@) -name '*.treex.gz' | sed 's|.*/||' | sort > $@
 
 ##############################################################################################################
-##################### STAGE 4: TRANSFER ALIGNMENT FROM THE A-LAYER TO THE T_LAYER ############################
+########### STAGE 4: TRANSFER ALIGNMENT FROM THE A-LAYER TO THE T_LAYER AND ALIGN GENERATED NODES ############
 ##############################################################################################################
 
 $(OUTDIR)/04.treex.all_align_to_t/full.list : $(OUTDIR)/03.treex.cs-ru_align_imported/full.list
 	$(TREEX) \
 		Read::Treex from=@$< \
 		Align::T::CopyAlignmentFromAlayer language=en to_language=ru del_prev_align=0 \
+		Align::T::AlignGeneratedNodes language=en to_language=ru monolingual=0 \
 		Align::T::CopyAlignmentFromAlayer language=cs to_language=ru del_prev_align=0 \
+		Align::T::AlignGeneratedNodes language=cs to_language=ru monolingual=0 \
 		Write::Treex path=$(dir $@) && \
 	find $(dir $@) -name '*.treex.gz' | sed 's|.*/||' | sort > $@
 
