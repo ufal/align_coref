@@ -2079,13 +2079,13 @@ INFO_RU:
 
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1931.streex##14.T-wsj1931-001-p1s13a24
 CS:	Federální rezervní banka v podstatě uzavřela zákaznické smlouvy o zpětném odkoupení v hodnotě 1.5 miliardy dolarů , které mají zvýšit likviditu , {což} je během tří dnů třetí sada příkazů zpětné koupě .
-EN:	The Fed did , in fact , execute {$} 1.5 billion of liquidity-enhancing customer repurchase agreements , the third set of repurchase orders in three days .
+EN:	The Fed did , in fact , execute $ 1.5 billion of liquidity-enhancing customer repurchase agreements , the third set of repurchase orders in three days .
 RU:	ФРС действительно оформила повышающих ликвидность сделок репо на $ 1.5 млрд . , и {это} была третья серия сделок репо за три дня .
 CS_T:	, [ uzavřela [ banka [ Federální rezervní ] podstatě smlouvy [ zákaznické odkoupení [ #Gen.ACT zpětném #Gen.PAT hodnotě [ miliardy [ 1.5 dolarů ] ] ] zvýšit [ které likviditu ] ] ] je [ <což> dnů [ tří ] sada [ třetí příkazů [ koupě [ zpětné ] ] ] ] ]
-EN_T:	execute [ Fed fact <$> [ billion [ 1.5 agreements [ liquidity-enhancing repurchase [ customer ] ] ] #EmpVerb.RSTR [ set [ third orders [ repurchase ] days [ three ] ] ] ] ]
+EN_T:	execute [ Fed fact $ [ billion [ 1.5 agreements [ liquidity-enhancing repurchase [ customer ] ] ] #EmpVerb.RSTR [ set [ third orders [ repurchase ] days [ three ] ] ] ] ]
 RU_T:	и [ оформила [ ФРС действительно сделок [ повышающих [ #Cor.ACT ликвидность ] репо ] $ [ млрд [ 1.5 ] ] ] была [ <это> серия [ третья сделок [ репо ] ] дня [ три ] ] ]
 INFO_CS:	TYPE=cs_relpron
-INFO_EN:	ALIGN=ANTE N
+INFO_EN:	__UNMATCHED__ ALIGN=ANTE N
 INFO_RU:	
 
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1931.streex##20.T-wsj1931-001-p1s19a25

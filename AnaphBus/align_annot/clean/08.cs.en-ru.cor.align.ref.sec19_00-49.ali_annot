@@ -12,10 +12,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1902.streex##1.T-wsj1902-001-p1s0a29
 CS:	Banka Great American prohlásila , že její představenstvo schválilo vytvoření holdingové společnosti , která by umožnila spořitelnám {provádět} netradiční bankovní aktivity podle nového federálního zákona .
 EN:	Great American Bank said its board approved the formation of a holding company enabling the savings bank to {pursue} nontraditional banking activities under a new federal law .
-RU:	Банк Great American сказал , что его совет одобрил формирование холдинговой компании , которое позволит сберегательному банку заниматься нетрадиционной банковской деятельностью по новому федеральному закону .
+RU:	Банк Great American сказал , что его совет одобрил формирование холдинговой компании , которое позволит сберегательному банку {заниматься} нетрадиционной банковской деятельностью по новому федеральному закону .
 CS_T:	prohlásila [ Banka [ #Forn.ID [ Great American ] ] schválilo [ představenstvo [ její ] vytvoření [ #PersPron.ACT společnosti [ holdingové umožnila [ která spořitelnám provádět [ <#Cor.ACT> aktivity [ netradiční bankovní ] zákona [ nového federálního ] ] ] ] ] ] ]
 EN_T:	said [ Bank [ American [ Great ] ] #Gen.ADDR approved [ board [ its ] formation [ company [ holding enabling [ #Cor.ACT bank [ savings ] pursue [ <#Cor.ACT> activities [ nontraditional banking ] law [ new federal ] ] ] ] ] ] ]
-RU_T:	сказал [ Банк [ #Forn.ID [ Great American ] ] #Gen.ADDR одобрил [ совет [ его ] формирование [ #PersPron.ACT компании [ холдинговой ] позволит [ которое банку [ сберегательному ] заниматься [ #Cor.ACT деятельностью [ нетрадиционной банковской закону [ новому федеральному ] ] ] ] ] ] ]
+RU_T:	сказал [ Банк [ #Forn.ID [ Great American ] ] #Gen.ADDR одобрил [ совет [ его ] формирование [ #PersPron.ACT компании [ холдинговой ] позволит [ которое банку [ сберегательному ] заниматься [ <#Cor.ACT> деятельностью [ нетрадиционной банковской закону [ новому федеральному ] ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -23,10 +23,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1902.streex##2.T-wsj1902-001-p1s1a19
 CS:	Prvořadým úkolem navrhované holdingové společnosti by bylo {dovolit} bance Great American pokračovat v aktivitách výstavby nemovitostí , prohlásila .
 EN:	The proposed holding company 's primary purpose would be to {allow} Great American to continue engaging in real estate development activities , it said .
-RU:	Основная цель предполагаемой холдинговой компании состояла бы в том , чтобы позволить Great American продолжить занятия операциями по развитию недвижимости , сказал он .
+RU:	Основная цель предполагаемой холдинговой компании состояла бы в том , чтобы {позволить} Great American продолжить занятия операциями по развитию недвижимости , сказал он .
 CS_T:	prohlásila [ #PersPron.ACT bylo [ úkolem [ Prvořadým společnosti [ navrhované holdingové ] ] dovolit [ <#Cor.ACT> bance [ #Forn.ID [ Great American ] ] pokračovat [ #Cor.ACT aktivitách [ výstavby [ nemovitostí ] ] ] ] ] ]
 EN_T:	said [ be [ purpose [ company [ proposed holding ] primary ] allow [ <#PersPron.ACT> continue [ American [ Great ] engaging [ activities [ development [ estate [ real ] ] ] ] ] ] ] it #Gen.ADDR ]
-RU_T:	сказал [ состояла [ цель [ Основная компании [ предполагаемой холдинговой ] ] том [ позволить [ #Cor.ACT #Forn.ADDR [ Great American ] продолжить [ #Cor.ACT занятия [ операциями [ развитию [ недвижимости ] ] ] ] ] ] ] #Gen.ADDR он ]
+RU_T:	сказал [ состояла [ цель [ Основная компании [ предполагаемой холдинговой ] ] том [ позволить [ <#Cor.ACT> #Forn.ADDR [ Great American ] продолжить [ #Cor.ACT занятия [ операциями [ развитию [ недвижимости ] ] ] ] ] ] ] #Gen.ADDR он ]
 INFO_CS:	ALIGN=OK	#Perspron=#Cor
 INFO_EN:	TYPE=en_perspron_unexpr
 INFO_RU:	
@@ -34,10 +34,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1902.streex##2.T-wsj1902-001-p1s1a20
 CS:	Prvořadým úkolem navrhované holdingové společnosti by bylo dovolit bance Great American {pokračovat} v aktivitách výstavby nemovitostí , prohlásila .
 EN:	The proposed holding company 's primary purpose would be to allow Great {American} to continue engaging in real estate development activities , it said .
-RU:	Основная цель предполагаемой холдинговой компании состояла бы в том , чтобы позволить Great American продолжить занятия операциями по развитию недвижимости , сказал он .
+RU:	Основная цель предполагаемой холдинговой компании состояла бы в том , чтобы позволить Great American {продолжить} занятия операциями по развитию недвижимости , сказал он .
 CS_T:	prohlásila [ #PersPron.ACT bylo [ úkolem [ Prvořadým společnosti [ navrhované holdingové ] ] dovolit [ #Cor.ACT bance [ #Forn.ID [ Great American ] ] pokračovat [ <#Cor.ACT> aktivitách [ výstavby [ nemovitostí ] ] ] ] ] ]
 EN_T:	said [ be [ purpose [ company [ proposed holding ] primary ] allow [ #PersPron.ACT continue [ <American> [ Great ] engaging [ activities [ development [ estate [ real ] ] ] ] ] ] ] it #Gen.ADDR ]
-RU_T:	сказал [ состояла [ цель [ Основная компании [ предполагаемой холдинговой ] ] том [ позволить [ #Cor.ACT #Forn.ADDR [ Great American ] продолжить [ #Cor.ACT занятия [ операциями [ развитию [ недвижимости ] ] ] ] ] ] ] #Gen.ADDR он ]
+RU_T:	сказал [ состояла [ цель [ Основная компании [ предполагаемой холдинговой ] ] том [ позволить [ #Cor.ACT #Forn.ADDR [ Great American ] продолжить [ <#Cor.ACT> занятия [ операциями [ развитию [ недвижимости ] ] ] ] ] ] ] #Gen.ADDR он ]
 INFO_CS:	TYPE=cs_cor
 INFO_EN:	ANTE REWORD	DIFF_FRAME
 INFO_RU:	
@@ -45,10 +45,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1903.streex##4.T-wsj1903-001-p1s3a19
 CS:	Minulý pátek řekl zaměstnancům Ms . , že časopis v lednu začne {vydávat} bez reklam .
 EN:	Last Friday , he told the staff of Ms. that the magazine in January would begin {publishing} without advertising .
-RU:	В прошлую пятницу он сказал персоналу Ms , что в январе журнал начнёт выходить без рекламы .
+RU:	В прошлую пятницу он сказал персоналу Ms , что в январе журнал начнёт {выходить} без рекламы .
 CS_T:	řekl [ #PersPron.ACT pátek [ Minulý ] zaměstnancům [ #Idph.RSTR [ Ms ] ] začne [ #PersPron.ACT vydávat [ <#Cor.ACT> časopis lednu reklam ] ] ]
 EN_T:	told [ Friday [ Last ] he staff [ Ms. ] begin [ magazine January publishing [ <#Cor.ACT> #Gen.PAT advertising ] ] ]
-RU_T:	сказал [ пятницу [ прошлую ] он персоналу [ Ms ] начнёт [ январе журнал выходить [ #Cor.ACT рекламы ] ] ]
+RU_T:	сказал [ пятницу [ прошлую ] он персоналу [ Ms ] начнёт [ январе журнал выходить [ <#Cor.ACT> рекламы ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -56,10 +56,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1903.streex##5.T-wsj1903-001-p1s4a32
 CS:	Lang skoncuje s drahým honem za nákladem , nemluvě o zaměstnancích odbytu , a pokusí se {vydávat} tento 17 let starý časopis pouze s podporou příjmů z počtu výtisků .
 EN:	Mr. Lang will do away with expensive circulation drives , not to mention sales staff , and attempt to {publish} the 17-year-old magazine supported by circulation revenue alone .
-RU:	Г-н Лэнг собирается отказаться от дорогого тиража , а также от торгового персонала , и попытается издать журнал с 17-летней историей только на выручку от тиража .
+RU:	Г-н Лэнг собирается отказаться от дорогого тиража , а также от торгового персонала , и попытается {издать} журнал с 17-летней историей только на выручку от тиража .
 CS_T:	a [ Lang skoncuje [ honem [ drahým nákladem ] nemluvě [ zaměstnancích [ odbytu ] ] ] pokusí [ vydávat [ <#Cor.ACT> časopis [ tento starý [ let [ 17 ] ] ] podporou [ pouze příjmů [ počtu [ výtisků ] ] ] ] ] ]
 EN_T:	and [ Lang [ Mr. ] do [ circulation [ expensive drives mention [ not #Gen.ACT staff [ sales ] ] ] ] attempt [ publish [ <#Cor.ACT> magazine [ 17-year-old supported [ #Cor.PAT alone revenue [ circulation ] ] ] ] ] ]
-RU_T:	и [ Лэнг [ Г-н ] собирается [ отказаться [ #Cor.ACT а [ тиража [ дорогого ] также персонала [ торгового ] ] ] ] попытается [ издать [ #Cor.ACT журнал [ историей [ 17-летней ] ] только выручку [ тиража ] ] ] ]
+RU_T:	и [ Лэнг [ Г-н ] собирается [ отказаться [ #Cor.ACT а [ тиража [ дорогого ] также персонала [ торгового ] ] ] ] попытается [ издать [ <#Cor.ACT> журнал [ историей [ 17-летней ] ] только выручку [ тиража ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -67,10 +67,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1903.streex##12.T-wsj1903-001-p1s11a15
 CS:	Jejich reakcí bylo nedělat nic {a} nechat to odeznít . "
 EN:	Their reaction was to do nothing {and} ride it out . ''
-RU:	Их реакция состояла в том , чтобы не сделать ничего , но выйти из затруднительного положения "
+RU:	Их реакция состояла в том , чтобы не сделать ничего , {но} выйти из затруднительного положения "
 CS_T:	bylo [ reakcí [ Jejich ] a [ <#Cor.ACT> nedělat [ #Neg.RHEM nic ] nechat [ to odeznít [ #Cor.ACT ] ] ] ]
 EN_T:	was [ reaction [ Their ] and [ <#Cor.ACT> do [ nothing ] ride [ it ] ] ]
-RU_T:	состояла [ реакция [ Их ] том [ но [ не сделать [ ничего ] #PersPron.ACT выйти [ положения [ затруднительного ] ] ] ] ]
+RU_T:	состояла [ реакция [ Их ] том [ но [ не сделать [ ничего ] <#PersPron.ACT> выйти [ положения [ затруднительного ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -111,10 +111,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1904.streex##4.T-wsj1904-001-p1s3a45
 CS:	Komise zjistila , že pokud by se britská vláda pokusila {zabránit} fúzi , společnost Rhone - Poulenc by pravděpodobně odpověděla uzavřením své továrny na salicyláty , kterou společnost Monsanto provozuje ve Walesu , čímž by problém dostala mimo působnost britské jurisdikce .
 EN:	The commission found that if the British government attempted to {block} the merger , Rhone-Poulenc would likely respond by closing the salicylates plant Monsanto operates in Wales , removing the matter from U.K. jurisdiction .
-RU:	Комиссия сочла , что если бы британское правительство попыталось блокировать слияние , Рона–Пуленк , вероятно , в ответ закрыл бы салицилатный завод , которым компания Monsanto управляет в Уэльсе , тем самым выведя производство из-под юрисдикции Великобритании .
+RU:	Комиссия сочла , что если бы британское правительство попыталось {блокировать} слияние , Рона–Пуленк , вероятно , в ответ закрыл бы салицилатный завод , которым компания Monsanto управляет в Уэльсе , тем самым выведя производство из-под юрисдикции Великобритании .
 CS_T:	zjistila [ Komise #Gen.PAT , [ společnost [ #Forn.ID [ Rhone Poulenc ] ] odpověděla [ pokusila [ vláda [ britská ] zabránit [ <#Cor.ACT> fúzi ] ] #PersPron.PAT pravděpodobně uzavřením [ #PersPron.ACT továrny [ své salicyláty provozuje [ kterou společnost [ Monsanto ] Walesu ] ] ] ] dostala [ čímž problém působnost [ jurisdikce [ britské ] ] ] ] ]
 EN_T:	found [ commission respond [ attempted [ government [ British ] block [ <#Cor.ACT> merger ] ] Rhone-Poulenc likely #PersPron.PAT closing [ #Cor.ACT plant [ salicylates operates [ Monsanto #Cor.PAT Wales ] ] removing [ #Cor.ACT matter jurisdiction [ U.K. ] ] ] ] ]
-RU_T:	сочла [ Комиссия закрыл [ попыталось [ правительство [ британское ] блокировать [ #Cor.ACT слияние ] ] Рона–Пуленк вероятно ответ завод [ салицилатный управляет [ которым компания [ Monsanto ] Уэльсе ] ] выведя [ тем [ самым ] #PersPron.ACT производство юрисдикции [ Великобритании ] ] ] ]
+RU_T:	сочла [ Комиссия закрыл [ попыталось [ правительство [ британское ] блокировать [ <#Cor.ACT> слияние ] ] Рона–Пуленк вероятно ответ завод [ салицилатный управляет [ которым компания [ Monsanto ] Уэльсе ] ] выведя [ тем [ самым ] #PersPron.ACT производство юрисдикции [ Великобритании ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -155,10 +155,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1907.streex##3.T-wsj1907-001-p1s2a16
 CS:	Po učinění nabídky společnost StateWest odmítla {oznámit} podrobnosti a o totéž požádala společnost Mesa .
 EN:	When it made the offer , StatesWest declined to {disclose} details and asked Mesa to do the same .
-RU:	Когда StatesWest предложила сделку , она отказалась раскрывать детали и попросила Mesa поступить так же .
+RU:	Когда StatesWest предложила сделку , она отказалась {раскрывать} детали и попросила Mesa поступить так же .
 CS_T:	a [ učinění [ #PersPron.ACT nabídky ] společnost [ StateWest ] odmítla [ oznámit [ <#Cor.ACT> podrobnosti ] ] požádala [ totéž společnost [ Mesa ] ] ]
 EN_T:	and [ made [ When it offer ] StatesWest declined [ disclose [ <#Cor.ACT> #Gen.ADDR details ] ] asked [ Mesa do [ #Cor.ACT same ] ] ]
-RU_T:	и [ предложила [ StatesWest сделку ] она отказалась [ раскрывать [ #Cor.ACT детали ] ] попросила [ Mesa поступить [ #PersPron.ACT так [ же ] ] ] ]
+RU_T:	и [ предложила [ StatesWest сделку ] она отказалась [ раскрывать [ <#Cor.ACT> детали ] ] попросила [ Mesa поступить [ #PersPron.ACT так [ же ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -177,10 +177,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1915.streex##40.T-wsj1915-001-p1s39a61
 CS:	DAYTON HUDSON CORP . , maloobchodní společnost v Minneapolisu s ročním obratem 12.2 miliardy dolarů , registrovaná na Newyorské burze cenných papírů , uzavřela sedm ze svých 13 diskontních prodejen Target v oblasti zátoky a devět ze svých 20 obchodních domů Mervyn ' s kvůli nedokončeným revizím stavebních inženýrů nebo žádostem úřadů , které se snažily {udržet} nakupující mimo dálnice .
 EN:	DAYTON HUDSON CORP. , Minneapolis , retailer , annual sales of $ 12.2 billion , NYSE , closed seven of its 13 Bay-area Target discount stores and nine of its 20 Mervyn 's department stores because of pending reviews by structural engineers or requests from authorities , who were trying to {keep} shoppers off the freeways .
-RU:	КОРПОРАЦИЯ DAYTON HUDSON , Миннеаполис , розничный магазин , годовые продажи $ 12.2 млрд . , NYSE , закрыла 7 из своих 13 дисконтных магазинов Target в области Залива и 9 из 20 универсальных магазинов Mervyn's , из-за отсутствия отчетов от структурных инженеров , а также рекомендаций администрации , которае пыталась держать покупателей подальше от шоссе .
+RU:	КОРПОРАЦИЯ DAYTON HUDSON , Миннеаполис , розничный магазин , годовые продажи $ 12.2 млрд . , NYSE , закрыла 7 из своих 13 дисконтных магазинов Target в области Залива и 9 из 20 универсальных магазинов Mervyn's , из-за отсутствия отчетов от структурных инженеров , а также рекомендаций администрации , которае пыталась {держать} покупателей подальше от шоссе .
 CS_T:	uzavřela [ , [ společnost [ maloobchodní Minneapolisu obratem [ ročním miliardy [ 12.2 dolarů ] ] ] registrovaná [ burze [ Newyorské papírů [ cenných ] ] ] #Forn.ACT [ DAYTON HUDSON CORP . ] ] a [ sedm [ prodejen [ svých 13 diskontních Target zátoky ] ] devět [ domů [ svých 20 #Forn.ID [ Mervyn ' s ] obchodních ] ] ] nebo [ revizím [ nedokončeným inženýrů [ stavebních ] ] žádostem [ úřadů [ snažily [ které udržet [ <#Cor.ACT> nakupující dálnice ] ] ] ] ] ]
 EN_T:	closed [ , [ CORP. [ HUDSON [ DAYTON ] Minneapolis ] retailer #EmpVerb.RSTR [ sales [ annual $ [ billion [ 12.2 ] ] ] ] NYSE ] and [ seven [ stores [ its 13 Bay-area Target discount ] ] nine [ stores [ its 20 Mervyn department ] ] ] or [ reviews [ pending [ #Cor.ACT ] engineers [ structural ] ] requests [ authorities [ trying [ who keep [ <#Cor.ACT> shoppers freeways ] ] ] ] ] ]
-RU_T:	закрыла [ , [ КОРПОРАЦИЯ [ DAYTON [ HUDSON ] ] Миннеаполис магазин [ розничный ] продажи [ годовые млрд [ $ 12.2 NYSE ] ] ] и [ магазинов [ 7 своих 13 дисконтных Target области [ Залива ] ] магазинов [ 9 20 универсальных Mervyn's ] ] а [ отсутствия [ отчетов [ инженеров [ структурных ] ] ] также рекомендаций [ администрации [ пыталась [ которае держать [ #Cor.ACT покупателей подальше [ шоссе ] ] ] ] ] ] ]
+RU_T:	закрыла [ , [ КОРПОРАЦИЯ [ DAYTON [ HUDSON ] ] Миннеаполис магазин [ розничный ] продажи [ годовые млрд [ $ 12.2 NYSE ] ] ] и [ магазинов [ 7 своих 13 дисконтных Target области [ Залива ] ] магазинов [ 9 20 универсальных Mervyn's ] ] а [ отсутствия [ отчетов [ инженеров [ структурных ] ] ] также рекомендаций [ администрации [ пыталась [ которае держать [ <#Cor.ACT> покупателей подальше [ шоссе ] ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -199,10 +199,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1915.streex##94.T-wsj1915-001-p1s93a60
 CS:	SPOLEČNOST PROCTER & GAMBLE CO . , se sídlem v Cincinnati , její továrna na kávu Folgers Coffee v jižním San Francisku byla zavřena vzápětí po zemětřesení , neutrpěla však žádné větší škody , nikdo nebyl zraněn a jakékoliv ztráty v produkci dokáží {nahradit} ostatní továrny v zemi .
 EN:	PROCTER & GAMBLE CO. , Cincinnati-based company 's Folgers Coffee plant in South San Francisco was closed following the earthquake , no injuries or major damage , other {plants} around country can make up for any lost production .
-RU:	КОМПАНИЯ PROCTER & GAMBLE : Кофейный завод Folgers в Сан -Франциско , принадлежащий этой компании из Цинциннати , был закрыт после землетрясения , но обошлось без ранений и сильных повреждений , другие заводы компании смогут наверстать весь утраченный объем производства .
+RU:	КОМПАНИЯ PROCTER & GAMBLE : Кофейный завод Folgers в Сан -Франциско , принадлежащий этой компании из Цинциннати , был закрыт после землетрясения , но обошлось без ранений и сильных повреждений , другие заводы компании смогут {наверстать} весь утраченный объем производства .
 CS_T:	, [ SPOLEČNOST [ #Forn.ID [ PROCTER & GAMBLE CO . ] sídlem [ #Forn.LOC [ Cincinnati ] ] ] však [ zavřena [ #PersPron.ACT továrna [ její #Forn.LOC [ jižním San Francisku ] #Forn.ID [ Folgers Coffee ] kávu ] vzápětí [ zemětřesení ] ] a [ neutrpěla [ #Neg.RHEM #PersPron.ACT škody [ žádné větší ] ] zraněn [ #Gen.ACT nikdo #Neg.RHEM ] dokáží [ nahradit [ ztráty [ jakékoliv produkci ] <#Cor.ACT> ] továrny [ ostatní zemi ] ] ] ] ]
 EN_T:	, [ was [ CO. [ & [ PROCTER GAMBLE ] ] plant [ company [ Cincinnati-based ] Coffee [ Folgers ] #Forn.LOC [ San Francisco [ South ] ] ] closed earthquake ] #EmpVerb.PRED [ or [ injuries [ no ] damage [ major ] ] ] make [ <plants> [ other country ] production [ any lost ] ] ]
-RU_T:	#Comma.CONJ [ КОМПАНИЯ [ PROCTER [ GAMBLE ] ] но [ закрыт [ завод [ Кофейный Folgers Сан [ -Франциско ] принадлежащий [ #Cor.ACT компании [ этой Цинциннати ] ] ] #Gen.ACT землетрясения ] обошлось [ #PersPron.ACT и [ ранений повреждений [ сильных ] ] ] ] смогут [ заводы [ другие компании ] наверстать [ #Cor.ACT объем [ весь утраченный [ #Cor.PAT ] производства ] ] ] ]
+RU_T:	#Comma.CONJ [ КОМПАНИЯ [ PROCTER [ GAMBLE ] ] но [ закрыт [ завод [ Кофейный Folgers Сан [ -Франциско ] принадлежащий [ #Cor.ACT компании [ этой Цинциннати ] ] ] #Gen.ACT землетрясения ] обошлось [ #PersPron.ACT и [ ранений повреждений [ сильных ] ] ] ] смогут [ заводы [ другие компании ] наверстать [ <#Cor.ACT> объем [ весь утраченный [ #Cor.PAT ] производства ] ] ] ]
 INFO_CS:	TYPE=cs_cor
 INFO_EN:	ANTE REWORD	AUX_VERB
 INFO_RU:	
@@ -243,10 +243,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1916.streex##9.T-wsj1916-001-p1s8a35
 CS:	Caltrans plánuje {přidat} druhé patro pro autobusy a autoparky nad střední část 2 , 5mílového úseku dálnice Harbor Freewary , který se nachází přímo na jih od Los Angeles , poblíž stadionu Memorial Coliseum .
 EN:	Caltrans plans to {add} a second deck for buses and car pools above the median of a 2.5-mile stretch of the Harbor Freeway just south of Los Angeles , near the Memorial Coliseum .
-RU:	Калтрэнс собирается добавить второй уровень для автобусов и машин с пассажирами над разделительной полосой 2.5-мильного участка Шоссе Харбор к югу от Лос-Анджелеса , у Мемориала Колизей .
+RU:	Калтрэнс собирается {добавить} второй уровень для автобусов и машин с пассажирами над разделительной полосой 2.5-мильного участка Шоссе Харбор к югу от Лос-Анджелеса , у Мемориала Колизей .
 CS_T:	plánuje [ Caltrans přidat [ <#Cor.ACT> patro [ druhé a [ autobusy autoparky ] ] část [ střední úseku [ 5mílového [ 2 ] dálnice [ #Forn.ID [ Harbor Freewary ] ] nachází [ který jih [ přímo #Forn.DIR1 [ Los Angeles ] ] stadionu [ #Forn.ID [ Memorial Coliseum ] ] ] ] ] ] ]
 EN_T:	plans [ Caltrans add [ <#Cor.ACT> deck [ second and [ buses pools [ car ] ] ] median [ stretch [ 2.5-mile Freeway [ Harbor ] just south [ #Forn.DIR1 [ Los Angeles ] ] Coliseum [ Memorial ] ] ] ] ]
-RU_T:	собирается [ Калтрэнс добавить [ #Cor.ACT уровень [ второй ] и [ автобусов машин [ пассажирами ] ] полосой [ разделительной участка [ 2.5-мильного Шоссе [ Харбор ] ] ] югу [ Лос-Анджелеса ] Мемориала [ Колизей ] ] ]
+RU_T:	собирается [ Калтрэнс добавить [ <#Cor.ACT> уровень [ второй ] и [ автобусов машин [ пассажирами ] ] полосой [ разделительной участка [ 2.5-мильного Шоссе [ Харбор ] ] ] югу [ Лос-Анджелеса ] Мемориала [ Колизей ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -254,10 +254,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1916.streex##24.T-wsj1916-001-p1s23a16
 CS:	Mluvčí úřadu Caltrans Jim Drago v Sacramentu odmítl {uvést} strojírenskou firmu , která výztuž vyrobila .
 EN:	Caltrans spokesman Jim Drago in Sacramento declined to {identify} the engineering firm that did the reinforcement work .
-RU:	Представитель Калтрэнс Джим Драго из Сакраменто отказался назвать строительную фирму , которая производила работы по усилению .
+RU:	Представитель Калтрэнс Джим Драго из Сакраменто отказался {назвать} строительную фирму , которая производила работы по усилению .
 CS_T:	odmítl [ Drago [ Mluvčí [ úřadu [ Caltrans Sacramentu ] ] Jim ] uvést [ <#Cor.ACT> firmu [ strojírenskou vyrobila [ která výztuž ] ] ] ]
 EN_T:	declined [ Drago [ spokesman [ Caltrans ] Jim ] Sacramento identify [ <#Cor.ACT> firm [ engineering did [ that work [ reinforcement ] ] ] ] ]
-RU_T:	отказался [ Представитель [ Калтрэнс Джим [ Драго ] Сакраменто ] назвать [ #Cor.ACT фирму [ строительную производила [ которая работы [ усилению ] ] ] ] ]
+RU_T:	отказался [ Представитель [ Калтрэнс Джим [ Драго ] Сакраменто ] назвать [ <#Cor.ACT> фирму [ строительную производила [ которая работы [ усилению ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -276,10 +276,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1916.streex##34.T-wsj1916-001-p1s33a26
 CS:	" Důvodem je , že technologie je taková , že stavby s více sloupy nejsme schopni {zmodernizovat} , " uvedl .
 EN:	`` The reason is that the technology is such that we 're not able to {retrofit} multi-column structures , '' he said .
-RU:	" Причина в том , что технология не позволяет модернизировать конструкции с несколькими рядами столбов " , – сказал он .
+RU:	" Причина в том , что технология не позволяет {модернизировать} конструкции с несколькими рядами столбов " , – сказал он .
 CS_T:	uvedl [ #PersPron.ACT je [ Důvodem je [ technologie taková [ nejsme [ #Neg.RHEM #PersPron.ACT schopni [ zmodernizovat [ <#Cor.ACT> stavby [ sloupy [ více ] ] ] ] ] ] ] ] ]
 EN_T:	said [ is [ reason is [ technology such [ 're [ we not able [ retrofit [ <#Cor.ACT> #Gen.ADDR structures [ multi-column ] ] ] ] ] ] ] he #Gen.ADDR ]
-RU_T:	сказал [ #EmpVerb.EFF [ Причина том [ не позволяет [ технология модернизировать [ #Gen.ACT конструкции [ рядами [ несколькими столбов ] ] ] ] ] ] он ]
+RU_T:	сказал [ #EmpVerb.EFF [ Причина том [ не позволяет [ технология модернизировать [ <#Gen.ACT> конструкции [ рядами [ несколькими столбов ] ] ] ] ] ] он ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -287,10 +287,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1917.streex##5.T-wsj1917-001-p1s4a45
 CS:	Robert I . Toussie , generální partner investiční skupiny , uvedl , že reakce společnosti Lionel odráží neústupnost managementu , a řekl , že představitelům společnosti se nepodařilo {předložit} lepší alternativu , než je nabídka jeho skupiny .
 EN:	Robert I. Toussie , general partner of the investment group , said the Lionel response reflected management 's entrenched position , saying officials had failed to {come} up with a better alternative to his group 's offer .
-RU:	Роберт Ай . Тоусси , главный партнёр инвестиционной группы , сказал , что ответ Lionel отражает консервативную позицию руководства , и что официальные лица не смогли предложить лучшую альтернативу предложению его группы .
+RU:	Роберт Ай . Тоусси , главный партнёр инвестиционной группы , сказал , что ответ Lionel отражает консервативную позицию руководства , и что официальные лица не смогли {предложить} лучшую альтернативу предложению его группы .
 CS_T:	a [ , [ Toussie [ Robert I ] partner [ generální skupiny [ investiční ] ] ] uvedl [ odráží [ reakce [ společnosti [ Lionel ] ] neústupnost [ managementu ] ] ] řekl [ #Gen.ADDR nepodařilo [ #Neg.RHEM představitelům [ společnosti ] předložit [ <#Cor.ACT> #Gen.ADDR alternativu [ lepší [ je [ lepší nabídka [ skupiny [ jeho ] ] ] ] ] ] ] ] ]
 EN_T:	said [ , [ Toussie [ Robert I. ] partner [ general group [ investment ] ] ] #Gen.ADDR reflected [ response [ Lionel ] position [ management entrenched [ #Gen.ACT #Cor.PAT ] ] ] saying [ #Cor.ACT #Gen.ADDR failed [ officials come [ <#Cor.ACT> alternative [ better offer [ group [ his ] ] ] ] ] ] ]
-RU_T:	сказал [ , [ Тоусси [ Роберт Ай ] партнёр [ главный группы [ инвестиционной ] ] ] и [ отражает [ ответ [ Lionel ] позицию [ консервативную руководства ] ] не смогли [ лица [ официальные ] предложить [ #Cor.ACT альтернативу [ лучшую предложению [ группы [ его ] ] ] ] ] ] ]
+RU_T:	сказал [ , [ Тоусси [ Роберт Ай ] партнёр [ главный группы [ инвестиционной ] ] ] и [ отражает [ ответ [ Lionel ] позицию [ консервативную руководства ] ] не смогли [ лица [ официальные ] предложить [ <#Cor.ACT> альтернативу [ лучшую предложению [ группы [ его ] ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -298,10 +298,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1918.streex##1.T-wsj1918-001-p1s0a23
 CS:	Úsilí federálního vyjednavače {obnovit} dialog mezi společností Boeing Co . a odbory strojníků očividně selhalo a žádné další schůzky nejsou v plánu .
 EN:	Efforts by a federal mediator to {reignite} talks between Boeing Co. and the Machinists union apparently failed , and no further meetings are scheduled .
-RU:	Попытки федерального посредника возобновить переговоры между компанией Boeing и Ассоциацией Механиков потерпели явную неудачу , и дальнейшие встречи не запланированы .
+RU:	Попытки федерального посредника {возобновить} переговоры между компанией Boeing и Ассоциацией Механиков потерпели явную неудачу , и дальнейшие встречи не запланированы .
 CS_T:	a [ selhalo [ Úsilí [ vyjednavače [ federálního ] obnovit [ <#Cor.ACT> dialog [ a [ společností [ #Forn.ID [ Boeing Co . ] ] odbory [ strojníků ] ] ] ] ] očividně ] nejsou [ #Neg.RHEM schůzky [ žádné další ] plánu ] ]
 EN_T:	and [ failed [ Efforts [ mediator [ federal ] reignite [ <#Cor.ACT> talks [ and [ Co. [ Boeing ] union [ Machinists ] ] ] ] ] apparently ] scheduled [ meetings [ no further ] #Gen.ACT ] ]
-RU_T:	и [ потерпели [ Попытки [ посредника [ федерального ] возобновить [ #Cor.ACT переговоры [ компанией [ и [ Boeing Ассоциацией [ Механиков ] ] ] ] ] ] неудачу [ явную ] ] не запланированы [ встречи [ дальнейшие ] ] ]
+RU_T:	и [ потерпели [ Попытки [ посредника [ федерального ] возобновить [ <#Cor.ACT> переговоры [ компанией [ и [ Boeing Ассоциацией [ Механиков ] ] ] ] ] ] неудачу [ явную ] ] не запланированы [ встречи [ дальнейшие ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -309,10 +309,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1918.streex##7.T-wsj1918-001-p1s6a37
 CS:	Jak dnes stávka pokračuje 15 . dnem , někteří členové začínají {být} nervózní , uzavřel mluvčí , ale většina z 55000 strojníků je připravena " to vydržet , ať to trvá , jak dlouho chce " .
 EN:	As the strike enters its 15th day today , some members are getting nervous , the spokesman conceded , but the majority of the 55,000 Machinists are prepared to `` wait it out as long as it takes .
-RU:	Поскольку сегодня начинается 15-й день забастовки , некоторые члены союза начинают нервничать , как признался их представитель , но большинство из 55000 механиков готовы " ждать столько , сколько потребуется " .
+RU:	Поскольку сегодня начинается 15-й день забастовки , некоторые члены союза начинают {нервничать} , как признался их представитель , но большинство из 55000 механиков готовы " ждать столько , сколько потребуется " .
 CS_T:	uzavřel [ #EmpVerb.COMPL [ ale [ začínají [ pokračuje [ dnes stávka dnem [ 15 ] ] členové [ někteří ] být [ <#Cor.ACT> nervózní ] ] je [ většina [ strojníků [ 55000 ] ] připravena [ vydržet [ #Cor.ACT to trvá [ to chce [ #PersPron.PAT #PersPron.ACT dlouho [ jak ] ] ] ] ] ] ] #Cor.ACT ] #Gen.PAT mluvčí ]
 EN_T:	but [ getting [ enters [ strike day [ its 15th ] today ] members [ some ] nervous ] conceded [ spokesman #PersPron.PAT ] prepared [ majority [ Machinists [ 55,000 ] ] wait [ #Cor.ACT it long [ as [ takes [ it #PersPron.PAT ] ] ] ] ] ]
-RU_T:	но [ начинают [ начинается [ сегодня день [ 15-й забастовки ] ] члены [ некоторые союза ] нервничать [ #Cor.ACT ] признался [ #PersPron.PAT представитель [ их ] ] ] готовы [ большинство [ механиков [ 55000 ] ] ждать [ #Cor.ACT столько [ потребуется [ сколько ] ] ] ] ]
+RU_T:	но [ начинают [ начинается [ сегодня день [ 15-й забастовки ] ] члены [ некоторые союза ] нервничать [ <#Cor.ACT> ] признался [ #PersPron.PAT представитель [ их ] ] ] готовы [ большинство [ механиков [ 55000 ] ] ждать [ #Cor.ACT столько [ потребуется [ сколько ] ] ] ] ]
 INFO_CS:	TYPE=cs_cor
 INFO_EN:	0 REWORD	MISS_VERB
 INFO_RU:	
@@ -342,10 +342,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1920.streex##7.T-wsj1920-001-p1s6a17
 CS:	Bush sám v podstatě přiznal , že se on a jeho poradci snaží {odvrátit} kritiku .
 EN:	Mr. Bush himself essentially acknowledged that he and his aides were trying to {head} off criticism .
-RU:	Господин Буш сам , по существу , признал , что он и его помощники пытаются предотвратить критику .
+RU:	Господин Буш сам , по существу , признал , что он и его помощники пытаются {предотвратить} критику .
 CS_T:	přiznal [ Bush [ sám ] podstatě snaží [ a [ on poradci [ jeho ] ] odvrátit [ <#Cor.ACT> kritiku ] ] ]
 EN_T:	acknowledged [ Bush [ Mr. himself ] essentially trying [ and [ he aides [ his ] ] head [ <#Cor.ACT> criticism ] ] ]
-RU_T:	признал [ Господин [ Буш ] сам существу пытаются [ и [ он помощники [ его ] ] предотвратить [ #Cor.ACT критику ] ] ]
+RU_T:	признал [ Господин [ Буш ] сам существу пытаются [ и [ он помощники [ его ] ] предотвратить [ <#Cor.ACT> критику ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -364,10 +364,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1922.streex##13.T-wsj1922-001-p1s12a18
 CS:	Jenže otázky veřejných zájmů , které vyvolaly škody vzniklé zemětřesením , bude těžké {řešit} , předpověděl Johnson .
 EN:	But the public policy issues raised by earthquake damage will be difficult to {address} , Mr. Johnson predicted .
-RU:	Но решать проблемы общественной политики , возникшие в связи с ущербом от землетрясения , будет трудно , предсказал г-н Джонсон .
+RU:	Но {решать} проблемы общественной политики , возникшие в связи с ущербом от землетрясения , будет трудно , предсказал г-н Джонсон .
 CS_T:	předpověděl [ bude [ Jenže těžké [ #Benef.BEN ] řešit [ <#Cor.ACT> otázky [ zájmů [ veřejných ] vyvolaly [ které škody [ vzniklé [ zemětřesením ] ] ] ] ] ] Johnson ]
 EN_T:	predicted [ But be [ address [ issues [ policy [ public ] raised [ #Cor.PAT damage [ earthquake ] ] ] <#Gen.ACT> ] difficult ] Johnson [ Mr. ] ]
-RU_T:	предсказал [ Но будет [ решать [ #Gen.ACT проблемы [ политики [ общественной ] возникшие [ #PersPron.ACT ущербом [ землетрясения ] ] ] ] трудно ] г-н [ Джонсон ] ]
+RU_T:	предсказал [ Но будет [ решать [ <#Gen.ACT> проблемы [ политики [ общественной ] возникшие [ #PersPron.ACT ущербом [ землетрясения ] ] ] ] трудно ] г-н [ Джонсон ] ]
 INFO_CS:	TYPE=cs_cor
 INFO_EN:	OK		BEN
 INFO_RU:	
@@ -397,10 +397,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1923.streex##8.T-wsj1923-001-p1s7a18
 CS:	Mluvčí společnosti Coke řekl , že bezkofeinový Classic by měl pomoci {zvýšit} rozsah původní značky .
 EN:	The Coke spokesman said a caffeine-free Classic should help {increase} volume of the original brand .
-RU:	Представитель Кока-кола сказал , что Классическая без кофеина должна помочь увеличить объём продаж исходного бренда .
+RU:	Представитель Кока-кола сказал , что Классическая без кофеина должна помочь {увеличить} объём продаж исходного бренда .
 CS_T:	řekl [ #Gen.ADDR Mluvčí [ společnosti [ Coke ] ] pomoci [ #PersPron.ADDR Classic [ bezkofeinový ] zvýšit [ <#Cor.ACT> rozsah [ značky [ původní ] ] ] ] ]
 EN_T:	said [ spokesman [ Coke ] #Gen.ADDR help [ Classic [ caffeine-free ] #Gen.ADDR increase [ <#Cor.ACT> volume [ brand [ original ] ] ] ] ]
-RU_T:	сказал [ Представитель [ Кока-кола ] должна [ Классическая [ кофеина ] помочь [ #Cor.ACT увеличить [ #Cor.ACT объём [ продаж [ бренда [ исходного ] ] ] ] ] ] ]
+RU_T:	сказал [ Представитель [ Кока-кола ] должна [ Классическая [ кофеина ] помочь [ #Cor.ACT увеличить [ <#Cor.ACT> объём [ продаж [ бренда [ исходного ] ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -408,10 +408,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1924.streex##26.T-wsj1924-001-p1s25a34
 CS:	Šamir v úterý prohlásil , že je ochoten {riskovat} politický konflikt se Spojenými státy ohledně záměru Egypta uspořádat otevřené izraelsko - palestinské rozhovory , proti nimž vystupuje premiérovo politické seskupení Likud .
 EN:	Shamir said Tuesday that he was prepared to {risk} a policy conflict with the U.S. over an Egyptian plan to hold direct Israeli-Palestinian talks , which the premier 's Likud bloc opposes .
-RU:	Во вторник Шамир сказал , что он был готов отважиться на политический конфликт с США из-за плана Египта провести прямые израильско - палестинские переговоры , против чего выступает блок премьер-министра Ликуда .
+RU:	Во вторник Шамир сказал , что он был готов {отважиться} на политический конфликт с США из-за плана Египта провести прямые израильско - палестинские переговоры , против чего выступает блок премьер-министра Ликуда .
 CS_T:	prohlásil [ Šamir úterý je [ #PersPron.ACT ochoten [ riskovat [ <#Cor.ACT> konflikt [ politický státy [ Spojenými ] záměru [ Egypta uspořádat [ #Cor.ACT rozhovory [ otevřené - [ izraelsko palestinské ] vystupuje [ nimž seskupení [ premiérovo politické Likud ] ] ] ] ] ] ] ] ] ]
 EN_T:	said [ Shamir #Gen.ADDR Tuesday prepared [ he risk [ <#Cor.ACT> conflict [ policy U.S. ] plan [ Egyptian hold [ #Cor.ACT talks [ direct Israeli-Palestinian opposes [ which bloc [ premier Likud ] ] ] ] ] ] ] ]
-RU_T:	сказал [ вторник Шамир был [ он готов [ отважиться [ #Cor.ACT конфликт [ политический ] США плана [ Египта провести [ #Cor.ACT переговоры [ прямые израильско палестинские выступает [ чего блок [ премьер-министра Ликуда ] ] ] ] ] ] ] ] ]
+RU_T:	сказал [ вторник Шамир был [ он готов [ отважиться [ <#Cor.ACT> конфликт [ политический ] США плана [ Египта провести [ #Cor.ACT переговоры [ прямые израильско палестинские выступает [ чего блок [ премьер-министра Ликуда ] ] ] ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -419,10 +419,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1924.streex##26.T-wsj1924-001-p1s25a35
 CS:	Šamir v úterý prohlásil , že je ochoten riskovat politický konflikt se Spojenými státy ohledně záměru Egypta {uspořádat} otevřené izraelsko - palestinské rozhovory , proti nimž vystupuje premiérovo politické seskupení Likud .
 EN:	Shamir said Tuesday that he was prepared to risk a policy conflict with the U.S. over an Egyptian plan to {hold} direct Israeli-Palestinian talks , which the premier 's Likud bloc opposes .
-RU:	Во вторник Шамир сказал , что он был готов отважиться на политический конфликт с США из-за плана Египта провести прямые израильско - палестинские переговоры , против чего выступает блок премьер-министра Ликуда .
+RU:	Во вторник Шамир сказал , что он был готов отважиться на политический конфликт с США из-за плана Египта {провести} прямые израильско - палестинские переговоры , против чего выступает блок премьер-министра Ликуда .
 CS_T:	prohlásil [ Šamir úterý je [ #PersPron.ACT ochoten [ riskovat [ #Cor.ACT konflikt [ politický státy [ Spojenými ] záměru [ Egypta uspořádat [ <#Cor.ACT> rozhovory [ otevřené - [ izraelsko palestinské ] vystupuje [ nimž seskupení [ premiérovo politické Likud ] ] ] ] ] ] ] ] ] ]
 EN_T:	said [ Shamir #Gen.ADDR Tuesday prepared [ he risk [ #Cor.ACT conflict [ policy U.S. ] plan [ Egyptian hold [ <#Cor.ACT> talks [ direct Israeli-Palestinian opposes [ which bloc [ premier Likud ] ] ] ] ] ] ] ]
-RU_T:	сказал [ вторник Шамир был [ он готов [ отважиться [ #Cor.ACT конфликт [ политический ] США плана [ Египта провести [ #Cor.ACT переговоры [ прямые израильско палестинские выступает [ чего блок [ премьер-министра Ликуда ] ] ] ] ] ] ] ] ]
+RU_T:	сказал [ вторник Шамир был [ он готов [ отважиться [ #Cor.ACT конфликт [ политический ] США плана [ Египта провести [ <#Cor.ACT> переговоры [ прямые израильско палестинские выступает [ чего блок [ премьер-министра Ликуда ] ] ] ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -452,10 +452,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1927.streex##17.T-wsj1927-001-p1s16a24
 CS:	Výsledkem bylo dobré představení pro média , které senátoru Specterovi a dalším umožnilo {hlasovat} proti soudci Borkovi " bez výčitek svědomí " .
 EN:	It achieved a good media play , and enabled Sen. Specter and others to {vote} against Mr. Bork out of `` conscience . ''
-RU:	Это было передано СМИ и позволило сенатору Спектеру и другим проголосовать против г-на Борка " по соображениям совести " .
+RU:	Это было передано СМИ и позволило сенатору Спектеру и другим {проголосовать} против г-на Борка " по соображениям совести " .
 CS_T:	bylo [ Výsledkem představení [ dobré média umožnilo [ které a [ Specterovi [ senátoru ] #EmpNoun.ADDR [ dalším ] ] hlasovat [ <#Cor.ACT> Borkovi [ soudci ] výčitek [ svědomí ] ] ] ] ]
 EN_T:	and [ It achieved [ play [ good media ] ] enabled [ and [ Specter [ Sen. ] others ] vote [ <#Cor.ACT> Bork [ Mr. ] conscience ] ] ]
-RU_T:	и [ передано [ Это СМИ ] позволило [ #PersPron.ACT и [ сенатору [ Спектеру ] другим ] проголосовать [ #PersPron.ACT г-на [ Борка ] соображениям [ совести ] ] ] ]
+RU_T:	и [ передано [ Это СМИ ] позволило [ #PersPron.ACT и [ сенатору [ Спектеру ] другим ] проголосовать [ <#PersPron.ACT> г-на [ Борка ] соображениям [ совести ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -463,10 +463,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1927.streex##19.T-wsj1927-001-p1s18a34
 CS:	Obvinění , že se nachází " mimo hlavní proud " právního myšlení , výrazně podrylo postavení soudce Borka coby odborníka a nechalo ho doslova {vykrvácet} přímo na pódiu .
 EN:	The charge of being `` outside the mainstream '' of legal thought gravely undercut Mr. Bork 's scholarly standing , leaving him {bleeding} on the platform .
-RU:	Обвинение , что г-н Борк находится " вне мейнстрима " юридической мысли , серьёзно подорвало его научную репутацию , оставив его истекать кровью на трибуне .
+RU:	Обвинение , что г-н Борк находится " вне мейнстрима " юридической мысли , серьёзно подорвало его научную репутацию , оставив его {истекать} кровью на трибуне .
 CS_T:	a [ Obvinění [ #PersPron.ADDR #PersPron.ACT nachází [ #PersPron.ACT proud [ hlavní myšlení [ #Gen.ACT právního ] ] ] ] podrylo [ výrazně postavení [ Borka [ soudce ] odborníka ] ] nechalo [ ho doslova vykrvácet [ <#Cor.ACT> přímo pódiu ] ] ]
 EN_T:	undercut [ charge [ being [ #PersPron.ACT mainstream [ thought [ legal ] ] ] ] gravely standing [ Bork [ Mr. ] scholarly ] leaving [ #Cor.ACT him bleeding [ <#Cor.ACT> ] platform ] ]
-RU_T:	подорвало [ Обвинение [ находится [ г-н [ Борк ] мейнстрима [ мысли [ юридической ] ] ] ] серьёзно репутацию [ его научную ] оставив [ #PersPron.ACT его истекать [ #Cor.ACT кровью трибуне ] ] ]
+RU_T:	подорвало [ Обвинение [ находится [ г-н [ Борк ] мейнстрима [ мысли [ юридической ] ] ] ] серьёзно репутацию [ его научную ] оставив [ #PersPron.ACT его истекать [ <#Cor.ACT> кровью трибуне ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -485,10 +485,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1927.streex##34.T-wsj1927-001-p1s33a27
 CS:	Soudce Bork bohužel nedokázal {rozlišovat} mezi těmito vlivy a naléhavostí závažných případů klíčových pro společnost , které musejí být pro zachování soudržnosti řešeny soudní cestou .
 EN:	Unfortunately , Mr. Bork failed to {distinguish} between such pressures and the emergence of great issues critical to a society that must be settled judicially if it is to cohere .
-RU:	К сожалению , г-н Борк не смог отличить такое давление от серьезных проблем , критически важных для общества , которые должны быть решены в суде , если оно не хочет рассыпаться .
+RU:	К сожалению , г-н Борк не смог {отличить} такое давление от серьезных проблем , критически важных для общества , которые должны быть решены в суде , если оно не хочет рассыпаться .
 CS_T:	nedokázal [ #Neg.RHEM Bork [ Soudce ] bohužel rozlišovat [ <#Cor.ACT> #Rcp.ORIG a [ vlivy [ těmito ] naléhavostí [ případů [ závažných klíčových [ společnost ] řešeny [ #Gen.ACT které zachování [ #Gen.ACT soudržnosti ] cestou [ soudní ] ] ] ] ] ] ]
 EN_T:	failed [ Unfortunately Bork [ Mr. ] distinguish [ <#Cor.ACT> #Rcp.ORIG and [ pressures [ such ] emergence [ issues [ great critical [ society ] settled [ that #Gen.ACT judicially is [ it cohere [ #Cor.ACT ] ] ] ] ] ] ] ]
-RU_T:	смог [ сожалению г-н [ Борк ] не отличить [ #Cor.ACT давление [ такое ] проблем [ серьезных важных [ критически общества ] должны [ которые решены [ #PersPron.PAT суде хочет [ оно не рассыпаться [ #Cor.ACT ] ] ] ] ] ] ]
+RU_T:	смог [ сожалению г-н [ Борк ] не отличить [ <#Cor.ACT> давление [ такое ] проблем [ серьезных важных [ критически общества ] должны [ которые решены [ #PersPron.PAT суде хочет [ оно не рассыпаться [ #Cor.ACT ] ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -518,10 +518,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1927.streex##38.T-wsj1927-001-p1s37a49
 CS:	Lze pochopit strach soudce Borka z toho , že toto nové právo na soukromí se neúnosně rozšíří , ačkoli Nejvyšší soud složený z mužů a žen se smyslem pro realitu , podstatu věci a pro význam hranic by měl být schopen tento problém {zvládnout} .
 EN:	One can understand Mr. Bork 's fear that the new right to privacy will become intolerably stretched , though a Supreme Court composed of men and women with realism , guts and a sense of limits should be able to {manage} it .
-RU:	Понять страх г-на Борка , что новые понятия о неприкосновенности частной жизни станут слишком широкими , можно , хотя Верховный Суд , состоящий из мужчин и женщин , реалистичных , смелых и обладающих чувством меры , скорее всего , способен с этим справиться .
+RU:	Понять страх г-на Борка , что новые понятия о неприкосновенности частной жизни станут слишком широкими , можно , хотя Верховный Суд , состоящий из мужчин и женщин , реалистичных , смелых и обладающих чувством меры , скорее всего , способен с этим {справиться} .
 CS_T:	Lze [ #Benef.BEN pochopit [ #Cor.ACT strach [ Borka [ soudce ] rozšíří [ právo [ toto nové soukromí ] neúnosně ] ] ] být [ soud [ Nejvyšší složený [ a [ mužů žen [ smyslem [ a [ realitu podstatu [ věci ] význam [ hranic ] ] ] ] ] ] ] schopen [ zvládnout [ <#Cor.ACT> problém [ tento ] ] ] ] ]
 EN_T:	understand [ One fear [ Bork [ Mr. ] become [ right [ new privacy ] stretched [ intolerably #Cor.PAT #Gen.ACT ] ] ] be [ Court [ Supreme composed [ #Gen.ACT #Cor.PAT and [ men women and [ realism guts sense [ limits ] ] ] ] ] able [ manage [ <#Cor.ACT> it ] ] ] ]
-RU_T:	можно [ Понять [ страх [ г-на [ Борка ] станут [ понятия [ новые неприкосновенности [ жизни [ частной ] ] ] широкими [ слишком ] ] ] ] способен [ Суд [ Верховный состоящий [ и [ мужчин женщин и [ реалистичных смелых обладающих [ #Cor.ACT чувством [ меры ] ] ] ] ] ] скорее [ всего ] справиться [ этим #Cor.ACT ] ] ]
+RU_T:	можно [ Понять [ страх [ г-на [ Борка ] станут [ понятия [ новые неприкосновенности [ жизни [ частной ] ] ] широкими [ слишком ] ] ] ] способен [ Суд [ Верховный состоящий [ и [ мужчин женщин и [ реалистичных смелых обладающих [ #Cor.ACT чувством [ меры ] ] ] ] ] ] скорее [ всего ] справиться [ этим <#Cor.ACT> ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -529,10 +529,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1928.streex##6.T-wsj1928-001-p1s5a22
 CS:	Pokud by investiční banka dokázala {prodat} cenné papíry za vyšší cenu , než kolik zaplatila emitentovi , bude mít zisk .
 EN:	If the investment {bank} can sell the securities at a higher price than it paid the issuer , it makes a profit .
-RU:	Если инвестиционный банк может продать ценные бумаги по более высокой цене , чем он заплатил эмитенту , он получает прибыль .
+RU:	Если инвестиционный банк может {продать} ценные бумаги по более высокой цене , чем он заплатил эмитенту , он получает прибыль .
 CS_T:	mít [ dokázala [ banka [ investiční ] prodat [ #Gen.ADDR <#Cor.ACT> papíry [ cenné ] cenu [ vyšší [ zaplatila [ kolik #PersPron.ACT emitentovi ] ] ] ] ] #PersPron.ACT zisk ]
 EN_T:	makes [ sell [ <bank> [ investment ] securities price [ higher paid [ it #Cor.PAT issuer ] ] ] it profit ]
-RU_T:	получает [ может [ банк [ инвестиционный ] продать [ #Cor.ACT бумаги [ ценные ] цене [ высокой [ более ] ] заплатил [ он эмитенту ] ] ] он прибыль ]
+RU_T:	получает [ может [ банк [ инвестиционный ] продать [ <#Cor.ACT> бумаги [ ценные ] цене [ высокой [ более ] ] заплатил [ он эмитенту ] ] ] он прибыль ]
 INFO_CS:	TYPE=cs_cor
 INFO_EN:	ANTE REWORD	AUX_VERB
 INFO_RU:	
@@ -540,10 +540,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1928.streex##10.T-wsj1928-001-p1s9a40
 CS:	Lidé obeznámení s transakcí však uvedli , že aukční dům se namísto toho rozhodl se tohoto procenta {vzdát} , aby sbírku získal , a výměnou za to obdrží vyšší podíl ze zisku , který přesáhne 100 milionů dolarů .
 EN:	Instead , people familiar with the transaction said , the auction house opted to {forgo} that percentage in order to obtain the collection and in exchange for taking a bigger chunk of proceeds exceeding $ 100 million .
-RU:	Вместо этого , как сообщали люди , знакомые с подробностями транзакции , аукционный дом предпочёл обойтись без этих процентов для того , чтобы приобрести коллекцию , и вместо процентов получить большую долю дохода , превышающего $ 100 млн .
+RU:	Вместо этого , как сообщали люди , знакомые с подробностями транзакции , аукционный дом предпочёл {обойтись} без этих процентов для того , чтобы приобрести коллекцию , и вместо процентов получить большую долю дохода , превышающего $ 100 млн .
 CS_T:	uvedli [ Lidé [ obeznámení [ transakcí ] ] však a [ dům [ aukční ] rozhodl [ toho vzdát [ <#Cor.ACT> procenta [ tohoto ] ] získal [ #PersPron.ACT sbírku ] ] obdrží [ to podíl [ vyšší zisku [ přesáhne [ který milionů [ 100 dolarů ] ] ] ] ] ] ]
 EN_T:	said [ Instead people [ familiar [ transaction ] ] #Gen.ADDR opted [ house [ auction ] forgo [ <#Cor.ACT> percentage [ that ] ] and [ #Cor.ACT obtain [ collection ] taking [ chunk [ bigger proceeds [ exceeding [ #Cor.ACT $ [ million [ 100 ] ] ] ] ] ] ] ] ]
-RU_T:	предпочёл [ этого сообщали [ люди [ знакомые [ подробностями [ транзакции ] ] ] ] дом [ аукционный ] обойтись [ #Cor.ACT процентов [ этих ] ] того [ и [ приобрести [ коллекцию ] #Cor.ACT получить [ процентов долю [ большую дохода [ превышающего [ #Cor.ACT $ [ млн [ 100 ] ] ] ] ] ] ] ] ]
+RU_T:	предпочёл [ этого сообщали [ люди [ знакомые [ подробностями [ транзакции ] ] ] ] дом [ аукционный ] обойтись [ <#Cor.ACT> процентов [ этих ] ] того [ и [ приобрести [ коллекцию ] #Cor.ACT получить [ процентов долю [ большую дохода [ превышающего [ #Cor.ACT $ [ млн [ 100 ] ] ] ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -562,10 +562,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1928.streex##21.T-wsj1928-001-p1s20a46
 CS:	V listopadu 1987 společnost Sotheby ' s nabídla australskému obchodníkovi Alanu Bondovi " překlenovací úvěr " ve stylu Wall Street ve výši přibližně 27 milionů dolarů , aby mu umožnila {koupit} obraz " Kosatce " od Vincenta van Gogha za 53.9 milionu dolarů .
 EN:	In November 1987 , Sotheby 's essentially offered a Wall Street-style `` bridge loan '' of about $ 27 million to Australian businessman Alan Bond to enable him to {purchase} Vincent van Gogh 's `` Irises '' for $ 53.9 million .
-RU:	В ноябре 1987 года Сотбис , по сути , предложил " промежуточную ссуду " в стиле Уолл-стрит почти в $ 27 млн . австралийскому бизнесмену Алану Бонду , чтобы он смог купить " Ирисы " Винсента Ван Гога за $ 53.9 млн .
+RU:	В ноябре 1987 года Сотбис , по сути , предложил " промежуточную ссуду " в стиле Уолл-стрит почти в $ 27 млн . австралийскому бизнесмену Алану Бонду , чтобы он смог {купить} " Ирисы " Винсента Ван Гога за $ 53.9 млн .
 CS_T:	nabídla [ listopadu [ 1987 ] společnost [ #Forn.ID [ Sotheby ' s ] ] Bondovi [ obchodníkovi [ australskému ] Alanu ] úvěr [ překlenovací stylu [ #Forn.ID [ Wall Street ] ] výši [ milionů [ 27 [ přibližně ] dolarů ] ] ] umožnila [ #PersPron.ACT mu koupit [ <#Cor.ACT> obraz [ Kosatce Gogha [ Vincenta ] ] milionu [ 53.9 dolarů ] ] ] ]
 EN_T:	offered [ November [ 1987 ] Sotheby essentially loan [ Street-style [ Wall ] bridge $ [ million [ 27 ] ] ] Bond [ businessman [ Australian ] Alan ] enable [ #Cor.ACT him purchase [ <#Cor.ACT> Irises [ #Forn.AUTH [ van Gogh [ Vincent ] ] ] $ [ million [ 53.9 ] ] ] ] ]
-RU_T:	предложил [ ноябре [ года [ 1987 ] ] Сотбис сути ссуду [ промежуточную $ [ почти млн [ 27 ] ] ] стиле [ Уолл-стрит ] бизнесмену [ австралийскому Алану [ Бонду ] ] смог [ он купить [ #Cor.ACT Ирисы [ Винсента [ Ван [ Гога ] ] ] $ [ млн [ 53.9 ] ] ] ] ]
+RU_T:	предложил [ ноябре [ года [ 1987 ] ] Сотбис сути ссуду [ промежуточную $ [ почти млн [ 27 ] ] ] стиле [ Уолл-стрит ] бизнесмену [ австралийскому Алану [ Бонду ] ] смог [ он купить [ <#Cor.ACT> Ирисы [ Винсента [ Ван [ Гога ] ] ] $ [ млн [ 53.9 ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -595,10 +595,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1929.streex##9.T-wsj1929-001-p1s8a32
 CS:	Pokud se však artritické politbyro Východního Německa rozhýbe dostatečně na to , aby Krenzovi umožnilo vážně {usilovat} o reformu , bude Krenz stát před zásadní výzvou .
 EN:	But if East Germany 's arthritic Politburo does loosen up enough to permit Mr. Krenz to {make} serious efforts at reform , he will face a challenge just as fundamental .
-RU:	Но , если стареющее Восточногерманское политбюро достаточно расслабится , чтобы позволить г-ну Кренцу всерьез заняться реформами , он столкнётся с не меньшими проблемами .
+RU:	Но , если стареющее Восточногерманское политбюро достаточно расслабится , чтобы позволить г-ну Кренцу всерьез {заняться} реформами , он столкнётся с не меньшими проблемами .
 CS_T:	stát [ rozhýbe [ však politbyro [ artritické Německa [ Východního ] ] dostatečně [ umožnilo [ Krenzovi #PersPron.ACT usilovat [ vážně <#Cor.ACT> reformu ] ] ] ] Krenz výzvou [ zásadní ] ]
 EN_T:	face [ But loosen [ Politburo [ Germany [ East ] arthritic ] enough [ permit [ #Cor.ACT Krenz [ Mr. ] make [ <#Cor.ACT> efforts [ serious reform ] ] ] ] ] he challenge [ just fundamental ] ]
-RU_T:	столкнётся [ Но расслабится [ политбюро [ стареющее Восточногерманское ] достаточно позволить [ #Cor.ACT г-ну [ Кренцу ] заняться [ всерьез #Cor.ACT реформами ] ] ] он проблемами [ не меньшими ] ]
+RU_T:	столкнётся [ Но расслабится [ политбюро [ стареющее Восточногерманское ] достаточно позволить [ #Cor.ACT г-ну [ Кренцу ] заняться [ всерьез <#Cor.ACT> реформами ] ] ] он проблемами [ не меньшими ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -639,10 +639,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1930.streex##11.T-wsj1930-001-p1s10a33
 CS:	Společnost IBM plánuje {koupit} zpět své kmenové akcie v hodnotě 1 miliardy dolarů , což je krok , který pravděpodobně pomůže akciím tohoto počítačového giganta , které jsou v zoufalém stavu .
 EN:	IBM plans to {buy} back $ 1 billion of its common shares , a move likely to help the computer giant 's battered stock .
-RU:	IBM планирует выкупить свои обыкновенные акции на $ 1 млрд. : этот шаг должен помочь ослабленному капиталу компьютерного гиганта .
+RU:	IBM планирует {выкупить} свои обыкновенные акции на $ 1 млрд. : этот шаг должен помочь ослабленному капиталу компьютерного гиганта .
 CS_T:	, [ plánuje [ Společnost [ IBM ] koupit [ <#Cor.ACT> zpět akcie [ své kmenové hodnotě [ miliardy [ 1 dolarů ] ] ] ] ] je [ což krok [ pomůže [ který pravděpodobně akciím [ giganta [ tohoto počítačového ] jsou [ které stavu [ zoufalém ] ] ] ] ] ] ]
 EN_T:	, [ plans [ IBM buy [ <#Cor.ACT> back $ [ billion [ 1 shares [ its common ] ] ] ] ] #EmpVerb.PRED [ move [ likely [ #Cor.ACT help [ #Cor.ACT #Gen.PAT stock [ giant [ computer ] battered ] ] ] ] ] ]
-RU_T:	#Comma.CONJ [ планирует [ IBM выкупить [ #Cor.ACT акции [ свои обыкновенные ] $ [ млрд. [ 1 ] ] ] ] должен [ шаг [ этот ] помочь [ #Cor.ACT капиталу [ ослабленному гиганта [ компьютерного ] ] ] ] ]
+RU_T:	#Comma.CONJ [ планирует [ IBM выкупить [ <#Cor.ACT> акции [ свои обыкновенные ] $ [ млрд. [ 1 ] ] ] ] должен [ шаг [ этот ] помочь [ #Cor.ACT капиталу [ ослабленному гиганта [ компьютерного ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -650,10 +650,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1930.streex##16.T-wsj1930-001-p1s15a18
 CS:	Tento britský dopravce také potvrdil , že není odhodlaný {přikročit} k žádné nové nabídce .
 EN:	The British carrier also confirmed it is n't committed to {going} forward with any new bid .
-RU:	Британский перевозчик также подтвердил , что он не обязан продвигать ни одну из новых заявок .
+RU:	Британский перевозчик также подтвердил , что он не обязан {продвигать} ни одну из новых заявок .
 CS_T:	potvrdil [ dopravce [ Tento britský ] také není [ #Neg.RHEM #PersPron.ACT odhodlaný [ přikročit [ <#Cor.ACT> nabídce [ žádné nové ] ] ] ] ]
 EN_T:	confirmed [ carrier [ British ] also committed [ it n't #Gen.ACT going [ <#Cor.ACT> bid [ any new ] ] ] ]
-RU_T:	подтвердил [ перевозчик [ Британский ] также #EmpVerb.PAT [ он не обязан [ продвигать [ #Cor.ACT ни одну [ заявок [ новых ] ] ] ] ] ]
+RU_T:	подтвердил [ перевозчик [ Британский ] также #EmpVerb.PAT [ он не обязан [ продвигать [ <#Cor.ACT> ни одну [ заявок [ новых ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -661,10 +661,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1930.streex##28.T-wsj1930-001-p1s27a11
 CS:	Tento maloobchodník nebyl schopen {najít} pro svoji budovu kupce .
 EN:	The retailer was unable to {find} a buyer for the building .
-RU:	Компания не смогла найти покупателя для здания .
+RU:	Компания не смогла {найти} покупателя для здания .
 CS_T:	nebyl [ #Neg.RHEM maloobchodník [ Tento ] schopen [ najít [ <#Cor.ACT> kupce [ budovu [ svoji ] ] ] ] ]
 EN_T:	was [ retailer unable [ #Cor.ACT find [ <#Cor.ACT> buyer [ building ] ] ] ]
-RU_T:	смогла [ Компания не найти [ #Cor.ACT покупателя [ здания ] ] ]
+RU_T:	смогла [ Компания не найти [ <#Cor.ACT> покупателя [ здания ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -672,10 +672,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1931.streex##3.T-wsj1931-001-p1s2a17
 CS:	" Nikdo není ochotný {vsadit} firmu na to , že burza neprodělá další divokou jízdu . "
 EN:	`` No one is willing to {place} a firm bet that the stock market wo n't take another tumultuous ride . ''
-RU:	" Никто не хочет делать ставку на то , что фондовый рынок не испытает новых потрясений " .
+RU:	" Никто не хочет {делать} ставку на то , что фондовый рынок не испытает новых потрясений " .
 CS_T:	není [ #Neg.RHEM Nikdo ochotný [ vsadit [ <#Cor.ACT> firmu neprodělá [ #Neg.RHEM burza jízdu [ další divokou ] ] ] ] ]
 EN_T:	is [ one [ No ] willing [ #Cor.ACT place [ <#Cor.ACT> bet [ firm take [ market [ stock ] n't ride [ another tumultuous ] ] ] ] ] ]
-RU_T:	хочет [ Никто не делать [ #Cor.ACT ставку [ то [ не испытает [ рынок [ фондовый ] потрясений [ новых ] ] ] ] ] ]
+RU_T:	хочет [ Никто не делать [ <#Cor.ACT> ставку [ то [ не испытает [ рынок [ фондовый ] потрясений [ новых ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -749,10 +749,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1932.streex##27.T-wsj1932-001-p1s26a24
 CS:	Tento analytik uvedl , že bude trvat asi dva až tři měsíce , než začne důl {produkovat} měď ve významnějším množství .
 EN:	The analyst said it will take about two to three months before the mine begins to {produce} copper in significant quantities .
-RU:	Аналитик сказал , что потребуется почти от двух до трёх месяцев до того , как рудник начинает производить медь в значительных количествах .
+RU:	Аналитик сказал , что потребуется почти от двух до трёх месяцев до того , как рудник начинает {производить} медь в значительных количествах .
 CS_T:	uvedl [ analytik [ Tento ] trvat [ #Gen.PAT měsíce [ až [ asi dva tři ] ] začne [ důl produkovat [ <#Cor.ACT> měď množství [ významnějším ] ] ] ] ]
 EN_T:	said [ analyst #Gen.ADDR take [ months [ to [ about two three ] ] begins [ mine produce [ <#Cor.ACT> copper quantities [ significant ] ] ] ] ]
-RU_T:	сказал [ Аналитик потребуется [ #Gen.ACT месяцев [ почти двух трёх того [ начинает [ рудник производить [ #Cor.ACT медь количествах [ значительных ] ] ] ] ] ] ]
+RU_T:	сказал [ Аналитик потребуется [ #Gen.ACT месяцев [ почти двух трёх того [ начинает [ рудник производить [ <#Cor.ACT> медь количествах [ значительных ] ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -771,10 +771,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1932.streex##35.T-wsj1932-001-p1s34a27
 CS:	" Teď , když se zdá , že se situace v dodávkách zlepšuje , bylo by pro obchodníky nejlepší {obrátit} svůj zájem k poptávce . "
 EN:	`` Now that the supply situation seems to be improving , it would be best for traders to {switch} their concentration to the demand side . ''
-RU:	" Сейчас , когда положение с поставками улучшается , как представляется , трейдерам было бы лучше всего сконцентрироваться на проблеме спроса " .
+RU:	" Сейчас , когда положение с поставками улучшается , как представляется , трейдерам было бы лучше всего {сконцентрироваться} на проблеме спроса " .
 CS_T:	bylo [ Teď zdá [ #Gen.ACT zlepšuje [ situace [ dodávkách ] ] ] obchodníky nejlepší obrátit [ <#Cor.ACT> zájem [ svůj ] poptávce ] ]
 EN_T:	be [ Now seems [ situation [ supply ] improving [ #Cor.ACT ] ] best traders switch [ <#Cor.ACT> concentration [ their ] side [ demand ] ] ]
-RU_T:	было [ Сейчас улучшается [ положение [ поставками ] представляется ] трейдерам лучше [ всего ] сконцентрироваться [ #PersPron.ACT проблеме [ спроса ] ] ]
+RU_T:	было [ Сейчас улучшается [ положение [ поставками ] представляется ] трейдерам лучше [ всего ] сконцентрироваться [ <#PersPron.ACT> проблеме [ спроса ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -804,10 +804,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1934.streex##16.T-wsj1934-001-p1s15a48
 CS:	Výzkumníci nedokázali {odhadnout} cenu léku , až vstoupí na trh , ale uvedli , že FK - 506 umožní zkrátit pobyt pacientů v nemocnici o 50 % a u příjemců transplantátů snížit počet krevních testů , které se používají ke sledování dávek cyklosporinu a dalších léků .
 EN:	{Researchers} could n't estimate the cost of the drug when it reaches the market , but they said FK-506 will enable patients to cut hospital stays by 50 % and reduce the number of blood tests used to monitor the dosage of cyclosporine and other drugs among transplant recipients .
-RU:	Исследователи не могут оценить рыночную стоимость препарата , но сообщили , что FK - 506 позволит пациентам сократить пребывание в больнице на 50 % и сократить количество анализов крови , требуемых для мониторинга дозировки циклоспорина и других препаратов подвергающимся трансплантации .
+RU:	Исследователи не могут {оценить} рыночную стоимость препарата , но сообщили , что FK - 506 позволит пациентам сократить пребывание в больнице на 50 % и сократить количество анализов крови , требуемых для мониторинга дозировки циклоспорина и других препаратов подвергающимся трансплантации .
 CS_T:	ale [ Výzkumníci nedokázali [ #Neg.RHEM odhadnout [ <#Cor.ACT> cenu [ léku ] vstoupí [ #PersPron.ACT trh ] ] ] uvedli [ umožní [ #Forn.ACT [ FK - 506 ] #Gen.ADDR a [ #Cor.ACT zkrátit [ pobyt [ pacientů nemocnici ] % [ 50 ] ] snížit [ příjemců [ transplantátů ] počet [ testů [ krevních používají [ #Gen.ACT které sledování [ #Gen.ACT dávek [ a [ cyklosporinu léků [ dalších ] ] ] ] ] ] ] ] ] ] ] ]
 EN_T:	but [ estimate [ <Researchers> n't cost [ drug reaches [ when it market ] ] ] said [ they #Gen.ADDR and [ FK-506 enable [ patients cut [ #Cor.ACT stays [ hospital ] % [ 50 ] ] ] reduce [ number [ tests [ blood used [ #Gen.ACT #Cor.PAT monitor [ #PersPron.ACT dosage [ and [ cyclosporine drugs [ other ] ] ] ] recipients [ transplant ] ] ] ] ] ] ] ]
-RU_T:	но [ Исследователи не могут [ оценить [ #Cor.ACT стоимость [ рыночную препарата ] ] ] сообщили [ позволит [ FK [ 506 ] пациентам и [ сократить [ пребывание [ больнице ] % [ 50 ] ] #Cor.ACT сократить [ количество [ анализов [ крови требуемых [ мониторинга [ дозировки [ и [ циклоспорина препаратов [ других ] ] ] ] ] подвергающимся [ трансплантации ] ] ] ] ] ] ] ]
+RU_T:	но [ Исследователи не могут [ оценить [ <#Cor.ACT> стоимость [ рыночную препарата ] ] ] сообщили [ позволит [ FK [ 506 ] пациентам и [ сократить [ пребывание [ больнице ] % [ 50 ] ] #Cor.ACT сократить [ количество [ анализов [ крови требуемых [ мониторинга [ дозировки [ и [ циклоспорина препаратов [ других ] ] ] ] ] подвергающимся [ трансплантации ] ] ] ] ] ] ] ]
 INFO_CS:	TYPE=cs_cor
 INFO_EN:	ANTE REWORD	AUX_VERB
 INFO_RU:	
@@ -815,10 +815,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1934.streex##16.T-wsj1934-001-p1s15a53
 CS:	Výzkumníci nedokázali odhadnout cenu léku , až vstoupí na trh , ale uvedli , že FK - 506 umožní zkrátit pobyt pacientů v nemocnici o 50 % {a} u příjemců transplantátů snížit počet krevních testů , které se používají ke sledování dávek cyklosporinu a dalších léků .
 EN:	Researchers could n't estimate the cost of the drug when it reaches the market , but they said FK-506 will enable patients to {cut} hospital stays by 50 % and reduce the number of blood tests used to monitor the dosage of cyclosporine and other drugs among transplant recipients .
-RU:	Исследователи не могут оценить рыночную стоимость препарата , но сообщили , что FK - 506 позволит пациентам сократить пребывание в больнице на 50 % и сократить количество анализов крови , требуемых для мониторинга дозировки циклоспорина и других препаратов подвергающимся трансплантации .
+RU:	Исследователи не могут оценить рыночную стоимость препарата , но сообщили , что FK - 506 позволит пациентам сократить пребывание в больнице на 50 % {и} сократить количество анализов крови , требуемых для мониторинга дозировки циклоспорина и других препаратов подвергающимся трансплантации .
 CS_T:	ale [ Výzkumníci nedokázali [ #Neg.RHEM odhadnout [ #Cor.ACT cenu [ léku ] vstoupí [ #PersPron.ACT trh ] ] ] uvedli [ umožní [ #Forn.ACT [ FK - 506 ] #Gen.ADDR a [ <#Cor.ACT> zkrátit [ pobyt [ pacientů nemocnici ] % [ 50 ] ] snížit [ příjemců [ transplantátů ] počet [ testů [ krevních používají [ #Gen.ACT které sledování [ #Gen.ACT dávek [ a [ cyklosporinu léků [ dalších ] ] ] ] ] ] ] ] ] ] ] ]
 EN_T:	but [ estimate [ Researchers n't cost [ drug reaches [ when it market ] ] ] said [ they #Gen.ADDR and [ FK-506 enable [ patients cut [ <#Cor.ACT> stays [ hospital ] % [ 50 ] ] ] reduce [ number [ tests [ blood used [ #Gen.ACT #Cor.PAT monitor [ #PersPron.ACT dosage [ and [ cyclosporine drugs [ other ] ] ] ] recipients [ transplant ] ] ] ] ] ] ] ]
-RU_T:	но [ Исследователи не могут [ оценить [ #Cor.ACT стоимость [ рыночную препарата ] ] ] сообщили [ позволит [ FK [ 506 ] пациентам и [ сократить [ пребывание [ больнице ] % [ 50 ] ] #Cor.ACT сократить [ количество [ анализов [ крови требуемых [ мониторинга [ дозировки [ и [ циклоспорина препаратов [ других ] ] ] ] ] подвергающимся [ трансплантации ] ] ] ] ] ] ] ]
+RU_T:	но [ Исследователи не могут [ оценить [ #Cor.ACT стоимость [ рыночную препарата ] ] ] сообщили [ позволит [ FK [ 506 ] пациентам и [ сократить [ пребывание [ больнице ] % [ 50 ] ] <#Cor.ACT> сократить [ количество [ анализов [ крови требуемых [ мониторинга [ дозировки [ и [ циклоспорина препаратов [ других ] ] ] ] ] подвергающимся [ трансплантации ] ] ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -837,10 +837,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1935.streex##10.T-wsj1935-001-p1s9a21
 CS:	Takové vedlejší účinky státu dávají právo zasahovat do komerční sféry {a} přechodně koordinovat rozdělování zdrojů .
 EN:	Such spillover effects give the state a right to intervene in the marketplace {and} temporarily coordinate allocation of resources .
-RU:	Такого рода побочные эффекты дают государству право вмешиваться в рынок и временно координировать распределение ресурсов .
+RU:	Такого рода побочные эффекты дают государству право вмешиваться в рынок {и} временно координировать распределение ресурсов .
 CS_T:	dávají [ účinky [ Takové vedlejší ] státu právo [ a [ zasahovat [ sféry [ komerční ] ] <#Cor.ACT> koordinovat [ #Gen.EFF přechodně rozdělování [ #Gen.ACT #Gen.ADDR zdrojů ] ] ] ] ]
 EN_T:	give [ effects [ Such spillover ] state right [ #Cor.ACT and [ <#Cor.ACT> intervene [ marketplace ] coordinate [ temporarily allocation [ resources ] ] ] ] ]
-RU_T:	дают [ эффекты [ рода [ Такого ] побочные ] государству право [ и [ вмешиваться [ рынок ] #Cor.ACT координировать [ временно распределение [ ресурсов ] ] ] ] ]
+RU_T:	дают [ эффекты [ рода [ Такого ] побочные ] государству право [ и [ вмешиваться [ рынок ] <#Cor.ACT> координировать [ временно распределение [ ресурсов ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -848,10 +848,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1935.streex##23.T-wsj1935-001-p1s22a17
 CS:	Vytvářejí absurdní situace odtržené od reality , a pak se z nich snaží {vyvozovat} závěry .
 EN:	They set up absurd situations , detached from reality , and then try to {reason} from them .
-RU:	Они воссоздают абсурдные ситуации , оторванные от реальности , и затем пытаются рассуждать исходя из них .
+RU:	Они воссоздают абсурдные ситуации , оторванные от реальности , и затем пытаются {рассуждать} {исходя} из них .
 CS_T:	a [ Vytvářejí [ situace [ absurdní odtržené [ reality ] ] ] #PersPron.ACT snaží [ pak vyvozovat [ <#Cor.ACT> nich závěry ] ] ]
 EN_T:	and [ They set [ situations [ absurd detached [ #Gen.ACT #Cor.PAT reality ] ] ] then try [ reason [ <#Cor.ACT> #Gen.PAT them ] ] ]
-RU_T:	и [ Они воссоздают [ ситуации [ абсурдные оторванные [ #Cor.PAT реальности ] ] ] затем пытаются [ рассуждать [ #PersPron.ACT исходя [ #PersPron.ACT них ] ] ] ]
+RU_T:	и [ Они воссоздают [ ситуации [ абсурдные оторванные [ #Cor.PAT реальности ] ] ] затем пытаются [ рассуждать [ <#PersPron.ACT> исходя [ <#PersPron.ACT> них ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -892,10 +892,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1935.streex##37.T-wsj1935-001-p1s36a14
 CS:	Měli by se i oni přestat " {míchat} " do jeho volného trhu ?
 EN:	Should they , too , stop `` {messing} with '' his free market ?
-RU:	Должны ли они тоже перестать " вмешиваться " в его свободный рынок ?
+RU:	Должны ли они тоже перестать " {вмешиваться} " в его свободный рынок ?
 CS_T:	přestat [ i oni míchat [ <#Cor.ACT> trhu [ jeho volného ] ] ]
 EN_T:	stop [ they too messing [ <#Cor.ACT> market [ his free ] ] ]
-RU_T:	перестать [ они тоже вмешиваться [ #Cor.ACT рынок [ его свободный ] ] ]
+RU_T:	перестать [ они тоже вмешиваться [ <#Cor.ACT> рынок [ его свободный ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -936,10 +936,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1936.streex##13.T-wsj1936-001-p1s12a31
 CS:	Pokud ale budete mít v příštích několika týdnech náhodou cestu do Chicaga , nezapomeňte se jít {podívat} na Misantropa od Roberta Fallse , kterou uvádí soubor Goodman .
 EN:	But if you happen to be coming to Chicago in the next few weeks , do n't fail to have a look at Robert Falls 's `` The Misanthrope '' at the Goodman .
-RU:	Но , если вам доведётся приехать в Чикаго в последующие несколько недель , не упустите возможность посмотреть " Мизантропа " Роберта Фоллза в Гудмэне .
+RU:	Но , если вам доведётся приехать в Чикаго в последующие несколько недель , не упустите возможность {посмотреть} " Мизантропа " Роберта Фоллза в Гудмэне .
 CS_T:	nezapomeňte [ ale mít [ #PersPron.ACT týdnech [ příštích několika ] náhodou cestu [ Chicaga ] ] #Neg.RHEM #PersPron.ACT jít [ #Oblfm.DIR3 #PersPron.ACT podívat [ <#Cor.ACT> Misantropa [ Fallse [ Roberta ] uvádí [ kterou soubor [ Goodman ] ] ] ] ] ]
 EN_T:	fail [ But happen [ you coming [ #Cor.ACT Chicago weeks [ next few ] ] ] n't #PersPron.ACT have [ #Cor.ACT look Misanthrope [ Falls [ Robert ] Goodman ] ] ]
-RU_T:	упустите [ Но доведётся [ вам приехать [ #Cor.APP Чикаго недель [ последующие несколько ] ] ] не возможность [ посмотреть [ #PersPron.ACT Мизантропа [ Роберта [ Фоллза ] Гудмэне ] ] ] ]
+RU_T:	упустите [ Но доведётся [ вам приехать [ #Cor.APP Чикаго недель [ последующие несколько ] ] ] не возможность [ посмотреть [ <#PersPron.ACT> Мизантропа [ Роберта [ Фоллза ] Гудмэне ] ] ] ]
 INFO_CS:	TYPE=cs_cor
 INFO_EN:	0 MISS_ARG	V->N
 INFO_RU:	
@@ -947,10 +947,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1936.streex##19.T-wsj1936-001-p1s18a16
 CS:	Bartlettovi se víceméně podařilo víceméně {zachovat} Molierův alexandrín , 12slabičný verš v rýmujících se dvojverších .
 EN:	Mr. Bartlett managed to more or less {maintain} Moliere 's Alexandrine verse form , 12 syllable lines in rhyming couplets .
-RU:	Г-н Бартлетт сумел более или менее сохранить форму мольеровской александрийской строфы , то есть срифмованные двустишия из строк по 12 слогов .
+RU:	Г-н Бартлетт сумел более или менее {сохранить} форму мольеровской александрийской строфы , то есть срифмованные двустишия из строк по 12 слогов .
 CS_T:	podařilo [ Bartlettovi víceméně zachovat [ <#Cor.ACT> víceméně , [ alexandrín [ Molierův ] verš [ 12slabičný [ 12slabičný ] dvojverších [ rýmujících ] ] ] ] ]
 EN_T:	managed [ Bartlett [ Mr. ] maintain [ <#Cor.ACT> less , [ form [ Moliere Alexandrine verse ] lines [ syllable [ 12 ] couplets [ rhyming [ #Rcp.PAT #Cor.ACT ] ] ] ] ] ]
-RU_T:	сумел [ Г-н [ Бартлетт ] сохранить [ или [ более менее ] #Cor.ACT #Comma.APPS [ форму [ строфы [ мольеровской александрийской ] ] есть двустишия [ срифмованные строк [ слогов [ 12 ] ] ] ] ] ]
+RU_T:	сумел [ Г-н [ Бартлетт ] сохранить [ или [ более менее ] <#Cor.ACT> #Comma.APPS [ форму [ строфы [ мольеровской александрийской ] ] есть двустишия [ срифмованные строк [ слогов [ 12 ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -980,10 +980,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1936.streex##33.T-wsj1936-001-p1s32a26
 CS:	Publikum , povzbuzené Wilderovými potměšilými úšklebky , rozpačitými grimasami a výbuchy vzteku , tomu humoru porozumí a před koncem prvního jednání se začne {smát} .
 EN:	Encouraged by Mr. Wilder 's sly grins , embarrassed grimaces and sputtering rages , the audience gets the joke and begins to {laugh} before the end of the first act .
-RU:	Наблюдая хитрые усмешки , замешательство и брызжущий гнев г-на Уайлдера , аудитория проникается его юмором и начинает смеяться еще до конца первого акта .
+RU:	Наблюдая хитрые усмешки , замешательство и брызжущий гнев г-на Уайлдера , аудитория проникается его юмором и начинает {смеяться} еще до конца первого акта .
 CS_T:	a [ Publikum [ povzbuzené [ a [ úšklebky [ Wilderovými potměšilými ] grimasami [ rozpačitými ] výbuchy [ vzteku ] ] ] ] porozumí [ humoru [ tomu ] ] začne [ koncem [ jednání [ prvního ] ] smát [ <#Cor.ACT> ] ] ]
 EN_T:	and [ Encouraged [ #Cor.PAT and [ Wilder [ Mr. ] grins [ sly ] grimaces [ embarrassed ] rages [ sputtering ] ] ] audience gets [ joke ] begins [ laugh [ <#Cor.ACT> ] end [ act [ first ] ] ] ]
-RU_T:	и [ Наблюдая [ #PersPron.ACT и [ усмешки [ хитрые ] замешательство гнев [ брызжущий ] г-на [ Уайлдера ] ] ] аудитория проникается [ юмором [ его ] ] начинает [ смеяться [ #PersPron.ACT ] еще конца [ акта [ первого ] ] ] ]
+RU_T:	и [ Наблюдая [ #PersPron.ACT и [ усмешки [ хитрые ] замешательство гнев [ брызжущий ] г-на [ Уайлдера ] ] ] аудитория проникается [ юмором [ его ] ] начинает [ смеяться [ <#PersPron.ACT> ] еще конца [ акта [ первого ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -1046,10 +1046,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1936.streex##48.T-wsj1936-001-p1s47a20
 CS:	Teď je divadlo nuceno {odmítat} mnoho potenciálních předplatitelů kromě těch 13000 , které lze do současného podnájmu posadit .
 EN:	It 's currently forced to {turn} away many potential subscribers beyond the 13,000 who can be accommodated in its present digs .
-RU:	Они вынуждены сейчас отвергать всех потенциальных подписчиков , кроме тех 13000 , которые помещаются в их нынешнем съемном помещении .
+RU:	Они вынуждены сейчас {отвергать} всех потенциальных подписчиков , кроме тех 13000 , которые помещаются в их нынешнем съемном помещении .
 CS_T:	nuceno [ #Gen.ACT Teď divadlo odmítat [ <#Cor.ACT> předplatitelů [ mnoho potenciálních ] 13000 [ těch lze [ #Benef.BEN posadit [ #Cor.ACT které podnájmu [ současného ] ] ] ] ] ]
 EN_T:	forced [ It currently #Gen.ACT turn [ <#Cor.ACT> subscribers [ many potential 13,000 [ accommodated [ who #Gen.ACT digs [ its present ] ] ] ] ] ]
-RU_T:	вынуждены [ Они сейчас отвергать [ #Cor.ACT подписчиков [ всех потенциальных ] 13000 [ тех помещаются [ которые помещении [ их нынешнем съемном ] ] ] ] ]
+RU_T:	вынуждены [ Они сейчас отвергать [ <#Cor.ACT> подписчиков [ всех потенциальных ] 13000 [ тех помещаются [ которые помещении [ их нынешнем съемном ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -1101,10 +1101,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1937.streex##15.T-wsj1937-001-p1s14a28
 CS:	Akcie související s pojišťovnictvím si vedly smíšeně , zatímco se investoři snažili {přijít} na to , jak posoudit dopad majetkových škod a úmrtí na tyto podniky .
 EN:	Insurance-related stocks were mixed as investors tried to {figure} out how to assess the impact of the property damage and deaths on those concerns .
-RU:	Cвязанные со страхованием акции были mixed , когда инвесторы попытались определить , как оценить воздействие имущественного ущерба и смертей на эти концерны .
+RU:	Cвязанные со страхованием акции были mixed , когда инвесторы попытались {определить} , как оценить воздействие имущественного ущерба и смертей на эти концерны .
 CS_T:	vedly [ Akcie [ související [ pojišťovnictvím ] ] smíšeně snažili [ investoři přijít [ <#Cor.ACT> posoudit [ #PersPron.ACT jak dopad [ a [ škod [ majetkových ] úmrtí [ #Gen.ACT ] ] podniky [ tyto ] ] ] ] ] ]
 EN_T:	were [ stocks [ Insurance-related ] mixed tried [ investors figure [ <#Cor.ACT> assess [ how #Cor.ACT impact [ and [ damage [ property ] deaths ] concerns [ those ] ] ] ] ] ]
-RU_T:	были [ акции [ Cвязанные [ страхованием ] ] mixed попытались [ инвесторы определить [ #Cor.ACT оценить [ как #Gen.ACT воздействие [ и [ ущерба [ имущественного ] смертей ] концерны [ эти ] ] ] ] ] ]
+RU_T:	были [ акции [ Cвязанные [ страхованием ] ] mixed попытались [ инвесторы определить [ <#Cor.ACT> оценить [ как #Gen.ACT воздействие [ и [ ущерба [ имущественного ] смертей ] концерны [ эти ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -1123,10 +1123,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1937.streex##18.T-wsj1937-001-p1s17a51
 CS:	Kdyby potom akcie prudce klesly , měl v úmyslu je aktivně {nakupovat} na základě teorie , že společnosti , které pojišťují proti majetkovým škodám a nehodám , budou nakonec muset zvýšit sazby , aby mohly uhradit pojistné škody , které vyplatí obětem zemětřesení a obětem hurikánu Huga z minulého měsíce .
 EN:	Then , if the stocks fell sharply , he planned to begin {buying} them aggressively , on the theory that the companies that insure against property damage and accidents will have to raise rates eventually to compensate for the claims they will pay to earthquake victims and victims of last month 's Hurricane Hugo .
-RU:	Если акции резко упадут , он планировал начинать покупать их агрессивно , предполагая , что компаниям , которые страхуют от имущественного ущерба и несчастных случаев , придётся поднять ставки в конце концов , чтобы компенсировать заявки , которые они оплатят жертвам землетрясения и жертвам Урагана Хьюго прошлого месяца .
+RU:	Если акции резко упадут , он планировал начинать {покупать} их агрессивно , предполагая , что компаниям , которые страхуют от имущественного ущерба и несчастных случаев , придётся поднять ставки в конце концов , чтобы компенсировать заявки , которые они оплатят жертвам землетрясения и жертвам Урагана Хьюго прошлого месяца .
 CS_T:	měl [ #PersPron.ACT klesly [ potom akcie prudce ] úmyslu nakupovat [ je <#Cor.ACT> aktivně teorie [ zvýšit [ společnosti [ pojišťují [ které #Gen.PAT a [ škodám [ majetkovým ] nehodám ] ] ] nakonec sazby uhradit [ #PersPron.ACT škody [ pojistné vyplatí [ #PersPron.ACT které a [ obětem [ zemětřesení ] obětem [ hurikánu [ Huga ] měsíce [ minulého ] ] ] ] ] ] ] ] ] ]
 EN_T:	planned [ Then fell [ stocks sharply ] he begin [ #Cor.ACT buying [ <#Cor.ACT> them aggressively ] ] theory [ raise [ companies [ insure [ that #Gen.PAT and [ damage [ property ] accidents ] ] ] rates eventually compensate [ #Cor.ACT #Gen.ADDR claims [ pay [ they #Cor.PAT and [ victims [ earthquake ] victims [ Hurricane [ month [ last ] Hugo ] ] ] ] ] ] ] ] ]
-RU_T:	планировал [ упадут [ акции резко ] он начинать [ #Cor.ACT покупать [ #Cor.ACT их агрессивно ] ] предполагая [ #PersPron.ACT придётся [ компаниям [ страхуют [ которые и [ ущерба [ имущественного ] случаев [ несчастных ] ] ] ] поднять [ #Cor.ACT ставки конце [ концов ] компенсировать [ #Cor.ACT заявки [ оплатят [ которые они и [ жертвам [ землетрясения ] жертвам [ Урагана [ Хьюго месяца [ прошлого ] ] ] ] ] ] ] ] ] ] ]
+RU_T:	планировал [ упадут [ акции резко ] он начинать [ #Cor.ACT покупать [ <#Cor.ACT> их агрессивно ] ] предполагая [ #PersPron.ACT придётся [ компаниям [ страхуют [ которые и [ ущерба [ имущественного ] случаев [ несчастных ] ] ] ] поднять [ #Cor.ACT ставки конце [ концов ] компенсировать [ #Cor.ACT заявки [ оплатят [ которые они и [ жертвам [ землетрясения ] жертвам [ Урагана [ Хьюго месяца [ прошлого ] ] ] ] ] ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -1145,10 +1145,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1939.streex##3.T-wsj1939-001-p1s2a26
 CS:	Senátor Bradley si myslí , že takové snížení daní by způsobilo rozpad daňové reformy , kterou v roce 1986 pomáhal {připravovat} .
 EN:	Sen. Bradley has it in his mind that such a tax cut would unravel the tax reform {he} helped engineer in 1986 .
-RU:	Сенатор Брэдли придерживается мнения , что такое снижение налога сведет на нет эффект от налоговой реформы , которую он помог организовать в 1986 году .
+RU:	Сенатор Брэдли придерживается мнения , что такое снижение налога сведет на нет эффект от налоговой реформы , которую он помог {организовать} в 1986 году .
 CS_T:	myslí [ Bradley [ Senátor ] způsobilo [ snížení [ #Gen.ACT takové daní ] rozpad [ reformy [ daňové pomáhal [ #Gen.ADDR #PersPron.ACT roce [ 1986 ] připravovat [ <#Cor.ACT> kterou ] ] ] ] ] ]
 EN_T:	has [ Bradley [ Sen. ] mind [ his ] unravel [ cut [ such tax ] reform [ tax engineer [ <he> #Cor.PAT 1986 ] ] ] ]
-RU_T:	придерживается [ Сенатор [ Брэдли ] мнения [ сведет [ снижение [ такое налога ] нет эффект [ реформы [ налоговой помог [ которую он организовать [ #Cor.ACT ] году [ 1986 ] ] ] ] ] ] ]
+RU_T:	придерживается [ Сенатор [ Брэдли ] мнения [ сведет [ снижение [ такое налога ] нет эффект [ реформы [ налоговой помог [ которую он организовать [ <#Cor.ACT> ] году [ 1986 ] ] ] ] ] ] ]
 INFO_CS:	TYPE=cs_cor	OK
 INFO_EN:	ANTE REWORD	AUX_VERB	TYPE=en_perspron
 INFO_RU:	
@@ -1156,10 +1156,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1939.streex##4.T-wsj1939-001-p1s3a27
 CS:	Ví však , že nejméně 20 jeho kolegů demokratů je pro toto snížení , které je mezi jejich voliči populární , připraveno {hlasovat} .
 EN:	But he knows that as many as 20 of his fellow Democrats are disposed to {vote} for the cut , popular among their constituents .
-RU:	Но он знает , что ни много ни мало 20 его товарищей-демократов склоняются к тому , чтобы проголосовать за популярное среди их избирателей сокращение .
+RU:	Но он знает , что ни много ни мало 20 его товарищей-демократов склоняются к тому , чтобы {проголосовать} за популярное среди их избирателей сокращение .
 CS_T:	Ví [ #PersPron.ACT však je [ demokratů [ 20 [ nejméně ] kolegů [ jeho ] ] připraveno [ hlasovat [ snížení [ #Gen.ACT toto #PersPron.PAT je [ které voliči [ jejich ] populární ] ] <#Cor.ACT> ] ] ] ]
 EN_T:	knows [ But he disposed [ 20 [ as Democrats [ his fellow ] ] vote [ <#Cor.ACT> cut [ popular [ constituents [ their ] ] ] ] ] ]
-RU_T:	знает [ Но он склоняются [ ни [ ни много мало ] товарищей-демократов [ 20 его ] тому [ проголосовать [ #Cor.ACT сокращение [ популярное [ избирателей [ их ] ] ] ] ] ] ]
+RU_T:	знает [ Но он склоняются [ ни [ ни много мало ] товарищей-демократов [ 20 его ] тому [ проголосовать [ <#Cor.ACT> сокращение [ популярное [ избирателей [ их ] ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -1167,10 +1167,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1939.streex##6.T-wsj1939-001-p1s5a21
 CS:	Pomáhal {přesvědčit} 10 z těchto senátorů , aby jej a vůdce většiny George Mitchella z těchto důvodů podpořili .
 EN:	He helped {persuade} 10 of these senators to support him and Majority Leader George Mitchell on these grounds .
-RU:	Он помог убедить 10 из этих сенаторов поддержать на этом основании его и Лидера Большинства Джорджа Митчелла .
+RU:	Он помог {убедить} 10 из этих сенаторов поддержать на этом основании его и Лидера Большинства Джорджа Митчелла .
 CS_T:	Pomáhal [ #Gen.ADDR #PersPron.ACT přesvědčit [ <#Cor.ACT> 10 [ senátorů [ těchto ] ] podpořili [ #PersPron.ACT a [ jej Mitchella [ vůdce [ většiny ] George ] ] důvodů [ těchto ] ] ] ]
 EN_T:	helped [ He persuade [ 10 [ senators [ these ] ] <#Cor.ACT> support [ #Cor.ACT and [ him Mitchell [ Leader [ Majority ] George ] ] grounds [ these ] ] ] #Gen.ADDR ]
-RU_T:	помог [ Он убедить [ #Cor.ACT поддержать [ 10 [ сенаторов [ этих ] ] основании [ этом ] и [ его Лидера [ Большинства Джорджа [ Митчелла ] ] ] ] ] ]
+RU_T:	помог [ Он убедить [ <#Cor.ACT> поддержать [ 10 [ сенаторов [ этих ] ] основании [ этом ] и [ его Лидера [ Большинства Джорджа [ Митчелла ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -1178,10 +1178,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1939.streex##7.T-wsj1939-001-p1s6a31
 CS:	Konečný termín pro schválení rozpočtu byl 15 . října , a tito senátní demokraté odmítli {povolit} hlasování o přidání kapitálových zisků do rozpočtu , protože věděli , že by prošlo .
 EN:	The budget reconciliation had to be dealt with by the Oct. 15 deadline , and these Senate Democrats refused to agree to {allow} a vote to append capital gains to the budget bill , knowing it would pass .
-RU:	Согласовывать бюджет предполагалось до 15 октября , и эти 10 сенаторов отказались устраивать голосование о переводе налогов на прирост капитала в бюджет , зная , что проект будет принят .
+RU:	Согласовывать бюджет предполагалось до 15 октября , и эти 10 сенаторов отказались {устраивать} голосование о переводе налогов на прирост капитала в бюджет , зная , что проект будет принят .
 CS_T:	a [ byl [ termín [ Konečný schválení [ #Gen.ACT rozpočtu ] ] října [ 15 ] ] odmítli [ demokraté [ tito senátní ] povolit [ #Gen.ADDR <#Cor.ACT> hlasování [ #Gen.ACT přidání [ #Gen.ACT zisků [ kapitálových ] rozpočtu ] ] ] věděli [ #PersPron.ACT prošlo [ #PersPron.ACT ] ] ] ]
 EN_T:	and [ dealt [ reconciliation [ budget ] #Gen.ACT deadline [ Oct. [ 15 ] ] ] refused [ Democrats [ these Senate ] agree [ #Cor.ACT allow [ <#Cor.ACT> vote [ append [ #Gen.ACT gains [ capital ] bill [ budget ] ] ] ] ] knowing [ #Cor.ACT pass [ it ] ] ] ]
-RU_T:	и [ предполагалось [ Согласовывать [ бюджет ] октября [ 15 ] ] отказались [ сенаторов [ эти 10 ] устраивать [ #Cor.ACT голосование [ переводе [ налогов [ прирост [ капитала ] ] бюджет ] ] ] зная [ #PersPron.ACT принят [ проект #Gen.ACT ] ] ] ]
+RU_T:	и [ предполагалось [ Согласовывать [ бюджет ] октября [ 15 ] ] отказались [ сенаторов [ эти 10 ] устраивать [ <#Cor.ACT> голосование [ переводе [ налогов [ прирост [ капитала ] ] бюджет ] ] ] зная [ #PersPron.ACT принят [ проект #Gen.ACT ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -1211,10 +1211,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1939.streex##36.T-wsj1939-001-p1s35a36
 CS:	Myslí si , že až Bílý dům bude nucen {žádat} o vyšší daně , aby splnil cíle rozpočtu , nevyhnutelně to povede ke zvýšení sazeb mezních daní z příjmu v roce 1990 .
 EN:	It would inevitably lead to an increase in marginal income-tax rates in 1990 , he thinks , when the White House is forced to {ask} for higher taxes to meet budget targets .
-RU:	Оно неизбежно приведет к увеличению предельных ставок подоходного налога в 1990 году , как он считает , когда Белый Дом будет вынужден повышать налоги , чтобы выполнить цели бюджета .
+RU:	Оно неизбежно приведет к увеличению предельных ставок подоходного налога в 1990 году , как он считает , когда Белый Дом будет вынужден {повышать} налоги , чтобы выполнить цели бюджета .
 CS_T:	Myslí [ #PersPron.ACT povede [ nucen [ #Gen.ACT dům [ Bílý ] žádat [ <#Cor.ACT> #Gen.ADDR daně [ vyšší ] splnil [ #PersPron.ACT cíle [ rozpočtu ] ] ] ] nevyhnutelně to zvýšení [ #Gen.ACT sazeb [ daní [ mezních příjmu ] ] roce [ 1990 ] ] ] ]
 EN_T:	lead [ It inevitably increase [ rates [ marginal income-tax ] 1990 ] thinks [ he #PersPron.EFF ] forced [ when House [ White ] #Gen.ACT ask [ <#Cor.ACT> #Gen.ADDR taxes [ higher ] meet [ #PersPron.ACT targets [ budget ] ] ] ] ]
-RU_T:	приведет [ Оно неизбежно увеличению [ ставок [ предельных налога [ подоходного ] ] ] году [ 1990 будет [ Дом [ Белый ] вынужден [ #PersPron.ACT повышать [ #Cor.ACT налоги выполнить [ #Cor.ACT цели [ бюджета ] ] ] ] ] ] считает [ он ] ]
+RU_T:	приведет [ Оно неизбежно увеличению [ ставок [ предельных налога [ подоходного ] ] ] году [ 1990 будет [ Дом [ Белый ] вынужден [ #PersPron.ACT повышать [ <#Cor.ACT> налоги выполнить [ #Cor.ACT цели [ бюджета ] ] ] ] ] ] считает [ он ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -1222,10 +1222,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1943.streex##5.T-wsj1943-001-p1s4a23
 CS:	Společnost TVA nyní plánuje {vydat} dluhopisy v celkové hodnotě 6.7 miliardy dolarů , které budou její dluh s vysokou úrokovou sazbou refinancovat .
 EN:	The TVA currently plans to {issue} a total of $ 6.7 billion in bonds to refinance its high-interest debt .
-RU:	Администрация сейчас планирует выпустить в общей сложности $ 6.7 млрд. облигациями , чтобы рефинансировать свой долг под высокий процент .
+RU:	Администрация сейчас планирует {выпустить} в общей сложности $ 6.7 млрд. облигациями , чтобы рефинансировать свой долг под высокий процент .
 CS_T:	plánuje [ Společnost [ TVA ] nyní vydat [ <#Cor.ACT> dluhopisy [ hodnotě [ celkové miliardy [ 6.7 dolarů ] ] refinancovat [ které dluh [ její sazbou [ vysokou úrokovou ] ] ] ] ] ]
 EN_T:	plans [ TVA currently issue [ <#Cor.ACT> total [ $ [ billion [ 6.7 ] ] bonds ] refinance [ #Cor.ACT debt [ its high-interest ] ] ] ]
-RU_T:	планирует [ Администрация сейчас выпустить [ #Cor.ACT сложности [ общей ] $ [ млрд. [ 6.7 ] ] облигациями рефинансировать [ #Cor.ACT долг [ свой ] процент [ высокий ] ] ] ]
+RU_T:	планирует [ Администрация сейчас выпустить [ <#Cor.ACT> сложности [ общей ] $ [ млрд. [ 6.7 ] ] облигациями рефинансировать [ #Cor.ACT долг [ свой ] процент [ высокий ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -1266,10 +1266,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1944.streex##18.T-wsj1944-001-p1s17a6
 CS:	Sherry odmítl svůj prodej {komentovat} .
 EN:	Mr. Sherry declined to {comment} when asked about the sales .
-RU:	Г-н Шерри отказался давать комментарии по поводу продаж .
+RU:	Г-н Шерри отказался {давать} комментарии по поводу продаж .
 CS_T:	odmítl [ Sherry komentovat [ <#Cor.ACT> prodej [ svůj ] ] ]
 EN_T:	declined [ Sherry [ Mr. ] comment [ <#Cor.ACT> #Gen.PAT ] asked [ #Gen.ACT #Cor.ADDR sales ] ]
-RU_T:	отказался [ Г-н [ Шерри ] давать [ #Cor.ACT комментарии [ продаж ] ] ]
+RU_T:	отказался [ Г-н [ Шерри ] давать [ <#Cor.ACT> комментарии [ продаж ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -1277,10 +1277,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1944.streex##21.T-wsj1944-001-p1s20a6
 CS:	Toney to také odmítl {komentovat} .
 EN:	Mr. Toney also declined to {comment} .
-RU:	Г-н Тоуни также отказался говорить .
+RU:	Г-н Тоуни также отказался {говорить} .
 CS_T:	odmítl [ Toney také komentovat [ <#Cor.ACT> to ] ]
 EN_T:	declined [ Toney [ Mr. ] also comment [ <#Cor.ACT> #Gen.PAT ] ]
-RU_T:	отказался [ Г-н [ Тоуни ] также говорить [ #Cor.ACT ] ]
+RU_T:	отказался [ Г-н [ Тоуни ] также говорить [ <#Cor.ACT> ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -1343,10 +1343,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1946.streex##17.T-wsj1946-001-p1s16a25
 CS:	Odvolací divize Nejvyššího soudu státu New York zamítla šest obžalob , které se pokoušely {zabránit} projektu za 2.5 miliardy plánovanému na manhattanské 42 . ulici .
 EN:	The Appellate Division of New York State Supreme Court dismissed six lawsuits attempting to {block} a $ 2.5 billion project planned for 42nd Street in Manhattan .
-RU:	Апелляционный Отдел Верховного Суда Штата Нью-Йорк отклонил шесть исков , которые пытались блокировать проект в $ 2.5 млрд . , запланированный для 42-й Улицы в Манхэттене .
+RU:	Апелляционный Отдел Верховного Суда Штата Нью-Йорк отклонил шесть исков , которые пытались {блокировать} проект в $ 2.5 млрд . , запланированный для 42-й Улицы в Манхэттене .
 CS_T:	zamítla [ divize [ Odvolací soudu [ Nejvyššího státu [ #Forn.ID [ New York ] ] ] ] obžalob [ šest pokoušely [ které zabránit [ <#Cor.ACT> projektu [ miliardy [ 2.5 ] plánovanému [ ulici [ manhattanské 42 ] ] ] ] ] ] ]
 EN_T:	dismissed [ Division [ Appellate Court [ York [ New ] State Supreme ] ] lawsuits [ six attempting [ #Cor.ACT block [ <#Cor.ACT> project [ $ [ billion [ 2.5 ] ] planned [ #Gen.ACT #Cor.PAT Street [ 42nd Manhattan ] ] ] ] ] ] ]
-RU_T:	отклонил [ Отдел [ Апелляционный Суда [ Верховного Штата [ Нью-Йорк ] ] ] исков [ шесть пытались [ которые блокировать [ #Cor.ACT проект [ $ [ млрд [ 2.5 ] ] запланированный [ Улицы [ 42-й ] Манхэттене ] ] ] ] ] ]
+RU_T:	отклонил [ Отдел [ Апелляционный Суда [ Верховного Штата [ Нью-Йорк ] ] ] исков [ шесть пытались [ которые блокировать [ <#Cor.ACT> проект [ $ [ млрд [ 2.5 ] ] запланированный [ Улицы [ 42-й ] Манхэттене ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -1420,10 +1420,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1949.streex##12.T-wsj1949-001-p1s11a34
 CS:	Craven uvedl , že Eward i Whittington měli v plánu {odejít} z banky již dříve , ale Craven je přesvědčil , aby zůstali , než banka bude v dobrém postavení .
 EN:	Mr. Craven said both Messrs. Eward and Whittington had planned to {leave} the bank earlier , but Mr. Craven had persuaded them to remain until the bank was in a healthy position .
-RU:	Г-н Крэйвен сказал , что они оба , и Эвард , и Уиттингтон , собирались покинуть банк еще раньше , но г-н Крэйвен убедил их остаться до тех пор , пока дела у банка не пойдут хорошо .
+RU:	Г-н Крэйвен сказал , что они оба , и Эвард , и Уиттингтон , собирались {покинуть} банк еще раньше , но г-н Крэйвен убедил их остаться до тех пор , пока дела у банка не пойдут хорошо .
 CS_T:	uvedl [ Craven ale [ měli [ i [ Eward Whittington ] plánu odejít [ <#Cor.ACT> banky již dříve ] ] přesvědčil [ Craven je zůstali [ #PersPron.ACT #Oblfm.LOC bude [ banka postavení [ dobrém ] ] ] ] ] ]
 EN_T:	said [ Craven [ Mr. ] #Gen.ADDR but [ planned [ and [ both Messrs. Eward Whittington ] leave [ <#Cor.ACT> bank earlier ] ] persuaded [ Craven [ Mr. ] them remain [ #Cor.ACT #Oblfm.LOC was [ bank position [ healthy ] ] ] ] ] ]
-RU_T:	сказал [ Г-н [ Крэйвен ] но [ собирались [ #Comma.APPS [ они [ оба ] и [ и Эвард Уиттингтон ] ] покинуть [ #PersPron.ACT банк раньше [ еще ] ] ] убедил [ г-н [ Крэйвен ] их остаться [ #Cor.ACT пор [ тех не пойдут [ дела [ банка ] хорошо ] ] ] ] ] ]
+RU_T:	сказал [ Г-н [ Крэйвен ] но [ собирались [ #Comma.APPS [ они [ оба ] и [ и Эвард Уиттингтон ] ] покинуть [ <#PersPron.ACT> банк раньше [ еще ] ] ] убедил [ г-н [ Крэйвен ] их остаться [ #Cor.ACT пор [ тех не пойдут [ дела [ банка ] хорошо ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
