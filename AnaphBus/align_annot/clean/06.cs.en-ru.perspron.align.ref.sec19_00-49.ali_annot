@@ -774,7 +774,7 @@ EN:	Harvard 's Laurence Tribe was the constitutional heavy , {laying} out legal 
 RU:	Лоренс Трайб из Гарварда стал тяжелой артиллерией от конституции , {излагающей} законные стратегии , которым могли следовать сенаторы и свидетели .
 CS_T:	, [ byl [ váhou [ Těžkou oboru [ práva [ ústavního ] ] ] Tribe [ Laurence Harvardu ] ] rozpracoval [ to <on> strategie [ právní řídit [ kterými a [ senátoři svědci ] ] ] ] ]
 EN_T:	was [ Tribe [ Harvard Laurence ] heavy [ constitutional laying [ <#Cor.ACT> strategies [ legal and [ senators witnesses ] follow [ #PersPron.ACT #Cor.PAT ] ] ] ] ]
-RU_T:	стал [ Лоренс [ Трайб Гарварда ] артиллерией [ тяжелой конституции [ <излагающей> [ #Cor.ACT стратегии [ законные могли [ следовать [ которым #Cor.ACT ] и [ сенаторы свидетели ] ] ] ] ] ] ]
+RU_T:	стал [ Лоренс [ Трайб Гарварда ] артиллерией [ тяжелой конституции [ <излагающей> [ <#Cor.ACT> стратегии [ законные могли [ следовать [ которым #Cor.ACT ] и [ сенаторы свидетели ] ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -829,7 +829,7 @@ EN:	Mr. Bork 's opponents chose the battlefield , held {it} and kept it .
 RU:	Противники г-на Борка выбрали поле боя , {удержали} и сохранили его за собой .
 CS_T:	a [ Oponenti [ Borka [ soudce ] ] zvolili [ bojiště ] drželi [ <ho> ] udrželi [ si ho ] ]
 EN_T:	and [ opponents [ Bork [ Mr. ] ] chose [ battlefield ] held [ <it> ] kept [ it ] ]
-RU_T:	и [ Противники [ г-на [ Борка ] ] выбрали [ поле [ боя ] ] <удержали> [ #PersPron.PAT ] сохранили [ его собой ] ]
+RU_T:	и [ Противники [ г-на [ Борка ] ] выбрали [ поле [ боя ] ] <удержали> [ <#PersPron.PAT> ] сохранили [ его собой ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_perspron
 INFO_RU:	

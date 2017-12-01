@@ -89,10 +89,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1903.streex##36.T-wsj1903-001-p1s35a41
 CS:	Vedoucí pracovníci Time si stěžovali na nekvalitní vydavatelskou práci a nakonec jeden z řídících pracovníků Time , který si nepřál být {jmenován} , uvedl : " Upřímně řečeno , McCall ' s a společný podnik byly jedna potíž . "
 EN:	Time executives complained about the shoddy editorial quality , and in the end , one Time executive who asked not to be {identified} said , `` Frankly , McCall 's and the joint venture were an embarrassment . ''
-RU:	Руководители Time жаловались на плохое качество издания , и в конце концов один из руководителей Time , который предпочел не называть себя , сказал : " Честно говоря , МакКолл и совместное предприятие были обузой " .
+RU:	Руководители Time жаловались на плохое качество издания , и в конце концов один из руководителей Time , который предпочел не называть {себя} , сказал : " Честно говоря , МакКолл и совместное предприятие были обузой " .
 CS_T:	a [ stěžovali [ pracovníci [ Vedoucí #Forn.RSTR [ Time ] ] práci [ nekvalitní vydavatelskou ] ] uvedl [ jeden [ pracovníků [ řídících #Forn.RSTR [ Time ] ] nepřál [ #Neg.RHEM který jmenován [ <#Cor.PAT> #Gen.ACT ] ] ] nakonec byly [ řečeno [ #PersPron.EFF #Gen.ADDR #Gen.ACT Upřímně ] a [ #Forn.ACT [ McCall ' s ] podnik [ společný ] ] potíž [ jedna ] ] ] ]
 EN_T:	and [ complained [ executives [ Time ] #Gen.ADDR quality [ shoddy editorial ] ] said [ end executive [ one Time asked [ who #Gen.ADDR not identified [ #Gen.ACT <#Cor.PAT> ] ] ] #Gen.EFF #Gen.ADDR were [ Frankly and [ McCall venture [ joint ] ] embarrassment ] ] ]
-RU_T:	и [ жаловались [ Руководители [ Time ] качество [ плохое издания ] ] сказал [ в [ конце [ концов ] ] один [ руководителей [ Time предпочел [ который не называть [ #Cor.ACT себя ] ] ] ] были [ говоря [ Честно ] и [ МакКолл предприятие [ совместное ] ] обузой ] ] ]
+RU_T:	и [ жаловались [ Руководители [ Time ] качество [ плохое издания ] ] сказал [ в [ конце [ концов ] ] один [ руководителей [ Time предпочел [ который не называть [ #Cor.ACT <себя> ] ] ] ] были [ говоря [ Честно ] и [ МакКолл предприятие [ совместное ] ] обузой ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -232,10 +232,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1916.streex##6.T-wsj1916-001-p1s5a67
 CS:	Mohlo by docela dobře trvat dva roky , než bude hojně používaná tepna , která pomáhá {spojit} Oakland a San Francisco , znovu otevřena a náklady na vybudování nového úseku dálnice by se mohly vyšplhat na více než 250 milionů dolarů , sdělil Charles J . O ' Connell , náměstek obvodního ředitele Kalifornského ministerstva dopravy v Los Angeles , kterému se říká Caltrans .
 EN:	It could easily be two years before the well-traveled artery that helps {connect} Oakland with San Francisco is reopened , and the cost to build a new stretch of highway could soar to more than $ 250 million , said Charles J. O'Connell , deputy district director in Los Angeles of the California Department of Transportation , nicknamed Caltrans .
-RU:	Может пройти два года , прежде чем наезженная артерия , которая связывает Окленд с Сан- Франциско , вновь будет открыта , и затраты на строительство нового участка шоссе могут вырасти более чем до $ 250 млн . , сказал Чарльз Дж . О'Коннелл , заместитель окружного директора Калифорнийского Министерства Транспорта в Лос-Анджелесе , называемого Калтрэнс .
+RU:	Может пройти два года , прежде чем наезженная артерия , {которая} связывает Окленд с Сан- Франциско , вновь будет открыта , и затраты на строительство нового участка шоссе могут вырасти более чем до $ 250 млн . , сказал Чарльз Дж . О'Коннелл , заместитель окружного директора Калифорнийского Министерства Транспорта в Лос-Анджелесе , называемого Калтрэнс .
 CS_T:	sdělil [ a [ trvat [ #Gen.PAT dobře [ docela ] roky [ dva ] otevřena [ tepna [ používaná [ hojně ] pomáhá [ #Gen.ADDR která spojit [ <#Cor.ACT> #Rcp.ADDR a [ Oakland #Forn.PAT [ San Francisco ] ] ] ] ] #Gen.ACT znovu ] ] vyšplhat [ náklady [ vybudování [ #Gen.ACT úseku [ nového dálnice ] ] ] více [ milionů [ 250 dolarů ] ] ] ] #Gen.ADDR , [ Connell [ Charles J ] náměstek [ ředitele [ obvodního ministerstva [ Kalifornského dopravy #Forn.LOC [ Los Angeles ] říká [ #Gen.ACT kterému Caltrans ] ] ] ] ] ]
 EN_T:	said [ and [ be [ easily years [ two ] reopened [ artery [ well-traveled helps [ that #Gen.ADDR connect [ <#Cor.ACT> Oakland #Forn.ADDR [ San Francisco ] ] ] ] #Gen.ACT ] ] soar [ cost [ #Benef.BEN build [ #Cor.ACT stretch [ new highway ] ] ] more [ $ [ million [ 250 ] ] ] ] ] #Gen.ADDR , [ O'Connell [ Charles J. ] director [ deputy district #Forn.LOC [ Los Angeles ] Department [ California Transportation nicknamed [ #Gen.ACT #Cor.PAT Caltrans ] ] ] ] ]
-RU_T:	сказал [ и [ Может [ пройти [ #PersPron.ACT чем [ открыта [ артерия [ наезженная связывает [ которая Окленд Сан- [ Франциско ] ] ] вновь ] ] ] года [ два ] ] могут [ затраты [ строительство [ участка [ нового шоссе ] ] ] вырасти [ #PersPron.ACT млн [ $ [ 250 ] ] ] ] ] , [ О'Коннелл [ Чарльз Дж ] заместитель [ директора [ окружного Министерства [ Калифорнийского Транспорта Лос-Анджелесе называемого [ Калтрэнс ] ] ] ] ] ]
+RU_T:	сказал [ и [ Может [ пройти [ #PersPron.ACT чем [ открыта [ артерия [ наезженная связывает [ <которая> Окленд Сан- [ Франциско ] ] ] вновь ] ] ] года [ два ] ] могут [ затраты [ строительство [ участка [ нового шоссе ] ] ] вырасти [ #PersPron.ACT млн [ $ [ 250 ] ] ] ] ] , [ О'Коннелл [ Чарльз Дж ] заместитель [ директора [ окружного Министерства [ Калифорнийского Транспорта Лос-Анджелесе называемого [ Калтрэнс ] ] ] ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -375,10 +375,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1923.streex##5.T-wsj1923-001-p1s4a25
 CS:	Po zmatku kolem změny složení koly v roce 1985 se společnost Coca - Cola zdráhala {dělat} nepořádek v názvu Classic dalším rozšiřováním značky .
 EN:	After the confusion surrounding the change of the Coke formula in 1985 , Coca-Cola was reluctant to {clutter} the Classic name with a brand extension .
-RU:	Поскольку изменение слогана Кока-колы в 1985 году вызвало путаницу , Кока-кола не хотела добавлять к названию Классическая какое-либо расширение .
+RU:	Поскольку изменение слогана Кока-колы в 1985 году вызвало путаницу , {Кока-кола} не хотела добавлять к названию Классическая какое-либо расширение .
 CS_T:	zdráhala [ zmatku [ změny [ složení [ koly ] ] roce [ 1985 ] ] společnost [ #Forn.ID [ Coca - Cola ] ] dělat [ <#Cor.ACT> nepořádek názvu [ Classic ] rozšiřováním [ #PersPron.ACT dalším značky ] ] ]
 EN_T:	was [ confusion [ surrounding [ #Cor.ACT change [ formula [ Coke ] ] ] 1985 ] Coca-Cola reluctant [ #Cor.ACT clutter [ <#Cor.ACT> name [ Classic ] extension [ brand ] ] ] ]
-RU_T:	хотела [ вызвало [ изменение [ слогана [ Кока-колы ] ] году [ 1985 ] путаницу ] Кока-кола не добавлять [ #Cor.ACT названию [ Классическая ] расширение [ какое-либо ] ] ]
+RU_T:	хотела [ вызвало [ изменение [ слогана [ Кока-колы ] ] году [ 1985 ] путаницу ] <Кока-кола> не добавлять [ #Cor.ACT названию [ Классическая ] расширение [ какое-либо ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -584,10 +584,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1928.streex##43.T-wsj1928-001-p1s42a77
 CS:	Mluvčí společnosti Christie ' s řekla , že ačkoli se aukční dům někdy vzdá provize prodejce , aby získal umělecká díla - přičemž stejně dostane provizi od kupce - , společnost Christie ' s finanční záruky nabízet nebude , protože " společnost Christie ' s se domnívá , že její hlavní úlohou je být aukčním domem , tedy zprostředkovatelem ( pro kupce a prodejce ) {,} nikoli být bankou .
 EN:	A Christie 's spokeswoman said that while the auction house sometimes waives its seller 's commission to attract art works -- it still gets a commission from the buyer -- Christie 's wo n't offer financial guarantees because `` Christie 's believes its primary role is as an auction house , and therefore as an agent -LCB- for buyer and seller -RCB- , not as a bank .
-RU:	Представительница Кристис сказала , что , хотя аукционный дом иногда отзывает свою комиссию продавца , чтобы привлечь произведения искусства - он ещё получает комиссию от покупателя - Кристис не будет предлагать финансовых гарантий , так как " Кристис считает , что его основная роль – это роль аукционного дома , и , следовательно , агента ( для покупателя и продавца ) , а не банка " .
+RU:	Представительница Кристис сказала , что , хотя аукционный дом иногда отзывает свою комиссию продавца , чтобы привлечь произведения искусства - он ещё получает комиссию от покупателя - Кристис не будет предлагать финансовых гарантий , так как " Кристис считает , что его основная {роль} – это роль аукционного дома , и , следовательно , агента ( для покупателя и продавца ) , а не банка " .
 CS_T:	řekla [ #Gen.ADDR Mluvčí [ společnosti [ #Forn.ID [ Christie ' s ] ] ] nabízet [ přičemž [ vzdá [ dům [ aukční ] někdy provize [ prodejce ] získal [ #PersPron.ACT díla [ umělecká ] ] ] dostane [ stejně #PersPron.ACT provizi kupce ] ] společnost [ #Forn.ID [ Christie ' s ] ] záruky [ finanční ] #Gen.ADDR #Neg.RHEM domnívá [ společnost [ #Forn.ID [ Christie ' s ] ] je [ úlohou [ její hlavní ] , [ <#Cor.ACT> být [ , [ domem [ aukčním ] tedy zprostředkovatelem [ a [ kupce prodejce ] ] ] ] nikoli být [ bankou ] ] ] ] ] ]
 EN_T:	said [ spokeswoman [ Christie ] #Gen.ADDR offer [ waives [ house [ auction ] sometimes commission [ its seller ] attract [ #Cor.ACT works [ art ] ] gets [ it still commission buyer ] ] Christie n't #Gen.ADDR guarantees [ financial ] believes [ Christie is [ role [ its primary ] , [ and [ house [ auction ] therefore agent [ and [ buyer seller ] ] ] not bank ] ] ] ] ]
-RU_T:	сказала [ Представительница [ Кристис ] #Comma.CONJ [ получает [ отзывает [ дом [ аукционный ] иногда комиссию [ свою продавца ] привлечь [ #Cor.ACT произведения [ искусства ] ] ] он ещё комиссию покупателя ] не предлагать [ Кристис гарантий [ финансовых ] считает [ Кристис это [ роль [ его основная ] роль [ и [ дома [ аукционного ] следовательно а [ агента [ и [ покупателя продавца ] ] не банка ] ] ] ] ] ] ] ]
+RU_T:	сказала [ Представительница [ Кристис ] #Comma.CONJ [ получает [ отзывает [ дом [ аукционный ] иногда комиссию [ свою продавца ] привлечь [ #Cor.ACT произведения [ искусства ] ] ] он ещё комиссию покупателя ] не предлагать [ Кристис гарантий [ финансовых ] считает [ Кристис это [ <роль> [ его основная ] роль [ и [ дома [ аукционного ] следовательно а [ агента [ и [ покупателя продавца ] ] не банка ] ] ] ] ] ] ] ]
 INFO_CS:	TYPE=cs_cor
 INFO_EN:	0 REWORD	MISS_VERB
 INFO_RU:	
@@ -782,10 +782,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1932.streex##46.T-wsj1932-001-p1s45a23
 CS:	Tato země nedávno koupila 200000 tun cukru a očekávalo se , že minulý týden bude mít zájem {koupit} podobné množství , ale neměla .
 EN:	That country recently bought 200,000 tons of sugar and had been expected to seek a like quantity last week but did n't .
-RU:	Индия недавно купила 200 , 000 тонн сахара , и ожидалось , что она будет оперировать похожими числами на прошлой неделе , но она не стала .
+RU:	Индия недавно купила 200 , 000 тонн сахара , и ожидалось , что {она} будет оперировать похожими числами на прошлой неделе , но она не стала .
 CS_T:	ale [ a [ koupila [ země [ Tato ] nedávno tun [ 200000 cukru ] ] očekávalo [ #Gen.ACT mít [ týden [ minulý ] #PersPron.ACT zájem [ koupit [ <#Cor.ACT> množství [ podobné ] ] ] ] ] ] neměla [ #Neg.RHEM zájem #PersPron.ACT ] ]
 EN_T:	and [ bought [ country [ That ] recently tons [ 200,000 sugar ] ] expected [ #Gen.ACT but [ #PersPron.ACT quantity [ like ] seek [ week [ last ] ] seek [ n't ] ] ] ]
-RU_T:	но [ и [ купила [ Индия недавно тонн [ 200 000 сахара ] ] ожидалось [ #Gen.ACT оперировать [ она числами [ похожими ] неделе [ прошлой ] ] ] ] не стала [ она #EmpNoun.PAT ] ]
+RU_T:	но [ и [ купила [ Индия недавно тонн [ 200 000 сахара ] ] ожидалось [ #Gen.ACT оперировать [ <она> числами [ похожими ] неделе [ прошлой ] ] ] ] не стала [ она #EmpNoun.PAT ] ]
 INFO_CS:	TYPE=cs_cor
 INFO_EN:	0 REWORD	MISS_VERB
 INFO_RU:	
@@ -1013,10 +1013,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1936.streex##39.T-wsj1936-001-p1s38a25
 CS:	Randall Arney coby Teddy se kupodivu zdá {být} jediným členem souboru , který se nedokáže přenést přes mrtvolný přístup k této Pinterově postavě .
 EN:	Curiously , Randall Arney as Teddy seems the only cast member unable to get beyond the zombie approach to a Pinter character .
-RU:	Любопытно , что Рэндалл Арни в роли Тедди , кажется , оказался единственным из исполнителей , неспособным выйти за рамки зомбированного подхода к персонажу Пинтера .
+RU:	Любопытно , что {Рэндалл} Арни в роли Тедди , кажется , оказался единственным из исполнителей , неспособным выйти за рамки зомбированного подхода к персонажу Пинтера .
 CS_T:	zdá [ #Gen.ACT Arney [ Randall Teddy ] kupodivu být [ <#Cor.ACT> členem [ jediným souboru nedokáže [ #Neg.RHEM který přenést [ #Cor.ACT přístup [ mrtvolný postavě [ této Pinterově ] ] ] ] ] ] ]
 EN_T:	seems [ Curiously Arney [ Randall ] Teddy member [ only cast unable [ get [ #Cor.ACT approach [ zombie character [ Pinter ] ] ] ] ] ]
-RU_T:	Любопытно [ оказался [ Рэндалл [ Арни роли [ Тедди ] ] кажется единственным [ исполнителей неспособным [ выйти [ #Cor.ACT рамки [ подхода [ зомбированного персонажу [ Пинтера ] ] ] ] ] ] ] ]
+RU_T:	Любопытно [ оказался [ <Рэндалл> [ Арни роли [ Тедди ] ] кажется единственным [ исполнителей неспособным [ выйти [ #Cor.ACT рамки [ подхода [ зомбированного персонажу [ Пинтера ] ] ] ] ] ] ] ]
 INFO_CS:	TYPE=cs_cor
 INFO_EN:	0 REWORD	MISS_VERB
 INFO_RU:	
@@ -1321,10 +1321,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1946.streex##12.T-wsj1946-001-p1s11a27
 CS:	Vědci zatím teprve začínají {přicházet} na to , co syndrom nemocných budov způsobuje , a když Beebeovi podávali žalobu , byla většina výzkumů nedostupná , řekla .
 EN:	Scientists are only beginning to {understand} what causes sick-building syndrome and much of that research was unavailable when the Beebes filed the case , she said .
-RU:	Учёные только начинают понимать , что именно вызывает синдром больных зданий , и многие из этих исследований были еще недоступны , когда Биби возбудили дело , сказала она .
+RU:	{Учёные} только начинают понимать , что именно вызывает синдром больных зданий , и многие из этих исследований были еще недоступны , когда Биби возбудили дело , сказала она .
 CS_T:	řekla [ a [ začínají [ Vědci zatím teprve přicházet [ <#Cor.ACT> způsobuje [ co syndrom [ budov [ nemocných ] ] ] ] ] byla [ podávali [ #Gen.ADDR Beebeovi žalobu ] většina [ výzkumů ] nedostupná ] ] #Gen.ADDR #PersPron.ACT ]
 EN_T:	said [ and [ beginning [ Scientists only understand [ <#Cor.ACT> causes [ what syndrome [ sick-building ] ] ] ] was [ much [ research [ that ] ] unavailable filed [ when Beebes case ] ] ] she #Gen.ADDR ]
-RU_T:	сказала [ начинают [ Учёные только понимать [ #Cor.ACT и [ вызывает [ именно что.ACT синдром [ зданий [ больных ] ] ] были [ многие [ исследований [ этих ] ] еще недоступны [ возбудили [ Биби дело ] ] ] ] ] ] она ]
+RU_T:	сказала [ начинают [ <Учёные> только понимать [ #Cor.ACT и [ вызывает [ именно что.ACT синдром [ зданий [ больных ] ] ] были [ многие [ исследований [ этих ] ] еще недоступны [ возбудили [ Биби дело ] ] ] ] ] ] она ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -1398,10 +1398,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1947.streex##17.T-wsj1947-001-p1s16a27
 CS:	USA se podařilo {dodat} Nizozemcům ropu tak , že na dodávkách vyměnili štítek , protože jakmile je ropa již expedována , nikdo nedokáže určit její zdroj .
 EN:	The U.S. did manage to {supply} the Dutch with oil by relabeling supplies ; once oil is shipped , no one can tell its source .
-RU:	США смогли снабдить голландцев нефтью при помощи повторной маркировки ; как только нефть отгружена , никто не может определить её источник .
+RU:	{США} смогли снабдить голландцев нефтью при помощи повторной маркировки ; как только нефть отгружена , никто не может определить её источник .
 CS_T:	podařilo [ USA dodat [ <#Cor.ACT> Nizozemcům ropu vyměnili [ #PersPron.ACT dodávkách štítek ] ] nedokáže [ #Neg.RHEM expedována [ #Gen.ACT ropa již #Oblfm.DIR3 ] nikdo určit [ #Cor.ACT zdroj [ její ] ] ] ]
 EN_T:	; [ manage [ U.S. supply [ <#Cor.ACT> Dutch oil relabeling [ #Cor.ACT supplies ] ] ] tell [ shipped [ oil #Gen.ACT #Oblfm.DIR3 ] one [ no ] source [ its ] ] ]
-RU_T:	, [ снабдить [ США голландцев нефтью маркировки [ повторной ] ] не определить [ только отгружена [ нефть #Gen.ACT ] никто источник [ её ] ] ]
+RU_T:	, [ снабдить [ <США> голландцев нефтью маркировки [ повторной ] ] не определить [ только отгружена [ нефть #Gen.ACT ] никто источник [ её ] ] ]
 INFO_CS:	OK
 INFO_EN:	TYPE=en_cor
 INFO_RU:	
@@ -1409,10 +1409,10 @@ INFO_RU:
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1947.streex##17.T-wsj1947-001-p1s16a32
 CS:	USA se podařilo dodat Nizozemcům ropu tak , že na dodávkách vyměnili štítek , protože jakmile je ropa již expedována , nikdo nedokáže {určit} její zdroj .
 EN:	The U.S. did manage to supply the Dutch with oil by relabeling supplies ; once oil is shipped , no {one} can tell its source .
-RU:	США смогли снабдить голландцев нефтью при помощи повторной маркировки ; как только нефть отгружена , никто не может определить её источник .
+RU:	США смогли снабдить голландцев нефтью при помощи повторной маркировки ; как только нефть отгружена , {никто} не может определить её источник .
 CS_T:	podařilo [ USA dodat [ #Cor.ACT Nizozemcům ropu vyměnili [ #PersPron.ACT dodávkách štítek ] ] nedokáže [ #Neg.RHEM expedována [ #Gen.ACT ropa již #Oblfm.DIR3 ] nikdo určit [ <#Cor.ACT> zdroj [ její ] ] ] ]
 EN_T:	; [ manage [ U.S. supply [ #Cor.ACT Dutch oil relabeling [ #Cor.ACT supplies ] ] ] tell [ shipped [ oil #Gen.ACT #Oblfm.DIR3 ] <one> [ no ] source [ its ] ] ]
-RU_T:	, [ снабдить [ США голландцев нефтью маркировки [ повторной ] ] не определить [ только отгружена [ нефть #Gen.ACT ] никто источник [ её ] ] ]
+RU_T:	, [ снабдить [ США голландцев нефтью маркировки [ повторной ] ] не определить [ только отгружена [ нефть #Gen.ACT ] <никто> источник [ её ] ] ]
 INFO_CS:	TYPE=cs_cor
 INFO_EN:	ANTE REWORD	AUX_VERB
 INFO_RU:	
