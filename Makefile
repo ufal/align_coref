@@ -94,7 +94,7 @@ revise_annot :
 # version 0026.no_coref_supervised_align of pcedt_bi
 #ALIGN_TYPE=0026.no_coref_supervised_align
 # version 0032.no_coref_supervised_align of pcedt_bi
-ALIGN_TYPE=0032.no_coref_supervised_align
+ALIGN_TYPE=0033.no_coref_supervised_align
 
 GOLD_ANNOT_FILE_EN=annot/en.all.align.ref.sec19_00-49.ali_annot
 GOLD_ANNOT_FILE_CS=annot/cs.all.align.ref.sec19_00-49.ali_annot
@@ -155,7 +155,7 @@ SELECTOR=ref
 # new trees with extended #Cors
 #EVAL_GOLD_ANNOT_TREES_DIR=${COREF_BITEXT_DIR}/data/analysed/pcedt/wsj1900-49/0027.no_coref_supervised_align
 # even newer trees with alignment of English #Cors increased from 34% to 52%
-EVAL_GOLD_ANNOT_TREES_DIR=${COREF_BITEXT_DIR}/data/analysed/pcedt/wsj1900-49/0032.no_coref_supervised_align
+EVAL_GOLD_ANNOT_TREES_DIR=${COREF_BITEXT_DIR}/data/analysed/pcedt/wsj1900-49/0033.no_coref_supervised_align
 REF_EVAL_DIR=$(GOLD_ANNOT_TREES_DIR)
 
 ###################### ORIGINAL AND RULE-BASED ALIGNMENT #####################
@@ -329,13 +329,14 @@ $(DATA_DIR)/docbased_crossval/%/all.done :
 	done
 	while [ `ls $(dir $@)/*/ml.done | wc -w` -lt 10 ]; do \
 		sleep 10; \
-	done
+	done; \
+	touch $@
 
 ################# RESOLVE USING MODELS TRAINED ON 10 DATA FOLDS AND EVALUATE ####################
 ######## see $COREF_BITEXT_DIR/makefile.wsj1900-49.data_gener how the data was created ##########
 
 #SRC_SUPERVISED_TO_EVAL_DIR=${COREF_BITEXT_DIR}/data/analysed/pcedt/wsj1900-49/0025.retrained_supervised_align.resolve_fixed_1
-SRC_SUPERVISED_TO_EVAL_DIR=${COREF_BITEXT_DIR}/data/analysed/pcedt/wsj1900-49/0032
+SRC_SUPERVISED_TO_EVAL_DIR=${COREF_BITEXT_DIR}/data/analysed/pcedt/wsj1900-49/0033
 
 supervised_src_% : $(SRC_SUPERVISED_TO_EVAL_DIR)/%.list
 	tmpdir=`mktemp -d tmp/supervised/$*.$(ALIGN_ANNOT_LANG).src.$(ANAPH_TYPE).XXX`; \
