@@ -3,7 +3,6 @@ package Treex::Block::AnaphBus::CrossLingStats;
 use Moose;
 use Treex::Core::Common;
 
-use Treex::Tool::Align::Utils;
 use Treex::Tool::Coreference::NodeFilter;
 
 use Data::Printer;
@@ -26,9 +25,17 @@ sub BUILD {
 sub _build_node_types {
     my ($self) = @_;
     return [
-        'perspron', 
+        'perspron',
+        'perspron.poss',
+        'reflpron.poss',
+        'reflpron.no_poss',
+
         'perspron_unexpr', 
+        
         'relpron',
+        'relpron.coz',
+        'relpron.that',
+        
         'cor',
     ];
 }
@@ -40,6 +47,7 @@ sub _build_counter_types {
         '#perspron.12.no_refl',
         'demonpron',
         'noun.only',
+        'article.def',
     );
     return \@types;
 }
@@ -122,22 +130,39 @@ sub process_filtered_tnode {
     my ($self, $l1_tnode) = @_;
 
     my @l1_feats = $self->feats_for_tnode($l1_tnode);
-    my ($l2_tnode) = Treex::Tool::Align::Utils::aligned_transitively([$l1_tnode], [$self->gold_align_filter]);
-    my @l2_feats;
+    my @l2_feats = ();
+    
+    my ($l2_tnodes, $t_aligns) = $l1_tnode->get_undirected_aligned_nodes($self->gold_align_filter);
     my $l1_anode = $l1_tnode->get_lex_anode;
-    my $ali_info = undef;
-    if (!defined $l2_tnode && defined $l1_anode) {
-        my ($l2_anode) = Treex::Tool::Align::Utils::aligned_transitively([$l1_anode], [$self->gold_align_filter]);
-        @l2_feats = $self->feats_for_anode($l2_anode);
-        $ali_info = get_ali_info($l1_anode, $l2_anode);
+    my ($l2_anodes, $a_aligns) = ([], []);
+    if (defined $l1_anode) {
+        ($l2_anodes, $a_aligns) = $l1_anode->get_undirected_aligned_nodes($self->gold_align_filter);
+    }
+    
+    # get counterparts and their feats via tectogrammatical alignment
+    if (@$l2_tnodes) {
+        for (my $i = 0; $i < @$l2_tnodes; $i++) {
+            push @l2_feats, "t-".$t_aligns->[$i];
+            push @l2_feats, $self->feats_for_tnode($l2_tnodes->[$i]);
+            my $ali_info = get_ali_info($l1_tnode, $l2_tnodes->[$i]);
+            push @l2_feats, ($ali_info // "No ali info");
+        }
+    }
+    # if no tectogrammatical counterparts, get counterparts and their feats via surface alignment
+    elsif (@$l2_anodes) {
+        for (my $i = 0; $i < @$l2_anodes; $i++) {
+            push @l2_feats, "a-".$a_aligns->[$i];
+            push @l2_feats, $self->feats_for_anode($l2_anodes->[$i]);
+            my $ali_info = get_ali_info($l1_anode, $l2_anodes->[$i]);
+            push @l2_feats, ($ali_info // "No ali info");
+        }
     }
     else {
-        @l2_feats = $self->feats_for_tnode($l2_tnode);
+        push @l2_feats, "no_align";
+        push @l2_feats, $self->feats_for_tnode(undef);
+        my $ali_info = get_ali_info($l1_tnode, undef);
+        push @l2_feats, ($ali_info // "No ali info");
     }
-    if (!defined $ali_info) {
-        $ali_info = get_ali_info($l1_tnode, $l2_tnode);
-    }
-    push @l2_feats, ($ali_info // "No ali info");
 
     my @feats = (@l1_feats, @l2_feats);
 
