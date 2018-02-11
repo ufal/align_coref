@@ -40,10 +40,15 @@ $(OUTDIR)/03.tecto.before_coref_annot/full.list : $(OUTDIR)/02.texts.checked/ru/
 # !!!!! links between t-nodes and a-nodes may be unresolved !!!!!!
 
 # transform the PDT-like documents to Treex documents
+# set Interset feats, which were lost after transformation to PDT style
 after_coref_annot : $(OUTDIR)/04.tecto.after_coref_annot/full.list
 $(OUTDIR)/04.tecto.after_coref_annot/full.list :
-	treex -p -Lru \
+	$(TREEX) -p -Lru \
 		Read::PDT from='!$(dir $@)/*.t.gz' schema_dir='../common/schema' \
+		Util::Eval anode='$$anode->wild->{"lemma.orig"} = $$anode->lemma;' \
+		W2A::UDPipe tokenize=0 tag=1 parse=0 model_alias="ru_synt_2.0" \
+		Util::Eval anode='use Lingua::Interset qw(decode); my $$tag = join "\t", map {$$anode->$$_} qw/conll_cpos conll_feat/; my $$iset = decode("mul::uposf", $$tag); $$anode->set_iset($$iset);' \
+		Util::Eval anode='$$anode->set_lemma(delete $$anode->wild->{"lemma.orig"})' \
 		Write::Treex path='$(dir $@)' && \
 	find $(dir $@) -name '*.treex.gz' | sed 's|.*/||' | sort > $@
 
