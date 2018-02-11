@@ -15,7 +15,7 @@ has 'align_lang' => (is => 'ro', isa => 'Str', required => 1);
 has 'gold_align_filter' => (is => 'ro', isa => 'HashRef', lazy => 1, builder => '_build_gaf');
 has 'align_type' => ( is => 'ro', isa => 'Str', default => 'gold' );
 has 'counter_types' => ( is => 'ro', isa => 'ArrayRef[Str]', builder => '_build_counter_types', lazy => 1 );
-has 'a_links_only_for_aux' => ( is => 'ro', isa => 'Bool', default => 0 );
+has 'a_links_only_for_aux' => ( is => 'ro', isa => 'Bool', default => 1 );
 
 sub BUILD {
     my ($self) = @_;
@@ -142,7 +142,10 @@ sub process_filtered_tnode {
         if ($self->a_links_only_for_aux) {
             # tectogrammatical alignment has very high priority as it is supervised
             # therefore, use the surface alignment only if it connects a node that is not represented on the t-layer
-            my @a_aux_idx =  grep {my $anode = $l2_anodes->[$_]; !$anode->get_referencing_nodes('a/lex.rf')} (0 .. $#$l2_anodes);
+            my @a_aux_idx = grep {
+                my $anode = $l2_anodes->[$_];
+                (!$anode->get_referencing_nodes('a/lex.rf') && Treex::Tool::Coreference::NodeFilter::matches($anode, $self->counter_types))
+            } (0 .. $#$l2_anodes);
             $l2_anodes = [ @{$l2_anodes}[@a_aux_idx] ];
             $a_aligns = [ @{$a_aligns}[@a_aux_idx] ];
         }
