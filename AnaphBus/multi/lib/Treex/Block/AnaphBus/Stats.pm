@@ -1,6 +1,7 @@
 package Treex::Block::AnaphBus::Stats;
 
 use Moose;
+use List::Uniq ':all';
 use Treex::Core::Common;
 use Treex::Tool::Coreference::Utils;
 
@@ -23,11 +24,12 @@ sub id_to_entity {
 
 before 'process_document' => sub {
     my ($self, $doc) = @_;
-    my $id_to_entity = {
-        en => id_to_entity($doc, 'en', $self->selector),
-        cs => id_to_entity($doc, 'cs', $self->selector),
-        ru => id_to_entity($doc, 'ru', $self->selector),
-    };
+    my @all_zones = $doc->get_all_zones;
+    my @all_langs = uniq map {$_->language} @all_zones;
+    my $id_to_entity = {};
+    foreach my $lang (@all_langs) {
+        $id_to_entity->{$lang} = id_to_entity($doc, $lang, $self->selector);
+    }
     $self->_set_id_to_entity($id_to_entity);
 };
 
