@@ -12,7 +12,7 @@ ORIG_LIST = $(DATA_DIR)/train_19_00-49.orig.list
 #-------------------------------------------- LRC -----------------------------------------
 
 
-JOBS = 100
+JOBS = 10
 LRC=1
 ifeq (${LRC}, 1)
 LRC_FLAGS = -p --priority "-1" -m 10g --jobs ${JOBS}
@@ -346,23 +346,25 @@ supervised_src_% : $(SRC_SUPERVISED_TO_EVAL_DIR)/%.list
 	echo "RESULTS FOR $*.$(ALIGN_ANNOT_LANG).src.$(ANAPH_TYPE)" && \
 	find $$tmpdir -name "wsj_19*" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/eval.pl --acc --prf
 
-supervised_ref_% : $(REF_EVAL_DIR)/%.list
-	rm -rf tmp/supervised/$*.$(ALIGN_ANNOT_LANG).ref.$(ANAPH_TYPE)
-	mkdir -p tmp/supervised/$*.$(ALIGN_ANNOT_LANG).ref.$(ANAPH_TYPE)
+supervised_ref_% : tmp/supervised/%.ref/done
+tmp/supervised/%.ref/done : $(EVAL_GOLD_ANNOT_TREES_DIR)/%.list
+	mkdir -p $(dir $@)/data
 	for i in `seq 0 9`; do \
 		en_model=`cat ~/projects/align_coref/data/docbased_crossval/en.ref/$$i/tmp/ml/*/best_acc.model | tail -n1 | cut -f2`; \
 		cs_model=`cat ~/projects/align_coref/data/docbased_crossval/cs.ref/$$i/tmp/ml/*/best_acc.model | tail -n1 | cut -f2`; \
-		cat $< | grep "wsj_19.$$i" | sed 's#^#$(realpath $(REF_EVAL_DIR))/#' > tmp/supervised/$*.$(ALIGN_ANNOT_LANG).ref.$(ANAPH_TYPE)/part$$i.list; \
-		treex $(LRC_FLAGS) -L$(ALIGN_ANNOT_LANG) -Sref \
-			Read::Treex from=@tmp/supervised/$*.$(ALIGN_ANNOT_LANG).ref.$(ANAPH_TYPE)/part$$i.list \
+		cat $< | grep "wsj_19.$$i" | sed 's#^#$(realpath $(dir $<))/#' > $(dir $@)/part$$i.list; \
+		treex $(LRC_FLAGS) -Sref \
+			Read::Treex from=@$(dir $@)/part$$i.list \
 			Align::T::Supervised::Resolver language=en,cs align_trg_lang=en model_path="$$en_model,$$cs_model" node_types=all_anaph \
-			Write::Treex path=tmp/supervised/$*.$(ALIGN_ANNOT_LANG).ref.$(ANAPH_TYPE) \
-			Align::T::Eval align_language=$(ALIGN_ANNOT_LANG2) align_reltypes='supervised,coref_supervised' node_types=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/supervised/$*.$(ALIGN_ANNOT_LANG).ref.$(ANAPH_TYPE)/$$1.txt}' \
-		> tmp/supervised/$*.$(ALIGN_ANNOT_LANG).ref.$(ANAPH_TYPE)/log.wsj1900-49.pcedt.data_gener.$$i 2>&1 && \
-		touch tmp/supervised/$*.$(ALIGN_ANNOT_LANG).ref.$(ANAPH_TYPE)/done.wsj1900-49.pcedt.data_gener.$$i & \
+			Write::Treex path=$(dir $@)/data \
+		> $(dir $@)/log.align.$$i 2>&1 && \
+		touch $(dir $@)/done.align.$$i & \
 	done
-	while [ `ls tmp/supervised/$*.$(ALIGN_ANNOT_LANG).ref.$(ANAPH_TYPE)/done.wsj1900-49.pcedt.data_gener.* | wc -w` -lt 10 ]; do \
+	while [ `ls $(dir $@)/done.align.* | wc -w` -lt 10 ]; do \
 		sleep 10; \
 	done
-	rm tmp/supervised/$*.$(ALIGN_ANNOT_LANG).ref.$(ANAPH_TYPE)/done.wsj1900-49.pcedt.data_gener.*
-	find tmp/supervised/$*.$(ALIGN_ANNOT_LANG).ref.$(ANAPH_TYPE) -name "wsj_19*.txt" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/eval.pl --acc --prf
+			
+#			Align::T::Eval align_language=$(ALIGN_ANNOT_LANG2) align_reltypes='supervised,coref_supervised' node_types=$(ANAPH_TYPE) to='.' substitute='{^.*/([^\/]*)}{tmp/supervised/$*.$(ALIGN_ANNOT_LANG).ref.$(ANAPH_TYPE)/$$1.txt}' \
+#		> tmp/supervised/$*.$(ALIGN_ANNOT_LANG).ref.$(ANAPH_TYPE)/log.wsj1900-49.pcedt.data_gener.$$i 2>&1 && \
+#	rm tmp/supervised/$*.$(ALIGN_ANNOT_LANG).ref.$(ANAPH_TYPE)/done.wsj1900-49.pcedt.data_gener.*
+#	find tmp/supervised/$*.$(ALIGN_ANNOT_LANG).ref.$(ANAPH_TYPE) -name "wsj_19*.txt" | sort | xargs cat | $(ML_FRAMEWORK_DIR)/scripts/eval.pl --acc --prf
