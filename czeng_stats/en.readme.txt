@@ -1,3 +1,0 @@
-01	original summary
-02	#perspron.12.no_refl and demonpron can be on the other side of the alignment
-04	same as 02 but on re-analysed CzEng (version 0033)
