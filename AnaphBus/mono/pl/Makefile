@@ -9,7 +9,7 @@
 PL_TRANSL=data/00.translated/full.list
 
 #######################################################################
-################# analyse the data automatically ######################
+################# STAGE 1: analyse the data automatically ######################
 #######################################################################
 
 # Variants 01.?a and 01.?b may exist.
@@ -27,6 +27,28 @@ data/01.analysed_for_annot.ud2/full.list : $(PL_TRANSL)
 		Write::PDT version=3.0 path='$(dir $@)'
 	find $(dir $@) -name '*.t.gz' | sed 's|.*/||' | sort > $(dir $@)/full.t.list
 	find $(dir $@) -name '*.streex' | sed 's|.*/||' | sort > $@
+
+##############################################################################################################
+################ STAGE 2: MANUAL ANNOTATION OF COREFERENCE AND COREFERENCE-DRIVEN TECTO ######################
+##############################################################################################################
+
+# done by Maciej and his colleagues on PDT-like t-trees only
+# sent to us 4.2.2018
+# !!!!! links between t-nodes and a-nodes may be unresolved !!!!!!
+
+# transform the PDT-like documents to Treex documents
+# set Interset feats, which were lost after transformation to PDT style
+# !!! switch the Treex branch to hamledt.ud2_to_prague before processing
+after_coref_annot : data/02.tecto.after_coref_annot/full.list
+data/02.tecto.after_coref_annot/full.list :
+	treex -p -Lpl \
+		Read::PDT from='!$(dir $@)/*.t.gz' schema_dir='../common/schema' \
+		Util::Eval anode='$$anode->wild->{"lemma.orig"} = $$anode->lemma;' \
+		W2A::UDPipe tokenize=0 tag=1 parse=0 model_alias="pl_2.0" \
+		Util::Eval anode='use Lingua::Interset qw(decode); my $$tag = join "\t", map {$$anode->$$_} qw/conll_cpos conll_feat/; my $$iset = decode("mul::uposf", $$tag); $$anode->set_iset($$iset);' \
+		Util::Eval anode='$$anode->set_lemma(delete $$anode->wild->{"lemma.orig"})' \
+		Write::Treex path='$(dir $@)' && \
+	find $(dir $@) -name '*.treex.gz' | sed 's|.*/||' | sort > $@
 
 
 #################################################################### THE OLD STUFF ############################################################################
