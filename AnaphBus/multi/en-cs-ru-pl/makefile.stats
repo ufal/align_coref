@@ -1,0 +1,20 @@
+TREEX=PERL5LIB=$$PERL5LIB:../lib treex
+
+# 11.2.2018: due to time reasons, I have not included the annotated Polish to the multi-format of PAWS
+# We just need to collect this statistics for the paper for CRAC 2018
+DATA=../../mono/pl/data/02.tecto.after_coref_annot/*.treex.gz
+
+stats/for_crac2018_paper/basic.txt :
+	mkdir -p $(dir $@)
+	$(TREEX) \
+		Read::Treex from='!$(DATA)' \
+		Util::Eval language=pl anode='print join "\t", ("anode", $$anode->language, $$anode->get_address); print "\n";' \
+		Util::Eval language=pl tnode='print join "\t", ("tnode", $$tnode->language, $$tnode->get_address); print "\n";' \
+		> $@
+
+stats/for_crac2018_paper/coref.txt :
+	mkdir -p $(dir $@)
+	$(TREEX) \
+		Read::Treex from='!$(DATA)' \
+		AnaphBus::Stats language=pl \
+		> $@
