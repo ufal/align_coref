@@ -4,6 +4,7 @@ use Moose;
 use List::Uniq ':all';
 use Treex::Core::Common;
 use Treex::Tool::Coreference::Utils;
+use Data::Printer { max_depth      => 2 };
 
 extends 'Treex::Core::Block';
 
@@ -24,7 +25,8 @@ sub id_to_entity {
 
 before 'process_document' => sub {
     my ($self, $doc) = @_;
-    my @all_zones = $doc->get_all_zones;
+    my ($bundle) = $doc->get_bundles;
+    my @all_zones = $bundle->get_all_zones;
     my @all_langs = uniq map {$_->language} @all_zones;
     my $id_to_entity = {};
     foreach my $lang (@all_langs) {
