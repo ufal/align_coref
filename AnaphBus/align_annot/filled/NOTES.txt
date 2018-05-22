@@ -1,0 +1,3 @@
+Otazky a poznamky:
+1) Mam pocit, ze sa v rustine pouzivaju pozuivaju casto #PersProny na miestach, kde su v anglictine #Cory (pripadne menny privlastok) a ja nevidim medzi tym nejaky rozdiel (napr. wsj_1922.streex##13). Preco?
+2) Je nutne prejst pripady bez alignmentu v akomkolvek jazyku a overit, ci by tam nesiel vlozit k antecedentovi (alebo to tak je az prilis nasilne)
