@@ -132,7 +132,7 @@ $(OUTDIR)/09.treex.pcedtr_gold_align.to_ttree/full.list : $(OUTDIR)/08.treex.pce
 	find $(dir $@) -name '*.streex' | sed 's|.*/||' | sort > $@
 
 ##############################################################################################################
-###### STAGE 10: EXTRACT AND IMPORT NEW ALIGNMENT ANNOTATION FILES FOR YET UNCOVERED NODES (CS, EN, RU)  #####
+### STAGE 10-12: EXTRACT AND IMPORT NEW ALIGNMENT ANNOTATION FILES FOR YET UNCOVERED NODES (CS, EN, RU)  #####
 ##############################################################################################################
 
 PHASE05_ALI_ANNOT_CLEAN=$(ALI_ANNOT_DIR)/clean/05.cs.en-ru.relpron.align.ref.sec19_00-49.ali_annot
@@ -158,3 +158,20 @@ PHASE0508_ALL_ALI_ANNOT=$(ALI_ANNOT_DIR)/filled/05-08.cs.en-ru.align.ref.sec19_0
 $(OUTDIR)/10.treex.pcedtr_gold_align_import.cs/full.list : $(OUTDIR)/09.treex.pcedtr_gold_align.to_ttree/full.list
 	cat $(PHASE05_ALI_ANNOT) $(PHASE06_ALI_ANNOT) $(PHASE07_ALI_ANNOT) $(PHASE08_ALI_ANNOT) > $(PHASE0508_ALL_ALI_ANNOT)
 	../bin/import_ali_annot.sh $< $(PHASE0508_ALL_ALI_ANNOT) $@ "cs-en:gold;ru-cs:gold;en-ru:gold"
+
+PHASE09_ALI_ANNOT_CLEAN=$(ALI_ANNOT_DIR)/clean/09.en.cs-ru.relpron.align.ref.sec19_00-49.ali_annot
+PHASE10_ALI_ANNOT_CLEAN=$(ALI_ANNOT_DIR)/clean/10.en.cs-ru.perspron.align.ref.sec19_00-49.ali_annot
+PHASE11_ALI_ANNOT_CLEAN=$(ALI_ANNOT_DIR)/clean/11.en.cs-ru.perspron_unexpr.align.ref.sec19_00-49.ali_annot
+PHASE12_ALI_ANNOT_CLEAN=$(ALI_ANNOT_DIR)/clean/12.en.cs-ru.cor.align.ref.sec19_00-49.ali_annot
+
+ali_annot_clean09-12 : $(PHASE09_ALI_ANNOT_CLEAN) $(PHASE10_ALI_ANNOT_CLEAN) $(PHASE11_ALI_ANNOT_CLEAN) $(PHASE12_ALI_ANNOT_CLEAN)
+
+$(PHASE09_ALI_ANNOT_CLEAN) : $(OUTDIR)/10.treex.pcedtr_gold_align_import.cs/full.list
+	../bin/prepare_clean_ali_annot.sh $< en "" t relpron cs,ru > $@
+$(PHASE10_ALI_ANNOT_CLEAN) : $(OUTDIR)/10.treex.pcedtr_gold_align_import.cs/full.list
+	../bin/prepare_clean_ali_annot.sh $< en "" t perspron cs,ru > $@
+$(PHASE11_ALI_ANNOT_CLEAN) : $(OUTDIR)/10.treex.pcedtr_gold_align_import.cs/full.list
+	../bin/prepare_clean_ali_annot.sh $< en "" t perspron_unexpr cs,ru > $@
+$(PHASE12_ALI_ANNOT_CLEAN) : $(OUTDIR)/10.treex.pcedtr_gold_align_import.cs/full.list
+	../bin/prepare_clean_ali_annot.sh $< en "" t cor cs,ru > $@
+
