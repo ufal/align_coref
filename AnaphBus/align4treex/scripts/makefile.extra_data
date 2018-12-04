@@ -5,15 +5,16 @@ SCRIPT_DIR:=$(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 # parameters
 LPAIR=
 SPLIT_SIZE=2000
+MAX_CHARS=800
 MAX_TOKENS=100
 SAMPLE_PERC=50
-#TOKENIZE=
-TOKENIZE=whitespace
+TOKENIZE=
+#TOKENIZE=whitespace
 EXTRA_NAME=all_extra
 EXTRA_DIR=extra/$(LPAIR)
 
 IN_DIR=$(EXTRA_DIR)/00.in
-MERGE_DIR=$(EXTRA_DIR)/01.merged
+MERGE_DIR=$(EXTRA_DIR)/01.merged_filtered_sampled
 SPLIT_DIR=$(EXTRA_DIR)/02.split
 ANALYSED_DIR=$(EXTRA_DIR)/03.analysed
 FOR_GIZA_DIR=$(EXTRA_DIR)/04.for_giza
@@ -24,7 +25,7 @@ merge : $(MERGE_DIR)/$(EXTRA_NAME).$(LPAIR).txt.gz
 $(MERGE_DIR)/$(EXTRA_NAME).$(LPAIR).txt.gz : $(IN_DIR)/$(EXTRA_NAME).list
 	mkdir -p $(dir $@)
 	cat $< | sed 's:^:$(IN_DIR)/:' > $(IN_DIR)/$(EXTRA_NAME).abs.list
-	cat $(IN_DIR)/$(EXTRA_NAME).abs.list | xargs zcat | gzip -c > $@
+	cat $(IN_DIR)/$(EXTRA_NAME).abs.list | xargs zcat | awk '{ if (length($$0) <= $(MAX_CHARS)) { print $$0; }}' | perl -e 'srand(1986); while (<>) { print $$_ if (int(rand(100)) <= int("$(SAMPLE_PERC)")); }' | gzip -c > $@
 	rm $(IN_DIR)/$(EXTRA_NAME).abs.list
 
 data_split : $(SPLIT_DIR)/$(EXTRA_NAME).$(LPAIR).done
@@ -33,24 +34,27 @@ $(SPLIT_DIR)/$(EXTRA_NAME).$(LPAIR).done : $(MERGE_DIR)/$(EXTRA_NAME).$(LPAIR).t
 	( zcat $< | split -d -a 7 --additional-suffix .txt -l $(SPLIT_SIZE) - $(dir $@)/$(EXTRA_NAME).$(LPAIR).files/part. ) && \
 	touch $@
 
-	#$(SCRIPT_DIR)/analyse_to_treex.sh '!$(dir $<)/$(EXTRA_NAME).$(LPAIR).files/part.*.txt' $(dir $@)/$(EXTRA_NAME).$(LPAIR).files $(LPAIR) $(TOKENIZE) && 
 analysed : $(ANALYSED_DIR)/$(EXTRA_NAME).$(LPAIR).done
 $(ANALYSED_DIR)/$(EXTRA_NAME).$(LPAIR).done : $(SPLIT_DIR)/$(EXTRA_NAME).$(LPAIR).done
+	$(SCRIPT_DIR)/analyse_to_treex.sh '!$(dir $<)/$(EXTRA_NAME).$(LPAIR).files/part.*.txt' $(dir $@)/$(EXTRA_NAME).$(LPAIR).files $(LPAIR) $(TOKENIZE) && \
 	touch $@
 
-for_giza_full : $(FOR_GIZA_DIR)/$(EXTRA_NAME).$(LPAIR).for_giza.full.gz
-$(FOR_GIZA_DIR)/$(EXTRA_NAME).$(LPAIR).for_giza.full.gz : $(ANALYSED_DIR)/$(EXTRA_NAME).$(LPAIR).done
-	mkdir -p $(dir $@)
-	$(SCRIPT_DIR)/print_lemmatized_bitext.sh '!$(dir $<)/$(EXTRA_NAME).$(LPAIR).files/part.*.treex.gz' $@ $(LPAIR)	$(MAX_TOKENS)
-
-for_giza_sample : $(FOR_GIZA_DIR)/$(EXTRA_NAME).$(LPAIR).for_giza.sample_$(SAMPLE_PERC).gz
-$(FOR_GIZA_DIR)/$(EXTRA_NAME).$(LPAIR).for_giza.sample_$(SAMPLE_PERC).gz : $(FOR_GIZA_DIR)/$(EXTRA_NAME).$(LPAIR).for_giza.full.gz
-	zcat $< | perl -e 'srand(1986); while (<>) { print $$_ if (int(rand(100)) <= int("$(SAMPLE_PERC)")); }' | gzip -c > $@
+#for_giza_full : $(FOR_GIZA_DIR)/$(EXTRA_NAME).$(LPAIR).for_giza.full.gz
+#$(FOR_GIZA_DIR)/$(EXTRA_NAME).$(LPAIR).for_giza.full.gz : $(ANALYSED_DIR)/$(EXTRA_NAME).$(LPAIR).done
 
 for_giza : $(FOR_GIZA_DIR)/$(EXTRA_NAME).$(LPAIR).for_giza.gz
-$(FOR_GIZA_DIR)/$(EXTRA_NAME).$(LPAIR).for_giza.gz : $(FOR_GIZA_DIR)/$(EXTRA_NAME).$(LPAIR).for_giza.sample_$(SAMPLE_PERC).gz
-	rm -f $@
-	ln -s $(notdir $<) $@
+$(FOR_GIZA_DIR)/$(EXTRA_NAME).$(LPAIR).for_giza.gz : $(ANALYSED_DIR)/$(EXTRA_NAME).$(LPAIR).done
+	mkdir -p $(dir $@)
+	$(SCRIPT_DIR)/print_lemmatized_bitext.sh '!$(dir $<)/$(EXTRA_NAME).$(LPAIR).files/part.*.treex.gz' $@ $(LPAIR) extra $(MAX_TOKENS)
+
+#for_giza_sample : $(FOR_GIZA_DIR)/$(EXTRA_NAME).$(LPAIR).for_giza.sample_$(SAMPLE_PERC).gz
+#$(FOR_GIZA_DIR)/$(EXTRA_NAME).$(LPAIR).for_giza.sample_$(SAMPLE_PERC).gz : $(FOR_GIZA_DIR)/$(EXTRA_NAME).$(LPAIR).for_giza.full.gz
+#	zcat $< | perl -e 'srand(1986); while (<>) { print $$_ if (int(rand(100)) <= int("$(SAMPLE_PERC)")); }' | gzip -c > $@
+
+#for_giza : $(FOR_GIZA_DIR)/$(EXTRA_NAME).$(LPAIR).for_giza.gz
+#$(FOR_GIZA_DIR)/$(EXTRA_NAME).$(LPAIR).for_giza.gz : $(FOR_GIZA_DIR)/$(EXTRA_NAME).$(LPAIR).for_giza.sample_$(SAMPLE_PERC).gz
+#	rm -f $@
+#	ln -s $(notdir $<) $@
 
 path_for_giza : $(FOR_GIZA_DIR)/$(EXTRA_NAME).$(LPAIR).for_giza.gz
 	echo "$<"

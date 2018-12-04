@@ -53,7 +53,7 @@ $my_dir/prepare_input.sh $inpath $prepared_data_dir $lpair $spair
 
 prepared_data_path='!'$prepared_data_dir'/*.treex.gz'
 data_forgiza=$RUN_DIR/03.for_giza/data.txt.gz
-$my_dir/print_lemmatized_bitext.sh $prepared_data_path $data_forgiza $lpair $MAX_TOKENS
+$my_dir/print_lemmatized_bitext.sh $prepared_data_path $data_forgiza $lpair main $MAX_TOKENS
 
 # RUN GIZA
 

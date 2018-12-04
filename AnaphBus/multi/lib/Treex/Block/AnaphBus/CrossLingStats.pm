@@ -26,18 +26,19 @@ sub BUILD {
 sub _build_node_types {
     my ($self) = @_;
     return [
-        'perspron',
-        'perspron.poss',
+        'perspron.pers',
+        'perspron.poss.no_refl',
         'reflpron.poss',
         'reflpron.no_poss',
+        'zero.subject',
+        'cor',
+        'relpron',
 
         'perspron_unexpr', 
         
-        'relpron',
         'relpron.coz',
         'relpron.that',
         
-        'cor',
     ];
 }
 
@@ -48,6 +49,8 @@ sub _build_counter_types {
         '#perspron.12.no_refl',
         'demonpron',
         'noun.only',
+        'noun.only.non_proper',
+        'noun.only.proper',
         'article.def',
         'sam_samotny',
     );
@@ -124,7 +127,7 @@ sub get_type {
     if (!@matched_types) {
         @matched_types = ( "undef" );
     }
-    my $type = $node->language . "_" . join(";", sort @matched_types);
+    my $type = $node->language . "_;" . join(";", sort @matched_types) . ";";
     return $type;
 }
 

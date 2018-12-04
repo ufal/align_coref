@@ -1,0 +1,473 @@
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1903.streex##33.EnglishT-wsj_1903-s33-t10
+EN:	Mr. Lang surprised Time soon after joining forces {when} he said he would negotiate rates individually with advertisers , a practice common in broadcasting but considered taboo by magazine publishers .
+CS:	Lang překvapil Time brzy po spojení sil , když prohlásil , že cenu bude s inzerenty dohadovat individuálně , což je praktika obvyklá ve vysílání , ale mezi vydavateli časopisů je považována za tabu .
+RU:	Г-н Лэнг удивил Time вскоре после объединения , заявив , что он будет договариваться о ценах незаисимо с каждым рекламодателем - практика , принятая в телерадиокомпаниях , но считающаяся запрещенной среди издателей журналов .
+EN_TT:	, [ surprised [ Lang [ Mr. ] Time soon joining [ #PersPron.ACT forces ] said [ <when> he #Gen.ADDR negotiate [ he rates individually advertisers ] ] ] #EmpVerb.PRED [ practice [ but [ common [ broadcasting ] considered [ #Cor.PAT taboo publishers [ magazine ] ] ] ] ] ]
+CS_TT:	překvapil [ Lang #Forn.PAT [ Time ] brzy [ spojení [ #PersPron.ACT sil #Rcp.ADDR ] ] prohlásil [ #PersPron.ACT , [ dohadovat [ #PersPron.ACT cenu inzerenty individuálně ] ale [ je [ což praktika obvyklá [ vysílání ] ] považována [ #PersPron.PAT vydavateli [ časopisů ] tabu ] ] ] ] ]
+RU_TT:	удивил [ Лэнг [ Г-н ] Time вскоре [ объединения ] заявив [ #PersPron.ACT #Comma.CONJ [ договариваться [ он ценах незаисимо [ рекламодателем [ каждым ] ] ] практика [ но [ принятая [ телерадиокомпаниях ] #PersPron.PAT #Gen.ACT считающаяся [ запрещенной [ #PersPron.PAT издателей [ журналов ] ] ] ] ] ] ] ]
+INFO_EN: ALIGN=0 
+INFO_CS: ALIGN=0	
+INFO_RU: ALIGN=0
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1906.streex##3.EnglishT-wsj_1906-s3-t30
+EN:	Acting more than a year after Ms. Bertussi filed a complaint , the panel issued a `` letter of reproval '' saying Rep. Bates had admitted conduct {that} violated a House rule forbidding discrimination against employees on account of their sex .
+CS:	Více než rok poté , co Bertussiová napsala stížnost , vydala komise " pokárání " , které uvádí , že poslanec Bates připustil jednání porušující sněmovní řád zakazující diskriminaci zaměstnanců na základě pohlaví .
+RU:	Более чем через год после того , как г-жа Бертусси подала жалобу , комитет составил " ноту порицания " , указывающую , что конгрессмен Бейтс допустил поведение , {нарушающее} правила Палаты , которые запрещают дискриминацию по половому признаку в отношении сотрудников .
+EN_TT:	issued [ Acting [ #Cor.ACT more [ year ] filed [ Bertussi [ Ms. ] complaint ] ] panel letter [ reproval [ #Gen.ACT ] saying [ #Cor.ACT #Gen.ADDR admitted [ Bates [ Rep. ] conduct [ violated [ <that> rule [ House forbidding [ #Cor.ACT #Gen.ADDR discrimination [ employees account [ sex [ their ] ] ] ] ] ] ] ] ] ] ]
+CS_TT:	vydala [ rok [ Více [ než ] napsala [ Bertussiová stížnost ] ] komise pokárání [ uvádí [ které připustil [ Bates [ poslanec ] jednání [ #PersPron.ACT porušující [ řád [ sněmovní zakazující [ diskriminaci [ zaměstnanců pohlaví ] ] ] ] ] ] ] ] ]
+RU_TT:	составил [ год [ чем того [ подала [ Бертусси [ г-жа ] жалобу ] ] ] комитет ноту [ порицания указывающую [ #Cor.ACT допустил [ Бейтс [ конгрессмен ] поведение [ нарушающее [ <#Cor.ACT> правила [ Палаты запрещают [ которые дискриминацию [ признаку [ половому ] сотрудников ] ] ] ] ] ] ] ] ]
+INFO_EN:	RELPRON 
+INFO_CS:	0 MISS_ARG	that->A
+INFO_RU:	ALIGN=#Cor
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1907.streex##3.EnglishT-wsj_1907-s3-t1
+EN:	{When} it made the offer , StatesWest declined to disclose details and asked Mesa to do the same .
+CS:	Po učinění nabídky společnost StateWest odmítla oznámit podrobnosti a o totéž požádala společnost Mesa .
+RU:	Когда StatesWest предложила сделку , она отказалась раскрывать детали и попросила Mesa поступить так же .
+EN_TT:	and [ made [ <When> it offer ] StatesWest declined [ disclose [ #Cor.ACT #Gen.ADDR details ] ] asked [ Mesa do [ #Cor.ACT same ] ] ]
+CS_TT:	a [ učinění [ #PersPron.ACT nabídky ] společnost [ StateWest ] odmítla [ oznámit [ #Cor.ACT podrobnosti ] ] požádala [ totéž společnost [ Mesa ] ] ]
+RU_TT:	и [ предложила [ StatesWest сделку ] она отказалась [ раскрывать [ #Cor.ACT детали ] ] попросила [ Mesa поступить [ #PersPron.ACT так [ же ] ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	ALIGN=0 FUSED	TEMP_AFTER
+INFO_RU:	ALIGN=0 TECHNICAL
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1915.streex##92.EnglishT-wsj_1915-s92-t85
+EN:	PACIFIC GAS & ELECTRIC CO. , San Francisco , electric , gas and water supplier , annual sales $ 7.6 billion , some minor damage to headquarters , undetermined damage to four nearby substations , severe structural damage to a major power plant at Moss Landing , extensive damage to gas lines and electric lines , 400,000 residences without electricity and 69,000 without gas , can not reconnect electricity until it is certain there are no gas leaks , no predictions on {when} this will happen .
+CS:	SPOLEČNOST PACIFIC GAS & ELECTRIC CO . v San Francisku , dodavatel elektrické energie , plynu a vody s ročním obratem 7.6 miliardy dolarů , utrpěla lehké škody v hlavním sídle společnosti , blíže neurčené škody na čtyřech rozvodnách poblíž , těžké škody na statice budovy hlavní elektrárny v Moss Landingu , rozsáhlé škody na plynovém potrubí a elektrickém vedení , přičemž 400000 domácností je bez elektřiny a 69000 domácností je bez dodávek plynu a společnost nemůže obnovit elektrické vedení , dokud nebude jisté , že nikde neuniká plyn , a nejsou žádné předběžné odhady , {kdy} se tak stane .
+RU:	Компания PACIFIC GAS&ELECTRIC , Сан -Франциско , поставщик электроэнергии , поставщик газа и водоснабжающая компания , годовые продажи $ 7.6 млрд . , незначительный ущерб нанесен основному офису , не определённый ущерб - четырём близлежащим подстанциям , серьёзные повреждения получила основная электростанция в Мосс Лэндинге , значительный ущерб нанесен газовым и электрическим линиям , 400000 квартир остались без электричества и 69000 - без газа . Компания не может подключить электричество снова , пока не будет уверена , что нет утечки газа , и пока неясно , когда это может произойти .
+EN_TT:	, [ , [ , [ CO. [ & [ PACIFIC GAS ELECTRIC #Forn.PAR [ San Francisco ] ] ] supplier [ and [ electric gas water ] ] #EmpVerb.DESCR [ sales [ annual $ [ billion [ 7.6 ] ] ] ] ] #EmpVerb.PRED [ , [ damage [ some minor headquarters ] damage [ undetermined substations [ four nearby ] ] damage [ severe structural plant [ major power Landing [ Moss ] ] ] damage [ extensive and [ lines [ gas ] lines [ electric ] ] ] and [ residences [ 400,000 electricity ] residences [ 69,000 gas ] ] ] ] reconnect [ not electricity is [ certain are [ leaks [ no gas ] ] ] ] ] #EmpVerb.PRED [ predictions [ no happen [ <when> this ] ] ] ]
+CS_TT:	přičemž [ a [ je [ domácností [ 400000 ] elektřiny ] je [ domácností [ 69000 ] dodávek [ plynu ] ] obnovit [ společnost #Neg.RHEM vedení [ elektrické ] nebude [ #Neg.RHEM jisté neuniká [ #Neg.RHEM #Oblfm.DIR1 nikde plyn ] ] ] nejsou [ #Neg.RHEM odhady [ žádné předběžné stane [ <kdy> tak ] ] ] ] utrpěla [ , [ škody [ lehké sídle [ hlavním společnosti ] ] škody [ neurčené [ blíže ] rozvodnách [ čtyřech poblíž ] ] škody [ těžké statice [ budovy [ elektrárny [ #Forn.LOC [ Moss Landingu ] hlavní ] ] ] ] škody [ rozsáhlé a [ potrubí [ plynovém ] vedení [ elektrickém ] ] ] ] , [ SPOLEČNOST [ #Forn.LOC [ San Francisku ] #Forn.ID [ PACIFIC GAS & ELECTRIC CO . ] ] dodavatel [ a [ energie [ elektrické ] plynu vody ] obratem [ ročním miliardy [ 7.6 dolarů ] ] ] ] ] ]
+RU_TT:	, [ #Comma.APPS [ Компания [ PACIFIC [ GAS&ELECTRIC ] ] -Франциско [ Сан ] и [ поставщик [ электроэнергии ] поставщик [ газа ] компания [ водоснабжающая ] продажи [ годовые млрд [ $ 7.6 ] ] ] ] нанесен [ ущерб [ незначительный ] #Gen.ACT офису [ основному ] ] #EmpVerb.PRED [ ущерб [ не определённый ] подстанциям [ четырём близлежащим ] ] получила [ повреждения [ серьёзные ] электростанция [ основная Мосс [ Лэндинге ] ] ] и [ нанесен [ ущерб [ значительный ] линиям [ и [ газовым электрическим ] ] ] остались [ квартир [ 400000 ] электричества ] #EmpVerb.PRED [ 69000 газа ] ] ] и [ может [ Компания не подключить [ #Cor.ACT электричество снова [ будет [ #PersPron.ACT уверена [ нет [ утечки [ газа ] ] ] ] ] ] не ] #EmpVerb.PRED [ неясно может [ это когда.TWHEN произойти [ #Cor.ACT ] ] ] ]
+INFO_EN:		FUSED
+INFO_CS:		FUSED
+INFO_RU:	ALIGN=0 FUSED
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1915.streex##93.EnglishT-wsj_1915-s93-t60
+EN:	PACIFIC TELESIS GROUP , San Francisco , telecommunications holding company , annual sales of $ 9.5 billion , no damage to headquarters , but no power , the power failure has caused a delay in the release of the company 's earnings report , major concern is subsidiaries , Pacific Bell and Pacific Telesis Cellular , both of {which} sustained damage to buildings , structural damage to several cellular sites in Santa Cruz , volume of calls on cellular phones 10 times the usual , causing a big slowdown .
+CS:	SPOLEČNOST PACIFIC TELESIS GROUP v San Francisku , telekomunikační holdingová společnost s ročním obratem 9.5 miliardy dolarů , neutrpěla žádné škody na hlavním sídle společnosti , ale je bez proudu a výpadek proudu zapříčinil zpoždění ve vydání zprávy o ziscích společnosti , ovšem velké znepokojení vyvolávají dceřiné společnosti Pacific Bell a Pacific Telesis Cellular , jelikož obě utrpěly škody na budovách , na statice několika stanic mobilních sítí v Santa Cruz , a protože objem telefonních hovorů z mobilních telefonů se zdesetinásobil , zapříčiňuje to velké zpomalení .
+RU:	PACIFIC TELESIS GROUP , Сан -Франциско , телекоммуникационная холдинговая компания , годовые продажи $ 9.5 млрд . , основной офис не пострадал , но нет электроэнергии , сбой энергии вызвал задержку выпуска отчёта компании о прибыли , основная проблема – дочерние компании , Pacific Bell и Pacific Telesis Cellular , здания обеих из {которых} повреждены , имеются повреждения нескольких сотовых узлов связи в Санта-Крусе , количество звонков на сотовые телефоны в 10 раз превышает обычное , что вызывает большие задержки .
+EN_TT:	, [ #EmpVerb.PRED [ , [ GROUP [ PACIFIC TELESIS #Forn.PAR [ San Francisco ] ] company [ telecommunications holding ] #EmpVerb.RSTR [ sales [ annual $ [ billion [ 9.5 ] ] ] ] ] but [ damage [ no headquarters ] power [ no ] ] ] caused [ failure [ power ] delay [ release [ report [ company earnings ] ] ] ] is [ concern [ major ] subsidiaries [ and [ Bell [ Pacific ] Cellular [ Telesis [ Pacific ] ] sustained [ both [ <which> ] , [ damage [ buildings ] damage [ structural sites [ several cellular #Forn.LOC [ Santa Cruz ] ] ] ] ] ] ] ] #EmpVerb.PRED [ volume [ calls [ phones [ cellular ] ] ] times [ 10 [ usual ] ] causing [ #Cor.ACT slowdown [ big ] ] ] ]
+CS_TT:	ovšem [ ale [ neutrpěla [ #Neg.RHEM , [ SPOLEČNOST [ #Forn.LOC [ San Francisku ] #Forn.ID [ PACIFIC TELESIS GROUP ] ] společnost [ telekomunikační holdingová obratem [ ročním miliardy [ 9.5 dolarů ] ] ] ] škody [ žádné sídle [ hlavním společnosti ] ] ] a [ je [ #PersPron.ACT proudu ] zapříčinil [ výpadek [ proudu ] zpoždění [ #PersPron.ACT vydání [ #PersPron.ACT zprávy [ ziscích [ společnosti ] ] ] ] ] ] ] vyvolávají [ znepokojení [ #Gen.PAT #Gen.ACT velké ] #Oblfm.LOC společnosti [ dceřiné a [ #Forn.ID [ Pacific Telesis Cellular ] #Forn.ID [ Pacific Bell ] ] ] a [ utrpěly [ obě škody [ , [ budovách statice [ stanic [ několika sítí [ mobilních ] #Forn.LOC [ Santa Cruz ] ] ] ] ] ] zapříčiňuje [ zdesetinásobil [ objem [ hovorů [ telefonních telefonů [ mobilních ] ] ] ] to zpomalení [ velké #PersPron.ACT ] ] ] ] ]
+RU_TT:	, [ , [ PACIFIC [ TELESIS [ GROUP ] ] Сан [ -Франциско ] компания [ телекоммуникационная холдинговая ] продажи [ годовые млрд [ $ 9.5 ] ] ] но [ не пострадал [ офис [ основной ] ] нет [ электроэнергии ] ] вызвал [ сбой [ энергии ] задержку [ выпуска [ отчёта [ компании прибыли ] ] ] ] – [ проблема [ основная ] компании [ дочерние и [ Pacific [ Bell ] Pacific [ Telesis [ Cellular ] ] ] повреждены [ здания [ обеих [ <которых> ] ] #Gen.ACT ] ] ] имеются [ повреждения [ узлов [ нескольких сотовых связи ] Санта-Крусе ] ] превышает [ количество [ звонков [ телефоны [ сотовые ] ] ] раз [ 10 ] обычное вызывает [ что задержки [ большие ] ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	ALIGN=0 SYNTAX_CHANGE	both of which = oba
+INFO_RU:	RELPRON 
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1915.streex##102.EnglishT-wsj_1915-s102-t29
+EN:	SEAGATE TECHNOLOGY , Scotts Valley , maker of hard disk drives for computers , annual sales of $ 1.37 billion , OTC , closed to assess {what} appeared to be minor damage to some of its 20 buildings .
+CS:	SPOLEČNOST SEAGATE TECHNOLOGY ve Scotts Valley , výrobce jednotek počítačových pevných disků s ročním obratem 1.37 miliardy dolarů , registrovaná na mimoburzovním trhu , byla uzavřena , aby se zhodnotily zdánlivě lehké škody na některých z jejích 20 budov .
+RU:	SEAGATE TECHNOLOGY , Скоттс Вэлли , производитель жёстких дисков для компьютеров , годовые продажи $ 1.37 млрд . , OTC , закрылся , чтобы оценить , как кажется , незначительный ущерб , причиненный некоторым из его 20 зданий .
+EN_TT:	closed [ , [ TECHNOLOGY [ SEAGATE Valley [ Scotts ] ] maker [ drives [ hard disk computers ] ] #EmpVerb.DESCR [ sales [ annual $ [ billion [ 1.37 ] ] ] ] OTC ] #Gen.PAT assess [ #Cor.ACT appeared [ #Gen.PAT be [ <what> damage [ minor some [ buildings [ its 20 ] ] ] ] ] ] ]
+CS_TT:	uzavřena [ , [ SPOLEČNOST [ #Forn.LOC [ Scotts Valley ] #Forn.ID [ SEAGATE TECHNOLOGY ] ] výrobce [ jednotek [ disků [ počítačových pevných ] ] obratem [ ročním miliardy [ 1.37 dolarů ] ] ] registrovaná [ trhu [ mimoburzovním ] ] ] #Gen.ACT zhodnotily [ #Gen.ACT škody [ lehké [ zdánlivě ] budov [ některých budov [ jejích 20 ] ] ] ] ]
+RU_TT:	закрылся [ , [ SEAGATE [ TECHNOLOGY ] Скоттс [ Вэлли ] производитель [ дисков [ жёстких компьютеров ] ] продажи [ годовые млрд [ $ 1.37 OTC ] ] ] оценить [ #Cor.ACT ущерб [ незначительный [ кажется ] причиненный [ #Cor.PAT зданий [ некоторым его 20 ] ] ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	ALIGN=0 FUSED	SYNTAX_CHANGE
+INFO_RU:	ALIGN=0 REWORD
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1916.streex##11.EnglishT-wsj_1916-s11-t14
+EN:	Caltrans abandoned double-decking in the early 1970s , following the 1971 Sylmar earthquake {that} destroyed freeway sections just north of Los Angeles , Mr. O'Connell explained .
+CS:	Caltrans se vzdal patrových dálnic na počátku 70 . let , když zemětřesení v okrese Sylmar v roce 1971 zničilo části dálnice právě na sever od Los Angeles , vysvětlil O ' Connell .
+RU:	Калтрэнс перестал строить двухуровневые шоссе в начале 1970-х после землетрясения Силмар в 1971 году , обрушившего участки шоссе как раз к северу от Лос-Анджелеса , объяснил г-н О'Коннелл .
+EN_TT:	explained [ abandoned [ Caltrans double-decking 1970s [ early ] earthquake [ 1971 Sylmar destroyed [ <that> sections [ freeway just north [ #Forn.DIR1 [ Los Angeles ] ] ] ] ] ] O'Connell [ Mr. ] #Gen.ADDR ]
+CS_TT:	vysvětlil [ #Gen.ADDR vzdal [ Caltrans dálnic [ patrových ] počátku [ let [ 70 ] ] zničilo [ zemětřesení [ okrese [ Sylmar ] ] roce [ 1971 ] části [ dálnice ] sever [ #Forn.DIR1 [ Los Angeles ] ] ] ] právě Connell ]
+RU_TT:	объяснил [ перестал [ Калтрэнс строить [ #Cor.ACT шоссе [ двухуровневые ] ] начале [ 1970-х ] землетрясения [ Силмар году [ 1971 ] обрушившего [ <#PersPron.ACT> участки [ шоссе ] северу [ как [ раз ] Лос-Анджелеса ] ] ] ] О'Коннелл [ г-н ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	ALIGN=0 SYNTAX_CHANGE
+INFO_RU:	ALIGN=#PersPron
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1916.streex##13.EnglishT-wsj_1916-s13-t2
+EN:	So {why} even consider stacking freeways now ?
+CS:	Tak {proč} se teď ještě uvažuje o stavění pater na dálnicích ?
+RU:	Итак , {зачем} сейчас даже думать об обрушивающихся шоссе ?
+EN_TT:	consider [ So <why> even #Gen.ACT stacking [ #Gen.ACT #Oblfm.DIR3 freeways ] now ]
+CS_TT:	uvažuje [ #Gen.ACT Tak <proč> teď ještě stavění [ #Gen.ACT pater [ dálnicích ] ] ]
+RU_TT:	думать [ Итак <зачем> сейчас даже шоссе [ обрушивающихся [ #Cor.ACT ] ] ]
+INFO_EN:  FUSED INTERROGATIVE
+INFO_CS:	FUSED	INTERROGATIVE
+INFO_RU:	FUSED INTERROGATIVE
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1916.streex##22.EnglishT-wsj_1916-s22-t12
+EN:	Officials of the state agency did n't have any immediate explanation {why} the reinforcement did n't hold up .
+CS:	Představitelé zmíněného státního úřadu neměli žádné okamžité vysvětlení , {proč} výztuž nevydržela .
+RU:	Официальные лица государственного агентства не смогли объяснить , {почему} армированная конструкция не выдержала .
+EN_TT:	have [ Officials [ agency [ state ] ] n't explanation [ any immediate hold [ <why> reinforcement n't ] ] ]
+CS_TT:	neměli [ #Neg.RHEM Představitelé [ úřadu [ zmíněného státního ] ] vysvětlení [ žádné okamžité nevydržela [ #Neg.RHEM <proč> výztuž #Gen.PAT ] ] ]
+RU_TT:	смогли [ лица [ Официальные агентства [ государственного ] ] не объяснить [ #Cor.ACT не выдержала [ <почему> конструкция [ армированная ] ] ] ]
+INFO_EN:	FUSED INTERROGATIVE
+INFO_CS:	FUSED	INTERROGATIVE
+INFO_RU:	FUSED INTERROGATIVE
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1927.streex##1.EnglishT-wsj_1927-s1-t22
+EN:	Whether or not `` great cases make bad-law '' -- as Justice Holmes asserted -- who can doubt that {when} great confirmation hearings turn on the nominee 's response to these great cases they make bad judicial history ?
+CS:	Ať už " velké případy kazí soudnictví " , jak tvrdil soudce Holmes , nebo ne , stejně , kdo může pochybovat o tom , že nekazí historii soudnictví , když výsledek velkých konfirmačních slyšení závisí na kandidátově reakci právě na tyto velké případy ?
+RU:	Неясно , правда ли , что " громкие дела приводят к плохим законам " – как утверждал судья Холмс - но кто может усомниться , что , когда исход громких слушаний по утверждению в должности зависит от реакции кандидата на эти громкие дела , то они формируют плохую судебную историю ?
+EN_TT:	doubt [ or [ make [ cases [ great ] bad-law ] make [ #PersPron.PAT #PersPron.ACT not ] asserted [ Holmes [ Justice ] #Cor.EFF ] ] who make [ turn [ <when> hearings [ great confirmation ] response [ nominee cases [ these great ] ] ] they history [ bad judicial ] ] ]
+CS_TT:	pochybovat [ nebo [ případy [ velké ] kazí [ tvrdil [ #PersPron.EFF Holmes [ soudce ] ] ] soudnictví už kazí [ ne ] ] stejně kdo nekazí [ #Neg.RHEM #PersPron.ACT historii [ soudnictví ] závisí [ výsledek [ slyšení [ velkých konfirmačních ] ] reakci [ kandidátově právě případy [ tyto velké ] ] ] ] ]
+RU_TT:	но [ #EmpVerb.PRED [ Неясно #EmpVerb.ACT [ правда приводят [ дела [ громкие ] законам [ плохим ] утверждал [ #PersPron.PAT судья [ Холмс ] ] ] ] ] может [ кто усомниться [ #Cor.ACT формируют [ зависит [ исход [ слушаний [ громких утверждению [ должности ] ] ] реакции [ кандидата дела [ эти громкие ] ] ] они историю [ плохую судебную ] ] ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	ALIGN=0 FUSED	TEMP
+INFO_RU:	ALIGN=0 FUSED TEMP
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1927.streex##2.EnglishT-wsj_1927-s2-t9
+EN:	Ethan Bronner 's `` Battle for Justice : {How} the Bork Nomination Shook America '' -LRB- Norton , 399 pages , $ 22.50 -RRB- is a spirited narrative of the nastiest of these hearings , done with journalistic verve , but with a flawed legal philosophy .
+CS:	Publikace Ethana Bronnera " Battle for Justice : How the Bork Nomination Shook America ( Bitva za spravedlnost : {Jak} nominace Borka otřásla Amerikou ) " ( Norton , 399 stran , 22.50 $ ) je živým vyprávěním o nejhorším z těchto slyšení , napsané je s novinářským zápalem , avšak se špatným smyslem pro právní filozofii .
+RU:	Книга Этана Броннера " Битва за Справедливость : {Как} Номинация Bork потрясла Америку " , ( Нортон , 399 стр , $ 22.50 ) – энергичное повествование о самом ужасном таком слушании , написанное с журналистской энергией , но с позиции ущербной правовой философии .
+EN_TT:	is [ : [ Bronner [ Ethan ] Battle [ Justice ] Shook [ <How> Nomination [ Bork ] America ] , [ Norton pages [ 399 ] $ [ 22.50 ] ] ] narrative [ spirited nastiest [ hearings [ these ] ] done [ #Cor.PAT #Gen.ACT but [ verve [ journalistic ] philosophy [ flawed legal ] ] ] ] ]
+CS_TT:	, [ je [ Publikace [ ( [ #Forn.ID [ Battle for Justice : How the Bork Nomination Shook America ] : [ Bitva [ spravedlnost ] otřásla [ <Jak> nominace [ Borka ] Amerikou ] ] ] Bronnera [ Ethana ] Norton stran [ 399 ] $ [ 22.50 ] ] vyprávěním [ živým slyšení [ nejhorším slyšení [ těchto ] ] #PersPron.ACT ] ] je [ napsané #PersPron.ACT avšak [ zápalem [ novinářským ] smyslem [ špatným filozofii [ právní ] ] ] ] ]
+RU_TT:	#EmpVerb.PRED [ Книга [ Этана [ Броннера ] #Comma.APPS [ Битва [ Справедливость ] потрясла [ <Как> Номинация [ Bork ] Америку ] #Comma.APPS [ Нортон стр [ 399 ] $ [ 22.50 ] ] ] ] повествование [ энергичное слушании [ ужасном [ самом ] таком ] написанное [ #Cor.PAT но [ энергией [ журналистской ] позиции [ философии [ ущербной правовой ] ] ] ] ] ]
+INFO_EN:	FUSED INTERROGATIVE
+INFO_CS:	FUSED	INTERROGATIVE
+INFO_RU:	FUSED INTERROGATIVE
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1927.streex##39.EnglishT-wsj_1927-s39-t1
+EN:	{What} is certain is that if Americans allow another happening like the degrading Bork confirmation circus , it will be at their peril .
+CS:	Jisté je , že pokud Američané připustí další událost , jako byl potupný cirkus kolem schválení jmenování Borka , učiní tak na vlastní nebezpečí .
+RU:	Вне всякого сомнения , если американцы допустят еще одно событие , подобное такому постыдному цирку , как утверждение Борка в должности , это будет на их собственный страх и риск .
+EN_TT:	is [ is [ <What> certain ] be [ allow [ Americans happening [ another circus [ degrading confirmation [ Bork ] ] ] ] it peril [ their ] ] ]
+CS_TT:	je [ Jisté učiní [ #PersPron.ACT připustí [ Američané událost [ další #Equal.RSTR [ byl [ událost cirkus [ potupný schválení [ #Gen.ACT jmenování [ #Gen.ACT #PersPron.EFF Borka ] ] ] ] ] ] ] tak nebezpečí [ vlastní ] ] ]
+RU_TT:	будет [ сомнения [ всякого ] допустят [ американцы событие [ одно [ еще ] подобное [ цирку [ такому [ утверждение [ Борка должности ] ] постыдному ] ] ] ] это и [ их собственный страх риск ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	ALIGN=0 CLEFT
+INFO_RU:	ALIGN=0 REWORD
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1928.streex##4.EnglishT-wsj_1928-s4-t1
+EN:	{What} Sotheby 's is doing closely resembles an underwriting by an investment bank .
+CS:	Jednání společnosti Sotheby ' s silně připomíná poskytování finanční záruky investiční bankou .
+RU:	Сотбис делает нечто , сильно походящее на страхование инвестиционным банком .
+EN_TT:	resembles [ doing [ <What> Sotheby ] closely underwriting [ bank [ investment ] ] ]
+CS_TT:	připomíná [ Jednání [ společnosti [ #Forn.ID [ Sotheby ' s ] ] ] silně poskytování [ #Gen.ADDR záruky [ finanční ] bankou [ investiční ] ] ]
+RU_TT:	делает [ Сотбис нечто [ походящее [ сильно #Cor.ACT страхование [ банком [ инвестиционным ] ] ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	ALIGN=0 SYNTAX_CHANGE
+INFO_RU:	ALIGN=0 REWORD
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1928.streex##19.EnglishT-wsj_1928-s19-t6
+EN:	When Christie 's officials asked {why} the firm was n't picked to sell the Dorrance collection , representatives of the Dorrance family `` told us it was a question of financial considerations , '' said Michael Findlay , Christie 's head of impressionist and modern paintings .
+CS:	Když se představitelé společnosti Christie ' s ptali , {proč} nebyla pro prodej sbírky Dorranceových vybrána jejich společnost , zástupci rodiny Dorranceových " řekli , že je to otázka finančního hlediska " , prohlásil Michael Findlay , ředitel oddělení pro impresionistické a moderní obrazy společnosti Christie ' s .
+RU:	Когда должностные лица Кристис спросили , {почему} не была выбрана их фирма , чтобы продать коллекцию Дорранса , представители семьи Дорранса " сказали нам , что это вопрос финансовых соображений " , – сказал Майкл Финдли , глава отдела импрессионизма и модерна при Кристис .
+EN_TT:	said [ told [ asked [ When officials [ Christie ] #Gen.ADDR picked [ <why> firm n't #Gen.ACT sell [ #Cor.ACT collection [ Dorrance ] ] ] ] representatives [ family [ Dorrance ] ] us was [ it question [ considerations [ financial ] ] ] ] #Gen.ADDR , [ Findlay [ Michael ] head [ Christie paintings [ and [ impressionist modern ] ] ] ] ]
+CS_TT:	prohlásil [ řekli [ ptali [ #Gen.ADDR představitelé [ společnosti [ #Forn.ID [ Christie ' s ] ] ] vybrána [ #PersPron.ACT <proč> prodej [ sbírky [ Dorranceových ] ] #Neg.RHEM společnost [ jejich ] ] ] zástupci [ rodiny [ Dorranceových ] ] #PersPron.ADDR je [ to otázka [ hlediska [ finančního ] ] ] ] , [ Findlay [ Michael ] ředitel [ oddělení [ obrazy [ a [ impresionistické moderní ] ] společnosti [ #Forn.ID [ Christie ' s ] ] ] ] ] ]
+RU_TT:	сказал [ сказали [ спросили [ лица [ должностные Кристис ] не выбрана [ <почему> #PersPron.PAT фирма [ их ] продать [ коллекцию [ Дорранса ] ] ] ] представители [ семьи [ Дорранса ] ] нам #EmpVerb.EFF [ это вопрос [ соображений [ финансовых ] ] ] ] , [ Майкл [ Финдли ] глава [ отдела [ и [ импрессионизма модерна ] Кристис ] ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS: FUSED INTERROGATIVE
+INFO_RU: FUSED INTERROGATIVE	
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1928.streex##19.EnglishT-wsj_1928-s19-t1
+EN:	{When} Christie 's officials asked why the firm was n't picked to sell the Dorrance collection , representatives of the Dorrance family `` told us it was a question of financial considerations , '' said Michael Findlay , Christie 's head of impressionist and modern paintings .
+CS:	Když se představitelé společnosti Christie ' s ptali , proč nebyla pro prodej sbírky Dorranceových vybrána jejich společnost , zástupci rodiny Dorranceových " řekli , že je to otázka finančního hlediska " , prohlásil Michael Findlay , ředitel oddělení pro impresionistické a moderní obrazy společnosti Christie ' s .
+RU:	Когда должностные лица Кристис спросили , почему не была выбрана их фирма , чтобы продать коллекцию Дорранса , представители семьи Дорранса " сказали нам , что это вопрос финансовых соображений " , – сказал Майкл Финдли , глава отдела импрессионизма и модерна при Кристис .
+EN_TT:	said [ told [ asked [ <When> officials [ Christie ] #Gen.ADDR picked [ why firm n't #Gen.ACT sell [ #Cor.ACT collection [ Dorrance ] ] ] ] representatives [ family [ Dorrance ] ] us was [ it question [ considerations [ financial ] ] ] ] #Gen.ADDR , [ Findlay [ Michael ] head [ Christie paintings [ and [ impressionist modern ] ] ] ] ]
+CS_TT:	prohlásil [ řekli [ ptali [ #Gen.ADDR představitelé [ společnosti [ #Forn.ID [ Christie ' s ] ] ] vybrána [ #PersPron.ACT proč prodej [ sbírky [ Dorranceových ] ] #Neg.RHEM společnost [ jejich ] ] ] zástupci [ rodiny [ Dorranceových ] ] #PersPron.ADDR je [ to otázka [ hlediska [ finančního ] ] ] ] , [ Findlay [ Michael ] ředitel [ oddělení [ obrazy [ a [ impresionistické moderní ] ] společnosti [ #Forn.ID [ Christie ' s ] ] ] ] ] ]
+RU_TT:	сказал [ сказали [ спросили [ лица [ должностные Кристис ] не выбрана [ почему #PersPron.PAT фирма [ их ] продать [ коллекцию [ Дорранса ] ] ] ] представители [ семьи [ Дорранса ] ] нам #EmpVerb.EFF [ это вопрос [ соображений [ финансовых ] ] ] ] , [ Майкл [ Финдли ] глава [ отдела [ и [ импрессионизма модерна ] Кристис ] ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	FUSED	TEMP
+INFO_RU:	FUSED TEMP
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1928.streex##34.EnglishT-wsj_1928-s34-t11
+EN:	At last night 's sale , 13 of 44 works {that} sold were purchased by Aska International Gallery , the art-acquisition unit of Aichi Financial , a Japanese conglomerate that owns 7.5 % of Christie 's .
+CS:	Na aukci včera večer zakoupila 13 ze 44 prodaných děl galerie Aska International Gallery , akviziční jednotka pro výtvarné umění společnosti Aichi Financial , japonského konsorcia , které vlastní 7.5 % podíl společnosti Christie ' s .
+RU:	На аукционе прошлой ночью 13 из 44 работ , выставленных на продажу , были куплены Галереей Аска Интернэшнл , отделом приобретения искусства Эйчи Финэншиал , японского конгломерата , который владеет 7.5 % пая Кристи .
+EN_TT:	purchased [ sale [ night [ last ] ] 13 [ works [ 44 sold [ <that> ] ] ] , [ Gallery [ Aska International ] unit [ art-acquisition , [ Financial [ Aichi ] conglomerate [ Japanese owns [ that % [ 7.5 Christie ] ] ] ] ] ] ]
+CS_TT:	zakoupila [ aukci včera večer 13 [ děl [ 44 prodaných ] ] , [ galerie [ #Forn.ID [ Aska International Gallery ] ] jednotka [ akviziční umění [ výtvarné ] , [ společnosti [ #Forn.ID [ Aichi Financial ] ] konsorcia [ japonského vlastní [ které podíl [ % [ 7.5 ] společnosti [ #Forn.ID [ Christie ' s ] ] ] ] ] ] ] ] ]
+RU_TT:	куплены [ аукционе [ ночью [ прошлой ] ] 13 [ работ [ 44 выставленных [ <#Cor.PAT> продажу ] ] ] , [ Галереей [ #Forn.ID [ Аска Интернэшнл ] ] отделом [ приобретения [ искусства ] #Forn.ID [ Эйчи Финэншиал ] конгломерата [ японского владеет [ который % [ пая [ 7.5 Кристи ] ] ] ] ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	0 SYNTAX_CHANGE
+INFO_RU:	ALIGN=#Cor
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1929.streex##18.EnglishT-wsj_1929-s18-t25
+EN:	There have been some reports that Mr. Krenz is moving to `` soften '' his reputation , notably rumors that it was he {who} kept East Germany 's state police off protesters ' backs at the country 's dismal 40th anniversary celebrations earlier this month .
+CS:	Objevilo se několik zpráv o tom , že Krenz hodlá svoji pověst " vylepšit " , především se jedná o zvěsti , že právě on na začátku tohoto měsíce udržel při oslavách neveselého 40 . výročí východoněmeckou státní policii dál od zad protestujících .
+RU:	Ходили слухи , что господин Кренц собирается создать себе реноме более " мягкого " правителя , в частности , рассказывают , что именно он удержал государственную полицию Восточной Германии подальше от спин протестующих во время отмечавшейся в этом месяце печально известной 40-й годовщины страны .
+EN_TT:	been [ , [ reports [ some moving [ Krenz [ Mr. ] soften [ #PersPron.ACT reputation [ his ] ] ] ] notably rumors [ was [ he kept [ <who> police [ Germany [ East ] state ] backs [ protesters ] celebrations [ country dismal anniversary [ 40th ] ] month [ earlier this ] ] ] ] ] ]
+CS_TT:	, [ Objevilo [ zpráv [ několik vylepšit [ Krenz pověst [ svoji ] ] ] ] jedná [ především zvěsti [ udržel [ právě on začátku [ měsíce [ tohoto ] ] oslavách [ výročí [ neveselého 40 ] ] policii [ východoněmeckou státní ] dál [ zad [ protestujících ] ] ] ] ] ]
+RU_TT:	#Comma.CONJ [ Ходили [ слухи [ собирается [ господин [ Кренц ] создать [ #Cor.ACT себе реноме [ правителя [ мягкого [ более ] ] ] ] ] ] ] частности рассказывают [ #Gen.ACT удержал [ именно <он> полицию [ государственную Германии [ Восточной ] ] подальше [ спин [ протестующих ] ] годовщины [ отмечавшейся [ #Cor.ACT месяце [ этом ] ] известной [ печально ] 40-й страны ] ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	ALIGN=0 CLEFT
+INFO_RU:	ALIGN=ANTE_N
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1929.streex##42.EnglishT-wsj_1929-s42-t16
+EN:	That 's a question East Germany ca n't answer easily , no matter {what} its new leader does .
+CS:	To je otázka , na níž nemůže Východní Německo odpovědět snadno , ať už jeho nový představitel udělá {cokoli} .
+RU:	Это вопрос , на который Восточная Германия не может легко ответить , {что} бы ни делал её новый лидер .
+EN_TT:	's [ That question [ answer [ Germany [ East ] n't #Cor.PAT easily does [ <what> leader [ its new ] ] ] ] ]
+CS_TT:	je [ To otázka [ odpovědět [ #Gen.ADDR níž Německo [ Východní ] #Neg.RHEM snadno udělá [ už představitel [ jeho nový ] <cokoli> ] ] ] ]
+RU_TT:	#EmpVerb.PRED [ Это вопрос [ не может [ Германия [ Восточная ] ответить [ который легко #Cor.ACT ] делал [ <что> лидер [ её новый ] ] ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	ALIGN=ANTE_N	cokoli=what
+INFO_RU:	RELPRON 
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1932.streex##12.EnglishT-wsj_1932-s12-t9
+EN:	`` It 's hard to imagine {how} the markets were speculating , given that nobody could get through to San Francisco , '' said one amazed oil company executive .
+CS:	" Je těžké si představit , {jak} burzy spekulovaly , když se do San Franciska nemohl nikdo dovolat , " řekl jeden ohromený vedoucí pracovník ropné společnosti .
+RU:	" Трудно представить , {какие} предположения делались на рынках , учитывая , что никто не мог дозвониться до Сан -Франциско " , удивленно сказал руководитель одной нефтяной компании .
+EN_TT:	said [ 's [ hard imagine [ #Gen.ACT speculating [ <how> markets ] ] get [ nobody #Gen.PAT #Forn.DIR3 [ San Francisco ] ] ] #Gen.ADDR executive [ one amazed company [ oil ] ] ]
+CS_TT:	řekl [ #Gen.ADDR Je [ těžké [ #Benef.BEN ] představit [ #Cor.ACT spekulovaly [ #PersPron.PAT <jak> burzy dovolat [ #Forn.DIR3 [ San Franciska ] nikdo #Neg.RHEM ] ] ] ] pracovník [ jeden ohromený vedoucí společnosti [ ropné ] ] ]
+RU_TT:	сказал [ #EmpVerb.EFF [ Трудно [ представить ] делались [ предположения [ <какие> ] рынках ] учитывая [ не мог [ никто дозвониться [ #Cor.ACT Сан [ -Франциско ] ] ] ] ] удивленно руководитель [ компании [ одной нефтяной ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	OK FUSED
+INFO_RU:	RELPRON 
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1934.streex##16.EnglishT-wsj_1934-s16-t10
+EN:	Researchers could n't estimate the cost of the drug {when} it reaches the market , but they said FK-506 will enable patients to cut hospital stays by 50 % and reduce the number of blood tests used to monitor the dosage of cyclosporine and other drugs among transplant recipients .
+CS:	Výzkumníci nedokázali odhadnout cenu léku , až vstoupí na trh , ale uvedli , že FK - 506 umožní zkrátit pobyt pacientů v nemocnici o 50 % a u příjemců transplantátů snížit počet krevních testů , které se používají ke sledování dávek cyklosporinu a dalších léků .
+RU:	Исследователи не могут оценить рыночную стоимость препарата , но сообщили , что FK - 506 позволит пациентам сократить пребывание в больнице на 50 % и сократить количество анализов крови , требуемых для мониторинга дозировки циклоспорина и других препаратов подвергающимся трансплантации .
+EN_TT:	but [ estimate [ Researchers n't cost [ drug reaches [ <when> it market ] ] ] said [ they #Gen.ADDR and [ FK-506 enable [ patients cut [ #Cor.ACT stays [ hospital ] % [ 50 ] ] ] reduce [ number [ tests [ blood used [ #Gen.ACT #Cor.PAT monitor [ #PersPron.ACT dosage [ and [ cyclosporine drugs [ other ] ] ] ] recipients [ transplant ] ] ] ] ] ] ] ]
+CS_TT:	ale [ Výzkumníci nedokázali [ #Neg.RHEM odhadnout [ #Cor.ACT cenu [ léku ] vstoupí [ #PersPron.ACT trh ] ] ] uvedli [ umožní [ #Forn.ACT [ FK - 506 ] #Gen.ADDR a [ #Cor.ACT zkrátit [ pobyt [ pacientů nemocnici ] % [ 50 ] ] snížit [ příjemců [ transplantátů ] počet [ testů [ krevních používají [ #Gen.ACT které sledování [ #Gen.ACT dávek [ a [ cyklosporinu léků [ dalších ] ] ] ] ] ] ] ] ] ] ] ]
+RU_TT:	но [ Исследователи не могут [ оценить [ #Cor.ACT стоимость [ рыночную препарата ] ] ] сообщили [ позволит [ FK [ 506 ] пациентам и [ сократить [ пребывание [ больнице ] % [ 50 ] ] #Cor.ACT сократить [ количество [ анализов [ крови требуемых [ мониторинга [ дозировки [ и [ циклоспорина препаратов [ других ] ] ] ] ] подвергающимся [ трансплантации ] ] ] ] ] ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	ALIGN=0 FUSED	TEMP
+INFO_RU:	ALIGN=0 FUSED
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1935.streex##12.EnglishT-wsj_1935-s12-t1
+EN:	{Why} should they have to co-exist with opportunists rushing in to turn a quick profit ?
+CS:	{Proč} by měli pracovat společně s prospěcháři , kteří se ženou za rychlými zisky ?
+RU:	{Почему} они должны сосуществовать с приспособленцами , бросающимися на быструю прибыль ?
+EN_TT:	have [ <Why> they co-exist [ #Cor.ACT opportunists [ rushing [ #Cor.ACT turn [ #Cor.ACT profit [ quick ] ] ] ] ] ]
+CS_TT:	pracovat [ #PersPron.ACT <Proč> prospěcháři [ ženou [ kteří zisky [ rychlými ] ] ] ]
+RU_TT:	должны [ <Почему> они сосуществовать [ #Cor.ACT приспособленцами [ бросающимися [ #Cor.ACT прибыль [ быструю ] ] ] ] ]
+INFO_EN:	INTERROGATIVE
+INFO_CS: INTERROGATIVE	QUESTION
+INFO_RU:	INTERROGATIVE
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1935.streex##22.EnglishT-wsj_1935-s22-t7
+EN:	Mr. Laband gives us an idea {why} economists ' predictions are usually wrong .
+CS:	Pan Laband nám přináší odpověď na to , {proč} jsou předpovědi ekonomů obvykle špatné .
+RU:	По рассуждениям г-на Лебанда можно понять , {почему} предсказания экономистов обычно неверны .
+EN_TT:	gives [ Laband [ Mr. ] us idea [ are [ <why> predictions [ economists ] usually wrong ] ] ]
+CS_TT:	přináší [ Laband [ Pan ] nám odpověď [ jsou [ <proč> předpovědi [ ekonomů ] obvykle špatné ] ] ]
+RU_TT:	можно [ рассуждениям [ г-на [ Лебанда ] ] понять [ #EmpVerb.PAT [ <почему> предсказания [ экономистов ] обычно неверны ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	 FUSED
+INFO_RU:	FUSED
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1935.streex##28.EnglishT-wsj_1935-s28-t14
+EN:	Mr. Laband described one of the more insidious threats we face {when} dealing with disasters such as Hugo -- anti-profiteering ordinances such as that by the Charleston City Council as it thrashed about trying to Do Something .
+CS:	Pan Laband popsal jednu ze záludnějších hrozeb , jimž čelíme , když se vyrovnáváme s katastrofami , jako je Hugo - vyhlášky proti černému obchodu , jako je například ta od rady města Charleston , která sebou zmítala ve snaze udělat aspoň něco .
+RU:	Г-н Лебанд описал одну из наиболее коварных опасностей , с которыми мы сталкиваемся , когда имеем дело с бедствиями , такими как Хьюго – постановления против обогащения , подобные принятому Советом Города Чарлстон , который попытался что-то предпринять .
+EN_TT:	described [ Laband [ Mr. ] -- [ one [ threats [ insidious face [ we #Cor.PAT dealing [ <when> #Cor.ACT as [ disasters Hugo ] ] ] ] ] as [ ordinances [ anti-profiteering ] that [ Council [ Charleston City thrashed [ it about trying [ #Cor.ACT Do [ #Cor.ACT Something ] ] ] ] ] ] ] ]
+CS_TT:	popsal [ Laband [ Pan ] - [ jednu [ hrozeb [ záludnějších čelíme [ #PersPron.ACT jimž vyrovnáváme [ #PersPron.ACT jako [ katastrofami je [ katastrofami Hugo ] ] ] ] ] ] jako [ vyhlášky [ obchodu [ černému ] ] je [ vyhlášky vyhlášky [ ta rady [ města [ Charleston ] zmítala [ která sebou snaze [ udělat [ #PersPron.ACT něco [ aspoň ] ] ] ] ] ] ] například ] ] ]
+RU_TT:	описал [ Г-н [ Лебанд ] одну [ опасностей [ коварных [ наиболее ] сталкиваемся [ которыми мы имеем [ #PersPron.ACT дело бедствиями [ такими [ Хьюго ] ] ] ] постановления [ обогащения [ подобные [ #PersPron.CPR [ принятому [ Советом [ Города [ Чарлстон ] попытался [ который предпринять [ что-то #Cor.ACT ] ] ] ] ] ] ] ] ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	 FUSED	TEMP
+INFO_RU:	
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1935.streex##56.EnglishT-wsj_1935-s56-t15
+EN:	The businesses subscribing to Mr. Laband 's effective price system will be remembered {when} normalcy returns .
+CS:	Až se vrátí normální stav , budeme si pamatovat obchody , které se hlásily k Labandově systému efektivních cen .
+RU:	О предприятиях , придерживающихся эффективной системы цен , разработанной г-ном Лебандом , вспомнят , когда вернётся нормальная жизнь .
+EN_TT:	remembered [ businesses [ subscribing [ #Cor.ACT system [ Laband [ Mr. ] effective price ] ] ] #Gen.ACT returns [ <when> normalcy #Oblfm.DIR3 ] ]
+CS_TT:	pamatovat [ vrátí [ stav [ normální ] ] #PersPron.ACT obchody [ hlásily [ které systému [ Labandově cen [ efektivních ] ] ] ] ]
+RU_TT:	вспомнят [ предприятиях [ придерживающихся [ #Cor.ACT системы [ эффективной цен разработанной [ #Cor.PAT г-ном [ Лебандом ] ] ] ] ] #PersPron.ACT вернётся [ жизнь [ нормальная ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	FUSED	TEMP
+INFO_RU:	
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1935.streex##58.EnglishT-wsj_1935-s58-t9
+EN:	I have a question for Mr. Laband : {How} do I explain to the single mother of three standing in line next to me for the past three hours that the two bags of ice she needs to keep her children 's food edible will take her last $ 20 ?
+CS:	Mám pro pana Labanda otázku : {Jak} vysvětlím svobodné matce tří dětí , která stojí vedle mě více než tři hodiny ve frontě , že ty dvě tašky ledu , které potřebuje , aby potraviny pro její děti zůstaly poživatelné , ji budou stát posledních 20 dolarů ?
+RU:	У меня есть вопрос для г-на Лебанда : Как я объясню матери - одиночке с тремя детьми , стоявшей в очереди возле меня предыдущие три часа , что на две сумки льда , который нужен ей , чтобы сохранить продукты для своих детей , ей придется выложить последние $ 20 ?
+EN_TT:	have [ I question [ Laband [ Mr. ] explain [ <How> I mother [ single three standing [ line next [ me ] hours [ past three ] ] ] take [ bags [ two ice needs [ she #Cor.PAT keep [ #Cor.ACT food [ children [ her ] ] edible ] ] ] $ [ her last 20 ] ] ] ] ]
+CS_TT:	Mám [ #PersPron.ACT Labanda [ pana ] otázku [ vysvětlím [ #PersPron.ACT <Jak> matce [ svobodné dětí [ tří ] stojí [ která mě více [ hodiny [ tři ] ] frontě ] ] stát [ tašky [ ty dvě ledu potřebuje [ #PersPron.ACT které zůstaly [ potraviny [ děti [ její ] ] poživatelné ] ] ] ji dolarů [ posledních 20 ] ] ] ] ]
+RU_TT:	есть [ меня вопрос [ г-на [ Лебанда ] объясню [ я матери [ одиночке детьми [ тремя ] стоявшей [ #PersPron.ACT очереди меня часа [ предыдущие три ] ] ] придется [ ей выложить [ сумки [ две льда [ нужен [ который ей сохранить [ #Cor.ACT продукты детей [ своих ] ] ] ] ] #Cor.ACT $ [ последние 20 ] ] ] ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	OK FUSED	QUESTION
+INFO_RU:	ALIGN=0 ERROR
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1936.streex##4.EnglishT-wsj_1936-s4-t17
+EN:	Each is more problematic than an unexpected divisional baseball championship , but both help explain {why} Chicago remains a vital center of this country 's regional theater movement .
+CS:	Oba jsou kontroverznější než nečekaná prvenství v baseballové lize , ale oba pomáhají vysvětlit , {proč} Chicago zůstává živoucím centrem hnutí regionálních divadel v zemi .
+RU:	Оба они сложнее для понимания , чем неожиданный чемпионат по секционному бейсболу , но оба помогают объяснить , {почему} Чикаго остаётся живейшим центром регионального театра в стране .
+EN_TT:	but [ is [ Each problematic [ championship [ unexpected divisional baseball ] ] ] help [ both #Gen.ADDR explain [ #Cor.ACT #Gen.ADDR remains [ <why> Chicago center [ vital movement [ country [ this ] theater [ regional ] ] ] ] ] ] ]
+CS_TT:	ale [ jsou [ Oba kontroverznější [ jsou [ kontroverznější prvenství [ nečekaná lize [ baseballové ] ] ] ] ] pomáhají [ #Gen.ADDR oba vysvětlit [ #Gen.ADDR #Cor.ACT zůstává [ <proč> Chicago centrem [ živoucím hnutí [ divadel [ regionálních zemi ] ] ] ] ] ] ]
+RU_TT:	но [ #EmpVerb.PRED [ они [ Оба ] сложнее [ понимания чемпионат [ неожиданный бейсболу [ секционному ] ] ] ] помогают [ оба объяснить [ остаётся [ <почему> Чикаго.ACT центром [ живейшим театра [ регионального ] ] стране ] ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	OK FUSED	TEMP
+INFO_RU:	FUSED
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1936.streex##17.EnglishT-wsj_1936-s17-t14
+EN:	Mr. Falls transfers the setting to Hollywood , and transforms the characters into {what} passes for aristocracy there -- agents , producers , actors , writers and sycophants .
+CS:	Falls přesouvá prostředí do Hollywoodu a postavy transformuje tak , aby odpovídaly tamější aristokracii - agentům , producentům , hercům , spisovatelům a patolízalům .
+RU:	Г-н Фоллз перенес действие в Голливуд и сделал из действующих лиц то , {что} считается там аристократией – агентов , продюсеров , актёров , писателей и подхалимов .
+EN_TT:	and [ Falls [ Mr. ] transfers [ setting Hollywood ] transforms [ characters -- [ passes [ <what> aristocracy there ] and [ agents producers actors writers sycophants ] ] ] ]
+CS_TT:	a [ Falls přesouvá [ #Oblfm.DIR1 prostředí Hollywoodu ] transformuje [ postavy odpovídaly [ #PersPron.ACT - [ aristokracii [ tamější ] a [ agentům producentům hercům spisovatelům patolízalům ] ] ] ] ]
+RU_TT:	и [ перенес [ Г-н [ Фоллз ] действие Голливуд ] сделал [ лиц [ действующих ] #Comma.APPS [ то [ считается [ <что> там аристократией ] ] и [ агентов продюсеров актёров писателей подхалимов ] ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	0 SYNTAX_CHANGE
+INFO_RU:	CORREL 
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1936.streex##26.EnglishT-wsj_1936-s26-t1
+EN:	{When} `` The Homecoming '' was first produced on this side of the Atlantic , actors and directors were reverential .
+CS:	Když byla hra " The Homecoming ( Návrat domů ) " poprvé k vidění na této straně Atlantiku , herci a ředitelé se chovali uctivě .
+RU:	Когда " Возвращение домой " было впервые поставлено на этой стороне Атлантики , актёры и режиссёры отнеслись к его требованиям с уважением .
+EN_TT:	were [ produced [ <When> Homecoming first #Gen.ACT side [ this Atlantic ] ] and [ actors directors ] reverential ]
+CS_TT:	chovali [ byla [ hra [ ( [ #Forn.ID [ The Homecoming ] Návrat [ domů ] ] ] poprvé vidění straně [ této Atlantiku ] ] a [ herci ředitelé ] uctivě ]
+RU_TT:	отнеслись [ поставлено [ Возвращение [ домой ] впервые стороне [ этой Атлантики ] ] и [ актёры режиссёры ] требованиям [ его ] уважением ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	OK FUSED	TEMP
+INFO_RU:	ALIGN=0 FUSED
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1936.streex##37.EnglishT-wsj_1936-s37-t8
+EN:	Though it 's clearly Max 's wife {who} held sway here until her death , now none of the other male residents of this misbegotten household can challenge Max .
+CS:	Ačkoli je jasné , že hlavou rodiny byla až do smrti Maxova žena , žádný z obyvatel mužského pohlaví v této špatné domácnosti se nyní nedokáže Maxovi postavit .
+RU:	Хотя очевидно , что власть в семье до самой ее смерти была в руках жены Макса , никто другой из мужчин в этом доме беглецов не может дать Максу отпор .
+EN_TT:	challenge [ 's [ clearly wife [ Max ] held [ <who> sway here death [ her ] ] ] now none [ residents [ other male household [ this misbegotten ] ] ] Max ]
+CS_TT:	nedokáže [ #Neg.RHEM je [ jasné byla [ hlavou [ rodiny ] smrti [ až ] žena [ Maxova ] ] ] obyvatel [ žádný obyvatel [ pohlaví [ mužského ] domácnosti [ této špatné ] ] ] nyní postavit [ #Cor.ACT Maxovi ] ]
+RU_TT:	дать [ #EmpVerb.CNCS [ очевидно была [ власть [ семье ] смерти [ самой ее ] руках [ жены [ Макса ] ] ] ] никто [ другой мужчин ] доме [ этом беглецов ] не Максу отпор ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	0 CLEFT
+INFO_RU:	ALIGN=0
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1937.streex##15.EnglishT-wsj_1937-s15-t12
+EN:	Insurance-related stocks were mixed as investors tried to figure out {how} to assess the impact of the property damage and deaths on those concerns .
+CS:	Akcie související s pojišťovnictvím si vedly smíšeně , zatímco se investoři snažili přijít na to , {jak} posoudit dopad majetkových škod a úmrtí na tyto podniky .
+RU:	Cвязанные со страхованием акции были mixed , когда инвесторы попытались определить , {как} оценить воздействие имущественного ущерба и смертей на эти концерны .
+EN_TT:	were [ stocks [ Insurance-related ] mixed tried [ investors figure [ #Cor.ACT assess [ <how> #Cor.ACT impact [ and [ damage [ property ] deaths ] concerns [ those ] ] ] ] ] ]
+CS_TT:	vedly [ Akcie [ související [ pojišťovnictvím ] ] smíšeně snažili [ investoři přijít [ #Cor.ACT posoudit [ #PersPron.ACT <jak> dopad [ a [ škod [ majetkových ] úmrtí [ #Gen.ACT ] ] podniky [ tyto ] ] ] ] ] ]
+RU_TT:	были [ акции [ Cвязанные [ страхованием ] ] mixed попытались [ инвесторы определить [ #Cor.ACT оценить [ <как> #Gen.ACT воздействие [ и [ ущерба [ имущественного ] смертей ] концерны [ эти ] ] ] ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	OK FUSED	TEMP
+INFO_RU:	FUSED
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1939.streex##19.EnglishT-wsj_1939-s19-t1
+EN:	{Why} should it be so surprising that a 30 % cut in the capital-gains tax would have such an enormous impact on the value of the nation 's capital stock ?
+CS:	{Proč} by mělo být tak překvapující , že 30 % snížení daně z kapitálového zisku bude na hodnotu národního akciového kapitálu mít tak obrovský dopad ?
+RU:	{Что} удивительного в том , что снижение налога на прирост капитала на 30 % может оказать огромное влияние на стоимость национального акционерного капитала ?
+EN_TT:	be [ <Why> surprising [ so ] have [ cut [ % [ 30 ] tax [ capital-gains ] ] impact [ such enormous ] value [ stock [ nation capital ] ] ] ]
+CS_TT:	být [ <Proč> překvapující [ tak ] mít [ snížení [ #Gen.ACT % [ 30 ] daně [ zisku [ kapitálového ] ] ] dopad [ hodnotu [ kapitálu [ národního akciového ] ] obrovský [ tak ] ] ] ]
+RU_TT:	#EmpVerb.PRED [ <Что> [ удивительного ] том [ оказать [ снижение [ налога [ прирост [ капитала ] ] % [ 30 ] ] влияние [ огромное стоимость [ капитала [ национального акционерного ] ] ] ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	INTERROGATIVE  FUSED	
+INFO_RU:	INTERROGATIVE
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1939.streex##27.EnglishT-wsj_1939-s27-t1
+EN:	{When} Richard Rahn advised the financial press that the market crash was caused by the setback to capital gains , he was generally ignored and mildly ridiculed .
+CS:	Když Richard Rahn oznámil finančnímu tisku , že pád burzy byl způsoben překážkou kapitálovým ziskům , všichni ho ignorovali a trochu se mu vysmívali .
+RU:	Когда Ричард Ран сообщил финансовой прессе , что биржевой крах был вызван ударом по приросту капитала , его мягко высмеивали и в основном оставили его слоа без внимания .
+EN_TT:	and [ advised [ <When> Rahn [ Richard ] press [ financial ] caused [ crash [ market ] setback [ gains [ capital ] ] ] ] he ignored [ generally ] #Gen.ACT ridiculed [ mildly ] ]
+CS_TT:	a [ oznámil [ Rahn [ Richard ] tisku [ finančnímu ] způsoben [ pád [ burzy ] překážkou [ ziskům [ kapitálovým ] ] ] ] všichni ignorovali [ ho ] vysmívali [ trochu mu ] ]
+RU_TT:	и [ сообщил [ Ричард [ Ран ] прессе [ финансовой ] вызван [ крах [ биржевой ] ударом [ приросту [ капитала ] ] ] ] #PersPron.ACT высмеивали [ его мягко ] оставили [ основном слоа [ его ] внимания ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	OK FUSED	TEMP
+INFO_RU:	FUSED
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1939.streex##30.EnglishT-wsj_1939-s30-t1
+EN:	{Why} is this happening ?
+CS:	{Proč} k tomu dochází ?
+RU:	{Почему} это произошло ?
+EN_TT:	happening [ <Why> this ]
+CS_TT:	dochází [ <Proč> tomu ]
+RU_TT:	произошло [ <Почему> это ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	INTERROGATIVE
+INFO_RU:	INTERROGATIVE
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1939.streex##36.EnglishT-wsj_1939-s36-t21
+EN:	It would inevitably lead to an increase in marginal income-tax rates in 1990 , he thinks , {when} the White House is forced to ask for higher taxes to meet budget targets .
+CS:	Myslí si , že až Bílý dům bude nucen žádat o vyšší daně , aby splnil cíle rozpočtu , nevyhnutelně to povede ke zvýšení sazeb mezních daní z příjmu v roce 1990 .
+RU:	Оно неизбежно приведет к увеличению предельных ставок подоходного налога в 1990 году , как он считает , когда Белый Дом будет вынужден повышать налоги , чтобы выполнить цели бюджета .
+EN_TT:	lead [ It inevitably increase [ rates [ marginal income-tax ] 1990 ] thinks [ he #PersPron.EFF ] forced [ <when> House [ White ] #Gen.ACT ask [ #Cor.ACT #Gen.ADDR taxes [ higher ] meet [ #PersPron.ACT targets [ budget ] ] ] ] ]
+CS_TT:	Myslí [ #PersPron.ACT povede [ nucen [ #Gen.ACT dům [ Bílý ] žádat [ #Cor.ACT #Gen.ADDR daně [ vyšší ] splnil [ #PersPron.ACT cíle [ rozpočtu ] ] ] ] nevyhnutelně to zvýšení [ #Gen.ACT sazeb [ daní [ mezních příjmu ] ] roce [ 1990 ] ] ] ]
+RU_TT:	приведет [ Оно неизбежно увеличению [ ставок [ предельных налога [ подоходного ] ] ] году [ 1990 будет [ Дом [ Белый ] вынужден [ #PersPron.ACT повышать [ #Cor.ACT налоги выполнить [ #Cor.ACT цели [ бюджета ] ] ] ] ] ] считает [ он ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	OK FUSED	TEMP
+INFO_RU:	ALIGN=0
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1943.streex##4.EnglishT-wsj_1943-s4-t14
+EN:	The refinancing is part of the TVA 's strategy of dealing with {what} has been an intractable problem : its staggering $ 18.5 billion debt , most of which is owed to the Treasury Department 's Federal Financing Bank .
+CS:	Refinancování je součástí strategie TVA na vyřešení dosud nezvladatelného problému : závratného dluhu ve výši 18.5 miliardy dolarů , z něhož většinu dluží Federální finanční bance Ministerstva financí .
+RU:	Рефинансирование является частью стратегии Администрации по борьбе с {тем} , что представляло большую проблему : долг в $ 18.5 млрд . , большая часть которого - Федеральному Банку Финансирования Министерства финансов .
+EN_TT:	is [ refinancing part [ strategy [ TVA dealing [ #Cor.ACT : [ been [ <what> problem [ intractable ] ] debt [ its staggering $ [ billion [ 18.5 ] ] owed [ most [ which ] #Gen.ACT Bank [ Department [ Treasury ] Federal Financing ] ] ] ] ] ] ] ]
+CS_TT:	je [ Refinancování [ #PersPron.PAT #PersPron.ACT ] součástí [ strategie [ TVA vyřešení [ #PersPron.ACT : [ problému [ nezvladatelného [ dosud ] ] dluhu [ závratného výši [ miliardy [ 18.5 dolarů ] ] dluží [ #PersPron.ACT většinu [ něhož ] bance [ Federální finanční Ministerstva [ financí ] ] ] ] ] ] ] ] ]
+RU_TT:	является [ Рефинансирование частью [ стратегии [ Администрации борьбе [ , [ <тем> [ представляло [ #PersPron.ACT проблему [ большую ] ] ] долг [ $ [ млрд [ 18.5 ] ] #EmpVerb.RSTR [ часть [ большая которого ] Банку [ Федеральному Финансирования Министерства [ финансов ] ] ] ] ] ] ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	0 SYNTAX_CHANGE
+INFO_RU:	CORREL 
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1944.streex##1.EnglishT-wsj_1944-s1-t10
+EN:	Mutual-fund czar John M. Templeton has put his money {where} his moniker is , pouring $ 1.4 million into one of his own funds , the Templeton Value Fund .
+CS:	Car investičních fondů John M . Templeton poslal své peníze za svým jménem , když nasypal 1.4 milionu dolarů do jednoho ze svých fondů , Templeton Value Fund .
+RU:	Король паевых фондов Джон М. Темплтон положил деньги на собственное имя , вложив $ 1.4 млн . в один из принадлежащих ему фондов , фонд Templeton Value .
+EN_TT:	put [ Templeton [ czar [ Mutual-fund ] John M. ] money [ his ] is [ <where> moniker [ his ] ] pouring [ #Cor.ACT $ [ million [ 1.4 ] ] , [ one [ funds [ his own ] ] Fund [ Templeton Value ] ] ] ]
+CS_TT:	poslal [ Templeton [ Car [ fondů [ investičních ] ] John M ] peníze [ své ] jménem [ svým ] nasypal [ milionu [ 1.4 dolarů ] , [ jednoho [ fondů [ svých ] ] #Forn.DIR3 [ Templeton Value Fund ] ] #PersPron.ACT ] ]
+RU_TT:	положил [ Король [ фондов [ паевых ] Джон [ М. Темплтон ] ] деньги имя [ собственное ] вложив [ #PersPron.ACT $ [ млн [ 1.4 ] ] #Colon.APPS [ один [ фондов [ принадлежащих [ ему ] ] ] фонд [ #Forn.ID [ Templeton Value ] ] ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	0 SYNTAX_CHANGE
+INFO_RU:	ALIGN=0
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1944.streex##4.EnglishT-wsj_1944-s4-t1
+EN:	{Why} did he add the Value Fund to the list ?
+CS:	{Proč} přidal Value Fund na seznam ?
+RU:	{Почему} он добавил фонд Value Fund в этот список ?
+EN_TT:	add [ <Why> he Fund [ Value ] list ]
+CS_TT:	přidal [ <Proč> #Forn.PAT [ Value Fund ] seznam #PersPron.ACT ]
+RU_TT:	добавил [ <Почему> он фонд [ #Forn.ID [ Value Fund ] ] список [ этот ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	OK FUSED	QUESTION
+INFO_RU: INTERROGATIVE	
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1946.streex##12.EnglishT-wsj_1946-s12-t20
+EN:	Scientists are only beginning to understand what causes sick-building syndrome and much of that research was unavailable {when} the Beebes filed the case , she said .
+CS:	Vědci zatím teprve začínají přicházet na to , co syndrom nemocných budov způsobuje , a když Beebeovi podávali žalobu , byla většina výzkumů nedostupná , řekla .
+RU:	Учёные только начинают понимать , что именно вызывает синдром больных зданий , и многие из этих исследований были еще недоступны , когда Биби возбудили дело , сказала она .
+EN_TT:	said [ and [ beginning [ Scientists only understand [ #Cor.ACT causes [ what syndrome [ sick-building ] ] ] ] was [ much [ research [ that ] ] unavailable filed [ <when> Beebes case ] ] ] she #Gen.ADDR ]
+CS_TT:	řekla [ a [ začínají [ Vědci zatím teprve přicházet [ #Cor.ACT způsobuje [ co syndrom [ budov [ nemocných ] ] ] ] ] byla [ podávali [ #Gen.ADDR Beebeovi žalobu ] většina [ výzkumů ] nedostupná ] ] #Gen.ADDR #PersPron.ACT ]
+RU_TT:	сказала [ начинают [ Учёные только понимать [ #Cor.ACT и [ вызывает [ именно что.ACT синдром [ зданий [ больных ] ] ] были [ многие [ исследований [ этих ] ] еще недоступны [ возбудили [ Биби дело ] ] ] ] ] ] она ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	OK FUSED	TEMP
+INFO_RU:	ALIGN=0 ALIGN=0
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1946.streex##20.EnglishT-wsj_1946-s20-t3
+EN:	The two {that} remain have n't yet reached the pre-trial fact-finding stage .
+CS:	Dvě zbývající dosud nedosáhly stádia , kdy se před líčením zjišťují fakta .
+RU:	Два оставшихся ещё не дошли до досудебной стадии расследования обстоятельств .
+EN_TT:	reached [ two [ remain [ <that> #Oblfm.LOC ] ] n't yet stage [ pre-trial fact-finding ] ]
+CS_TT:	nedosáhly [ #Neg.RHEM Dvě [ zbývající ] dosud stádia [ zjišťují [ kdy líčením #Gen.ACT fakta ] ] ]
+RU_TT:	дошли [ <оставшихся> [ Два ] ещё не стадии [ досудебной расследования [ обстоятельств ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	0 SYNTAX_CHANGE
+INFO_RU:	ALIGN=ANTE_N
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1946.streex##27.EnglishT-wsj_1946-s27-t4
+EN:	The plan , {which} has been plagued with delays and business-related setbacks , seeks to transform the area from a seedy thoroughfare to a more wholesome office and theater district .
+CS:	Tento plán sužovaný zpožděními a obchodními neúspěchy usiluje o přeměnu oblasti ze zchátralé průběžné komunikace na zdravější čtvrť kanceláří a divadel .
+RU:	План , {которому} сильно препятствовали задержки и неудачи , связанные с бизнесом , призван сделать из старой автомагистрали более нужный офисный и театральный район .
+EN_TT:	seeks [ plan [ plagued [ <which> #Gen.ACT and [ delays setbacks [ business-related ] ] ] ] transform [ #Cor.ACT area thoroughfare [ seedy ] district [ wholesome and [ office theater ] ] ] ]
+CS_TT:	usiluje [ plán [ Tento sužovaný [ a [ zpožděními [ #PersPron.ACT ] neúspěchy [ obchodními ] ] ] ] přeměnu [ oblasti komunikace [ zchátralé průběžné ] čtvrť [ zdravější a [ kanceláří divadel ] ] ] ]
+RU_TT:	#EmpVerb.PRED [ План [ препятствовали [ <которому> сильно и [ задержки неудачи связанные [ #Cor.PAT бизнесом ] ] ] ] призван [ сделать [ #Cor.ACT автомагистрали [ старой ] район [ нужный [ более ] и [ офисный театральный ] ] ] ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	0 SYNTAX_CHANGE
+INFO_RU:	RELPRON 
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1946.streex##31.EnglishT-wsj_1946-s31-t20
+EN:	A magistrate had initially refused the request , ruling that the attack had been a political act for {which} the man , Mahmoud El-Abed Ahmad , would be exempt from extradition .
+CS:	Místní soud původně tuto žádost zamítl rozhodnutím , že útok byl politickým činem , a proto by Mahmoud El - Abed Ahmad měl být zproštěn vydání .
+RU:	Мировой судья первоначально отверг этот запрос , сочтя , что нападение было политическим актом , {поэтому} этот человек , Махмуд Эль-Эйбед Ахмад , был освобождён от экстрадиции .
+EN_TT:	refused [ magistrate initially request ruling [ #Cor.ACT been [ attack act [ political be [ <which> , [ man Ahmad [ Mahmoud El-Abed ] ] exempt [ extradition ] ] ] ] ] ]
+CS_TT:	zamítl [ soud [ Místní ] původně žádost [ tuto ] rozhodnutím [ #PersPron.ACT a [ byl [ útok činem [ politickým ] ] proto zproštěn [ #Gen.ACT #Forn.ADDR [ Mahmoud El - Abed Ahmad ] vydání [ #PersPron.PAT #Gen.ACT ] ] ] ] ]
+RU_TT:	, [ отверг [ судья [ Мировой ] первоначально запрос [ этот ] сочтя [ #PersPron.ACT было [ нападение актом [ политическим ] ] ] ] освобождён [ поэтому , [ человек [ этот ] Махмуд [ Эль-Эйбед Ахмад ] ] экстрадиции ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	0 SYNTAX_CHANGE
+INFO_RU:	ALIGN=0
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1946.streex##43.EnglishT-wsj_1946-s43-t8
+EN:	I take these pronouncements , like many {that} have preceded them in past years , with a grain of salt .
+CS:	Tato prohlášení přijímám , stejně jako mnohá předcházející v minulých letech , s jistou dávkou nedůvěry .
+RU:	Я воспринимаю эти заявления , как и многие другие , {которые} предшествовали им в прошлые года , с определённой долей скептицизма .
+EN_TT:	take [ I pronouncements [ these ] many [ preceded [ <that> them years [ past ] ] ] grain [ salt ] ]
+CS_TT:	přijímám [ #PersPron.ACT prohlášení [ #PersPron.PAT Tato #PersPron.ACT ] stejně [ přijímám [ #PersPron.ACT mnohá [ předcházející ] letech [ minulých ] ] ] dávkou [ jistou nedůvěry ] ]
+RU_TT:	воспринимаю [ Я заявления [ эти ] другие [ и многие предшествовали [ <которые> им года [ прошлые ] ] ] долей [ определённой скептицизма ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	0 SYNTAX_CHANGE
+INFO_RU:	RELPRON 
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1947.streex##9.EnglishT-wsj_1947-s9-t4
+EN:	In 1956 , {when} Britain , France and Israel invaded Egypt to seize the Suez Canal , Arab producers cut off supplies to Europe .
+CS:	V roce 1956 , když Británie , Francie a Izrael napadly Egypt , aby se zmocnily Suezského průplavu , zastavili arabští výrobci dodávky do Evropy .
+RU:	В 1956 году , когда Великобритания , Франция и Израиль вторглись в Египет , чтобы захватить Суэцкий Канал , арабские производители прекратили поставки в Европу .
+EN_TT:	cut [ 1956 invaded [ <when> and [ Britain France Israel ] Egypt seize [ #Cor.ACT Canal [ Suez ] ] ] producers [ Arab ] supplies [ Europe ] ]
+CS_TT:	zastavili [ , [ roce [ 1956 ] napadly [ a [ Británie Francie Izrael ] Egypt zmocnily [ #PersPron.ACT průplavu [ Suezského ] ] ] ] výrobci [ arabští ] dodávky [ Evropy ] ]
+RU_TT:	прекратили [ году [ 1956 вторглись [ и [ Великобритания Франция Израиль ] Египет захватить [ #Cor.ACT Канал [ Суэцкий ] ] ] ] производители [ арабские ] поставки [ Европу ] ]
+INFO_EN:	TYPE=en_relpron
+INFO_CS:	OK FUSED	CZ
+INFO_RU:	ALIGN=0
+
