@@ -19,6 +19,8 @@ sub sigmoid {
 sub get_ord_for_generated {
     my ($tnode, $ords) = @_;
     return if (!$tnode->is_generated);
+    return if ($tnode->t_lemma !~ /^#(PersPron|Cor|Gen)/);
+#        log_info "GENER LEMMA: ".$tnode->t_lemma;
     
     my $par = $tnode->get_parent;
     my $deepord_diff = $tnode->ord - $par->ord;
@@ -30,7 +32,9 @@ sub get_ord_for_generated {
         #my @apars = sort {$a->ord <=> $b->ord} $par->get_anodes;
         #$par_ord = $deepord_diff > 0 ? $apars[$#apars]->ord : $apars[0]->ord;
         # Option 2: take the lexical a-node
-        $par_ord = $par->get_lex_anode->ord;
+        my $par_anode = $par->get_lex_anode;
+        return if (!defined $par_anode);
+        $par_ord = $par_anode->ord;
     }
   
     return $par_ord + sigmoid($deepord_diff);

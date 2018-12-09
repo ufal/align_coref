@@ -1,5 +1,14 @@
 SHELL=/bin/bash
 
+ifeq ($(LRC),1)
+LRC_FLAG=-p --jobs 25
+endif
+
+TREEX=PERL5LIB=${PERL5LIB}:lib treex ${LRC_FLAG}
+LANGS=en cs ru pl
+#LANGS=en
+#LANGS=cs
+
 release : data
 	mkdir -p $@
 	cp -r data $@
@@ -17,4 +26,6 @@ data/treex :
 
 data/plain :
 	mkdir -p $@
-	treex -Len -Sref
+	for i in $(LANGS); do \
+		${TREEX} -L$$i Read::Treex from='!data/treex/*.treex.gz' Write::SentencesWithZeros path=$@ extension=.$$i.txt; \
+	done
