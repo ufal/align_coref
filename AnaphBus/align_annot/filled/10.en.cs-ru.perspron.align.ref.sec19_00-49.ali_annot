@@ -774,10 +774,10 @@ EN:	{It} could throw in the towel and hope to win on capital gains late this mon
 CS:	Mohli by {to} vzdát a doufat , že s kapitálovými zisky uspějí na konci měsíce , nebo by mohli zaujmout strategií Bílého domu a vetovat schválení , dokud se kapitálové zisky nepřidají .
 RU:	{Оно} могло либо капитулировать в надежде выиграть на приросте капитала в конце месяца , либо последовать стратегии Белого Дома и не идти на соглашение до тех пор , пока не будет принято сокращение налога на прирост капитала .
 EN_TT:	or [ and [ <It> throw [ towel ] hope [ win [ #Cor.ACT #Gen.PAT gains [ capital ] month [ late this ] ] ] ] follow [ it strategy [ House [ White ] veto [ #Cor.ACT reconciliation appended [ gains [ capital ] #Gen.ACT #Cor.EFF ] ] ] ] ]
-CS_TT:	nebo [ a [ vzdát [ <to> ] doufat [ uspějí [ zisky [ kapitálovými ] #PersPron.ACT konci [ měsíce ] ] ] ] #PersPron.ACT a [ zaujmout [ #Gen.PAT strategií [ domu [ Bílého ] ] ] vetovat [ schválení [ #PersPron.PAT #Gen.ACT ] nepřidají [ #Neg.RHEM #Oblfm.DIR3 zisky [ kapitálové ] #Gen.ACT ] ] ] ]
+CS_TT:	nebo [ a [ vzdát [ to ] doufat [ uspějí [ zisky [ kapitálovými ] #PersPron.ACT konci [ měsíce ] ] ] ] <#PersPron.ACT> a [ zaujmout [ #Gen.PAT strategií [ domu [ Bílého ] ] ] vetovat [ schválení [ #PersPron.PAT #Gen.ACT ] nepřidají [ #Neg.RHEM #Oblfm.DIR3 zisky [ kapitálové ] #Gen.ACT ] ] ] ]
 RU_TT:	либо [ <Оно> либо капитулировать [ надежде [ выиграть [ #Cor.ACT приросте [ капитала конце [ месяца ] ] ] ] ] и [ последовать [ стратегии [ Дома [ Белого ] ] ] не идти [ соглашение пор [ тех не принято [ сокращение [ налога [ прирост [ капитала ] ] ] ] ] ] ] ]
 INFO_EN:	TYPE=en_perspron
-INFO_CS:	OK
+INFO_CS:	OK 
 INFO_RU:	PERSPRON 
 
 ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1939.streex##11.EnglishT-wsj_1939-s11-t1

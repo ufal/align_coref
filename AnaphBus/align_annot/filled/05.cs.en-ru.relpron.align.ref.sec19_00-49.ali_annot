@@ -774,10 +774,10 @@ EN:	But as for safety , he says double-deck freeways built today with the heavil
 RU:	Но , если говорить о безопасности , он говорит , что двухуровневые шоссе , построенные сегодня , из сильно армированного бетона и с более толстыми столбами , в соответствии с требованиями , введенными после землетрясения Силмар , должны выдержать разрушительное землетрясение между 7.5 и 8 по шкале Рихтера .
 CS_TT:	tvrdí [ #PersPron.ACT bezpečnosti však odolat [ dálnice [ dvoupatrové postavené [ dnes a [ betonu [ vyztuženého [ silně ] ] sloupů [ silnějších vyžadují [ #Gen.ACT <které> zemětřesení [ okrese [ Sylmar ] ] ] ] ] ] ] zemětřesení [ katastrofálnímu síle [ stupňů [ až [ 7.5 8 ] škály [ Richterovy ] ] ] ] ] ]
 EN_TT:	says [ But safety he #Gen.ADDR withstand [ freeways [ double-deck built [ #Gen.ACT #Cor.PAT today and [ concrete [ reinforced [ heavily #Gen.ACT #Cor.PAT ] ] columns [ thicker ] required [ #Gen.ACT <#Cor.PAT> quake [ Sylmar ] ] ] ] ] temblor [ calamitous to [ 7.5 8 ] scale [ Richter ] ] ] ]
-RU_TT:	говорит [ Но говорить [ #Gen.ACT безопасности ] он должны [ шоссе [ двухуровневые построенные [ <#Cor.PAT> сегодня ] и [ бетона [ армированного [ сильно ] ] столбами [ толстыми [ более ] ] требованиями [ введенными [ #Cor.PAT землетрясения [ Силмар ] ] ] ] ] выдержать [ #Cor.ACT землетрясение [ разрушительное и [ 7.5 8 шкале [ Рихтера ] ] ] ] ] ]
+RU_TT:	говорит [ Но говорить [ #Gen.ACT безопасности ] он должны [ шоссе [ двухуровневые построенные [ #Cor.PAT сегодня ] и [ бетона [ армированного [ сильно ] ] столбами [ толстыми [ более ] ] требованиями [ введенными [ #Cor.PAT землетрясения [ Силмар ] ] ] ] ] выдержать [ #Cor.ACT землетрясение [ разрушительное и [ 7.5 8 шкале [ Рихтера ] ] ] ] ] ]
 INFO_CS:	RELPRON 
 INFO_EN:	ALIGN=#Cor	ED
-INFO_RU:	ALIGN=#Cor
+INFO_RU:	ALIGN=0
 
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1916.streex##17.T-wsj1916-001-p1s16a12
 CS:	Většina stavebních inženýrů však zkázu přisoudila nedostatečné výztuži sloupů , {které} podpíraly patra , a skutečnosti , že země pod dálnicí je především zavážka a při větším zemětřesení může být nestabilní nebo " tekutá " .
@@ -1984,10 +1984,10 @@ EN:	Whitbread of Britain {put} its spirits division up for sale , setting off a 
 RU:	Британская Whitbread выставила на продажу свой отдел алкоголя , {спровоцировав} драку между виноделами .
 CS_TT:	, [ Společnost [ Whitbread Británie ] dala [ #Gen.ADDR prodej divizi [ svoji lihovin ] ] rozpoutala [ <čímž> boj [ lihovary ] ] ]
 EN_TT:	<put> [ Whitbread [ Britain ] division [ its spirits ] sale setting [ #Cor.ACT scramble [ distillers ] ] ]
-RU_TT:	выставила [ Whitbread [ Британская ] продажу отдел [ свой алкоголя ] спровоцировав [ <#PersPron.ACT> драку [ виноделами ] ] ]
+RU_TT:	<выставила> [ Whitbread [ Британская ] продажу отдел [ свой алкоголя ] спровоцировав [ #PersPron.ACT драку [ виноделами ] ] ]
 INFO_CS:	RELPRON
 INFO_EN:	ALIGN=ANTE_V	COMPL
-INFO_RU:	ALIGN=#PersPron
+INFO_RU:	ALIGN=ANTE
 
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1931.streex##6.T-wsj1931-001-p1s5a21
 CS:	Woodland ze spořitelny Harris Trust poznamenal , že měna nadále projevuje odolnost vůči přívalu " pesimistických novinových titulků " , {které} vznikly za poslední týdny a zahrnují zvýšení sazeb v Evropě a v Japonsku , agresivní intervenci centrální banky , prudký pokles cen akcií na newyorské burze o 190 bodů , neočekávaně špatnou zprávu o americkém obchodu a kroku , který podnikla Federální rezervní banka , aby napomohla snížení sazeb ve Spojených státech .
