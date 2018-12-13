@@ -3558,7 +3558,7 @@ ERR:TYPE=en_perspron	OK
 EN:	It could throw in the towel and hope to win on capital gains late this month, or it could follow the White House strategy, to veto reconciliation unless capital gains was appended .
 CS:	Mohli by to vzdát a doufat, že s kapitálovými zisky uspějí na konci měsíce, nebo by mohli zaujmout strategií Bílého domu a vetovat schválení, dokud se kapitálové zisky nepřidají. 
 EN_T:	<It> throw towel and hope #Cor.ACT win #Gen.PAT capital gains late this month or it follow White House strategy #Cor.ACT veto reconciliation capital gains #Gen.ACT appended #Cor.EFF
-CS_T:	<to> vzdát a #PersPron.ACT doufat kapitálovými zisky uspějí #PersPron.ACT konci měsíce nebo zaujmout #Gen.PAT strategií Bílého domu a vetovat #PersPron.PAT #Gen.ACT schválení #Neg.RHEM #Oblfm.DIR3 kapitálové zisky nepřidají #Gen.ACT
+CS_T:	to vzdát a #PersPron.ACT doufat kapitálovými zisky uspějí <#PersPron.ACT> konci měsíce nebo zaujmout #Gen.PAT strategií Bílého domu a vetovat #PersPron.PAT #Gen.ACT schválení #Neg.RHEM #Oblfm.DIR3 kapitálové zisky nepřidají #Gen.ACT
 ERR:TYPE=en_perspron	OK
 
 /home/mnovak/projects/align_resolver/tmp/robust_ali/wsj_1943.streex##6.EnglishT-wsj_1943-s6-t14
@@ -11020,8 +11020,8 @@ ERR:TYPE=cs_perspron_unexpr	OK pers1
 CS:	Je nehumánní naznačovat, že chudá, nezaměstnaná žena nedostane pro svoji rodinu okamžitou pomoc za rozumné ceny proto, že toho nemusí platit tolik, co bohatá rodina. 
 EN:	It is inhumane to imply that a poor, unemployed woman can not receive immediate relief for her family at fair prices because she does not have as much to protect as a rich family.
 CS_TT:	Je [ nehumánní [ #Benef.BEN ] naznačovat [ #Gen.ADDR #Cor.ACT nedostane [ #Neg.RHEM žena [ , [ chudá nezaměstnaná ] ] rodinu [ svoji ] pomoc [ okamžitou ceny [ rozumné ] ] platit [ #PersPron.ACT toho [ tolik [ platit [ <#PersPron.PAT> rodina [ bohatá ] ] ] ] #Neg.RHEM ] ] ] ]
-EN_TT:	is [ inhumane imply [ #Gen.ACT receive [ woman [ poor unemployed ] not relief [ immediate family [ her ] ] prices [ fair ] have [ <she> not much [ as ] protect [ #Cor.ACT #Cor.PAT ] family [ rich ] ] ] ] ]
-ERR:TYPE=cs_perspron_unexpr	ANTE COMPAR
+EN_TT:	is [ inhumane imply [ #Gen.ACT receive [ woman [ poor unemployed ] not relief [ immediate family [ her ] ] prices [ fair ] have [ she not much [ as ] protect [ #Cor.ACT <#Cor.PAT> ] family [ rich ] ] ] ] ]
+ERR:TYPE=cs_perspron_unexpr	OK
 
 /ha/work/people/mnovak/tectomt_git/personal/mnovak/align_resolver/data/gold_aligned.mgiza_on_czeng/wsj_1936.streex##11.T-wsj1936-001-p1s10a46
 CS:	V domnění, že moderní publikum snadno pochopí, že Molierova sociální obžaloba se týká jejich světa stejně jako Paříže 17. století, soustředil Wilbur své impozantní umění na převedení francouzského verše alexandrínu na živý divadelní anglický jambický pentametr. 
