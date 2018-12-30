@@ -201,3 +201,11 @@ $(PHASE15_ALI_ANNOT_CLEAN) : $(OUTDIR)/11.treex.pcedtr_gold_align_import.en/full
 $(PHASE16_ALI_ANNOT_CLEAN) : $(OUTDIR)/11.treex.pcedtr_gold_align_import.en/full.list
 	../bin/prepare_clean_ali_annot.sh $< ru "" t cor cs,en > $@
 
+PHASE13_ALI_ANNOT=$(ALI_ANNOT_DIR)/filled/13.ru.cs-en.relpron.align.ref.sec19_00-49.ali_annot
+PHASE14_ALI_ANNOT=$(ALI_ANNOT_DIR)/filled/14.ru.cs-en.perspron.align.ref.sec19_00-49.ali_annot
+PHASE16_ALI_ANNOT=$(ALI_ANNOT_DIR)/filled/16.ru.cs-en.cor.align.ref.sec19_00-49.ali_annot
+PHASE1316_ALL_ALI_ANNOT=$(ALI_ANNOT_DIR)/filled/13-16.ru.cs-en.align.ref.sec19_00-49.ali_annot
+
+$(OUTDIR)/12.treex.pcedtr_gold_align_import.ru/full.list : $(OUTDIR)/11.treex.pcedtr_gold_align_import.en/full.list
+	cat $(PHASE13_ALI_ANNOT) $(PHASE14_ALI_ANNOT) $(PHASE16_ALI_ANNOT) > $(PHASE1316_ALL_ALI_ANNOT)
+	../bin/import_ali_annot.sh $< $(PHASE1316_ALL_ALI_ANNOT) $@ "cs-en:gold;ru-cs:gold;en-ru:gold"
