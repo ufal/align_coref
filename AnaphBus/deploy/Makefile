@@ -37,7 +37,7 @@ data/treex :
 		Util::Eval tnode='$$tnode->set_wild();' \
 		Write::Treex storable=0 path=$@
 
-data/plain :
+data/plain_zero :
 	mkdir -p $@
 	for i in $(LANGS); do \
 		${TREEX} -L$$i \
@@ -45,7 +45,15 @@ data/plain :
 			Write::SentencesWithZeros path=$@ extension=.$$i.txt; \
 	done
 
-data/conll :
+data/plain : data/plain_zero
+	mkdir -p $@
+	for i in $</*.txt; do \
+		f=$${i#$</}; \
+		echo "Removing zeros from $$f"; \
+		bin/strip_restored_zeros.pl < $$i > $@/$$f; \
+	done
+
+data/conll_zero :
 	mkdir -p $@
 	for i in $(LANGS); do \
 		${TREEX} -L$$i \
@@ -56,4 +64,12 @@ data/conll :
 			Coref::MarkMentionsForScorer layer=a auto_alayer=1 only_heads=0 \
 			Coref::MarkMentionsForScorer layer=t only_heads=1 \
 			Write::SemEval2010 layer=a include_zeros=1 path=$@ extension=.$$i.conll; \
+	done
+
+data/conll : data/conll_zero
+	mkdir -p $@
+	for i in $</*.conll; do \
+		f=$${i#$</}; \
+		echo "Removing zeros from $$f"; \
+		cat $$i | grep -Pv '^\d+-\d' > $@/$$f; \
 	done

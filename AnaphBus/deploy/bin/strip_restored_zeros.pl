@@ -12,12 +12,12 @@ while (my $line = <STDIN>) {
         if ($_ =~ /^(["']+)\#.*$/) {
             $punct .= $1;
             $_ =~ s/^$punct//;
-            print STDERR "DBG: ".$punct."\n";
+            #print STDERR "DBG: ".$punct."\n";
         }
         # zero ends with a punctuation
         if ($_ =~ /^\#.*?([.,;:?!"']+)$/) {
             $punct .= " $1";
-            print STDERR "DBG: ".$punct."\n";
+            #print STDERR "DBG: ".$punct."\n";
         }
         $_ =~ s/^\#.*/$punct/;
         $_
@@ -28,7 +28,7 @@ while (my $line = <STDIN>) {
     my $i = 0;
     my $no_space_precedes = 0;
     for my $token (@zerosfiltered) {
-        print STDERR "$i $no_space_precedes $token\n";
+        #print STDERR "$i $no_space_precedes $token\n";
         if ($i > 0 && !$no_space_precedes && $token !~ /^ [.,;:?!"']+$/) {
             print " ";
         }
