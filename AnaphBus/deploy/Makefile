@@ -73,3 +73,20 @@ data/conll : data/conll_zero
 		echo "Removing zeros from $$f"; \
 		cat $$i | grep -Pv '^\d+-\d' > $@/$$f; \
 	done
+
+##################################################################################################################################
+############################### FINALIZE THE REST: SCHEMA FILES, TECHNICAL REPORT ################################################
+##################################################################################################################################
+
+finalize : schema pack
+
+schema : $(TREEX_DIR)/Core/share/tred_extension/treex/resources/treex*.xml
+	mkdir -p release/resources
+	cp $^ release/resources
+
+pack :
+	cp -r data release/data
+	cp -r doc release/doc
+	mv release paws
+	zip -r paws.zip paws
+	rm -rf paws
