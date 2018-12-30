@@ -3,7 +3,7 @@
 function run_treex {
     if [ ${LRC:-0} -eq 1 ]; then
         mkdir -p $RUN_DIR/treex_runs
-        lrc_flag="-p --jobs 50 --priority=0 --queue 'ms-all.q@*' --workdir=$RUN_DIR/treex_runs/{NNN}-run-{XXXX}"
+        lrc_flag="-p --jobs 50 --priority=0 --workdir=$RUN_DIR/treex_runs/{NNN}-run-{XXXX}"
     fi
     treex $lrc_flag "$@"
 }
