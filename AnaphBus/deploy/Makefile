@@ -85,6 +85,7 @@ schema : $(TREEX_DIR)/Core/share/tred_extension/treex/resources/treex*.xml
 	cp $^ release/resources
 
 pack :
+	cp README.md LICENSE.txt release
 	cp -r data release/data
 	cp -r doc release/doc
 	mv release paws

@@ -1,0 +1,4 @@
+PAWS is a parallel, multilingual corpus. The English Part is based on Penn Treebank 3 and therefore to use PAWS, you need a license for Treebank 3 (http://www.ldc.upenn.edu/Catalog/catalogEntry.jsp?catalogId=LDC99T42).
+The dependency annotation of the English data, as well as all the Czech, Russian and Polish data is licensed under the terms of CC-BY-NC-SA 3.0 (https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode).
+
+By accepting this license and downloading the data you declare you have a valid license for Treebank 3.

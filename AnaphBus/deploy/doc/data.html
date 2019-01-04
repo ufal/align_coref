@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>PAWS - Data</title>
+<link href="styles/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body style="background-image: url('pics/background.jpg'); background-repeat: repeat-x">
+<div id="centered">
+<a href="http://ufal.mff.cuni.cz" target="_blank"><img height="80" align="left" src="pics/logo_ufal.jpg"></a>
+<h1>&nbsp; &nbsp;PAWS - Data</h1>
+<table border="0" cellpadding="5" style="margin-bottom: 15px"><tr>
+<td><div><a href="index.html"><div style="background-image: url('pics/background_button.jpg'); background-color: #ffeb5a; border-top-left-radius: 8px; padding: 5px">Introduction</div></a></div></td>
+<td><div><a href="data.html"><div style="background-image: url('pics/background_button_actual.jpg'); background-color: #ddedf4; border-top-left-radius: 8px; padding: 5px">Data</div></a></div></td>
+<td><div><a href="documentation.html"><div style="background-image: url('pics/background_button.jpg'); background-color: #ddedf4; border-top-left-radius: 8px; padding: 5px">Documentation</div></a></div></td>
+<td><div><a href="licence.html"><div style="background-image: url('pics/background_button.jpg'); background-color: #ddedf4; border-top-left-radius: 8px; padding: 5px">Licence</div></a></div></td>
+<td><div><a href="credits.html"><div style="background-image: url('pics/background_button.jpg'); background-color: #ddedf4; border-top-left-radius: 8px; padding: 5px">Credits</div></a></div></td>
+<td><div><a href="acknowledgment.html"><div style="background-image: url('pics/background_button.jpg'); background-color: #ddedf4; border-top-left-radius: 8px; padding: 5px">Acknowledgment</div></a></div></td>
+</tr></table>
+<p>
+	The PAWS data can be found in the <code>data</code> directory and its five subdirectories comprising the data in different export formats.
+</p>
+
+<p>
+	The <code>treex</code> subdirectory contains 50 gzipped Treex file (<code>*.treex.gz</code>), each one corresponding to a single document. The Treex format is an application of the Prague Markup Language (<a href="http://ufal.mff.cuni.cz/jazz/PML/index_en.html">PML</a>; Pajas and Štěpánek, 2008), an XML-based format designed for linguistic treebank annotations. For the sake of completeness, PML schemata describing the structure of the Treex files are enclosed in the <code>resources</code> directory.
+</p>
+
+<p>
+	The <code>plain</code> subdirectory contains 50 text files for each language (<code>*.{en,cs,ru,pl}.txt</code>). A text file consists of surface sentences formatted as one sentence per line. A variant of this format stored in the <code>plain_zero</code> subdirectory includes also the zeros that semantically behave as nouns. Such a zero appears in an immediate neighbourhood of its governing verb and is formatted as a concatenation of the tectogrammatical lemma of the zero (<code>#PersPron</code>, <code>#Cor</code> or <code>#Gen</code>) a its semantic role (or functor), delimited by a colon. See the <a href="https://ufal.mff.cuni.cz/pdt2.0/doc/manuals/en/t-layer/pdf/t-man-en.pdf">tectogrammatical manual</a> for more information on these attributes.
+</p>
+
+<p>
+	The <code>conll</code> subdirectory contains each language variant of each document stored in a text file formatted according to the style that is derived from the <a href="http://stel.ub.edu/semeval2010-coref/datasets#formatting">style</a> used for SemEval 2010 Shared Task and is compatible with the official <a href="http://conll.cemantix.org/download/reference-coreference-scorers.v8.01.tar.gz">CoNLL scorer</a> for coreference resolution. In this format, each token is represented on a single line by tab-separated attributes. A difference to the original SemEval 2010 format lies in the last but one attribute that comprises a Treex ID of the corresponding node. In order to be compatible with the official CoNLL coreference scorer, the last column remains reserved to coreference information annotated in open-close notation. Similarly to the plain-text format, the <code>conll_zero</code> subdirectory consist of the same files but with additional records for zeros.
+</p>
+
+<h4>
+	How to browse the data in the Treex format
+</h4>
+
+<p>
+	Tree editor <a href="http://ufal.mff.cuni.cz/tred">TrEd</a> (Pajas and Štěpánek, 2008) can be used to open and browse the data in the Treex format. The editor can be downloaded for various platforms from its <a href="http://ufal.mff.cuni.cz/tred">home page</a>. Please follow the installation instructions specified at the page for your operating system.
+</p>
+
+<p>
+	After the installation, an extension needs to be installed:
+</p>
+
+<ol style="list-style-type: decimal">
+	<li>
+		Start TrEd.
+	</li>
+	<li>
+		In the top menu, select <em>Setup -> Manage Extensions...</em>; a dialog window with a list of installed extensions appears.
+	</li>
+	<li>
+		Click on the button <em>Get New Extensions</em>; a dialog window with a list of available (not yet installed) extensions appears.
+	</li>
+	<li>
+		Make sure that at least the extension <em>EasyTreex</em> is checked to install (if it is not in the list, it may have already been installed).
+	</li>
+	<li>
+		Click on the button <em>Install Selected</em>; the selected extensions get installed.
+	</li>
+	<li>
+		Close all TrEd windows including the main application window and start TrEd again.
+	</li>
+</ol>
+
+<p>
+	Now, TrEd is able to open the data of PAWS, displaying the analytical and tectogrammatical trees of a single sentence in four languages at once.
+</p>
+
+<p>
+	In case of troubles with the installation of TrEd or with browsing the data, please contact the authors at <code>tred at ufal.mff.cuni.cz</code>.
+</p>
+</div>
+</body>
+</html>
