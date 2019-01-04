@@ -1,0 +1,253 @@
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1900.streex##1.t-t_tree-ru-s1-n215
+RU:	Комиссия по корпорациям штата Аризона санкционировала повышение ставки на 11.5 % для компании Tucson Electric Power , что существенно ниже , чем было рекомендовано в прошлом месяце старшим экспертом комиссии , и {что} вполовину меньше того повышения , которого хотело это коммунальное предприятие .
+CS:	Arizonská komise pro korporace schválila společnosti Tucson Electric Power Co . zvýšení sazby o 11.5 % , což je podstatně méně , než minulý měsíc doporučoval jednající úředník komise , a {sotva} polovina zvýšení požadovaného podnikem .
+EN:	The Arizona Corporations Commission authorized an 11.5 % rate increase at Tucson Electric Power Co. , substantially lower than recommended last month by a commission hearing officer and {barely} half the rise sought by the utility .
+RU_TT:	санкционировала [ Комиссия [ корпорациям [ штата [ Аризона ] ] ] повышение [ ставки ] для [ компании [ Tucson Electric Power ] ] #Colon.APPS [ на [ % [ 11.5 ] ] и [ #EmpVerb.DIFF [ что ниже [ существенно рекомендовано [ месяце [ прошлом ] экспертом [ старшим комиссии ] ] ] ] #EmpVerb.DIFF [ <что> меньше [ вполовину повышения [ того #PersPron.PAT хотело [ которого предприятие [ это коммунальное ] ] ] ] ] ] ] ]
+CS_TT:	schválila [ komise [ Arizonská korporace ] společnosti [ #Forn.ID [ Tucson Electric Power Co . ] ] zvýšení [ #Gen.ACT sazby , [ % [ 11.5 ] je [ <což> a [ méně [ podstatně doporučoval [ #Gen.ADDR měsíc [ minulý ] #PersPron.PAT úředník [ jednající komise ] ] ] polovina [ sotva zvýšení [ #PersPron.PAT #Gen.ACT požadovaného [ podnikem ] ] ] ] ] ] ] ]
+EN_TT:	authorized [ Commission [ Arizona Corporations ] <increase> [ % [ 11.5 ] rate Co. [ Power [ Tucson Electric ] ] and [ lower [ substantially recommended [ #Gen.PAT #Gen.ADDR month [ last ] officer [ commission hearing ] ] ] rise [ half [ barely ] sought [ #Cor.PAT utility ] ] ] ] ]
+INFO_RU:	COZ
+INFO_CS:	ALIGN=ANTE
+INFO_EN:	ALIGN=ANTE
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1900.streex##1.t-t_tree-ru-s1-n220
+RU:	Комиссия по корпорациям штата Аризона санкционировала повышение ставки на 11.5 % для компании Tucson Electric Power , что существенно ниже , чем было рекомендовано в прошлом месяце старшим экспертом комиссии , и что вполовину меньше того повышения , {которого} хотело это коммунальное предприятие .
+CS:	Arizonská komise pro korporace schválila společnosti Tucson Electric Power Co . zvýšení sazby o 11.5 % , což je podstatně méně , než minulý měsíc doporučoval jednající úředník komise , a sotva polovina zvýšení požadovaného podnikem .
+EN:	The Arizona Corporations Commission authorized an 11.5 % rate increase at Tucson Electric Power Co. , substantially lower than recommended last month by a commission hearing officer and barely half the rise {sought} by the utility .
+RU_TT:	санкционировала [ Комиссия [ корпорациям [ штата [ Аризона ] ] ] повышение [ ставки ] для [ компании [ Tucson Electric Power ] ] #Colon.APPS [ на [ % [ 11.5 ] ] и [ #EmpVerb.DIFF [ что ниже [ существенно рекомендовано [ месяце [ прошлом ] экспертом [ старшим комиссии ] ] ] ] #EmpVerb.DIFF [ что меньше [ вполовину повышения [ того #PersPron.PAT хотело [ <которого> предприятие [ это коммунальное ] ] ] ] ] ] ] ]
+CS_TT:	schválila [ komise [ Arizonská korporace ] společnosti [ #Forn.ID [ Tucson Electric Power Co . ] ] zvýšení [ #Gen.ACT sazby , [ % [ 11.5 ] je [ což a [ méně [ podstatně doporučoval [ #Gen.ADDR měsíc [ minulý ] #PersPron.PAT úředník [ jednající komise ] ] ] polovina [ sotva zvýšení [ <#PersPron.PAT> #Gen.ACT požadovaného [ podnikem ] ] ] ] ] ] ] ]
+EN_TT:	authorized [ Commission [ Arizona Corporations ] increase [ % [ 11.5 ] rate Co. [ Power [ Tucson Electric ] ] and [ lower [ substantially recommended [ #Gen.PAT #Gen.ADDR month [ last ] officer [ commission hearing ] ] ] rise [ half [ barely ] sought [ <#Cor.PAT> utility ] ] ] ] ]
+INFO_RU:	RELPRON	
+INFO_CS:	ALIGN=#PersPron
+INFO_EN:	ALIGN=#Cor
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1901.streex##2.t-t_tree-ru-s2-n250
+RU:	Его комментарии , данные в ответ на вопросы репортёров в здешнем Национальном Клубе печати , свидетельствовали о том , что Сеул сопротивляется давлению Штатов , {которые} призывают к дальнейшему повышению стоимости валюты .
+CS:	Jeho poznámky v reakci na otázky reportéra zde ve Státním tiskovém klubu signalizovaly odpor Soulu proti tlaku USA na další zvýšení hodnoty měny .
+EN:	His comments , made in response to reporters ' questions at the National Press Club here , signaled that Seoul is resisting U.S. pressure for a further rise in the currency 's value .
+RU_TT:	свидетельствовали [ комментарии [ Его данные [ #Cor.ACT ответ [ вопросы [ репортёров ] ] Клубе [ здешнем Национальном печати ] ] ] том [ сопротивляется [ Сеул давлению [ Штатов [ призывают [ <которые> повышению [ дальнейшему #PersPron.ACT стоимости [ валюты ] ] ] ] ] ] ] ]
+CS_TT:	signalizovaly [ poznámky [ Jeho reakci [ otázky [ reportéra ] ] ] zde klubu [ Státním tiskovém ] odpor [ Soulu tlaku [ #Idph.RSTR [ <USA> ] zvýšení [ #PersPron.ACT další hodnoty [ měny ] ] ] ] ]
+EN_TT:	signaled [ comments [ His made [ #Cor.ACT #Cor.CPHR response [ questions [ reporters ] ] Club [ National Press ] here ] ] resisting [ Seoul pressure [ <U.S.> rise [ further value [ currency ] ] ] ] ]
+INFO_RU:	RELPRON	
+INFO_CS:	ALIGN=ANTE	
+INFO_EN:	ALIGN=ANTE
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1901.streex##6.t-t_tree-ru-s6-n310
+RU:	Сеул указывал на отсутствие валютного рынка как одну из причин , из-за {которой} стоимость воны остаётся сильно контролируемой .
+CS:	Soul poukázal na svůj chybějící devizový trh jako jeden z důvodů , {proč} hodnota wonu zůstává pod silnou kontrolou .
+EN:	Seoul has pointed to its lack of a foreign exchange market as one reason the won 's value remains heavily controlled .
+RU_TT:	указывал [ Сеул отсутствие [ рынка [ валютного ] ] одну [ причин [ остаётся [ <которой> стоимость [ воны ] контролируемой [ сильно #Cor.PAT #Gen.ACT ] ] ] ] ]
+CS_TT:	poukázal [ Soul jeden [ <důvodů> [ zůstává [ proč hodnota [ wonu ] kontrolou [ silnou ] ] ] ] trh [ svůj chybějící devizový ] ]
+EN_TT:	pointed [ Seoul lack [ its market [ exchange [ foreign ] ] ] <reason> [ one remains [ value [ won ] controlled [ heavily #Gen.ACT #Cor.PAT ] ] ] ]
+INFO_RU:	RELPRON 
+INFO_CS:	ALIGN=ANTE
+INFO_EN:	ALIGN=ANTE
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1903.streex##1.t-t_tree-ru-s1-n1133
+RU:	Дейл Лэнг , который на этой неделе завершил приобретение издательства Ms. и Сэсси , признает сложность задачи , {которую} он на себя берёт .
+CS:	Dale Lang , který tento týden dokončil akvizici vydavatelství časopisů Ms . a Sassy , je ohledně této výzvy otevřený .
+EN:	Dale Lang , who this week completed the acquisition of the publisher of Ms. and Sassy , is candid about the challenge he is taking on .
+RU_TT:	признает [ Лэнг [ Дейл завершил [ который неделе [ этой ] приобретение [ #PersPron.ACT издательства [ и [ Ms. Сэсси ] ] ] ] ] сложность [ задачи [ берёт [ <которую> он себя ] ] ] ]
+CS_TT:	je [ Lang [ Dale dokončil [ který týden [ tento ] akvizici [ vydavatelství [ časopisů [ a [ Ms Sassy ] ] ] ] ] ] <výzvy> [ této ] otevřený ]
+EN_TT:	is [ Lang [ Dale completed [ who week [ this ] acquisition [ publisher [ and [ Ms. Sassy ] ] ] ] ] candid [ <challenge> [ taking [ he #Cor.PAT ] ] ] ]
+INFO_RU:	RELPRON 
+INFO_CS:	ALIGN=ANTE_N
+INFO_EN:	ALIGN=ANTE_N
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1903.streex##19.t-t_tree-ru-s19-n1376
+RU:	Мои чувства по поводу Сэсси похожи на те , {что} я испытывал по поводу " Работающей Женщины " 10 лет назад . "
+CS:	Ze Sassy mám stejný pocit , jako z Working Woman před 10 lety . "
+EN:	I feel about Sassy like I did about Working Woman 10 years ago . ''
+RU_TT:	#EmpVerb.PRED [ чувства [ Мои Сэсси ] похожи [ те [ испытывал [ <что> я Женщины [ Работающей ] лет [ 10 назад ] ] ] ] ]
+CS_TT:	mám [ #PersPron.ACT pocit [ Sassy stejný [ mám [ #PersPron.ACT pocit [ #Forn.RSTR [ Working Woman ] ] lety [ 10 ] ] ] ] ]
+EN_TT:	feel [ I #Oblfm.MANN Sassy feel [ I #Oblfm.MANN Woman [ Working ] years [ 10 ] ] ]
+INFO_RU:	RELPRON 
+INFO_CS:	ALIGN=0 REWORD
+INFO_EN:	ALIGN=0
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1915.streex##93.t-t_tree-ru-s93-n5678
+RU:	PACIFIC TELESIS GROUP , Сан -Франциско , телекоммуникационная холдинговая компания , годовые продажи $ 9.5 млрд . , основной офис не пострадал , но нет электроэнергии , сбой энергии вызвал задержку выпуска отчёта компании о прибыли , основная проблема – дочерние компании , Pacific Bell и Pacific Telesis Cellular , здания обеих из которых повреждены , имеются повреждения нескольких сотовых узлов связи в Санта-Крусе , количество звонков на сотовые телефоны в 10 раз превышает обычное , {что} вызывает большие задержки .
+CS:	SPOLEČNOST PACIFIC TELESIS GROUP v San Francisku , telekomunikační holdingová společnost s ročním obratem 9.5 miliardy dolarů , neutrpěla žádné škody na hlavním sídle společnosti , ale je bez proudu a výpadek proudu zapříčinil zpoždění ve vydání zprávy o ziscích společnosti , ovšem velké znepokojení vyvolávají dceřiné společnosti Pacific Bell a Pacific Telesis Cellular , jelikož obě utrpěly škody na budovách , na statice několika stanic mobilních sítí v Santa Cruz , a protože objem telefonních hovorů z mobilních telefonů se zdesetinásobil , zapříčiňuje {to} velké zpomalení .
+EN:	PACIFIC TELESIS GROUP , San Francisco , telecommunications holding company , annual sales of $ 9.5 billion , no damage to headquarters , but no power , the power failure has caused a delay in the release of the company 's earnings report , major concern is subsidiaries , Pacific Bell and Pacific Telesis Cellular , both of which sustained damage to buildings , structural damage to several cellular sites in Santa Cruz , volume of calls on cellular phones 10 times the usual , causing a big slowdown .
+RU_TT:	, [ , [ PACIFIC [ TELESIS [ GROUP ] ] Сан [ -Франциско ] компания [ телекоммуникационная холдинговая ] продажи [ годовые млрд [ $ 9.5 ] ] ] но [ не пострадал [ офис [ основной ] ] нет [ электроэнергии ] ] вызвал [ сбой [ энергии ] задержку [ выпуска [ отчёта [ компании прибыли ] ] ] ] – [ проблема [ основная ] компании [ дочерние и [ Pacific [ Bell ] Pacific [ Telesis [ Cellular ] ] ] повреждены [ здания [ обеих [ которых ] ] #Gen.ACT ] ] ] имеются [ повреждения [ узлов [ нескольких сотовых связи ] Санта-Крусе ] ] превышает [ количество [ звонков [ телефоны [ сотовые ] ] ] раз [ 10 ] обычное вызывает [ <что> задержки [ большие ] ] ] ]
+CS_TT:	ovšem [ ale [ neutrpěla [ #Neg.RHEM , [ SPOLEČNOST [ #Forn.LOC [ San Francisku ] #Forn.ID [ PACIFIC TELESIS GROUP ] ] společnost [ telekomunikační holdingová obratem [ ročním miliardy [ 9.5 dolarů ] ] ] ] škody [ žádné sídle [ hlavním společnosti ] ] ] a [ je [ #PersPron.ACT proudu ] zapříčinil [ výpadek [ proudu ] zpoždění [ #PersPron.ACT vydání [ #PersPron.ACT zprávy [ ziscích [ společnosti ] ] ] ] ] ] ] vyvolávají [ znepokojení [ #Gen.PAT #Gen.ACT velké ] #Oblfm.LOC společnosti [ dceřiné a [ #Forn.ID [ Pacific Telesis Cellular ] #Forn.ID [ Pacific Bell ] ] ] a [ utrpěly [ obě škody [ , [ budovách statice [ stanic [ několika sítí [ mobilních ] #Forn.LOC [ Santa Cruz ] ] ] ] ] ] zapříčiňuje [ zdesetinásobil [ objem [ hovorů [ telefonních telefonů [ mobilních ] ] ] ] <to> zpomalení [ velké #PersPron.ACT ] ] ] ] ]
+EN_TT:	, [ #EmpVerb.PRED [ , [ GROUP [ PACIFIC TELESIS #Forn.PAR [ San Francisco ] ] company [ telecommunications holding ] #EmpVerb.RSTR [ sales [ annual $ [ billion [ 9.5 ] ] ] ] ] but [ damage [ no headquarters ] power [ no ] ] ] caused [ failure [ power ] delay [ release [ report [ company earnings ] ] ] ] is [ concern [ major ] subsidiaries [ and [ Bell [ Pacific ] Cellular [ Telesis [ Pacific ] ] sustained [ both [ which ] , [ damage [ buildings ] damage [ structural sites [ several cellular #Forn.LOC [ Santa Cruz ] ] ] ] ] ] ] ] #EmpVerb.PRED [ volume [ calls [ phones [ cellular ] ] ] times [ 10 [ usual ] ] causing [ <#Cor.ACT> slowdown [ big ] ] ] ]
+INFO_RU:	COZ
+INFO_CS:	DEMPRON
+INFO_EN:	ALIGN=#Cor
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1916.streex##19.t-t_tree-ru-s19-n1312
+RU:	Хотя в столбах действительно были длинные металлические бруски , {которые} были протянуты для усиления по вертикали , им явно недоставало достаточного числа металлических " затяжек " , которыми столб стянут по горизонтали , сказал Лео Паркер , инженер - проектировщик из Лос-Анджелеса .
+CS:	Leo Parker , stavební inženýr z Los Angeles , řekl , že i když sloupy měly pro {zpevnění} svisle uložené dlouhé kovové tyče , očividně postrádaly dostatečné množství kovových " smyček " , které procházejí sloupem vodorovně .
+EN:	While the pillars did have long metal bars running vertically through them for reinforcement , they apparently lacked an adequate number of metal `` ties '' that run horizontally through the column , said Leo Parker , a structural engineer in Los Angeles .
+RU_TT:	сказал [ недоставало [ были [ столбах действительно бруски [ длинные металлические протянуты [ #Gen.ACT <которые> усиления вертикали ] ] ] им явно числа [ достаточного затяжек [ металлических стянут [ которыми столб #Gen.ACT горизонтали ] ] ] ] , [ Паркер [ Лео ] - [ инженер проектировщик Лос-Анджелеса ] ] ]
+CS_TT:	řekl [ #Gen.ADDR , [ Parker [ Leo ] inženýr [ stavební #Forn.DIR1 [ Los Angeles ] ] ] postrádaly [ #PersPron.ACT měly [ sloupy zpevnění [ #Gen.ACT #PersPron.PAT ] <tyče> [ uložené [ svisle ] dlouhé kovové ] ] očividně množství [ dostatečné smyček [ kovových procházejí [ které sloupem vodorovně ] ] ] ] ]
+EN_TT:	said [ lacked [ have [ pillars bars [ long metal running [ <#Cor.ACT> vertically them ] ] reinforcement ] they apparently number [ adequate ties [ metal run [ that horizontally column ] ] ] ] #Gen.ADDR , [ Parker [ Leo ] engineer [ structural #Forn.LOC [ Los Angeles ] ] ] ]
+INFO_RU:	RELPRON 
+INFO_CS:	ALIGN=ANTE_N
+INFO_EN:	ALIGN=#Cor
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1916.streex##28.t-t_tree-ru-s28-n1491
+RU:	Учитывая сейсмическую историю Области Залива , " мне кажется , что землетрясение 6.9 – событие , {которое} можно предвидеть " .
+CS:	Vezmeme - li v úvahu seismickou historii oblasti zátoky , " zdá se mi , že zemětřesení o síle 6.9 je předvídatelná událost " .
+EN:	Given the seismic history of the Bay Area , `` it seems to me that a 6.9 earthquake is a foreseeable event . ''
+RU_TT:	кажется [ Учитывая [ #PersPron.ACT историю [ сейсмическую Области [ Залива ] ] ] мне #PersPron.ACT #EmpVerb.ACT [ землетрясение [ 6.9 ] событие [ можно [ предвидеть [ <которое> ] ] ] ] ]
+CS_TT:	zdá [ Vezmeme [ #PersPron.ACT úvahu historii [ seismickou oblasti [ zátoky ] ] ] mi je [ zemětřesení [ síle [ 6.9 ] ] <událost> [ předvídatelná ] ] ]
+EN_TT:	seems [ history [ seismic Area [ Bay ] ] me is [ earthquake [ 6.9 ] <event> [ foreseeable ] ] ]
+INFO_RU:	RELPRON 
+INFO_CS:	ALIGN=ANTE_N
+INFO_EN:	ALIGN=ANTE_N
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1916.streex##33.t-t_tree-ru-s33-n1555
+RU:	Но в первую очередь переделывались мосты , имеющие единственный ряд столбов , и Шоссе Наймиц , в {котором} два ряда столбов , не было охвачено , объяснил г-н Драго .
+CS:	Nejvyšší prioritu však měly pouze mosty podepřené jednou řadou sloupů a dálnice Nimitz Freeway , {podepřená} dvěma řadami , byla vynechána , vysvětlil Drago .
+EN:	But only bridges supported with single rows of columns were top priority , and the Nimitz Freeway , supported by double rows , was left out , Mr. Drago explained .
+RU_TT:	объяснил [ и [ Но переделывались [ очередь #PersPron.ACT мосты [ имеющие [ #Cor.ACT ряд [ единственный столбов ] ] ] ] не охвачено [ Шоссе [ Наймиц #EmpVerb.RSTR [ <котором> ряда [ два столбов ] ] ] ] ] г-н [ Драго ] ]
+CS_TT:	vysvětlil [ a [ měly [ prioritu [ Nejvyšší ] však pouze mosty [ podepřené [ řadou [ jednou sloupů ] ] ] ] vynechána [ <dálnice> [ #Forn.ID [ Nimitz Freeway ] podepřená [ řadami [ dvěma ] ] ] #Gen.ACT ] ] #Gen.ADDR Drago ]
+EN_TT:	explained [ But and [ were [ only bridges [ supported [ #Cor.PAT rows [ single columns ] ] ] priority [ top ] ] left [ Freeway [ Nimitz supported [ <#Cor.PAT> rows [ double ] ] ] #Gen.ACT ] ] Drago [ Mr. ] #Gen.ADDR ]
+INFO_RU:	RELPRON 
+INFO_CS:	ALIGN=ANTE_N
+INFO_EN:	ALIGN=#Cor
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1919.streex##3.t-t_tree-ru-s3-n302
+RU:	Будучи добавлена к 1.2 миллионам акций , {которыми} он в данный момент владеет , и 4 % , которые принадлежат его компаньону , эта ставка обеспечила бы ему контроль 55 % концерна .
+CS:	Ve spojení s jeho současným 1.2 milionu akcií a 4 % , které vlastní jeden společník , by mu tento podíl poskytl kontrolu nad 55 % podniku .
+EN:	Coupled with his current 1.2 million shares and 4 % held by an associate , the stake would have given him control of 55 % of the concern .
+RU_TT:	обеспечила [ добавлена [ #PersPron.ACT и [ миллионам [ 1.2 акций [ владеет [ <которыми> он момент [ данный ] ] ] ] % [ 4 принадлежат [ которые компаньону [ его ] ] ] ] ] ставка [ эта ] ему контроль [ % [ 55 [ концерна ] ] ] ]
+CS_TT:	poskytl [ a [ milionu [ jeho současným 1.2 <akcií> ] % [ 4 vlastní [ které společník [ jeden ] ] ] ] mu podíl [ tento ] kontrolu [ % [ 55 podniku ] ] ]
+EN_TT:	given [ Coupled [ #Cor.PAT #Gen.ACT and [ <shares> [ his current million [ 1.2 ] ] % [ 4 held [ #Cor.PAT associate ] ] ] ] stake him control [ % [ 55 concern ] ] ]
+INFO_RU:	RELPRON 
+INFO_CS:	ALIGN=ANTE_N
+INFO_EN:	ALIGN=ANTE_N
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1926.streex##7.t-t_tree-ru-s7-n560
+RU:	Но по этим показателям прибыли за полный год не ясно , сможет ли Dow заработать больше в четвертом квартале , чистый доход за {который} в прошлом году составил $ 3.44 за акцию , или $ 635 млн .
+CS:	Avšak takový signál o zisku za celý rok vrhá pochyby na to , zda se společnost Dow dotáhne na své čisté zisky z loňského čtvrtého čtvrtletí , {kdy} činily 3.44 dolaru na akcii , neboli 635 milionů dolarů .
+EN:	But that signal on full-year profit casts doubt on whether Dow will improve on its year-ago fourth-quarter net of $ 3.44 a share , or $ 635 million .
+RU_TT:	#EmpVerb.PRED [ Но показателям [ этим прибыли [ год [ полный ] ] ] не ясно сможет [ Dow заработать [ #Cor.ACT больше квартале [ четвертом составил [ доход [ чистый ] <который> году [ прошлом ] или [ $ [ 3.44 акцию ] млн [ $ [ 635 ] ] ] ] ] ] ] ]
+CS_TT:	vrhá [ Avšak signál [ takový zisku [ rok [ celý ] ] ] pochyby dotáhne [ společnost [ Dow ] zisky [ své čisté čtvrtletí [ loňského čtvrtého činily [ <kdy> #PersPron.ACT neboli [ dolaru [ 3.44 akcii ] milionů [ 635 dolarů ] ] ] ] ] ] ]
+EN_TT:	casts [ But signal [ that profit [ full-year ] ] doubt improve [ Dow net [ its year-ago [ <fourth-quarter> ] ] or [ $ [ 3.44 share ] $ [ million [ 635 ] ] ] ] ]
+INFO_RU:	RELPRON 	
+INFO_CS:	RELPRON 	
+INFO_EN:	ALIGN=ANTE_N
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1927.streex##27.t-t_tree-ru-s27-n1493
+RU:	До любой юридической школы дошла новость о том , что те , {кто} стремится попасть в федеральный суд , должны пройти абсолютно безопасный конституциональный путь , не оставляя ни документальных свидетельств , ни письменных или устных зацепок .
+CS:	Do všech právnických škol pronikla informace , že {jedinci} s ambicemi dostat se k federálnímu soudu se musejí vydat po bezpečné ústavní cestě bez zanechávání písemných stop a kousavého jazyka nebo pera .
+EN:	The word went forth to every law school that those with federal court ambitions must travel a safe constitutional journey , with no paper trail and no bite to their tongue or pen .
+RU_TT:	дошла [ школы [ любой юридической ] новость [ том [ должны [ те [ стремится [ <кто> попасть [ #Cor.ACT суд [ федеральный ] ] ] ] пройти [ #Cor.ACT путь [ безопасный [ абсолютно ] конституциональный ] не оставляя [ #PersPron.ACT ни [ ни свидетельств [ документальных ] зацепок [ или [ письменных устных ] ] ] ] ] ] ] ] ]
+CS_TT:	pronikla [ škol [ všech právnických ] informace [ vydat [ <jedinci> [ ambicemi [ dostat [ #PersPron.ACT soudu [ federálnímu ] ] ] ] #Oblfm.DIR3 cestě [ bezpečné ústavní ] zanechávání [ #PersPron.ACT a [ stop [ písemných ] nebo [ kousavého jazyka pera ] ] ] ] ] ]
+EN_TT:	went [ word [ travel [ <those> [ ambitions [ court [ federal ] ] ] journey [ safe constitutional ] and [ trail [ no paper ] bite [ no or [ their tongue pen ] ] ] ] ] forth school [ every law ] ]
+INFO_RU:	RELPRON 	
+INFO_CS:	ALIGN=ANTE_N
+INFO_EN:	ALIGN=ANTE_N
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1928.streex##7.t-t_tree-ru-s7-n1271
+RU:	На первоначальных торгах прошлой ночью ( на {которых} были представлены Импрессионисты ) , например , ставки составили $ 116 млн .
+CS:	Například na první aukci včera večer - v {dražbě} se objevili mistři impresionismu - dosáhly nabídky celkem 116 milionů dolarů .
+EN:	At the initial sale last night , for example -- the sale {featuring} the Impressionists masters -- bids totaled $ 116 million .
+RU_TT:	составили [ торгах [ первоначальных ночью [ прошлой ] представлены [ <которых> Импрессионисты ] ] например ставки $ [ млн [ 116 ] ] ]
+CS_TT:	dosáhly [ Například aukci [ první včera večer objevili [ <dražbě> mistři [ impresionismu ] ] ] nabídky milionů [ 116 [ celkem ] dolarů ] ]
+EN_TT:	totaled [ sale [ initial night [ last ] sale [ featuring [ <#Cor.ACT> masters [ Impressionists ] ] ] ] example bids $ [ million [ 116 ] ] ]
+INFO_RU:	RELPRON 
+INFO_CS:	NP
+INFO_EN:	ALIGN=#Cor
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1929.streex##21.t-t_tree-ru-s21-n1479
+RU:	Когда проводит реформы Польша , она может , по крайней мере , опираться на своё прошлое : {какой} бы несовершенной и недолгой ни была межвоенная республика Джозефа Пилсудски , это была несоциалистическая демократия .
+CS:	Když se Polsko rozhodne pro reformu , může se přinejmenším opřít o svoji minulost : Ať již byla meziválečná republika Josepha Pilsudskiho jakkoli nedokonalá a krátkodobá , byla to nesocialistická demokracie .
+EN:	When Poland moves to reform , it can at least lean on its past : However flawed and short-lived Joseph Pilsudski 's interwar republic , it was a nonsocialist democracy .
+RU_TT:	#Comma.CONJ [ может [ проводит [ реформы Польша ] она опираться [ мере [ крайней ] #Cor.ACT прошлое [ своё ] ] ] была [ была [ и [ <какой> несовершенной недолгой ] #PersPron.ACT республика [ межвоенная Джозефа [ Пилсудски ] ] ] это демократия [ несоциалистическая ] ] ]
+CS_TT:	: [ opřít [ #PersPron.ACT rozhodne [ Polsko reformu ] přinejmenším minulost [ svoji ] ] byla [ byla [ již republika [ meziválečná Pilsudskiho [ Josepha ] ] a [ jakkoli nedokonalá krátkodobá ] ] to demokracie [ nesocialistická ] ] ]
+EN_TT:	: [ lean [ moves [ Poland reform [ #PersPron.ACT #Rcp.PAT ] ] it least past [ its ] ] was [ #EmpVerb.CNCS [ and [ flawed short-lived ] republic [ Pilsudski [ Joseph ] interwar ] ] it democracy [ nonsocialist ] ] ]
+INFO_RU:	ADJ
+INFO_CS:	ALIGN=0
+INFO_EN:	ALIGN=0
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1929.streex##39.t-t_tree-ru-s39-n1741
+RU:	В заявлении , которое было настолько близко к тому , {что} характеризуется как " гласность " , насколько это возможно в Восточной Германии , Отто Рейнхолд , партийный теоретик из Восточной Германии , признал существование дилеммы относительно воссоединения .
+CS:	V prohlášení , které bylo blízké " glasnosti " tak , {jak} ji uplatňuje Východní Německo , stranický teoretik Východního Německa Otto Reinhold vlastně potvrdil dilema opětovného sjednocení .
+EN:	In a statement that was as close as East Germany gets to practicing `` glasnost '' , Otto Reinhold , an East German party theorist , actually acknowledged the reunification dilemma .
+RU_TT:	признал [ заявлении [ было [ которое близко [ настолько [ #EmpVerb.CPR [ это возможно [ насколько Германии [ Восточной ] ] ] ] тому [ , [ характеризуется [ <что> гласность ] ] ] ] ] ] , [ Отто [ Рейнхолд ] теоретик [ партийный Германии [ Восточной ] ] ] существование [ дилеммы [ воссоединения ] ] ]
+CS_TT:	potvrdil [ prohlášení [ bylo [ které blízké [ glasnosti [ uplatňuje [ <jak> ji Německo [ Východní ] ] ] ] ] ] Reinhold [ teoretik [ stranický Německa [ Východního ] ] Otto ] vlastně dilema [ sjednocení [ #PersPron.ACT opětovného #Rcp.PAT ] ] ]
+EN_TT:	acknowledged [ statement [ was [ that close [ as [ gets [ Germany [ East ] close [ practicing [ #Cor.ACT glasnost ] ] ] ] ] ] ] , [ Reinhold [ Otto ] theorist [ party [ German [ East ] ] ] ] actually dilemma [ reunification ] ]
+INFO_RU:	CORREL 	
+INFO_CS:	CORREL 
+INFO_EN:	ALIGN=0
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1930.streex##15.t-t_tree-ru-s15-n799
+RU:	British Airways сообщили , что рассматривают только те новые заявки для родителя United Air , в {которых} предлагаются лучшие условия и сильно пониженная цена .
+CS:	Společnost British Airways uvedla , že u {jakékoli} revidované nabídky na mateřskou společnost společnosti United Air usiluje o zlepšení podmínek a podstatně nižší cenu .
+EN:	British Airways said it is seeking improved terms and a sharply lower price in any revised bid for United Air 's parent .
+RU_TT:	сообщили [ #Forn.ACT [ British Airways ] рассматривают [ #PersPron.ACT заявки [ только те новые родителя [ #Forn.APP [ United Air ] ] предлагаются [ <которых> и [ условия [ лучшие ] цена [ пониженная [ сильно ] ] ] ] ] ] ]
+CS_TT:	uvedla [ Společnost [ #Forn.ID [ British Airways ] ] usiluje [ #PersPron.ACT <nabídky> [ jakékoli revidované společnost [ mateřskou společnosti [ #Forn.ID [ United Air ] ] ] ] a [ zlepšení [ #PersPron.ACT podmínek ] cenu [ nižší [ podstatně ] ] ] ] ]
+EN_TT:	said [ Airways [ British ] #Gen.ADDR seeking [ it and [ terms [ improved ] price [ lower [ sharply ] ] ] <bid> [ any revised [ #Gen.ACT #Cor.PAT ] parent [ Air [ United ] ] ] ] ]
+INFO_RU:	RELPRON 
+INFO_CS:	ALIGN=ANTE_N
+INFO_EN:	ALIGN=ANTE_N
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1936.streex##23.t-t_tree-ru-s23-n1842
+RU:	Возможно 300-летнюю пьесу возродить легче , чем ту , {которой} всего лишь 25 лет .
+CS:	Možná je snazší přepracovat 300 let starou hru , než jen 25letou .
+EN:	A 300-year-old play may be easier to revive than one merely 25 .
+RU_TT:	#EmpVerb.PRED [ Возможно возродить [ пьесу [ 300-летнюю ] ] легче [ ту [ #EmpVerb.RSTR [ <которой> лет [ лишь [ всего ] 25 ] ] ] ] ]
+CS_TT:	je [ Možná snazší [ #Benef.BEN je [ snazší [ #Benef.BEN ] přepracovat [ #Cor.ACT <hru> [ 25letou [ jen 25letou ] ] ] ] ] přepracovat [ #Cor.ACT hru [ starou [ let [ 300 ] ] ] ] ]
+EN_TT:	be [ play [ 300-year-old ] easier [ #Benef.BEN revive [ #Gen.ACT #Cor.PAT ] <one> [ merely 25 ] ] ]
+INFO_RU:	RELPRON 
+INFO_CS:	ALIGN=ANTE_N
+INFO_EN:	ALIGN=ONE
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1936.streex##24.t-t_tree-ru-s24-n1852
+RU:	Театральная Компания Степпенвулф , после успеха , {который} имела их постановка " Гроздьев Гнева " Стейнбека у критиков и в театральных кассах , открыла новый сезон " Возвращением Домой " Гарольда Пинтера , впервые поставленного Королевской Компанией Шекспира в 1965 году .
+CS:	Divadelní společnost Steppenwolf , která se vrátila po londýnském úspěchu u kritiky i publika se svojí {adaptací} Steinbeckových " Hroznů hněvu " , zahájila novou sezónu hrou " The Homecoming ( Návrat domů ) " od Harolda Pintera , kterou poprvé uvedla Královská Shakespearovská společnost v roce 1965 .
+EN:	The Steppenwolf Theatre Company , back from a critical and box office success in London with its adaptation of Steinbeck 's `` The Grapes of Wrath , '' opened the new season with Harold Pinter 's `` The Homecoming , '' first produced by the Royal Shakespeare Company in 1965 .
+RU_TT:	открыла [ Компания [ Театральная Степпенвулф ] успеха [ имела [ <который> постановка [ их Гроздьев [ Гнева Стейнбека ] ] и [ критиков кассах [ театральных ] ] ] ] сезон [ новый ] Возвращением [ Домой Гарольда [ Пинтера ] поставленного [ впервые #PersPron.PAT Компанией [ Королевской Шекспира ] году [ 1965 ] ] ] ]
+CS_TT:	zahájila [ společnost [ Divadelní Steppenwolf vrátila [ která #Oblfm.DIR3 <úspěchu> [ londýnském i [ kritiky publika ] ] adaptací [ svojí Hroznů [ Steinbeckových hněvu ] ] ] ] sezónu [ novou ] hrou [ ( [ #Forn.ID [ The Homecoming ] Návrat [ domů ] ] Pintera [ Harolda ] uvedla [ kterou poprvé společnost [ Královská Shakespearovská ] roce [ 1965 ] ] ] ]
+EN_TT:	opened [ Company [ Steppenwolf Theatre #EmpVerb.RSTR [ back <success> [ and [ critical office [ box ] ] London ] adaptation [ its Grapes [ Steinbeck Wrath ] ] ] ] season [ new ] Homecoming [ Pinter [ Harold ] produced [ first #Cor.PAT Company [ Royal Shakespeare ] 1965 ] ] ]
+INFO_RU:	RELPRON 
+INFO_CS:	ALIGN=ANTE_N
+INFO_EN:	ALIGN=ANTE_N
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1937.streex##44.t-t_tree-ru-s44-n1770
+RU:	{Что} касается других связанных с землетрясением новостей , маркет - мейкеры Hambrecht&Quist OTC были вчера освобождены от торговли , а его позиции были заморожены в течение дня Национальной Ассоциацией дилеров по ценным бумагам .
+CS:	V dalších zprávách souvisejících se zemětřesením se makléři mimoburzovního trhu společnosti Hambrecht & Quist včera omluvili z obchodování a Národní sdružení obchodníků s cennými papíry jí na den zmrazila pozice trhu .
+EN:	In other earthquake-related news , Hambrecht & Quist 's OTC market makers were excused from trading yesterday and its positions were frozen for the day by the National Association of Securities Dealers .
+RU_TT:	а [ касается [ <Что> новостей [ других связанных [ землетрясением ] ] ] освобождены [ мейкеры [ маркет Hambrecht&Quist [ OTC ] ] вчера #Gen.ACT торговли ] заморожены [ позиции [ его ] дня Ассоциацией [ Национальной дилеров бумагам [ ценным ] ] ] ]
+CS_TT:	a [ omluvili [ zprávách [ dalších souvisejících [ zemětřesením ] ] se makléři [ trhu [ mimoburzovního společnosti [ #Forn.ID [ Hambrecht & Quist ] ] ] ] včera obchodování [ #Gen.PAT #Gen.ACT ] ] zmrazila [ sdružení [ Národní obchodníků [ papíry [ cennými ] ] ] jí den pozice [ trhu ] ] ]
+EN_TT:	and [ news [ other earthquake-related ] excused [ makers [ & [ Hambrecht Quist ] OTC market ] #Gen.ACT trading yesterday ] frozen [ positions [ its ] day Association [ National Dealers [ Securities ] ] ] ]
+INFO_RU:	AS	
+INFO_CS:	ALIGN=0	
+INFO_EN:	ALIGN=0
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1939.streex##8.t-t_tree-ru-s8-n1202
+RU:	В пятницу утром руководство республиканцев в сенате , {которому} было отказано в голосовании по вопросу , оказалось перед трудным выбором .
+CS:	Tím , že zabránili hlasování o obsahu , postavili v pátek ráno vedení Republikánské strany v Senátu před těžké dilema .
+EN:	Denied a vote on substance , the GOP leadership in the Senate on Friday morning was confronted with a hard choice .
+RU_TT:	оказалось [ пятницу утром руководство [ республиканцев сенате отказано [ <которому> #PersPron.ACT голосовании [ вопросу ] ] ] выбором [ трудным ] ]
+CS_TT:	postavili [ #PersPron.ACT zabránili [ #PersPron.ACT hlasování [ #Gen.ACT obsahu ] ] pátek [ ráno ] vedení [ #Gen.ACT strany [ Republikánské ] Senátu ] dilema [ těžké ] ]
+EN_TT:	confronted [ Denied [ #Gen.ACT #Cor.ADDR vote [ substance ] ] leadership [ GOP Senate ] morning [ Friday ] #Gen.ACT choice [ hard ] ]
+INFO_RU:	RELPRON  
+INFO_CS:	ALIGN=0	
+INFO_EN:	ALIGN=0
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1944.streex##17.t-t_tree-ru-s17-n1025
+RU:	Если считать те акции , {которые} он продал в прошлом феврале , всего в эом году г-н Шерри продал 88 % своей доли в компании , согласно документам Комиссии по ценным бумагам и биржам .
+CS:	Včetně prodeje akcií z loňského února prodal Sherry podle údajů SEC letos 88 % svého podílu ve společnosti .
+EN:	Including a sale of stock last February , Mr. Sherry has sold 88 % of his stake in the company this year , according to SEC filings .
+RU_TT:	продал [ считать [ #Gen.ACT акции [ те продал [ <которые> он феврале [ прошлом ] ] ] ] всего году [ эом ] г-н [ Шерри ] % [ 88 доли [ своей компании ] ] документам [ Комиссии [ и [ бумагам [ ценным ] биржам ] ] ] ]
+CS_TT:	prodal [ #Gen.ADDR prodeje [ <akcií> [ února [ loňského ] ] ] Sherry údajů [ SEC ] letos % [ 88 podílu [ svého společnosti ] ] ]
+EN_TT:	sold [ sale [ <stock> February [ last ] ] Sherry [ Mr. ] % [ 88 stake [ his company ] ] year [ this ] filings [ SEC ] ]
+INFO_RU:	RELPRON 	
+INFO_CS:	ALIGN=ANTE_N	
+INFO_EN:	ALIGN=ANTE_N
+
+ID: data/11.treex.pcedtr_gold_align_import.en/wsj_1947.streex##4.t-t_tree-ru-s4-n507
+RU:	Арабские государства , {которые} всегда негодовали на поддержку Израиля со стороны США , осознали , что у них есть непобедимое оружие – нефть .
+CS:	Arabské státy , vždy hořce rozmrzelé z americké podpory Izraele , zjistily , že mají zbraň , které se nedá ubránit - ropu .
+EN:	The Arab states , always bitterly resentful of U.S. support toward Israel , realized they held an irresistable weapon -- oil .
+RU_TT:	осознали [ государства [ Арабские негодовали [ <которые> всегда поддержку [ Израиля США ] ] ] есть [ них #Comma.APPS [ оружие [ непобедимое ] нефть ] ] ]
+CS_TT:	zjistily [ <státy> [ Arabské rozmrzelé [ vždy hořce podpory [ americké Izraele ] ] ] #Gen.PAT mají [ #PersPron.ACT - [ zbraň [ ubránit [ #Gen.ACT které #Neg.RHEM ] ] ropu ] ] ]
+EN_TT:	realized [ <states> [ Arab ] resentful [ always bitterly support [ U.S. Israel ] ] held [ they -- [ weapon [ irresistable ] oil ] ] ]
+INFO_RU:	RELPRON 
+INFO_CS:	ALIGN=ANTE_N
+INFO_EN:	ALIGN=ANTE_N
+
