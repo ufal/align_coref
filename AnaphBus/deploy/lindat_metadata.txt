@@ -1,0 +1,15 @@
+-Type: Corpus
+-Title: PAWS
+-Project URL: https://ufal.mff.cuni.cz/paws
+Referenced by: http://aclweb.org/anthology/W18-0708
+-Date issued: 2018-05-15
+-Authors: Nedoluzhko Anna, Novák Michal, Ogrodniczuk Maciej
+Publisher: Charles University, Faculty of Mathematics and Physics, Institute of Formal and Applied Linguistics (UFAL)
+Contact person: Michal Novák mnovak@ufal.mff.cuni.cz Charles University in Prague, UFAL
+Funding: Czech Science Foundation GA 16-05394S Structure of coreferential chains in parallel language data nationalFunds
+Description: PAWS is a multi-lingual parallel treebank with coreference annotation. It consists of English texts from the Wall Street Journal translated into Czech, Russian and Polish. In addition, the texts are syntactically parsed and word-aligned. PAWS is based on PCEDT 2.0 and continues the tradition of multilingual treebanks with coreference annotation. PAWS offers linguistic material that can be further leveraged in cross-lingual studies, especially on coreference.
+Language: English, Czech, Russian, Polish
+Subject keywords: multilingual, parallel corpus, coreference, tectogrammatics
+Size: 1078 sentences
+Media type: text
+Licence: CC-BY-NC-SA + LDC99T42
