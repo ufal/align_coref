@@ -1,0 +1,173 @@
+###################################################################################################################################
+######################################### THIS FILE IS NOT MENT TO BE PROCESSED AUTOMATICALLY #####################################
+####################### EVERY CHANGE MUST BE TRANSFERED TO ITS CORRESPONDING 05-12 ALI_ANNOT FILE MANUALLY  #######################
+###################################################################################################################################
+
+ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1912.streex##6.T-wsj1912-001-p1s5a29
+CS:	{Umoření} dluhu bude 1.5 % z celkové částky , v únoru 1991 se zvýší na 2.5 % a v následných šesti měsíčních intervalech na 3 % .
+EN:	The redemption then would be at 1.5 % of the total debt , increasing to 2.5 % in February 1991 , and to 3 % at six-month intervals thereafter .
+RU:	Затем {погашение} задолженности должно было составлять 1.5 % совокупного долга , увеличиться до 2.5 % в феврале 1991 года и до 3 % через 6 месяцев после .
+CS_TT:	a [ Umoření [ <#PersPron.ACT> dluhu ] bude [ % [ 1.5 částky [ celkové ] ] ] zvýší [ únoru [ 1991 ] % [ 2.5 ] ] zvýší [ intervalech [ následných měsíčních ] % [ 3 ] ] ]
+EN_TT:	be [ redemption then % [ 1.5 debt [ total ] ] increasing [ #Cor.ACT and [ % [ 2.5 February [ 1991 ] ] % [ 3 ] intervals [ six-month ] thereafter ] ] ]
+RU_TT:	и [ Затем должно [ погашение [ задолженности ] , [ #Cor.ACT составлять [ % [ 1.5 долга [ совокупного ] ] ] увеличиться [ % [ 2.5 ] феврале [ года [ 1991 ] ] ] #EmpVerb.PAT [ % [ 3 ] месяцев [ 6 ] ] ] ] ]
+INFO_CS:	PERSPRON_UNEXPR
+INFO_EN:	ALIGN=0  MISS_ARG Nni/ti->N
+INFO_RU:	ALIGN=0
+                                               CHCI VIDET STROM, NEVIM, PROC quake MA VUBEC NEJAKOU VALENCI
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1916.streex##23.EnglishT-wsj_1916-s23a1
+EN:	Caltrans reinforced the highway in 1977 as part of a $ 55 million statewide project , using steel cables to tie the decks of the freeway to the columns and prevent the structure from {swaying} in a quake .
+CS:	Caltrans tuto silnici vyztužil v roce 1977 jakožto část 55milionového celostátního projektu , přičemž k připevnění pater dálnice k sloupům a prevenci toho , aby se při zemětřesení {stavba} nenaklonila , použil ocelová lana .
+RU:	Калтрэнс укрепил шоссе в рамках $ 55 млн . проекта штата в 1977 году , используя стальные канаты , чтобы соединить уровни шоссе со столбами и не дать всей конструкции колебаться при землетрясении .
+EN_TT:	reinforced [ Caltrans highway 1977 part [ project [ $ [ million [ 55 ] ] statewide ] ] using [ #Cor.ACT cables [ steel ] and [ #Cor.ACT tie [ decks [ freeway ] columns ] prevent [ structure swaying [ <#Cor.ACT> quake ] ] ] ] ]
+CS_TT:	přičemž [ Caltrans vyztužil [ silnici [ tuto ] roce [ 1977 ] část [ projektu [ 55milionového [ 55milionového ] celostátního ] ] ] použil [ a [ připevnění [ #PersPron.ACT pater [ dálnice ] sloupům ] prevenci [ nenaklonila [ #Neg.RHEM zemětřesení <stavba> ] ] ] lana [ ocelová ] ] ]
+RU_TT:	укрепил [ Калтрэнс шоссе рамках [ проекта [ млн [ $ 55 ] штата ] ] году [ 1977 ] используя [ #PersPron.ACT канаты [ стальные ] и [ соединить [ уровни [ шоссе ] столбами ] #Cor.ACT не дать [ колебаться [ <конструкции> [ всей ] землетрясении ] ] ] ] ]
+INFO_EN:	TYPE=en_cor
+INFO_CS:	ANTE
+INFO_RU:	ALIGN=ANTE
+
+ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1916.streex##15.T-wsj1916-001-p1s14a20
+CS:	Ohledně bezpečnosti však tvrdí , že dvoupatrové dálnice postavené dnes ze silně vyztuženého betonu a silnějších sloupů , {které} se po zemětřesení v okrese Sylmar vyžadují , by měly odolat katastrofálnímu zemětřesení o síle 7.5 až 8 stupňů Richterovy škály .
+EN:	But as for safety , he says double-deck freeways built today with the heavily reinforced concrete and thicker columns {required} after the Sylmar quake should withstand a calamitous temblor of 7.5 to 8 on the Richter scale .
+RU:	Но , если говорить о безопасности , он говорит , что двухуровневые шоссе , построенные сегодня , из сильно армированного бетона и с более толстыми столбами , в соответствии с требованиями , введенными после землетрясения Силмар , должны выдержать разрушительное землетрясение между 7.5 и 8 по шкале Рихтера .
+CS_TT:	tvrdí [ #PersPron.ACT bezpečnosti však odolat [ dálnice [ dvoupatrové postavené [ dnes a [ betonu [ vyztuženého [ silně ] ] sloupů [ silnějších vyžadují [ #Gen.ACT <které> zemětřesení [ okrese [ Sylmar ] ] ] ] ] ] ] zemětřesení [ katastrofálnímu síle [ stupňů [ až [ 7.5 8 ] škály [ Richterovy ] ] ] ] ] ]
+EN_TT:	says [ But safety he #Gen.ADDR withstand [ freeways [ double-deck built [ #Gen.ACT #Cor.PAT today and [ concrete [ reinforced [ heavily #Gen.ACT #Cor.PAT ] ] columns [ thicker ] required [ #Gen.ACT <#Cor.PAT> quake [ Sylmar ] ] ] ] ] temblor [ calamitous to [ 7.5 8 ] scale [ Richter ] ] ] ]
+RU_TT:	говорит [ Но говорить [ #Gen.ACT безопасности ] он должны [ шоссе [ двухуровневые построенные [ #Cor.PAT сегодня ] и [ бетона [ армированного [ сильно ] ] столбами [ толстыми [ более ] ] требованиями [ введенными [ #Cor.PAT землетрясения [ Силмар ] ] ] ] ] выдержать [ #Cor.ACT землетрясение [ разрушительное и [ 7.5 8 шкале [ Рихтера ] ] ] ] ] ]
+INFO_CS:	RELPRON 
+INFO_EN:	ALIGN=#Cor	ED
+INFO_RU:	ALIGN=0
+
+ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1923.streex##5.T-wsj1923-001-p1s4a26
+CS:	Po zmatku kolem změny složení koly v roce 1985 se společnost Coca - Cola zdráhala dělat nepořádek v názvu Classic dalším {rozšiřováním} značky .
+EN:	After the confusion surrounding the change of the Coke formula in 1985 , Coca-Cola was reluctant to clutter the Classic name with a brand extension .
+RU:	Поскольку изменение слогана Кока-колы в 1985 году вызвало путаницу , Кока-кола не хотела добавлять к названию Классическая какое-либо расширение .
+CS_TT:	zdráhala [ zmatku [ změny [ složení [ koly ] ] roce [ 1985 ] ] společnost [ #Forn.ID [ Coca - Cola ] ] dělat [ #Cor.ACT nepořádek názvu [ Classic ] rozšiřováním [ <#PersPron.ACT> dalším značky ] ] ]
+EN_TT:	was [ confusion [ surrounding [ #Cor.ACT change [ formula [ Coke ] ] ] 1985 ] Coca-Cola reluctant [ #Cor.ACT clutter [ #Cor.ACT name [ Classic ] extension [ brand ] ] ] ]
+RU_TT:	хотела [ вызвало [ изменение [ слогана [ Кока-колы ] ] году [ 1985 ] путаницу ] Кока-кола не добавлять [ <#Cor.ACT> названию [ Классическая ] расширение [ какое-либо ] ] ]
+INFO_CS:	PERSPRON_UNEXPR
+INFO_EN:	ALIGN=0 MISS_ARG Nni/ti->N
+INFO_RU:	ALIGN=#Cor
+
+ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1923.streex##5.T-wsj1923-001-p1s4a25
+CS:	Po zmatku kolem změny složení koly v roce 1985 se společnost Coca - Cola zdráhala {dělat} nepořádek v názvu Classic dalším rozšiřováním značky .
+EN:	After the confusion surrounding the change of the Coke formula in 1985 , Coca-Cola was reluctant to {clutter} the Classic name with a brand extension .
+RU:	Поскольку изменение слогана Кока-колы в 1985 году вызвало путаницу , {Кока-кола} не хотела добавлять к названию Классическая какое-либо расширение .
+CS_TT:	zdráhala [ zmatku [ změny [ složení [ koly ] ] roce [ 1985 ] ] společnost [ #Forn.ID [ Coca - Cola ] ] dělat [ <#Cor.ACT> nepořádek názvu [ Classic ] rozšiřováním [ #PersPron.ACT dalším značky ] ] ]
+EN_TT:	was [ confusion [ surrounding [ #Cor.ACT change [ formula [ Coke ] ] ] 1985 ] Coca-Cola reluctant [ #Cor.ACT clutter [ <#Cor.ACT> name [ Classic ] extension [ brand ] ] ] ]
+RU_TT:	хотела [ вызвало [ изменение [ слогана [ Кока-колы ] ] году [ 1985 ] путаницу ] <Кока-кола> не добавлять [ #Cor.ACT названию [ Классическая ] расширение [ какое-либо ] ] ]
+INFO_CS:	ALIGN=#Cor
+INFO_EN:	ALIGN=#Cor
+INFO_RU:	ALIGN=ANTE
+
+ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1930.streex##29.T-wsj1930-001-p1s28a13
+CS:	Společnost Whitbread z Británie dala na prodej svoji divizi lihovin , {čímž} rozpoutala boj mezi lihovary .
+EN:	Whitbread of Britain {put} its spirits division up for sale , setting off a scramble among distillers .
+RU:	Британская Whitbread выставила на продажу свой отдел алкоголя , {спровоцировав} драку между виноделами .
+CS_TT:	, [ Společnost [ Whitbread Británie ] dala [ #Gen.ADDR prodej divizi [ svoji lihovin ] ] rozpoutala [ <čímž> boj [ lihovary ] ] ]
+EN_TT:	<put> [ Whitbread [ Britain ] division [ its spirits ] sale setting [ #Cor.ACT scramble [ distillers ] ] ]
+RU_TT:	<выставила> [ Whitbread [ Британская ] продажу отдел [ свой алкоголя ] спровоцировав [ #PersPron.ACT драку [ виноделами ] ] ]
+INFO_CS:	RELPRON
+INFO_EN:	ALIGN=ANTE_V	COMPL
+INFO_RU:	ALIGN=ANTE
+
+ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1935.streex##8.T-wsj1935-001-p1s7a36
+CS:	Je nehumánní naznačovat , že chudá , nezaměstnaná žena nedostane pro svoji rodinu okamžitou pomoc za rozumné ceny proto , že toho nemusí {platit} tolik , co bohatá rodina .
+EN:	It is inhumane to imply that a poor , unemployed woman can not receive immediate relief for her family at fair prices because {she} does not have as much to protect as a rich family .
+RU:	Бесчеловечно считать , что малоимущая безработная женщина не может получить непосредственную помощь для своей семьи по разумной цене , потому что она должна оберегать меньше , чем богатая семья .
+CS_TT:	Je [ nehumánní [ #Benef.BEN ] naznačovat [ #Gen.ADDR #Cor.ACT nedostane [ #Neg.RHEM žena [ , [ chudá nezaměstnaná ] ] rodinu [ svoji ] pomoc [ okamžitou ceny [ rozumné ] ] platit [ #PersPron.ACT toho [ tolik [ platit [ <#PersPron.PAT> rodina [ bohatá ] ] ] ] #Neg.RHEM ] ] ] ]
+EN_TT:	is [ inhumane imply [ #Gen.ACT receive [ woman [ poor unemployed ] not relief [ immediate family [ her ] ] prices [ fair ] have [ she not much [ as ] protect [ #Cor.ACT <#Cor.PAT> ] family [ rich ] ] ] ] ]
+RU_TT:	#EmpVerb.PRED [ Бесчеловечно считать [ не может [ женщина [ малоимущая безработная ] получить [ #Cor.ACT помощь [ непосредственную семьи [ своей ] ] цене [ разумной ] ] должна [ она оберегать [ #Cor.ACT меньше [ семья [ богатая ] ] ] ] ] ] ]
+INFO_CS:	PERSPRON_UNEXPR
+INFO_EN:	ALIGN=#Cor
+INFO_RU:	ALIGN=0 NoTectAnot
+TODO: en:protect_PAT <> ru:oberegat_ACT
+TODO: en:have_ACT <> ru:oberegat_ACT == ru:dolzen_ACT 
+
+#ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1935.streex##8.EnglishT-wsj_1935-s8a1
+#EN:	It is inhumane to imply that a poor , unemployed woman can not receive immediate relief for her family at fair prices because she does not have as much to {protect} as a rich family .
+#CS:	Je nehumánní naznačovat , že chudá , nezaměstnaná žena nedostane pro svoji rodinu okamžitou pomoc za rozumné ceny proto , že toho nemusí platit tolik , co bohatá rodina .
+#RU:	Бесчеловечно считать , что малоимущая безработная женщина не может получить непосредственную помощь для своей семьи по разумной цене , потому что она должна оберегать меньше , чем богатая семья .
+#EN_TT:	is [ inhumane imply [ #Gen.ACT receive [ woman [ poor unemployed ] not relief [ immediate family [ her ] ] prices [ fair ] have [ she not much [ as ] protect [ #Cor.ACT <#Cor.PAT> ] family [ rich ] ] ] ] ]
+#CS_TT:	Je [ nehumánní [ #Benef.BEN ] naznačovat [ #Gen.ADDR #Cor.ACT nedostane [ #Neg.RHEM žena [ , [ chudá nezaměstnaná ] ] rodinu [ svoji ] pomoc [ okamžitou ceny [ rozumné ] ] platit [ #PersPron.ACT toho [ tolik [ platit [ #PersPron.PAT rodina [ bohatá ] ] ] ] #Neg.RHEM ] ] ] ]
+#RU_TT:	#EmpVerb.PRED [ Бесчеловечно считать [ не может [ женщина [ малоимущая безработная ] получить [ #Cor.ACT помощь [ непосредственную семьи [ своей ] ] цене [ разумной ] ] должна [ она оберегать [ <#Cor.ACT> меньше [ семья [ богатая ] ] ] ] ] ] ]
+#INFO_EN:	TYPE=en_cor
+#INFO_CS:	0 REWORD
+#INFO_RU:	ALIGN=#Cor
+
+ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1937.streex##1.T-wsj1937-001-p1s0a25
+CS:	Obléhaný mimoburzovní trh Nasdaq se konečně vzchopil a při vydatném obchodování prudce stoupl poté , co {přestál} tři dny silného prodávání .
+EN:	After {enduring} three days of heavy selling , the beleaguered Nasdaq over-the-counter market finally rebounded , rising sharply in hearty trading .
+RU:	После того , как в течение трех дней внебиржевой рынок блокированной NASDAQ переживал интенсивные продажи , он наконец снова подорожал , резко поднявшись после плодотворной торговли .
+CS_TT:	a [ trh [ Obléhaný mimoburzovní Nasdaq ] vzchopil [ konečně ] stoupl [ obchodování [ #Gen.PAT #Gen.ACT vydatném ] prudce přestál [ <#PersPron.ACT> dny [ tři prodávání [ #Gen.ADDR #Gen.ACT silného #Gen.PAT ] ] ] ] ]
+EN_TT:	rebounded [ enduring [ <#PersPron.ACT> days [ three selling [ heavy ] ] ] market [ beleaguered Nasdaq over-the-counter ] finally rising [ #Cor.ACT sharply trading [ hearty ] ] ]
+RU_TT:	подорожал [ того [ переживал [ дней [ трех ] <рынок> [ внебиржевой NASDAQ [ блокированной ] ] продажи [ интенсивные ] ] ] он наконец снова поднявшись [ резко #PersPron.ACT торговли [ плодотворной ] ] ]
+INFO_CS:	PERSPRON_UNEXPR 
+INFO_EN:	PERSPRON_UNEXPR 
+INFO_RU:	ALIGN=ANTE
+TODO: pridat coref ru:podimatsja_ACT -> ru:rynok 
+
+ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1939.streex##17.T-wsj1939-001-p1s16a22
+CS:	Burza reagovala stejně jako Rahn a při {obdržení} zprávy , že Darmanova strategie byla opuštěna , se zhroutila .
+EN:	The stock market reacted as Mr. Rahn did , crumbling as {it} absorbed the news that Mr. Darman 's strategy had been abandoned .
+RU:	Фондовый рынок отреагировал так же , как и г-н Ран , падая по мере распространения новости о том , что от стратегии г-на Дармана отказались .
+CS_TT:	a [ Burza reagovala [ #PersPron.PAT stejně [ reagovala [ #PersPron.PAT Rahn ] ] ] zhroutila [ obdržení [ <#PersPron.ACT> zprávy [ opuštěna [ #PersPron.ACT strategie [ Darmanova ] ] ] ] ] ]
+EN_TT:	reacted [ market [ stock ] #Gen.PAT #Equal.MANN [ #VerbPron.CPR [ Rahn [ Mr. ] ] ] crumbling [ #Cor.ACT absorbed [ <it> news [ abandoned [ strategy [ Darman [ Mr. ] ] #Gen.ACT ] ] ] ] ]
+RU_TT:	отреагировал [ {рынок} [ Фондовый ] так [ же и г-н [ Ран ] ] падая [ <#PersPron.ACT> распространения [ новости том [ отказались [ стратегии [ г-на [ Дармана ] ] #PersPron.ACT ] ] ] ] ]
+INFO_CS:	PERSPRON_UNEXPR 
+INFO_EN:	PERSPRON
+INFO_RU:	ANTE
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1939.streex##9.EnglishT-wsj_1939-s9-t1
+EN:	{It} could throw in the towel and hope to win on capital gains late this month , or it could follow the White House strategy , to veto reconciliation unless capital gains was appended .
+CS:	Mohli by {to} vzdát a doufat , že s kapitálovými zisky uspějí na konci měsíce , nebo by mohli zaujmout strategií Bílého domu a vetovat schválení , dokud se kapitálové zisky nepřidají .
+RU:	{Оно} могло либо капитулировать в надежде выиграть на приросте капитала в конце месяца , либо последовать стратегии Белого Дома и не идти на соглашение до тех пор , пока не будет принято сокращение налога на прирост капитала .
+EN_TT:	or [ and [ <It> throw [ towel ] hope [ win [ #Cor.ACT #Gen.PAT gains [ capital ] month [ late this ] ] ] ] follow [ it strategy [ House [ White ] veto [ #Cor.ACT reconciliation appended [ gains [ capital ] #Gen.ACT #Cor.EFF ] ] ] ] ]
+CS_TT:	nebo [ a [ vzdát [ to ] doufat [ uspějí [ zisky [ kapitálovými ] #PersPron.ACT konci [ měsíce ] ] ] ] <#PersPron.ACT> a [ zaujmout [ #Gen.PAT strategií [ domu [ Bílého ] ] ] vetovat [ schválení [ #PersPron.PAT #Gen.ACT ] nepřidají [ #Neg.RHEM #Oblfm.DIR3 zisky [ kapitálové ] #Gen.ACT ] ] ] ]
+RU_TT:	либо [ <Оно> либо капитулировать [ надежде [ выиграть [ #Cor.ACT приросте [ капитала конце [ месяца ] ] ] ] ] и [ последовать [ стратегии [ Дома [ Белого ] ] ] не идти [ соглашение пор [ тех не принято [ сокращение [ налога [ прирост [ капитала ] ] ] ] ] ] ] ]
+INFO_EN:	TYPE=en_perspron
+INFO_CS:	OK 
+INFO_RU:	PERSPRON 
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1940.streex##5.EnglishT-wsj_1940-s5a5
+EN:	In return , Mr. Craig agreed to cooperate in the government 's {continuing} payola probe , says a spokeswoman for the U.S. attorney 's office .
+CS:	Na oplátku souhlasil Craig s tím , že bude spolupracovat v probíhajícím vládním zkoumání korupce , řekla mluvčí federálního zastupitelství .
+RU:	В ответ г-н Крейг согласился участвовать в продолжающемся правительственном расследовании о пайолах , говорит член офиса представителя США .
+EN_TT:	says [ agreed [ return Craig [ Mr. ] cooperate [ #Cor.ACT #Gen.ADDR probe [ government continuing [ <#Cor.ACT> ] payola ] ] ] #Gen.ADDR spokeswoman [ office [ attorney [ U.S. ] ] ] ]
+CS_TT:	řekla [ #Gen.ADDR souhlasil [ oplátku Craig spolupracovat [ #Gen.ADDR #PersPron.ACT zkoumání [ probíhajícím vládním korupce ] ] ] mluvčí [ zastupitelství [ federálního ] ] ]
+RU_TT:	говорит [ согласился [ ответ г-н [ Крейг ] участвовать [ #PersPron.ACT <расследовании> [ продолжающемся правительственном пайолах ] ] ] член [ офиса [ представителя [ США ] ] ] ]
+INFO_EN:	TYPE=en_cor
+INFO_CS:	0 MISS_ARG	V_ING->A_ACT
+INFO_RU:	ANTE
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1943.streex##2.EnglishT-wsj_1943-s2-t20_coract
+EN:	Proceeds from the bonds , with coupon rates in the 8 % range , will be used to {replace} bonds with an average interest rate of 13.1 % .
+CS:	Výtěžky z dluhopisů , které mají úrokovou sazbu okolo 8 % , budou použity na náhradu dluhopisů s průměrným úrokem 13.1 % .
+RU:	Доход от этих облигаций , с купонными ставками в диапазоне 8 % , будет использован , чтобы заменить облигации со средней процентной ставкой 13.1 % .
+EN_TT:	used [ Proceeds [ bonds [ rates [ coupon range [ % [ 8 ] ] ] ] ] #Gen.ACT replace [ <#Cor.ACT> bonds [ rate [ average interest % [ 13.1 ] ] ] ] ]
+CS_TT:	použity [ #PersPron.ACT Výtěžky [ dluhopisů [ mají [ které sazbu [ úrokovou % [ 8 ] ] ] ] ] náhradu [ dluhopisů [ úrokem [ průměrným % [ 13.1 ] ] ] ] ]
+RU_TT:	использован [ <Доход> [ облигаций [ этих ] ставками [ купонными диапазоне [ % [ 8 ] ] ] ] #Gen.ACT заменить [ облигации [ ставкой [ средней процентной % [ 13.1 ] ] ] ] ]
+INFO_EN:	TYPE=en_cor
+INFO_CS:	0 MISS_ARG	V_TO->N
+INFO_RU:	ANTE
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1948.streex##2.EnglishT-wsj_1948-s2a4
+EN:	At Bear Stearns Cos. , for example , the 15 executive officers led by Chairman Alan `` Ace '' Greenberg got a pay increase to $ 35.9 million for the 14-month period {ended} June 30 from $ 22.9 million for the 12 months ended April 30 , 1988 .
+CS:	Například u společnosti Bear Stearns Cos . dostalo 15 výkonných ředitelů vedených předsedou Alanem " Acem " Greenbergem platy zvýšené z 22.9 milionu dolarů za 12 měsíců končících 30 . dubna 1988 na 35.9 milionu dolarů za 14měsíční období končící 30 . června .
+RU:	В Bear Stearns Cos . , например , 15ти менеджерам , во главе с председателем Аланом Гринбергом по прозвищу Эйс , подняли зарплату до $ 35.9 млн . за 14-месячный период , истекший 30 июня , с $ 22.9 млн . за 12 месяцев , по 30 апреля 1988 года .
+EN_TT:	got [ example Cos. [ Stearns [ Bear ] ] officers [ 15 executive led [ #Cor.PAT Greenberg [ Chairman Alan Ace ] ] ] increase [ pay $ [ million [ 35.9 ] period [ 14-month ended [ <#Cor.PAT> June [ 30 ] ] ] ] $ [ million [ 22.9 ] months [ 12 ended [ #Cor.PAT April [ 30 1988 ] ] ] ] ] ]
+CS_TT:	dostalo [ Například společnosti [ #Forn.ID [ Bear Stearns Cos . ] ] ředitelů [ 15 výkonných vedených [ Greenbergem [ předsedou Alanem Acem ] ] ] platy [ zvýšené [ milionu [ 22.9 dolarů měsíců [ 12 končících [ dubna [ 30 1988 ] ] ] ] milionu [ 35.9 dolarů období [ 14měsíční [ 14měsíční ] končící [ června [ 30 ] ] ] ] ] ] ]
+RU_TT:	подняли [ #Forn.LOC [ Bear Stearns Cos ] например менеджерам [ 15ти главе [ Гринбергом [ председателем Аланом прозвищу [ Эйс ] ] ] ] #Gen.ACT зарплату $ [ млн [ 35.9 ] <период> [ 14-месячный истекший [ <#PersPron.ACT> июня [ 30 ] ] ] ] $ [ млн [ 22.9 ] месяцев [ 12 ] апреля [ 30 года [ 1988 ] ] ] ]
+INFO_EN:	TYPE=en_cor
+INFO_CS:	0 MISS_ARG	V_ED->A_ACT
+INFO_RU:	PERSPRON_UNEXPR
+
+ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1948.streex##2.EnglishT-wsj_1948-s2a5
+EN:	At Bear Stearns Cos. , for example , the 15 executive officers led by Chairman Alan `` Ace '' Greenberg got a pay increase to $ 35.9 million for the 14-month period ended June 30 from $ 22.9 million for the 12 months {ended} April 30 , 1988 .
+CS:	Například u společnosti Bear Stearns Cos . dostalo 15 výkonných ředitelů vedených předsedou Alanem " Acem " Greenbergem platy zvýšené z 22.9 milionu dolarů za 12 měsíců končících 30 . dubna 1988 na 35.9 milionu dolarů za 14měsíční období končící 30 . června .
+RU:	В Bear Stearns Cos . , например , 15ти менеджерам , во главе с председателем Аланом Гринбергом по прозвищу Эйс , подняли зарплату до $ 35.9 млн . за 14-месячный период , истекший 30 июня , с $ 22.9 млн . за 12 месяцев , по 30 апреля 1988 года .
+EN_TT:	got [ example Cos. [ Stearns [ Bear ] ] officers [ 15 executive led [ #Cor.PAT Greenberg [ Chairman Alan Ace ] ] ] increase [ pay $ [ million [ 35.9 ] period [ 14-month ended [ #Cor.PAT June [ 30 ] ] ] ] $ [ million [ 22.9 ] months [ 12 ended [ <#Cor.PAT> April [ 30 1988 ] ] ] ] ] ]
+CS_TT:	dostalo [ Například společnosti [ #Forn.ID [ Bear Stearns Cos . ] ] ředitelů [ 15 výkonných vedených [ Greenbergem [ předsedou Alanem Acem ] ] ] platy [ zvýšené [ milionu [ 22.9 dolarů měsíců [ 12 končících [ dubna [ 30 1988 ] ] ] ] milionu [ 35.9 dolarů období [ 14měsíční [ 14měsíční ] končící [ června [ 30 ] ] ] ] ] ] ]
+RU_TT:	подняли [ #Forn.LOC [ Bear Stearns Cos ] например менеджерам [ 15ти главе [ Гринбергом [ председателем Аланом прозвищу [ Эйс ] ] ] ] #Gen.ACT зарплату $ [ млн [ 35.9 ] период [ 14-месячный истекший [ #PersPron.ACT июня [ 30 ] ] ] ] $ [ млн [ 22.9 ] месяцев [ 12 ] апреля [ 30 года [ 1988 ] ] ] ]
+INFO_EN:	TYPE=en_cor
+INFO_CS:	0 MISS_ARG	V_ED->A_ACT
+INFO_RU:	ALIGN=0
+
