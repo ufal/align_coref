@@ -1,5 +1,7 @@
 /summaries
 /summaries.orig
 /data
+/tmp
 /en.*.summary.*.txt.gz
 /cs.*.summary.*.txt.gz
+*.log
