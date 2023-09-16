@@ -11,7 +11,7 @@ id=${4:-noid}
 max_tokens=${5:-0}
 
 # set $lpaircomma, $l1 and $l2
-parse_lpair $lpair
+parse_lpair_spair $lpair
 
 run_dir=$RUN_DIR/for_giza.$id.files
 
@@ -25,5 +25,5 @@ outre="$run_dir/"'$1.txt'
 
 run_treex \
     Read::Treex from=$inpath skip_finished="{$inre}{$outre}" \
-    Write::LemmatizedBitexts path=$run_dir extension=.txt selector=align language=$l1 to_language=$l2 to_selector=align max_tokens=$max_tokens && \
+    Write::LemmatizedBitexts path=$run_dir extension=.txt selector=$aligns1 language=$l1 to_language=$l2 to_selector=$aligns2 max_tokens=$max_tokens && \
 find $run_dir -name '*.txt' | sort | xargs cat | gzip -c > $outfile

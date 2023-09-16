@@ -1247,7 +1247,7 @@ EN:	{It} could throw in the towel and hope to win on capital gains late this mon
 CS:	Mohli by {to} vzdát a doufat , že s kapitálovými zisky uspějí na konci měsíce , nebo by mohli zaujmout strategií Bílého domu a vetovat schválení , dokud se kapitálové zisky nepřidají .
 RU:	{Оно} могло либо капитулировать в надежде выиграть на приросте капитала в конце месяца , либо последовать стратегии Белого Дома и не идти на соглашение до тех пор , пока не будет принято сокращение налога на прирост капитала .
 EN_TT:	or [ and [ <It> throw [ towel ] hope [ win [ #Cor.ACT #Gen.PAT gains [ capital ] month [ late this ] ] ] ] follow [ it strategy [ House [ White ] veto [ #Cor.ACT reconciliation appended [ gains [ capital ] #Gen.ACT #Cor.EFF ] ] ] ] ]
-CS_TT:	nebo [ a [ vzdát [ <to> ] doufat [ uspějí [ zisky [ kapitálovými ] #PersPron.ACT konci [ měsíce ] ] ] ] #PersPron.ACT a [ zaujmout [ #Gen.PAT strategií [ domu [ Bílého ] ] ] vetovat [ schválení [ #PersPron.PAT #Gen.ACT ] nepřidají [ #Neg.RHEM #Oblfm.DIR3 zisky [ kapitálové ] #Gen.ACT ] ] ] ]
+CS_TT:	nebo [ a [ vzdát [ to ] doufat [ uspějí [ zisky [ kapitálovými ] #PersPron.ACT konci [ měsíce ] ] ] ] <#PersPron.ACT> a [ zaujmout [ #Gen.PAT strategií [ domu [ Bílého ] ] ] vetovat [ schválení [ #PersPron.PAT #Gen.ACT ] nepřidají [ #Neg.RHEM #Oblfm.DIR3 zisky [ kapitálové ] #Gen.ACT ] ] ] ]
 RU_TT:	либо [ <Оно> либо капитулировать [ надежде [ выиграть [ #Cor.ACT приросте [ капитала конце [ месяца ] ] ] ] ] и [ последовать [ стратегии [ Дома [ Белого ] ] ] не идти [ соглашение пор [ тех не принято [ сокращение [ налога [ прирост [ капитала ] ] ] ] ] ] ] ]
 INFO_EN:	TYPE=en_perspron
 INFO_CS:	OK
@@ -2766,10 +2766,10 @@ CS:	Caltrans tuto silnici vyztužil v roce 1977 jakožto část 55milionového c
 RU:	Калтрэнс укрепил шоссе в рамках $ 55 млн . проекта штата в 1977 году , используя стальные канаты , чтобы соединить уровни шоссе со столбами и не дать всей конструкции колебаться при землетрясении .
 EN_TT:	reinforced [ Caltrans highway 1977 part [ project [ $ [ million [ 55 ] ] statewide ] ] using [ #Cor.ACT cables [ steel ] and [ #Cor.ACT tie [ decks [ freeway ] columns ] prevent [ structure swaying [ <#Cor.ACT> quake ] ] ] ] ]
 CS_TT:	přičemž [ Caltrans vyztužil [ silnici [ tuto ] roce [ 1977 ] část [ projektu [ 55milionového [ 55milionového ] celostátního ] ] ] použil [ a [ připevnění [ #PersPron.ACT pater [ dálnice ] sloupům ] prevenci [ nenaklonila [ #Neg.RHEM zemětřesení <stavba> ] ] ] lana [ ocelová ] ] ]
-RU_TT:	укрепил [ Калтрэнс шоссе рамках [ проекта [ млн [ $ 55 ] штата ] ] году [ 1977 ] используя [ #PersPron.ACT канаты [ стальные ] и [ соединить [ уровни [ шоссе ] столбами ] <#Cor.ACT> не дать [ колебаться [ конструкции [ всей ] землетрясении ] ] ] ] ]
+RU_TT:	укрепил [ Калтрэнс шоссе рамках [ проекта [ млн [ $ 55 ] штата ] ] году [ 1977 ] используя [ #PersPron.ACT канаты [ стальные ] и [ соединить [ уровни [ шоссе ] столбами ] #Cor.ACT не дать [ колебаться [ <конструкции> [ всей ] землетрясении ] ] ] ] ]
 INFO_EN:	TYPE=en_cor
 INFO_CS:	ANTE
-INFO_RU:	ALIGN=#Cor
+INFO_RU:	ALIGN=ANTE
 
 ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1916.streex##25.EnglishT-wsj_1916-s25-t20_coract
 EN:	Liability in the bridge and road collapses will revolve around whether government took `` reasonable care '' to build {and} maintain the structures , says John Messina , a Tacoma , Wash. , personal-injury attorney who specializes in highway design and maintenance cases .
@@ -4102,17 +4102,6 @@ INFO_EN:	TYPE=en_cor
 INFO_CS:	0 REWORD
 INFO_RU:	ALIGN=#Cor
 
-ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1935.streex##8.EnglishT-wsj_1935-s8a1
-EN:	It is inhumane to imply that a poor , unemployed woman can not receive immediate relief for her family at fair prices because she does not have as much to {protect} as a rich family .
-CS:	Je nehumánní naznačovat , že chudá , nezaměstnaná žena nedostane pro svoji rodinu okamžitou pomoc za rozumné ceny proto , že toho nemusí platit tolik , co bohatá rodina .
-RU:	Бесчеловечно считать , что малоимущая безработная женщина не может получить непосредственную помощь для своей семьи по разумной цене , потому что она должна оберегать меньше , чем богатая семья .
-EN_TT:	is [ inhumane imply [ #Gen.ACT receive [ woman [ poor unemployed ] not relief [ immediate family [ her ] ] prices [ fair ] have [ she not much [ as ] protect [ #Cor.ACT <#Cor.PAT> ] family [ rich ] ] ] ] ]
-CS_TT:	Je [ nehumánní [ #Benef.BEN ] naznačovat [ #Gen.ADDR #Cor.ACT nedostane [ #Neg.RHEM žena [ , [ chudá nezaměstnaná ] ] rodinu [ svoji ] pomoc [ okamžitou ceny [ rozumné ] ] platit [ #PersPron.ACT toho [ tolik [ platit [ #PersPron.PAT rodina [ bohatá ] ] ] ] #Neg.RHEM ] ] ] ]
-RU_TT:	#EmpVerb.PRED [ Бесчеловечно считать [ не может [ женщина [ малоимущая безработная ] получить [ #Cor.ACT помощь [ непосредственную семьи [ своей ] ] цене [ разумной ] ] должна [ она оберегать [ <#Cor.ACT> меньше [ семья [ богатая ] ] ] ] ] ] ]
-INFO_EN:	TYPE=en_cor
-INFO_CS:	0 REWORD
-INFO_RU:	ALIGN=#Cor
-
 ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1935.streex##10.EnglishT-wsj_1935-s10a1
 EN:	Such spillover effects give the state a {right} to intervene in the marketplace and temporarily coordinate allocation of resources .
 CS:	Takové vedlejší účinky státu dávají právo zasahovat do komerční sféry a přechodně koordinovat rozdělování zdrojů .
@@ -4768,10 +4757,10 @@ CS:	Na oplátku souhlasil Craig s tím , že bude spolupracovat v probíhající
 RU:	В ответ г-н Крейг согласился участвовать в продолжающемся правительственном расследовании о пайолах , говорит член офиса представителя США .
 EN_TT:	says [ agreed [ return Craig [ Mr. ] cooperate [ #Cor.ACT #Gen.ADDR probe [ government continuing [ <#Cor.ACT> ] payola ] ] ] #Gen.ADDR spokeswoman [ office [ attorney [ U.S. ] ] ] ]
 CS_TT:	řekla [ #Gen.ADDR souhlasil [ oplátku Craig spolupracovat [ #Gen.ADDR #PersPron.ACT zkoumání [ probíhajícím vládním korupce ] ] ] mluvčí [ zastupitelství [ federálního ] ] ]
-RU_TT:	говорит [ согласился [ ответ г-н [ Крейг ] участвовать [ <#PersPron.ACT> расследовании [ продолжающемся правительственном пайолах ] ] ] член [ офиса [ представителя [ США ] ] ] ]
+RU_TT:	говорит [ согласился [ ответ г-н [ Крейг ] участвовать [ #PersPron.ACT <расследовании> [ продолжающемся правительственном пайолах ] ] ] член [ офиса [ представителя [ США ] ] ] ]
 INFO_EN:	TYPE=en_cor
 INFO_CS:	0 MISS_ARG	V_ING->A_ACT
-INFO_RU:	PERSPRON_UNEXPR 
+INFO_RU:	ALIGN=ANTE
 
 ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1941.streex##1.EnglishT-wsj_1941-s1a5
 EN:	Companies {listed} below reported quarterly profit substantially different from the average of analysts ' estimates .
@@ -4801,10 +4790,10 @@ CS:	Výtěžky z dluhopisů , které mají úrokovou sazbu okolo 8 % , budou pou
 RU:	Доход от этих облигаций , с купонными ставками в диапазоне 8 % , будет использован , чтобы заменить облигации со средней процентной ставкой 13.1 % .
 EN_TT:	used [ Proceeds [ bonds [ rates [ coupon range [ % [ 8 ] ] ] ] ] #Gen.ACT replace [ <#Cor.ACT> bonds [ rate [ average interest % [ 13.1 ] ] ] ] ]
 CS_TT:	použity [ #PersPron.ACT Výtěžky [ dluhopisů [ mají [ které sazbu [ úrokovou % [ 8 ] ] ] ] ] náhradu [ dluhopisů [ úrokem [ průměrným % [ 13.1 ] ] ] ] ]
-RU_TT:	использован [ Доход [ облигаций [ этих ] ставками [ купонными диапазоне [ % [ 8 ] ] ] ] <#Gen.ACT> заменить [ облигации [ ставкой [ средней процентной % [ 13.1 ] ] ] ] ]
+RU_TT:	использован [ <Доход> [ облигаций [ этих ] ставками [ купонными диапазоне [ % [ 8 ] ] ] ] #Gen.ACT заменить [ облигации [ ставкой [ средней процентной % [ 13.1 ] ] ] ] ]
 INFO_EN:	TYPE=en_cor
 INFO_CS:	0 MISS_ARG	V_TO->N
-INFO_RU:	ALIGN=#Gen
+INFO_RU:	ALIGN=ANTE
 
 ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1943.streex##9.EnglishT-wsj_1943-s9a1
 EN:	The TVA , in fact , decided to proceed with the bond offering {following} an agreement last week with the Financing Bank , which allows TVA to keep borrowing short term from the bank for two years after it goes to the public market .
@@ -5109,10 +5098,10 @@ CS:	Například u společnosti Bear Stearns Cos . dostalo 15 výkonných ředite
 RU:	В Bear Stearns Cos . , например , 15ти менеджерам , во главе с председателем Аланом Гринбергом по прозвищу Эйс , подняли зарплату до $ 35.9 млн . за 14-месячный период , истекший 30 июня , с $ 22.9 млн . за 12 месяцев , по 30 апреля 1988 года .
 EN_TT:	got [ example Cos. [ Stearns [ Bear ] ] officers [ 15 executive led [ #Cor.PAT Greenberg [ Chairman Alan Ace ] ] ] increase [ pay $ [ million [ 35.9 ] period [ 14-month ended [ <#Cor.PAT> June [ 30 ] ] ] ] $ [ million [ 22.9 ] months [ 12 ended [ #Cor.PAT April [ 30 1988 ] ] ] ] ] ]
 CS_TT:	dostalo [ Například společnosti [ #Forn.ID [ Bear Stearns Cos . ] ] ředitelů [ 15 výkonných vedených [ Greenbergem [ předsedou Alanem Acem ] ] ] platy [ zvýšené [ milionu [ 22.9 dolarů měsíců [ 12 končících [ dubna [ 30 1988 ] ] ] ] milionu [ 35.9 dolarů období [ 14měsíční [ 14měsíční ] končící [ června [ 30 ] ] ] ] ] ] ]
-RU_TT:	подняли [ #Forn.LOC [ Bear Stearns Cos ] например менеджерам [ 15ти главе [ Гринбергом [ председателем Аланом прозвищу [ Эйс ] ] ] ] #Gen.ACT зарплату $ [ млн [ 35.9 ] <период> [ 14-месячный истекший [ #PersPron.ACT июня [ 30 ] ] ] ] $ [ млн [ 22.9 ] месяцев [ 12 ] апреля [ 30 года [ 1988 ] ] ] ]
+RU_TT:	подняли [ #Forn.LOC [ Bear Stearns Cos ] например менеджерам [ 15ти главе [ Гринбергом [ председателем Аланом прозвищу [ Эйс ] ] ] ] #Gen.ACT зарплату $ [ млн [ 35.9 ] период [ 14-месячный истекший [ <#PersPron.ACT> июня [ 30 ] ] ] ] $ [ млн [ 22.9 ] месяцев [ 12 ] апреля [ 30 года [ 1988 ] ] ] ]
 INFO_EN:	TYPE=en_cor
 INFO_CS:	0 MISS_ARG	V_ED->A_ACT
-INFO_RU:	ALIGN=ANTE
+INFO_RU:	PERSPRON_UNEXPR
 
 ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1948.streex##2.EnglishT-wsj_1948-s2a5
 EN:	At Bear Stearns Cos. , for example , the 15 executive officers led by Chairman Alan `` Ace '' Greenberg got a pay increase to $ 35.9 million for the 14-month period ended June 30 from $ 22.9 million for the 12 months {ended} April 30 , 1988 .
@@ -5120,10 +5109,10 @@ CS:	Například u společnosti Bear Stearns Cos . dostalo 15 výkonných ředite
 RU:	В Bear Stearns Cos . , например , 15ти менеджерам , во главе с председателем Аланом Гринбергом по прозвищу Эйс , подняли зарплату до $ 35.9 млн . за 14-месячный период , истекший 30 июня , с $ 22.9 млн . за 12 месяцев , по 30 апреля 1988 года .
 EN_TT:	got [ example Cos. [ Stearns [ Bear ] ] officers [ 15 executive led [ #Cor.PAT Greenberg [ Chairman Alan Ace ] ] ] increase [ pay $ [ million [ 35.9 ] period [ 14-month ended [ #Cor.PAT June [ 30 ] ] ] ] $ [ million [ 22.9 ] months [ 12 ended [ <#Cor.PAT> April [ 30 1988 ] ] ] ] ] ]
 CS_TT:	dostalo [ Například společnosti [ #Forn.ID [ Bear Stearns Cos . ] ] ředitelů [ 15 výkonných vedených [ Greenbergem [ předsedou Alanem Acem ] ] ] platy [ zvýšené [ milionu [ 22.9 dolarů měsíců [ 12 končících [ dubna [ 30 1988 ] ] ] ] milionu [ 35.9 dolarů období [ 14měsíční [ 14měsíční ] končící [ června [ 30 ] ] ] ] ] ] ]
-RU_TT:	подняли [ #Forn.LOC [ Bear Stearns Cos ] например менеджерам [ 15ти главе [ Гринбергом [ председателем Аланом прозвищу [ Эйс ] ] ] ] #Gen.ACT зарплату $ [ млн [ 35.9 ] <период> [ 14-месячный истекший [ #PersPron.ACT июня [ 30 ] ] ] ] $ [ млн [ 22.9 ] месяцев [ 12 ] апреля [ 30 года [ 1988 ] ] ] ]
+RU_TT:	подняли [ #Forn.LOC [ Bear Stearns Cos ] например менеджерам [ 15ти главе [ Гринбергом [ председателем Аланом прозвищу [ Эйс ] ] ] ] #Gen.ACT зарплату $ [ млн [ 35.9 ] период [ 14-месячный истекший [ #PersPron.ACT июня [ 30 ] ] ] ] $ [ млн [ 22.9 ] месяцев [ 12 ] апреля [ 30 года [ 1988 ] ] ] ]
 INFO_EN:	TYPE=en_cor
 INFO_CS:	0 MISS_ARG	V_ED->A_ACT
-INFO_RU:	ALIGN=ANTE
+INFO_RU:	ALIGN=0
 
 ID: data/10.treex.pcedtr_gold_align_import.cs/wsj_1948.streex##5.EnglishT-wsj_1948-s5a1
 EN:	The increase is noted in the brokerage firm 's latest proxy statement {filed} with the Securities and Exchange Commission .

@@ -10,7 +10,8 @@ lpair=$3
 tokenize=$4
 
 # set $lpaircomma, $l1 and $l2
-parse_lpair $lpair
+# and $s1 and $s2 (TODO: this can possibly fight with parse_spair)
+parse_lpair_spair $lpair
 
 mkdir -p $outdir
 
@@ -25,10 +26,10 @@ if [[ "$inpath" == *.treex.gz ]]; then
     inre="$indir/(.*)\.treex.gz$"
 fi
 
-l1_scen=`$my_dir/../scenario/$l1.lemmatize.sh $tokenize`
-l2_scen=`$my_dir/../scenario/$l2.lemmatize.sh $tokenize`
+l1_scen=`$my_dir/../scenario/$l1.lemmatize.sh $tokenize "$aligns1"`
+l2_scen=`$my_dir/../scenario/$l2.lemmatize.sh $tokenize "$aligns2"`
 
-run_treex -Salign \
+run_treex \
     $reader skip_finished="{$inre}{$outre}" \
     $l1_scen \
     $l2_scen \

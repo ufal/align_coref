@@ -1,8 +1,12 @@
 #!/bin/bash
 
 tokenize=$1
+selector=$2
 
 scen="Util::SetGlobal language=en "
+if [ -n "$selector" ]; then
+    scen+="Util::SetGlobal selector=$selector "
+fi
 if [ "$tokenize" == "whitespace" ]; then
     scen+="W2A::TokenizeOnWhitespace "
 else

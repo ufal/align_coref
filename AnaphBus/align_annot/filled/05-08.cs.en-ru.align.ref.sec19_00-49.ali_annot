@@ -774,10 +774,10 @@ EN:	But as for safety , he says double-deck freeways built today with the heavil
 RU:	Но , если говорить о безопасности , он говорит , что двухуровневые шоссе , построенные сегодня , из сильно армированного бетона и с более толстыми столбами , в соответствии с требованиями , введенными после землетрясения Силмар , должны выдержать разрушительное землетрясение между 7.5 и 8 по шкале Рихтера .
 CS_TT:	tvrdí [ #PersPron.ACT bezpečnosti však odolat [ dálnice [ dvoupatrové postavené [ dnes a [ betonu [ vyztuženého [ silně ] ] sloupů [ silnějších vyžadují [ #Gen.ACT <které> zemětřesení [ okrese [ Sylmar ] ] ] ] ] ] ] zemětřesení [ katastrofálnímu síle [ stupňů [ až [ 7.5 8 ] škály [ Richterovy ] ] ] ] ] ]
 EN_TT:	says [ But safety he #Gen.ADDR withstand [ freeways [ double-deck built [ #Gen.ACT #Cor.PAT today and [ concrete [ reinforced [ heavily #Gen.ACT #Cor.PAT ] ] columns [ thicker ] required [ #Gen.ACT <#Cor.PAT> quake [ Sylmar ] ] ] ] ] temblor [ calamitous to [ 7.5 8 ] scale [ Richter ] ] ] ]
-RU_TT:	говорит [ Но говорить [ #Gen.ACT безопасности ] он должны [ шоссе [ двухуровневые построенные [ <#Cor.PAT> сегодня ] и [ бетона [ армированного [ сильно ] ] столбами [ толстыми [ более ] ] требованиями [ введенными [ #Cor.PAT землетрясения [ Силмар ] ] ] ] ] выдержать [ #Cor.ACT землетрясение [ разрушительное и [ 7.5 8 шкале [ Рихтера ] ] ] ] ] ]
+RU_TT:	говорит [ Но говорить [ #Gen.ACT безопасности ] он должны [ шоссе [ двухуровневые построенные [ #Cor.PAT сегодня ] и [ бетона [ армированного [ сильно ] ] столбами [ толстыми [ более ] ] требованиями [ введенными [ #Cor.PAT землетрясения [ Силмар ] ] ] ] ] выдержать [ #Cor.ACT землетрясение [ разрушительное и [ 7.5 8 шкале [ Рихтера ] ] ] ] ] ]
 INFO_CS:	RELPRON 
 INFO_EN:	ALIGN=#Cor	ED
-INFO_RU:	ALIGN=#Cor
+INFO_RU:	ALIGN=0
 
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1916.streex##17.T-wsj1916-001-p1s16a12
 CS:	Většina stavebních inženýrů však zkázu přisoudila nedostatečné výztuži sloupů , {které} podpíraly patra , a skutečnosti , že země pod dálnicí je především zavážka a při větším zemětřesení může být nestabilní nebo " tekutá " .
@@ -1984,10 +1984,10 @@ EN:	Whitbread of Britain {put} its spirits division up for sale , setting off a 
 RU:	Британская Whitbread выставила на продажу свой отдел алкоголя , {спровоцировав} драку между виноделами .
 CS_TT:	, [ Společnost [ Whitbread Británie ] dala [ #Gen.ADDR prodej divizi [ svoji lihovin ] ] rozpoutala [ <čímž> boj [ lihovary ] ] ]
 EN_TT:	<put> [ Whitbread [ Britain ] division [ its spirits ] sale setting [ #Cor.ACT scramble [ distillers ] ] ]
-RU_TT:	выставила [ Whitbread [ Британская ] продажу отдел [ свой алкоголя ] спровоцировав [ <#PersPron.ACT> драку [ виноделами ] ] ]
+RU_TT:	<выставила> [ Whitbread [ Британская ] продажу отдел [ свой алкоголя ] спровоцировав [ #PersPron.ACT драку [ виноделами ] ] ]
 INFO_CS:	RELPRON
 INFO_EN:	ALIGN=ANTE_V	COMPL
-INFO_RU:	ALIGN=#PersPron
+INFO_RU:	ALIGN=ANTE
 
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1931.streex##6.T-wsj1931-001-p1s5a21
 CS:	Woodland ze spořitelny Harris Trust poznamenal , že měna nadále projevuje odolnost vůči přívalu " pesimistických novinových titulků " , {které} vznikly za poslední týdny a zahrnují zvýšení sazeb v Evropě a v Japonsku , agresivní intervenci centrální banky , prudký pokles cen akcií na newyorské burze o 190 bodů , neočekávaně špatnou zprávu o americkém obchodu a kroku , který podnikla Federální rezervní banka , aby napomohla snížení sazeb ve Spojených státech .
@@ -7220,10 +7220,10 @@ EN:	The redemption then would be at 1.5 % of the total debt , increasing to 2.5 
 RU:	Затем {погашение} задолженности должно было составлять 1.5 % совокупного долга , увеличиться до 2.5 % в феврале 1991 года и до 3 % через 6 месяцев после .
 CS_TT:	a [ Umoření [ <#PersPron.ACT> dluhu ] bude [ % [ 1.5 částky [ celkové ] ] ] zvýší [ únoru [ 1991 ] % [ 2.5 ] ] zvýší [ intervalech [ následných měsíčních ] % [ 3 ] ] ]
 EN_TT:	be [ redemption then % [ 1.5 debt [ total ] ] increasing [ #Cor.ACT and [ % [ 2.5 February [ 1991 ] ] % [ 3 ] intervals [ six-month ] thereafter ] ] ]
-RU_TT:	и [ Затем должно [ <погашение> [ задолженности ] , [ #Cor.ACT составлять [ % [ 1.5 долга [ совокупного ] ] ] увеличиться [ % [ 2.5 ] феврале [ года [ 1991 ] ] ] #EmpVerb.PAT [ % [ 3 ] месяцев [ 6 ] ] ] ] ]
+RU_TT:	и [ Затем должно [ погашение [ задолженности ] , [ #Cor.ACT составлять [ % [ 1.5 долга [ совокупного ] ] ] увеличиться [ % [ 2.5 ] феврале [ года [ 1991 ] ] ] #EmpVerb.PAT [ % [ 3 ] месяцев [ 6 ] ] ] ] ]
 INFO_CS:	PERSPRON_UNEXPR
 INFO_EN:	ALIGN=0  MISS_ARG Nni/ti->N
-INFO_RU:	ALIGN=ANTE
+INFO_RU:	ALIGN=0
 
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1912.streex##7.T-wsj1912-001-p1s6a17
 CS:	{Obsaženo} bude i přepracované opatření pro převod krátkodobých pohledávek uvnitř sítě na dlouhodobé půjčky vně sítě .
@@ -11169,21 +11169,21 @@ EN:	It is inhumane to imply that a poor , unemployed woman can not receive immed
 RU:	Бесчеловечно считать , что малоимущая безработная женщина не может получить непосредственную помощь для своей семьи по разумной цене , потому что она должна {оберегать} меньше , чем богатая семья .
 CS_TT:	Je [ nehumánní [ #Benef.BEN ] naznačovat [ #Gen.ADDR #Cor.ACT nedostane [ #Neg.RHEM žena [ , [ chudá nezaměstnaná ] ] rodinu [ svoji ] pomoc [ okamžitou ceny [ rozumné ] ] platit [ <#PersPron.ACT> toho [ tolik [ platit [ #PersPron.PAT rodina [ bohatá ] ] ] ] #Neg.RHEM ] ] ] ]
 EN_TT:	is [ inhumane imply [ #Gen.ACT receive [ woman [ poor unemployed ] not relief [ immediate family [ her ] ] prices [ fair ] have [ <she> not much [ as ] protect [ #Cor.ACT #Cor.PAT ] family [ rich ] ] ] ] ]
-RU_TT:	#EmpVerb.PRED [ Бесчеловечно считать [ не может [ женщина [ малоимущая безработная ] получить [ #Cor.ACT помощь [ непосредственную семьи [ своей ] ] цене [ разумной ] ] должна [ она оберегать [ <#Cor.ACT> меньше [ семья [ богатая ] ] ] ] ] ] ]
+RU_TT:	#EmpVerb.PRED [ Бесчеловечно считать [ не может [ женщина [ малоимущая безработная ] получить [ #Cor.ACT помощь [ непосредственную семьи [ своей ] ] цене [ разумной ] ] должна [ <она> оберегать [ #Cor.ACT меньше [ семья [ богатая ] ] ] ] ] ] ]
 INFO_CS:	PERSPRON_UNEXPR 
 INFO_EN:	PERSPRON
-INFO_RU:	ALIGN=#Gen
+INFO_RU:	PERSPRON
 
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1935.streex##8.T-wsj1935-001-p1s7a36
 CS:	Je nehumánní naznačovat , že chudá , nezaměstnaná žena nedostane pro svoji rodinu okamžitou pomoc za rozumné ceny proto , že toho nemusí {platit} tolik , co bohatá rodina .
 EN:	It is inhumane to imply that a poor , unemployed woman can not receive immediate relief for her family at fair prices because {she} does not have as much to protect as a rich family .
 RU:	Бесчеловечно считать , что малоимущая безработная женщина не может получить непосредственную помощь для своей семьи по разумной цене , потому что она должна оберегать меньше , чем богатая семья .
 CS_TT:	Je [ nehumánní [ #Benef.BEN ] naznačovat [ #Gen.ADDR #Cor.ACT nedostane [ #Neg.RHEM žena [ , [ chudá nezaměstnaná ] ] rodinu [ svoji ] pomoc [ okamžitou ceny [ rozumné ] ] platit [ #PersPron.ACT toho [ tolik [ platit [ <#PersPron.PAT> rodina [ bohatá ] ] ] ] #Neg.RHEM ] ] ] ]
-EN_TT:	is [ inhumane imply [ #Gen.ACT receive [ woman [ poor unemployed ] not relief [ immediate family [ her ] ] prices [ fair ] have [ <she> not much [ as ] protect [ #Cor.ACT #Cor.PAT ] family [ rich ] ] ] ] ]
+EN_TT:	is [ inhumane imply [ #Gen.ACT receive [ woman [ poor unemployed ] not relief [ immediate family [ her ] ] prices [ fair ] have [ she not much [ as ] protect [ #Cor.ACT <#Cor.PAT> ] family [ rich ] ] ] ] ]
 RU_TT:	#EmpVerb.PRED [ Бесчеловечно считать [ не может [ женщина [ малоимущая безработная ] получить [ #Cor.ACT помощь [ непосредственную семьи [ своей ] ] цене [ разумной ] ] должна [ она оберегать [ #Cor.ACT меньше [ семья [ богатая ] ] ] ] ] ] ]
 INFO_CS:	PERSPRON_UNEXPR
-INFO_EN:	ALIGN=0  COMPAR	PERSPRON
-INFO_RU:	ALIGN=0 NoTectAnot 
+INFO_EN:	ALIGN=#Cor
+INFO_RU:	ALIGN=0 NoTectAnot
 
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1935.streex##12.T-wsj1935-001-p1s11a15
 CS:	Proč by měli {pracovat} společně s prospěcháři , kteří se ženou za rychlými zisky ?
@@ -11906,10 +11906,10 @@ EN:	After {enduring} three days of heavy selling , the beleaguered Nasdaq over-t
 RU:	После того , как в течение трех дней внебиржевой рынок блокированной NASDAQ переживал интенсивные продажи , он наконец снова подорожал , резко поднявшись после плодотворной торговли .
 CS_TT:	a [ trh [ Obléhaný mimoburzovní Nasdaq ] vzchopil [ konečně ] stoupl [ obchodování [ #Gen.PAT #Gen.ACT vydatném ] prudce přestál [ <#PersPron.ACT> dny [ tři prodávání [ #Gen.ADDR #Gen.ACT silného #Gen.PAT ] ] ] ] ]
 EN_TT:	rebounded [ enduring [ <#PersPron.ACT> days [ three selling [ heavy ] ] ] market [ beleaguered Nasdaq over-the-counter ] finally rising [ #Cor.ACT sharply trading [ hearty ] ] ]
-RU_TT:	подорожал [ того [ переживал [ дней [ трех ] рынок [ внебиржевой NASDAQ [ блокированной ] ] продажи [ интенсивные ] ] ] он наконец снова поднявшись [ резко <#PersPron.ACT> торговли [ плодотворной ] ] ]
+RU_TT:	подорожал [ того [ переживал [ дней [ трех ] <рынок> [ внебиржевой NASDAQ [ блокированной ] ] продажи [ интенсивные ] ] ] он наконец снова поднявшись [ резко #PersPron.ACT торговли [ плодотворной ] ] ]
 INFO_CS:	PERSPRON_UNEXPR 
 INFO_EN:	PERSPRON_UNEXPR 
-INFO_RU:	PERSPRON_UNEXPR 
+INFO_RU:	ALIGN=ANTE
 
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1937.streex##3.T-wsj1937-001-p1s2a17
 CS:	{Vzrostl} více než kompozitní index Newyorské burzy cenných papírů , který se zvýšil o 0.2 % .
@@ -12489,10 +12489,10 @@ EN:	The stock market reacted as Mr. Rahn did , crumbling as {it} absorbed the ne
 RU:	Фондовый рынок отреагировал так же , как и г-н Ран , падая по мере распространения новости о том , что от стратегии г-на Дармана отказались .
 CS_TT:	a [ Burza reagovala [ #PersPron.PAT stejně [ reagovala [ #PersPron.PAT Rahn ] ] ] zhroutila [ obdržení [ <#PersPron.ACT> zprávy [ opuštěna [ #PersPron.ACT strategie [ Darmanova ] ] ] ] ] ]
 EN_TT:	reacted [ market [ stock ] #Gen.PAT #Equal.MANN [ #VerbPron.CPR [ Rahn [ Mr. ] ] ] crumbling [ #Cor.ACT absorbed [ <it> news [ abandoned [ strategy [ Darman [ Mr. ] ] #Gen.ACT ] ] ] ] ]
-RU_TT:	отреагировал [ рынок [ Фондовый ] так [ же и г-н [ Ран ] ] падая [ <#PersPron.ACT> распространения [ новости том [ отказались [ стратегии [ г-на [ Дармана ] ] #PersPron.ACT ] ] ] ] ]
+RU_TT:	отреагировал [ <рынок> [ Фондовый ] так [ же и г-н [ Ран ] ] падая [ #PersPron.ACT распространения [ новости том [ отказались [ стратегии [ г-на [ Дармана ] ] #PersPron.ACT ] ] ] ] ]
 INFO_CS:	PERSPRON_UNEXPR 
 INFO_EN:	PERSPRON
-INFO_RU:	PERSPRON_UNEXPR 
+INFO_RU:	ALIGN=ANTE
 
 ID: data/09.treex.pcedtr_gold_align.to_ttree/wsj_1939.streex##17.T-wsj1939-001-p1s16a20
 CS:	Burza reagovala stejně jako Rahn a při obdržení zprávy , že Darmanova strategie byla {opuštěna} , se zhroutila .
